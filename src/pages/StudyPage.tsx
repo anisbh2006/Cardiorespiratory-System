@@ -1,0 +1,175 @@
+import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
+import { Bookmark, Clock, GraduationCap, Search, Trash2, TrendingUp } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import { Progress } from '@/components/ui/progress'
+import { disciplines, getDiscipline } from '@/data/disciplines'
+import { getDisciplineIcon } from '@/data/icons'
+import { useStudy } from '@/features/study/StudyContext'
+import { useCourseProgress, useDisciplineProgress } from '@/features/study/useProgress'
+
+function DisciplineProgressRow({ slug }: { slug: string }) {
+  const discipline = getDiscipline(slug)!
+  const progress = useDisciplineProgress(discipline)
+  const Icon = getDisciplineIcon(discipline.icon)
+
+  return (
+    <Link
+      to={`/discipline/${discipline.slug}`}
+      className="flex items-center gap-3 rounded-lg border border-border bg-surface p-3 transition-colors hover:border-primary/40"
+    >
+      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-primary/10 text-primary">
+        <Icon className="h-4 w-4" />
+      </span>
+      <span className="min-w-0 flex-1">
+        <span className="block truncate text-sm font-medium text-foreground">
+          {discipline.titleFr}
+        </span>
+        <Progress value={progress} className="mt-1.5 h-1" />
+      </span>
+      <span className="shrink-0 font-mono text-xs text-primary">{progress}%</span>
+    </Link>
+  )
+}
+
+export default function StudyPage() {
+  const { recentlyViewed, bookmarks, completedLessons, searchHistory, clearSearchHistory } =
+    useStudy()
+  const course = useCourseProgress()
+
+  return (
+    <div className="pt-14">
+      <header className="border-b border-border">
+        <div className="mx-auto max-w-5xl px-6 py-10">
+          <span className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.25em] text-primary">
+            <GraduationCap className="h-3.5 w-3.5" /> Mon étude
+          </span>
+          <h1 className="mt-2 font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+            Tableau de bord d'apprentissage
+          </h1>
+
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="mt-6 rounded-xl border border-border bg-surface p-5"
+          >
+            <div className="flex items-center justify-between">
+              <span className="flex items-center gap-2 text-sm font-medium text-foreground">
+                <TrendingUp className="h-4 w-4 text-primary" />
+                Progression globale du cours
+              </span>
+              <span className="font-mono text-sm text-primary">{course.percent}%</span>
+            </div>
+            <Progress value={course.percent} className="mt-3 h-2" />
+            <p className="mt-2 text-xs text-faint">
+              {course.completed} leçon(s) terminée(s){course.total > 0 && ` sur ${course.total}`} —
+              la progression s'enregistrera automatiquement à mesure que le contenu du cours sera
+              intégré. Données conservées localement (localStorage).
+            </p>
+          </motion.div>
+        </div>
+      </header>
+
+      <main className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-6 py-10 md:grid-cols-2">
+        {/* Continue learning */}
+        <section>
+          <h2 className="mb-3 flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.2em] text-faint">
+            <Clock className="h-3.5 w-3.5" /> Reprendre l'étude
+          </h2>
+          <div className="space-y-2">
+            {recentlyViewed.length === 0 ? (
+              <p className="rounded-lg border border-dashed border-border-strong p-4 text-xs text-faint">
+                Aucune leçon consultée pour le moment. Les leçons récemment ouvertes
+                apparaîtront ici.
+              </p>
+            ) : (
+              recentlyViewed.slice(0, 6).map((r) => (
+                <Link
+                  key={r.lessonId}
+                  to={`/discipline/${r.disciplineSlug}`}
+                  className="block rounded-lg border border-border bg-surface p-3 text-sm text-foreground transition-colors hover:border-primary/40"
+                >
+                  {r.title}
+                  <span className="mt-0.5 block text-[11px] text-faint">
+                    {getDiscipline(r.disciplineSlug)?.titleFr} ·{' '}
+                    {new Date(r.at).toLocaleDateString('fr-FR')}
+                  </span>
+                </Link>
+              ))
+            )}
+          </div>
+        </section>
+
+        {/* Bookmarks */}
+        <section>
+          <h2 className="mb-3 flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.2em] text-faint">
+            <Bookmark className="h-3.5 w-3.5" /> Favoris ({bookmarks.length})
+          </h2>
+          <div className="space-y-2">
+            {bookmarks.length === 0 ? (
+              <p className="rounded-lg border border-dashed border-border-strong p-4 text-xs text-faint">
+                Aucun favori. Marquez des leçons comme favorites depuis leur page pour les
+                retrouver ici.
+              </p>
+            ) : (
+              bookmarks.map((id) => (
+                <div
+                  key={id}
+                  className="rounded-lg border border-border bg-surface p-3 font-mono text-xs text-muted"
+                >
+                  {id}
+                </div>
+              ))
+            )}
+          </div>
+        </section>
+
+        {/* Discipline progress */}
+        <section className="md:col-span-2">
+          <h2 className="mb-3 font-mono text-[11px] uppercase tracking-[0.2em] text-faint">
+            Progression par discipline
+          </h2>
+          <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+            {disciplines.map((d) => (
+              <DisciplineProgressRow key={d.id} slug={d.slug} />
+            ))}
+          </div>
+        </section>
+
+        {/* Search history */}
+        <section className="md:col-span-2">
+          <h2 className="mb-3 flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.2em] text-faint">
+            <Search className="h-3.5 w-3.5" /> Historique de recherche
+          </h2>
+          {searchHistory.length === 0 ? (
+            <p className="rounded-lg border border-dashed border-border-strong p-4 text-xs text-faint">
+              Aucune recherche enregistrée.
+            </p>
+          ) : (
+            <div className="flex flex-wrap items-center gap-2">
+              {searchHistory.map((q) => (
+                <Link
+                  key={q}
+                  to={`/search?q=${encodeURIComponent(q)}`}
+                  className="rounded-full border border-border bg-surface px-3 py-1.5 text-xs text-muted transition-colors hover:border-primary/40 hover:text-foreground"
+                >
+                  {q}
+                </Link>
+              ))}
+              <Button variant="ghost" size="sm" onClick={clearSearchHistory} className="gap-1.5">
+                <Trash2 className="h-3 w-3" /> Effacer
+              </Button>
+            </div>
+          )}
+        </section>
+
+        <section className="md:col-span-2">
+          <p className="text-xs text-faint">
+            Leçons terminées : {completedLessons.length} · Progression conservée localement dans
+            votre navigateur (aucun backend, aucune donnée envoyée).
+          </p>
+        </section>
+      </main>
+    </div>
+  )
+}
