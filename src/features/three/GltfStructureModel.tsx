@@ -14,7 +14,7 @@ interface GltfStructureModelProps {
  * Loads a supplied GLTF/GLB anatomy model.
  *
  * Convention: each anatomical structure is a named mesh whose name matches
- * (or is mapped to) a structure id from the course data layer. Materials
+ * (or is mapped to) a structure id from the lecturee data layer. Materials
  * are cloned so highlighting a structure does not affect its siblings.
  */
 export function GltfStructureModel({

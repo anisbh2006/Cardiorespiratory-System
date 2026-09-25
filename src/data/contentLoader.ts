@@ -1,5 +1,5 @@
 /**
- * Bridge between the generated course content (src/content/**) and the
+ * Bridge between the generated lecturee content (src/content/**) and the
  * typed data layer consumed by the UI.
  *
  * The chapter manifest is imported statically (it is small: titles + section
@@ -8,7 +8,7 @@
  * lazily through `import.meta.glob`, so each chapter becomes its own code-split
  * chunk fetched only when a lesson is opened.
  *
- * All content originates verbatim from the supplied course files — this module
+ * All content originates verbatim from the supplied lecturee files — this module
  * only reshapes it, it never rewrites or invents medical information.
  */
 import type { ContentBlock, Topic } from './types'
@@ -18,7 +18,7 @@ export interface ManifestEntry {
   discipline: string
   chapterId: string
   number: string
-  kind: 'cours' | 'td' | string
+  kind: 'lecture' | 'td' | string
   title: string
   file: string
   pages: number
@@ -122,7 +122,7 @@ export function buildTopics(pages: RawPage[]): Topic[] {
       topics.push({ id: `t-${idx++}`, title, blocks })
     }
     return dedupeImages(
-      topics.length ? topics : [{ id: 't-0', title: 'Contenu du cours', blocks: [] }]
+      topics.length ? topics : [{ id: 't-0', title: 'Contenu the lesson', blocks: [] }]
     )
   }
 

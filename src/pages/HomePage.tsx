@@ -5,7 +5,7 @@ import { ArrowRight, BookOpen, Clock, Layers, Move3d, PlayCircle } from 'lucide-
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import { Skeleton } from '@/components/ui/skeleton'
-import { courseMeta, disciplines, countLessons, getDiscipline } from '@/data/disciplines'
+import { lectureeMeta, disciplines, countLessons, getDiscipline } from '@/data/disciplines'
 import { lessonRoute } from '@/data/contentLoader'
 import { getDisciplineIcon } from '@/data/icons'
 import { useStudy } from '@/features/study/StudyContext'
@@ -56,7 +56,7 @@ function DisciplineCard({ index, slug }: { index: number; slug: string }) {
               {discipline.chapters.length} chapitre{discipline.chapters.length > 1 ? 's' : ''}
               <span className="text-faint">·</span>
               <BookOpen className="h-3 w-3 text-faint" />
-              {lessons} leçon{lessons > 1 ? 's' : ''}
+              {lessons} lesson{lessons > 1 ? 's' : ''}
             </span>
             <span className="font-mono text-primary">{progress}%</span>
           </div>
@@ -64,7 +64,7 @@ function DisciplineCard({ index, slug }: { index: number; slug: string }) {
         </div>
 
         <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-primary/80 transition-colors duration-300 group-hover:text-primary">
-          Ouvrir la discipline
+          Open discipline
           <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-0.5" />
         </span>
       </Link>
@@ -74,12 +74,12 @@ function DisciplineCard({ index, slug }: { index: number; slug: string }) {
 
 /**
  * "Continue where you left off" card. Only rendered once the student has opened
- * at least one lesson; deep-links straight back into it and shows overall course
+ * at least one lesson; deep-links straight back into it and shows overall lecturee
  * progress. Purely derived from locally-stored study state — no content invented.
  */
 function ResumeCard() {
   const { recentlyViewed } = useStudy()
-  const course = useCourseProgress()
+  const lecturee = useCourseProgress()
   if (recentlyViewed.length === 0) return null
 
   const last = recentlyViewed[0]
@@ -102,7 +102,7 @@ function ResumeCard() {
         </span>
         <span className="min-w-0 flex-1">
           <span className="flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
-            <Clock className="h-3 w-3" /> Reprendre l'étude
+            <Clock className="h-3 w-3" /> Resume studying
           </span>
           <span className="mt-1 block truncate text-sm font-medium text-foreground">
             {last.title}
@@ -111,8 +111,8 @@ function ResumeCard() {
             <span className="block truncate text-[11px] text-muted">{disciplineTitle}</span>
           )}
           <span className="mt-2 flex items-center gap-2">
-            <Progress value={course.percent} className="h-1 flex-1" />
-            <span className="shrink-0 font-mono text-[10px] text-primary">{course.percent}%</span>
+            <Progress value={lecturee.percent} className="h-1 flex-1" />
+            <span className="shrink-0 font-mono text-[10px] text-primary">{lecturee.percent}%</span>
           </span>
         </span>
         <ArrowRight className="h-4 w-4 shrink-0 text-faint transition-transform duration-300 group-hover:translate-x-0.5 group-hover:text-primary" />
@@ -140,7 +140,7 @@ export default function HomePage() {
           >
             <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/8 px-3.5 py-1.5 text-xs font-medium text-primary">
               <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-primary" />
-              {courseMeta.code}
+              {lectureeMeta.code}
             </div>
 
             <h1 className="mt-6 font-serif text-5xl font-bold leading-[1.02] tracking-tight text-gradient sm:text-6xl xl:text-7xl">
@@ -152,9 +152,9 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-6 max-w-md text-base leading-relaxed text-muted">
-              UEI / VEI 01 — Medical Student Learning Platform. Système cardiorespiratoire et
-              organes hématopoïétiques : anatomie, histologie, biophysique et physiologie dans
-              un environnement d'apprentissage interactif et cinématique.
+              UEI / VEI 01 — Medical Student Learning Platform. Cardiorespiratory system and
+              organs hematopoietic : anatomy, histology, biophysics, and physiology in
+              an interactive, cinematic learning environment.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -217,11 +217,11 @@ export default function HomePage() {
             Les six disciplines
           </span>
           <h2 className="mt-3 font-serif text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-            Un parcours médical complet
+            Un parlecture médical complet
           </h2>
           <p className="mt-3 max-w-xl text-sm leading-relaxed text-muted">
             Chaque discipline sera structurée en chapitres et leçons à partir du matériel de
-            cours fourni — texte, images, diagrammes et documents médicaux.
+            lecture fourni — texte, images, diagrammes et documents médicaux.
           </p>
         </motion.div>
 

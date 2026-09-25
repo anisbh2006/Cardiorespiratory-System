@@ -59,18 +59,18 @@ export function GasExchangeViz() {
 
   return (
     <VizFrame
-      title="Échanges gazeux alvéolocapillaires"
-      subtitle="Diffusion de O₂ et CO₂ selon le gradient de pression partielle ; équilibre atteint en 0,3–0,4 s"
+      title="Alveolar-capillary gas exchange"
+      subtitle="Diffusion of O2 and CO2 along the partial-pressure gradient ; equilibrium reached en 0,3–0,4 s"
       icon={<RefreshCw className="h-4 w-4" />}
       system="respiratory"
       clock={clock}
       cycleSeconds={G.EQUILIBRATION_SECONDS}
-      readout={`transit capillaire t = ${(phase * G.EQUILIBRATION_SECONDS * 1000).toFixed(0)} ms · sang PO₂ ${bloodPo2.toFixed(0)} · PCO₂ ${bloodPco2.toFixed(1)} mmHg`}
+      readout={`transit capillaire t = ${(phase * G.EQUILIBRATION_SECONDS * 1000).toFixed(0)} ms · blood PO₂ ${bloodPo2.toFixed(0)} · PCO₂ ${bloodPco2.toFixed(1)} mmHg`}
       legend={[
-        { color: '#7dd3fc', label: 'O₂ (alvéole → sang)' },
-        { color: '#a1a1aa', label: 'CO₂ (sang → alvéole)' },
-        { color: '#e0243a', label: 'PO₂ sanguine' },
-        { color: '#60a5fa', label: 'PCO₂ sanguine' },
+        { color: '#7dd3fc', label: 'O₂ (alveolus → blood)' },
+        { color: '#a1a1aa', label: 'CO₂ (blood → alveolus)' },
+        { color: '#e0243a', label: 'PO₂ blooduine' },
+        { color: '#60a5fa', label: 'PCO₂ blooduine' },
       ]}
       sources={G.SOURCES}
       lesson={G.LESSON}
@@ -84,26 +84,26 @@ export function GasExchangeViz() {
                 <dd className="font-mono text-foreground">105 / 40</dd>
               </div>
               <div className="flex items-baseline justify-between">
-                <dt className="text-muted">Sang PO₂ / PCO₂</dt>
+                <dt className="text-muted">Blood PO₂ / PCO₂</dt>
                 <dd className="font-mono text-primary">{bloodPo2.toFixed(0)} / {bloodPco2.toFixed(1)}</dd>
               </div>
               <div className="flex items-baseline justify-between border-t border-border/60 pt-1.5">
-                <dt className="text-muted">ΔP O₂ (alvéole−sang)</dt>
+                <dt className="text-muted">ΔP O₂ (alveolus−blood)</dt>
                 <dd className="font-mono text-success">{(G.ALVEOLAR_PO2 - bloodPo2).toFixed(0)} mmHg</dd>
               </div>
               <div className="flex items-baseline justify-between">
-                <dt className="text-muted">ΔP CO₂ (sang−alvéole)</dt>
+                <dt className="text-muted">ΔP CO₂ (blood−alveolus)</dt>
                 <dd className="font-mono text-info">{(bloodPco2 - G.ALVEOLAR_PCO2).toFixed(1)} mmHg</dd>
               </div>
             </dl>
             <div className="mt-2 rounded-md bg-surface/70 p-2 text-[10px] leading-snug text-faint">
-              Un gaz diffuse toujours d’une zone de pression partielle élevée vers une zone de
-              pression partielle basse (p. 8).
+              Un gaz diffuse toujours d’une zone de partial pressure élevée vers une zone de
+              partial pressure basse (p. 8).
             </div>
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Pressions partielles (mmHg)</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Pressures partielles (mmHg)</div>
             <table className="mt-2 w-full text-[10.5px]">
               <thead>
                 <tr className="text-faint">
@@ -140,7 +140,7 @@ export function GasExchangeViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs du cours</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs the lesson</div>
             <dl className="mt-2 space-y-1.5">
               {G.KEY_FACTS.map((f) => (
                 <div key={f.label} className="flex items-baseline justify-between gap-2 text-[11px]">
@@ -153,7 +153,7 @@ export function GasExchangeViz() {
         </>
       }
     >
-      <svg viewBox="0 0 720 300" className="h-auto w-full select-none" role="img" aria-label="Échanges gazeux alvéolocapillaires animés">
+      <svg viewBox="0 0 720 300" className="h-auto w-full select-none" role="img" aria-label="Alveolar-capillary gas exchange animés">
         <defs>
           <marker id="ge-o2" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
             <path d="M0,0 L6,3 L0,6 Z" fill="#7dd3fc" />
@@ -218,8 +218,8 @@ export function GasExchangeViz() {
           <ellipse cx={rbcX} cy={rbcY} rx={9} ry={6.5} fill={bloodColor} stroke="#ffd9de" strokeWidth={1} />
           <ellipse cx={rbcX} cy={rbcY} rx={3.5} ry={2.4} fill="#000" opacity={0.25} />
 
-          <text x={CAP_X0} y={CAP_Y1 + 16} fill="#60a5fa" fontSize={9} fontWeight={600}>Sang veineux · PO₂ 40 · PCO₂ 46</text>
-          <text x={CAP_X1} y={CAP_Y1 + 16} textAnchor="end" fill="#e0243a" fontSize={9} fontWeight={600}>Sang artériel · PO₂ 105 · PCO₂ 40</text>
+          <text x={CAP_X0} y={CAP_Y1 + 16} fill="#60a5fa" fontSize={9} fontWeight={600}>Blood veinux · PO₂ 40 · PCO₂ 46</text>
+          <text x={CAP_X1} y={CAP_Y1 + 16} textAnchor="end" fill="#e0243a" fontSize={9} fontWeight={600}>Blood artériel · PO₂ 105 · PCO₂ 40</text>
           <text x={CAP_X0} y={CAP_Y0 - 6} fill="#8b8b96" fontSize={8.5}>capillaire pulmonaire →</text>
         </g>
 

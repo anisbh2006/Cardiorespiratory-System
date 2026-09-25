@@ -56,7 +56,7 @@ function excerpt(text: string, max = 140): string {
   return clean.length > max ? `${clean.slice(0, max)}…` : clean
 }
 
-/** Index built once from the course data layer. */
+/** Index built once from the lecturee data layer. */
 export const searchIndex: SearchEntry[] = (() => {
   const entries: SearchEntry[] = []
 
@@ -112,7 +112,7 @@ export const searchIndex: SearchEntry[] = (() => {
       }
 
       // Section headings extracted from the source files (manifest), so search
-      // reaches real course concepts without loading every chapter's blocks.
+      // reaches real lecturee concepts without loading every chapter's blocks.
       const headings = topicsByChapter.get(lesson.id) ?? []
       headings.forEach((heading, i) => {
         entries.push({
@@ -136,7 +136,7 @@ export const searchIndex: SearchEntry[] = (() => {
       type: 'structure',
       title: s.nameFr,
       disciplineSlug: s.system === 'cardiovascular' ? 'anatomie-cardiovasculaire' : 'anatomie-respiratoire',
-      disciplineTitle: s.system === 'cardiovascular' ? 'Anatomie cardiovasculaire' : 'Anatomie respiratoire',
+      disciplineTitle: s.system === 'cardiovascular' ? 'Cardiovascular Anatomy' : 'Respiratory Anatomy',
       preview: s.nameEn ? `${s.nameEn}${s.definition ? ` — ${excerpt(s.definition)}` : ''}` : (s.definition ? excerpt(s.definition) : ''),
       haystack: `${s.nameFr} ${s.nameEn ?? ''} ${s.definition ?? ''} ${s.function ?? ''}`.toLowerCase(),
     })

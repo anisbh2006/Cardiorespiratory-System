@@ -3,13 +3,13 @@ import type { LessonRef, SourceRef } from '../provenance'
 
 /**
  * Cardiac-cycle data — every number, phase, valve event and waveform landmark
- * is taken from the supplied course chapter "Le cycle cardiaque" (pc-2).
+ * is taken from the supplied lecturee chapter "The Cardiac Cycle" (pc-2).
  *
  * Schematic note: the *shape* of each curve is a drawing of the sequence the
  * chapter describes; the *landmarks* (0.8 s cycle, 0.3 s systole / 0.5 s
  * diastole, EDV 135 / ESV 65 / SV 70 ml, systemic 120/80 mmHg, 80 % of filling
  * before atrial systole, the P/QRS/T–event order, B1/B2, dicrotic notch) are
- * the course's own. Sub-phase widths are proportional, not separately cited.
+ * the lecturee's own. Sub-phase widths are proportional, not separately cited.
  */
 
 export const CYCLE_SECONDS = 0.8 // pc-2 p.3
@@ -171,22 +171,22 @@ export interface CycleEvent {
 /** Landmark events, positioned on the timeline (labels verbatim from pc-2). */
 export const EVENTS: CycleEvent[] = [
   { at: 0.0, label: 'B1 · fermeture des valves AV', kind: 'sound' },
-  { at: 0.012, label: 'QRS · dépolarisation ventriculaire', kind: 'ecg' },
+  { at: 0.012, label: 'QRS · depolarization ventriculaire', kind: 'ecg' },
   { at: B.isoContractionEnd, label: 'Ouverture de la valve aortique', kind: 'valve' },
   { at: B.systoleEnd, label: 'B2 · fermeture aortique/pulmonaire', kind: 'sound' },
   { at: 0.392, label: 'Incisure dicrote', kind: 'pressure' },
-  { at: 0.375, label: 'T · repolarisation ventriculaire', kind: 'ecg' },
+  { at: 0.375, label: 'T · repolarization ventriculaire', kind: 'ecg' },
   { at: B.fillingStart, label: 'Ouverture de la valve AV · remplissage', kind: 'valve' },
-  { at: 0.895, label: 'P · dépolarisation atriale (systole atriale)', kind: 'ecg' },
+  { at: 0.895, label: 'P · depolarization atriale (systole atriale)', kind: 'ecg' },
 ]
 
 export const KEY_FACTS: { label: string; value: string; page: number }[] = [
-  { label: 'Fréquence cardiaque', value: '72 batt/min', page: 3 },
+  { label: 'Frequency cardiaque', value: '72 batt/min', page: 3 },
   { label: 'Durée du cycle', value: '0,8 s', page: 3 },
   { label: 'Systole / Diastole', value: '0,3 s / 0,5 s', page: 3 },
   { label: 'Vol. télédiastolique (EDV)', value: '135 ml', page: 16 },
   { label: 'Vol. télésystolique (ESV)', value: '65 ml', page: 16 },
-  { label: "Vol. d'éjection (VES)", value: '70 ml = 135 − 65', page: 16 },
+  { label: "Vol. d'ejection (VES)", value: '70 ml = 135 − 65', page: 16 },
   { label: 'Remplissage avant systole atriale', value: '80 %', page: 9 },
 ]
 

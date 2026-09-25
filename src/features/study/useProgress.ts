@@ -15,7 +15,7 @@ export function useDisciplineProgress(discipline: Discipline | undefined) {
   }, [discipline, completedLessons])
 }
 
-/** Overall course progress across all six disciplines. */
+/** Overall lecturee progress across all six disciplines. */
 export function useCourseProgress() {
   const { completedLessons } = useStudy()
   return useMemo(() => {

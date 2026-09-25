@@ -30,7 +30,7 @@ export function SlideFilmstrip({ slides, activeId, onSelect, onPrev, onNext }: S
       type="button"
       onClick={onClick}
       disabled={disabled}
-      aria-label={dir === 'l' ? 'Précédent' : 'Suivant'}
+      aria-label={dir === 'l' ? 'Previous' : 'Next'}
       className={cn(
         'flex h-10 w-8 shrink-0 items-center justify-center rounded-md border border-border text-muted transition-colors',
         disabled ? 'opacity-30' : 'hover:bg-elevated hover:text-foreground cursor-pointer'

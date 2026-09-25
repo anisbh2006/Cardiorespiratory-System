@@ -10,10 +10,10 @@ export default function NotFoundPage() {
       </div>
       <h1 className="mt-6 font-serif text-5xl font-bold tracking-tight text-foreground">404</h1>
       <p className="mt-3 max-w-sm text-sm leading-relaxed text-muted">
-        Cette page est introuvable — comme une veine pulmonaire dans un modèle 3D non chargé.
+        This page cannot be found, like a pulmonary vein in an unloaded 3D model.
       </p>
       <Link to="/" className="mt-8">
-        <Button size="lg">Retour à l'accueil</Button>
+        <Button size="lg">Back to home</Button>
       </Link>
     </div>
   )

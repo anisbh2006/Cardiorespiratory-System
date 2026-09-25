@@ -12,7 +12,7 @@ export function AppLayout() {
         href="#contenu"
         className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:border focus:border-primary/50 focus:bg-surface focus:px-4 focus:py-2 focus:text-sm focus:text-foreground"
       >
-        Aller au contenu
+        Skip to content
       </a>
       <TopBar />
       <AnimatePresence mode="wait">
@@ -37,7 +37,7 @@ export function AppLayout() {
               Cardiorespiratory System and Hematopoietic Organs
             </span>
           </span>
-          <span className="text-faint">Plateforme d'apprentissage pour étudiants en médecine</span>
+          <span className="text-faint">Learning platform for medical students</span>
         </div>
       </footer>
     </div>

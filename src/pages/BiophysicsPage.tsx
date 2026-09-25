@@ -7,21 +7,21 @@ import { Progress } from '@/components/ui/progress'
 const capabilities = [
   {
     icon: Sigma,
-    title: 'Équations',
+    title: 'Equations',
     description:
-      'Présentation typée des équations du cours avec variables et significations, rendues via le bloc « Équation ».',
+      'Présentation typée des équations the lesson avec variables et meanings, rendues via le bloc « Equation ».',
   },
   {
     icon: LineChart,
     title: 'Diagrammes interactifs',
     description:
-      'Graphiques et diagrammes scientifiques issus du matériel fourni, intégrés au fur et à mesure.',
+      'Scientific graphs and diagrams from the supplied material, integrated progressively.',
   },
   {
     icon: Calculator,
-    title: 'Explications pas à pas',
+    title: 'Step-by-step explanations',
     description:
-      'Sections dépliables pour les démonstrations et raisonnements étape par étape du cours.',
+      'Sections dépliables pour les démonstrations et raisonnements étape par étape the lesson.',
   },
 ]
 
@@ -37,15 +37,15 @@ export default function BiophysicsPage() {
         </div>
         <div className="relative mx-auto max-w-7xl px-6 py-10">
           <span className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.25em] text-primary">
-            <Atom className="h-3.5 w-3.5" /> Biophysique
+            <Atom className="h-3.5 w-3.5" /> Biophysics
           </span>
           <h1 className="mt-2 font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Atelier de biophysique
+            Biophysics workshop
           </h1>
           <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
             Interface scientifique dédiée : équations, variables, diagrammes interactifs et
-            explications étape par étape — construite exclusivement à partir du contenu de
-            biophysique du cours fourni.
+            explications étape par étape — construite exclusively à partir du contenu de
+            biophysique the lesson fourni.
           </p>
           {discipline && (
             <div className="mt-4 max-w-xs">
@@ -74,7 +74,7 @@ export default function BiophysicsPage() {
 
         <AwaitingContent
           title="Contenu de biophysique en attente d'intégration"
-          description="Les équations, variables, illustrations scientifiques, graphiques et explications pas à pas seront intégrés ici exactement tels qu'ils figurent dans le matériel de cours fourni. Aucune donnée physique ou médicale n'est inventée."
+          description="Les équations, variables, illustrations scientifiques, graphiques et explications pas à pas seront intégrés ici exactement tels qu'ils figurent dans le matériel de lecture fourni. Aucune donnée physique ou médicale n'est inventée."
           className="py-16"
         />
       </main>

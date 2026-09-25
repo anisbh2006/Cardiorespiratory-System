@@ -21,7 +21,7 @@ interface TransportControlsProps {
 /**
  * Shared transport for every visualization: PLAY / PAUSE / RESET / SLOW MOTION
  * plus speed presets and a scrubbable timeline. The timeline maps to the real
- * cycle duration so the time readout is in the same seconds the course states.
+ * cycle duration so the time readout is in the same seconds the lecturee states.
  */
 export function TransportControls({
   clock,
@@ -50,7 +50,7 @@ export function TransportControls({
 
         <button
           onClick={clock.reset}
-          title="Réinitialiser"
+          title="Reset"
           className="inline-flex h-9 items-center gap-2 rounded-md border border-border-strong bg-elevated px-3 text-sm font-medium text-foreground transition-colors hover:bg-overlay cursor-pointer"
         >
           <RotateCcw className="h-4 w-4" />
@@ -59,7 +59,7 @@ export function TransportControls({
 
         <button
           onClick={clock.toggleSlowMo}
-          title="Ralenti (×0.25)"
+          title="Slow motion (×0.25)"
           className={cn(
             'inline-flex h-9 items-center gap-2 rounded-md border px-3 text-sm font-medium transition-colors cursor-pointer',
             slowMo
@@ -68,7 +68,7 @@ export function TransportControls({
           )}
         >
           <Timer className="h-4 w-4" />
-          Ralenti
+          Slow motion
         </button>
 
         <div className="ml-auto flex items-center gap-1 rounded-md border border-border bg-surface p-1">

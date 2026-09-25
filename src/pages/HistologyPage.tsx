@@ -66,8 +66,8 @@ export default function HistologyPage() {
     return (
       <div className="pt-14">
         <AwaitingContent
-          title="Lames histologiques en attente d'intégration"
-          description="Les images histologiques fournies (avec leurs colorations, légendes et annotations éventuelles) seront affichées ici dans le visualiseur haute résolution. Aucune structure histologique n'est générée artificiellement."
+          title="Histology slides awaiting integration"
+          description="The supplied histology images (avec leurs colorations, légendes et annotations éventuelles) seront affichées ici dans le visualiseur haute résolution. No histology structure is generated artificially."
           className="py-20"
         />
       </div>

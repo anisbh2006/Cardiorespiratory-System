@@ -3,14 +3,14 @@ import type { LessonRef, SourceRef } from '../provenance'
 
 /**
  * Ventilatory-mechanics data — every number, pressure, muscle and sequence is
- * taken verbatim from "Mécanique ventilatoire" (pr-9) and the spirometry TD
+ * taken verbatim from "Ventilatory mechanics" (pr-9) and the spirometry TD
  * (pr-td02).
  *
  * Schematic note: the *shapes* of the Palv / flow / volume curves are drawings of
- * the sequence pr-9 describes; the *landmarks* are the course's own — cycle 4–5 s
+ * the sequence pr-9 describes; the *landmarks* are the lecturee's own — cycle 4–5 s
  * (12–15/min), Patm 760 mmHg, Ppl 756 mmHg abs / −4 mmHg rel / −5→−8 cmH2O,
  * Ptp = Palv − Ppl = 4 mmHg, VT 500 ml, CRF 2400 ml, Boyle-Mariotte. Palv and
- * flow *magnitudes* are not given numerically by the course (only their sign and
+ * flow *magnitudes* are not given numerically by the lecturee (only their sign and
  * the rule "flow until Palv = Patm"), so they are drawn schematically.
  */
 
@@ -96,37 +96,37 @@ export interface MuscleGroup {
   page: number
 }
 export const MUSCLES: MuscleGroup[] = [
-  { phase: 'inspiration', mode: 'calm', active: true, muscles: 'Diaphragme + intercostaux externes', detail: 'Phénomène actif qui demande de l’énergie : la contraction augmente le volume de la cage thoracique.', page: 6 },
-  { phase: 'inspiration', mode: 'forced', active: true, muscles: '+ muscles accessoires du cou', detail: 'Inspiration plus profonde : contraction plus forte du diaphragme et des intercostaux externes + accessoires du cou qui tirent le sternum et les 2 premières côtes vers le haut.', page: 7 },
-  { phase: 'expiration', mode: 'calm', active: false, muscles: 'Aucun (passive)', detail: 'Phénomène passif dû à la rétraction élastique du poumon ; simple retour au volume de base.', page: 6 },
-  { phase: 'expiration', mode: 'forced', active: true, muscles: 'Paroi abdominale + intercostaux internes', detail: 'L’expiration devient active pour dégonfler les poumons plus et plus vite (ex. exercice physique).', page: 8 },
+  { phase: 'inspiration', mode: 'calm', active: true, muscles: 'Diaphragme + intercostaux externes', detail: 'Active process requiring energy : contraction increases the volume of the thoracic cage.', page: 6 },
+  { phase: 'inspiration', mode: 'forced', active: true, muscles: '+ accessory neck muscles', detail: 'Inspiration plus profwave : contraction plus forte du diaphragme et des intercostaux externes + accessoires du cou qui tirent le sternum et les 2 premières côtes vers le haut.', page: 7 },
+  { phase: 'expiration', mode: 'calm', active: false, muscles: 'None (passive)', detail: 'Phénomène passif dû à la rétraction élastique du lung ; simple retour au volume de base.', page: 6 },
+  { phase: 'expiration', mode: 'forced', active: true, muscles: 'Paroi abdominale + intercostaux internes', detail: 'Expiration becomes active to deflate the lungs more quickly (ex. exercice physique).', page: 8 },
 ]
 
 /* Event sequences — pr-9 p.19 / p.21 (verbatim order). */
 export const INSPIRATION_SEQUENCE = [
   'Contraction du diaphragme et des intercostaux externes',
   'Expansion du thorax',
-  'Expansion des poumons',
-  'Pression transpulmonaire (Ptp) ↗',
+  'Expansion des lungs',
+  'Pressure transpulmonaire (Ptp) ↗',
   'Palv < Patm',
-  'L’air entre dans les alvéoles',
-  'Le flux continue jusqu’à Palv = Patm',
-  'Ppl devient plus négative',
+  'L’air entre dans les alveoluss',
+  'Flow continues until Palv = Patm',
+  'Ppl becomes more negative',
 ]
 export const EXPIRATION_SEQUENCE = [
-  'Relâchement du diaphragme et des intercostaux externes',
-  'Rétraction des poumons vers le volume pré-inspiratoire',
-  'Compression des gaz alvéolaires',
+  'Relaxation of the diaphragm and external intercostals',
+  'Rétraction des lungs vers le volume pré-inspiratoire',
+  'Compressure des gaz alvéolaires',
   'Palv > Patm',
-  'L’air sort des alvéoles',
-  'Le flux continue jusqu’à Palv = Patm',
+  'L’air sort des alveoluss',
+  'Flow continues until Palv = Patm',
   'Ppl revient à sa valeur pré-inspiratoire · Ptp idem',
 ]
 
 export const KEY_FACTS: { label: string; value: string; page: number }[] = [
   { label: 'Patm (niveau de la mer)', value: '760 mmHg', page: 10 },
-  { label: 'Ppl au repos (absolue)', value: '756 mmHg', page: 12 },
-  { label: 'Ppl au repos (relative)', value: '−4 mmHg / −5 cmH2O', page: 12 },
+  { label: 'Ppl au rest (absolue)', value: '756 mmHg', page: 12 },
+  { label: 'Ppl au rest (relative)', value: '−4 mmHg / −5 cmH2O', page: 12 },
   { label: 'Ppl en inspiration', value: '−8 cmH2O', page: 10 },
   { label: 'Ptp = Palv − Ppl', value: '760 − 756 = 4 mmHg', page: 14 },
   { label: 'Durée du cycle', value: '4 à 5 s (12–15/min)', page: 4 },

@@ -36,14 +36,14 @@ function DisciplineProgressRow({ slug }: { slug: string }) {
 export default function StudyPage() {
   const { recentlyViewed, bookmarks, completedLessons, searchHistory, clearSearchHistory } =
     useStudy()
-  const course = useCourseProgress()
+  const lecturee = useCourseProgress()
 
   return (
     <div className="pt-14">
       <header className="border-b border-border">
         <div className="mx-auto max-w-5xl px-6 py-10">
           <span className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.25em] text-primary">
-            <GraduationCap className="h-3.5 w-3.5" /> Mon étude
+            <GraduationCap className="h-3.5 w-3.5" /> My study
           </span>
           <h1 className="mt-2 font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             Tableau de bord d'apprentissage
@@ -57,15 +57,15 @@ export default function StudyPage() {
             <div className="flex items-center justify-between">
               <span className="flex items-center gap-2 text-sm font-medium text-foreground">
                 <TrendingUp className="h-4 w-4 text-primary" />
-                Progression globale du cours
+                Progression globale the lesson
               </span>
-              <span className="font-mono text-sm text-primary">{course.percent}%</span>
+              <span className="font-mono text-sm text-primary">{lecturee.percent}%</span>
             </div>
-            <Progress value={course.percent} className="mt-3 h-2" />
+            <Progress value={lecturee.percent} className="mt-3 h-2" />
             <p className="mt-2 text-xs text-faint">
-              {course.completed} leçon(s) terminée(s){course.total > 0 && ` sur ${course.total}`} —
-              la progression s'enregistrera automatiquement à mesure que le contenu du cours sera
-              intégré. Données conservées localement (localStorage).
+              {lecturee.completed} leçon(s) terminée(s){lecturee.total > 0 && ` sur ${lecturee.total}`} —
+              la progression s'enregistrera automatiquement à mesure que le contenu the lesson sera
+              intégré. Data stored locally (localStorage).
             </p>
           </motion.div>
         </div>
@@ -75,12 +75,12 @@ export default function StudyPage() {
         {/* Continue learning */}
         <section>
           <h2 className="mb-3 flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.2em] text-faint">
-            <Clock className="h-3.5 w-3.5" /> Reprendre l'étude
+            <Clock className="h-3.5 w-3.5" /> Resume studying
           </h2>
           <div className="space-y-2">
             {recentlyViewed.length === 0 ? (
               <p className="rounded-lg border border-dashed border-border-strong p-4 text-xs text-faint">
-                Aucune leçon consultée pour le moment. Les leçons récemment ouvertes
+                No lessons viewed yet. Recently opened lessons
                 apparaîtront ici.
               </p>
             ) : (
@@ -194,7 +194,7 @@ export default function StudyPage() {
 
         <section className="md:col-span-2">
           <p className="text-xs text-faint">
-            Leçons terminées : {completedLessons.length} · Progression conservée localement dans
+            Lessons terminées : {completedLessons.length} · Progression conservée localement dans
             votre navigateur (aucun backend, aucune donnée envoyée).
           </p>
         </section>

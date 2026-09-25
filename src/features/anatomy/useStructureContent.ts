@@ -54,7 +54,7 @@ function blockText(b: RawBlock): string {
 }
 
 /**
- * Pulls the supplied course passages that describe a structure.
+ * Pulls the supplied lecturee passages that describe a structure.
  *
  * The structure's chapter JSON is loaded on demand and scanned for paragraphs
  * containing any of the structure's verbatim source-language search keys. The

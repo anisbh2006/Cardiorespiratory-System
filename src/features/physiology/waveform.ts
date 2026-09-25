@@ -1,9 +1,9 @@
 /**
- * Small helpers to turn course-described waveform landmarks into SVG paths and
+ * Small helpers to turn lecturee-described waveform landmarks into SVG paths and
  * to sample them at the current animation phase.
  *
  * The control points are schematic shapes; the *landmarks* (peak timing, phase
- * boundaries, numeric values) come from the course. These helpers only draw and
+ * boundaries, numeric values) come from the lecturee. These helpers only draw and
  * interpolate — they never add physiological data of their own.
  */
 export interface WavePoint {

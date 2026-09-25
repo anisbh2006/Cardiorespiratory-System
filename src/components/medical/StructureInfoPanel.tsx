@@ -9,7 +9,7 @@ import type { AnatomyStructure } from '@/data/types'
  * Information panel for a selected anatomical structure.
  *
  * Every statement and image shown here is read verbatim from the supplied
- * course content (see useStructureContent). No medical explanation is written
+ * lecturee content (see useStructureContent). No medical explanation is written
  * in this component; when the source yields no passage for a structure, the
  * panel says so explicitly instead of inventing one.
  */
@@ -23,11 +23,11 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
           <BookOpen className="h-5 w-5" />
         </div>
         <h3 className="mt-4 font-serif text-lg font-semibold text-foreground">
-          Laboratoire d'anatomie
+          Anatomy laboratory
         </h3>
         <p className="mt-2 max-w-xs text-sm leading-relaxed text-muted">
-          Survolez ou cliquez une structure du cœur pour la mettre en évidence, cadrer la caméra
-          et afficher les informations issues du cours.
+          Hover over or click a heart structure to highlight it and frame the camera
+          et afficher les informations issues the lesson.
         </p>
       </div>
     )
@@ -39,7 +39,7 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
       <div className="border-b border-border p-5">
         <div className="flex items-center gap-2">
           <Badge variant="secondary">
-            {structure.system === 'cardiovascular' ? 'Cardiovasculaire' : 'Respiratoire'}
+            {structure.system === 'cardiovascular' ? 'Cardiovascular' : 'Respiratory'}
           </Badge>
           {content.loading && <Loader2 className="h-3.5 w-3.5 animate-spin text-faint" />}
         </div>
@@ -57,7 +57,7 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
         {/* Course excerpts */}
         <section>
           <h4 className="flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-primary">
-            <FileText className="h-3 w-3" /> Extrait du cours
+            <FileText className="h-3 w-3" /> Extrait the lesson
             {content.chapterTitle ? ` — ${content.chapterTitle}` : ''}
           </h4>
           {content.loading ? (
@@ -82,17 +82,17 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
             </div>
           ) : (
             <p className="mt-3 text-xs italic leading-relaxed text-faint">
-              Aucun extrait correspondant n'a été trouvé dans le chapitre associé. Le contenu ne
+              No matching excerpt was found in the associated chapter. The content does not
               sera jamais inventé : consultez la leçon complète ci-dessous.
             </p>
           )}
         </section>
 
-        {/* Related course images */}
+        {/* Related lecturee images */}
         {content.images.length > 0 && (
           <section>
             <h4 className="flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-primary">
-              <ImageIcon className="h-3 w-3" /> Images du cours
+              <ImageIcon className="h-3 w-3" /> Images the lesson
             </h4>
             <div className="mt-3 grid grid-cols-2 gap-2">
               {content.images.map((img, i) => (

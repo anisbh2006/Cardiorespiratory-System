@@ -8,9 +8,9 @@ import { SearchOverlay } from './SearchOverlay'
 import { cn } from '@/lib/utils'
 
 const navLinks = [
-  { to: '/anatomy', label: 'Anatomie 3D' },
-  { to: '/histologie', label: 'Histologie' },
-  { to: '/biophysique', label: 'Biophysique' },
+  { to: '/anatomy', label: '3D Anatomy' },
+  { to: '/histologie', label: 'Histology' },
+  { to: '/biophysique', label: 'Biophysics' },
   { to: '/physiologie', label: 'Physiologie' },
 ]
 
@@ -147,7 +147,7 @@ export function TopBar() {
             className="hidden h-9 items-center gap-1.5 rounded-md border border-border bg-elevated px-3 text-sm font-medium text-muted transition-colors hover:border-primary/50 hover:text-foreground md:flex"
           >
             <GraduationCap className="h-3.5 w-3.5" />
-            Mon étude
+            My study
           </NavLink>
           <button
             onClick={() => setMobileOpen((v) => !v)}
@@ -201,7 +201,7 @@ export function TopBar() {
                 onClick={() => setMobileOpen(false)}
                 className="block rounded-md px-3 py-2 text-sm font-medium text-primary"
               >
-                Mon étude
+                My study
               </Link>
             </div>
           </motion.nav>

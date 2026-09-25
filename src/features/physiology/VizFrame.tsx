@@ -32,7 +32,7 @@ interface VizFrameProps {
 
 /**
  * Card shell shared by every visualization: title + system badge, the animation
- * stage, transport controls, an optional aside, and — importantly — the course
+ * stage, transport controls, an optional aside, and — importantly — the lecturee
  * provenance (chapter + page) with a link to the full lesson.
  */
 export function VizFrame({
@@ -47,7 +47,7 @@ export function VizFrame({
   legend,
   sources,
   lesson,
-  schematicNote = 'Schéma animé à but pédagogique : la séquence et les valeurs affichées proviennent du cours, elles ne sont pas inventées.',
+  schematicNote = 'Animated diagram à but pédagogique : la séquence et les valeurs affichées proviennent the lesson, elles ne sont pas inventées.',
   aside,
   children,
   className,
@@ -88,7 +88,7 @@ export function VizFrame({
           </div>
         </div>
         <Badge variant="secondary">
-          {system === 'cardiovascular' ? 'Cardiovasculaire' : 'Respiratoire'}
+          {system === 'cardiovascular' ? 'Cardiovascular' : 'Respiratory'}
         </Badge>
       </header>
 
@@ -123,7 +123,7 @@ export function VizFrame({
 
         <div className="flex flex-wrap items-center gap-2">
           <span className="flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
-            <BookOpen className="h-3 w-3 text-primary" /> Source du cours
+            <BookOpen className="h-3 w-3 text-primary" /> Source the lesson
           </span>
           {grouped.map((g) => (
             <span

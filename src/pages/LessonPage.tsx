@@ -64,7 +64,7 @@ export default function LessonPage() {
   const completed = isCompleted(lesson.id)
   const bookmarked = isBookmarked(lesson.id)
 
-  // Anatomical structures whose supplied course references point at this
+  // Anatomical structures whose supplied lecturee references point at this
   // chapter (derived from the anatomy data layer — never invented). Lets a
   // lesson surface its related 3D anatomy without fabricating relationships.
   const relatedStructures = anatomyStructures.filter(
@@ -75,7 +75,7 @@ export default function LessonPage() {
   return (
     <div className="pt-14">
       <div className="mx-auto grid max-w-[1600px] grid-cols-1 gap-0 lg:grid-cols-[260px_minmax(0,1fr)] xl:grid-cols-[260px_minmax(0,1fr)_290px]">
-        {/* ================= LEFT: course navigation ================= */}
+        {/* ================= LEFT: lecturee navigation ================= */}
         <aside className="hidden border-r border-border lg:block">
           <div className="sticky top-14 max-h-[calc(100vh-3.5rem)] overflow-y-auto p-4">
             <Link
@@ -166,8 +166,8 @@ export default function LessonPage() {
             )}
 
             <div className="mt-5 flex flex-wrap items-center gap-2">
-              {lesson.status === 'awaiting-source' && <Badge variant="secondary">Contenu en attente</Badge>}
-              {completed && <Badge variant="success">Terminée</Badge>}
+              {lesson.status === 'awaiting-source' && <Badge variant="secondary">Content awaiting</Badge>}
+              {completed && <Badge variant="success">Completed</Badge>}
               <Button
                 size="sm"
                 variant={bookmarked ? 'default' : 'secondary'}
@@ -198,7 +198,7 @@ export default function LessonPage() {
                 >
                   <ChevronLeft className="h-4 w-4 text-muted transition-transform group-hover:-translate-x-0.5" />
                   <span className="min-w-0">
-                    <span className="block text-[10px] uppercase tracking-wider text-faint">Précédent</span>
+                    <span className="block text-[10px] uppercase tracking-wider text-faint">Previous</span>
                     <span className="block truncate text-sm font-medium text-foreground">{prev.lesson.title}</span>
                   </span>
                 </Link>
@@ -212,7 +212,7 @@ export default function LessonPage() {
                 className="gap-2"
               >
                 <Check className="h-4 w-4" />
-                {completed ? 'Leçon terminée' : 'Marquer comme terminée'}
+                {completed ? 'Lesson completed' : 'Mark as completed'}
               </Button>
 
               {next ? (
@@ -221,7 +221,7 @@ export default function LessonPage() {
                   className="group flex flex-1 items-center justify-end gap-2 rounded-lg border border-border bg-surface p-3 text-right transition-colors hover:border-primary/40"
                 >
                   <span className="min-w-0">
-                    <span className="block text-[10px] uppercase tracking-wider text-faint">Suivant</span>
+                    <span className="block text-[10px] uppercase tracking-wider text-faint">Next</span>
                     <span className="block truncate text-sm font-medium text-foreground">{next.lesson.title}</span>
                   </span>
                   <ChevronRight className="h-4 w-4 text-muted transition-transform group-hover:translate-x-0.5" />
@@ -260,7 +260,7 @@ export default function LessonPage() {
             {isCardioAnatomy && relatedStructures.length > 0 && (
               <div>
                 <h4 className="mb-2 flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
-                  <Move3d className="h-3 w-3" /> Anatomie 3D
+                  <Move3d className="h-3 w-3" /> 3D Anatomy
                 </h4>
                 <React.Suspense fallback={<div className="shimmer h-48 rounded-xl bg-overlay" />}>
                   <MiniAnatomyViewer

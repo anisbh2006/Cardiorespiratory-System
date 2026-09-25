@@ -22,9 +22,9 @@ interface Track {
 
 const TRACKS: Track[] = [
   { id: 'ecg', label: 'ECG · P–QRS–T', color: '#60a5fa', y0: 24, y1: 86, scale: CC.ECG_SCALE, ctrl: CC.ECG },
-  { id: 'lvp', label: 'Pression VG', color: '#e0243a', y0: 98, y1: 192, scale: CC.PRESSURE_SCALE, ctrl: CC.LV_PRESSURE, unit: 'mmHg' },
-  { id: 'aop', label: 'Pression aortique', color: '#fbbf24', y0: 204, y1: 298, scale: CC.PRESSURE_SCALE, ctrl: CC.AORTIC_PRESSURE, unit: 'mmHg' },
-  { id: 'atp', label: 'Pression atriale G.', color: '#a78bfa', y0: 310, y1: 366, scale: CC.ATRIAL_SCALE, ctrl: CC.ATRIAL_PRESSURE, unit: 'mmHg' },
+  { id: 'lvp', label: 'LV pressure', color: '#e0243a', y0: 98, y1: 192, scale: CC.PRESSURE_SCALE, ctrl: CC.LV_PRESSURE, unit: 'mmHg' },
+  { id: 'aop', label: 'Aortic pressure', color: '#fbbf24', y0: 204, y1: 298, scale: CC.PRESSURE_SCALE, ctrl: CC.AORTIC_PRESSURE, unit: 'mmHg' },
+  { id: 'atp', label: 'Left atrial pressure', color: '#a78bfa', y0: 310, y1: 366, scale: CC.ATRIAL_SCALE, ctrl: CC.ATRIAL_PRESSURE, unit: 'mmHg' },
   { id: 'vol', label: 'Volume VG', color: '#34d399', y0: 378, y1: 452, scale: CC.VOLUME_SCALE, ctrl: CC.LV_VOLUME, unit: 'ml' },
 ]
 
@@ -73,8 +73,8 @@ export function CardiacCycleViz() {
 
   return (
     <VizFrame
-      title="Le cycle cardiaque"
-      subtitle="Événements mécaniques, hémodynamiques et électriques synchronisés (cœur gauche)"
+      title="The Cardiac Cycle"
+      subtitle="Synchronized mechanical, hemodynamic, and electrical events (left heart)"
       icon={<HeartPulse className="h-4 w-4" />}
       system="cardiovascular"
       clock={clock}
@@ -82,9 +82,9 @@ export function CardiacCycleViz() {
       marks={marks}
       legend={[
         { color: '#60a5fa', label: 'ECG' },
-        { color: '#e0243a', label: 'Pression VG' },
-        { color: '#fbbf24', label: 'Pression aortique' },
-        { color: '#a78bfa', label: 'Pression atriale' },
+        { color: '#e0243a', label: 'LV pressure' },
+        { color: '#fbbf24', label: 'Aortic pressure' },
+        { color: '#a78bfa', label: 'Pressure atriale' },
         { color: '#34d399', label: 'Volume VG' },
       ]}
       sources={CC.SOURCES}
@@ -119,13 +119,13 @@ export function CardiacCycleViz() {
               <div className="flex items-center justify-between">
                 <span className="text-muted">Valve mitrale (AV)</span>
                 <span className={avOpen ? 'font-semibold text-success' : 'font-semibold text-primary'}>
-                  {avOpen ? 'Ouverte' : 'Fermée'}
+                  {avOpen ? 'Open' : 'Closed'}
                 </span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-muted">Valve aortique</span>
                 <span className={aorticOpen ? 'font-semibold text-success' : 'font-semibold text-primary'}>
-                  {aorticOpen ? 'Ouverte' : 'Fermée'}
+                  {aorticOpen ? 'Open' : 'Closed'}
                 </span>
               </div>
               {!avOpen && !aorticOpen && (
@@ -137,7 +137,7 @@ export function CardiacCycleViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs du cours</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs the lesson</div>
             <dl className="mt-2 space-y-1.5">
               {CC.KEY_FACTS.map((f) => (
                 <div key={f.label} className="flex items-baseline justify-between gap-2 text-[11px]">

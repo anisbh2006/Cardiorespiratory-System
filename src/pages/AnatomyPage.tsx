@@ -28,20 +28,20 @@ export default function AnatomyPage() {
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-primary">
-              Laboratoire d'anatomie 3D
+              Anatomy laboratory 3D
             </span>
             <h1 className="mt-2 font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
               Exploration anatomique interactive
             </h1>
             <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
-              Rotation, zoom, panoramique, angles prédéfinis, étiquettes, surbrillance et cadrage
+              Rotation, zoom, pan, preset angles, labels, highlighting, and framing
               automatique. Cliquez une structure pour afficher les informations, extraits et images
-              issus du cours fourni.
+              issus the lesson fourni.
             </p>
           </div>
           <Tabs
             items={[
-              { value: 'cardiovascular', label: 'Cœur & vaisseaux' },
+              { value: 'cardiovascular', label: 'Heart & vessels' },
               { value: 'respiratory', label: 'Appareil respiratoire' },
             ]}
             value={system}
@@ -86,13 +86,13 @@ export default function AnatomyPage() {
           </div>
         </div>
 
-        {/* RIGHT: course-content information panel */}
+        {/* RIGHT: lecturee-content information panel */}
         <div className="space-y-4 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto lg:pr-1">
           <StructureInfoPanel structure={selected} />
           {system === 'respiratory' && (
             <AwaitingContent
-              title="Modèle 3D respiratoire en attente"
-              description="L'interface est prête : dès qu'un modèle 3D des poumons, de la trachée ou des bronches sera disponible (déposé dans src/models/ et enregistré dans le registre), il remplacera automatiquement l'espace actuel. Les structures respiratoires répertoriées dans le cours restent sélectionnables ci-dessus."
+              title="Respiratory 3D model pending"
+              description="L'interface est prête : dès qu'un modèle 3D des lungs, de la trachée ou des bronchi sera disponible (déposé dans src/models/ et enregistré dans le registre), il remplacera automatiquement l'espace actuel. Les structures respiratoires répertoriées dans le lecture restent sélectionnables ci-dessus."
               className="py-6"
             />
           )}

@@ -3,14 +3,14 @@ import * as React from 'react'
 /**
  * A single requestAnimationFrame clock that drives every physiology
  * visualization. It exposes a normalized `phase` in [0, 1) that loops over the
- * real cycle duration taken from the course (e.g. 0.8 s for the cardiac cycle,
+ * real cycle duration taken from the lecturee (e.g. 0.8 s for the cardiac cycle,
  * ~4.5 s for the respiratory cycle), plus transport controls.
  *
  * The loop reads its parameters from refs, so toggling play / speed / slow-mo
  * never restarts it and never drops a frame.
  */
 export interface UsePhysioClockOptions {
-  /** Real duration of one cycle, in seconds (must come from the course). */
+  /** Real duration of one cycle, in seconds (must come from the lecturee). */
   cycleSeconds: number
   autoplay?: boolean
   /** Speed multiplier applied when slow motion is engaged. */

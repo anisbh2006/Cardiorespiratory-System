@@ -51,8 +51,8 @@ export function SpirometryViz() {
 
   return (
     <VizFrame
-      title="Spirométrie — volumes et capacités pulmonaires"
-      subtitle="Respiration calme (VT) et manœuvre forcée (CV, VEMS, coefficient de Tiffeneau)"
+      title="Spirometry — volumes et lung capacities"
+      subtitle="Respiration quiet (VT) et manœuvre forced (CV, VEMS, coefficient de Tiffeneau)"
       icon={<Droplets className="h-4 w-4" />}
       system="respiratory"
       clock={clock}
@@ -60,7 +60,7 @@ export function SpirometryViz() {
       readout={`t = ${(phase * cycleSeconds).toFixed(2)} s · volume pulmonaire = ${Math.round(vol)} ml`}
       sources={S.SOURCES}
       lesson={S.LESSON}
-      schematicNote="Valeurs verbatim du tableau p. 63 (adulte masculin jeune) : VT 500, VRI 3000, VRE 1200, VR 1200 ml ; CV 4800, CI 3500, CRF 2400, CPT 6000 ml. Les hauteurs des segments sont proportionnelles aux volumes cités ; les capacités portent leurs valeurs citées. Les courbes volume-temps sont des schémas des manœuvres décrites ; la courbe d’expiration forcée est tracée de sorte que le volume expiré à la 1re seconde tombe dans l’intervalle cité (VEMS = 75–80 % de la CV). Ventilation pulmonaire = VT × fréquence et ventilation alvéolaire = (VT − 150) × fréquence sont les formules du cours (p. 67–68)."
+      schematicNote="Valeurs verbatim du tableau p. 63 (adulte masculin jeune) : VT 500, VRI 3000, VRE 1200, VR 1200 ml ; CV 4800, CI 3500, CRF 2400, CPT 6000 ml. Les hauteurs des segments sont proportionnelles aux volumes cités ; les capacités portent leurs valeurs citées. Les courbes volume-temps sont des schémas des manœuvres décrites ; la courbe d’expiration forced est tracée de sorte que le volume expiré à la 1re secwave tombe dans l’intervalle cité (VEMS = 75–80 % de la CV). Ventilation pulmonaire = VT × fréquence et ventilation alvéolaire = (VT − 150) × fréquence sont les formules the lesson (p. 67–68)."
       aside={
         <>
           {mode === 'calm' ? (
@@ -68,11 +68,11 @@ export function SpirometryViz() {
               <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Ventilation (p. 67–68)</div>
               <dl className="mt-2 space-y-1.5 text-[11px]">
                 <div className="flex items-baseline justify-between">
-                  <dt className="text-muted">Fréquence</dt>
+                  <dt className="text-muted">Frequency</dt>
                   <dd className="font-mono text-foreground">{freq} cycles/min</dd>
                 </div>
                 <div className="flex items-baseline justify-between">
-                  <dt className="text-muted">Vent. pulmonaire = VT × f</dt>
+                  <dt className="text-muted">Pulmonary ventilation = VT × f</dt>
                   <dd className="font-mono text-success">{(pv / 1000).toFixed(2)} L/min</dd>
                 </div>
                 <div className="flex items-baseline justify-between">
@@ -80,25 +80,25 @@ export function SpirometryViz() {
                   <dd className="font-mono text-foreground">150 ml</dd>
                 </div>
                 <div className="flex items-baseline justify-between border-t border-border/60 pt-1.5">
-                  <dt className="text-muted">Vent. alvéolaire = (VT−150) × f</dt>
+                  <dt className="text-muted">Alveolar ventilation = (VT−150) × f</dt>
                   <dd className="font-mono text-info">{(av / 1000).toFixed(2)} L/min</dd>
                 </div>
               </dl>
               <div className="mt-2 text-[10px] leading-snug text-faint">
-                En respiration calme, seul le volume courant (VT 500 ml) est mobilisé autour de la
+                En quiet breathing, seul le volume courant (VT 500 ml) est mobilisé autour de la
                 CRF ; l’expiration est passive (pr-9 p. 6).
               </div>
             </div>
           ) : (
             <div className="rounded-lg border border-border bg-background/50 p-3">
-              <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Manœuvre forcée</div>
+              <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Manœuvre forced</div>
               <dl className="mt-2 space-y-1.5 text-[11px]">
                 <div className="flex items-baseline justify-between">
                   <dt className="text-muted">Capacité vitale (CV)</dt>
                   <dd className="font-mono text-success">4800 ml</dd>
                 </div>
                 <div className="flex items-baseline justify-between">
-                  <dt className="text-muted">VEMS (1re seconde)</dt>
+                  <dt className="text-muted">VEMS (1re secwave)</dt>
                   <dd className="font-mono text-foreground">75–80 % CV</dd>
                 </div>
                 <div className="flex items-baseline justify-between">
@@ -106,7 +106,7 @@ export function SpirometryViz() {
                   <dd className="font-mono text-primary">75–80 %</dd>
                 </div>
                 <div className="flex items-baseline justify-between">
-                  <dt className="text-muted">Expiration forcée</dt>
+                  <dt className="text-muted">Expiration forced</dt>
                   <dd className="font-mono text-foreground">≥ 6 s</dd>
                 </div>
               </dl>
@@ -156,8 +156,8 @@ export function SpirometryViz() {
         <div className="flex flex-wrap gap-1.5">
           {(
             [
-              { id: 'calm', label: 'Respiration calme (VT)' },
-              { id: 'forced', label: 'Manœuvre forcée (CV / VEMS)' },
+              { id: 'calm', label: 'Respiration quiet (VT)' },
+              { id: 'forced', label: 'Manœuvre forced (CV / VEMS)' },
             ] as const
           ).map((o) => (
             <button
@@ -179,7 +179,7 @@ export function SpirometryViz() {
         </div>
         {mode === 'calm' && (
           <label className="flex items-center gap-2 text-[11px]">
-            <span className="text-muted">Fréquence</span>
+            <span className="text-muted">Frequency</span>
             <input
               type="range"
               min={S.FREQ_RANGE[0]}
@@ -193,7 +193,7 @@ export function SpirometryViz() {
         )}
       </div>
 
-      <svg viewBox="0 0 720 320" className="h-auto w-full select-none" role="img" aria-label="Volumes et capacités pulmonaires">
+      <svg viewBox="0 0 720 320" className="h-auto w-full select-none" role="img" aria-label="Volumes et lung capacities">
         {/* ---------------- Left: stacked volume diagram ---------------- */}
         <g>
           <text x={20} y={22} fill="#f4f4f2" fontSize={11} fontWeight={600}>Volumes & capacités</text>
@@ -234,7 +234,7 @@ export function SpirometryViz() {
         {/* ---------------- Right: volume–time spirogram ---------------- */}
         <g>
           <text x={SX0} y={26} fill="#f4f4f2" fontSize={11} fontWeight={600}>
-            {mode === 'calm' ? 'Respiration calme — volume/temps' : 'Manœuvre forcée — volume/temps'}
+            {mode === 'calm' ? 'Respiration quiet — volume/temps' : 'Manœuvre forced — volume/temps'}
           </text>
 
           {/* reference lines */}
@@ -278,7 +278,7 @@ export function SpirometryViz() {
           <text x={SX0} y={SY1 + 16} fill="#5c5c66" fontSize={8.5} fontFamily="monospace">0</text>
           <text x={SX1} y={SY1 + 16} textAnchor="end" fill="#5c5c66" fontSize={8.5} fontFamily="monospace">{cycleSeconds.toFixed(1)} s</text>
           <text x={(SX0 + SX1) / 2} y={SY1 + 30} textAnchor="middle" fill="#8b8b96" fontSize={9}>
-            {mode === 'calm' ? 'un cycle respiratoire (Ttot)' : 'inspiration max → expiration forcée (≥ 6 s)'}
+            {mode === 'calm' ? 'un cycle respiratoire (Ttot)' : 'inspiration max → expiration forced (≥ 6 s)'}
           </text>
         </g>
       </svg>

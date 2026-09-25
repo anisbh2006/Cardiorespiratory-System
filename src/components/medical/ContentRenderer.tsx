@@ -8,7 +8,7 @@ import { ImageFigure } from './ImageFigure'
 import type { ContentBlock, Topic } from '@/data/types'
 
 /**
- * Renders typed course content blocks exactly as supplied.
+ * Renders typed lecturee content blocks exactly as supplied.
  * All medical information flows from src/data — this component never
  * generates content of its own.
  */
@@ -67,7 +67,7 @@ function BlockRenderer({ block }: { block: ContentBlock }) {
       return (
         <div className="my-6 rounded-lg border border-border bg-elevated p-4 text-center text-xs text-muted">
           {/* 3D model slot — resolved through the model registry when available */}
-          Modèle 3D : <span className="font-mono text-primary">{block.modelId}</span>
+          3D model: <span className="font-mono text-primary">{block.modelId}</span>
           {block.caption && <span className="ml-2">{block.caption}</span>}
         </div>
       )

@@ -68,17 +68,17 @@ export function SlideInfoPanel({ slide, activeLabel, onActiveLabelChange }: Slid
       <div className="min-h-0 flex-1 overflow-y-auto">
         {/* Caption */}
         {slide.caption && slide.caption !== slide.chapterTitle && (
-          <Section icon={<Info className="h-3 w-3" />} title="Légende">
+          <Section icon={<Info className="h-3 w-3" />} title="Legend">
             <p className="text-[13px] leading-relaxed text-muted">{slide.caption}</p>
           </Section>
         )}
 
         {/* Structure identification */}
         {labels.length > 0 && (
-          <Section icon={<Tag className="h-3 w-3" />} title="Structures identifiées">
+          <Section icon={<Tag className="h-3 w-3" />} title="Identified structures">
             {shared && (
               <p className="mb-2 text-[11px] italic text-faint">
-                Termes de la diapositive (partagés entre {slide.pageImageCount} images).
+                Slide terms (shared across {slide.pageImageCount} images).
               </p>
             )}
             <ul className="flex flex-wrap gap-1.5">
@@ -119,10 +119,10 @@ export function SlideInfoPanel({ slide, activeLabel, onActiveLabelChange }: Slid
 
         {/* Honest empty state */}
         {!hasContent && (
-          <Section icon={<Info className="h-3 w-3" />} title="À propos">
+          <Section icon={<Info className="h-3 w-3" />} title="About">
             <p className="text-[12.5px] leading-relaxed text-faint">
-              Cette diapositive ne fournit ni légende ni annotations textuelles dans le matériel
-              du cours. Aucune description n'est inventée — seule l'image source est affichée.
+              This slide provides no caption or text annotations in the source material
+              the lesson. No description is invented; only the source image is displayed.
             </p>
           </Section>
         )}
@@ -130,9 +130,9 @@ export function SlideInfoPanel({ slide, activeLabel, onActiveLabelChange }: Slid
         {/* Provenance note */}
         <Section icon={<FlaskConical className="h-3 w-3" />} title="Provenance">
           <p className="text-[11.5px] leading-relaxed text-faint">
-            Image, légende et termes proviennent de la diapositive {slide.page ?? '—'} du chapitre «{' '}
-            {slide.chapterTitle} ». Les légendes ne sont pas repositionnées sur l'image faute de
-            coordonnées fournies ; elles sont listées ici telles qu'elles figurent au cours.
+            Image, caption, and terms come from slide {slide.page ?? '—'} du chapitre «{' '}
+            {slide.chapterTitle} ». Les légendes ne sont pas restitionnées sur l'image faute de
+            coordonnées fournies ; elles sont listées ici telles qu'elles figurent au lecture.
           </p>
         </Section>
       </div>

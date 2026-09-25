@@ -2,12 +2,12 @@ import type { LessonRef, SourceRef } from '../provenance'
 
 /**
  * Cardiac-output data — every number and formula is taken verbatim from the
- * supplied course chapter "Le débit cardiaque" (pc-3).
+ * supplied lecturee chapter "Cardiac Output" (pc-3).
  *
- * The interactive calculator only applies the course's own formulas:
+ * The interactive calculator only applies the lecturee's own formulas:
  *   VE = VTD − VTS   (pc-3 p.12)
  *   DC = HR × VE     (pc-3 p.4)
- * with VTS held at the course's cited value (65 ml, pc-2 p.16 / pc-3 example).
+ * with VTS held at the lecturee's cited value (65 ml, pc-2 p.16 / pc-3 example).
  * No numeric Frank-Starling curve, contractility coefficient or BSA value is
  * invented — the chapter states those relationships qualitatively only.
  */
@@ -30,11 +30,11 @@ export const ATHLETE_CO = 35 // pc-3 p.6
 export const HR_RANGE: [number, number] = [50, 180]
 export const EDV_RANGE: [number, number] = [100, 180]
 
-/** Ejection volume from the course formula VE = VTD − VTS (pc-3 p.12). */
+/** Ejection volume from the lecturee formula VE = VTD − VTS (pc-3 p.12). */
 export function strokeVolume(edv: number): number {
   return edv - ESV
 }
-/** Cardiac output from the course formula DC = HR × VE (pc-3 p.4), in L/min. */
+/** Cardiac output from the lecturee formula DC = HR × VE (pc-3 p.4), in L/min. */
 export function cardiacOutput(hr: number, edv: number): number {
   return (hr * strokeVolume(edv)) / 1000
 }
@@ -47,22 +47,22 @@ export interface Determinant {
 }
 export const DETERMINANTS: Determinant[] = [
   { id: 'preload', label: 'Précharge', definition: 'Variations du volume télédiastolique (VTD).' },
-  { id: 'contractility', label: 'Contractilité', definition: 'Variations de l’amplitude des influx du système nerveux sympathique vers les ventricules.' },
-  { id: 'afterload', label: 'Postcharge', definition: 'Variations de la pression dans les artères contre laquelle les ventricules doivent pomper.' },
+  { id: 'contractility', label: 'Contractilité', definition: 'Variations de l’amplitude des influx du system nerveux sympathique vers les ventricules.' },
+  { id: 'afterload', label: 'Postcharge', definition: 'Variations de la pressure dans les arterys contre laquelle les ventricules doivent pomper.' },
 ]
 
 /* Heart-rate control — pc-3 p.8–11 (verbatim). */
 export const HR_FACTS: { label: string; value: string; page: number }[] = [
-  { label: 'Fréquence intrinsèque (nœud sinusal, hors influences)', value: '100 batt/min', page: 8 },
-  { label: 'Fréquence au repos (parasympathique prédominant)', value: '70 batt/min', page: 9 },
+  { label: 'Frequency intrinsèque (sinus node, hors influences)', value: '100 batt/min', page: 8 },
+  { label: 'Frequency au rest (parasympathique prédominant)', value: '70 batt/min', page: 9 },
   { label: 'Sympathique / parasympathique', value: 'augmente / diminue la FC', page: 9 },
   { label: 'Conduction : sympathique / parasympathique', value: 'augmente / réduit la vitesse', page: 10 },
 ]
 
 export const KEY_FACTS: { label: string; value: string; page: number }[] = [
-  { label: 'Formule du débit', value: 'DC = HR × VE', page: 4 },
-  { label: 'Exemple du cours', value: '72 × 0,07 = 5 L/min', page: 4 },
-  { label: "Volume d'éjection", value: 'VE = VTD − VTS', page: 12 },
+  { label: 'Formule du flow', value: 'DC = HR × VE', page: 4 },
+  { label: 'Exemple the lesson', value: '72 × 0,07 = 5 L/min', page: 4 },
+  { label: "Volume d'ejection", value: 'VE = VTD − VTS', page: 12 },
   { label: 'Index cardiaque', value: 'DC / surface corporelle', page: 5 },
   { label: 'Réserve cardiaque (max)', value: '20 à 25 L/min (4–5×)', page: 6 },
   { label: 'Athlète entraîné', value: "jusqu'à 35 L/min", page: 6 },

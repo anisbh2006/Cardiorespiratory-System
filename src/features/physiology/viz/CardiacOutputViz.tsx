@@ -56,8 +56,8 @@ export function CardiacOutputViz() {
 
   return (
     <VizFrame
-      title="Débit cardiaque — DC = HR × VE"
-      subtitle="Faites varier la fréquence et le volume télédiastolique ; le débit suit les formules du cours"
+      title="Flow cardiaque — DC = HR × VE"
+      subtitle="Faites varier la fréquence et le volume télédiastolique ; le flow suit les formules the lesson"
       icon={<Gauge className="h-4 w-4" />}
       system="cardiovascular"
       clock={clock}
@@ -65,14 +65,14 @@ export function CardiacOutputViz() {
       readout={`DC = ${hr} × ${(sv / 1000).toFixed(3)} = ${co.toFixed(2)} L/min · 1 battement = ${(60 / hr).toFixed(2)} s`}
       sources={CO.SOURCES}
       lesson={CO.LESSON}
-      schematicNote="Calculateur basé uniquement sur les formules du cours (VE = VTD − VTS, p. 12 ; DC = HR × VE, p. 4) avec VTS = 65 ml (valeur citée). Le cours décrit la relation de Frank-Starling qualitativement (VE augmente avec VTD) ; la droite tracée est cette relation, aucun coefficient numérique n’est inventé. L’animation du battement est schématique."
+      schematicNote="Calculateur basé uniquement sur les formules the lesson (VE = VTD − VTS, p. 12 ; DC = HR × VE, p. 4) avec VTS = 65 ml (valeur citée). Le lecture décrit la relation de Frank-Starling qualitativement (VE augmente avec VTD) ; la droite tracée est cette relation, aucun coefficient numérique n’est inventé. L’animation du battement est schématique."
       aside={
         <>
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs calculées</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Calculated values</div>
             <dl className="mt-2 space-y-1.5 text-[11px]">
               <div className="flex items-baseline justify-between">
-                <dt className="text-muted">Fréquence (HR)</dt>
+                <dt className="text-muted">Frequency (HR)</dt>
                 <dd className="font-mono text-foreground">{hr} batt/min</dd>
               </div>
               <div className="flex items-baseline justify-between">
@@ -99,7 +99,7 @@ export function CardiacOutputViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Déterminants du VE (p. 13)</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Determinants of SV (p. 13)</div>
             <ul className="mt-2 space-y-1.5">
               {CO.DETERMINANTS.map((d) => (
                 <li key={d.id} className="text-[11px]">
@@ -111,7 +111,7 @@ export function CardiacOutputViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Contrôle de la FC</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Heart rate control</div>
             <dl className="mt-2 space-y-1.5">
               {CO.HR_FACTS.map((f) => (
                 <div key={f.label} className="flex items-baseline justify-between gap-2 text-[11px]">
@@ -128,7 +128,7 @@ export function CardiacOutputViz() {
       <div className="mb-3 grid gap-3 sm:grid-cols-2">
         <label className="block">
           <div className="mb-1 flex items-center justify-between text-[11px]">
-            <span className="font-medium text-muted">Fréquence cardiaque (HR)</span>
+            <span className="font-medium text-muted">Frequency cardiaque (HR)</span>
             <span className="font-mono text-foreground">{hr} batt/min</span>
           </div>
           <input
@@ -141,7 +141,7 @@ export function CardiacOutputViz() {
           />
           <div className="mt-0.5 flex justify-between font-mono text-[9px] text-faint">
             <span>{CO.HR_RANGE[0]}</span>
-            <span>repos 70 · intrinsèque 100</span>
+            <span>rest 70 · intrinsèque 100</span>
             <span>{CO.HR_RANGE[1]}</span>
           </div>
         </label>
@@ -160,7 +160,7 @@ export function CardiacOutputViz() {
           />
           <div className="mt-0.5 flex justify-between font-mono text-[9px] text-faint">
             <span>{CO.EDV_RANGE[0]}</span>
-            <span>repos 135</span>
+            <span>rest 135</span>
             <span>{CO.EDV_RANGE[1]}</span>
           </div>
         </label>
@@ -189,7 +189,7 @@ export function CardiacOutputViz() {
           <text x={(FX0 + FX1) / 2} y={FY1 + 32} textAnchor="middle" fill="#8b8b96" fontSize={9.5}>VTD (ml)</text>
           <text x={20} y={(FY0 + FY1) / 2} fill="#8b8b96" fontSize={9.5} transform={`rotate(-90 20 ${(FY0 + FY1) / 2})`} textAnchor="middle">VE (ml)</text>
 
-          {/* course relationship line VE = VTD − 65 across the slider domain */}
+          {/* lecturee relationship line VE = VTD − 65 across the slider domain */}
           <line
             x1={fxX(EDV_DOM[0])}
             y1={fxY(CO.strokeVolume(EDV_DOM[0]))}
@@ -201,7 +201,7 @@ export function CardiacOutputViz() {
           />
           {/* cited resting point (135 → 70) */}
           <circle cx={fxX(CO.REST_EDV)} cy={fxY(CO.REST_SV)} r={4} fill="none" stroke="#fbbf24" strokeWidth={1.6} />
-          <text x={fxX(CO.REST_EDV) + 7} y={fxY(CO.REST_SV) - 6} fill="#fbbf24" fontSize={9}>cours · 135→70</text>
+          <text x={fxX(CO.REST_EDV) + 7} y={fxY(CO.REST_SV) - 6} fill="#fbbf24" fontSize={9}>lecture · 135→70</text>
           {/* current operating point */}
           <line x1={fxX(edv)} y1={FY1} x2={fxX(edv)} y2={fxY(sv)} stroke="#e0243a" strokeWidth={0.8} strokeDasharray="3 3" opacity={0.6} />
           <circle cx={fxX(edv)} cy={fxY(sv)} r={5} fill="#e0243a" stroke="#08080a" strokeWidth={1.2} />
@@ -243,7 +243,7 @@ export function CardiacOutputViz() {
             />
           )}
           <text x={wallX + wallW / 2} y={wallY + wallH + 18} textAnchor="middle" fill="#8b8b96" fontSize={9.5}>
-            {ejecting ? 'éjection' : phase < 0.45 ? 'remplissage' : 'repos'}
+            {ejecting ? 'ejection' : phase < 0.45 ? 'remplissage' : 'rest'}
           </text>
           <text x={wallX + wallW / 2} y={wallY + wallH + 32} textAnchor="middle" fill="#34d399" fontSize={10} fontFamily="monospace" fontWeight={600}>
             VE = {sv} ml
@@ -251,16 +251,16 @@ export function CardiacOutputViz() {
         </g>
       </svg>
 
-      {/* ---- CO gauge with course reference markers ---- */}
+      {/* ---- CO gauge with lecturee reference markers ---- */}
       <div className="mt-1">
         <div className="mb-1 flex items-center justify-between text-[11px]">
-          <span className="font-medium text-muted">Débit cardiaque (L/min)</span>
+          <span className="font-medium text-muted">Flow cardiaque (L/min)</span>
           <span className="font-mono text-base font-bold text-primary">{co.toFixed(2)}</span>
         </div>
         <div className="relative h-6 w-full overflow-hidden rounded-md border border-border bg-background/60">
           <div className="absolute inset-y-0 left-0 bg-primary/70 transition-[width] duration-150" style={{ width: `${gaugePct}%` }} />
           {[
-            { v: CO.REST_CO, label: 'repos 5', color: '#fbbf24' },
+            { v: CO.REST_CO, label: 'rest 5', color: '#fbbf24' },
             { v: CO.MAX_CO_LOW, label: 'max 20–25', color: '#60a5fa' },
             { v: CO.ATHLETE_CO, label: 'athlète 35', color: '#34d399' },
           ].map((m) => (
@@ -272,7 +272,7 @@ export function CardiacOutputViz() {
         </div>
         <div className="mt-0.5 flex justify-between font-mono text-[9px] text-faint">
           <span>0</span>
-          <span>réserve cardiaque = DC exercice − DC repos (p. 6)</span>
+          <span>réserve cardiaque = DC exercice − DC rest (p. 6)</span>
           <span>{GAUGE_MAX}</span>
         </div>
       </div>

@@ -33,7 +33,7 @@ export function SlideLibrary({ activeId, onSelect, className }: SlideLibraryProp
           <input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Rechercher une structure, un terme…"
+            placeholder="Search for a structure or term…"
             className="w-full rounded-lg border border-border bg-background py-1.5 pl-8 pr-7 text-xs text-foreground placeholder:text-faint focus:border-primary/50 focus:outline-none"
           />
           {searching && (

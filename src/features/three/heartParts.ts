@@ -7,11 +7,11 @@ import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js
  * This is a stylized-but-anatomically-organized demonstration model built from
  * parametric geometry (chambers, great vessels, coronaries). It is NOT a
  * scanned anatomical asset and carries NO medical facts: every educational
- * statement is read from the course data layer (src/data), never from here.
+ * statement is read from the lecturee data layer (src/data), never from here.
  *
  * The model is data-driven: to add a structure, register it in
  * src/data/anatomy.ts and append a HeartPartDef below — hover, click,
- * highlight, labels, camera focus and the course-content panel pick it up
+ * highlight, labels, camera focus and the lecturee-content panel pick it up
  * automatically. When a real GLTF heart is supplied, drop it in src/models/
  * and register it in modelRegistry; the viewer switches over unchanged.
  *

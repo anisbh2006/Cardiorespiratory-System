@@ -11,12 +11,12 @@ import { useDisciplineProgress } from '@/features/study/useProgress'
 import { useStudy } from '@/features/study/StudyContext'
 
 const anatomyCta: Record<string, { to: string; label: string }> = {
-  'anatomie-cardiovasculaire': { to: '/anatomy?system=cardiovascular', label: 'Ouvrir le cœur en 3D' },
+  'anatomie-cardiovasculaire': { to: '/anatomy?system=cardiovascular', label: 'Open the heart in 3D' },
   'anatomie-respiratoire': { to: '/anatomy?system=respiratory', label: 'Ouvrir l\'appareil respiratoire en 3D' },
   histologie: { to: '/histologie', label: 'Ouvrir le visualiseur d\'histologie' },
   biophysique: { to: '/biophysique', label: 'Ouvrir l\'atelier de biophysique' },
-  'physiologie-cardiovasculaire': { to: '/physiologie?system=cardiovascular', label: 'Ouvrir les visualisations' },
-  'physiologie-respiratoire': { to: '/physiologie?system=respiratory', label: 'Ouvrir les visualisations' },
+  'physiologie-cardiovasculaire': { to: '/physiologie?system=cardiovascular', label: 'Open visualizations' },
+  'physiologie-respiratoire': { to: '/physiologie?system=respiratory', label: 'Open visualizations' },
 }
 
 export default function DisciplinePage() {
@@ -93,7 +93,7 @@ export default function DisciplinePage() {
         {discipline.chapters.length === 0 ? (
           <AwaitingContent
             title={`Chapitres de « ${discipline.titleFr} » en attente d'intégration`}
-            description="Les noms et contenus exacts des chapitres proviendront des fichiers de cours fournis. Aucun chapitre n'est inventé en l'absence du matériel source (spécification : « Do not invent chapter names if they are not present in the source material »)."
+            description="Les noms et contenus exacts des chapitres proviendront des fichiers de lecture fournis. Aucun chapitre n'est inventé en l'absence du matériel source (spécification : « Do not invent chapter names if they are not present in the source material »)."
           />
         ) : (
           <div className="space-y-4">

@@ -47,18 +47,18 @@ export function ActionPotentialViz() {
 
   return (
     <VizFrame
-      title="Activité électrique — potentiel d'action cardiaque"
-      subtitle="PA rapide (cellule ventriculaire) et PA lent (cellule nodale), phases et courants ioniques"
+      title="Electrical activity — potentiel d'action cardiaque"
+      subtitle="PA rapide (cell ventriculaire) et PA lent (cell nodale), phases et courants ioniques"
       icon={<Zap className="h-4 w-4" />}
       system="cardiovascular"
       clock={clock}
       cycleSeconds={AP.WINDOW_MS / 1000}
       readout={readout}
       legend={[
-        { color: '#e0243a', label: 'Phase 0 · dépolarisation' },
+        { color: '#e0243a', label: 'Phase 0 · depolarization' },
         { color: '#fbbf24', label: 'Phase 2 · plateau' },
-        { color: '#34d399', label: 'Phase 3 · repolarisation' },
-        { color: '#a78bfa', label: 'Phase 4 · repos / DDL' },
+        { color: '#34d399', label: 'Phase 3 · repolarization' },
+        { color: '#a78bfa', label: 'Phase 4 · rest / DDL' },
       ]}
       sources={AP.SOURCES}
       lesson={AP.LESSON}
@@ -104,7 +104,7 @@ export function ActionPotentialViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs du cours</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs the lesson</div>
             <dl className="mt-2 space-y-1.5">
               {AP.KEY_FACTS.map((f) => (
                 <div key={f.label} className="flex items-baseline justify-between gap-2 text-[11px]">
@@ -121,8 +121,8 @@ export function ActionPotentialViz() {
       <div className="mb-2 flex flex-wrap gap-1.5">
         {(
           [
-            { id: 'rapid', label: 'PA rapide — cellule ventriculaire' },
-            { id: 'slow', label: 'PA lent — cellule nodale' },
+            { id: 'rapid', label: 'PA rapide — cell ventriculaire' },
+            { id: 'slow', label: 'PA lent — cell nodale' },
           ] as const
         ).map((o) => (
           <button
@@ -143,7 +143,7 @@ export function ActionPotentialViz() {
         ))}
       </div>
 
-      <svg viewBox="0 0 720 320" className="h-auto w-full select-none" role="img" aria-label="Potentiel d'action cardiaque animé">
+      <svg viewBox="0 0 720 320" className="h-auto w-full select-none" role="img" aria-label="Animated cardiac action potential">
         {/* phase bands */}
         {phases.map((ph) => (
           <g key={ph.id}>

@@ -21,7 +21,7 @@ function LoadingSkeleton() {
       <div className="shimmer h-4 w-9/12 rounded bg-overlay/70" />
       <div className="shimmer h-56 w-full rounded-xl bg-overlay/60" />
       <div className="shimmer h-4 w-10/12 rounded bg-overlay/70" />
-      <span className="sr-only">Chargement du contenu du cours…</span>
+      <span className="sr-only">Loading lesson content…</span>
     </div>
   )
 }
@@ -64,8 +64,8 @@ export function LessonContent({
   if (failed) {
     return (
       <AwaitingContent
-        title={`« ${lessonTitle} » — contenu en attente d'intégration`}
-        description="Le contenu de cette leçon sera intégré tel quel depuis les fichiers de cours fournis, sans réécriture ni invention."
+        title={`« ${lessonTitle} » — content awaiting integration`}
+        description="Le contenu de cette leçon sera intégré tel quel depuis les fichiers de lecture fournis, sans réécriture ni invention."
       />
     )
   }

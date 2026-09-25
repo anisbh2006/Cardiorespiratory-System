@@ -240,13 +240,13 @@ export function MicroscopeViewer({ slide, className, toolbarExtra }: MicroscopeV
         </div>
 
         <div className="flex shrink-0 items-center gap-0.5">
-          <ToolButton onClick={() => zoomAt(zoom / 1.4, { x: 0, y: 0 })} title="Dézoomer (−)">
+          <ToolButton onClick={() => zoomAt(zoom / 1.4, { x: 0, y: 0 })} title="Zoom out (−)">
             <Minus className="h-3.5 w-3.5" />
           </ToolButton>
           <button
             type="button"
             onClick={reset}
-            title="Ajuster à l'écran"
+            title="Fit to screen"
             className="w-14 rounded-md py-1 text-center font-mono text-[11px] text-muted transition-colors hover:bg-elevated hover:text-foreground cursor-pointer"
           >
             {zoomPct}%
@@ -255,10 +255,10 @@ export function MicroscopeViewer({ slide, className, toolbarExtra }: MicroscopeV
             <Plus className="h-3.5 w-3.5" />
           </ToolButton>
           <span className="mx-1 h-4 w-px bg-border" />
-          <ToolButton onClick={actualPixels} title="Pixels réels (1:1)">
+          <ToolButton onClick={actualPixels} title="Actual pixels (1:1)">
             <Scan className="h-3.5 w-3.5" />
           </ToolButton>
-          <ToolButton onClick={reset} title="Réinitialiser (0)">
+          <ToolButton onClick={reset} title="Reset (0)">
             <RotateCcw className="h-3.5 w-3.5" />
           </ToolButton>
           {annotations.length > 0 && (
@@ -266,10 +266,10 @@ export function MicroscopeViewer({ slide, className, toolbarExtra }: MicroscopeV
               <Crosshair className="h-3.5 w-3.5" />
             </ToolButton>
           )}
-          <ToolButton onClick={() => setShowReticle((v) => !v)} title="Réticule" active={showReticle}>
+          <ToolButton onClick={() => setShowReticle((v) => !v)} title="Reticle" active={showReticle}>
             <Crosshair className="h-3.5 w-3.5" />
           </ToolButton>
-          <ToolButton onClick={toggleFullscreen} title="Plein écran (F)">
+          <ToolButton onClick={toggleFullscreen} title="Fullscreen (F)">
             {isFullscreen ? <Minimize2 className="h-3.5 w-3.5" /> : <Maximize2 className="h-3.5 w-3.5" />}
           </ToolButton>
         </div>

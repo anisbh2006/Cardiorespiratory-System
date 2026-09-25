@@ -1,7 +1,7 @@
 import type { Chapter, CourseMeta, Discipline, Lesson } from './types'
 import { manifest } from './contentLoader'
 
-export const courseMeta: CourseMeta = {
+export const lectureeMeta: CourseMeta = {
   code: 'UEI / VEI 01',
   titleEn: 'Cardiorespiratory System',
   subtitle: 'Cardiorespiratory System and Hematopoietic Organs — Medical Student Learning Platform',
@@ -9,7 +9,7 @@ export const courseMeta: CourseMeta = {
 
 /**
  * Chapters are derived from the generated content manifest, which in turn is
- * extracted verbatim from the supplied course files. Chapter titles and section
+ * extracted verbatim from the supplied lecturee files. Chapter titles and section
  * names therefore always originate from the source material — nothing is
  * invented here (specification: "Do not invent chapter names if they are not
  * present in the source material").
@@ -26,14 +26,14 @@ function chaptersFor(disciplineId: string): Chapter[] {
         id: m.chapterId,
         title: m.title,
         status: 'ready',
-        summary: m.kind === 'td' ? 'Séance de travaux dirigés.' : undefined,
+        summary: m.kind === 'td' ? 'Tutorial session.' : undefined,
       }
       return {
         id: m.chapterId,
         number: Number.isFinite(number) ? number : 90,
         title: m.title,
         status: 'ready',
-        kind: m.kind === 'td' ? 'td' : 'cours',
+        kind: m.kind === 'td' ? 'td' : 'lecture',
         lessons: [lesson],
       }
     })
@@ -44,7 +44,7 @@ function chaptersFor(disciplineId: string): Chapter[] {
  * The six disciplines of UEI/VEI 01.
  *
  * Titles are exactly as supplied in the project specification.
- * Chapters and lessons are intentionally empty until the course files are
+ * Chapters and lessons are intentionally empty until the lecturee files are
  * provided — chapter names must come from the source material and must
  * never be invented (see project specification, "COURSE ARCHITECTURE").
  */
@@ -52,61 +52,61 @@ export const disciplines: Discipline[] = [
   {
     id: 'anatomie-cardiovasculaire',
     slug: 'anatomie-cardiovasculaire',
-    titleFr: 'Anatomie cardiovasculaire',
+    titleFr: 'Cardiovascular Anatomy',
     titleEn: 'Cardiovascular Anatomy',
     icon: 'Heart',
     tagline:
-      "Morphologie et structure du cœur et des grands vaisseaux — à partir du contenu du cours fourni.",
+      "Morphologie et structure du heart et des grands vaisseaux — à partir du contenu the lesson fourni.",
     chapters: chaptersFor('anatomie-cardiovasculaire'),
   },
   {
     id: 'anatomie-respiratoire',
     slug: 'anatomie-respiratoire',
-    titleFr: 'Anatomie respiratoire',
+    titleFr: 'Respiratory Anatomy',
     titleEn: 'Respiratory Anatomy',
     icon: 'Wind',
     tagline:
-      "Poumons, trachée, bronches et cavité thoracique — à partir du contenu du cours fourni.",
+      "Lungs, trachea, bronchi, and thoracic cavity — à partir du contenu the lesson fourni.",
     chapters: chaptersFor('anatomie-respiratoire'),
   },
   {
     id: 'biophysique',
     slug: 'biophysique',
-    titleFr: 'Biophysique',
+    titleFr: 'Biophysics',
     titleEn: 'Biophysics',
     icon: 'Atom',
     tagline:
-      "Principes physiques appliqués aux systèmes cardiorespiratoires — équations et diagrammes du cours.",
+      "Physical principles applied to cardiorespiratory systems — lesson equations and diagrams.",
     chapters: chaptersFor('biophysique'),
   },
   {
     id: 'histologie',
     slug: 'histologie',
-    titleFr: 'Histologie',
+    titleFr: 'Histology',
     titleEn: 'Histology',
     icon: 'Microscope',
     tagline:
-      "Étude microscopique des tissus cardiorespiratoires — imagerie histologique fournie.",
+      "Microscopic study of cardiorespiratory tissuees, with supplied histology images.",
     chapters: chaptersFor('histologie'),
   },
   {
     id: 'physiologie-cardiovasculaire',
     slug: 'physiologie-cardiovasculaire',
-    titleFr: 'Physiologie cardiovasculaire',
+    titleFr: 'Cardiovascular Physiology',
     titleEn: 'Cardiovascular Physiology',
     icon: 'Activity',
     tagline:
-      "Cycle cardiaque, hémodynamique et activité électrique — visualisations basées sur le cours.",
+      "Cycle cardiaque, hémodynamique et electrical activity — visualisations basées sur le lecture.",
     chapters: chaptersFor('physiologie-cardiovasculaire'),
   },
   {
     id: 'physiologie-respiratoire',
     slug: 'physiologie-respiratoire',
-    titleFr: 'Physiologie respiratoire',
+    titleFr: 'Respiratory Physiology',
     titleEn: 'Respiratory Physiology',
     icon: 'AirVent',
     tagline:
-      "Ventilation, échanges gazeux et mécanique pulmonaire — visualisations basées sur le cours.",
+      "Ventilation, échanges gazeux et mécanique pulmonaire — visualisations basées sur le lecture.",
     chapters: chaptersFor('physiologie-respiratoire'),
   },
 ]

@@ -19,7 +19,7 @@ const typeIcons = {
 const typeLabels = {
   discipline: 'Discipline',
   chapter: 'Chapitre',
-  lesson: 'Leçon',
+  lesson: 'Lesson',
   topic: 'Section',
   structure: 'Structure',
   term: 'Terme',
@@ -60,10 +60,10 @@ export default function SearchPage() {
     <div className="pt-14">
       <div className="mx-auto max-w-4xl px-6 py-12">
         <h1 className="font-serif text-3xl font-bold tracking-tight text-foreground">
-          Recherche médicale globale
+          Global medical search
         </h1>
         <p className="mt-2 text-sm text-muted">
-          Termes, structures, chapitres, leçons et concepts — dans l'ensemble des six
+          Terms, structures, chapters, lessons, and concepts across all six
           disciplines de l'UEI/VEI 01.
         </p>
 
@@ -74,7 +74,7 @@ export default function SearchPage() {
               ref={inputRef}
               value={query}
               onChange={(e) => setSearchParams(e.target.value ? { q: e.target.value } : {})}
-              placeholder="Ex. : ventricule, aorte, histologie, ventilation…"
+              placeholder="E.g.: ventricule, aorte, histologie, ventilation…"
               className="h-11 pl-9"
             />
           </div>

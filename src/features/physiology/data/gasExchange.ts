@@ -3,12 +3,12 @@ import type { LessonRef, SourceRef } from '../provenance'
 
 /**
  * Pulmonary gas-exchange data — every number, pressure, law and membrane layer
- * is taken verbatim from "Échanges gazeux pulmonaire et systémique" (pr-10).
+ * is taken verbatim from "Pulmonary and Systemic Gas Exchange" (pr-10).
  *
  * Schematic note: the *shape* of the capillary equilibration curve is a drawing
  * of the process pr-10 describes (blood PO2 rises from 40 toward the alveolar
  * 105, equilibrium reached in 0.3–0.4 s); the *endpoints* (40 → 105 mmHg,
- * 46 → 40 mmHg) and the equilibration time are the course's own.
+ * 46 → 40 mmHg) and the equilibration time are the lecturee's own.
  */
 
 export const EQUILIBRATION_SECONDS = 0.4 // pr-10 p.20 (equilibrium reached in 0.3–0.4 s)
@@ -38,9 +38,9 @@ export const AIR_O2_PCT = 21
 /* Membrane (p.12 / p.13). */
 export const MEMBRANE_THICKNESS = '0,3 à 0,5 µm'
 export const MEMBRANE_LAYERS = [
-  'Film liquidien alvéolaire + surfactant',
+  'Film alveolar fluid + surfactant',
   'Épithélium alvéolaire',
-  'Membrane basale des cellules épithéliales',
+  'Membrane basale des cells épithéliales',
   'Espace interstitiel',
   'Membrane basale du capillaire',
   'Endothélium capillaire',
@@ -89,8 +89,8 @@ export const PRESSURE_TABLE: GasRow[] = [
   { compartment: 'Air atmosphérique', po2: '160', pco2: '0,23', page: 6 },
   { compartment: 'Air inspiré (humidifié)', po2: '≈ 150', pco2: '—', page: 9 },
   { compartment: 'Alvéole', po2: '≈ 105', pco2: '40', page: 10 },
-  { compartment: 'Sang veineux (entrée)', po2: '40', pco2: '46', page: 14 },
-  { compartment: 'Sang artériel (sortie)', po2: '105', pco2: '40', page: 17 },
+  { compartment: 'Blood veinux (entrée)', po2: '40', pco2: '46', page: 14 },
+  { compartment: 'Blood artériel (sortie)', po2: '105', pco2: '40', page: 17 },
   { compartment: 'Tissus périphériques', po2: '≤ 40', pco2: '≥ 46', page: 15 },
 ]
 
@@ -98,8 +98,8 @@ export const KEY_FACTS: { label: string; value: string; page: number }[] = [
   { label: 'Équilibre atteint en', value: EQUILIBRATION_LABEL, page: 20 },
   { label: 'K CO₂ vs O₂', value: 'K CO₂ ≫ K O₂ (solubilité)', page: 21 },
   { label: 'Ventilation alvéolaire', value: '4000 ml/min', page: 22 },
-  { label: 'Débit cardiaque', value: '5000 ml/min', page: 22 },
-  { label: 'Débit O₂ / CO₂', value: '≈ 250 / 200 ml/min', page: 22 },
+  { label: 'Flow cardiaque', value: '5000 ml/min', page: 22 },
+  { label: 'Flow O₂ / CO₂', value: '≈ 250 / 200 ml/min', page: 22 },
   { label: 'DLCO · DLO₂', value: '17 · 21 ml/min/mmHg', page: 26 },
   { label: 'PAO₂ · PaO₂', value: '≈ 105 · ≈ 100 mmHg', page: 34 },
 ]

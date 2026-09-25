@@ -19,21 +19,21 @@ export interface VizEntry {
 
 /**
  * Registry of interactive physiology visualizations. Each entry is backed by a
- * specific course chapter (see the visualization's own `sources`). Adding a new
+ * specific lecturee chapter (see the visualization's own `sources`). Adding a new
  * visualization = build the component and append an entry here.
  */
 export const VIZ: VizEntry[] = [
   {
     id: 'cardiac-cycle',
-    title: 'Le cycle cardiaque',
-    blurb: 'ECG, pressions, volume, valves et bruits du cœur synchronisés sur 0,8 s.',
+    title: 'The Cardiac Cycle',
+    blurb: 'ECG, pressures, volume, valves et bruits du heart synchronisés sur 0,8 s.',
     system: 'cardiovascular',
     icon: HeartPulse,
     Component: CardiacCycleViz,
   },
   {
     id: 'electrical-activity',
-    title: 'Activité électrique',
+    title: 'Electrical activity',
     blurb: 'Potentiels d’action rapide et lent, phases, courants ioniques, périodes réfractaires et conduction.',
     system: 'cardiovascular',
     icon: Zap,
@@ -41,7 +41,7 @@ export const VIZ: VizEntry[] = [
   },
   {
     id: 'cardiac-output',
-    title: 'Débit cardiaque',
+    title: 'Flow cardiaque',
     blurb: 'DC = HR × VE : faites varier fréquence et précharge, relation de Frank-Starling et réserve cardiaque.',
     system: 'cardiovascular',
     icon: Gauge,
@@ -49,7 +49,7 @@ export const VIZ: VizEntry[] = [
   },
   {
     id: 'circulation',
-    title: 'Circulation coronaire',
+    title: 'Coronary circulation',
     blurb: 'Flux coronaire phasique : irrigation du VG bloquée en systole, assurée à 70–80 % en diastole.',
     system: 'cardiovascular',
     icon: HeartHandshake,
@@ -58,7 +58,7 @@ export const VIZ: VizEntry[] = [
   {
     id: 'ventilation',
     title: 'Ventilation pulmonaire',
-    blurb: 'Mécanique ventilatoire : diaphragme, intercostaux, pressions alvéolaire/pleurale et flux sur 4,5 s.',
+    blurb: 'Ventilatory mechanics : diaphragme, intercostaux, pressures alvéolaire/pleurale et flux sur 4,5 s.',
     system: 'respiratory',
     icon: Wind,
     Component: VentilationViz,
@@ -73,8 +73,8 @@ export const VIZ: VizEntry[] = [
   },
   {
     id: 'spirometry',
-    title: 'Spirométrie · volumes',
-    blurb: 'Volumes et capacités pulmonaires, ventilation calme vs forcée, VEMS/CVF (Tiffeneau).',
+    title: 'Spirometry · volumes',
+    blurb: 'Volumes et lung capacities, ventilation quiet vs forced, VEMS/CVF (Tiffeneau).',
     system: 'respiratory',
     icon: RefreshCw,
     Component: SpirometryViz,

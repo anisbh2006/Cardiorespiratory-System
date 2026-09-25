@@ -3,13 +3,13 @@ import type { LessonRef, SourceRef } from '../provenance'
 
 /**
  * Cardiac electrophysiology data — every number, phase, ionic current and
- * conduction velocity is taken verbatim from the supplied course chapter
- * "Électrophysiologie cardiaque" (pc-1).
+ * conduction velocity is taken verbatim from the supplied lecturee chapter
+ * "Cardiac Electrophysiology" (pc-1).
  *
  * Schematic note: the *shape* of each action-potential curve is a drawing of the
  * sequence the chapter describes; the *landmarks* (rest −80 mV, overshoot
  * +20/+30 mV, threshold −45 mV, max diastolic −65 mV, phase order, refractory
- * boundaries, conduction velocities, ion concentrations) are the course's own.
+ * boundaries, conduction velocities, ion concentrations) are the lecturee's own.
  * Time axis is the 0–300 ms window of the chapter's figures (p.34, p.37).
  */
 
@@ -31,26 +31,26 @@ export interface ApPhase {
   /** Normalized window [start, end] over the 0–300 ms figure. */
   start: number
   end: number
-  /** Dominant ionic movement described by the course for this phase. */
+  /** Dominant ionic movement described by the lecturee for this phase. */
   ion: string
   detail: string
 }
 
 /** Phases of the rapidly-depolarizing cell AP (ventricular) — pc-1 p.18–25. */
 export const RAPID_PHASES: ApPhase[] = [
-  { id: '0', label: 'Phase 0 · dépolarisation rapide', start: 0.0, end: 0.02, ion: 'Na⁺ entrée', detail: 'Ouverture des canaux Na⁺ voltage-dépendants, entrée rapide de Na⁺ ; le potentiel inverse et atteint +20 à +30 mV. Activation de INa ≈ 1 ms, inactivation 10–15 ms.' },
-  { id: '1', label: 'Phase 1 · repolarisation initiale', start: 0.02, end: 0.06, ion: 'K⁺ sortie', detail: 'Inactivation des canaux Na⁺ ; courant potassique transitoire sortant par les canaux K⁺ voltage-dépendants rapides.' },
+  { id: '0', label: 'Phase 0 · depolarization rapide', start: 0.0, end: 0.02, ion: 'Na⁺ entrée', detail: 'Ouverture des canaux Na⁺ voltage-dépendants, entrée rapide de Na⁺ ; le potentiel inverse et atteint +20 à +30 mV. Activation de INa ≈ 1 ms, inactivation 10–15 ms.' },
+  { id: '1', label: 'Phase 1 · repolarization initiale', start: 0.02, end: 0.06, ion: 'K⁺ sortie', detail: 'Inactivation des canaux Na⁺ ; courant potassique transitoire sortant par les canaux K⁺ voltage-dépendants rapides.' },
   { id: '2', label: 'Phase 2 · plateau', start: 0.06, end: 0.55, ion: 'Ca²⁺ entrée', detail: 'Ouverture prolongée des canaux Ca²⁺ de type L (récepteurs dihydropyridine, DHPR) ; entrée de Ca²⁺.' },
-  { id: '3', label: 'Phase 3 · repolarisation rapide', start: 0.55, end: 0.8, ion: 'K⁺ sortie', detail: 'Fermeture des canaux Ca²⁺ de type L et ouverture d’autres sous-types de canaux K⁺ ; sortie rapide de K⁺, retour au potentiel de repos.' },
-  { id: '4', label: 'Phase 4 · repos électrique (diastole)', start: 0.8, end: 1.0, ion: 'Na⁺/K⁺ ATPase · NCX', detail: 'Potentiel de repos ≈ −80 mV ; restauration des gradients par l’échangeur Na⁺/Ca²⁺ et la pompe Na⁺/K⁺ (2 K⁺ entrants pour 3 Na⁺ sortants).' },
+  { id: '3', label: 'Phase 3 · repolarization rapide', start: 0.55, end: 0.8, ion: 'K⁺ sortie', detail: 'Fermeture des canaux Ca²⁺ de type L et ouverture d’autres sous-types de canaux K⁺ ; sortie rapide de K⁺, retour au potentiel de rest.' },
+  { id: '4', label: 'Phase 4 · rest électrique (diastole)', start: 0.8, end: 1.0, ion: 'Na⁺/K⁺ ATPase · NCX', detail: 'Potentiel de rest ≈ −80 mV ; restauration des gradients par l’échangeur Na⁺/Ca²⁺ et la pompe Na⁺/K⁺ (2 K⁺ entrants pour 3 Na⁺ sortants).' },
 ]
 
 /** Phases of the slowly-depolarizing (nodal / pacemaker) AP — pc-1 p.37–40. */
 export const SLOW_PHASES: ApPhase[] = [
-  { id: '4', label: 'Phase 4 · potentiel pacemaker (DDL)', start: 0.0, end: 0.45, ion: 'Na⁺ entrée (canaux f)', detail: 'Pas de potentiel de repos stable : dépolarisation diastolique lente et spontanée. Vers −65 mV, IK diminue et les canaux « f » (Na⁺/K⁺) s’ouvrent ; l’entrée de Na⁺ l’emporte, puis canaux Ca²⁺ T et L.' },
-  { id: '0', label: 'Phase 0 · dépolarisation', start: 0.45, end: 0.58, ion: 'Ca²⁺ entrée (type L)', detail: 'Au seuil (−45 mV), le courant calcique entrant ICa (canaux Ca²⁺ de type L) déclenche le potentiel d’action. Phase 0 lente.' },
-  { id: '3', label: 'Phase 3 · repolarisation', start: 0.58, end: 0.9, ion: 'K⁺ sortie', detail: 'Fermeture des canaux Ca²⁺ au sommet du PA ; le courant sortant IK (canaux K⁺) ramène le potentiel vers le maximum diastolique (−65 mV).' },
-  { id: '4b', label: 'Retour au maximum diastolique', start: 0.9, end: 1.0, ion: '—', detail: 'Le potentiel rejoint ≈ −65 mV, puis la dépolarisation diastolique lente reprend. Pas de phases 1 ni 2.' },
+  { id: '4', label: 'Phase 4 · potentiel pacemaker (DDL)', start: 0.0, end: 0.45, ion: 'Na⁺ entrée (canaux f)', detail: 'Pas de potentiel de rest stable : depolarization diastolique lente et spontanée. Vers −65 mV, IK diminue et les canaux « f » (Na⁺/K⁺) s’ouvrent ; l’entrée de Na⁺ l’emporte, puis canaux Ca²⁺ T et L.' },
+  { id: '0', label: 'Phase 0 · depolarization', start: 0.45, end: 0.58, ion: 'Ca²⁺ entrée (type L)', detail: 'Au seuil (−45 mV), le courant calcique entrant ICa (canaux Ca²⁺ de type L) déclenche le potentiel d’action. Phase 0 lente.' },
+  { id: '3', label: 'Phase 3 · repolarization', start: 0.58, end: 0.9, ion: 'K⁺ sortie', detail: 'Fermeture des canaux Ca²⁺ au sommet du PA ; le courant sortant IK (canaux K⁺) ramène le potentiel vers le maximum diastolique (−65 mV).' },
+  { id: '4b', label: 'Retour au maximum diastolique', start: 0.9, end: 1.0, ion: '—', detail: 'Le potentiel rejoint ≈ −65 mV, puis la depolarization diastolique lente reprend. Pas de phases 1 ni 2.' },
 ]
 
 export function rapidPhaseAt(p: number): ApPhase {
@@ -127,7 +127,7 @@ export const CONDUCTION: ConductionStep[] = [
   { structure: 'Nœud sinusal (NSA)', velocity: '—', note: 'Pacemaker physiologique : automatisme le plus rapide (100/min), pente de DDL la plus raide.', page: 45 },
   { structure: 'Tissu auriculaire', velocity: '≈ 0,3 m/s', note: 'Propagation radiale depuis le NSA dans les fibres musculaires atriales.', page: 51 },
   { structure: 'Faisceaux internodaux (3 : antérieur, moyen, postérieur)', velocity: '1 m/s', note: 'Conduisent l’influx vers le nœud atrioventriculaire (NAV).', page: 51 },
-  { structure: 'Nœud atrioventriculaire (NAV)', velocity: 'ralenti · 0,09 s', note: 'Ralentissement → décalage entre contraction atriale et ventriculaire.', page: 53 },
+  { structure: 'Nœud atrioventriculaire (NAV)', velocity: 'ralenti · 0,09 s', note: 'Slow motionssement → décalage entre contraction atriale et ventriculaire.', page: 53 },
   { structure: 'Faisceau de His – Purkinje', velocity: '3 à 5 m/s (5 m/s Purkinje)', note: 'Vc la plus élevée, 150× celle du NAV ; transmission quasi instantanée aux deux ventricules.', page: 56 },
 ]
 
@@ -143,10 +143,10 @@ export const PACEMAKER_RATES: PacemakerRow[] = [
 ]
 
 export const KEY_FACTS: { label: string; value: string; page: number }[] = [
-  { label: 'Repos (cellule ventriculaire)', value: '−80 mV', page: 15 },
+  { label: 'Repos (cell ventriculaire)', value: '−80 mV', page: 15 },
   { label: 'Overshoot phase 0', value: '+20 à +30 mV', page: 20 },
   { label: 'Activation / inactivation INa', value: '≈ 1 ms / 10–15 ms', page: 20 },
-  { label: 'Seuil (cellule nodale)', value: '−45 mV', page: 39 },
+  { label: 'Seuil (cell nodale)', value: '−45 mV', page: 39 },
   { label: 'Max diastolique (nodal)', value: '−65 mV', page: 40 },
   { label: 'PA lent : phases absentes', value: 'pas de 1 ni 2', page: 40 },
   { label: 'Électrique → mécanique', value: 'toujours avant', page: 9 },
@@ -164,9 +164,9 @@ export const SOURCES: SourceRef[] = [
   { chapterId: 'pc-1', page: 37, quote: 'The action potential of slowly depolarizing cells does not include phases 1 and 2' },
   { chapterId: 'pc-1', page: 39, quote: 'Once the threshold is reached (-45mV), the incoming calcium current (ICa) due to the opening of L-type calcium channels … triggers the influx (PA)' },
   { chapterId: 'pc-1', page: 40, quote: 'no phases 1 and 2; unstable resting potential depolarizes around -65mV to -45mv (DDL); maximum diastolic membrane potential is less negative around -65mV; slow phase 0' },
-  { chapterId: 'pc-1', page: 51, quote: 'The conduction velocity (Vc) of the auricular tissue is approximately 0.3m/s. The internodal conduction bundles … there are 3 of them: anterior, middle and posterior. Their Vc is 1m/s' },
+  { chapterId: 'pc-1', page: 51, quote: 'The conduction velocity (Vc) of the auricular tissuee is approximately 0.3m/s. The internodal conduction bundles … there are 3 of them: anterior, middle and posterior. Their Vc is 1m/s' },
   { chapterId: 'pc-1', page: 53, quote: 'There is a slowdown in conduction, the time to cross the NAV is 0.09s' },
-  { chapterId: 'pc-1', page: 56, quote: 'The Vc is highest in conduction tissue from 3 to 5m/s (5m/s in Purkinje fibers): 150 times > Vc of the NAV' },
+  { chapterId: 'pc-1', page: 56, quote: 'The Vc is highest in conduction tissuee from 3 to 5m/s (5m/s in Purkinje fibers): 150 times > Vc of the NAV' },
   { chapterId: 'pc-1', page: 47, quote: '100/min (sinus) · 40 to 50/min · 10 to 30/min' },
 ]
 

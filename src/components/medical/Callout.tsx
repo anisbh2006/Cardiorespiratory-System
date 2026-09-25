@@ -18,14 +18,14 @@ const config = {
   },
   clinical: {
     icon: Stethoscope,
-    label: 'Corrélation clinique',
+    label: 'Clinical correlation',
     classes: 'border-info/30 border-l-info bg-info/[0.05]',
     iconClasses: 'text-info',
     labelClasses: 'text-info',
   },
   'key-point': {
     icon: Star,
-    label: 'Point clé',
+    label: 'Key point',
     classes: 'border-warning/30 border-l-warning bg-warning/[0.05]',
     iconClasses: 'text-warning',
     labelClasses: 'text-warning',

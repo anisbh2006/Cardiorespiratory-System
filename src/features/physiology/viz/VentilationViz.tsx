@@ -26,7 +26,7 @@ const TRACKS: Track[] = [
   { id: 'vol', label: 'Volume pulmonaire', color: '#34d399', y0: 40, y1: 96, scale: V.VOLUME_SCALE, ctrl: V.VOLUME, unit: 'ml' },
   { id: 'palv', label: 'Palv − Patm', color: '#e0243a', y0: 110, y1: 158, scale: V.PALV_SCALE, ctrl: V.PALV, unit: 'mmHg', zeroLine: true },
   { id: 'ppl', label: 'Ppl (pleurale)', color: '#a78bfa', y0: 172, y1: 214, scale: V.PPL_SCALE, ctrl: V.PPL, unit: 'cmH2O' },
-  { id: 'flow', label: 'Débit aérien', color: '#60a5fa', y0: 228, y1: 284, scale: V.FLOW_SCALE, ctrl: V.FLOW, unit: 'u.a.', zeroLine: true },
+  { id: 'flow', label: 'Airflow', color: '#60a5fa', y0: 228, y1: 284, scale: V.FLOW_SCALE, ctrl: V.FLOW, unit: 'u.a.', zeroLine: true },
 ]
 
 const clamp = (v: number, a: number, b: number) => Math.min(b, Math.max(a, v))
@@ -72,21 +72,21 @@ export function VentilationViz() {
 
   return (
     <VizFrame
-      title="Mécanique ventilatoire — le cycle respiratoire"
-      subtitle="Pressions, volumes et flux aérien ; inspiration active, expiration passive au repos"
+      title="Ventilatory mechanics - the respiratory cycle"
+      subtitle="Pressures, volumes et flux aérien ; inspiration active, expiration passive au rest"
       icon={<Wind className="h-4 w-4" />}
       system="respiratory"
       clock={clock}
       cycleSeconds={V.CYCLE_SECONDS}
       readout={`t = ${(phase * V.CYCLE_SECONDS).toFixed(2)} s · ${inspiring ? 'INSPIRATION' : 'EXPIRATION'} · Palv−Patm = ${palv >= 0 ? '+' : ''}${palv.toFixed(1)} mmHg`}
       marks={[
-        { at: 0, label: 'début insp.' },
+        { at: 0, label: 'start of inspiration' },
         { at: V.INSPIRATION_END, label: 'fin insp.' },
       ]}
       legend={TRACKS.map((t) => ({ color: t.color, label: `${t.label} (${t.unit})` }))}
       sources={V.SOURCES}
       lesson={V.LESSON}
-      schematicNote="Schéma animé : les formes des courbes Palv et débit sont dessinées d’après la séquence du cours (leur amplitude numérique n’est pas donnée ; seul leur signe et la règle « flux jusqu’à Palv = Patm » proviennent du cours). Ppl (−5 → −8 cmH2O), volumes (VT 500 ml, CRF 2400 ml) et pressions (Patm 760, Ptp 4 mmHg) sont les valeurs citées. La répartition TI/TE est schématique."
+      schematicNote="Animated diagram : les formes des courbes Palv et flow sont dessinées d’après la séquence the lesson (leur amplitude numérique n’est pas donnée ; seul leur signe et la règle « flux jusqu’à Palv = Patm » proviennent the lesson). Ppl (−5 → −8 cmH2O), volumes (VT 500 ml, CRF 2400 ml) et pressures (Patm 760, Ptp 4 mmHg) sont les valeurs citées. La répartition TI/TE est schématique."
       aside={
         <>
           <div className="rounded-lg border border-border bg-background/50 p-3">
@@ -109,7 +109,7 @@ export function VentilationViz() {
               ))}
             </div>
             <div className="mt-2 rounded-md border border-border bg-surface/60 px-2 py-1.5 text-[11px]">
-              <span className="text-muted">Règle du flux : </span>
+              <span className="text-muted">Flow rule : </span>
               <span className="font-mono text-foreground">
                 {Math.abs(palv) < 0.15 ? 'Palv = Patm → flux nul' : palv < 0 ? 'Palv < Patm → l’air entre' : 'Palv > Patm → l’air sort'}
               </span>
@@ -117,7 +117,7 @@ export function VentilationViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Pressions en direct</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Pressures en direct</div>
             <dl className="mt-2 grid grid-cols-2 gap-2 text-[11px]">
               <div className="rounded-md bg-surface/70 p-2">
                 <dt className="text-faint">Patm</dt>
@@ -142,11 +142,11 @@ export function VentilationViz() {
                 <dd className="font-mono text-sm text-success">{Math.round(vol)} ml</dd>
               </div>
             </dl>
-            <div className="mt-1.5 text-[10px] text-faint">Ptp au repos = 760 − 756 = 4 mmHg (p. 14)</div>
+            <div className="mt-1.5 text-[10px] text-faint">Ptp au rest = 760 − 756 = 4 mmHg (p. 14)</div>
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs du cours</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs the lesson</div>
             <dl className="mt-2 space-y-1.5">
               {V.KEY_FACTS.map((f) => (
                 <div key={f.label} className="flex items-baseline justify-between gap-2 text-[11px]">
@@ -163,8 +163,8 @@ export function VentilationViz() {
       <div className="mb-2 flex flex-wrap gap-1.5">
         {(
           [
-            { id: false, label: 'Respiration calme' },
-            { id: true, label: 'Respiration forcée' },
+            { id: false, label: 'Respiration quiet' },
+            { id: true, label: 'Respiration forced' },
           ] as const
         ).map((o) => (
           <button
@@ -182,7 +182,7 @@ export function VentilationViz() {
         ))}
       </div>
 
-      <svg viewBox="0 0 720 320" className="h-auto w-full select-none" role="img" aria-label="Mécanique ventilatoire animée">
+      <svg viewBox="0 0 720 320" className="h-auto w-full select-none" role="img" aria-label="Ventilatory mechanics animée">
         <defs>
           <marker id="vent-arrow" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto">
             <path d="M0,0 L7,3.5 L0,7 Z" fill="#f4f4f2" />
@@ -191,7 +191,7 @@ export function VentilationViz() {
 
         {/* ---------------- Left: thorax schematic ---------------- */}
         <g>
-          <text x={20} y={20} fill="#f4f4f2" fontSize={11} fontWeight={600}>Cage thoracique · poumon · diaphragme</text>
+          <text x={20} y={20} fill="#f4f4f2" fontSize={11} fontWeight={600}>Cage thoracique · lung · diaphragme</text>
 
           {/* trachea + bronchi */}
           <rect x={150} y={30} width={20} height={44} rx={6} fill="#2a2a32" stroke="#3a3a44" />
@@ -218,7 +218,7 @@ export function VentilationViz() {
           {forced && inspiring && (
             <g>
               <path d="M150 34 L138 24 M170 34 L182 24" stroke="#fbbf24" strokeWidth={3} strokeLinecap="round" opacity={0.9} />
-              <text x={96} y={22} fill="#fbbf24" fontSize={8.5}>muscles accessoires du cou</text>
+              <text x={96} y={22} fill="#fbbf24" fontSize={8.5}>accessory neck muscles</text>
             </g>
           )}
 

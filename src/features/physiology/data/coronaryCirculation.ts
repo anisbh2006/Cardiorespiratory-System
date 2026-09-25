@@ -3,15 +3,15 @@ import type { LessonRef, SourceRef } from '../provenance'
 
 /**
  * Coronary-circulation data — every number and mechanism is taken verbatim from
- * the supplied course chapter "La circulation coronaire" (pc-6), with the cycle
- * timing (0.8 s; systole 0.3 s / diastole 0.5 s) from "Le cycle cardiaque" (pc-2).
+ * the supplied lecturee chapter "Coronary Circulation" (pc-6), with the cycle
+ * timing (0.8 s; systole 0.3 s / diastole 0.5 s) from "The Cardiac Cycle" (pc-2).
  *
  * Schematic note: the *shape* of the phasic-flow curves is a drawing of the
  * sequence pc-6 describes (LV flow low during isovolumetric contraction, brief
  * rise at ejection onset, surge during relaxation, high throughout diastole; RV
  * flow equal in systole and diastole). The *landmarks* (0.8 / 0.6 ml/min/g,
  * ×4–5 at exercise, 70–80 % of LV flow in diastole, coronary sinus ≈ 75 %,
- * 25/10 vs 120/80 mmHg) are the course's own.
+ * 25/10 vs 120/80 mmHg) are the lecturee's own.
  */
 
 export const CYCLE_SECONDS = 0.8 // pc-2 p.3
@@ -59,28 +59,28 @@ export const FLOW_SCALE = { min: 0, max: 1.1 }
 
 /* Anatomy — pc-6 p.4–8 (verbatim). */
 export const ANATOMY: { label: string; detail: string; page: number }[] = [
-  { label: 'Origine', detail: 'Les grosses artères coronaires naissent de la racine de l’aorte, à la surface du cœur ; les petites artères plongent dans la masse musculaire.', page: 4 },
-  { label: 'Coronaire gauche', detail: 'Irrigue surtout les parois antérieure et latérale du ventricule gauche (VG).', page: 5 },
-  { label: 'Coronaire droite', detail: 'Irrige le ventricule droit (VD) et la paroi postérieure du cœur.', page: 6 },
-  { label: 'Retour veineux', detail: '≈ 75 % du retour veineux coronaire du VG via le sinus coronaire ; le VD retourne directement à l’oreillette droite par les petites veines cardiaques antérieures (et veines de Thebesius).', page: 7 },
-  { label: 'Artères terminales', detail: 'Type terminal : l’obstruction totale d’une branche arrête la circulation de cette région → infarctus du myocarde.', page: 8 },
+  { label: 'Origin', detail: 'Les grosses arterys coronaires naissent de la racine de l’aorte, à la surface du heart ; les petites arterys plongent dans la masse musculaire.', page: 4 },
+  { label: 'Coronaire gauche', detail: 'Irrigue surtout les parois antérieure et latérale du left ventricle (VG).', page: 5 },
+  { label: 'Coronaire droite', detail: 'Irrige le right ventricle (VD) et la paroi postérieure du heart.', page: 6 },
+  { label: 'Retour veinux', detail: '≈ 75 % du retour veinux coronaire du VG via le sinus coronaire ; le VD retourne directement à l’right atrium par les petites veins cardiaques antérieures (et veins de Thebesius).', page: 7 },
+  { label: 'Artères terminales', detail: 'Type terminal : l’obstruction totale d’une branche arrête la circulation de cette région → myocardial infarction.', page: 8 },
 ]
 
 /* Functional characteristics — pc-6 p.9–10 (verbatim). */
 export const FUNCTIONAL: string[] = [
   'Située dans un organe qui se contracte rythmiquement : au niveau du VG la tension atteint une valeur telle que les vaisseaux (même artériels) sont écrasés → l’irrigation est bloquée pendant une notable partie de la contraction.',
-  'Le myocarde, toujours actif, a un métabolisme élevé : il requiert un apport important en nutriments et encore plus en oxygène.',
-  'La pression à l’entrée du système coronaire est celle qui règne dans l’aorte.',
+  'Le myocardium, toujours actif, a un métabolisme élevé : il requiert un apport important en nutriments et encore plus en oxygène.',
+  'La pressure à l’entrée du system coronaire est celle qui règne dans l’aorte.',
 ]
 
 export const KEY_FACTS: { label: string; value: string; page: number }[] = [
-  { label: 'Débit moyen VG', value: '≈ 0,8 ml/min/g', page: 11 },
-  { label: 'Débit moyen VD', value: '≈ 0,6 ml/min/g', page: 11 },
+  { label: 'Flow moyen VG', value: '≈ 0,8 ml/min/g', page: 11 },
+  { label: 'Flow moyen VD', value: '≈ 0,6 ml/min/g', page: 11 },
   { label: 'Multiplication à l’exercice', value: '× 4 à 5', page: 11 },
   { label: 'Part du flux VG en diastole', value: '70 à 80 %', page: 15 },
   { label: 'Sinus coronaire (retour VG)', value: '≈ 75 %', page: 7 },
   { label: 'Aorte (systolique/diastolique)', value: AORTIC_PRESSURE, page: 26 },
-  { label: 'Artère pulmonaire', value: PULMONARY_PRESSURE, page: 26 },
+  { label: 'Pulmonary artery', value: PULMONARY_PRESSURE, page: 26 },
 ]
 
 export const SOURCES: SourceRef[] = [

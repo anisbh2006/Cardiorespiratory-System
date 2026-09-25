@@ -40,8 +40,8 @@ export function CirculationViz() {
 
   return (
     <VizFrame
-      title="Circulation coronaire — flux phasique au cours du cycle"
-      subtitle="L’irrigation du VG est bloquée en systole (vaisseaux écrasés) et assurée à 70–80 % en diastole"
+      title="Coronary circulation — phasic flow during the cycle"
+      subtitle="LV perfusion is blocked during systole (compressed vessels) and supplied at 70-80% during diastole"
       icon={<HeartHandshake className="h-4 w-4" />}
       system="cardiovascular"
       clock={clock}
@@ -60,7 +60,7 @@ export function CirculationViz() {
       aside={
         <>
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Anatomie (p. 4–8)</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Anatomy (p. 4–8)</div>
             <ul className="mt-2 space-y-2">
               {CR.ANATOMY.map((a) => (
                 <li key={a.label} className="text-[11px] leading-relaxed">
@@ -72,7 +72,7 @@ export function CirculationViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs du cours</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs the lesson</div>
             <dl className="mt-2 space-y-1.5">
               {CR.KEY_FACTS.map((f) => (
                 <div key={f.label} className="flex items-baseline justify-between gap-2 text-[11px]">
@@ -84,7 +84,7 @@ export function CirculationViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Caractéristiques (p. 9–10)</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Characteristics (p. 9–10)</div>
             <ul className="mt-2 list-disc space-y-1.5 pl-4 text-[11px] leading-relaxed text-muted">
               {CR.FUNCTIONAL.map((f, i) => (
                 <li key={i}>{f}</li>
@@ -94,7 +94,7 @@ export function CirculationViz() {
         </>
       }
     >
-      <svg viewBox="0 0 720 260" className="h-auto w-full select-none" role="img" aria-label="Circulation coronaire animée">
+      <svg viewBox="0 0 720 260" className="h-auto w-full select-none" role="img" aria-label="Animated coronary circulation">
         {/* ---------------- Left: heart + coronary arteries ---------------- */}
         <g>
           {/* myocardium silhouette */}
@@ -148,7 +148,7 @@ export function CirculationViz() {
 
         {/* ---------------- Right: phasic flow waveform ---------------- */}
         <g>
-          <text x={WX0} y={24} fill="#f4f4f2" fontSize={11} fontWeight={600}>Flux coronaire instantané au cours du cycle</text>
+          <text x={WX0} y={24} fill="#f4f4f2" fontSize={11} fontWeight={600}>Flux coronaire instantané au lecture du cycle</text>
           {/* systole / diastole bands */}
           <rect x={WX0} y={WY0} width={XP(CR.SYSTOLE_END) - WX0} height={WY1 - WY0} fill="#e0243a" opacity={0.06} />
           <rect x={XP(CR.SYSTOLE_END)} y={WY0} width={WX1 - XP(CR.SYSTOLE_END)} height={WY1 - WY0} fill="#60a5fa" opacity={0.05} />

@@ -154,11 +154,11 @@ export function AnatomyViewer({
   }
 
   const presetItems: { key: ViewPreset; label: string }[] = [
-    { key: 'anterior', label: 'Antérieure' },
-    { key: 'posterior', label: 'Postérieure' },
-    { key: 'left', label: 'Latérale G.' },
-    { key: 'right', label: 'Latérale D.' },
-    { key: 'superior', label: 'Supérieure' },
+    { key: 'anterior', label: 'Anterior' },
+    { key: 'posterior', label: 'Posterior' },
+    { key: 'left', label: 'Left lateral' },
+    { key: 'right', label: 'Right lateral' },
+    { key: 'superior', label: 'Superior' },
   ]
 
   return (
@@ -313,8 +313,8 @@ export function AnatomyViewer({
             </button>
             <button
               onClick={resetCamera}
-              title="Réinitialiser la caméra"
-              aria-label="Réinitialiser la caméra"
+              title="Reset la caméra"
+              aria-label="Reset la caméra"
               className="rounded-md border border-white/10 bg-black/50 p-1.5 text-white/60 backdrop-blur-md transition-colors hover:text-white cursor-pointer"
             >
               <Maximize className="h-3.5 w-3.5" />

@@ -8,12 +8,12 @@ interface AwaitingContentProps {
 }
 
 /**
- * Rendered wherever course source material has not yet been integrated.
+ * Rendered wherever lecturee source material has not yet been integrated.
  * Never replaced by invented medical content.
  */
 export function AwaitingContent({
-  title = 'Contenu en attente d\'intégration',
-  description = 'Cette section affichera le contenu exact des fichiers de cours fournis. Aucune information médicale n\'est inventée : les noms de chapitres, leçons et contenus proviendront intégralement du matériel source.',
+  title = 'Content awaiting d\'intégration',
+  description = 'Cette section affichera le contenu exact des fichiers de lecture fournis. Aucune information médicale n\'est inventée : les noms de chapitres, leçons et contenus proviendront intégralement du matériel source.',
   className,
 }: AwaitingContentProps) {
   return (

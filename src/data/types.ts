@@ -1,9 +1,9 @@
 /**
- * Content schema for the UEI/VEI 01 course.
+ * Content schema for the UEI/VEI 01 lecturee.
  *
  * Hierarchy: Course → Discipline → Chapter → Lesson → Topic → Subtopic
  *
- * All medical content must originate from the supplied course files.
+ * All medical content must originate from the supplied lecturee files.
  * Any entity whose source material has not yet been integrated carries
  * `status: 'awaiting-source'` and MUST NOT be filled with invented content.
  */
@@ -25,7 +25,7 @@ export type ContentBlock =
   | { type: 'image'; src: string; caption: string; credit?: string }
   | {
       type: 'equation'
-      /** Plain-text form of the equation (source of truth from course files). */
+      /** Plain-text form of the equation (source of truth from lecturee files). */
       text: string
       variables?: { symbol: string; meaning: string }[]
     }
@@ -57,8 +57,8 @@ export interface Chapter {
   title: string
   summary?: string
   status: ContentStatus
-  /** 'td' marks a travaux-dirigés session; defaults to a lecture ('cours'). */
-  kind?: 'cours' | 'td'
+  /** 'td' marks a travaux-dirigés session; defaults to a lecture ('lecture'). */
+  kind?: 'lecture' | 'td'
   lessons: Lesson[]
 }
 
@@ -73,7 +73,7 @@ export type DisciplineId =
 export interface Discipline {
   id: DisciplineId
   slug: string
-  /** French title — exactly as supplied by the course. */
+  /** French title — exactly as supplied by the lecturee. */
   titleFr: string
   titleEn: string
   /** Lucide icon name, resolved via the icon registry. */
@@ -93,7 +93,7 @@ export interface AnatomyStructure {
   system: StructureSystem
   nameFr: string
   nameEn?: string
-  /** Filled exclusively from supplied course content. */
+  /** Filled exclusively from supplied lecturee content. */
   definition?: string
   location?: string
   relations?: string
@@ -101,16 +101,16 @@ export interface AnatomyStructure {
   /** Path to a supplied image, when available. */
   imageSrc?: string
   imageCaption?: string
-  /** Link back to the course section describing this structure. */
+  /** Link back to the lecturee section describing this structure. */
   lessonId?: string
   /**
-   * Additional course sections (same discipline) that describe this structure.
+   * Additional lecturee sections (same discipline) that describe this structure.
    * Used to aggregate verbatim excerpts/images in the anatomy info panel.
    */
   relatedLessonIds?: string[]
   /**
    * Verbatim source-language search keys (FR/EN) used to locate this
-   * structure's passages inside the supplied course content. Search keys only
+   * structure's passages inside the supplied lecturee content. Search keys only
    * — never medical explanations.
    */
   searchTerms?: string[]

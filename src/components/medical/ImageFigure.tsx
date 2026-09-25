@@ -19,14 +19,14 @@ export function ImageFigure({ src, caption, credit, className }: ImageFigureProp
           <div className="flex flex-col items-center justify-center gap-2 rounded-md bg-surface/60 px-6 py-12 text-center">
             <ImageIcon className="h-6 w-6 text-faint" />
             <p className="text-xs text-muted">
-              Figure du cours au format métafile (
+              Course figure in metafile format (
               <span className="font-mono text-faint">
                 {src.split('.').pop()?.toUpperCase()}
               </span>
               ) non affichable dans le navigateur.
             </p>
             <p className="text-[11px] text-faint">
-              Elle est conservée telle quelle dans le matériel source — aucune image de
+              It is preserved as supplied in the source material; no image of
               remplacement n'est générée.
             </p>
           </div>

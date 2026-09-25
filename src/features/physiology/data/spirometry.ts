@@ -3,14 +3,14 @@ import type { LessonRef, SourceRef } from '../provenance'
 
 /**
  * Spirometry data — every volume, capacity, formula and threshold is taken
- * verbatim from "Mécanique ventilatoire" (pr-9, p.63–69) and the spirometry TD
- * "TD 02 — Spirométrie" (pr-td02).
+ * verbatim from "Ventilatory mechanics" (pr-9, p.63–69) and the spirometry TD
+ * "TD 02 — Spirometry" (pr-td02).
  *
  * Schematic note: the volume–time curves (spirograms) are drawings of the
- * manoeuvres the course describes; the *landmarks* are the course's own —
+ * manoeuvres the lecturee describes; the *landmarks* are the lecturee's own —
  * VT 500, VRI 3000, ERV 1200, VR 1200 ml; CV 4800, CI 3500, CRF 2400,
  * CPT 6000 ml; anatomical dead space 150 ml; VEMS = 75–80 % de la CV;
- * expiration forcée ≥ 6 s. The forced-expiration curve is drawn so that the
+ * expiration forced ≥ 6 s. The forced-expiration curve is drawn so that the
  * volume expired in the first second falls in the cited 75–80 % range; no
  * numeric value is asserted beyond those cited.
  */
@@ -53,9 +53,9 @@ export interface VolumeDef {
 }
 /** Ordered bottom → top of the stacked volume diagram. */
 export const VOLUME_DEFS: VolumeDef[] = [
-  { key: 'VR', label: 'VR', fr: 'Volume résiduel', value: VR, definition: 'Air restant dans les poumons après expiration maximale.', page: 63 },
+  { key: 'VR', label: 'VR', fr: 'Volume résiduel', value: VR, definition: 'Air restant dans les lungs après expiration maximale.', page: 63 },
   { key: 'ERV', label: 'VRE', fr: "Volume de réserve expiratoire", value: ERV, definition: 'Air expiré avec effort maximal après une expiration normale.', page: 63 },
-  { key: 'VT', label: 'VT', fr: 'Volume courant', value: VT, definition: 'Air inspiré ou expiré au cours de la respiration calme.', page: 63 },
+  { key: 'VT', label: 'VT', fr: 'Volume courant', value: VT, definition: 'Air inspiré ou expiré au lecture de la quiet breathing.', page: 63 },
   { key: 'VRI', label: 'VRI', fr: 'Volume de réserve inspiratoire', value: VRI, definition: 'Air inspiré avec effort maximal en plus d’une inspiration normale.', page: 63 },
 ]
 
@@ -134,7 +134,7 @@ export const KEY_FACTS: { label: string; value: string; page: number }[] = [
   { label: 'Espace mort anatomique', value: '150 ml', page: 67 },
   { label: 'VEMS (FEV)', value: '75–80 % de la CV', page: 66 },
   { label: 'Coefficient de Tiffeneau', value: 'VEMS / CV', page: 66 },
-  { label: 'Expiration forcée', value: '≥ 6 s', page: 28 },
+  { label: 'Expiration forced', value: '≥ 6 s', page: 28 },
 ]
 
 export const SOURCES: SourceRef[] = [
