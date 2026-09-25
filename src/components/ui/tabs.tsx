@@ -20,7 +20,7 @@ export function Tabs({ items, value, onValueChange, className }: TabsProps) {
     <div
       role="tablist"
       className={cn(
-        'inline-flex items-center gap-1 rounded-lg border border-border bg-surface p-1',
+        'inline-flex items-center gap-0.5 rounded-lg border border-border bg-elevated/60 p-1 shadow-[inset_0_1px_2px_rgba(0,0,0,0.3)]',
         className
       )}
     >
@@ -31,15 +31,15 @@ export function Tabs({ items, value, onValueChange, className }: TabsProps) {
           aria-selected={value === item.value}
           onClick={() => onValueChange(item.value)}
           className={cn(
-            'relative flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-colors cursor-pointer',
+            'relative flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-colors duration-200 cursor-pointer',
             value === item.value ? 'text-white' : 'text-muted hover:text-foreground'
           )}
         >
           {value === item.value && (
             <motion.span
               layoutId="tab-indicator"
-              className="absolute inset-0 rounded-md bg-primary/90"
-              transition={{ type: 'spring', stiffness: 400, damping: 32 }}
+              className="absolute inset-0 rounded-md bg-primary shadow-[0_1px_3px_rgba(0,0,0,0.35),0_0_0_1px_rgba(255,255,255,0.06)_inset]"
+              transition={{ type: 'spring', stiffness: 420, damping: 36 }}
             />
           )}
           <span className="relative z-10 flex items-center gap-1.5">

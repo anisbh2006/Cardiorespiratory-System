@@ -28,10 +28,10 @@ function DisciplineCard({ index, slug }: { index: number; slug: string }) {
     >
       <Link
         to={`/discipline/${slug}`}
-        className="group flex h-full flex-col rounded-xl border border-border bg-surface p-6 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_12px_40px_rgba(224,36,58,0.12)]"
+        className="group flex h-full flex-col rounded-xl border border-border bg-surface p-6 transition-[transform,border-color,box-shadow] duration-300 ease-out hover:-translate-y-0.5 hover:border-border-strong hover:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
       >
         <div className="flex items-start justify-between">
-          <span className="flex h-11 w-11 items-center justify-center rounded-lg border border-primary/25 bg-primary/10 text-primary transition-all duration-300 group-hover:bg-primary/20 group-hover:shadow-[0_0_24px_rgba(224,36,58,0.25)]">
+          <span className="flex h-11 w-11 items-center justify-center rounded-lg border border-primary/20 bg-primary/8 text-primary transition-colors duration-300 group-hover:border-primary/35 group-hover:bg-primary/15">
             <Icon className="h-5 w-5" />
           </span>
           <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
@@ -61,8 +61,9 @@ function DisciplineCard({ index, slug }: { index: number; slug: string }) {
           <Progress value={progress} className="h-1" />
         </div>
 
-        <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-primary opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          Ouvrir la discipline <ArrowRight className="h-3.5 w-3.5" />
+        <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-primary/80 transition-colors duration-300 group-hover:text-primary">
+          Ouvrir la discipline
+          <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-0.5" />
         </span>
       </Link>
     </motion.div>
@@ -74,11 +75,10 @@ export default function HomePage() {
     <div className="pt-14">
       {/* ================= HERO ================= */}
       <section className="relative flex min-h-[calc(100vh-3.5rem)] items-center overflow-hidden">
-        {/* ambient glows */}
+        {/* ambient glows — restrained, weighted toward the 3D heart */}
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute left-1/2 top-1/3 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-primary/12 blur-[140px]" />
-          <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-primary/8 blur-[100px]" />
-          <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-[#2a3f5f]/15 blur-[120px]" />
+          <div className="absolute right-[16%] top-1/2 h-[560px] w-[560px] -translate-y-1/2 rounded-full bg-primary/10 blur-[150px]" />
+          <div className="absolute left-0 top-0 h-80 w-80 rounded-full bg-[#2a3f5f]/12 blur-[130px]" />
         </div>
 
         <div className="relative mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-8 px-6 py-16 lg:grid-cols-2">

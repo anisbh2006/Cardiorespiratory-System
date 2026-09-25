@@ -103,7 +103,7 @@ export default function DisciplinePage() {
                 initial={{ opacity: 0, y: 12 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.35, delay: i * 0.05 }}
-                className="rounded-xl border border-border bg-surface p-5"
+                className="rounded-xl border border-border bg-surface p-5 transition-[border-color,box-shadow] duration-300 hover:border-border-strong hover:shadow-[0_8px_28px_rgba(0,0,0,0.28)]"
               >
                 <div className="flex items-center justify-between gap-3">
                   <div className="flex items-center gap-3">
@@ -128,13 +128,13 @@ export default function DisciplinePage() {
                       <Link
                         key={lesson.id}
                         to={`/discipline/${discipline.slug}/${chapter.id}/${lesson.id}`}
-                        className="flex items-center gap-2 rounded-md px-2 py-1.5 text-sm text-muted transition-colors hover:bg-elevated hover:text-foreground"
+                        className="group flex items-center gap-2 rounded-md px-2 py-1.5 text-sm text-muted transition-colors hover:bg-elevated hover:text-foreground"
                       >
                         <span
-                          className={`h-1.5 w-1.5 rounded-full ${done ? 'bg-success' : 'bg-border-strong'}`}
+                          className={`h-1.5 w-1.5 shrink-0 rounded-full ${done ? 'bg-success' : 'bg-border-strong'}`}
                         />
-                        {lesson.title}
-                        <ArrowRight className="ml-auto h-3.5 w-3.5 opacity-0 transition-opacity" />
+                        <span className="truncate">{lesson.title}</span>
+                        <ArrowRight className="ml-auto h-3.5 w-3.5 shrink-0 opacity-0 transition-all duration-200 group-hover:translate-x-0.5 group-hover:opacity-100" />
                       </Link>
                     )
                   })}

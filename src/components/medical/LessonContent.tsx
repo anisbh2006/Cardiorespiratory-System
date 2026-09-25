@@ -15,12 +15,12 @@ interface LessonContentProps {
 function LoadingSkeleton() {
   return (
     <div className="space-y-5" aria-busy="true" aria-live="polite">
-      <div className="h-7 w-2/3 animate-pulse rounded-md bg-overlay" />
-      <div className="h-4 w-full animate-pulse rounded bg-overlay/70" />
-      <div className="h-4 w-11/12 animate-pulse rounded bg-overlay/70" />
-      <div className="h-4 w-9/12 animate-pulse rounded bg-overlay/70" />
-      <div className="h-56 w-full animate-pulse rounded-xl bg-overlay/60" />
-      <div className="h-4 w-10/12 animate-pulse rounded bg-overlay/70" />
+      <div className="shimmer h-7 w-2/3 rounded-md bg-overlay" />
+      <div className="shimmer h-4 w-full rounded bg-overlay/70" />
+      <div className="shimmer h-4 w-11/12 rounded bg-overlay/70" />
+      <div className="shimmer h-4 w-9/12 rounded bg-overlay/70" />
+      <div className="shimmer h-56 w-full rounded-xl bg-overlay/60" />
+      <div className="shimmer h-4 w-10/12 rounded bg-overlay/70" />
       <span className="sr-only">Chargement du contenu du cours…</span>
     </div>
   )

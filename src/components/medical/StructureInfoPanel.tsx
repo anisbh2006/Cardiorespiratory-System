@@ -19,7 +19,7 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
   if (!structure) {
     return (
       <div className="flex h-full flex-col items-center justify-center rounded-xl border border-border bg-surface/60 p-8 text-center">
-        <div className="flex h-12 w-12 items-center justify-center rounded-full border border-primary/25 bg-primary/10 text-primary">
+        <div className="flex h-12 w-12 items-center justify-center rounded-full border border-primary/25 bg-primary/10 text-primary shadow-[0_0_0_4px_rgba(224,36,58,0.04)]">
           <BookOpen className="h-5 w-5" />
         </div>
         <h3 className="mt-4 font-serif text-lg font-semibold text-foreground">
@@ -62,9 +62,9 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
           </h4>
           {content.loading ? (
             <div className="mt-3 space-y-2">
-              <div className="h-4 w-full animate-pulse rounded bg-overlay" />
-              <div className="h-4 w-11/12 animate-pulse rounded bg-overlay" />
-              <div className="h-4 w-9/12 animate-pulse rounded bg-overlay" />
+              <div className="shimmer h-4 w-full rounded bg-overlay" />
+              <div className="shimmer h-4 w-11/12 rounded bg-overlay" />
+              <div className="shimmer h-4 w-9/12 rounded bg-overlay" />
             </div>
           ) : content.excerpts.length > 0 ? (
             <div className="mt-3 space-y-3">

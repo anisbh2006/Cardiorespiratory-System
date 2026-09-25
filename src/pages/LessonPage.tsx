@@ -108,10 +108,10 @@ export default function LessonPage() {
                           key={l.id}
                           to={`/discipline/${discipline.slug}/${ch.id}/${l.id}`}
                           className={cn(
-                            'flex items-center gap-2 rounded-md px-2 py-1.5 text-[13px] transition-colors',
+                            'flex items-center gap-2 rounded-md border-l-2 px-2 py-1.5 text-[13px] transition-colors duration-200',
                             active
-                              ? 'bg-primary/10 font-medium text-primary'
-                              : 'text-muted hover:bg-elevated hover:text-foreground'
+                              ? 'border-l-primary bg-primary/10 font-medium text-primary'
+                              : 'border-l-transparent text-muted hover:bg-elevated hover:text-foreground'
                           )}
                         >
                           <span
@@ -253,7 +253,7 @@ export default function LessonPage() {
                 <h4 className="mb-2 flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
                   <Move3d className="h-3 w-3" /> Anatomie 3D
                 </h4>
-                <React.Suspense fallback={<div className="h-48 animate-pulse rounded-xl bg-overlay" />}>
+                <React.Suspense fallback={<div className="shimmer h-48 rounded-xl bg-overlay" />}>
                   <MiniAnatomyViewer
                     compact
                     className="h-48"

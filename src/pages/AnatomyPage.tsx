@@ -57,7 +57,7 @@ export default function AnatomyPage() {
         {/* LEFT: 3D viewer */}
         <div className="space-y-4">
           <React.Suspense
-            fallback={<div className="h-[480px] animate-pulse rounded-xl bg-overlay lg:h-[600px]" />}
+            fallback={<div className="shimmer h-[480px] rounded-xl bg-overlay lg:h-[600px]" />}
           >
             <AnatomyViewer
               modelId={system === 'cardiovascular' ? 'heart' : 'lungs'}
@@ -74,9 +74,9 @@ export default function AnatomyPage() {
                 key={s.id}
                 onClick={() => setSelectedId(s.id === selectedId ? null : s.id)}
                 className={cn(
-                  'rounded-full border px-3 py-1.5 text-xs font-medium transition-all cursor-pointer',
+                  'rounded-full border px-3 py-1.5 text-xs font-medium transition-[color,border-color,background-color,box-shadow] duration-200 cursor-pointer',
                   s.id === selectedId
-                    ? 'border-primary bg-primary/15 text-primary shadow-[0_0_16px_rgba(224,36,58,0.25)]'
+                    ? 'border-primary bg-primary/15 text-primary shadow-[0_0_14px_rgba(224,36,58,0.2)]'
                     : 'border-border bg-surface text-muted hover:border-border-strong hover:text-foreground'
                 )}
               >

@@ -62,8 +62,8 @@ export default function BiophysicsPage() {
       <main className="mx-auto max-w-7xl space-y-8 px-6 py-10">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
           {capabilities.map((c) => (
-            <div key={c.title} className="rounded-xl border border-border bg-surface p-5">
-              <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-primary/25 bg-primary/10 text-primary">
+            <div key={c.title} className="rounded-xl border border-border bg-surface p-5 transition-[border-color,box-shadow] duration-300 hover:border-border-strong hover:shadow-[0_8px_28px_rgba(0,0,0,0.28)]">
+              <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-primary/20 bg-primary/8 text-primary">
                 <c.icon className="h-4 w-4" />
               </span>
               <h3 className="mt-3 text-sm font-semibold text-foreground">{c.title}</h3>

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { ChevronDown, GraduationCap, Heart, Menu, X } from 'lucide-react'
@@ -14,6 +14,15 @@ const navLinks = [
   { to: '/physiologie', label: 'Physiologie' },
 ]
 
+const navLinkClass = (isActive: boolean) =>
+  cn(
+    'relative rounded-md px-3 py-2 text-sm font-medium transition-colors duration-200',
+    "after:absolute after:inset-x-3 after:bottom-1 after:h-px after:origin-center after:bg-primary after:transition-transform after:duration-300 after:ease-out",
+    isActive
+      ? 'text-foreground after:scale-x-100'
+      : 'text-muted hover:text-foreground after:scale-x-0'
+  )
+
 function DisciplinesDropdown() {
   const [open, setOpen] = useState(false)
   const location = useLocation()
@@ -28,15 +37,16 @@ function DisciplinesDropdown() {
       <button
         onClick={() => setOpen((v) => !v)}
         className={cn(
-          'flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium transition-colors cursor-pointer',
-          isDisciplineRoute
-            ? 'text-primary'
-            : 'text-muted hover:text-foreground'
+          'flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium transition-colors duration-200 cursor-pointer',
+          isDisciplineRoute ? 'text-foreground' : 'text-muted hover:text-foreground'
         )}
       >
         Disciplines
         <ChevronDown
-          className={cn('h-3.5 w-3.5 transition-transform', open && 'rotate-180')}
+          className={cn(
+            'h-3.5 w-3.5 transition-transform duration-200',
+            open && 'rotate-180'
+          )}
         />
       </button>
       <AnimatePresence>
@@ -81,9 +91,24 @@ function DisciplinesDropdown() {
 
 export function TopBar() {
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 8)
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
 
   return (
-    <header className="fixed inset-x-0 top-0 z-40 glass-strong">
+    <header
+      className={cn(
+        'fixed inset-x-0 top-0 z-40 glass-strong transition-[border-color,box-shadow] duration-300',
+        scrolled
+          ? 'border-b border-border/80 shadow-[0_4px_24px_rgba(0,0,0,0.35)]'
+          : 'border-b border-transparent'
+      )}
+    >
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
         <Link to="/" className="group flex items-center gap-2.5">
           <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/15 transition-colors group-hover:bg-primary/25">
@@ -100,16 +125,7 @@ export function TopBar() {
         </Link>
 
         <nav className="hidden items-center gap-0.5 md:flex">
-          <NavLink
-            to="/"
-            end
-            className={({ isActive }) =>
-              cn(
-                'rounded-md px-3 py-2 text-sm font-medium transition-colors',
-                isActive ? 'text-primary' : 'text-muted hover:text-foreground'
-              )
-            }
-          >
+          <NavLink to="/" end className={({ isActive }) => navLinkClass(isActive)}>
             Accueil
           </NavLink>
           <DisciplinesDropdown />
@@ -117,12 +133,7 @@ export function TopBar() {
             <NavLink
               key={link.to}
               to={link.to}
-              className={({ isActive }) =>
-                cn(
-                  'rounded-md px-3 py-2 text-sm font-medium transition-colors',
-                  isActive ? 'text-primary' : 'text-muted hover:text-foreground'
-                )
-              }
+              className={({ isActive }) => navLinkClass(isActive)}
             >
               {link.label}
             </NavLink>

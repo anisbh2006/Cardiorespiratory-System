@@ -14,12 +14,15 @@ const Progress = React.forwardRef<HTMLDivElement, ProgressProps>(
       aria-valuemin={0}
       aria-valuemax={100}
       aria-valuenow={value}
-      className={cn('relative h-1.5 w-full overflow-hidden rounded-full bg-overlay', className)}
+      className={cn(
+        'relative h-1.5 w-full overflow-hidden rounded-full bg-overlay shadow-[inset_0_1px_2px_rgba(0,0,0,0.4)]',
+        className
+      )}
       {...props}
     >
       <div
         className={cn(
-          'h-full rounded-full bg-primary transition-all duration-700 ease-out',
+          'h-full rounded-full bg-primary shadow-[0_0_8px_rgba(224,36,58,0.35)] transition-[width] duration-700 ease-out',
           indicatorClassName
         )}
         style={{ width: `${Math.min(100, Math.max(0, value))}%` }}

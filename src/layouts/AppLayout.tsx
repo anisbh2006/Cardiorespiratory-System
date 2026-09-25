@@ -12,21 +12,25 @@ export function AppLayout() {
       <AnimatePresence mode="wait">
         <motion.main
           key={location.pathname}
-          initial={{ opacity: 0, y: 8 }}
+          initial={{ opacity: 0, y: 6 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -8 }}
-          transition={{ duration: 0.25, ease: 'easeOut' }}
+          exit={{ opacity: 0, y: -4 }}
+          transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
         >
           <Outlet />
         </motion.main>
       </AnimatePresence>
-      <footer className="border-t border-border py-8">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 text-xs text-faint sm:flex-row">
-          <span className="flex items-center gap-1.5">
-            <Heart className="h-3 w-3 text-primary" />
-            UEI / VEI 01 — Cardiorespiratory System and Hematopoietic Organs
+      <footer className="border-t border-border py-10">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 text-xs text-faint sm:flex-row">
+          <span className="flex items-center gap-2">
+            <Heart className="h-3.5 w-3.5 text-primary" />
+            <span className="text-muted">UEI / VEI 01</span>
+            <span className="hidden h-3 w-px bg-border sm:block" />
+            <span className="hidden sm:block">
+              Cardiorespiratory System and Hematopoietic Organs
+            </span>
           </span>
-          <span>Plateforme d'apprentissage pour étudiants en médecine</span>
+          <span className="text-faint">Plateforme d'apprentissage pour étudiants en médecine</span>
         </div>
       </footer>
     </div>

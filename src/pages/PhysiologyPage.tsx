@@ -59,9 +59,9 @@ export default function PhysiologyPage() {
                 key={v.id}
                 onClick={() => setActiveId(v.id)}
                 className={cn(
-                  'flex items-center gap-2 rounded-full border px-3.5 py-2 text-xs font-medium transition-all cursor-pointer',
+                  'flex items-center gap-2 rounded-full border px-3.5 py-2 text-xs font-medium transition-[color,border-color,background-color,box-shadow] duration-200 cursor-pointer',
                   on
-                    ? 'border-primary bg-primary/15 text-primary shadow-[0_0_16px_rgba(224,36,58,0.22)]'
+                    ? 'border-primary bg-primary/15 text-primary shadow-[0_0_14px_rgba(224,36,58,0.18)]'
                     : 'border-border bg-surface text-muted hover:border-border-strong hover:text-foreground'
                 )}
               >
