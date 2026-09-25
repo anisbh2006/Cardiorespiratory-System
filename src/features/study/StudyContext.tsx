@@ -104,18 +104,49 @@ export function StudyProvider({ children }: { children: React.ReactNode }) {
     }
   }, [state])
 
+  // Action dispatchers are stable: `dispatch` from useReducer never changes, so
+  // these callbacks keep a constant identity across renders. Consumers can safely
+  // list them in effect dependencies without retriggering on every state update.
+  const toggleComplete = React.useCallback(
+    (lessonId: string) => dispatch({ type: 'toggle-complete', lessonId }),
+    []
+  )
+  const toggleBookmark = React.useCallback(
+    (itemId: string) => dispatch({ type: 'toggle-bookmark', itemId }),
+    []
+  )
+  const recordView = React.useCallback(
+    (item: RecentItem) => dispatch({ type: 'record-view', item }),
+    []
+  )
+  const recordSearch = React.useCallback(
+    (query: string) => dispatch({ type: 'record-search', query }),
+    []
+  )
+  const clearSearchHistory = React.useCallback(
+    () => dispatch({ type: 'clear-search-history' }),
+    []
+  )
+
   const value = React.useMemo<StudyContextValue>(
     () => ({
       ...state,
-      toggleComplete: (lessonId) => dispatch({ type: 'toggle-complete', lessonId }),
-      toggleBookmark: (itemId) => dispatch({ type: 'toggle-bookmark', itemId }),
-      recordView: (item) => dispatch({ type: 'record-view', item }),
-      recordSearch: (query) => dispatch({ type: 'record-search', query }),
-      clearSearchHistory: () => dispatch({ type: 'clear-search-history' }),
+      toggleComplete,
+      toggleBookmark,
+      recordView,
+      recordSearch,
+      clearSearchHistory,
       isCompleted: (lessonId) => state.completedLessons.includes(lessonId),
       isBookmarked: (itemId) => state.bookmarks.includes(itemId),
     }),
-    [state]
+    [
+      state,
+      toggleComplete,
+      toggleBookmark,
+      recordView,
+      recordSearch,
+      clearSearchHistory,
+    ]
   )
 
   return <StudyContext.Provider value={value}>{children}</StudyContext.Provider>
