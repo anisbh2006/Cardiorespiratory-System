@@ -8,6 +8,7 @@ import { Progress } from '@/components/ui/progress'
 import { Separator } from '@/components/ui/separator'
 import { LessonContent } from '@/components/medical/LessonContent'
 import { getDiscipline, getAllLessons } from '@/data/disciplines'
+import { anatomyStructures } from '@/data/anatomy'
 import { getDisciplineIcon } from '@/data/icons'
 import type { Chapter, Topic } from '@/data/types'
 import { useStudy } from '@/features/study/StudyContext'
@@ -62,6 +63,14 @@ export default function LessonPage() {
   const Icon = getDisciplineIcon(discipline.icon)
   const completed = isCompleted(lesson.id)
   const bookmarked = isBookmarked(lesson.id)
+
+  // Anatomical structures whose supplied course references point at this
+  // chapter (derived from the anatomy data layer — never invented). Lets a
+  // lesson surface its related 3D anatomy without fabricating relationships.
+  const relatedStructures = anatomyStructures.filter(
+    (s) => s.lessonId === chapter.id || s.relatedLessonIds?.includes(chapter.id)
+  )
+  const isCardioAnatomy = discipline.slug === 'anatomie-cardiovasculaire'
 
   return (
     <div className="pt-14">
@@ -247,8 +256,8 @@ export default function LessonPage() {
               </div>
             )}
 
-            {/* 3D viewer when relevant */}
-            {lesson.relatedStructureIds && lesson.relatedStructureIds.length > 0 && (
+            {/* 3D heart — only where the procedural heart is the correct model */}
+            {isCardioAnatomy && relatedStructures.length > 0 && (
               <div>
                 <h4 className="mb-2 flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
                   <Move3d className="h-3 w-3" /> Anatomie 3D
@@ -262,6 +271,26 @@ export default function LessonPage() {
                     showLabels={false}
                   />
                 </React.Suspense>
+              </div>
+            )}
+
+            {/* Related anatomical structures (derived from supplied references) */}
+            {relatedStructures.length > 0 && (
+              <div>
+                <h4 className="font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
+                  Structures liées
+                </h4>
+                <div className="mt-2 flex flex-wrap gap-1.5">
+                  {relatedStructures.map((s) => (
+                    <Link
+                      key={s.id}
+                      to={`/anatomy?system=${s.system === 'respiratory' ? 'respiratory' : 'cardiovascular'}`}
+                      className="rounded-full border border-border bg-surface px-2.5 py-1 text-[11px] text-muted transition-colors hover:border-primary/50 hover:text-foreground"
+                    >
+                      {s.nameFr}
+                    </Link>
+                  ))}
+                </div>
               </div>
             )}
 

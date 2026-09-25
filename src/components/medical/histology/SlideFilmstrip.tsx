@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { SlideThumb } from './SlideThumb'
 import type { HistologySlide } from './types'
 
 interface SlideFilmstripProps {
@@ -57,7 +58,7 @@ export function SlideFilmstrip({ slides, activeId, onSelect, onPrev, onNext }: S
                 : 'border-border opacity-60 hover:opacity-100'
             )}
           >
-            <img src={s.src} alt="" loading="lazy" className="h-full w-full object-cover" />
+            <SlideThumb src={s.src} alt="" />
             <span className="absolute bottom-0 right-0 bg-black/70 px-1 font-mono text-[8px] text-white/80">
               {s.page ?? i + 1}
             </span>

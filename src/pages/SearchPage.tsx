@@ -3,6 +3,7 @@ import { Link, useSearchParams } from 'react-router-dom'
 import { ArrowUpRight, BookOpen, Heart, Layers, Search } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { search, type SearchEntry } from '@/features/search/searchIndex'
+import { lessonRoute } from '@/data/contentLoader'
 import { useStudy } from '@/features/study/StudyContext'
 import { useNavigate } from 'react-router-dom'
 
@@ -29,6 +30,11 @@ function resultLink(entry: SearchEntry): string {
     return entry.disciplineSlug === 'anatomie-respiratoire'
       ? '/anatomy?system=respiratory'
       : '/anatomy'
+  }
+  // Lessons, chapters and topics deep-link to the actual lesson page so a
+  // student lands on the found concept instead of the discipline overview.
+  if (entry.lessonId) {
+    return lessonRoute(entry.lessonId, entry.disciplineSlug) ?? `/discipline/${entry.disciplineSlug}`
   }
   return `/discipline/${entry.disciplineSlug}`
 }

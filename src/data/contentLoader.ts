@@ -28,6 +28,35 @@ export interface ManifestEntry {
 
 export const manifest = manifestJson as ManifestEntry[]
 
+/**
+ * chapterId → discipline slug, for every chapter in the manifest.
+ *
+ * Chapter ids are globally unique, and each chapter holds exactly one lesson
+ * whose id equals the chapter id. This map therefore lets any feature resolve a
+ * lesson id back to its discipline and build a deep link without threading the
+ * slug through every call site (search, recents, bookmarks, anatomy panel).
+ */
+export const disciplineByChapterId: Record<string, string> = Object.fromEntries(
+  manifest.map((m) => [m.chapterId, m.discipline])
+)
+
+/** Chapter title lookup by id (source-derived, never invented). */
+export const chapterTitleById: Record<string, string> = Object.fromEntries(
+  manifest.map((m) => [m.chapterId, m.title])
+)
+
+/**
+ * Build the canonical deep link for a lesson/chapter id:
+ * `/discipline/:slug/:chapterId/:lessonId` (chapterId === lessonId by design).
+ * Returns null when the id is not present in the manifest, so callers can fall
+ * back to a discipline link instead of producing a dead route.
+ */
+export function lessonRoute(lessonId: string, fallbackSlug?: string): string | null {
+  const slug = disciplineByChapterId[lessonId] ?? fallbackSlug
+  if (!slug) return null
+  return `/discipline/${slug}/${lessonId}/${lessonId}`
+}
+
 export interface RawBlock {
   type: string
   level?: number
@@ -92,7 +121,9 @@ export function buildTopics(pages: RawPage[]): Topic[] {
       const title = (p.title || '').trim() || `Planche ${p.n}`
       topics.push({ id: `t-${idx++}`, title, blocks })
     }
-    return topics.length ? topics : [{ id: 't-0', title: 'Contenu du cours', blocks: [] }]
+    return dedupeImages(
+      topics.length ? topics : [{ id: 't-0', title: 'Contenu du cours', blocks: [] }]
+    )
   }
 
   let current: Topic | null = null
@@ -110,5 +141,29 @@ export function buildTopics(pages: RawPage[]): Topic[] {
       }
     }
   }
-  return topics
+  return dedupeImages(topics)
+}
+
+/**
+ * Collapse exact duplicate image blocks (same src AND same caption) within a
+ * lesson, keeping the first occurrence.
+ *
+ * The extractor can emit the same embedded figure once per source page, so a
+ * single lesson would otherwise render an identical image (often with an empty
+ * caption) many times. Distinct references — the same file with a different
+ * caption — are preserved, and no content is invented or rewritten.
+ */
+function dedupeImages(topics: Topic[]): Topic[] {
+  const seen = new Set<string>()
+  return topics.map((topic) => {
+    if (!topic.blocks) return topic
+    const blocks = topic.blocks.filter((b) => {
+      if (b.type !== 'image') return true
+      const key = `${b.src}::${b.caption ?? ''}`
+      if (seen.has(key)) return false
+      seen.add(key)
+      return true
+    })
+    return { ...topic, blocks }
+  })
 }

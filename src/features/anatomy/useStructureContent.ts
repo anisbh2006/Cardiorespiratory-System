@@ -1,6 +1,11 @@
 import * as React from 'react'
-import { loadChapter, type RawBlock } from '@/data/contentLoader'
-import { getDiscipline } from '@/data/disciplines'
+import {
+  chapterTitleById,
+  disciplineByChapterId,
+  loadChapter,
+  lessonRoute,
+  type RawBlock,
+} from '@/data/contentLoader'
 import type { AnatomyStructure } from '@/data/types'
 
 export interface StructureExcerpt {
@@ -69,10 +74,10 @@ export function useStructureContent(structure: AnatomyStructure | null): Structu
       setContent(EMPTY)
       return
     }
-    const slug = system === 'cardiovascular' ? 'anatomie-cardiovasculaire' : 'anatomie-respiratoire'
-    const discipline = getDiscipline(slug)
-    const titleOf = (id: string) => discipline?.chapters.find((c) => c.id === id)?.title ?? null
-    const lessonPath = `/discipline/${slug}/${lessonId}/${lessonId}`
+    const homeSlug =
+      system === 'cardiovascular' ? 'anatomie-cardiovasculaire' : 'anatomie-respiratoire'
+    const titleOf = (id: string) => chapterTitleById[id] ?? null
+    const lessonPath = lessonRoute(lessonId, homeSlug)
     const chapterIds = [lessonId, ...relatedKey.split(',').filter(Boolean)]
     const terms = termsKey
       ? termsKey.split('|').map((t) => t.trim().toLowerCase()).filter(Boolean)
@@ -82,11 +87,15 @@ export function useStructureContent(structure: AnatomyStructure | null): Structu
     setContent((c) => ({ ...c, loading: true, chapterTitle: titleOf(lessonId), lessonPath }))
 
     Promise.all(
-      chapterIds.map((id) =>
-        loadChapter(slug, id)
+      chapterIds.map((id) => {
+        // Each referenced chapter lives in its own discipline (e.g. a cardiac
+        // structure may cite a physiology chapter). Resolve the slug per id so
+        // cross-discipline references load instead of being silently dropped.
+        const slug = disciplineByChapterId[id] ?? homeSlug
+        return loadChapter(slug, id)
           .then((raw) => ({ id, raw }))
           .catch(() => null)
-      )
+      })
     ).then((results) => {
       if (!alive) return
 

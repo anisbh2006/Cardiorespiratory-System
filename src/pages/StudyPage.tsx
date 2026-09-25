@@ -4,6 +4,7 @@ import { Bookmark, Clock, GraduationCap, Search, Trash2, TrendingUp } from 'luci
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import { disciplines, getDiscipline } from '@/data/disciplines'
+import { chapterTitleById, disciplineByChapterId, lessonRoute } from '@/data/contentLoader'
 import { getDisciplineIcon } from '@/data/icons'
 import { useStudy } from '@/features/study/StudyContext'
 import { useCourseProgress, useDisciplineProgress } from '@/features/study/useProgress'
@@ -86,10 +87,13 @@ export default function StudyPage() {
               recentlyViewed.slice(0, 6).map((r) => (
                 <Link
                   key={r.lessonId}
-                  to={`/discipline/${r.disciplineSlug}`}
-                  className="block rounded-lg border border-border bg-surface p-3 text-sm text-foreground transition-colors hover:border-primary/40"
+                  to={lessonRoute(r.lessonId, r.disciplineSlug) ?? `/discipline/${r.disciplineSlug}`}
+                  className="group block rounded-lg border border-border bg-surface p-3 text-sm text-foreground transition-colors hover:border-border-strong hover:shadow-[0_6px_20px_rgba(0,0,0,0.25)]"
                 >
-                  {r.title}
+                  <span className="flex items-center justify-between gap-2">
+                    <span className="truncate font-medium">{r.title}</span>
+                    <Clock className="h-3.5 w-3.5 shrink-0 text-faint transition-colors group-hover:text-primary" />
+                  </span>
                   <span className="mt-0.5 block text-[11px] text-faint">
                     {getDiscipline(r.disciplineSlug)?.titleFr} ·{' '}
                     {new Date(r.at).toLocaleDateString('fr-FR')}
@@ -112,14 +116,39 @@ export default function StudyPage() {
                 retrouver ici.
               </p>
             ) : (
-              bookmarks.map((id) => (
-                <div
-                  key={id}
-                  className="rounded-lg border border-border bg-surface p-3 font-mono text-xs text-muted"
-                >
-                  {id}
-                </div>
-              ))
+              bookmarks.map((id) => {
+                const slug = disciplineByChapterId[id]
+                const title = chapterTitleById[id]
+                const to = lessonRoute(id)
+                const inner = (
+                  <>
+                    <span className="flex items-center gap-2">
+                      <Bookmark className="h-3.5 w-3.5 shrink-0 text-primary" fill="currentColor" />
+                      <span className="truncate text-sm font-medium text-foreground">
+                        {title ?? id}
+                      </span>
+                    </span>
+                    {slug && (
+                      <span className="mt-0.5 block truncate text-[11px] text-faint">
+                        {getDiscipline(slug)?.titleFr}
+                      </span>
+                    )}
+                  </>
+                )
+                return to ? (
+                  <Link
+                    key={id}
+                    to={to}
+                    className="block rounded-lg border border-border bg-surface p-3 transition-colors hover:border-border-strong hover:shadow-[0_6px_20px_rgba(0,0,0,0.25)]"
+                  >
+                    {inner}
+                  </Link>
+                ) : (
+                  <div key={id} className="rounded-lg border border-border bg-surface p-3">
+                    {inner}
+                  </div>
+                )
+              })
             )}
           </div>
         </section>

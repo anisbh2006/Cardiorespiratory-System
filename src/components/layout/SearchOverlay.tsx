@@ -13,6 +13,7 @@ import {
 } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { search, type SearchEntry } from '@/features/search/searchIndex'
+import { lessonRoute } from '@/data/contentLoader'
 import { useStudy } from '@/features/study/StudyContext'
 import { cn } from '@/lib/utils'
 
@@ -41,10 +42,9 @@ function entryRoute(entry: SearchEntry): string {
       ? '/anatomy?system=respiratory'
       : '/anatomy'
   }
+  // Chapters, lessons and topics open the actual lesson page.
   if (entry.lessonId) {
-    return entry.chapterTitle
-      ? `/discipline/${entry.disciplineSlug}`
-      : `/discipline/${entry.disciplineSlug}`
+    return lessonRoute(entry.lessonId, entry.disciplineSlug) ?? `/discipline/${entry.disciplineSlug}`
   }
   return `/discipline/${entry.disciplineSlug}`
 }
@@ -126,6 +126,9 @@ export function SearchOverlay() {
             onClick={() => setOpen(false)}
           >
             <motion.div
+              role="dialog"
+              aria-modal="true"
+              aria-label="Recherche médicale globale"
               initial={{ opacity: 0, scale: 0.97, y: -12 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.97, y: -12 }}

@@ -163,6 +163,8 @@ export function AnatomyViewer({
 
   return (
     <div
+      role="group"
+      aria-label="Visualisation anatomique 3D interactive"
       className={cn(
         'relative overflow-hidden rounded-xl border border-border bg-[#08080b]',
         className
@@ -275,6 +277,7 @@ export function AnatomyViewer({
               <button
                 onClick={focusOnHovered}
                 title="Cadrer la structure survolée / sélectionnée"
+                aria-label="Cadrer la structure survolée ou sélectionnée"
                 className="rounded-md border border-white/10 bg-black/50 p-1.5 text-white/60 backdrop-blur-md transition-colors hover:border-primary/50 hover:text-white cursor-pointer"
               >
                 <Crosshair className="h-3.5 w-3.5" />
@@ -283,6 +286,8 @@ export function AnatomyViewer({
             <button
               onClick={toggleLabels}
               title="Afficher / masquer les étiquettes"
+              aria-label="Afficher ou masquer les étiquettes"
+              aria-pressed={labelsOn}
               className={cn(
                 'rounded-md border p-1.5 backdrop-blur-md transition-colors cursor-pointer',
                 labelsOn
@@ -295,6 +300,8 @@ export function AnatomyViewer({
             <button
               onClick={() => setAutoRotate((v) => !v)}
               title="Rotation automatique"
+              aria-label="Rotation automatique"
+              aria-pressed={autoRotate}
               className={cn(
                 'rounded-md border p-1.5 backdrop-blur-md transition-colors cursor-pointer',
                 autoRotate
@@ -307,6 +314,7 @@ export function AnatomyViewer({
             <button
               onClick={resetCamera}
               title="Réinitialiser la caméra"
+              aria-label="Réinitialiser la caméra"
               className="rounded-md border border-white/10 bg-black/50 p-1.5 text-white/60 backdrop-blur-md transition-colors hover:text-white cursor-pointer"
             >
               <Maximize className="h-3.5 w-3.5" />

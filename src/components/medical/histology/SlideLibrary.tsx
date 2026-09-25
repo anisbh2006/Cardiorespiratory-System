@@ -2,6 +2,7 @@ import * as React from 'react'
 import { Search, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { groupByChapter, slideMatches, SLIDES } from './slides'
+import { SlideThumb } from './SlideThumb'
 import type { HistologySlide } from './types'
 
 interface SlideLibraryProps {
@@ -110,7 +111,7 @@ function SlideRow({
       )}
     >
       <span className="relative h-9 w-12 shrink-0 overflow-hidden rounded border border-border bg-background">
-        <img src={slide.src} alt="" loading="lazy" className="h-full w-full object-cover" />
+        <SlideThumb src={slide.src} alt="" />
       </span>
       <span className="min-w-0 flex-1">
         <span

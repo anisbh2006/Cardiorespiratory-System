@@ -1,13 +1,15 @@
 import * as React from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { ArrowRight, BookOpen, Layers, Move3d } from 'lucide-react'
+import { ArrowRight, BookOpen, Clock, Layers, Move3d, PlayCircle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import { Skeleton } from '@/components/ui/skeleton'
-import { courseMeta, disciplines, countLessons } from '@/data/disciplines'
+import { courseMeta, disciplines, countLessons, getDiscipline } from '@/data/disciplines'
+import { lessonRoute } from '@/data/contentLoader'
 import { getDisciplineIcon } from '@/data/icons'
-import { useDisciplineProgress } from '@/features/study/useProgress'
+import { useStudy } from '@/features/study/StudyContext'
+import { useCourseProgress, useDisciplineProgress } from '@/features/study/useProgress'
 
 const HeroHeart = React.lazy(() =>
   import('@/features/three/AnatomyViewer').then((m) => ({ default: m.HeroHeart }))
@@ -70,6 +72,55 @@ function DisciplineCard({ index, slug }: { index: number; slug: string }) {
   )
 }
 
+/**
+ * "Continue where you left off" card. Only rendered once the student has opened
+ * at least one lesson; deep-links straight back into it and shows overall course
+ * progress. Purely derived from locally-stored study state — no content invented.
+ */
+function ResumeCard() {
+  const { recentlyViewed } = useStudy()
+  const course = useCourseProgress()
+  if (recentlyViewed.length === 0) return null
+
+  const last = recentlyViewed[0]
+  const to = lessonRoute(last.lessonId, last.disciplineSlug) ?? `/discipline/${last.disciplineSlug}`
+  const disciplineTitle = getDiscipline(last.disciplineSlug)?.titleFr
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, delay: 0.25, ease: 'easeOut' }}
+      className="mt-8 max-w-md"
+    >
+      <Link
+        to={to}
+        className="group flex items-center gap-4 rounded-xl border border-border bg-surface/80 p-4 backdrop-blur transition-[border-color,box-shadow] duration-300 hover:border-primary/40 hover:shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+      >
+        <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-primary/25 bg-primary/10 text-primary transition-colors duration-300 group-hover:bg-primary/15">
+          <PlayCircle className="h-5 w-5" />
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
+            <Clock className="h-3 w-3" /> Reprendre l'étude
+          </span>
+          <span className="mt-1 block truncate text-sm font-medium text-foreground">
+            {last.title}
+          </span>
+          {disciplineTitle && (
+            <span className="block truncate text-[11px] text-muted">{disciplineTitle}</span>
+          )}
+          <span className="mt-2 flex items-center gap-2">
+            <Progress value={course.percent} className="h-1 flex-1" />
+            <span className="shrink-0 font-mono text-[10px] text-primary">{course.percent}%</span>
+          </span>
+        </span>
+        <ArrowRight className="h-4 w-4 shrink-0 text-faint transition-transform duration-300 group-hover:translate-x-0.5 group-hover:text-primary" />
+      </Link>
+    </motion.div>
+  )
+}
+
 export default function HomePage() {
   return (
     <div className="pt-14">
@@ -118,6 +169,8 @@ export default function HomePage() {
                 </Button>
               </Link>
             </div>
+
+            <ResumeCard />
 
             <div className="mt-10 flex items-center gap-6 text-xs text-faint">
               <span className="flex items-center gap-1.5">
