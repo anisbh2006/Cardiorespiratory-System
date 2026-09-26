@@ -14,7 +14,7 @@ import type { ContentBlock, Topic } from '@/data/types'
  */
 export function ContentRenderer({ blocks }: { blocks: ContentBlock[] }) {
   return (
-    <div className="space-y-5">
+    <div className="space-y-6">
       {blocks.map((block, i) => (
         <BlockRenderer key={i} block={block} />
       ))}
@@ -22,14 +22,33 @@ export function ContentRenderer({ blocks }: { blocks: ContentBlock[] }) {
   )
 }
 
+function splitParagraph(text: string): string[] {
+  const paragraphs = text
+    .split(/\n\s*\n/)
+    .flatMap((part) => {
+      const sentences = part
+        .trim()
+        .split(/(?<=[.!?])\s+(?=[A-ZÀ-ÖØ-Þ0-9])/u)
+        .filter(Boolean)
+      const groups: string[] = []
+      for (let index = 0; index < sentences.length; index += 2) {
+        groups.push(sentences.slice(index, index + 2).join(' ').trim())
+      }
+      return groups
+    })
+    .filter(Boolean)
+
+  return paragraphs.length ? paragraphs : [text]
+}
+
 function BlockRenderer({ block }: { block: ContentBlock }) {
   switch (block.type) {
     case 'heading': {
       const Tag = block.level === 2 ? 'h2' : block.level === 3 ? 'h3' : 'h4'
       const sizes = {
-        2: 'text-2xl font-semibold tracking-tight text-foreground',
-        3: 'text-xl font-semibold text-foreground',
-        4: 'text-base font-semibold text-foreground/90',
+        2: 'text-3xl font-semibold tracking-tight text-foreground',
+        3: 'text-2xl font-semibold text-foreground',
+        4: 'text-lg font-semibold text-foreground/90',
       } as const
       return (
         <Tag className={`${sizes[block.level]} font-serif mt-8 scroll-mt-24 first:mt-0`}>
@@ -38,20 +57,28 @@ function BlockRenderer({ block }: { block: ContentBlock }) {
       )
     }
     case 'paragraph':
-      return <p className="text-[15px] leading-8 text-foreground/85">{block.text}</p>
+      return (
+        <div className="space-y-4">
+          {splitParagraph(block.text).map((paragraph, index) => (
+            <p key={index} className="text-lg leading-8 text-foreground/90">
+              {paragraph}
+            </p>
+          ))}
+        </div>
+      )
     case 'definition':
       return <DefinitionBox term={block.term}>{block.text}</DefinitionBox>
     case 'note':
       return <Callout variant={block.variant} title={block.title}>{block.text}</Callout>
     case 'list':
       return block.ordered ? (
-        <ol className="ml-5 list-decimal space-y-1.5 text-[15px] leading-7 text-foreground/85 marker:text-primary">
+        <ol className="ml-5 list-decimal space-y-2 text-[17px] leading-8 text-foreground/90 marker:text-primary">
           {block.items.map((item, i) => (
             <li key={i}>{item}</li>
           ))}
         </ol>
       ) : (
-        <ul className="ml-5 list-disc space-y-1.5 text-[15px] leading-7 text-foreground/85 marker:text-primary">
+        <ul className="ml-5 list-disc space-y-2 text-[17px] leading-8 text-foreground/90 marker:text-primary">
           {block.items.map((item, i) => (
             <li key={i}>{item}</li>
           ))}
