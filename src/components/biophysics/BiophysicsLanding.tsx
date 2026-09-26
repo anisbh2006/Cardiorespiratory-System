@@ -1,23 +1,18 @@
 import { motion } from 'framer-motion'
-import { Activity, ArrowRight, Beaker, BookOpen, Gauge, Stethoscope } from 'lucide-react'
+import { ArrowRight, Atom, Beaker, Gauge, Play, Sparkles, Waves } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { Progress } from '@/components/ui/progress'
-import { InteractiveEquation } from '@/components/biophysics/InteractiveEquation'
-import { PoiseuilleLab } from '@/components/biophysics/PoiseuilleLab'
 import { getDiscipline } from '@/data/disciplines'
-import { useDisciplineProgress } from '@/features/study/useProgress'
+import type { Chapter } from '@/data/types'
 
-const chapterLookup = [
-  { title: 'Hemodynamics and Vascular Biophysics', label: 'Fluid dynamics, pressure and viscosity', icon: Gauge },
-  { title: 'Cardiac Biophysics', label: 'Pressure-time curves and pressure-volume relationships', icon: Activity },
-  { title: 'Electrocardiogram', label: 'Bioelectricity, dipoles and conduction', icon: Stethoscope },
-]
+const discipline = getDiscipline('biophysique')
 
-export default function BiophysicsPage() {
-  const discipline = getDiscipline('biophysique')
-  const progress = useDisciplineProgress(discipline)
+function chapterBadge(chapter: Chapter) {
+  return chapter.kind === 'td' ? 'TD' : `CH ${String(chapter.number).padStart(2, '0')}`
+}
+
+export function BiophysicsLanding() {
   const chapters = discipline?.chapters ?? []
 
   return (
@@ -27,7 +22,7 @@ export default function BiophysicsPage() {
         <div className="relative mx-auto max-w-7xl px-6 py-12">
           <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
             <span className="inline-flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.28em] text-primary">
-              <BookOpen className="h-3.5 w-3.5" /> Biophysics
+              <Atom className="h-3.5 w-3.5" /> Biophysics
             </span>
 
             <div className="mt-6 grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
@@ -38,14 +33,23 @@ export default function BiophysicsPage() {
                 <p className="mt-4 max-w-2xl text-lg leading-relaxed text-muted">
                   Understanding the physical principles behind the cardiorespiratory system.
                 </p>
+
                 <div className="mt-6 flex flex-wrap gap-3">
                   <Badge variant="default">Hemodynamics</Badge>
                   <Badge variant="secondary">Pressure-volume relationships</Badge>
                   <Badge variant="secondary">ECG & bioelectricity</Badge>
                 </div>
+
                 <div className="mt-8 flex flex-wrap gap-3">
-                  <Link to={chapters[0] ? `/discipline/biophysique/${chapters[0].id}/${chapters[0].lessons[0]?.id ?? chapters[0].id}` : '/discipline/biophysique'}>
-                    <Button size="lg" className="gap-2">Start learning</Button>
+                  <Link to={`/discipline/biophysique/${chapters[0]?.id ?? 'bp-1'}/${chapters[0]?.lessons[0]?.id ?? 'bp-1'}`}>
+                    <Button size="lg" className="gap-2">
+                      <Play className="h-4 w-4" /> Start learning
+                    </Button>
+                  </Link>
+                  <Link to="/search?q=biophysics+resistance+pressure">
+                    <Button variant="outline" size="lg" className="gap-2">
+                      <Sparkles className="h-4 w-4" /> Search concepts
+                    </Button>
                   </Link>
                 </div>
               </div>
@@ -72,7 +76,10 @@ export default function BiophysicsPage() {
                         <motion.div
                           key={index}
                           className="absolute h-2 w-2 rounded-full bg-primary"
-                          style={{ left: `${10 + index * 4}%`, top: `${50 + (index % 3) * 8}%` }}
+                          style={{
+                            left: `${10 + index * 4}%`,
+                            top: `${50 + (index % 3) * 8}%`,
+                          }}
                           animate={{ x: [0, 18, 0], opacity: [0.4, 1, 0.4] }}
                           transition={{ duration: 2.4 + index * 0.1, repeat: Infinity, ease: 'easeInOut' }}
                         />
@@ -85,7 +92,7 @@ export default function BiophysicsPage() {
                         <div className="mt-2 font-mono text-lg text-foreground">1.2 L/min</div>
                       </div>
                       <div className="rounded-lg border border-border bg-background/50 p-2">
-                        <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] text-faint"><Activity className="h-3 w-3" /> Pressure</div>
+                        <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] text-faint"><Waves className="h-3 w-3" /> Pressure</div>
                         <div className="mt-2 font-mono text-lg text-foreground">120 mmHg</div>
                       </div>
                       <div className="rounded-lg border border-border bg-background/50 p-2">
@@ -102,50 +109,44 @@ export default function BiophysicsPage() {
       </header>
 
       <main className="mx-auto max-w-7xl space-y-8 px-6 py-10">
-        <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
-          <div>
-            <p className="font-mono text-[10px] uppercase tracking-[0.24em] text-primary">Course progress</p>
-            <h2 className="mt-1 font-serif text-3xl font-semibold text-foreground">Biophysics laboratory</h2>
-          </div>
-          {discipline && (
-            <div className="w-full max-w-sm">
-              <div className="flex justify-between text-xs text-muted">
-                <span>Completion</span>
-                <span className="font-mono text-primary">{progress}%</span>
-              </div>
-              <Progress value={progress} className="mt-1.5" />
-            </div>
-          )}
-        </div>
-
         <div className="grid gap-4 md:grid-cols-3">
-          {chapterLookup.map((item, index) => {
-            const Icon = item.icon
-            return (
-              <div key={item.title} className="rounded-xl border border-border bg-surface p-5">
-                <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-primary/20 bg-primary/10 text-primary">
-                  <Icon className="h-4 w-4" />
-                </span>
-                <h3 className="mt-3 text-lg font-semibold text-foreground">{item.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted">{item.label}</p>
-                <div className="mt-4 font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Chapter {index + 1}</div>
+          {[
+            {
+              title: 'Theory',
+              text: 'Read the supplied course content and keep the original scientific meaning intact.',
+              icon: 'T',
+            },
+            {
+              title: 'Visualize',
+              text: 'See pressure-flow, viscosity, and pressure-volume relationships as live conceptual diagrams.',
+              icon: 'V',
+            },
+            {
+              title: 'Practice',
+              text: 'Test the concepts with questions and equation-driven simulations drawn from the lecture material.',
+              icon: 'P',
+            },
+          ].map((item) => (
+            <div key={item.title} className="rounded-xl border border-border bg-surface p-5">
+              <div className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-elevated font-mono text-primary">
+                {item.icon}
               </div>
-            )
-          })}
+              <h3 className="mt-4 text-lg font-semibold text-foreground">{item.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-muted">{item.text}</p>
+            </div>
+          ))}
         </div>
 
-        <div className="space-y-4">
-          <div className="mb-4 flex items-center justify-between gap-3">
+        <section>
+          <div className="mb-5 flex items-center justify-between gap-3">
             <div>
               <p className="font-mono text-[10px] uppercase tracking-[0.24em] text-primary">Course structure</p>
-              <h2 className="mt-1 font-serif text-3xl font-semibold text-foreground">Supplied chapters</h2>
+              <h2 className="mt-1 font-serif text-3xl font-semibold text-foreground">Chapters from the supplied material</h2>
             </div>
           </div>
 
-          {chapters.length === 0 ? (
-            <div className="rounded-xl border border-border bg-surface p-8 text-muted">No chapter entries available yet.</div>
-          ) : (
-            chapters.map((chapter, index) => (
+          <div className="space-y-4">
+            {chapters.map((chapter, index) => (
               <motion.div
                 key={chapter.id}
                 initial={{ opacity: 0, y: 10 }}
@@ -155,7 +156,7 @@ export default function BiophysicsPage() {
               >
                 <div className="flex flex-wrap items-center justify-between gap-3">
                   <div className="flex items-center gap-3">
-                    <span className="font-mono text-xs text-primary">{chapter.kind === 'td' ? 'TD' : `CH ${String(chapter.number).padStart(2, '0')}`}</span>
+                    <span className="font-mono text-xs text-primary">{chapterBadge(chapter)}</span>
                     <h3 className="font-serif text-2xl font-semibold text-foreground">{chapter.title}</h3>
                   </div>
                   <Badge variant="secondary">{chapter.lessons.length} lesson</Badge>
@@ -174,25 +175,9 @@ export default function BiophysicsPage() {
                   ))}
                 </div>
               </motion.div>
-            ))
-          )}
-        </div>
-
-        <InteractiveEquation
-          title="Poiseuille flow"
-          subtitle="Pressure gradient drives flow through a vessel; radius has a strong effect because it enters to the fourth power."
-          formula="Q = ΔP × r^4 / 8ηL"
-          variables={[
-            { name: 'ΔP', min: 10, max: 80, step: 1, unit: 'mmHg', description: 'pressure gradient' },
-            { name: 'r', min: 1, max: 5, step: 0.1, unit: 'mm', description: 'radius' },
-            { name: 'η', min: 1, max: 8, step: 0.1, unit: 'cP', description: 'viscosity' },
-            { name: 'L', min: 5, max: 25, step: 0.5, unit: 'cm', description: 'length' },
-          ]}
-          compute={(values) => (values[0] * Math.pow(values[1], 4)) / (8 * values[2] * values[3])}
-          label={(value) => `${value.toFixed(2)} AU`}
-        />
-
-        <PoiseuilleLab />
+            ))}
+          </div>
+        </section>
       </main>
     </div>
   )
