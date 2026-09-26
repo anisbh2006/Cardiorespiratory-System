@@ -42,7 +42,7 @@ export default function AnatomyPage() {
           <Tabs
             items={[
               { value: 'cardiovascular', label: 'Heart & vessels' },
-              { value: 'respiratory', label: 'Appareil respiratoire' },
+              { value: 'respiratory', label: 'Respiratory system' },
             ]}
             value={system}
             onValueChange={(v) => {

@@ -12,7 +12,7 @@ import { useStudy } from '@/features/study/StudyContext'
 
 const anatomyCta: Record<string, { to: string; label: string }> = {
   'anatomie-cardiovasculaire': { to: '/anatomy?system=cardiovascular', label: 'Open the heart in 3D' },
-  'anatomie-respiratoire': { to: '/anatomy?system=respiratory', label: 'Ouvrir l\'appareil respiratoire en 3D' },
+  'anatomie-respiratoire': { to: '/anatomy?system=respiratory', label: 'Open the respiratory system in 3D' },
   histologie: { to: '/histologie', label: 'Ouvrir le visualiseur d\'histologie' },
   biophysique: { to: '/biophysique', label: 'Ouvrir l\'atelier de biophysique' },
   'physiologie-cardiovasculaire': { to: '/physiologie?system=cardiovascular', label: 'Open visualizations' },
