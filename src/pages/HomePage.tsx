@@ -2,6 +2,8 @@ import * as React from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { ArrowRight, BookOpen, Clock, Layers, Move3d, PlayCircle } from 'lucide-react'
+import { FaLinkedin } from 'react-icons/fa6'
+import { SiInstagram, SiTiktok } from 'react-icons/si'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import { Skeleton } from '@/components/ui/skeleton'
@@ -15,6 +17,12 @@ import { useLanguage } from '@/context/LanguageContext'
 const HeroHeart = React.lazy(() =>
   import('@/features/three/AnatomyViewer').then((m) => ({ default: m.HeroHeart }))
 )
+
+const socialLinks = [
+  { name: 'Instagram', url: 'https://www.instagram.com/itss_.aniss?stkn=MWdoM291dXd3MXN3dw%3D%3D&utm_source=qr', Icon: SiInstagram },
+  { name: 'TikTok', url: 'https://www.tiktok.com/@itss_.aniss?lang=en-GB&is_from_webapp=1&sender_device=mobile&sender_web_id=7689922482886673941', Icon: SiTiktok },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/anis-bouhalais-61b875343?utm_source=share_via&utm_content=profile&utm_medium=member_ios', Icon: FaLinkedin },
+]
 
 function DisciplineCard({ index, slug }: { index: number; slug: string }) {
   const { t } = useLanguage()
@@ -231,6 +239,34 @@ export default function HomePage() {
           {disciplines.map((d, i) => (
             <DisciplineCard key={d.id} index={i} slug={d.slug} />
           ))}
+        </div>
+      </section>
+
+      <section className="border-t border-border bg-surface/40">
+        <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-12 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-primary">
+              Find me elsewhere
+            </span>
+            <h2 className="mt-2 font-serif text-2xl font-semibold text-foreground">
+              Let’s connect
+            </h2>
+          </div>
+          <div className="flex flex-wrap gap-3">
+            {socialLinks.map(({ name, url, Icon }) => (
+              <a
+                key={name}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Visit my ${name} profile (opens in a new tab)`}
+                className="inline-flex min-h-11 items-center gap-2.5 rounded-lg border border-border bg-background px-4 py-2 text-sm font-medium text-muted transition-colors hover:border-border-strong hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+              >
+                <Icon aria-hidden="true" className="h-4 w-4" />
+                {name}
+              </a>
+            ))}
+          </div>
         </div>
       </section>
     </div>
