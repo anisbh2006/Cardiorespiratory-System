@@ -1,87 +1,177 @@
 @import 'tailwindcss';
 
-@theme {
+:root {
   --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, sans-serif;
   --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
 
-  /* Deep charcoal / black premium surfaces — a calm, near-neutral ramp with the
-     faintest cool cast so layered panels read as depth, not color. */
   --color-background: #08080a;
   --color-surface: #0d0d10;
   --color-elevated: #141419;
   --color-overlay: #1b1b21;
-
-  /* Fine borders */
   --color-border: #212127;
   --color-border-strong: #31313a;
-
-  /* Typography — white / off-white */
   --color-foreground: #f5f5f4;
   --color-muted: #8d8d99;
   --color-faint: #5e5e69;
-
-  /* Medical red accent */
   --color-primary: #e0243a;
   --color-primary-hover: #f0374b;
   --color-primary-dim: #7a1622;
   --color-primary-glow: rgba(224, 36, 58, 0.35);
-
-  /* Semantic — desaturated slightly so they inform without shouting */
   --color-success: #2fd09a;
   --color-warning: #f2b33d;
   --color-info: #5b9df6;
-
-  --radius-sm: 0.375rem;
-  --radius-md: 0.5rem;
-  --radius-lg: 0.6875rem;
-  --radius-xl: 0.9375rem;
-
-  /* Layered, restrained shadows (Apple-style): soft ambient + tight contact. */
+  --glass-surface: rgba(17, 17, 21, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.05);
   --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.4);
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.45), 0 1px 2px rgba(0, 0, 0, 0.35);
   --shadow-md: 0 6px 18px -4px rgba(0, 0, 0, 0.55), 0 2px 6px rgba(0, 0, 0, 0.35);
   --shadow-lg: 0 18px 48px -12px rgba(0, 0, 0, 0.7), 0 4px 14px rgba(0, 0, 0, 0.4);
   --shadow-soft: 0 10px 34px -14px rgba(0, 0, 0, 0.65), 0 2px 8px rgba(0, 0, 0, 0.3);
   --shadow-glow: 0 0 40px rgba(224, 36, 58, 0.14);
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.6875rem;
+  --radius-xl: 0.9375rem;
+  --animate-fade-in: fade-in 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-pulse-slow: pulse-slow 4s ease-in-out infinite;
+  --animate-shimmer: shimmer 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pulse-slow {
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -180% 0;
+  }
+  100% {
+    background-position: 180% 0;
+  }
+}
+
+.dark {
+  --color-background: #08080a;
+  --color-surface: #0d0d10;
+  --color-elevated: #141419;
+  --color-overlay: #1b1b21;
+  --color-border: #212127;
+  --color-border-strong: #31313a;
+  --color-foreground: #f5f5f4;
+  --color-muted: #8d8d99;
+  --color-faint: #5e5e69;
+  --color-primary: #e0243a;
+  --color-primary-hover: #f0374b;
+  --color-primary-dim: #7a1622;
+  --color-primary-glow: rgba(224, 36, 58, 0.35);
+  --color-success: #2fd09a;
+  --color-warning: #f2b33d;
+  --color-info: #5b9df6;
+  --glass-surface: rgba(17, 17, 21, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.05);
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.45), 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 6px 18px -4px rgba(0, 0, 0, 0.55), 0 2px 6px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 18px 48px -12px rgba(0, 0, 0, 0.7), 0 4px 14px rgba(0, 0, 0, 0.4);
+  --shadow-soft: 0 10px 34px -14px rgba(0, 0, 0, 0.65), 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-glow: 0 0 40px rgba(224, 36, 58, 0.14);
+}
+
+.light {
+  --color-background: #eef2f4;
+  --color-surface: #f8fafb;
+  --color-elevated: #ffffff;
+  --color-overlay: #edf2f5;
+  --color-border: #d5dde5;
+  --color-border-strong: #b8c3ce;
+  --color-foreground: #111827;
+  --color-muted: #4b5563;
+  --color-faint: #6b7280;
+  --color-primary: #d92b3b;
+  --color-primary-hover: #bc2332;
+  --color-primary-dim: #f7d8dc;
+  --color-primary-glow: rgba(217, 43, 59, 0.18);
+  --color-success: #149b7a;
+  --color-warning: #d27b14;
+  --color-info: #2d6cdf;
+  --glass-surface: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(17, 24, 39, 0.08);
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow-sm: 0 4px 16px rgba(15, 23, 42, 0.08), 0 1px 3px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 16px 32px -18px rgba(15, 23, 42, 0.22), 0 4px 12px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 24px 60px -20px rgba(15, 23, 42, 0.2), 0 8px 24px rgba(15, 23, 42, 0.08);
+  --shadow-soft: 0 18px 36px -18px rgba(15, 23, 42, 0.18), 0 4px 10px rgba(15, 23, 42, 0.06);
+  --shadow-glow: 0 0 38px rgba(217, 43, 59, 0.12);
+}
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-background: var(--color-background);
+  --color-surface: var(--color-surface);
+  --color-elevated: var(--color-elevated);
+  --color-overlay: var(--color-overlay);
+  --color-border: var(--color-border);
+  --color-border-strong: var(--color-border-strong);
+  --color-foreground: var(--color-foreground);
+  --color-muted: var(--color-muted);
+  --color-faint: var(--color-faint);
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-primary-dim: var(--color-primary-dim);
+  --color-primary-glow: var(--color-primary-glow);
+  --color-success: var(--color-success);
+  --color-warning: var(--color-warning);
+  --color-info: var(--color-info);
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.6875rem;
+  --radius-xl: 0.9375rem;
+
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-soft: var(--shadow-soft);
+  --shadow-glow: var(--shadow-glow);
 
   --animate-fade-in: fade-in 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
   --animate-pulse-slow: pulse-slow 4s ease-in-out infinite;
   --animate-shimmer: shimmer 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-      transform: translateY(8px);
-    }
-    to {
-      opacity: 1;
-      transform: none;
-    }
-  }
-  @keyframes pulse-slow {
-    0%,
-    100% {
-      opacity: 0.6;
-    }
-    50% {
-      opacity: 1;
-    }
-  }
-  @keyframes shimmer {
-    0% {
-      background-position: -180% 0;
-    }
-    100% {
-      background-position: 180% 0;
-    }
-  }
 }
 
 @layer base {
   * {
     border-color: var(--color-border);
+    transition:
+      background-color 200ms ease,
+      color 200ms ease,
+      border-color 200ms ease,
+      box-shadow 200ms ease,
+      opacity 200ms ease;
   }
 
   html {
@@ -99,9 +189,12 @@
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     line-height: 1.55;
+    transition:
+      background-color 200ms ease,
+      color 200ms ease,
+      border-color 200ms ease;
   }
 
-  /* Headings: tighter, deliberate tracking; serif gets optical sizing. */
   h1,
   h2,
   h3,
@@ -117,7 +210,6 @@
     text-wrap: pretty;
   }
 
-  /* Consistent, calm focus ring across every interactive element. */
   :focus-visible {
     outline: 2px solid color-mix(in srgb, var(--color-primary) 60%, transparent);
     outline-offset: 2px;
@@ -129,12 +221,10 @@
     color: white;
   }
 
-  /* Fullscreen backdrops (3D lab, microscope) sit on near-black. */
   ::backdrop {
-    background: #050507;
+    background: color-mix(in srgb, var(--color-background) 80%, black);
   }
 
-  /* Restrained scrollbars — thin, low-contrast, no heavy thumb. */
   * {
     scrollbar-width: thin;
     scrollbar-color: var(--color-border-strong) transparent;
@@ -153,7 +243,7 @@
     background-clip: content-box;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #46464f;
+    background: color-mix(in srgb, var(--color-border-strong) 90%, white);
     background-clip: content-box;
   }
   ::-webkit-scrollbar-corner {
@@ -162,50 +252,46 @@
 }
 
 @layer utilities {
-  /* Calm frosted panels — restrained blur, near-opaque, hairline edge. Used for
-     the top bar and overlays; not a heavy glassmorphism look. */
   .glass {
-    background: rgba(17, 17, 21, 0.72);
+    background: var(--glass-surface);
     backdrop-filter: blur(12px) saturate(140%);
     -webkit-backdrop-filter: blur(12px) saturate(140%);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
   }
 
   .glass-strong {
-    background: rgba(10, 10, 13, 0.82);
+    background: color-mix(in srgb, var(--color-surface) 82%, transparent);
     backdrop-filter: blur(16px) saturate(150%);
     -webkit-backdrop-filter: blur(16px) saturate(150%);
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--glass-border);
   }
 
   .text-gradient {
-    background: linear-gradient(160deg, #ffffff 0%, #c2c2c9 78%, #a3a3ad 100%);
+    background: linear-gradient(160deg, var(--color-foreground) 0%, #a3a3ad 78%, #7a7a8a 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
 
   .text-gradient-red {
-    background: linear-gradient(150deg, #f43a4d 0%, #e0243a 48%, #a51c2b 100%);
+    background: linear-gradient(150deg, #f43a4d 0%, var(--color-primary) 48%, #a51c2b 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
 
   .border-hairline {
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--glass-border);
   }
 
   .glow-red {
-    box-shadow: 0 0 32px rgba(224, 36, 58, 0.22);
+    box-shadow: var(--shadow-glow);
   }
 
-  /* Very faint film grain to keep large dark fields from banding. */
   .noise-bg {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
   }
 
-  /* Shimmering placeholder sheen for loading skeletons. */
   .shimmer {
     background-image: linear-gradient(
       100deg,
@@ -220,7 +306,6 @@
   }
 }
 
-/* Respect users who prefer reduced motion: keep opacity fades, drop movement. */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

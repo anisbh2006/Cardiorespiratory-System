@@ -8,6 +8,7 @@ import { SearchOverlay } from './SearchOverlay'
 import { cn } from '@/lib/utils'
 import { useLanguage } from '@/context/LanguageContext'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
+import { ThemeToggle } from '@/components/layout/ThemeToggle'
 
 const navLinks = [
   { to: '/anatomy', labelKey: 'nav.anatomy' },
@@ -147,6 +148,7 @@ export function TopBar() {
         <div className="flex items-center gap-2">
           <SearchOverlay />
           <LanguageSwitcher />
+          <ThemeToggle />
           <NavLink
             to="/study"
             className="hidden h-9 items-center gap-1.5 rounded-md border border-border bg-elevated px-3 text-sm font-medium text-muted transition-colors hover:border-primary/50 hover:text-foreground md:flex"

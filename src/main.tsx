@@ -6,16 +6,19 @@ import App from './App.tsx'
 import { StudyProvider } from '@/features/study/StudyContext'
 import { ScrollToTop } from '@/components/layout/ScrollToTop'
 import { LanguageProvider } from '@/context/LanguageContext'
+import { ThemeProvider } from '@/context/ThemeContext'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
-      <LanguageProvider>
-        <StudyProvider>
-          <ScrollToTop />
-          <App />
-        </StudyProvider>
-      </LanguageProvider>
+      <ThemeProvider>
+        <LanguageProvider>
+          <StudyProvider>
+            <ScrollToTop />
+            <App />
+          </StudyProvider>
+        </LanguageProvider>
+      </ThemeProvider>
     </BrowserRouter>
   </StrictMode>,
 )
