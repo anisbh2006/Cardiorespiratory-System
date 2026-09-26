@@ -19,9 +19,16 @@ export const anatomyStructures: AnatomyStructure[] = [
   { id: 'superior-vena-cava', system: 'cardiovascular', nameFr: 'Superior vena cava', nameEn: 'Superior vena cava', lessonId: 'ac-8', searchTerms: ['superior vena cava', 'superior vena cava'], status: 'awaiting-source' },
   { id: 'inferior-vena-cava', system: 'cardiovascular', nameFr: 'Inferior vena cava', nameEn: 'Inferior vena cava', lessonId: 'ac-8', searchTerms: ['inferior vena cava', 'inferior vena cava'], status: 'awaiting-source' },
   // ---- Respiratory ----
-  { id: 'lungs', system: 'respiratory', nameFr: 'Poumons', nameEn: 'Lungs', lessonId: 'ar-12', searchTerms: ['lung', 'lung', 'pulmonary'], status: 'awaiting-source' },
+  { id: 'larynx', system: 'respiratory', nameFr: 'Larynx', nameEn: 'Larynx', lessonId: 'ar-10', searchTerms: ['larynx', 'laryng', 'cartilage larynx'], status: 'awaiting-source' },
   { id: 'trachea', system: 'respiratory', nameFr: 'Trachée', nameEn: 'Trachea', lessonId: 'ar-11', searchTerms: ['trachea', 'trachée'], status: 'awaiting-source' },
-  { id: 'bronchi', system: 'respiratory', nameFr: 'Bronches', nameEn: 'Bronchi', lessonId: 'ar-11', searchTerms: ['bronch', 'bronche'], status: 'awaiting-source' },
+  { id: 'left-main-bronchus', system: 'respiratory', nameFr: 'Bronche principale gauche', nameEn: 'Left main bronchus', lessonId: 'ar-11', relatedLessonIds: ['ar-12'], searchTerms: ['bronchus gauche', 'left main bronchus', 'left bronchus'], status: 'awaiting-source' },
+  { id: 'right-main-bronchus', system: 'respiratory', nameFr: 'Bronche principale droite', nameEn: 'Right main bronchus', lessonId: 'ar-11', relatedLessonIds: ['ar-12'], searchTerms: ['bronchus droit', 'right main bronchus', 'right bronchus'], status: 'awaiting-source' },
+  { id: 'bronchial-tree', system: 'respiratory', nameFr: 'Arbre bronchique', nameEn: 'Bronchial tree', lessonId: 'ar-11', relatedLessonIds: ['ar-12'], searchTerms: ['bronchial tree', 'arbre bronchique', 'bronchioles', 'bronches'], status: 'awaiting-source' },
+  { id: 'left-lung', system: 'respiratory', nameFr: 'Poumon gauche', nameEn: 'Left lung', lessonId: 'ar-12', relatedLessonIds: ['ar-13'], searchTerms: ['left lung', 'poumon gauche', 'lung left'], status: 'awaiting-source' },
+  { id: 'right-lung', system: 'respiratory', nameFr: 'Poumon droit', nameEn: 'Right lung', lessonId: 'ar-12', relatedLessonIds: ['ar-13'], searchTerms: ['right lung', 'poumon droit', 'lung right'], status: 'awaiting-source' },
+  { id: 'lungs', system: 'respiratory', nameFr: 'Poumons', nameEn: 'Lungs', lessonId: 'ar-12', relatedLessonIds: ['ar-13'], searchTerms: ['lung', 'lungs', 'pulmonary'], status: 'awaiting-source' },
+  { id: 'pleura', system: 'respiratory', nameFr: 'Plèvre', nameEn: 'Pleura', lessonId: 'ar-12', searchTerms: ['pleura', 'plèvre', 'visceral pleura', 'parietal pleura'], status: 'awaiting-source' },
+  { id: 'diaphragm', system: 'respiratory', nameFr: 'Diaphragme', nameEn: 'Diaphragm', lessonId: 'ar-13', searchTerms: ['diaphragm', 'diaphragme'], status: 'awaiting-source' },
   { id: 'bronchioles', system: 'respiratory', nameFr: 'Bronchioles', nameEn: 'Bronchioles', lessonId: 'ar-12', searchTerms: ['bronchiole'], status: 'awaiting-source' },
   { id: 'thoracic-cavity', system: 'respiratory', nameFr: 'Cavité thoracique', nameEn: 'Thoracic cavity', lessonId: 'ac-1', searchTerms: ['thoracic cavity', 'cavité thoracique', 'thoracic wall', 'paroi thoracique'], status: 'awaiting-source' },
 ]

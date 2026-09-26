@@ -4,9 +4,11 @@ import { ContactShadows, OrbitControls, Sparkles } from '@react-three/drei'
 import * as THREE from 'three'
 import { Crosshair, Maximize, RotateCcw, Tags } from 'lucide-react'
 import { ProceduralHeart } from './ProceduralHeart'
+import { ProceduralRespiratory } from './ProceduralRespiratory'
 import { GltfStructureModel } from './GltfStructureModel'
 import { getStructure, modelRegistry } from '@/data/anatomy'
 import { heartParts, labelAnchors, viewPresets, HOME_TARGET, type ViewPreset } from './heartParts'
+import { respiratoryParts, respiratoryLabelAnchors, respiratoryViewPresets, HOME_TARGET as RESP_HOME_TARGET } from './respiratoryParts'
 import { cn } from '@/lib/utils'
 
 export interface CameraFocus {
@@ -110,25 +112,27 @@ export function AnatomyViewer({
   const toggleLabels = onToggleLabels ?? (() => setInternalLabels((v) => !v))
 
   const modelSrc = modelId ? modelRegistry[modelId] : undefined
+  const isRespiratory = modelId === 'lungs'
   const showLabelOverlay = labelsOn && !modelSrc && !compact
 
   // Fly to a structure when it is selected.
   React.useEffect(() => {
     if (!selectedId) return
-    const def = heartParts.find((p) => p.structureId === selectedId)
+    const parts = isRespiratory ? respiratoryParts : heartParts
+    const def = parts.find((p) => p.structureId === selectedId)
     if (!def) return
     setAutoRotate(false)
     setFocus({
       point: new THREE.Vector3(...def.focusPoint),
       offset: new THREE.Vector3(...def.focusOffset),
     })
-  }, [selectedId])
+  }, [selectedId, isRespiratory])
 
   const goToPreset = (preset: ViewPreset) => {
     setAutoRotate(false)
     setFocus({
-      point: new THREE.Vector3(...HOME_TARGET),
-      offset: new THREE.Vector3(...viewPresets[preset]),
+      point: new THREE.Vector3(...(isRespiratory ? RESP_HOME_TARGET : HOME_TARGET)),
+      offset: new THREE.Vector3(...(isRespiratory ? respiratoryViewPresets[preset] : viewPresets[preset])),
     })
   }
 
@@ -136,15 +140,16 @@ export function AnatomyViewer({
     onSelect(null)
     setAutoRotate(!compact)
     setFocus({
-      point: new THREE.Vector3(...HOME_TARGET),
-      offset: new THREE.Vector3(...viewPresets.anterior),
+      point: new THREE.Vector3(...(isRespiratory ? RESP_HOME_TARGET : HOME_TARGET)),
+      offset: new THREE.Vector3(...(isRespiratory ? respiratoryViewPresets.anterior : viewPresets.anterior)),
     })
   }
 
   const focusOnHovered = () => {
     const id = hoveredId ?? selectedId
     if (!id) return
-    const def = heartParts.find((p) => p.structureId === id)
+    const parts = isRespiratory ? respiratoryParts : heartParts
+    const def = parts.find((p) => p.structureId === id)
     if (!def) return
     setAutoRotate(false)
     setFocus({
@@ -193,6 +198,16 @@ export function AnatomyViewer({
             onHover={setHoveredId}
             autoRotate={autoRotate}
           />
+        ) : isRespiratory ? (
+          <ProceduralRespiratory
+            selectedId={selectedId}
+            onSelect={onSelect}
+            hoveredId={hoveredId}
+            onHover={setHoveredId}
+            showLabels={labelsOn}
+            autoRotate={autoRotate}
+            labelElements={showLabelOverlay ? labelEls : undefined}
+          />
         ) : (
           <ProceduralHeart
             selectedId={selectedId}
@@ -224,8 +239,9 @@ export function AnatomyViewer({
       {/* Projected DOM labels — positioned each frame by ProceduralHeart. */}
       {showLabelOverlay && (
         <div className="pointer-events-none absolute inset-0 overflow-hidden">
-          {heartParts.map((def) => {
-            if (!labelAnchors[def.structureId]) return null
+          {(isRespiratory ? respiratoryParts : heartParts).map((def) => {
+            const anchors = isRespiratory ? respiratoryLabelAnchors : labelAnchors
+            if (!anchors[def.structureId]) return null
             const active = selectedId === def.structureId || hoveredId === def.structureId
             return (
               <div
