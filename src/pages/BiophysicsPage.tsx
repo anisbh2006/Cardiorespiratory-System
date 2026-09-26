@@ -7,7 +7,9 @@ import { Progress } from '@/components/ui/progress'
 import { InteractiveEquation } from '@/components/biophysics/InteractiveEquation'
 import { PoiseuilleLab } from '@/components/biophysics/PoiseuilleLab'
 import { getDiscipline } from '@/data/disciplines'
+import { getChapterTitle } from '@/data/contentLoader'
 import { useDisciplineProgress } from '@/features/study/useProgress'
+import { useLanguage } from '@/context/LanguageContext'
 
 const chapterLookup = [
   { title: 'Hemodynamics and Vascular Biophysics', label: 'Fluid dynamics, pressure and viscosity', icon: Gauge },
@@ -16,6 +18,7 @@ const chapterLookup = [
 ]
 
 export default function BiophysicsPage() {
+  const { t, language } = useLanguage()
   const discipline = getDiscipline('biophysique')
   const progress = useDisciplineProgress(discipline)
   const chapters = discipline?.chapters ?? []
@@ -27,7 +30,7 @@ export default function BiophysicsPage() {
         <div className="relative mx-auto max-w-7xl px-6 py-12">
           <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
             <span className="inline-flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.28em] text-primary">
-              <BookOpen className="h-3.5 w-3.5" /> Biophysics
+              <BookOpen className="h-3.5 w-3.5" /> {t('biophysics.title')}
             </span>
 
             <div className="mt-6 grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
@@ -36,16 +39,16 @@ export default function BiophysicsPage() {
                   BIOPHYSICS
                 </h1>
                 <p className="mt-4 max-w-2xl text-lg leading-relaxed text-muted">
-                  Understanding the physical principles behind the cardiorespiratory system.
+                  {t('biophysics.subtitle')}
                 </p>
                 <div className="mt-6 flex flex-wrap gap-3">
-                  <Badge variant="default">Hemodynamics</Badge>
-                  <Badge variant="secondary">Pressure-volume relationships</Badge>
-                  <Badge variant="secondary">ECG & bioelectricity</Badge>
+                  <Badge variant="default">{t('biophysics.badges.hemodynamics')}</Badge>
+                  <Badge variant="secondary">{t('biophysics.badges.pressureVolume')}</Badge>
+                  <Badge variant="secondary">{t('biophysics.badges.ecg')}</Badge>
                 </div>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link to={chapters[0] ? `/discipline/biophysique/${chapters[0].id}/${chapters[0].lessons[0]?.id ?? chapters[0].id}` : '/discipline/biophysique'}>
-                    <Button size="lg" className="gap-2">Start learning</Button>
+                    <Button size="lg" className="gap-2">{t('biophysics.startLearning')}</Button>
                   </Link>
                 </div>
               </div>
@@ -58,8 +61,8 @@ export default function BiophysicsPage() {
               >
                 <div className="rounded-2xl border border-border bg-background/60 p-4">
                   <div className="flex items-center justify-between text-[10px] font-mono uppercase tracking-[0.2em] text-faint">
-                    <span>Flow Lab</span>
-                    <span>Cardiorespiratory</span>
+                    <span>{t('biophysics.flowLab')}</span>
+                    <span>{t('biophysics.cardiorespiratory')}</span>
                   </div>
 
                   <div className="mt-6 rounded-2xl border border-border bg-elevated/60 p-4">
@@ -104,13 +107,13 @@ export default function BiophysicsPage() {
       <main className="mx-auto max-w-7xl space-y-8 px-6 py-10">
         <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="font-mono text-[10px] uppercase tracking-[0.24em] text-primary">Course progress</p>
-            <h2 className="mt-1 font-serif text-3xl font-semibold text-foreground">Biophysics laboratory</h2>
+            <p className="font-mono text-[10px] uppercase tracking-[0.24em] text-primary">{t('biophysics.progress')}</p>
+            <h2 className="mt-1 font-serif text-3xl font-semibold text-foreground">{t('biophysics.lab')}</h2>
           </div>
           {discipline && (
             <div className="w-full max-w-sm">
               <div className="flex justify-between text-xs text-muted">
-                <span>Completion</span>
+                <span>{t('biophysics.completion')}</span>
                 <span className="font-mono text-primary">{progress}%</span>
               </div>
               <Progress value={progress} className="mt-1.5" />
@@ -137,13 +140,13 @@ export default function BiophysicsPage() {
         <div className="space-y-4">
           <div className="mb-4 flex items-center justify-between gap-3">
             <div>
-              <p className="font-mono text-[10px] uppercase tracking-[0.24em] text-primary">Course structure</p>
-              <h2 className="mt-1 font-serif text-3xl font-semibold text-foreground">Supplied chapters</h2>
+              <p className="font-mono text-[10px] uppercase tracking-[0.24em] text-primary">{t('lesson.courseStructure')}</p>
+              <h2 className="mt-1 font-serif text-3xl font-semibold text-foreground">{t('biophysics.chapterPanel')}</h2>
             </div>
           </div>
 
           {chapters.length === 0 ? (
-            <div className="rounded-xl border border-border bg-surface p-8 text-muted">No chapter entries available yet.</div>
+            <div className="rounded-xl border border-border bg-surface p-8 text-muted">{t('biophysics.noChapters')}</div>
           ) : (
             chapters.map((chapter, index) => (
               <motion.div
@@ -156,9 +159,9 @@ export default function BiophysicsPage() {
                 <div className="flex flex-wrap items-center justify-between gap-3">
                   <div className="flex items-center gap-3">
                     <span className="font-mono text-xs text-primary">{chapter.kind === 'td' ? 'TD' : `CH ${String(chapter.number).padStart(2, '0')}`}</span>
-                    <h3 className="font-serif text-2xl font-semibold text-foreground">{chapter.title}</h3>
+                    <h3 className="font-serif text-2xl font-semibold text-foreground">{getChapterTitle(chapter.id, language)}</h3>
                   </div>
-                  <Badge variant="secondary">{chapter.lessons.length} lesson</Badge>
+                  <Badge variant="secondary">{chapter.lessons.length} {t('common.lessonPlural')}</Badge>
                 </div>
 
                 <div className="mt-4 space-y-2">
@@ -168,7 +171,7 @@ export default function BiophysicsPage() {
                       to={`/discipline/biophysique/${chapter.id}/${lesson.id}`}
                       className="group flex items-center justify-between gap-3 rounded-lg border border-border bg-elevated/50 px-3 py-2.5 text-sm text-muted transition-colors hover:border-primary/40 hover:bg-primary/5 hover:text-foreground"
                     >
-                      <span>{lesson.title}</span>
+                      <span>{getChapterTitle(lesson.id, language)}</span>
                       <ArrowRight className="h-4 w-4 opacity-0 transition-all duration-200 group-hover:translate-x-0.5 group-hover:opacity-100" />
                     </Link>
                   ))}

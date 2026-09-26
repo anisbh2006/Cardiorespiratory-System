@@ -1,0 +1,861 @@
+{
+  "file": "TD-02)Spirometry_EN.pdf",
+  "chapterId": "pr-td02",
+  "title": "TD 02 — Spirométrie",
+  "kind": "td",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Spirométrie TD",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Spirométrie TD"
+        },
+        {
+          "type": "paragraph",
+          "text": "Université d'Alger 1.Faculté de Médecine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Département de médecine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cycle gradué. 2ème année"
+        },
+        {
+          "type": "paragraph",
+          "text": "UEI1 Cardio-Respiratoire"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-001.png",
+          "caption": "Spirométrie TD"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Objectifs du TD",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Objectifs du TD"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "? Décrivez le cycle respiratoire ? Décrire l'évolution de la pression intrapulmonaire au cours du cycle ventilatoire."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Décrire la dynamique ventilatoire (Evolution de la pression intrapulmonaire au cours du cycle ventilatoire et action des muscles respiratoires).",
+            "Mentionner les volumes mobilisables et non mobilisables",
+            "Décrire le professeur de spirométrie",
+            "Mentionner les troubles ventilatoires"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "1.Décrire le cycle respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1.Décrire le cycle respiratoire"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Décrire le cycle respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Décrire le cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "?"
+        },
+        {
+          "type": "paragraph",
+          "text": "??"
+        },
+        {
+          "type": "paragraph",
+          "text": "??"
+        },
+        {
+          "type": "paragraph",
+          "text": "??"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-002.jpg",
+          "caption": "Décrire le cycle respiratoire"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Décrire le cycle respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Décrire le cycle respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "?une phase inspiratoire de pompage de l'air à travers les poumons."
+        },
+        {
+          "type": "paragraph",
+          "text": "?suivi d'une phase expiratoire passive ou d'une vidange des poumons."
+        },
+        {
+          "type": "paragraph",
+          "text": "TI : temps inspiratoire TE : temps expiratoire Ttot : durée totale du cycle respiratoire"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-002.jpg",
+          "caption": "Décrire le cycle respiratoire"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "2.Décrire l'évolution de la pression intrapulmonaire au cours du cycle ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2.Décrire l'évolution de la pression intrapulmonaire au cours du cycle ventilatoire."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Décrire l'évolution de la pression intrapulmonaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Décrire l'évolution de la pression intrapulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "pendant le cycle ventilatoire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pression alvéolairePression atmosphérique"
+        },
+        {
+          "type": "paragraph",
+          "text": "bien sûr"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vitesse"
+        },
+        {
+          "type": "paragraph",
+          "text": "repos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contraction musculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arrêter la contraction musculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Repos"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Décrire l'évolution de la pression intrapulmonaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Décrire l'évolution de la pression intrapulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "pendant le cycle ventilatoire."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-003.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Décrire l'évolution de la pression intrapulmonaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "3.Décrire la dynamique ventilatoire (Evolution de la pression intrapulmonaire au cours du cycle ventilatoire et l'action"
+        },
+        {
+          "type": "paragraph",
+          "text": "muscles respiratoires)"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "6- Pression pleurale à - 8cmH2O6- Normalisation de la pression pleurale à ? 5 cmH2O",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "3.Décrire la dynamique ventilatoire (Evolution de la pression intrapulmonaire au cours du cycle ventilatoire et l'action"
+        },
+        {
+          "type": "paragraph",
+          "text": "muscles respiratoires)"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "6- Pression pleurale à - 8cmH2O6- Normalisation de la pression pleurale à ? 5 cmH2O"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "4.Quels sont les deux principaux groupes de paramètres mesurables pour évaluer la fonction respiratoire ?",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4.Quels sont les deux principaux groupes de paramètres mesurables pour évaluer la fonction respiratoire ?"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "4.Quels sont les deux principaux groupes de paramètres mesurables pour évaluer la fonction respiratoire ?",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4.Quels sont les deux principaux groupes de paramètres mesurables pour évaluer la fonction respiratoire ?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Volumes mobilisables : mesurables par spirométrie",
+            "Volumes non mobilisables : en nécessite un autre"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "équipement"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "4.Quels sont les deux principaux groupes de paramètres mesurables pour évaluer la fonction respiratoire ?",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-004.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "5. Localisez sur le schéma, qu'est-ce qu'un débit et un volume",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "5. Localisez sur le schéma, qu'est-ce qu'un débit et un volume"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "5. Localisez sur le schéma, qu'est-ce qu'un débit et un volume",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "5. Localisez sur le schéma, qu'est-ce qu'un débit et un volume"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-005.png",
+          "caption": "5. Localisez sur le schéma, qu'est-ce qu'un débit et un volume"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "5. Localisez sur le schéma, qu'est-ce qu'un débit et un volume",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "5. Localisez sur le schéma, qu'est-ce qu'un débit et un volume"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-005.png",
+          "caption": "5. Localisez sur le schéma, qu'est-ce qu'un débit et un volume"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-006.png",
+          "caption": "5. Localisez sur le schéma, qu'est-ce qu'un débit et un volume"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "6.Quels sont les paramètres mesurés par spirométrie ? (volumes mobilisables)",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "6.Quels sont les paramètres mesurés par spirométrie ? (volumes mobilisables)"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "la fraction de capacité vitale (CV) a expiré en 1 seconde par expiration rapide et forcée.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "6.Quels sont les paramètres mesurés par spirométrie ? (volumes mobilisables)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capacité vitale (CV) : volume d'air mobilisé par un"
+        },
+        {
+          "type": "paragraph",
+          "text": "expiration forcée suite à une inspiration forcée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le volume expiratoire maximum/seconde (VEMS) : c'est"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "la fraction de capacité vitale (CV) a expiré en 1 seconde par expiration rapide et forcée."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "? Le rapport FEV/CV détermine l'indice de Tiffeneau (TI)",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "6.Quels sont les paramètres mesurés par spirométrie ? (volumes mobilisables)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capacité vitale (CV) : volume d'air mobilisé par"
+        },
+        {
+          "type": "paragraph",
+          "text": "une expiration forcée faisant suite à une inspiration forcée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le volume expiratoire maximum/seconde (VEMS) : c'est la fraction de la capacité vitale (CV) expirée en 1 seconde par expiration rapide et forcée."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "? Le rapport FEV/CV détermine l'indice de Tiffeneau (TI)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Débits périphériques"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "normalisé : débits normalisés à un pourcentage de CV mesuré en un point de la courbe d'expiration forcée."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "7.Définir les volumes non mobilisables",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "7.Définir les volumes non mobilisables"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "7.Définir les volumes non mobilisables",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "7.Définir les volumes non mobilisables"
+        },
+        {
+          "type": "paragraph",
+          "text": "Volume résiduel (VR) : volume d'air qui reste dans les poumons après"
+        },
+        {
+          "type": "paragraph",
+          "text": "expiration forcée =1,2 - 1,5L"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capacité fonctionnelle résiduelle (CRF) : c'est le volume d'air qui reste"
+        },
+        {
+          "type": "paragraph",
+          "text": "dans les poumons après une expiration normale. CRF=ERV+VR"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capacité pulmonaire totale (CPT) : c'est le volume d'air contenu dans le"
+        },
+        {
+          "type": "paragraph",
+          "text": "poumons après une inspiration forcée. CPT=CV+VR =ERV+VRI+Vt+VR= 5 500 ml."
+        },
+        {
+          "type": "paragraph",
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "SpirométrieFocus",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "SpirométrieFocus"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "Comment effectuer une spirométrie",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comment réaliser une spirométrie ?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La spirométrie est réalisée par un technicien qualifié.",
+            "Conditions préalables",
+            "Calibrer l'appareil"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Calibrage",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Calibrage"
+        },
+        {
+          "type": "list",
+          "items": [
+            "? « En métrologie, l'étalonnage est une opération qui concerne les appareils de mesure ou de restitution de données. Deux appareils différents",
+            "de design différent, mais aussi deux appareils de la même gamme (même marque, même modèle)",
+            "ne réagissez pas exactement de la même manière. Il faut donc une procédure permettant d'obtenir le même résultat à partir de la même situation initiale. »?Calibration (métrologie)",
+            "Wikipédia (wikipedia.org) ?"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "procédures",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comment réaliser une spirométrie ?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La spirométrie est réalisée par un technicien qualifié.",
+            "Conditions préalables"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "? nous effectuons une démonstration en expliquant le plus simplement possible"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "procédures"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "procédures",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-007.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-008.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "? Le nez est fermé par un pince-nez,",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comment réaliser une spirométrie ?"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "? Le nez est fermé par un pince-nez,"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "? le patient respire calmement,"
+        },
+        {
+          "type": "paragraph",
+          "text": "? puis on lui demande de respirer profondément : il inspire, profondément, puis expire aussi fort et aussi vite que possible tout l'air de ses poumons dans le spiromètre."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "Comment effectuer une spirométrie",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comment réaliser une spirométrie ?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La durée de l'expiration doit être d'au moins 6 secondes.",
+            "Des précautions doivent être prises pour éviter les fuites périorales.",
+            "Ces manœuvres simples permettent de mesurer les volumes pulmonaires.",
+            "Pour mesurer les débits expiratoires forcés, il est demandé au patient d’inspirer autant d’air que possible, puis de souffler aussi fort et aussi longtemps que possible pour vider tout l’air qu’il a dans ses poumons."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "Courbes obtenues",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Courbes obtenues"
+        },
+        {
+          "type": "paragraph",
+          "text": "? la courbe volume-temps"
+        },
+        {
+          "type": "list",
+          "items": [
+            "la courbe débit-volume dont l'aspect permet de juger si la manœuvre a été réalisée correctement ou non et d'évoquer un trouble ventilatoire.",
+            "Les résultats dépendent non seulement de la technique elle-même mais aussi de son exécution par le patient, qui en l'absence d'une bonne coordination et/ou motivation risque d'être sous-estimé."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "Interprétation des résultats",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Interprétation des résultats"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Les résultats obtenus sont comparés aux « normes »",
+            "Les normes ont été obtenues sur des valeurs « normales » groupes de population",
+            "Les valeurs de chaque paramètre ont été calculées = moyenne avec un écart type"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "? Des normes ? Origine ethnique ? Le sexe ? Âge ? Hauteur"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "Interprétation des résultats (%)",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Interprétation des résultats (%)"
+        },
+        {
+          "type": "paragraph",
+          "text": "NormalAnormal"
+        },
+        {
+          "type": "paragraph",
+          "text": "CVF ? 80 % ? 80 %"
+        },
+        {
+          "type": "paragraph",
+          "text": "CVF ? 80 % ? 80 %"
+        },
+        {
+          "type": "paragraph",
+          "text": "VEMS ? 80% ? 80%"
+        },
+        {
+          "type": "paragraph",
+          "text": "VEMS ? 80% ? 80%"
+        },
+        {
+          "type": "paragraph",
+          "text": "VEMS/CVF ? 70 % ? 70 %"
+        },
+        {
+          "type": "paragraph",
+          "text": "VEMS/CVF ? 70 % ? 70 %"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "Interprétation des résultats",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Interprétation des résultats"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Score Z"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prend en compte l'écart type"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "? Score Z = [la valeur mesurée et la valeur théorique] / écart type résiduel"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "Présentation des résultats",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Présentation des résultats"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Date d'exécution",
+            "Nom et prénom du patient",
+            "Date de naissance du patient",
+            "Hauteur",
+            "Sexe",
+            "Motif de la demande",
+            "Dispositif utilisé Interprétation (basée sur les antécédents cliniques et les données obtenues)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "paramètreTheo"
+        },
+        {
+          "type": "paragraph",
+          "text": "valeur réelle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Valeur obtenue"
+        },
+        {
+          "type": "paragraph",
+          "text": "%"
+        },
+        {
+          "type": "paragraph",
+          "text": "CVF"
+        },
+        {
+          "type": "paragraph",
+          "text": "VEMS1"
+        },
+        {
+          "type": "paragraph",
+          "text": "VEMS/CVF"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "Exemples de courbes",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Exemples de courbes"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "Courbe",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Courbe"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-009.png",
+          "caption": "Courbe"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "Courbe",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-010.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "title": "Courbe",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-011.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "title": "Courbe",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-012.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "title": "Courbe",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-td02/img-013.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "title": "1. Deux étapes : inspiration et expiration",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Messages clés"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1. Deux étapes : inspiration et expiration"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2. Variation des pressions lors de l'écoulement de l'air : loi de Boyle-Mariotte"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3. Volumes mobilisables et non mobilisables"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4. La spirométrie permet la mesure des volumes et débits mobilisables"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "5. L’aspect de la courbe Débit-Volume est caractéristique du type de trouble ventilatoire"
+        }
+      ]
+    }
+  ]
+}

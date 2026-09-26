@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
 import { HeartCrack } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { useLanguage } from '@/context/LanguageContext'
 
 export default function NotFoundPage() {
+  const { t } = useLanguage()
   return (
     <div className="flex min-h-screen flex-col items-center justify-center px-6 pt-14 text-center">
       <div className="flex h-16 w-16 items-center justify-center rounded-full border border-primary/25 bg-primary/10 shadow-[0_0_0_6px_rgba(224,36,58,0.04)]">
@@ -10,10 +12,10 @@ export default function NotFoundPage() {
       </div>
       <h1 className="mt-6 font-serif text-5xl font-bold tracking-tight text-foreground">404</h1>
       <p className="mt-3 max-w-sm text-sm leading-relaxed text-muted">
-        This page cannot be found, like a pulmonary vein in an unloaded 3D model.
+        {t('notFound.title')}
       </p>
       <Link to="/" className="mt-8">
-        <Button size="lg">Back to home</Button>
+        <Button size="lg">{t('notFound.cta')}</Button>
       </Link>
     </div>
   )

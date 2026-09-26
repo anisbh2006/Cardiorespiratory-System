@@ -10,6 +10,7 @@ import { getStructure, modelRegistry } from '@/data/anatomy'
 import { heartParts, labelAnchors, viewPresets, HOME_TARGET, type ViewPreset } from './heartParts'
 import { respiratoryParts, respiratoryLabelAnchors, respiratoryViewPresets, HOME_TARGET as RESP_HOME_TARGET } from './respiratoryParts'
 import { cn } from '@/lib/utils'
+import { useLanguage } from '@/context/LanguageContext'
 
 export interface CameraFocus {
   point: THREE.Vector3
@@ -158,18 +159,19 @@ export function AnatomyViewer({
     })
   }
 
+  const { t } = useLanguage()
   const presetItems: { key: ViewPreset; label: string }[] = [
-    { key: 'anterior', label: 'Anterior' },
-    { key: 'posterior', label: 'Posterior' },
-    { key: 'left', label: 'Left lateral' },
-    { key: 'right', label: 'Right lateral' },
-    { key: 'superior', label: 'Superior' },
+    { key: 'anterior', label: t('anatomy.preset.anterior') },
+    { key: 'posterior', label: t('anatomy.preset.posterior') },
+    { key: 'left', label: t('anatomy.preset.left') },
+    { key: 'right', label: t('anatomy.preset.right') },
+    { key: 'superior', label: t('anatomy.preset.superior') },
   ]
 
   return (
     <div
       role="group"
-      aria-label="Visualisation anatomique 3D interactive"
+      aria-label={t('anatomy.viewerAria')}
       className={cn(
         'relative overflow-hidden rounded-xl border border-border bg-[#08080b]',
         className
@@ -292,8 +294,8 @@ export function AnatomyViewer({
             {!compact && (
               <button
                 onClick={focusOnHovered}
-                title="Cadrer la structure survolée / sélectionnée"
-                aria-label="Cadrer la structure survolée ou sélectionnée"
+                title={t('anatomy.controls.focus')}
+                aria-label={t('anatomy.controls.focus')}
                 className="rounded-md border border-white/10 bg-black/50 p-1.5 text-white/60 backdrop-blur-md transition-colors hover:border-primary/50 hover:text-white cursor-pointer"
               >
                 <Crosshair className="h-3.5 w-3.5" />
@@ -301,8 +303,8 @@ export function AnatomyViewer({
             )}
             <button
               onClick={toggleLabels}
-              title="Afficher / masquer les étiquettes"
-              aria-label="Afficher ou masquer les étiquettes"
+              title={t('anatomy.controls.labels')}
+              aria-label={t('anatomy.controls.labels')}
               aria-pressed={labelsOn}
               className={cn(
                 'rounded-md border p-1.5 backdrop-blur-md transition-colors cursor-pointer',
@@ -315,8 +317,8 @@ export function AnatomyViewer({
             </button>
             <button
               onClick={() => setAutoRotate((v) => !v)}
-              title="Rotation automatique"
-              aria-label="Rotation automatique"
+              title={t('anatomy.controls.autoRotate')}
+              aria-label={t('anatomy.controls.autoRotate')}
               aria-pressed={autoRotate}
               className={cn(
                 'rounded-md border p-1.5 backdrop-blur-md transition-colors cursor-pointer',
@@ -329,8 +331,8 @@ export function AnatomyViewer({
             </button>
             <button
               onClick={resetCamera}
-              title="Reset la caméra"
-              aria-label="Reset la caméra"
+              title={t('anatomy.controls.reset')}
+              aria-label={t('anatomy.controls.reset')}
               className="rounded-md border border-white/10 bg-black/50 p-1.5 text-white/60 backdrop-blur-md transition-colors hover:text-white cursor-pointer"
             >
               <Maximize className="h-3.5 w-3.5" />
@@ -340,11 +342,11 @@ export function AnatomyViewer({
 
         <div className="flex items-center justify-between gap-2">
           <span className="pointer-events-none flex items-center gap-1.5 rounded-full border border-white/10 bg-black/50 px-2.5 py-1 text-[10px] text-white/50 backdrop-blur-md">
-            Glisser : rotation · Molette : zoom · Clic droit : panoramique · Clic : sélectionner
+            {t('anatomy.controls.helper')}
           </span>
           {!modelSrc && !compact && (
             <span className="rounded-full border border-white/10 bg-black/50 px-2.5 py-1 text-[10px] text-white/40 backdrop-blur-md">
-              Modèle anatomique procédural — GLTF plugable
+              {t('anatomy.proceduralModel')}
             </span>
           )}
         </div>

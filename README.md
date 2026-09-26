@@ -31,3 +31,7 @@ If you are developing a production application, we recommend enabling type-aware
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
 # Cardiorespiratory-System
+
+## Lesson translations
+
+English chapter JSON files remain the source of truth. French lesson sidecars (`*.fr.json`) are machine-translated with Google's public translation endpoint and loaded locally by the app; switching languages does not make network requests. To regenerate missing French sidecars, run `npm run translate:content`. The translated medical material should be reviewed by a qualified French-speaking medical professional before clinical use.

@@ -1,0 +1,1605 @@
+{
+  "file": "histology/2)Histologydel_appareilrespiratoire__EN.pdf",
+  "chapterId": "hi-2",
+  "title": "Histologie du système respiratoire",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "EMBRYOLOGIE ET HISTOLOGIE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "EMBRYOLOGIE ET HISTOLOGIE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "DU SYSTÈME RESPIRATOIRE"
+        },
+        {
+          "type": "paragraph",
+          "text": "UNIVERSITÉ DES SCIENCES DE"
+        },
+        {
+          "type": "paragraph",
+          "text": "SANTE D'ALGERDEPARTEMENT DE MEDECINE"
+        },
+        {
+          "type": "paragraph",
+          "text": "DR RAHAL-BAGHDADI.D"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2025-2026"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "EMBRYOLOGIE ET HISTOLOGIE",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-001.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "EMBRYOLOGIE ET HISTOLOGIE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "PLAN DE COURS. INTRODUCTION : B. ORIGINE EMBRYOLOGIQUE : C. ORGANISATION GÉNÉRALE :D. STRUCTURE HISTOLOGIQUE :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1) voies respiratoires supérieures :a - cavité nasaleb - nasopharynx2) voies respiratoires proprement dites :a- voies respiratoires extra-pulmonaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "* larynx *Trachée et bronches principales b- voies bronchiques intrapulmonaires et extralobulaires :"
+        },
+        {
+          "type": "paragraph",
+          "text": "*Les grandes, moyennes et petites bronches - voies bronchiques intralobulaires = bronchioles 3) le lobule pulmonaire :a - la paroi alvéolaire :b - la barrière de diffusion4) HistophysiologieE. HISTOLOGIE DES PLEPS :"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "EMBRYOLOGIE ET HISTOLOGIE",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-002.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "A- INTRODUCTION",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A- INTRODUCTION"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système respiratoire est composé de :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Les voies respiratoires supérieures",
+            "Les voies respiratoires, y compris",
+            "La fonction principale des poumons"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Est"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hématose : oxygénation du sang dans les poumons = transformation du sang veineux riche en CO² en sang artériel riche en O²."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-003.jpg",
+          "caption": "Est"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "A- INTRODUCTION",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "B - ORIGINE EMBRYOLOGIQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'organogenèse commence vers la fin de la 3ème semaine et début de la 4ème (après la mise en place de l'embryon tridermique) jusqu'à la fin du 2ème mois."
+        },
+        {
+          "type": "list",
+          "items": [
+            "L'ENTOBLAST sera à l'origine de toutes les structures épithéliales pulmonaires (garniture et épithéliums glandulaires). Dès la paroi ventrale de l'intestin primitif, on note l'apparition d'un bourgeon épithélial qui va subir des divisions dichotomiques.",
+            "LE MESOBLAST sera à l'origine :"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": ". du tissu conjonctif de tout le système.. de la couche viscérale de la plèvre : splancknopleure. de la couche pariétale : somatopleure"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-004.jpg",
+          "caption": "B - ORIGINE EMBRYOLOGIQUE"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Organogenèse : Coupe longitudinale d'un embryon de",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Organogenèse : Coupe longitudinale d'un embryon de"
+        },
+        {
+          "type": "paragraph",
+          "text": "4 et 5 semaines"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-005.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Coupe transversale d'embryon âgé de 5 semaines et 8 semaines",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Coupe transversale d'embryon âgé de 5 semaines et 8 semaines"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-006.jpg",
+          "caption": "Coupe transversale d'embryon âgé de 5 semaines et 8 semaines"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Evolution du diverticule",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Evolution du diverticule"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les divisions respiratoires se poursuivent de manière dichotomique, pour finalement atteindre 17 divisions environ 6 semaines. pour fournir des voies respiratoires intrapulmonaires."
+        },
+        {
+          "type": "paragraph",
+          "text": "A 4 semaines deux bourgeons bronchiques primitifs se sont formés, ils se divisent en 2 bourgeons lobaires à gauche et 3 bourgeons à droite"
+        },
+        {
+          "type": "paragraph",
+          "text": "A la fin du 2ème mois, la phase d'organogenèse est terminée. Les poumons sont en place. Elles formeront progressivement leur vascularisation et seront entourées par la séreuse ; mais ils sont encore incapables d'assurer leur fonction hématose."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-007.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-008.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Evolution du diverticule",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les malformations pulmonaires fœtales sont rares et sont le plus souvent de bon pronostic : hypoplasie (développement insuffisant), agénésie (absence de poumon), atrésie (occlusion d'une bronche)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-009.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "entoblaste",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "entoblaste"
+        },
+        {
+          "type": "paragraph",
+          "text": "Facteurs de croissance : EGF = facteur de croissance épidermique"
+        },
+        {
+          "type": "paragraph",
+          "text": "FGF10 = facteur de croissance des fibroblastes BMP4 = protéine morphogénétique osseuse"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-010.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "Chronologie du développement",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Chronologie du développement"
+        },
+        {
+          "type": "paragraph",
+          "text": "le système respiratoire"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-011.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "C - ORGANISATION GÉNÉRALE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C - ORGANISATION GÉNÉRALE"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Les voies respiratoires supérieures : a- cavité nasale (fosses nasales) b- Rhinopharynx",
+            "Les voies respiratoires aérophoriques elles-mêmes : a- les voies respiratoires extrapulmonaires : a1- le larynx"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "a2- la trachée et les bronches principales (10mm)b- les voies intrapulmonaires et extralobulaires (10 à 1mm)"
+        },
+        {
+          "type": "paragraph",
+          "text": "*grosses bronches *bronches moyennes *petites bronches : - bronches inter lobulaires - bronches supralobulaires c- Voies intralobulaires = Bronchioles (1mm) :"
+        },
+        {
+          "type": "paragraph",
+          "text": "c1- Les bronchioles elles-mêmes 3- le lobule pulmonaire : c2- L'unité morphologique des bronchioles terminales et c3- les bronchioles respiratoires"
+        },
+        {
+          "type": "paragraph",
+          "text": "fonctionnel du poumon"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "ORGANISATION GÉNÉRALE ROUTES AÉROPHORA : SEGMENTATION - TOPOGRAPHIE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "ORGANISATION GÉNÉRALE ROUTES AÉROPHORA : SEGMENTATION - TOPOGRAPHIE"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-012.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "D ? STRUCTURE HISTOLOGIQUE 1) les voies respiratoires supérieures : a - La cavité nasale (fosses nasales)",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D ? STRUCTURE HISTOLOGIQUE 1) les voies respiratoires supérieures : a - La cavité nasale (fosses nasales)"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "- Région antérieure ou vestibulaire : Epithélium pavimenteux kératinisé (stratifié pavimenteux kératinisé = peau)"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "-Région postérieure : Epithélium cylindrique respiratoire stratifié cilié et mucosécrétant (muqueuse nasale proprement dite)"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "-Région supérieure : Epithélium sensoriel = muqueuse olfactive"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "a- Cavité nasale : muqueuse respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "a- Cavité nasale : muqueuse respiratoire"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-013.jpg",
+          "caption": "a- Cavité nasale : muqueuse respiratoire"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "Les cellules qui le constituent sont",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La muqueuse respiratoire = Epithélium + Chorion"
+        },
+        {
+          "type": "paragraph",
+          "text": "1- L'épithélium de type respiratoire : Il est cilié stratifié au niveau de la muqueuse nasale. Elle est pseudo-ciliée stratifiée au niveau de la trachée jusqu'au"
+        },
+        {
+          "type": "paragraph",
+          "text": "bronches extra-lobulaires. Elle est unie ciliée stratifiée au niveau des bronchioles."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Les cellules qui le constituent sont"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Les cellules cylindriques ciliées",
+            "Les cellules caliciformes à pôle muqueux ouvert PAS+",
+            "Les cellules basales de remplacement",
+            "Cellules neuroendocrines rares visibles après coloration spéciale (Ces cellules sécrètent de la sérotonine et possèdent des chimiorécepteurs sensibles à la teneur en CO2 et qui adaptent le calibre des vaisseaux sanguins, HAP)"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "Tissu conjonctif vascularisé qui présente des variations structurelles selon les différentes régions des voies aérophoriques.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2 - Le chorion de la muqueuse respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tissu conjonctif vascularisé qui présente des variations structurelles selon les différentes régions des voies aérophoriques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au niveau de la cavité nasale le chorion présente :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- une partie superficielle infiltrée de lymphocytes et contenant des glandes séromuqueuses."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "- une partie profonde conjonctive-élastique dense, rattachée au périoste et traversée par des plexus veineux et des vaisseaux lymphatiques."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "Tissu conjonctif vascularisé qui présente des variations structurelles selon les différentes régions des voies aérophoriques.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-014.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "Microscope optique : coloration à l'hématéine-éosine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Microscope optique : coloration à l'hématéine-éosine"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-015.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-016.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "Épithélium respiratoire (schéma montrant la muqueuse)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Épithélium respiratoire (schéma montrant la muqueuse)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-017.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "Structure et ultra structure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Structure et ultra structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "l'épithélium respiratoire"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-018.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "Épithélium de type respiratoire à fort grossissement (H.E)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Épithélium de type respiratoire à fort grossissement (H.E)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-019.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Épithélium de type respiratoire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Épithélium de type respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Au M.O Au M.E (vue de dessus)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-020.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-021.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "Coupe sagittale de la tête et du cou :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Coupe sagittale de la tête et du cou :"
+        },
+        {
+          "type": "paragraph",
+          "text": "1- cavité nasale (cavité nasale) 2- Rhino pharynx (« cavum ») 3- cavité buccale 4- oropharynx 5- laryngo pharynx (hypo)6- larynx 7- œsophage 8- trachée"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le pharynx est le carrefour aéro-digestif."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-022.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "b- Le nasopharynx",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "b- Le nasopharynx"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'épithélium : est de type respiratoire. Le chorion : Il contient de petites glandes salivaires mixtes et des nodules lymphoïdes dont certains forment une masse : l'amygdale pharyngée de Lushka. Le tissu lymphoïde a un"
+        },
+        {
+          "type": "paragraph",
+          "text": "fonction de défense immunitaire très importante aidée par la présence de cellules M qui se trouvent entre les cellules ciliées, et qui ont la particularité d'être capables de prélever des antigènes du côté du cheveu."
+        },
+        {
+          "type": "paragraph",
+          "text": "lumière, et les faire passer de l'autre côté de la barrière vers le chorion (lymphocytes)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-023.jpg",
+          "caption": "b- Le nasopharynx"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "Muqueuse nasopharyngée (coloration à l'EO)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Muqueuse nasopharyngée (coloration à l'EO)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-024.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "2°) Les voies respiratoires elles-mêmes : a- Les voies respiratoires extra-pulmonaires :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2°) Les voies respiratoires elles-mêmes : a- Les voies respiratoires extra-pulmonaires :"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "a1- Le larynx : - Il participe à la fois à l'axe aérien, à la déglutition (épiglotte) et à la phonation (luette)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "- Sur une coupe longitudinale la paroi du larynx est tapissée d'une muqueuse que l'on peut décrire comme 4 épaississements :"
+        },
+        {
+          "type": "paragraph",
+          "text": ". 2 cordes vocales >. 2 cordes vocales<"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "Le larynx",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le larynx"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vue de face"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vue du profil"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-025.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-026.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "Le larynx",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-027.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "Les cordes vocales inférieures ou cordes vocales vraies :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les cordes vocales inférieures ou cordes vocales vraies :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ils sont en contact avec la nourriture.",
+            "Ils limitent un espace : la glotte. Leur épithélium est de type oral (PSNK) - Le chorion de la muqueuse est riche en fibres élastiques, avec présence de fibres musculaires striées : muscle vocal. On note l'absence de glandes, de tissu lymphoïde et de vaisseaux lymphatiques"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les cordes vocales supérieures ou bandes ventriculaires ou fausses cordes vocales :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ils sont en retrait des cordes vocales <",
+            "Ils sont tapissés d'un épithélium de type respiratoire - un chorion conjonctivo-vasculaire contenant des glandes séromuqueuses et des fibres musculaires lisses."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-027.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "-1ère tunique : une muqueuse avec un épithélium de type respiratoire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "a2- La trachée et les bronches principales :"
+        },
+        {
+          "type": "paragraph",
+          "text": "La paroi de la trachée et les bronches extra-lobulaires possèdent une paroi à 3 tuniques :"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "-1ère tunique : une muqueuse avec un épithélium de type respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "- 2ème tunique : une sous-muqueuse comprenant"
+        },
+        {
+          "type": "paragraph",
+          "text": "morceaux de cartilage"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "- 3ème tunique : une adventice fibro-adipeuse"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "Rapport anatomique de la trachée",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Rapport anatomique de la trachée"
+        },
+        {
+          "type": "paragraph",
+          "text": "Muscle trachéal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lame trachéale transversale"
+        },
+        {
+          "type": "paragraph",
+          "text": "(fibres élastiques)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Œsophage"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sous-muqueuse (cartilage hyalin)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sous-muqueuse (zone conjonctivo"
+        },
+        {
+          "type": "paragraph",
+          "text": "glandulaire)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Muqueuse = épithélium + chorion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Épithélium respiratoire"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-028.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "a2- La trachée et les bronches principales",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "a2- La trachée et les bronches principales"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La muqueuse : type respiratoire : ciliée pseudo-stratifiée",
+            "La sous-muqueuse : TrachéeElle est convexe dans sa partie antérieure subdivisée en une zone conjonctivo-glandulaire interne et une zone externe comportant un arc cartilagineux en forme de fer à cheval."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est plat dans sa partie postérieure constituée de couches de fibres musculaires lisses : le muscle trachéal."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bronches principales : L'arc cartilagineux est complet et absence de muscle",
+            "L'adventice : Elle est fibroblastique riche en vaisseaux sanguins et lymphatiques."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "On l'appelle péribronche au niveau des bronches principales."
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "Paroi de la trachée au MO ; IL coloration",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Paroi de la trachée au MO ; IL coloration"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arc cartilagineux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Muqueuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Muscle trachéal"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-029.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "b- Les voies bronchiques intrapulmonaires et",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "b- Les voies bronchiques intrapulmonaires et"
+        },
+        {
+          "type": "paragraph",
+          "text": "extra-lobulaire : (les grosses, moyennes et petites bronches) La muqueuse : La lumière est festonnée d'un épithélium de type respiratoire (pseudostratifié) et d'un chorion riche en faisceaux de fibres élastiques longitudinales et entouré de fibres annulaires du muscle REISSESSEN."
+        },
+        {
+          "type": "paragraph",
+          "text": "La sous-muqueuse : Sa zone externe présente des arcs (grosses bronches), des morceaux arqués (bronches moyennes) ou des nodules (petites bronches) de cartilage hyalin."
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "title": "b- Les voies bronchiques intrapulmonaires et",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-030.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "title": "Bronches et bronchioles",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Bronches et bronchioles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Petite bronche"
+        },
+        {
+          "type": "paragraph",
+          "text": "Grande bronche"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bronchiole elle-même"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bronchiole terminale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bronchiole proprement dite"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-031.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "title": "Bronches et bronchioles",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-032.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "title": "Bronches et bronchioles",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-033.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "title": "C2- Les bronchioles terminales :+++Un épithélium cubique cilié simple avec de rares cellules caliciformes et des cellules Club.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "C- Les voies bronchiques intralobulaires = Bronchioles Leur paroi ne contient ni cartilage ni glandes."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "C1-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les bronchioles elles-mêmes : Un épithélium de type respiratoire prismatique uni stratifié cilié (les cellules ciliées et les cellules caliciformes se raréfient et on retrouve un autre type de cellules sécrétoires : les cellules de club (de Clara) dont le pôle apical en forme de dôme est tapissé de microvillosités et riche en grains de sécrétion qui sécrètent des lipides et des protéines dont certaines sont des enzymes. Rôle détoxifiant et anti-inflammatoire et entrent dans la composition du tensioactif). Le chorion possède un muscle de Reissessen très développé."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C2- Les bronchioles terminales :+++Un épithélium cubique cilié simple avec de rares cellules caliciformes et des cellules Club."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un chorion moins important et limité par le muscle Reissessen ++."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "C3-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bronchioles respiratoires : Un épithélium cilié stratifié cubique uni parfois endothéliforme et absence de cellules mucipares. Un chorion conjonctivo-élastique avec quelques fibres.m.l +"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "title": "+++",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "+++"
+        },
+        {
+          "type": "paragraph",
+          "text": "+++"
+        },
+        {
+          "type": "paragraph",
+          "text": "++"
+        },
+        {
+          "type": "paragraph",
+          "text": "+"
+        },
+        {
+          "type": "paragraph",
+          "text": "+"
+        },
+        {
+          "type": "paragraph",
+          "text": "Petit"
+        },
+        {
+          "type": "paragraph",
+          "text": "+"
+        },
+        {
+          "type": "paragraph",
+          "text": "A proprement parler"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-034.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "title": "Bronchiole elle-même",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Bronchiole elle-même"
+        },
+        {
+          "type": "paragraph",
+          "text": "Épithélium cubique simple"
+        },
+        {
+          "type": "paragraph",
+          "text": "cilié"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chorion"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Muscle REISSESSEN",
+            "Adventice",
+            "Alvéole"
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-035.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "title": "Bronchiole elle-même",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-036.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "title": "Épithélium d'une bronchiole terminale (ME) :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Épithélium d'une bronchiole terminale (ME) :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le portable de Clara"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cellule club ; Cellule colonnaire ciliée (Cil) ; Lumière (lire);",
+            "Chorion (co); Muscle lisse (sm)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les cellules club sont impliquées dans plusieurs maladies chroniques comme l’asthme et la BPCO"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-037.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "title": "Épithélium d'une bronchiole terminale (ME) :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "3°) Histologie du lobule pulmonaire : Le lobule pulmonaire est l'unité morphologique et fonctionnelle du poumon. Il est constitué d'un stroma interstitiel riche en vaisseaux sanguins et comprenant :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Les 3 segments successifs de l'arbre bronchiolaire (bronchioles proprement dites, bronchioles terminales et bronchioles respiratoires)",
+            "Les canaux alvéolaires : ils naissent des bronchioles respiratoires aux parois partiellement alvéolées."
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Les crêtes alvéolaires : ce sont les pieds d'insertion des alvéoles sur les canaux alvéolaires.",
+            "Les canaux et les sacs alvéolaires (alvéoles) : petites cavités polyédriques dont la surface totale est appelée surface respiratoire (50 à 100m2)"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "title": "Le lobule pulmonaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le lobule pulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Petite bronche"
+        },
+        {
+          "type": "paragraph",
+          "text": "Grande bronche"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bronchiole elle-même"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bronchiole terminale"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-031.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "title": "Le bord alvéolaire (3) est constitué d'un simple épithélium cubique cilié avec du tissu conjonctif contenant quelques fibres musculaires lisses.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Structure du bord alvéolaire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le bord alvéolaire (3) est constitué d'un simple épithélium cubique cilié avec du tissu conjonctif contenant quelques fibres musculaires lisses."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-038.jpg",
+          "caption": "Le bord alvéolaire (3) est constitué d'un simple épithélium cubique cilié avec du tissu conjonctif contenant quelques fibres musculaires lisses."
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "title": "Le bord alvéolaire (3) est constitué d'un simple épithélium cubique cilié avec du tissu conjonctif contenant quelques fibres musculaires lisses.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "a- La paroi alvéolaire : - Elle est définie comme étant la cloison séparant 2 alvéoles contiguës. - Les éléments qui la constituent sont : ? Épithélium alvéolaire = pneumocytes de type I et de type II ? Strom alvéolaire ? Réseau capillaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "MÉMO"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-039.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-040.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "title": "Paroi alvéolaire et barrière alvéolo-capillaire (barrière air-sang)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Paroi alvéolaire et barrière alvéolo-capillaire (barrière air-sang)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-041.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "title": "a1- L'épithélium alvéolaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "a1- L'épithélium alvéolaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pneumocytes de type II : cellules sécrétrices à l'origine du surfactant qui est un mince film liquide continu s'étalant à la surface de l'épithélium alvéolaire (lipidoprotéine) et qui est tensioactif (empêche les alvéoles de s'effondrer à l'expiration), il joue un rôle dans les mécanismes de défense innés contre les micro-organismes et sécrète des cytokines. L'épithélium repose sur une membrane basale continue percée de pores."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les épaisseurs inférieures à 0,2 µ comprennent : les pneumocytes de type l : les plus nombreux (60 %), les cellules simples du revêtement squameux (imperméables aux liquides et perméables aux gaz)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-042.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "title": "b2- Le stroma alvéolaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "b2- Le stroma alvéolaire"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Substance fondamentale amorphe PAS+",
+            "Formations fibrillaires : fibres de réticuline et fibres élastiques.",
+            "Cellules : fibroblastes (cellules septales) et macrophages alvéolaires (ou cellules poussières qui phagocytent tout ce qui a pu s'échapper de la couche muqueuse bronchique : flèches)"
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-043.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "title": "b3 - Le réseau capillaire :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "b3 - Le réseau capillaire :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dense (200 segments capillaires par alvéole)",
+            "Situé dans le stroma alvéolaire",
+            "La paroi des capillaires est formée d'un endothélium continu sans cellules périthéliales."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Globule rouge"
+        },
+        {
+          "type": "paragraph",
+          "text": "MOI"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-044.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "title": "Paroi alvéolaire et barrière alvéolo-capillaire observées chez",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Paroi alvéolaire et barrière alvéolo-capillaire observées chez"
+        },
+        {
+          "type": "paragraph",
+          "text": "MO à faible grossissement (coloration HE)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-045.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "title": "diffusion ou barrière air-sang : Elle est constituée allant de la lumière capillaire vers la lumière alvéolaire de :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "b -La barrière alvéolo-capillaire ou barrière de"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "diffusion ou barrière air-sang : Elle est constituée allant de la lumière capillaire vers la lumière alvéolaire de :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- l'endothélium capillaire."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- les membranes basales alvéolaires et capillaires fusionnées."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- l'épithélium alvéolaire (Pneumocytes I)"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4- tensioactif."
+        },
+        {
+          "type": "paragraph",
+          "text": "Globule rouge (capillaire sanguin)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lumière alvéolaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "3 Pneumocytes I"
+        },
+        {
+          "type": "paragraph",
+          "text": "4 tensioactifs"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-046.jpg",
+          "caption": "diffusion ou barrière air-sang : Elle est constituée allant de la lumière capillaire vers la lumière alvéolaire de :"
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "title": "4°) Histophysiologie",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "4°) Histophysiologie"
+        },
+        {
+          "type": "paragraph",
+          "text": "la protection et le maintien des voies aériennes béantes sont assurés : - Grâce à la rigidité du cartilage hyalin qui facilite le passage de l'air. Il sera progressivement remplacé par du muscle lisse."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Grâce à la rigidité et surtout à la souplesse du tissu musculaire lisse dont la contraction permet l'ouverture des voies et facilite le passage de l'air.",
+            "Grâce aux cellules Club qui sécrètent le tensioactif."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le maintien des passages d'air libres et propres se fait :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Grâce aux cellules ciliées, aux cellules caliciformes, aux glandes séromuqueuses qui forment le tapis muco-ciliaire.",
+            "Grâce au tissu MALT (lymphocytes libres et nodules lymphoïdes)",
+            "Grâce aux cellules alvéolaires."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "title": "Les échanges gazeux (HÉMATOSE) se font par simple diffusion grâce à 4 particularités de la barrière alvéolo-capillaire :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "4°) Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Les échanges gazeux (HÉMATOSE) se font par simple diffusion grâce à 4 particularités de la barrière alvéolo-capillaire :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "L'étendue de la surface respiratoire (70 à 80m²)",
+            "La longueur du trajet parcouru par le sang à l’intérieur de chaque lobule.",
+            "La nature et la finesse de la barrière alvéolo-capillaire.",
+            "Le film liquide tensioactif qui assure la dissolution des gaz et le maintien de la perméabilité alvéolaire."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "title": "E- Histologie de la plèvre",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "E- Histologie de la plèvre"
+        },
+        {
+          "type": "paragraph",
+          "text": "La plèvre est une séreuse qui enveloppe les poumons, elle est formée de 2 feuillets viscéraux et pariétaux séparés par une cavité virtuelle ou cavité pleurale (0,5 à 1ml de liquide qui a un rôle lubrifiant) qui permet aux feuillets de glisser lors des mouvements respiratoires."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-047.jpg",
+          "caption": "E- Histologie de la plèvre"
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "title": "Structure de la plèvre",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Structure de la plèvre"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque notice présente à décrire au microscope optique :"
+        },
+        {
+          "type": "paragraph",
+          "text": "a. Le mésothélium : constitué de cellules aplaties, réparties en un"
+        },
+        {
+          "type": "paragraph",
+          "text": "une seule couche. b. La couche sous-mésothéliale : qui est très fine ; sans compter"
+        },
+        {
+          "type": "paragraph",
+          "text": "cellules ou vaisseaux (uniquement fibres élastiques et réticulines) c. Le plan fibro-élastique superficiel : lame épaisse parfois fendue,"
+        },
+        {
+          "type": "paragraph",
+          "text": "composé de fibres élastiques et de collagène. d. La couche sous-pleurale : couche conjonctive-élastique, constituée de"
+        },
+        {
+          "type": "paragraph",
+          "text": "faisceaux de collagène, histiocytes, fibres musculaires lisses, vaisseaux sanguins et lymphatiques. Elle se poursuit dans les septa interlobulaires, unissant ainsi la plèvre viscérale au poumon. Dans la plèvre pariétale, il contient des lobules adipeux. e. Le plan fibro-élastique profond : a la même structure que le"
+        },
+        {
+          "type": "paragraph",
+          "text": "3ème couche."
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "title": "Structure de la plèvre",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-048.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "title": "Plèvre viscérale, Poumon humain, Trichrome Masson x 250",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Plèvre viscérale, Poumon humain, Trichrome Masson x 250."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-049.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "title": "Merci de votre attention",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Merci de votre attention"
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "title": "Merci de votre attention",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-050.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "title": "Barrière air-sang (schéma en M.E)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Barrière air-sang (schéma en M.E)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-051.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "title": "De quel mur s'agit-il et pourquoi",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De quel mur s'agit-il et pourquoi ?"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-052.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "title": "De quel mur s'agit-il et pourquoi",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-053.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-054.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "title": "Le lobule pulmonaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le lobule pulmonaire"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-055.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "title": "La muqueuse nasale",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La muqueuse nasale"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-056.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "title": "Le lobule pulmonaire dans le MO",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le lobule pulmonaire dans le MO"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-2/img-057.jpg",
+          "caption": ""
+        }
+      ]
+    }
+  ]
+}

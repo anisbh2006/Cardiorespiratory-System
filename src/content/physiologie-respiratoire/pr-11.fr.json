@@ -1,0 +1,1256 @@
+{
+  "file": "physio respiratoir/11)Transportdesgazdanslesang_EN.pdf",
+  "chapterId": "pr-11",
+  "title": "Transport de gaz dans le sang",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "TRANSPORT DE GAZ DANS LE SANG",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Laboratoire de Physiologie"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "TRANSPORT DE GAZ DANS LE SANG"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pr. KADIM.S"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "TRANSPORT DE GAZ DANS LE SANG",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "TRANSPORT DE GAZ DANS LE SANG"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I- Général"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Transport de l'oxygène"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Oxygène dissous",
+            "L'oxygène combiné à l'hémoglobine",
+            "Saturation de l'hémoglobine : courbe de dissociation de l'hémoglobine",
+            "Facteurs modifiant la courbe de dissociation de l'hémoglobine"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III- Transport du dioxyde de carbone 1- CO2 sous forme dissoute 2- CO2 sous forme combiné à l'hémoglobine 3- CO2 sous forme de bicarbonates"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Général",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "La fonction respiratoire du sang est représentée par le"
+        },
+        {
+          "type": "paragraph",
+          "text": "transport des gaz respiratoires des poumons vers le"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce transport est principalement assuré par un"
+        },
+        {
+          "type": "paragraph",
+          "text": "hémoprotéine : hémoglobine."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Dans un milieu liquide (sang), les gaz sont présents sous 2 formes : - la forme dissoute - la forme combinée",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dans un milieu liquide (sang), les gaz sont présents sous 2 formes : - la forme dissoute - la forme combinée"
+        },
+        {
+          "type": "paragraph",
+          "text": "La fraction dissoute est la seule forme de gaz qui participe à la pression partielle."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Général",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le volume d'un gaz dissous dans un liquide est déterminé par : - sa pression partielle - son coefficient de solubilité - la température du liquide. Elle est calculée à partir de la loi de dissolution ou loi de Henry : Vgaz = ? x Pgaz/Patm"
+        },
+        {
+          "type": "paragraph",
+          "text": "où"
+        },
+        {
+          "type": "list",
+          "items": [
+            "représente le coefficient de solubilité"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le gaz se diffuse d’une zone de haute pression vers une zone de basse pression. Cette loi fondamentale régit le transport des gaz dans l’organisme."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Transport d'O2 dans le sang",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "paragraph",
+          "text": "1- Vue générale du transport de l'O2 dans le sang Les poumons et le système cardiovasculaire = système permettant d'alimenter les tissus en O2. La quantité d'O2 apportée aux tissus dépend : - de la quantité d'O2 entrant dans les poumons - de la qualité des échanges gazeux au niveau alvéolaire - de l'apport sanguin aux tissus en fonction du degré de constriction des vaisseaux et du débit cardiaque - de la capacité de transport de l'O2 dans le sang déterminée par la quantité d'O2 dissous, de la teneur en hémoglobine du sang et de l'affinité de l'hémoglobine pour l'O2."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "1- Vue générale du transport de l'O2 dans le sang",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Vue générale du transport de l'O2 dans le sang"
+        },
+        {
+          "type": "paragraph",
+          "text": "- forme dissoute, libre dans le plasma"
+        },
+        {
+          "type": "paragraph",
+          "text": "- forme combinée à l'hémoglobine dans les érythrocytes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les réactions entre ces 2 formes sont :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- réversible,"
+        },
+        {
+          "type": "paragraph",
+          "text": "- très vite"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "1- Vue générale du transport de l'O2 dans le sang",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Vue générale du transport de l'O2 dans le sang"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le sang artériel, PaO2 :- légèrement inférieure à celle de l'air alvéolaire. - est de 100 mm Hg - diminue avec l'âge Dans le sang veineux, la PvO2 : - dépend des organes et de l'intensité du métabolisme. - est en moyenne de 40 mm Hg."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "2- O2 dissous",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2- O2 dissous"
+        },
+        {
+          "type": "paragraph",
+          "text": "La quantité d'O2 dissoute est directement proportionnelle à la PO2 (loi de Henry). plus la PO2 est élevée, plus il y a d’O2 dissous dans le plasma. - Fraction dissoute d'O2 = 1,5% d'O2 dans le sang."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au niveau artériel, pour une PaO2 normale de 100 mm Hg, il y a 3 ml d'O2 dissous par litre de sang ; soit 15 ml/min d'O2 dissous pour un débit cardiaque de 5 l/min."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Transport d'O2 dans le sang",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "paragraph",
+          "text": "2- O2 dissous Au repos, la consommation d'O2 - = 250 ml/min - augmente jusqu'à 25 fois lors de l'exercice physique. un autre mode de transport de l'O2 dans le sang = l'hémoglobine. O2 combiné à l'hémoglobine :- = 98,5% - ne contribue pas à la PO2 du sang. La PO2 reflète uniquement la fraction d’O2 dissoute et non la quantité d’O2 dans le sang."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "3- O2 combiné à l'hémoglobine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- O2 combiné à l'hémoglobine"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-11/img-001.jpg",
+          "caption": "3- O2 combiné à l'hémoglobine"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "3- O2 combiné à l'hémoglobine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- O2 combiné à l'hémoglobine"
+        },
+        {
+          "type": "paragraph",
+          "text": "(Hb)."
+        },
+        {
+          "type": "paragraph",
+          "text": "On le trouve dans la méthémoglobine, une des formes non"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hb fonctionnelle."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "4- Saturation de l'hémoglobine O2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4- Saturation de l'hémoglobine O2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Saturation en O2 de l'Hb (SO2) : proportion de molécules"
+        },
+        {
+          "type": "paragraph",
+          "text": "d'Hb présente sous forme oxygénée ; exprimé en"
+        },
+        {
+          "type": "paragraph",
+          "text": "pourcentage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Saturation en O2 (SO2) = (O2 combiné avec Hb/Hb totale)X 100"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Le % de SO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "- = 0 à 100%"
+        },
+        {
+          "type": "paragraph",
+          "text": "- dépend essentiellement de la PO2 du sang qui est fonction"
+        },
+        {
+          "type": "paragraph",
+          "text": "de la quantité d’O2 dissous."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "4- Saturation de l'hémoglobine O2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4- Saturation de l'hémoglobine O2"
+        },
+        {
+          "type": "paragraph",
+          "text": "poumon"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hb + O2 HbO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "tissu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette réaction obéit à la loi de l'action de masse."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "PO2 O2 HbO2 dissoute Inversement, au niveau du capillaire systémique : PO2 O2 HbO2 dissoute",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4- Saturation de l'hémoglobine O2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ainsi, au niveau du capillaire pulmonaire :"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "PO2 O2 HbO2 dissoute Inversement, au niveau du capillaire systémique : PO2 O2 HbO2 dissoute"
+        },
+        {
+          "type": "paragraph",
+          "text": "La différence de PO2 dans les poumons et les tissus entraîne une captation d'O2 par l'Hb dans les poumons et une libération d'O2 dans les tissus qui vont utiliser cette dernière pour leur métabolisme."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "1,34 ml d'O2.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4- Saturation de l'hémoglobine O2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pouvoir oxyphorique du sang : aide à déterminer le"
+        },
+        {
+          "type": "paragraph",
+          "text": "compte les hémoglobines non fonctionnelles, 1 g de Hg fixe"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1,34 ml d'O2."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "4- Saturation de l'hémoglobine O2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4- Saturation de l'hémoglobine O2"
+        },
+        {
+          "type": "paragraph",
+          "text": "La concentration d'Hb est de 15 g/100 ml de sang."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le volume total d'O2 dans le sang = [O2 combiné avec Hb] + [O2 dissous]"
+        },
+        {
+          "type": "paragraph",
+          "text": "= 1,34 x 15 + 0,3"
+        },
+        {
+          "type": "paragraph",
+          "text": "un débit cardiaque de 5 l/min."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "5- Courbe de dissociation de l'oxyhémoglobine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "5- Courbe de dissociation de l'oxyhémoglobine"
+        },
+        {
+          "type": "paragraph",
+          "text": "La relation entre la PO2 et la saturation en Hb O2 n'est pas"
+        },
+        {
+          "type": "paragraph",
+          "text": "pas linéaire. C'est la sigmoïde connue sous le nom de courbe de"
+        },
+        {
+          "type": "paragraph",
+          "text": "dissociation (ou saturation) de HbO2 ou courbe de"
+        },
+        {
+          "type": "paragraph",
+          "text": "Barcroft."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "Courbe de transport de dissociation O2HbO2",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Courbe de transport de dissociation O2HbO2"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-11/img-002.jpg",
+          "caption": "Courbe de transport de dissociation O2HbO2"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "brusque où l'O2 est déchargé de l'Hb. Ce segment correspond à la zone PO2 dans les capillaires systémiques.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "paragraph",
+          "text": "5- Courbe de dissociation de l'oxyhémoglobine"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Entre 60 et 100 mm Hg PO2, la courbe est en plateau et la saturation en Hb est de 97,5%, saturation quasiment complète. Si la PO2 diminue en dessous de la valeur normale, la saturation en Hb diminue peu, tout comme la teneur en O2 du sang. Plateau de la courbe = marge de sécurité pour le transport de l'O2 par le sang. Ce segment correspond à la zone de ??PO2 dans les capillaires pulmonaires.",
+            "Entre 0 et 60 mm Hg PO2 : courbe avec un segment"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "brusque où l'O2 est déchargé de l'Hb. Ce segment correspond à la zone PO2 dans les capillaires systémiques."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "5- Courbe de dissociation de l'oxyhémoglobine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "5- Courbe de dissociation de l'oxyhémoglobine"
+        },
+        {
+          "type": "paragraph",
+          "text": "La PO2 à 50 % de saturation en O2, appelée P50, est une mesure utile de la position de la courbe de dissociation de l'hémoglobine. Sa valeur normale chez l'homme est de 27 mm Hg. Trois points sont à noter sur la courbe : - sang artériel normal avec une PO2 100, SO2 97% - sang veineux normal avec une PO2 40, SO2 75% - P50 27, SO2 50%"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "6- Facteurs modifiant la courbe de dissociation de l'HbO2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "6- Facteurs modifiant la courbe de dissociation de l'HbO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "PCO2 et la concentration en ions H+"
+        },
+        {
+          "type": "paragraph",
+          "text": "- la température"
+        },
+        {
+          "type": "paragraph",
+          "text": "- la concentration en 2,3 diphosphoglycérate (2,3-DPG)"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "6- Facteurs modifiant la courbe de dissociation de l'HbO2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "6- Facteurs modifiant la courbe de dissociation de l'HbO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Augmentation de ces facteurs = déplacement de la courbe de"
+        },
+        {
+          "type": "paragraph",
+          "text": "dissociation vers la droite signifiant une diminution de l'affinité"
+        },
+        {
+          "type": "paragraph",
+          "text": "d'Hb pour O2."
+        },
+        {
+          "type": "paragraph",
+          "text": "Baisse d'un de ces facteurs = déplacement de la courbe vers"
+        },
+        {
+          "type": "paragraph",
+          "text": "la gauche avec une affinité accrue de l'Hb pour l'O2."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "6- Facteurs modifiant la courbe de dissociation HBO2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "6- Facteurs modifiant la courbe de dissociation HBO2"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "a- Effet de la concentration en ions PCO2 et H+"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le CO2 se diffuse des tissus vers le sang, augmentant la PCO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "ainsi que la libération d'ions H+ avec une diminution du pH sanguin ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "ce qui déplace la courbe de dissociation de l'Hb vers la droite."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il en résulte une baisse de l'affinité de l'Hb pour l'O2 avec"
+        },
+        {
+          "type": "paragraph",
+          "text": "apport accru de ces derniers aux tissus. Ce phénomène est"
+        },
+        {
+          "type": "paragraph",
+          "text": "connu sous le nom d’effet Bohr. La diminution de la PCO2 et la"
+        },
+        {
+          "type": "paragraph",
+          "text": "La concentration d'ions H+ a un effet opposé en déplaçant le"
+        },
+        {
+          "type": "paragraph",
+          "text": "courbe vers la gauche avec augmentation de l'affinité de"
+        },
+        {
+          "type": "paragraph",
+          "text": "hémoglobine pour O2."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "6- Facteurs modifiant la courbe de dissociation de HBO2b- Effet du 2,3-diphosphoglycérate",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "6- Facteurs modifiant la courbe de dissociation de HBO2b- Effet du 2,3-diphosphoglycérate"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une mole de 2,3-DPG se lie à une mole d'Hb en fonction de la réaction"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "suivant"
+        },
+        {
+          "type": "paragraph",
+          "text": "HbO2 + 2,3-DPG Hb-2,3-DPG + O2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute augmentation de la concentration du 2,3-DPG déplace la"
+        },
+        {
+          "type": "paragraph",
+          "text": "réaction et la courbe de dissociation de l'Hb à droite"
+        },
+        {
+          "type": "paragraph",
+          "text": "conduisant à une libération d’O2 dans le sang."
+        },
+        {
+          "type": "paragraph",
+          "text": "La baisse de concentration du 2,3-DPG déplace la courbe vers"
+        },
+        {
+          "type": "paragraph",
+          "text": "la gauche avec une diminution du P50 donc une augmentation du"
+        },
+        {
+          "type": "paragraph",
+          "text": "l'affinité de l'Hb pour l'O2."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "6- Facteurs modifiant la courbe de dissociation HBO2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport d'O2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "6- Facteurs modifiant la courbe de dissociation HBO2"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "c- Effet de la température"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'augmentation de la température suite à la production de"
+        },
+        {
+          "type": "paragraph",
+          "text": "la chaleur à travers le métabolisme tissulaire favorise la dissociation"
+        },
+        {
+          "type": "paragraph",
+          "text": "d'O2 d'Hb et entraîne un déplacement de la courbe vers"
+        },
+        {
+          "type": "paragraph",
+          "text": "la droite."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "1- Vue générale du transport du CO2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport du CO2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Vue générale du transport du CO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le métabolisme cellulaire produit 200 ml/min de CO2 qui"
+        },
+        {
+          "type": "paragraph",
+          "text": "diffuse vers le sang et est transporté par ce dernier sous 3"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "formes"
+        },
+        {
+          "type": "paragraph",
+          "text": "- sous forme dissoute"
+        },
+        {
+          "type": "paragraph",
+          "text": "- sous forme combinée avec l'hémoglobine"
+        },
+        {
+          "type": "paragraph",
+          "text": "- sous forme de bicarbonates"
+        },
+        {
+          "type": "paragraph",
+          "text": "CO2 sanguin total = CO2 dissous + CO2 lié à l'Hb + HCO3-"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "2- Sous CO2 dissous",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport du CO2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Sous CO2 dissous"
+        },
+        {
+          "type": "paragraph",
+          "text": "La quantité de CO2 dissous obéit à la loi de Henry et dépend"
+        },
+        {
+          "type": "paragraph",
+          "text": "de la pression partielle de PCO2."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le CO2 dissous représente 10 % du contenu sanguin total dans"
+        },
+        {
+          "type": "paragraph",
+          "text": "CO2. Il est 24 fois plus soluble que l'O2."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "3- CO2 combiné à l'hémoglobine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport du CO2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- CO2 combiné à l'hémoglobine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le CO2 se lie à la globine Hb pour former"
+        },
+        {
+          "type": "paragraph",
+          "text": "carbaminohémoglobine selon la réaction suivante :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hb-NH2 + CO2 Hb-NH-COOH"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le CO2 sous cette forme représente 30% du CO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "contenu dans le sang."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "4- CO2 sous forme de bicarbonates",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport du CO2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4- CO2 sous forme de bicarbonates"
+        },
+        {
+          "type": "paragraph",
+          "text": "HCO3- est le transport prédominant du CO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "représentant 60% du CO2 contenu dans le sang."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans les érythrocytes, le CO2 est converti en HCO3-"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "en suivant la formule"
+        },
+        {
+          "type": "paragraph",
+          "text": "CO2 + H2O H2CO3 H+ + HCO3-"
+        },
+        {
+          "type": "paragraph",
+          "text": "anhydrase carbonique"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "Connexion",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connexion"
+        },
+        {
+          "type": "paragraph",
+          "text": "transport"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-11/img-003.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "Transport du CO2 dans le sang",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport du CO2 dans le sang"
+        },
+        {
+          "type": "paragraph",
+          "text": "de Reverse Hamburger par"
+        },
+        {
+          "type": "paragraph",
+          "text": "une protéine plasmatique"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-11/img-004.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "pour l'Hb : c'est l'effet Haldane. Ainsi, plus la PO2 est élevée et plus",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Transport du CO2 dans le sang"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "pour l'Hb : c'est l'effet Haldane. Ainsi, plus la PO2 est élevée et plus"
+        },
+        {
+          "type": "paragraph",
+          "text": "la désoxyhémoglobine a une meilleure capacité à lier les ions"
+        },
+        {
+          "type": "paragraph",
+          "text": "H+ et une plus grande capacité à former le"
+        },
+        {
+          "type": "paragraph",
+          "text": "carbaminohémoglobine."
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "Relation entre la teneur en CO2 et le pH sanguin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Relation entre la teneur en CO2 et le pH sanguin"
+        },
+        {
+          "type": "paragraph",
+          "text": "par l'Hb dans les érythrocytes et certaines protéines plasmatiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "- les produits vont constituer dans le plasma un"
+        },
+        {
+          "type": "paragraph",
+          "text": "- du sang"
+        },
+        {
+          "type": "paragraph",
+          "text": "permettant l'équilibre du pH sanguin."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, si la concentration en ions H+ augmente, la quantité de"
+        },
+        {
+          "type": "paragraph",
+          "text": "- pour former H2CO3."
+        },
+        {
+          "type": "paragraph",
+          "text": "En revanche, si la concentration en ions H+ diminue, le H2CO3"
+        },
+        {
+          "type": "paragraph",
+          "text": "se dissocie en libérant des ions H+ et le pH diminue."
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "1- Relation entre pH, PCO2 et HCO3- du plasma",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Relation entre la teneur en CO2 et le pH sanguin"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Relation entre pH, PCO2 et HCO3- du plasma"
+        },
+        {
+          "type": "paragraph",
+          "text": "La ventilation alvéolaire peut modifier l'élimination des"
+        },
+        {
+          "type": "paragraph",
+          "text": "CO2, permettant ainsi à l'organisme de contrôler son"
+        },
+        {
+          "type": "paragraph",
+          "text": "équilibre acido-basique."
+        },
+        {
+          "type": "paragraph",
+          "text": "La respiration joue un rôle fondamental dans l’ajustement"
+        },
+        {
+          "type": "paragraph",
+          "text": "et le maintien du pH sanguin avec la participation du rein."
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "1- Relation entre pH, PCO2 et HCO3- du plasma",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Relation entre la teneur en CO2 et le pH sanguin"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Relation entre pH, PCO2 et HCO3- du plasma"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans l'organisme, [H+] = 40nmol/l correspondant à un pH neutre de"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "7.4."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Solution acide si pH < 7,4 avec [H+] > 40 nmol/l.",
+            "Solution alcaline si pH > 7,4 avec [H+] < 40 nmol/l.",
+            "Un pH < 6,9 ou > 7,8 est incompatible avec la vie."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le pH est donné par l'équation de Henderson-Hasselbach :"
+        },
+        {
+          "type": "paragraph",
+          "text": "pH = 6,1 + log [HCO3- ] / [H2CO3]"
+        },
+        {
+          "type": "paragraph",
+          "text": "pH = 6,1 + log [HCO3- ]/CO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "pH = 6,1 + log [HCO3- ]/PCO2x0,03"
+        },
+        {
+          "type": "paragraph",
+          "text": "La relation entre pH, PCO2 et HCO3- est représentée par le"
+        },
+        {
+          "type": "paragraph",
+          "text": "Diagramme pH-bicarbonate ou diagramme de Davenport."
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "title": "1- Relation entre pH, PCO2 et HCO3- du plasma",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Relation entre la teneur en CO2 et le pH sanguin"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Relation entre pH, PCO2 et HCO3- du plasma"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les valeurs physiologiques normales du plasma artériel sont :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-pH = 7,4 avec [H+] = 40 nmol/l"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "7h38 ? pH ? 7.42"
+        },
+        {
+          "type": "paragraph",
+          "text": "PCO2 = 40 mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "38 mmHg"
+        },
+        {
+          "type": "list",
+          "items": [
+            "PCO2",
+            "42 mmHg"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "-[HCO3-] = 24 mmol/l"
+        },
+        {
+          "type": "paragraph",
+          "text": "23 mmol/l ? [HCO3-] ? 28 mmol/l"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "title": "2- Les déséquilibres acido-basiques",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Relation entre la teneur en CO2 et le pH sanguin"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Les déséquilibres acido-basiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "4 catégories de déséquilibres acido-basiques sont observées :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- acidose respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "- alcalose respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "- acidose métabolique"
+        },
+        {
+          "type": "paragraph",
+          "text": "- alcalose métabolique"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ces déséquilibres"
+        },
+        {
+          "type": "paragraph",
+          "text": "- peut être associé à : une acidose ou une alcalose mixte."
+        },
+        {
+          "type": "paragraph",
+          "text": "- peut être corrigé avec un pH normal : déséquilibres"
+        },
+        {
+          "type": "paragraph",
+          "text": "compensé."
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "title": "Relation entre la teneur en CO2 et le pH sanguin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Relation entre la teneur en CO2 et le pH sanguin"
+        },
+        {
+          "type": "paragraph",
+          "text": "Déséquilibres acido-basiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "-]compétent"
+        },
+        {
+          "type": "paragraph",
+          "text": "nsation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Acidose respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "-"
+        },
+        {
+          "type": "paragraph",
+          "text": "]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alcalose respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "-]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Acidose métabolique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alcalose métabolique"
+        }
+      ]
+    }
+  ]
+}

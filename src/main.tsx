@@ -5,14 +5,17 @@ import './index.css'
 import App from './App.tsx'
 import { StudyProvider } from '@/features/study/StudyContext'
 import { ScrollToTop } from '@/components/layout/ScrollToTop'
+import { LanguageProvider } from '@/context/LanguageContext'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
-      <StudyProvider>
-        <ScrollToTop />
-        <App />
-      </StudyProvider>
+      <LanguageProvider>
+        <StudyProvider>
+          <ScrollToTop />
+          <App />
+        </StudyProvider>
+      </LanguageProvider>
     </BrowserRouter>
   </StrictMode>,
 )

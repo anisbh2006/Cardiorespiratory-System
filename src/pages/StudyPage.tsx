@@ -8,6 +8,7 @@ import { chapterTitleById, disciplineByChapterId, lessonRoute } from '@/data/con
 import { getDisciplineIcon } from '@/data/icons'
 import { useStudy } from '@/features/study/StudyContext'
 import { useCourseProgress, useDisciplineProgress } from '@/features/study/useProgress'
+import { useLanguage } from '@/context/LanguageContext'
 
 function DisciplineProgressRow({ slug }: { slug: string }) {
   const discipline = getDiscipline(slug)!
@@ -37,16 +38,17 @@ export default function StudyPage() {
   const { recentlyViewed, bookmarks, completedLessons, searchHistory, clearSearchHistory } =
     useStudy()
   const lecturee = useCourseProgress()
+  const { t, language } = useLanguage()
 
   return (
     <div className="pt-14">
       <header className="border-b border-border">
         <div className="mx-auto max-w-5xl px-6 py-10">
           <span className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.25em] text-primary">
-            <GraduationCap className="h-3.5 w-3.5" /> My study
+            <GraduationCap className="h-3.5 w-3.5" /> {t('nav.study')}
           </span>
           <h1 className="mt-2 font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Tableau de bord d'apprentissage
+            {t('study.dashboard')}
           </h1>
 
           <motion.div
@@ -57,15 +59,14 @@ export default function StudyPage() {
             <div className="flex items-center justify-between">
               <span className="flex items-center gap-2 text-sm font-medium text-foreground">
                 <TrendingUp className="h-4 w-4 text-primary" />
-                Progression globale the lesson
+                {t('study.globalProgress')}
               </span>
               <span className="font-mono text-sm text-primary">{lecturee.percent}%</span>
             </div>
             <Progress value={lecturee.percent} className="mt-3 h-2" />
             <p className="mt-2 text-xs text-faint">
-              {lecturee.completed} leçon(s) terminée(s){lecturee.total > 0 && ` sur ${lecturee.total}`} —
-              la progression s'enregistrera automatiquement à mesure que le contenu the lesson sera
-              intégré. Data stored locally (localStorage).
+              {t('study.lessonCount', { count: lecturee.completed })}
+              {lecturee.total > 0 && ` ${t('common.of')} ${lecturee.total}`}
             </p>
           </motion.div>
         </div>
@@ -75,13 +76,12 @@ export default function StudyPage() {
         {/* Continue learning */}
         <section>
           <h2 className="mb-3 flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.2em] text-faint">
-            <Clock className="h-3.5 w-3.5" /> Resume studying
+            <Clock className="h-3.5 w-3.5" /> {t('home.continueStudy')}
           </h2>
           <div className="space-y-2">
             {recentlyViewed.length === 0 ? (
               <p className="rounded-lg border border-dashed border-border-strong p-4 text-xs text-faint">
-                No lessons viewed yet. Recently opened lessons
-                apparaîtront ici.
+                {t('study.noLessons')}
               </p>
             ) : (
               recentlyViewed.slice(0, 6).map((r) => (
@@ -96,7 +96,7 @@ export default function StudyPage() {
                   </span>
                   <span className="mt-0.5 block text-[11px] text-faint">
                     {getDiscipline(r.disciplineSlug)?.titleFr} ·{' '}
-                    {new Date(r.at).toLocaleDateString('fr-FR')}
+                    {new Date(r.at).toLocaleDateString(language === 'fr' ? 'fr-FR' : 'en-US')}
                   </span>
                 </Link>
               ))
@@ -107,13 +107,12 @@ export default function StudyPage() {
         {/* Bookmarks */}
         <section>
           <h2 className="mb-3 flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.2em] text-faint">
-            <Bookmark className="h-3.5 w-3.5" /> Favoris ({bookmarks.length})
+            <Bookmark className="h-3.5 w-3.5" /> {t('study.bookmarks')} ({bookmarks.length})
           </h2>
           <div className="space-y-2">
             {bookmarks.length === 0 ? (
               <p className="rounded-lg border border-dashed border-border-strong p-4 text-xs text-faint">
-                Aucun favori. Marquez des leçons comme favorites depuis leur page pour les
-                retrouver ici.
+                {t('study.noBookmarks')}
               </p>
             ) : (
               bookmarks.map((id) => {
@@ -156,7 +155,7 @@ export default function StudyPage() {
         {/* Discipline progress */}
         <section className="md:col-span-2">
           <h2 className="mb-3 font-mono text-[11px] uppercase tracking-[0.2em] text-faint">
-            Progression par discipline
+            {t('study.disciplineProgress')}
           </h2>
           <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
             {disciplines.map((d) => (
@@ -168,11 +167,11 @@ export default function StudyPage() {
         {/* Search history */}
         <section className="md:col-span-2">
           <h2 className="mb-3 flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.2em] text-faint">
-            <Search className="h-3.5 w-3.5" /> Historique de recherche
+            <Search className="h-3.5 w-3.5" /> {t('study.searchHistory')}
           </h2>
           {searchHistory.length === 0 ? (
             <p className="rounded-lg border border-dashed border-border-strong p-4 text-xs text-faint">
-              Aucune recherche enregistrée.
+              {t('common.emptyHistory')}
             </p>
           ) : (
             <div className="flex flex-wrap items-center gap-2">
@@ -186,17 +185,14 @@ export default function StudyPage() {
                 </Link>
               ))}
               <Button variant="ghost" size="sm" onClick={clearSearchHistory} className="gap-1.5">
-                <Trash2 className="h-3 w-3" /> Effacer
+                <Trash2 className="h-3 w-3" /> {t('study.clearHistory')}
               </Button>
             </div>
           )}
         </section>
 
         <section className="md:col-span-2">
-          <p className="text-xs text-faint">
-            Lessons terminées : {completedLessons.length} · Progression conservée localement dans
-            votre navigateur (aucun backend, aucune donnée envoyée).
-          </p>
+          <p className="text-xs text-faint">{t('study.entriesStored', { count: completedLessons.length })}</p>
         </section>
       </main>
     </div>

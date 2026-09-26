@@ -10,12 +10,14 @@ import { lessonRoute } from '@/data/contentLoader'
 import { getDisciplineIcon } from '@/data/icons'
 import { useStudy } from '@/features/study/StudyContext'
 import { useCourseProgress, useDisciplineProgress } from '@/features/study/useProgress'
+import { useLanguage } from '@/context/LanguageContext'
 
 const HeroHeart = React.lazy(() =>
   import('@/features/three/AnatomyViewer').then((m) => ({ default: m.HeroHeart }))
 )
 
 function DisciplineCard({ index, slug }: { index: number; slug: string }) {
+  const { t } = useLanguage()
   const discipline = disciplines[index]
   const progress = useDisciplineProgress(discipline)
   const Icon = getDisciplineIcon(discipline.icon)
@@ -64,7 +66,7 @@ function DisciplineCard({ index, slug }: { index: number; slug: string }) {
         </div>
 
         <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-primary/80 transition-colors duration-300 group-hover:text-primary">
-          Open discipline
+          {t('home.openDiscipline')}
           <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-0.5" />
         </span>
       </Link>
@@ -78,6 +80,7 @@ function DisciplineCard({ index, slug }: { index: number; slug: string }) {
  * progress. Purely derived from locally-stored study state — no content invented.
  */
 function ResumeCard() {
+  const { t } = useLanguage()
   const { recentlyViewed } = useStudy()
   const lecturee = useCourseProgress()
   if (recentlyViewed.length === 0) return null
@@ -102,7 +105,7 @@ function ResumeCard() {
         </span>
         <span className="min-w-0 flex-1">
           <span className="flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
-            <Clock className="h-3 w-3" /> Resume studying
+            <Clock className="h-3 w-3" /> {t('home.resumeStudying')}
           </span>
           <span className="mt-1 block truncate text-sm font-medium text-foreground">
             {last.title}
@@ -122,6 +125,8 @@ function ResumeCard() {
 }
 
 export default function HomePage() {
+  const { t } = useLanguage()
+
   return (
     <div className="pt-14">
       {/* ================= HERO ================= */}
@@ -152,20 +157,18 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-6 max-w-md text-base leading-relaxed text-muted">
-              UEI / VEI 01 — Medical Student Learning Platform. Cardiorespiratory system and
-              organs hematopoietic : anatomy, histology, biophysics, and physiology in
-              an interactive, cinematic learning environment.
+              {t('home.blurb')}
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Link to="/anatomy">
                 <Button size="lg" className="gap-2">
-                  <Move3d className="h-4 w-4" /> Explore Anatomy
+                  <Move3d className="h-4 w-4" /> {t('home.exploreAnatomy')}
                 </Button>
               </Link>
               <Link to="/discipline/anatomie-cardiovasculaire">
                 <Button size="lg" variant="secondary" className="gap-2">
-                  Start Learning <ArrowRight className="h-4 w-4" />
+                  {t('home.startLearning')} <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>
             </div>
@@ -174,13 +177,13 @@ export default function HomePage() {
 
             <div className="mt-10 flex items-center gap-6 text-xs text-faint">
               <span className="flex items-center gap-1.5">
-                <Layers className="h-3.5 w-3.5 text-primary/70" /> 6 disciplines
+                <Layers className="h-3.5 w-3.5 text-primary/70" /> {t('home.sixDisciplines')}
               </span>
               <span className="flex items-center gap-1.5">
-                <Move3d className="h-3.5 w-3.5 text-primary/70" /> Laboratoire 3D interactif
+                <Move3d className="h-3.5 w-3.5 text-primary/70" /> {t('home.interactive3D')}
               </span>
               <span className="hidden items-center gap-1.5 sm:flex">
-                <BookOpen className="h-3.5 w-3.5 text-primary/70" /> Suivi de progression
+                <BookOpen className="h-3.5 w-3.5 text-primary/70" /> {t('home.tracking')}
               </span>
             </div>
           </motion.div>
@@ -214,14 +217,13 @@ export default function HomePage() {
           className="mb-12"
         >
           <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-primary">
-            Les six disciplines
+            {t('home.allDisciplinesTitle')}
           </span>
           <h2 className="mt-3 font-serif text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-            Un parlecture médical complet
+            {t('home.allDisciplinesSubtitle')}
           </h2>
           <p className="mt-3 max-w-xl text-sm leading-relaxed text-muted">
-            Chaque discipline sera structurée en chapitres et leçons à partir du matériel de
-            lecture fourni — texte, images, diagrammes et documents médicaux.
+            {t('home.allDisciplinesDescription')}
           </p>
         </motion.div>
 

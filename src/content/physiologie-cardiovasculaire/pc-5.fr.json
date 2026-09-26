@@ -1,0 +1,1015 @@
+{
+  "file": "physio cardiovasculaire/5)Systèmeàbassepression_EN.pptx",
+  "chapterId": "pc-5",
+  "title": "Système basse pression",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Année académique 2025-2026"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr REBAÏNE"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le secteur capacitif à basse pression, à faible résistance et à haute conformation retient environ 75 à 80 % du volume sanguin dans le système veineux, le cœur droit, la circulation pulmonaire, l'oreillette gauche et le ventricule gauche en diastole. Le reste du volume sanguin se trouve dans les capillaires périphériques qui font partie du système basse pression."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Circulation sanguine",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Circulation sanguine"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-5/img-001.jpg",
+          "caption": "Circulation sanguine"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Dans ce système"
+        },
+        {
+          "type": "paragraph",
+          "text": "la pression est basse ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "la capacité est très grande (5l) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "facilement extensible;"
+        },
+        {
+          "type": "paragraph",
+          "text": "la résistance hémodynamique est faible;"
+        },
+        {
+          "type": "paragraph",
+          "text": "La vitesse du sang augmente des capillaires aux grosses veines."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Circulation veineuse",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-5/img-002.jpg",
+          "caption": "Circulation veineuse"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "La vitesse d'écoulement dépend du débit et de la section transversale :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-dans un tube dont le diamètre et donc la section sont constants, la vitesse est directement proportionnelle au débit ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-dans un tube de diamètre variable, la vitesse est inversement proportionnelle à la section pour un même débit ; la vitesse est plus grande dans les sections étroites que dans les sections plus larges (voir schéma)"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Débit sanguin",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Débit sanguin"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-5/img-003.png",
+          "caption": "Débit sanguin"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Veines : secteur « capacitif »"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Les veines sont"
+        },
+        {
+          "type": "paragraph",
+          "text": "-vaisseaux de conduction : ramènent le sang vers le cœur ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-vaisseaux réservoirs ou capacitifs : stockent le sang qui peut être mobilisé en cas de besoin."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'importance du rôle physiologique de ce réservoir réside dans ses variations passives (sous l'effet par exemple de la pression hydrostatique) ou actives (par veinoconstriction)."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paroi et section de la veine"
+        },
+        {
+          "type": "paragraph",
+          "text": "La paroi des veines est plus fine que celle des artères du même ordre de division, principalement en raison d'une média plus fine."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les fibres de collagène sont relativement abondantes. Leur extensibilité est donc modeste, tandis que leur résistance mécanique est élevée dans des conditions normales. Cela permet à la paroi veineuse de résister à des tensions très élevées."
+        },
+        {
+          "type": "paragraph",
+          "text": "La proportion de fibres élastiques est moins importante que celle des artères."
+        },
+        {
+          "type": "paragraph",
+          "text": "Du fait de sa relative minceur, la paroi veineuse est facilement déformable, et la section de la veine est susceptible de changer de forme en fonction de la pression endoluminale (voir schéma)."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-5/img-004.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paroi et section de la veine"
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, les veines sont (en moyenne deux fois) plus nombreuses que les artères au même niveau de division, et de plus grand diamètre, de sorte que le réseau veineux se caractérise par une grande capacité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Certaines veines comme les veines splanchniques étant richement innervées, leur vasomotion permet de modifier leur capacité, conférant au secteur veineux le rôle de réservoir à capacité variable."
+        },
+        {
+          "type": "paragraph",
+          "text": "D'autres veines, comme celles des muscles striés squelettiques, ne possèdent pas une telle innervation, et le volume sanguin qu'elles contiennent ne peut être mobilisé que par la contraction des masses musculaires qui les entourent."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vannes"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'intima de certaines veines présente des replis semi-lunaires opposés, les valvules, constituant un dispositif s'opposant au flux sanguin amont."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les valvules sont d'autant plus nombreuses que la veine est de petit diamètre et située loin du cœur, par ex. membres supérieurs et inférieurs."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Hémodynamique"
+        },
+        {
+          "type": "paragraph",
+          "text": "La pression dans les veinules qui collectent le sang à la sortie des vaisseaux capillaires est proche de 10 à 15 mmHg ; dans un sujet en position horizontale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Volume sanguin : 70 % du volume sanguin (4000 ml)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Faible vitesse de circulation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Anastomoses : rencontre successive des vaisseaux pour donner deux veines principales reliées au cœur : la veine cave inférieure et la veine cave supérieure."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Hémodynamique"
+        },
+        {
+          "type": "paragraph",
+          "text": "La résistance au flux sanguin est faible et pratiquement nulle."
+        },
+        {
+          "type": "paragraph",
+          "text": "La vitesse d'écoulement augmente des veinules vers les grosses veines."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Hémodynamique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Conformité : relation pression-volume"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les veines se comportent comme des tubes à parois souples, elles ont tendance à s'effondrer lorsque la pression transmurale est négative (pression externe supérieure à la pression interne) :"
+        },
+        {
+          "type": "paragraph",
+          "text": "pression transmurale = pression intravasculaire (interne) - pression extravasculaire (externe)."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Hémodynamique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Conformité : relation pression-volume"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors du remplissage d'une veine collabée avec un liquide perfusé sous pression, il y a une augmentation de volume : une faible pression de remplissage provoque une augmentation significative de volume."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le rapport C = ΔV/ΔPt représente la conformité de la veine."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Hémodynamique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Conformité : pression-volume"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pression transmurale = pression intravasculaire - pression extravasculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "La pression transmurale augmente lorsque la pression intravasculaire ˃ la pression extravasculaire (1)"
+        },
+        {
+          "type": "paragraph",
+          "text": "La pression transmurale diminue lorsque la pression intravasculaire est la pression extravasculaire (2)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Lorsque la pression transmurale augmente(1), le volume augmente et donc la compliance augmente",
+            "Lorsque la pression transmurale diminue(2), le volume diminue et donc la compliance diminue."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pression intravasculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pression extravasculaire"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Hémodynamique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Influence de la gravité sur la pression veineuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le passage d'une position allongée à une position debout entraîne une augmentation du volume sanguin contenu dans les veines des membres inférieurs."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Hémodynamique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Influence de la gravité sur la pression veineuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'augmentation de volume se traduit par une augmentation de la pression veineuse (Pv) par effet de la pression hydrostatique (PH) sur la Pv : la pression hydrostatique étant la pression due au poids du sang à l'intérieur des vaisseaux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Pv est important en position debout à cause de :"
+        },
+        {
+          "type": "paragraph",
+          "text": "distance entre les pieds et le cœur ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- conformité de la paroi veineuse"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "Influence de la gravité sur la pression veineuse",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Influence de la gravité sur la pression veineuse"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-5/img-005.png",
+          "caption": "Influence de la gravité sur la pression veineuse"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "Bases physiques du trafic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Bases physiques du trafic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions vasculaires, orthostatisme et clinostatisme"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-5/img-006.png",
+          "caption": "Bases physiques du trafic"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Fonction veinomotrice"
+        },
+        {
+          "type": "paragraph",
+          "text": "La venomotricité est due à la présence de fibres musculaires dans la paroi des veines, elle permet de moduler le diamètre et la conformation des veines, et d'ajuster le volume sanguin contenu dans les veines."
+        },
+        {
+          "type": "paragraph",
+          "text": "La contraction des muscles lisses des veines entraîne une réduction du diamètre et de la conformation des veines, ainsi qu'une augmentation de la pression veineuse."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Fonction veinomotrice"
+        },
+        {
+          "type": "paragraph",
+          "text": "A l'état normal, la paroi des veines ne présente aucune tonalité active. Le tonus veineux peut augmenter sous l'effet de stimuli nerveux ou humoraux :"
+        },
+        {
+          "type": "paragraph",
+          "text": "1-stimulation du nerf sympathique : veinoconstriction avec réduction du diamètre veineux et de la compliance, responsable de la mobilisation d'un volume sanguin important vers le cœur droit, entraînant donc une augmentation du retour veineux."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-stimulation humorale : catécholamines circulantes, angiotensine II, etc."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Retour veineux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le retour veineux est le flux sanguin, exprimé en ml/min, qui revient des veines systémiques vers l'oreillette droite."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce débit s'exprime par la différence de pression (ΔP) entre les veines périphériques (Pvp) et la pression veineuse dans l'oreillette droite et la veine cave (pression veineuse centrale Pvc)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le débit cardiaque est le volume de sang circulant du cœur vers la périphérie. Dans des conditions normales, le débit cardiaque et le retour veineux sont étroitement contrôlés pour être égaux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au repos, débit cardiaque≈5l/min."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mécanisme de circulation veineuse (retour veineux)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Etudier le mécanisme de la circulation veineuse revient à étudier les facteurs qui créent le gradient de pression entre le début et la fin du système, c'est-à-dire entre toutes les premières veinules d'une part et l'oreillette droite (OD) d'autre part."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mécanisme de la circulation veineuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contraction du ventricule gauche (VG) : seule cause de circulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Au niveau de la circulation retour, il existe une différence de pression, chez le sujet en position horizontale :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la pression dans les Venules est de 10 à 15mmHg : l'énergie résiduelle apportée par la contraction du VG."
+        },
+        {
+          "type": "paragraph",
+          "text": "-à la jonction des veines caves dans l'oreillette droite, la pression, « pression veineuse centrale » est proche de 0."
+        },
+        {
+          "type": "paragraph",
+          "text": "C'est donc ce gradient, aussi faible soit-il, qui constitue la principale et seule force constante amenant le sang vers l'oreillette droite."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mécanisme de la circulation veineuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contraction du ventricule gauche (VG) : seule cause de circulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "La suppression de la fonction du VG est suivie de l'arrêt quasi immédiat de toute circulation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ensuite, le flux sanguin veineux qui dépend encore de la contraction du ventricule gauche est modulé par différents facteurs."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mécanisme de la circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Activité ventriculaire droite (VD) : puissance d'aspiration du VD"
+        },
+        {
+          "type": "paragraph",
+          "text": "Activité RV responsable de la dépression dans la DO :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-en diastole, lors de la phase de remplissage rapide, car une partie du sang contenu dans la DO passe alors dans le VD ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-en systole, lors de l'éjection : les valves auriculo-ventriculaires sont tirées vers le bas, ce qui augmente la capacité des oreillettes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cela a pour effet d’aspirer le sang des grosses veines vers les oreillettes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce phénomène d'aspiration contribue sensiblement au retour veineux."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mécanisme de la circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Activité ventriculaire droite (VD) : puissance d'aspiration du VD"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-5/img-007.png",
+          "caption": "1-Activité ventriculaire droite (VD) : puissance d'aspiration du VD"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-5/img-008.png",
+          "caption": "1-Activité ventriculaire droite (VD) : puissance d'aspiration du VD"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mécanisme de la circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Pompe abdominodiaphragmatique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de l’inspiration, la contraction du diaphragme augmente la pression abdominale tandis que la pression intrathoracique diminue. Le flux des veines cervicales et des membres supérieurs augmente tandis que le sang contenu dans la veine cave inférieure est propulsé vers l'oreillette droite."
+        },
+        {
+          "type": "paragraph",
+          "text": "En revanche, la libération du flux sanguin des veines fémorales est ralentie en raison de l’augmentation de la pression abdominale."
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mécanisme de la circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Pompe abdominodiaphragmatique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Au contraire, à l’expiration, le diaphragme se détend. La pression intra-abdominale diminue tandis que la pression intrathoracique augmente. Le flux des veines fémorales s'écoule alors librement vers la veine cave, tandis que le flux des veines cervicales et des membres supérieurs est ralenti."
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mécanisme de la circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Pompe à 3 muscles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans les membres, les veines sont entourées de muscles squelettiques et la contraction de ces muscles lors de l'activité comprime les veines. Les pulsations des artères voisines pourraient également comprimer les veines."
+        },
+        {
+          "type": "paragraph",
+          "text": "Parce que les valvules veineuses empêchent le flux rétrograde, le sang progresse vers le cœur."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mécanisme de la circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Pompe à 3 muscles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chez un sujet immobile, l'effet de la gravité est maximal et la pression dans les veines de la cheville est d'environ 100 mmHg. Cette augmentation ne constitue pas un obstacle au retour du sang vers le cœur, mais simplement une force tendant à distendre la paroi veineuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "En position debout, des contractions rythmiques des muscles des jambes propulsent le sang vers le cœur et peuvent abaisser la pression veineuse des jambes à moins de 30 mm Hg : au niveau des veines profondes, les tissus environnants maintiennent une contre-pression qui limite l'augmentation de la pression transmurale (pression intravasculaire - pression extravasculaire)."
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Pompe à 3 muscles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Augmentation du volume de sang retournant au cœur"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-5/img-009.png",
+          "caption": "Pompe à 3 muscles"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mécanisme de la circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Pompe à 3 muscles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de la marche, le fonctionnement du plâtre plantaire (écrasement de la plante veineuse plantaire) et de la pompe veinomusculaire des mollets chasse le sang contenu dans les veines situées sous la plante et au sein des masses musculaires et, grâce au jeu normal des valves, contribue à réduire la tension artérielle des jambes tout en augmentant la pression veineuse centrale."
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-5/img-010.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mécanisme de la circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Pompe à 3 muscles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chez les patients présentant des varices (varices), le retour du sang vers le cœur est réduit car leurs valvules sont défectueuses. Ces patients peuvent développer une stase veineuse et un œdème de la cheville."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, même si les valvules sont défectueuses, les contractions musculaires déplacent le sang vers le cœur car la résistance des grosses veines vers le cœur est plus faible que celle des petits vaisseaux périphériques."
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Orthostatisme et solidarité cardiovasculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "En position debout, la force gravitationnelle est responsable d'une accumulation de sang dans la partie inférieure du corps, par remplissage et, éventuellement, dilatation des veines des membres inférieurs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette modification du volume sanguin entraîne une réduction significative de la pression veineuse centrale (équivalente à la pression dans l'oreillette droite et à la pression télédiastolique dans le ventricule droit), et donc, via le mécanisme décrit par Starling, une réduction du volume systolique."
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Orthostatisme et solidarité cardiovasculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "La réduction du volume systolique est responsable d'une baisse passagère de la pression artérielle qui, chez certains patients et dans certaines conditions, peut provoquer une gêne : hypotension orthostatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le baroréflexe permet normalement de corriger assez rapidement ce trouble."
+        },
+        {
+          "type": "paragraph",
+          "text": "La veinoconstriction associée permet de mobiliser une partie du réservoir veineux et de soutenir la pression veineuse centrale."
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "title": "Chapitre 5 : Système basse pression",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Circulation veineuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Conclusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sang circule dans les vaisseaux sanguins, y compris les veines, principalement grâce à l'action de pompage du cœur. Or le flux veineux est facilité par l'activité du ventricule droit, par les mouvements respiratoires et par les contractions des muscles squelettiques qui compriment les veines (pompe musculaire)."
+        }
+      ]
+    }
+  ]
+}

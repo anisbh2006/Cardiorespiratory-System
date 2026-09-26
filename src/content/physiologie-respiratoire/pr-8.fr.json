@@ -1,0 +1,601 @@
+{
+  "file": "physio respiratoir/8)IntroductionàlaPhysiologierespiratoire_EN.pptx",
+  "chapterId": "pr-8",
+  "title": "Introduction à la Physiologie Respiratoire",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Physiologie respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physiologie respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapitre 1 : Introduction à"
+        },
+        {
+          "type": "paragraph",
+          "text": "physiologie respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Année académique 2025-2026"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Physiologie respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physiologie respiratoire"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-8/img-001.gif",
+          "caption": "Physiologie respiratoire"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour survivre, la cellule a besoin d’énergie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le métabolisme aérobie, l'un des nombreux moyens de produire de l'énergie dans la cellule, dépend d'un apport stable d'O₂ et de nutriments provenant de l'environnement, couplé à l'élimination du CO₂."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Exemple"
+        },
+        {
+          "type": "paragraph",
+          "text": "C6H12O6+ 6O2 → 6CO2 + 6H2O+ Énergie (chaleur+ ATP)"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'apport d'O2 aux cellules et l'élimination du CO2 nécessitent l'intervention des systèmes ventilatoire (hématose alvéolaire) et cardiovasculaire (transport des gaz)."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Chapitre 1 : Introduction à la physiologie respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "La respiration est l'ensemble des phénomènes qui contribuent à assurer les échanges gazeux entre le milieu ambiant et la cellule vivante."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Chapitre I : Introduction à la physiologie respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Chapitre I : Introduction à la physiologie respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Des échanges à 2 niveaux"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "-échanges"
+        },
+        {
+          "type": "paragraph",
+          "text": "milieu ambiant/sang,"
+        },
+        {
+          "type": "paragraph",
+          "text": "au niveau des capillaires pulmonaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poumon : interface entre milieu extérieur / sang"
+        },
+        {
+          "type": "paragraph",
+          "text": "-échanges : sang/cellules,"
+        },
+        {
+          "type": "paragraph",
+          "text": "au niveau des capillaires tissulaires"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-8/img-002.png",
+          "caption": "Chapitre I : Introduction à la physiologie respiratoire"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Étapes de la respiration"
+        },
+        {
+          "type": "paragraph",
+          "text": "La respiration peut être subdivisée en quatre processus intégrés :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- ventilation : échanges d'air entre l'atmosphère et les poumons ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les échanges gazeux air/sang ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le transport des gaz dans le sang ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les échanges gazeux sang/cellules vivantes."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Fonctions non hématotiques du système respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "La fonction principale du système respiratoire est de :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- l'oxygénation des tissus ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- l'élimination du dioxyde de carbone ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-maintenir le pH à une valeur normale."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Fonctions non hématotiques du système respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Outre cette fonction d’échange gazeux, le système respiratoire a d’autres fonctions."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Une fonction de purification : l'air est en effet chargé de particules inertes ou vivantes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme tous les autres épithéliums en contact avec l’environnement, l’épithélium respiratoire est bien équipé : des mécanismes piègent et détruisent les substances dangereuses avant qu’elles ne pénètrent dans l’organisme."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Fonctions non hématotiques du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Une fonction métabolique et endocrinienne"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le poumon possède une surface endothéliale considérable sur laquelle passe tout le débit cardiaque. Il occupe donc une position privilégiée pour métaboliser les substances circulantes."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Fonctions non hématotiques du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Fonction métabolique et endocrinienne"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ainsi, le poumon"
+        },
+        {
+          "type": "paragraph",
+          "text": "-contient un système fibrinolytique qui lyse les caillots dans les vaisseaux pulmonaires ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- libère différentes substances qui pénètrent dans le sang artériel systémique (prostaglandines, histamine, etc.) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-extraire du sang veineux systémique d'autres substances qui lui parviennent par l'artère pulmonaire (sérotonine, noradrénaline, etc.) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-active l'angiotensine I (décapeptide inactif) en angiotensine II ; un vasopresseur qui stimule la sécrétion d'aldostérone, grâce à l'enzyme de conversion située à la surface des cellules endothéliales des capillaires pulmonaires ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- fabrique du tensioactif à usage local ;…"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Chapitre 1 : Introduction à la physiologie respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Fonctions non hématotiques du système respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "3-Au niveau du comportement : phonation, déglutition, hoquet, rire, bâiller, renifler, soupirer, vomir, etc. ;"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4-Thermogulation et bilan hydrique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système respiratoire est source d’eau et de déperdition de chaleur. L'air atmosphérique inspiré est humidifié et réchauffé dans les voies respiratoires avant d'atteindre les alvéoles."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Organisation du système respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système respiratoire est composé de :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- un organe d'échange gazeux : les poumons ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- une pompe qui ventile les poumons : la structure musculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "structure squelettique du thorax qui augmente ou diminue le volume"
+        },
+        {
+          "type": "paragraph",
+          "text": "de la cavité thoracique."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire IV-Organisation du système respiratoire :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Voies respiratoires"
+        },
+        {
+          "type": "paragraph",
+          "text": "La géométrie du système respiratoire et la structure histologique des différentes voies respiratoires jouent un rôle clé dans la répartition des résistances dans l'arbre respiratoire qui comprend :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-voies respiratoires extrathoraciques ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les voies respiratoires intrathoraciques."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-8/img-003.png",
+          "caption": "1-Voies respiratoires"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire IV-Organisation du système respiratoire :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Voies respiratoires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Entre la trachée et les sacs alvéolaires, les voies respiratoires se divisent en moyenne 23 fois :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-zone de convection : conduction des mélanges gazeux inspirés ou expirés ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-zone de transition : partiellement alvéolée et permet donc les échanges ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-zone respiratoire : entièrement alvéolisée et siège des échanges."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-8/img-004.png",
+          "caption": "1-Voies respiratoires"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire IV-Organisation du système respiratoire :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Voies respiratoires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces divisions multiples augmentent la surface transversale totale des voies respiratoires :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "2,5 cm² dans la trachée ;",
+            "500cm² dans les bronchioles"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "voies respiratoires terminales."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par conséquent, la vitesse du flux d’air diminue dans les petits conduits d’air."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-8/img-004.png",
+          "caption": "1-Voies respiratoires"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire IV-Organisation du système respiratoire :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Voies respiratoires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces divisions multiples augmentent la surface transversale totale des voies respiratoires :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "2,5 cm² dans la trachée ;",
+            "500cm² dans les bronchioles respiratoires terminales."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par conséquent, la vitesse du flux d’air diminue dans les petits conduits d’air."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-8/img-005.png",
+          "caption": "1-Voies respiratoires"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire IV-Organisation du système respiratoire :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Alvéoles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les alvéoles, au nombre d'environ 300 millions chez l'adulte, sont le siège des échanges gazeux avec le sang."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-8/img-006.jpg",
+          "caption": "2- Alvéoles"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire IV-Organisation du système respiratoire :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Alvéoles"
+        },
+        {
+          "type": "paragraph",
+          "text": "La paroi alvéolo-capillaire est constituée de quatre éléments depuis l’intérieur de l’alvéole vers les capillaires :"
+        },
+        {
+          "type": "paragraph",
+          "text": "un film fluide qui contient la substance tensioactive ou le tensioactif des poumons ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "l'épithélium alvéolaire ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "un espace interstitiel formé"
+        },
+        {
+          "type": "paragraph",
+          "text": "-liquide interstitiel ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-tissu conjonctif riche en fibres élastiques et en fibres de collagène ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "l'endothélium capillaire : la surface des alvéoles en contact avec les capillaires est d'environ 70m² et l'épaisseur de cette paroi est d'environ 0,3 à 0,5µm."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-8/img-006.jpg",
+          "caption": "2- Alvéoles"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire IV-Organisation du système respiratoire :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Alvéoles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les alvéoles abritent également d’autres cellules spécialisées :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- les macrophages ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les lymphocytes ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les mastocytes ;"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-8/img-007.png",
+          "caption": "2- Alvéoles"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "Chapitre 1 : Introduction à la physiologie respiratoire IV-Organisation du système respiratoire :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- Plèvre"
+        },
+        {
+          "type": "paragraph",
+          "text": "La plèvre recouvre les poumons."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ses deux couches sont collées entre elles par un film de liquide pleural très fin de quelques millilitres de volume (espace virtuel)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Liquide pleural"
+        },
+        {
+          "type": "paragraph",
+          "text": "-crée une surface humide et glissante ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-maintient les poumons « collés » à la cage thoracique et les maintient tendus, partiellement gonflés, même au repos."
+        }
+      ]
+    }
+  ]
+}

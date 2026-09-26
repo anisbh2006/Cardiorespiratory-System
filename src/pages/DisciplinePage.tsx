@@ -6,9 +6,11 @@ import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import { AwaitingContent } from '@/components/medical/AwaitingContent'
 import { getDiscipline, countLessons } from '@/data/disciplines'
+import { getChapterTitle } from '@/data/contentLoader'
 import { getDisciplineIcon } from '@/data/icons'
 import { useDisciplineProgress } from '@/features/study/useProgress'
 import { useStudy } from '@/features/study/StudyContext'
+import { useLanguage } from '@/context/LanguageContext'
 
 const anatomyCta: Record<string, { to: string; label: string }> = {
   'anatomie-cardiovasculaire': { to: '/anatomy?system=cardiovascular', label: 'Open the heart in 3D' },
@@ -20,6 +22,7 @@ const anatomyCta: Record<string, { to: string; label: string }> = {
 }
 
 export default function DisciplinePage() {
+  const { t, language } = useLanguage()
   const { slug } = useParams<{ slug: string }>()
   const discipline = slug ? getDiscipline(slug) : undefined
   const progress = useDisciplineProgress(discipline)
@@ -48,7 +51,7 @@ export default function DisciplinePage() {
               to="/"
               className="text-xs font-medium uppercase tracking-[0.2em] text-faint transition-colors hover:text-primary"
             >
-              ← Toutes les disciplines
+              {t('discipline.backToAll')}
             </Link>
             <div className="mt-5 flex items-center gap-4">
               <span className="flex h-14 w-14 items-center justify-center rounded-xl border border-primary/25 bg-primary/10 text-primary">
@@ -68,9 +71,9 @@ export default function DisciplinePage() {
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <Badge variant="secondary">
                 <BookOpen className="mr-1 h-3 w-3" />
-                {discipline.chapters.length} chapitres · {lessonCount} leçons
+                {discipline.chapters.length} {t('discipline.chapterLabel')} · {lessonCount} {t('common.lessonPlural')}
               </Badge>
-              <Badge>Progression : {progress}%</Badge>
+              <Badge>{t('discipline.progress', { value: progress })}</Badge>
               {cta && (
                 <Link to={cta.to}>
                   <Button variant="outline" size="sm" className="gap-1.5">
@@ -87,13 +90,13 @@ export default function DisciplinePage() {
       {/* Chapters */}
       <main className="mx-auto max-w-7xl px-6 py-12">
         <h2 className="mb-6 font-mono text-[11px] uppercase tracking-[0.25em] text-primary">
-          Chapitres
+          {t('discipline.chapterLabel')}
         </h2>
 
         {discipline.chapters.length === 0 ? (
           <AwaitingContent
-            title={`Chapitres de « ${discipline.titleFr} » en attente d'intégration`}
-            description="Les noms et contenus exacts des chapitres proviendront des fichiers de lecture fournis. Aucun chapitre n'est inventé en l'absence du matériel source (spécification : « Do not invent chapter names if they are not present in the source material »)."
+            title={t('discipline.awaiting', { title: discipline.titleFr })}
+            description={t('discipline.awaitingDesc')}
           />
         ) : (
           <div className="space-y-4">
@@ -111,7 +114,7 @@ export default function DisciplinePage() {
                       {chapter.kind === 'td' ? 'TD' : String(chapter.number).padStart(2, '0')}
                     </span>
                     <h3 className="font-serif text-lg font-semibold text-foreground">
-                      {chapter.title}
+                      {getChapterTitle(chapter.id, language)}
                     </h3>
                   </div>
                   {chapter.status === 'awaiting-source' && (
@@ -133,7 +136,7 @@ export default function DisciplinePage() {
                         <span
                           className={`h-1.5 w-1.5 shrink-0 rounded-full ${done ? 'bg-success' : 'bg-border-strong'}`}
                         />
-                        <span className="truncate">{lesson.title}</span>
+                        <span className="truncate">{getChapterTitle(lesson.id, language)}</span>
                         <ArrowRight className="ml-auto h-3.5 w-3.5 shrink-0 opacity-0 transition-all duration-200 group-hover:translate-x-0.5 group-hover:opacity-100" />
                       </Link>
                     )

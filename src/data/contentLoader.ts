@@ -12,7 +12,9 @@
  * only reshapes it, it never rewrites or invents medical information.
  */
 import type { ContentBlock, Topic } from './types'
+import type { Language } from '@/i18n'
 import manifestJson from '@/content/manifest.json'
+import frenchManifestJson from '@/content/manifest.fr.json'
 
 export interface ManifestEntry {
   discipline: string
@@ -27,6 +29,7 @@ export interface ManifestEntry {
 }
 
 export const manifest = manifestJson as ManifestEntry[]
+const frenchManifest = frenchManifestJson as { chapterId: string; title: string; topics: string[] }[]
 
 /**
  * chapterId → discipline slug, for every chapter in the manifest.
@@ -44,6 +47,14 @@ export const disciplineByChapterId: Record<string, string> = Object.fromEntries(
 export const chapterTitleById: Record<string, string> = Object.fromEntries(
   manifest.map((m) => [m.chapterId, m.title])
 )
+
+const frenchChapterById = Object.fromEntries(frenchManifest.map((entry) => [entry.chapterId, entry]))
+
+export function getChapterTitle(chapterId: string, language: Language = 'en'): string {
+  return language === 'fr'
+    ? frenchChapterById[chapterId]?.title ?? chapterTitleById[chapterId] ?? chapterId
+    : chapterTitleById[chapterId] ?? chapterId
+}
 
 /**
  * Build the canonical deep link for a lesson/chapter id:
@@ -89,8 +100,14 @@ export function hasChapterContent(discipline: string, chapterId: string): boolea
   return `../content/${discipline}/${chapterId}.json` in chapterModules
 }
 
-export function loadChapter(discipline: string, chapterId: string): Promise<RawChapter> {
-  const key = `../content/${discipline}/${chapterId}.json`
+export function loadChapter(
+  discipline: string,
+  chapterId: string,
+  language: Language = 'en'
+): Promise<RawChapter> {
+  const localizedKey = `../content/${discipline}/${chapterId}.${language}.json`
+  const defaultKey = `../content/${discipline}/${chapterId}.json`
+  const key = language === 'fr' && chapterModules[localizedKey] ? localizedKey : defaultKey
   const mod = chapterModules[key]
   if (!mod) return Promise.reject(new Error(`No generated content for ${key}`))
   return mod().then((m) => {

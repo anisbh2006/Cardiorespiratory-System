@@ -1,0 +1,403 @@
+{
+  "file": "biophysic/2)BiophysicsCardiaque_EN.pdf",
+  "chapterId": "bp-2",
+  "title": "Cardiac Biophysics",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Biophysique cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cardiac biophysics"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "I- General:",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I- General:"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "I- General:",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le cœur est constitué de deux pompes en série (les ventricules) qui compensent la diminution de pression (perte de charge) entre le secteur veineux (précharge) et le secteur artériel (postcharge)."
+        },
+        {
+          "type": "paragraph",
+          "text": "La précharge est de 1kPa à l'arrivée dans les ventricules (quelle qu'elle soit) ?La postcharge varie selon le ventricule : ?Postcharge systémique = 13 kPa au niveau de l'aorte dans laquelle se trouve le"
+        },
+        {
+          "type": "paragraph",
+          "text": "lequel le ventricule D expulse le sang désoxygéné"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "I- Général :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-001.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "II- Courbes pression-temps :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Courbes pression-temps :"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "II- Courbes pression-temps :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-002.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "II- Courbes pression-temps :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-003.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "II- Courbes pression-temps :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-004.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "III- Volume-time curves:",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III- Volume-time curves:"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "III- Volume-time curves:",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-005.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "IV- Courbe Pression-Volume :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV- Courbe Pression-Volume :"
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-006.png",
+          "caption": "IV- Courbe Pression-Volume :"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "IV- Courbe Pression-Volume :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-007.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "V- MÉTHODES D'ÉTUDE DE L'HÉMODYNAMIQUE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "V- MÉTHODES D'ÉTUDE DE L'HÉMODYNAMIQUE CARDIAQUE"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "A- Auscultation",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A- Auscultation"
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-008.png",
+          "caption": "A- Auscultation"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "Pathologie : souffles cardiaques",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pathologie : souffles cardiaques"
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-009.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "Pathologie : souffles cardiaques",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B- Mesure des pressions intracardiaques : Cathétérisme et pose de sondes manométriques - courbes"
+        },
+        {
+          "type": "paragraph",
+          "text": "pression-temps"
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-010.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-011.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-012.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "C- Mesure des volumes",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C- Mesure des volumes"
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-013.png",
+          "caption": "C- Mesure des volumes"
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-014.jpg",
+          "caption": "C- Mesure des volumes"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "C- Mesure des volumes",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-015.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "VI- Travail cardiaque :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VI- Travail cardiaque :"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "VI- Travail cardiaque :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-016.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "VI- Travail cardiaque :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-017.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "VI- Travail cardiaque :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-018.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "VII- LES DETERMINANTS BIOPHYSIQUES DE LA",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VII- LES DETERMINANTS BIOPHYSIQUES DE LA"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "PERFORMANCE VENTRICULAIRE"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "VII- LES DETERMINANTS BIOPHYSIQUES DE LA",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-019.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "VII- LES DETERMINANTS BIOPHYSIQUES DE LA",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-020.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "VII- LES DETERMINANTS BIOPHYSIQUES DE LA",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-021.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "VII- LES DETERMINANTS BIOPHYSIQUES DE LA",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-022.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "VII- LES DETERMINANTS BIOPHYSIQUES DE LA",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-023.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "VIII- Exemples pathologiques :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VIII- Exemples pathologiques :"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "VIII- Exemples pathologiques :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-024.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "VIII- Exemples pathologiques :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-2/img-025.png",
+          "caption": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1027 @@
+{
+  "file": "biophysic/1)HémodynamiqueetBiophysicsVasculaire_EN.pdf",
+  "chapterId": "bp-1",
+  "title": "Hémodynamique et biophysique vasculaire",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Hémodynamique et biophysique",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Hémodynamique et biophysique"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "vasculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr HIMEUR MA Biophysique Médicale"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "L’activité électrique du cœur,",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "• L'activité électrique du cœur,"
+        },
+        {
+          "type": "paragraph",
+          "text": "La connaissance de la circulation sanguine chez l'homme fournit des informations précieuses sur les fonctions essentielles de l'organisme à la vie. Cette connaissance nécessite une compréhension de :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La statique et la dynamique des fluides parfaits incompressibles,",
+            "La dynamique des fluides réels,",
+            "L'élasticité des vaisseaux sanguins,",
+            "L'activité électrique du cœur,"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "A-Général",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Général"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Fluides parfaitement incompressibles",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Fluides parfaitement incompressibles"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Statique"
+        },
+        {
+          "type": "paragraph",
+          "text": "En chaque point d'un fluide, deux éléments de volume sont en contact sur une petite surface"
+        },
+        {
+          "type": "list",
+          "items": [
+            "S. Le fluide est dit « parfait » si la force",
+            "F qu'un élément du fluide exerce sur son voisin reste perpendiculaire à leur surface de contact quel que soit leur mouvement relatif, et si l'intensité de cette force ne dépend pas de l'orientation de cette surface. Le rapport P =",
+            "F /",
+            "S est la pression du fluide à ce stade. Le fluide est dit « incompressible ». si le volume de chaque élément ne dépend pas de la pression. La pression est donc la force par unité de surface exercée perpendiculairement sur un mur. Dans le système international, elle s'exprime en pascals (Pa) :"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "1 Pa = 1 N/m2 Dr. HIMEUR MA Laboratoire de Biophysique"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Fluides parfaitement incompressibles",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mais on peut aussi l'exprimer en atmosphères (atm), en millimètres de mercure (mmHg), en centimètres d'eau (cm H2O) ou en bars (bar) :"
+        },
+        {
+          "type": "paragraph",
+          "text": "1atm = 101,3 kPa = 760 mmHg = 1033 cm H2O = 1,013 bar Diverses expériences montrent que la pression augmente proportionnellement avec la profondeur ou diminue proportionnellement avec l'altitude. Dans un fluide de densité ?, une variation d'altitude, dz, correspond à une variation de pression, dP, telle que :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si ? et g sont indépendants de z, alors : P + ? g z = constante."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ainsi, deux points situés au même niveau dans un même fluide en équilibre ont la même pression."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Fluides parfaitement incompressibles",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au lecture de l’écoulement d’un fluide parfait, incompressible en régime permanent, l’énergie mécanique totale (somme des énergies cinétiques, potentielles et pressante) Application médicale : la pression artérielle (ou plus précisément l’excès de pression par rapport à la pression atmosphérique) doit être mesurée sur un sujet allongé afin d’éliminer le terme gravitationnel. Chez le sujet debout, la gravitation intervient de sorte que pour une valeur moyenne de 100 mmHg au cœur, on retrouve une TA de 60 mmHg à la tête et de 200 mmHg aux pieds."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dynamique : Lors de l'écoulement d'un fluide parfait et incompressible en régime permanent, l'énergie mécanique totale (somme des énergies cinétique, potentielle et de pression) est conservée. L'écoulement obéit alors à l'équation de Bernoulli :"
+        },
+        {
+          "type": "paragraph",
+          "text": "½ ? ?2 + ? g z + P = constante"
+        },
+        {
+          "type": "paragraph",
+          "text": "Du fait de l'incompressibilité du fluide, le débit est constant : D = S ? = S ? ??, pour deux sections S et S? traversé à des vitesses ? et ?? par le fluide."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "B- Éléments de biophysique des flux",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B- Éléments de biophysique des flux"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "du sang"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "? = ? / ?.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Viscosité du sang"
+        },
+        {
+          "type": "paragraph",
+          "text": "La viscosité exprime la plus ou moins grande facilité avec laquelle les différentes couches d'un liquide peuvent se déplacer les unes par rapport aux autres. Il démontre les liaisons intermoléculaires qui doivent être rompues pour mobiliser les molécules d’un liquide en écoulement les unes par rapport aux autres."
+        },
+        {
+          "type": "paragraph",
+          "text": "La viscosité"
+        },
+        {
+          "type": "list",
+          "items": [
+            "est défini comme le quotient de la contrainte de cisaillement ? (force nécessaire pour déplacer une couche de liquide par unité de surface) par le taux de cisaillement ? (gradient de vitesse entre deux couches) :"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "? = ? / ?."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "? = ? / ?.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-001.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Pour les liquides newtoniens comme l'eau ou le plasma, la viscosité est constante",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Pour les liquides newtoniens comme l’eau ou le plasma, la viscosité est constante. Les solutions de macromolécules ont une viscosité plus élevée que le solvant pur car la solubilisation crée des liaisons entre la macromolécule et le solvant. Pour les liquides comme le sang, la relation entre",
+            "et",
+            "n'est plus linéaire et dans la majorité des cas, la viscosité diminue à mesure que le taux de cisaillement augmente. Le sang est un liquide dont le comportement rhéologique est particulièrement complexe puisqu'il peut être comparé à une suspension d'éléments cellulaires dans le plasma. Son comportement est fortement non newtonien. Ainsi la viscosité du sang diminue considérablement lorsque le gradient de vitesse augmente (phénomène de cisaillement). La courbe ?? exprime un comportement particulier des globules rouges qui, lorsque les taux de cisaillement sont faibles, ont tendance à s'agréger et à former des amas appelés rouleaux."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "de la composition du plasma en particulier des concentrations de",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "• de la composition du plasma en particulier des concentrations de"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette agrégation de globules rouges provoque une augmentation de la viscosité du sang. Ceci explique pourquoi les régimes de circulation sanguine lente sont propices à la création de phénomènes de stase (arrêt du flux sanguin). Lorsque les taux de cisaillement augmentent, ces formations de globules rouges se dispersent, s’orientent dans le sens du flux et peuvent se déformer. Dans ces conditions la viscosité du sang diminue. La viscosité du sang dépend :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "la composition du plasma, notamment les concentrations de certaines macromolécules plasmatiques (albumine, fibrinogène). ?dépend principalement de l'hématocrite (c'est-à-dire de la concentration sanguine en globules rouges). Plus l'hématocrite est élevé, plus le sang est visqueux. De plus, le caractère non newtonien du sang s’accentue avec l’augmentation de l’hématocrite."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "de la composition du plasma en particulier des concentrations de",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-002.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "Le flux de sang",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Le flux de sang"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I- Loi de Bernoulli"
+        },
+        {
+          "type": "paragraph",
+          "text": "On appelle « charge » l'énergie nécessaire à l'écoulement d'une unité de volume de liquide. Dans l'écoulement d'un fluide parfait (fluide incompressible de viscosité nulle), la charge en tous points est constante, la loi de Bernoulli s'écrit : Charge = énergie potentielle + énergie gravitationnelle + énergie cinétique = P + ? g h + ½ v2 ? On notera que la loi de Pascal est le cas particulier du statique (c'est à dire lorsque la vitesse est nulle)."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "II- l'effet Venturi :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- l'effet Venturi :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le débit Q en un point A peut s'écrire QA = vA SA, où v est la vitesse de déplacement du fluide et S la section du récipient. Une conséquence de la loi de Bernoulli est le phénomène Venturi : à charge constante, la sténose est associée à une augmentation de la vitesse d'écoulement et à une diminution de la pression. Nous verrons que ce phénomène peut expliquer pourquoi un vaisseau se ferme brutalement au voisinage d'une sténose (spasme vasculaire)."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "Auscultation des vaisseaux",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Auscultation des vaisseaux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nous avons vu que la vitesse augmentait au niveau de la sténose vasculaire. Cette augmentation peut faire passer le flux sanguin d’un régime laminaire à un régime turbulent. Cependant, un régime turbulent est généralement plus bruyant qu’un régime laminaire. Ou peut-on entendre un « sifflement » ? lorsqu'un stéthoscope est placé sur un récipient où le régime d'écoulement est turbulent. Il est ainsi possible de poser le diagnostic de sténose « à l'oreille »."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "Auscultation des vaisseaux",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Écoulements de fluides réels : Lors de l'écoulement de fluides réels, il se produit, contrairement aux fluides parfaits, une dissipation d'énergie sous forme de chaleur, due au frottement interne du fluide. La charge n'est plus constante. Lors d'un écoulement entre deux points, il y a une perte de pression. Une autre caractéristique des écoulements réels de fluides est l’existence de différents régimes d’écoulement. En fonction du diamètre du conduit, des caractéristiques du fluide et de la vitesse d'écoulement, conditions résumées par le nombre de Reynolds (nombre de dimension 1 exprimant le rapport des forces d'inertie sur les forces visqueuses : Re = v ? D / ?),"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le régime d'écoulement dans un conduit peut être laminaire ou turbulent. Si Re est faible (<2000), le régime est toujours laminaire. Si Re est grand, le régime est toujours turbulent. Pour les valeurs intermédiaires, le régime est instable."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "IV- Profils de vitesse et loi de Poiseuille",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV- Profils de vitesse et loi de Poiseuille"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La loi de Poiseuille permet de calculer en régime laminaire le débit Q d'un fluide incompressible de viscosité",
+            "dans un tuyau cylindrique de rayon R et de longueur L, sous l'effet d'une différence de pression ?P. La viscosité étant constante, la loi ne s'applique qu'aux fluides newtoniens. On établit d'abord leur profil de vitesse parabolique dont l'intégration conduit à l'expression du débit Q :"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "Cette équation est valable tant que le nombre de Reynolds de l'écoulement reste modéré",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cette équation est valable tant que le nombre de Reynolds de l'écoulement reste modéré. Pour des valeurs élevées, l'écoulement devient turbulent et les lignes de courant ne sont plus parallèles ; il n'est donc plus possible de faire le même raisonnement. Dans le cas de fluides non newtoniens, comme le sang, le profil de vitesse dans un vaisseau cylindrique n'est plus parabolique mais présente un front aplati. Cependant, comme pour le Newtonien, les couches liquides situées au centre de l’écoulement sont les plus rapides."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "Il s'agit de la viscosité qu'aurait un fluide newtonien qui induirait le même",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Il s'agit de la viscosité qu'aurait un fluide newtonien qui induirait le même"
+        },
+        {
+          "type": "paragraph",
+          "text": "La loi de Poiseuille ne s'applique pas et les équations hydrodynamiques deviennent particulièrement complexes. Mais, on utilise souvent un artifice permettant de caractériser de manière simple les relations entre pressions et débits pour des fluides non newtoniens comme le sang. Ainsi dans le cas de l'écoulement d'un fluide non newtonien, dans un conduit de longueur L, avec un débit Q, pour un gradient de pression entre les extrémités ?P, on définit la viscosité apparente ?app du fluide non newtonien. C'est la viscosité qu'aurait un fluide newtonien qui induirait le même débit pour le même gradient ?P, on peut donc écrire pour le fluide non newtonien :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Q = ?P ? R4 / 8 L ?application"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "V- Les conséquences physiologiques de la loi de Poiseuille :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "• V- Les conséquences physiologiques de la loi de Poiseuille :"
+        },
+        {
+          "type": "paragraph",
+          "text": "La loi de Poiseuille sera souvent appliquée à la circulation du sang dans les vaisseaux, il est donc très important de considérer les conséquences de cette dernière formule. Le débit dans un vaisseau sanguin dépend : ?du gradient de pression aux extrémités du vaisseau, ?du rayon et de la longueur du vaisseau, ?de la viscosité du sang,"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "U = R I reliant une différence de potentiel U à une intensité de courant I traversant une résistance R, la loi de Poiseuille peut s'écrire :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Si on inverse la formule de Poiseuille on a :"
+        },
+        {
+          "type": "paragraph",
+          "text": "P = (8L/?R4) ?Q"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette formule est importante car si on fait l'analogie avec la loi d'Ohm,"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "U = R I reliant une différence de potentiel U à une intensité de courant I traversant une résistance R, la loi de Poiseuille peut s'écrire :"
+        },
+        {
+          "type": "paragraph",
+          "text": "P = Rvasc Q où Rvasc est la résistance vasculaire au flux. On voit que cette résistance est le produit d'un terme (8L/?R4) qui dépend des caractéristiques géométriques du récipient (du récipient) et d'un terme qui dépend des caractéristiques physiques du contenu : la viscosité ?."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "Rôle de la vasomotion sur le flux :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Rôle de la vasomotion sur le flux :"
+        },
+        {
+          "type": "paragraph",
+          "text": "La résistance vasculaire à l'écoulement est très fortement modifiée par les variations du calibre des vaisseaux (car le rayon est à la puissance quatre). C'est ainsi que des réductions ou augmentations du calibre des vaisseaux (vasoconstriction ou vasodilatation), même si elles sont d'amplitude modérée, peuvent réguler de manière significative le flux sanguin arrivant dans un organe. Une augmentation de la viscosité du sang (présente dans certaines pathologies) pourrait avoir des conséquences délétères sur la viabilité de certains organes car elle pourrait induire une diminution des débits qui les perfusent."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "VI- Le taux de cisaillement à l'intérieur de la cuve et à son",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VI- Le taux de cisaillement à l'intérieur de la cuve et à son"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "mur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme les couches de liquides ne se déplacent pas à la même vitesse mais selon un profil parabolique plus ou moins écrasé, il y a cisaillement entre les différentes couches. Le taux de cisaillement ? (? = dV/dx) varie en fonction de la position axiale et un profil de taux de cisaillement peut être décrit. Dans le cas d'un liquide newtonien en écoulement laminaire Q dans un conduit rectiligne de rayon R, on peut montrer que ce profil correspond à deux segments de droite partant d'une valeur nulle de ? au centre du récipient et atteignant une valeur maximale de 4Q/ ?R3 au niveau de la paroi. La force de frottement à la surface du tube se traduit donc par une contrainte de cisaillement :"
+        },
+        {
+          "type": "paragraph",
+          "text": "? = ? ? = 4?Q /? R3"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Expansion en fonction du débit",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Expansion en fonction du débit"
+        },
+        {
+          "type": "paragraph",
+          "text": "Des travaux récents ont montré que la contrainte de cisaillement exercée sur les cellules endothéliales qui tapissent l'intérieur des vaisseaux joue un rôle considérable dans la régulation du flux vasculaire. En effet, les cellules endothéliales possèdent des mécanorécepteurs sensibles aux contraintes de cisaillement. Ces récepteurs stimulent la libération de substances vasodilatatrices. Lorsque le flux sanguin commence à augmenter, l’équation montre qu’à mesure que la contrainte de cisaillement augmente, la libération de substances vasodilatatrices induit une augmentation du rayon du vaisseau. Ceci induit une diminution de la résistance vasculaire au débit et favorise donc une augmentation du débit. C'est l'exemple typique d'un mécanisme de couplage biophysique/biochimique qui crée un système facilitateur (ici facilitation d'un flux accru)."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "Expansion en fonction du débit",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VII-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Résistance vasculaire : La loi de Poiseuille peut s'écrire ?P = RQ en définissant la résistance hydraulique par R = 8?L/?r4. Cette relation est analogue à la loi d'Ohm. Les lois de composition habituelles s'appliquent aux résistances hydrauliques :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Application à la grande circulation : La résistance périphérique totale, Rpt, est définie par :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Débit cardiaque DC"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rpt = RArtères + RArtérioles +RCCapillaire +RVeines"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le système international d'unités, Rpt est exprimé en Pa.s/m3. Si ?P est exprimé en mmHg et Dc en ml/s, alors Rpt est exprimé en unités de résistance périphérique : 1 u.r.p = 1 mm Hg.s/ml Dr HIMEUR MA Biophysics Lab"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "C- Biophysique des parois vasculaires :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "C- Biophysique des parois vasculaires :"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Élasticité des vaisseaux"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "La loi de Hooke simplifiée",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La loi de Hooke simplifiée"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'élasticité d'un corps caractérise la relation entre l'allongement relatif (?L / L) d'un corps de longueur L et la force de traction, F, agissant sur une surface de section, S, de ce corps :"
+        },
+        {
+          "type": "paragraph",
+          "text": "c'est la loi de Hooke : F = ?.S.?L/L"
+        },
+        {
+          "type": "paragraph",
+          "text": "ou F/S = ?.?L/L où ? est le module d'élasticité de Young caractéristique de la structure du corps élastique."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "est la force nécessaire p ur pour rapprocher les",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "est la force nécessaire p ur pour rapprocher les"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tension superficielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition de la tension superficielle pour une section mince d'épaisseur e, on peut écrire la loi de Hooke sous la forme :"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F/L = ?.e. ?L/L"
+        },
+        {
+          "type": "paragraph",
+          "text": "F/L est la tension superficielle, TS. Le produit ?.e est l'élastance de la lame. Intuitivement on peut considérer que la tension superficielle est la force nécessaire par unité de longueur pour rapprocher les deux bords d'une lame élastique dans laquelle une incision a été pratiquée."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "La loi de Laplace appliquée à une artère cylindrique",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La loi de Laplace appliquée à une artère cylindrique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si la section mince est la paroi d'un récipient, cette tension équilibrera les forces dues à la différence de pression entre les faces du récipient. Si l'on considère une artère cylindrique : -Lorsque la pression à l'intérieur de l'artère est égale à la pression externe, la paroi n'est soumise à aucune contrainte. -Lorsque la pression augmente et devient supérieure à la pression externe, le rayon de l'artère a tendance à augmenter. En réponse, la paroi va se resserrer et cette tension tend à réduire le rayon de l'artère. Le plus souvent on verra que ces 2 mécanismes s’équilibrent."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "Dans un cylindre, la relation entre la tension superficielle Ts, ?P et le rayon est exprimée par la loi de Laplace :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dans un cylindre, la relation entre la tension superficielle Ts, ?P et le rayon est exprimée par la loi de Laplace :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ts dépend de la nature de la pale (? et e) et du rayon de la cuve, c'est à dire de la longueur de la fibre si l'on considère des fibres disposées sur la circonférence du profilé (les fibres longitudinales ne subissent aucune variation de longueur). Notons que pour un même gradient ?P, la tension sera d'autant plus forte sur le mur que r est grand. Un tuyau de petit diamètre résistera donc mieux à une pression élevée."
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "Diagramme tension-rayon des parois vasculaires : régulation du tonus vasculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Diagramme tension-rayon des parois vasculaires : régulation du tonus vasculaire"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "I- Artère purement élastique",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I- Artère purement élastique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est composé de fibres d'élastine et de collagène. Chacune de ces fibres obéit individuellement à la loi de Hooke mais prises dans leur ensemble, elles induisent une relation tension-rayon légèrement plus complexe pour le mur. Il s'agit d'une loi établie expérimentalement appelée relation tension-rayon ;"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "Ts = ?P.r",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pour un rayon r de l'artère, si l'on considère une pression à l'intérieur du vaisseau, générant un gradient de pression transmural ?P (Pinside -Poutside), selon la loi de Laplace, la valeur de la tension correspondant à la valeur de r est :"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ts = ?P.r"
+        },
+        {
+          "type": "paragraph",
+          "text": "On remarque que selon la loi de Laplace, la tension peut être considérée comme une fonction linéaire du rayon dont la pente est égale au gradient de pression transmural. Nous l'appellerons la ligne Laplace ; on rappellera qu'il quantifie la tendance dilatoire due au gradient de pression transmural."
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "y p p p - Cette tension est créée par les fibres qui composent la paroi de l’artère . La aboutissant à la c",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "y p p p - Cette tension est créée par les fibres qui composent la paroi de l’artère . La aboutissant à la c"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Rayon pris par une artère soumise à un gradient de pression"
+        },
+        {
+          "type": "paragraph",
+          "text": "transmural. : Le rayon d'équilibre :"
+        },
+        {
+          "type": "paragraph",
+          "text": "D'un point de vue physique, 2 phénomènes s'appliquent à la paroi d'une artère : « Le gradient de pression transmural qui tend à dilater l'artère ? » Les propriétés élastiques de l'artère qui tend à contracter l'artère. Notez que :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La tension nécessaire pour contrebalancer le gradient de pression dépend du rayon de l'artère et peut être calculée par la loi de Laplace.",
+            "Cette tension est créée par les fibres qui composent la paroi de l'artère. La relation tension-rayon doit vérifier les conséquences de la loi de Hooke conduisant à la courbe (C)."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "y p p p - Cette tension est créée par les fibres qui composent la paroi de l’artère . La aboutissant à la c",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Soumise à un gradient de pression transmural donné, l'artère aura un rayon tel que les deux relations se vérifient simultanément. Ce sera le rayon d'équilibre. C’est-à-dire le rayon que peut prendre une artère soumise à un gradient de pression donné. Ce problème peut facilement être résolu graphiquement. Sur le même graphique, les lois de Laplace et la loi du rayon de tension de l'artère ; les courbes se coupent pour r = re, c'est le rayon d'équilibre"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "On peut montrer que cet équilibre est stable",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Nous pouvons montrer que cet équilibre est stable. En fait, le système est tel que tout mouvement du rayon par rapport au rayon d'équilibre sera ramené vers ce dernier.",
+            "Ainsi pour r > re la tension élastique (représentée par la courbe C) est supérieure à celle due à la loi de Laplace, donc l'artère se contracte, on renvoie les dons vers re.",
+            "pour r < re, la tension élastique est inférieure à celle due à la loi de Laplace, donc l'artère se dilate, on revient vers re."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "title": "III- Evolution du rayon avec la pression transmurale",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III- Evolution du rayon avec la pression transmurale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque l’intérieur varie, la différence de pression transmurale varie. La pente de la relation Ts = ?P.r change, induisant une variation du rayon d'équilibre (c'est une des raisons du pouls liée aux variations de la pression artérielle dans les artères au cours du cycle cardiaque)."
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-003.png",
+          "caption": "III- Evolution du rayon avec la pression transmurale"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "title": "IV- Rôle de l'élastine ? proportions de collagène :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV- Rôle de l'élastine ? proportions de collagène :"
+        },
+        {
+          "type": "paragraph",
+          "text": "On peut également retracer, pour une même pression transmurale, l'état du vaisseau pour différentes proportions entre élastine et collagène. Pour un même gradient de pression, plus il y a d’élastine, plus l’artère sera ouverte. Avec l’âge, on observe une diminution des fibres d’élastine et une augmentation des fibres de collagène."
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-004.png",
+          "caption": "IV- Rôle de l'élastine ? proportions de collagène :"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "title": "V- Artère mixte",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "V- Artère mixte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans la paroi d’une artère mixte, on trouve des cellules musculaires lisses en plus des fibres d’élastine et de collagène mentionnées précédemment. Les cellules musculaires lisses génèrent une tension active des parois. Cette tension est indépendante du rayon."
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-005.png",
+          "caption": "V- Artère mixte"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "title": "V- Artère mixte",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le diagramme tension - rayon d'une artère mixte est la somme de sa composante active et de sa composante élastique (la première indépendante et la seconde dépendante du rayon). Elle est représentée par la courbe (C?)"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "title": "?On remarque que la courbe (C?) coupe la droite de Laplace Ts = ?P.r en deux points",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "On remarque que la courbe (C?) coupe la droite de Laplace Ts = ?P.r en deux points. « Il y a donc formellement 2 points d'équilibre. ?Seul le point d'équilibre correspondant au plus grand rayon est stable. ?Le point de rayon le plus faible (rf) est instable : le rayon évolue soit vers la fermeture, soit vers le point de stabilité (re). ?Nous pouvons montrer que le rayon d'équilibre (rf) est instable. En fait, le système est tel que tout mouvement du rayon par rapport au rayon d'équilibre (rf) sera encore plus éloigné de ce dernier.",
+            "Ainsi pour r < rf la tension élastique (représentée par la courbe C') est supérieure à celle due à la loi de Laplace, donc l'artère se contracte, on s'éloigne de rf. Cela entraîne un spasme artériel.",
+            "Pour r > rf, la tension élastique est inférieure à celle due à la loi de Laplace, donc l'artère se dilate, on s'éloigne de rf. Le rayon rejoindra le rayon d'équilibre stable re"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "title": "pression transmurale",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "pression transmurale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque la tension active (c'est-à-dire due aux cellules musculaires lisses) diminue,"
+        },
+        {
+          "type": "paragraph",
+          "text": "on a un abaissement de la courbe, donc une augmentation du re, c'est à dire une vasodilatation. ?Lorsque la tension active augmente, il y a une augmentation de la courbe et"
+        },
+        {
+          "type": "paragraph",
+          "text": "donc une réduction du re, c'est à dire une vasoconstriction. ?Il peut y avoir des situations où l'augmentation de la tension active est si"
+        },
+        {
+          "type": "paragraph",
+          "text": "grand qu'il n'y a pas de point d'intersection avec la courbe tension-rayon de l'artère. Il n'y a donc pas de rayon d'équilibre et la tendance à la contraction représentée par la courbe (C?) est toujours supérieure à la tendance à la dilatation représentée par la droite de Laplace. Cela entraîne une fermeture vasculaire (spasme)."
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "title": "VII- Effet de la variation de pression transmurale",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VII- Effet de la variation de pression transmurale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si ?P varie, c'est la pente de la droite Ts = ?P.r qui évolue : - quand ?P augmente, le calibre augmente, - quand ?P diminue, le calibre diminue - Il peut y avoir des situations où le ?P est si bas qu'il n'y a pas de point d'intersection avec la courbe tension-rayon de l'artère. Il n'y a donc pas de rayon d'équilibre et la tendance à la contraction représentée par la courbe (C?) est toujours supérieure à la tendance à la dilatation représentée par la droite de Laplace. Cela entraîne une fermeture vasculaire."
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "title": "VII- Effet de la variation de pression transmurale",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-006.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "title": "VII- Effet de la variation de pression transmurale",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-007.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "title": "D- Conséquence de l'élasticité de l'aorte",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D- Conséquence de l'élasticité de l'aorte"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "title": "La relation entre la variation de pression dP et la variation de volume dV fait intervenir Conséquence sur le débit :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La relation entre la variation de pression dP et la variation de volume dV fait intervenir Conséquence sur le débit :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sang est éjecté du ventricule gauche vers l'aorte à partir de laquelle les artères irriguent les différents organes. Les propriétés élastiques de la partie proximale de l'aorte sont très importantes. En effet, lors de la systole, le sang est éjecté du ventricule gauche à haute pression. Cela distend l'aorte qui augmente de volume."
+        },
+        {
+          "type": "paragraph",
+          "text": "La relation entre la variation de pression dP et la variation de volume dV fait intervenir le coefficient C (capacité) :"
+        },
+        {
+          "type": "paragraph",
+          "text": "dV = C.dP"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "title": "La relation entre la variation de pression dP et la variation de volume dV fait intervenir Conséquence sur le débit :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Si on fait l'hypothèse simplificatrice d'un flux de sortie du ventricule gauche qui serait constant en systole ( égal à Qs) et nul en diastole (Qd=0)"
+        },
+        {
+          "type": "paragraph",
+          "text": "pendant la systole cardiaque (durée Ts). Ce volume est restauré au moment de la diastole. ?Ce phénomène permet de transformer un écoulement discontinu en sortie de"
+        },
+        {
+          "type": "paragraph",
+          "text": "ventricule gauche (avec schématiquement un arrêt du flux en diastole) en un flux à la sortie de l'aorte qui est continu (même s'il est variable) tout au long du cycle cardiaque (de durée Tc). ?Si l'on fait l'hypothèse simplificatrice d'un débit de sortie ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "gauche qui serait constante en systole (égale à Qs) et nulle en diastole (Qd=0) (ce type de flux produit un pas rectangulaire). On peut montrer que le débit sortant de l'aorte dépend de sa capacité."
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "title": "restitue ce volume de façon uniforme pendant tout le cycle cardiaque de durée Tc. La valeur du flow constant est donc Qs .(Ts/Tc)",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "restitue ce volume de façon uniforme pendant tout le cycle cardiaque de durée Tc. La valeur du flow constant est donc Qs .(Ts/Tc)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si l'aorte est complètement rigide (pas d'élasticité et C=0), elle restaurera"
+        },
+        {
+          "type": "paragraph",
+          "text": "sa sortie est un pas d'écoulement rectangulaire. ?Si l'aorte avait une capacité infinie, elle transformerait le flux"
+        },
+        {
+          "type": "paragraph",
+          "text": "flux discontinu qu'il reçoit du ventricule gauche en flux uniforme tout au long du cycle cardiaque. ?La valeur de ce débit uniforme peut être calculée puisque lors d'un"
+        },
+        {
+          "type": "paragraph",
+          "text": "cycle cardiaque, l'aorte reçoit un volume de sang égal à Qs.Ts. Il restitue ce volume de manière uniforme tout au long du cycle cardiaque de durée Tc. La valeur du débit constant est donc Qs .(Ts/Tc)"
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-008.jpg",
+          "caption": "restitue ce volume de façon uniforme pendant tout le cycle cardiaque de durée Tc. La valeur du flow constant est donc Qs .(Ts/Tc)"
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "title": "restitue ce volume de façon uniforme pendant tout le cycle cardiaque de durée Tc. La valeur du flow constant est donc Qs .(Ts/Tc)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En fait, les situations réelles sont intermédiaires entre ces deux extrêmes et les débits sortant de l'aorte ont la forme de marches amorties. Plus la capacité de l'aorte est grande, plus l'amortissement est important. Pour des raisons de simplification du raisonnement nous n'avons considéré que l'aorte mais c'est l'ensemble du système artériel proximal qui est concerné (à des degrés divers) par les phénomènes que nous décrivons."
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-009.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "title": "coeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Conséquence sur le travail et sur la puissance fournie par le"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "coeur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le travail et la puissance fournis par le cœur pour générer un certain flux sanguin dépendent de l’élasticité de l’aorte. Le travail W correspondant à un certain débit Q circulant dans une artère de résistance R pendant un temps t peut s'écrire :"
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "title": "(01)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "(01)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le cas de l'artère rigide (C=0), nous avons vu que le flux est présent en systole (Qs) et nul en diastole. Le travail correspondant à un cycle cardiaque peut donc s’écrire :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wc=0 = RQs2Ts."
+        },
+        {
+          "type": "paragraph",
+          "text": "La puissance correspondant à un cycle cardiaque :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pc=0 = Wc=0 /Tc = RQs2Ts/Tc."
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "title": "(02)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "(02)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le cas de l'artère infiniment élastique (C=?), nous avons vu que le débit est constant tout au long du cycle cardiaque et égal à Qs. (Ts/Tc) Le travail correspondant à un cycle cardiaque peut donc s'écrire :"
+        },
+        {
+          "type": "paragraph",
+          "text": "W C=? = R(Qs.(Ts/Tc))2Tc."
+        },
+        {
+          "type": "paragraph",
+          "text": "La puissance correspondant à un cycle cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "PC=? = W C = ? /Tc = R(Qs.(Ts/Tc)2."
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "title": "Or la durée Ts de la systole est évidemment inférieure à la durée du cycle cardiaque dans son ensemble, on a donc",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "On voit que PC=? = Pc=0.(Ts/Tc)"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Or la durée Ts de la systole est évidemment inférieure à la durée du cycle cardiaque dans son ensemble, on a donc"
+        },
+        {
+          "type": "paragraph",
+          "text": "PC=?< PC=0"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour fournir le même débit, le cœur d'un sujet jeune aux artères souples doit fournir moins de puissance que celui d'un sujet âgé dont l'artère devient plus rigide."
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import { Sigma } from 'lucide-react'
+import { useLanguage } from '@/context/LanguageContext'
 
 interface EquationBlockProps {
   text: string
@@ -6,11 +7,12 @@ interface EquationBlockProps {
 }
 
 export function EquationBlock({ text, variables }: EquationBlockProps) {
+  const { t } = useLanguage()
   return (
     <div className="my-6 rounded-lg border border-border bg-surface p-4">
       <div className="flex items-center gap-2">
         <Sigma className="h-4 w-4 text-primary" />
-        <span className="text-xs font-semibold uppercase tracking-wider text-muted">Equation</span>
+        <span className="text-xs font-semibold uppercase tracking-wider text-muted">{t('medical.equation')}</span>
       </div>
       <div className="mt-3 rounded-md bg-background/60 px-4 py-3 text-center font-mono text-base text-foreground">
         {text}

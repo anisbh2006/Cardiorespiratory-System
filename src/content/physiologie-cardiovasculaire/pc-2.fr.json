@@ -1,0 +1,983 @@
+{
+  "file": "physio cardiovasculaire/2)Lecyclecardiaque_EN.pdf",
+  "chapterId": "pc-2",
+  "title": "Le cycle cardiaque",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Laboratoire de Physiologie"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prof. KADIM"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1- Période de contraction ventriculaire isovolumétrique2- Période d'éjection ventriculaireIII- Diastole"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Période de relaxation ventriculaire isovolumétrique",
+            "Période de remplissage ventriculaireIV- Modifications mécaniques, hémodynamiques et électriques au cours du cycle cardiaque"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "De la mésodiastole à la fin de la diastole",
+            "Systole3- ProtodiastoleV- Courbe pression-volume du ventricule gauche : travail cardiaqueVI- Pressions de circulation pulmonaireVII- Bruits cardiaques"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le cycle cardiaque se divise en deux phases principales :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- période de contraction ventriculaire et d'éjection du sang : systole"
+        },
+        {
+          "type": "paragraph",
+          "text": "- période de relaxation ventriculaire et de remplissage sanguin : diastole"
+        },
+        {
+          "type": "paragraph",
+          "text": "À une fréquence cardiaque de 72 battements/min, chaque cycle cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "dure environ 0,8 s dont 0,3 s pour la systole et 0,5 s pour la diastole."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Systole"
+        },
+        {
+          "type": "paragraph",
+          "text": "La systole est subdivisée en deux périodes :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- période de contraction ventriculaire isovolumétrique"
+        },
+        {
+          "type": "paragraph",
+          "text": "- période d'éjection ventriculaire"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Systole"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Période de contraction ventriculaire isovolumétrique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il représente la première partie de la systole où les ventricules"
+        },
+        {
+          "type": "paragraph",
+          "text": "se contractent, toutes les valvules cardiaques sont fermées et le sang ne circule pas"
+        },
+        {
+          "type": "paragraph",
+          "text": "peut être éjecté."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le volume ventriculaire reste donc constant et le muscle développe un"
+        },
+        {
+          "type": "paragraph",
+          "text": "tension mais ne raccourcit pas."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Systole"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Période d'éjection ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque la pression dans les ventricules dépasse celle de l'aorte et du tronc"
+        },
+        {
+          "type": "paragraph",
+          "text": "pulmonaire, les valvules aortique et pulmonaire s'ouvrent en début de période"
+        },
+        {
+          "type": "paragraph",
+          "text": "éjection ventriculaire. Fibres musculaires ventriculaires contractées"
+        },
+        {
+          "type": "paragraph",
+          "text": "expulser le sang des ventricules vers l'aorte et le tronc pulmonaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le volume de sang éjecté de chaque ventricule est appelé volume d’éjection."
+        },
+        {
+          "type": "paragraph",
+          "text": "(VES)."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Diastole"
+        },
+        {
+          "type": "paragraph",
+          "text": "La diastole se subdivise en deux périodes :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- période de relaxation ventriculaire isovolumétrique"
+        },
+        {
+          "type": "paragraph",
+          "text": "- période de remplissage ventriculaire"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Diastole"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Période de relaxation ventriculaire isovolumétrique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les ventricules se détendent et les valvules aortique et pulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "fermer. Les valves auriculo-ventriculaires (AV) sont également fermées."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le volume ventriculaire reste constant."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Diastole"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Période de remplissage ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’ouverture des valves AV provoque le début du remplissage ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "avec du sang provenant des oreillettes. La contraction auriculaire se produit dans"
+        },
+        {
+          "type": "paragraph",
+          "text": "fin de la diastole lorsque le remplissage ventriculaire est presque terminé"
+        },
+        {
+          "type": "paragraph",
+          "text": "(80% du remplissage)."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "CYCLE CARDIAQUEChangements mécaniques, hémodynamiques et électriques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUEChangements mécaniques, hémodynamiques et électriques"
+        },
+        {
+          "type": "paragraph",
+          "text": "pendant le cycle cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "La description portera sur les changements de pression et de volume à"
+        },
+        {
+          "type": "paragraph",
+          "text": "l'origine des événements survenant dans l'oreillette gauche, le ventricule"
+        },
+        {
+          "type": "paragraph",
+          "text": "gauche et l'aorte pendant :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- du mésodiastole à la télédiastole"
+        },
+        {
+          "type": "paragraph",
+          "text": "- systole ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "- protodiastole"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les mêmes changements sont observés du côté droit du cœur à"
+        },
+        {
+          "type": "paragraph",
+          "text": "à l'exception des niveaux de pression."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "CYCLE CARDIAQUEChangements mécaniques, hémodynamiques et électriques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUEChangements mécaniques, hémodynamiques et électriques"
+        },
+        {
+          "type": "paragraph",
+          "text": "pendant le cycle cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Du mésodiastole à la télédiastole : Remplissage ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "mésodiastole : milieu de la diastole"
+        },
+        {
+          "type": "paragraph",
+          "text": "télédiastole : fin de diastole"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1- L'oreillette et le ventricule gauches sont détendus avec une légère augmentation de la pression auriculaire."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2- La valve AV est ouverte permettant au sang de passer de l'oreillette au ventricule."
+        },
+        {
+          "type": "paragraph",
+          "text": "3-4- La valve aortique reste fermée pendant toute la diastole car la pression aortique est supérieure à la pression ventriculaire, mais a tendance à diminuer pendant la diastole."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-2/img-001.jpg",
+          "caption": "CYCLE CARDIAQUE"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "CYCLE CARDIAQUE5-"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’arrivée du sang de l’oreillette dans le ventricule provoque une légère augmentation de la pression ventriculaire, entraînant une augmentation du volume ventriculaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "6- En fin de diastole, le nœud sinusal se décharge, entraînant une dépolarisation de l'oreillette et l'apparition de l'onde P sur l'ECG."
+        },
+        {
+          "type": "paragraph",
+          "text": "7- 8- La contraction de l'oreillette qui en résulte provoque une augmentation de la pression auriculaire avec passage d'un petit volume supplémentaire de sang dans le ventricule."
+        },
+        {
+          "type": "paragraph",
+          "text": "9- En fin de diastole ventriculaire, le volume de sang dans le ventricule constitue le volume maximum que ce dernier peut contenir. C'est ce qu'on appelle le volume télédiastolique (EDV)"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-2/img-001.jpg",
+          "caption": "CYCLE CARDIAQUE5-"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "CYCLE CARDIAQUEChangements mécaniques, hémodynamiques et électriques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUEChangements mécaniques, hémodynamiques et électriques"
+        },
+        {
+          "type": "paragraph",
+          "text": "pendant le cycle cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Systole ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le ventricule, jusqu'alors détendu lors de son remplissage, commence"
+        },
+        {
+          "type": "paragraph",
+          "text": "se contracter immédiatement après la contraction auriculaire."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "10- L'onde de dépolarisation passe dans le ventricule par le nœud auriculo-ventriculaire et s'y propage, d'où l'apparition du complexe QRS sur l'ECG. Le ventricule se contracte."
+        },
+        {
+          "type": "paragraph",
+          "text": "11- Cette contraction ventriculaire entraîne une augmentation très rapide et immédiate de la pression ventriculaire dépassant la pression auriculaire."
+        },
+        {
+          "type": "list",
+          "items": [
+            "La valve AV se ferme alors.",
+            "La pression aortique reste supérieure à la pression ventriculaire, la valve aortique reste fermée. Le ventricule ne peut pas se vider : toutes les valves sont fermées. C'est la phase de contraction ventriculaire isovolumétrique."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-2/img-001.jpg",
+          "caption": "CYCLE CARDIAQUE"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "CYCLE CARDIAQUE14 - La pression ventriculaire dépasse la pression aortique, mettant fin à la contraction ventriculaire isovolumétrique.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE14 - La pression ventriculaire dépasse la pression aortique, mettant fin à la contraction ventriculaire isovolumétrique."
+        },
+        {
+          "type": "paragraph",
+          "text": "15-16- La valvule aortique est ouverte, entraînant une éjection ventriculaire. L'éjection est d'abord rapide puis diminue."
+        },
+        {
+          "type": "paragraph",
+          "text": "17- La quantité de sang restant dans le ventricule en fin de systole détermine le volume télésystolique (ESV)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vol. d'éjection = vol télésystolique-terminal diastolique."
+        },
+        {
+          "type": "paragraph",
+          "text": "70 ml = 135 ml - 65 ml"
+        },
+        {
+          "type": "paragraph",
+          "text": "(vol. = volume)"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-2/img-001.jpg",
+          "caption": "CYCLE CARDIAQUE14 - La pression ventriculaire dépasse la pression aortique, mettant fin à la contraction ventriculaire isovolumétrique."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "18- Lorsque le sang circule dans l'aorte, la pression aortique augmente parallèlement à la pression ventriculaire."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "19- Les pics de pression ventriculaire et aortique sont atteints avant la fin de l'éjection ventriculaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "20-21- Dans la dernière partie de la systole, la force de contraction ventriculaire diminue, entraînant une baisse de la vitesse d'éjection du sang, entraînant une baisse du volume et de la pression aortique."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-2/img-001.jpg",
+          "caption": "CYCLE CARDIAQUE"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "CYCLE CARDIAQUEChangements mécaniques, hémodynamiques et électriques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUEChangements mécaniques, hémodynamiques et électriques"
+        },
+        {
+          "type": "paragraph",
+          "text": "pendant le cycle cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- Protodiastole : relaxation isovolumétrique"
+        },
+        {
+          "type": "paragraph",
+          "text": "La phase diastole commence par la relaxation du muscle ventriculaire et"
+        },
+        {
+          "type": "paragraph",
+          "text": "la fin de l'éjection."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "22- L'apparition de l'onde T sur l'ECG correspond au déclenchement de la repolarisation ventriculaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "23- Lors de la relaxation ventriculaire, la pression ventriculaire tombe en dessous de la pression aortique qui reste significativement élevée avec la fermeture de la valve aortique. Le sang rebondissant contre la valvule provoque une chute puis un rebond de la pression aortique, donnant une apparence appelée encoche dicrotique."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "24- Les valves aortique et AV étant fermées, c'est la phase de relaxation ventriculaire isovolumétrique"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-2/img-001.jpg",
+          "caption": "CYCLE CARDIAQUE"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "25- La phase de relaxation ventriculaire isovolumétrique se termine par une chute de la pression ventriculaire en dessous de la pression auriculaire."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "26-27- La valve AV s'ouvre avec le sang circulant de l'oreillette vers le ventricule."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "28- La vitesse du flux sanguin est augmentée lors de la phase initiale de remplissage par une chute rapide de la pression ventriculaire."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-2/img-001.jpg",
+          "caption": "CYCLE CARDIAQUE"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Courbe pression-volume ventriculaire gauche"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-2/img-002.jpg",
+          "caption": "CYCLE CARDIAQUE"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Courbe pression-volume ventriculaire gauche"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le cycle du ventricule gauche peut être représenté sur un schéma"
+        },
+        {
+          "type": "paragraph",
+          "text": "pression-volume."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au début de la systole, la valvule mitrale est fermée, la pression augmente"
+        },
+        {
+          "type": "paragraph",
+          "text": "sans changements de volume : c'est la contraction isovolumétrique. Quand"
+        },
+        {
+          "type": "paragraph",
+          "text": "la pression ventriculaire dépasse la pression dans l'aorte, la valve aortique"
+        },
+        {
+          "type": "paragraph",
+          "text": "s'ouvre : c'est la phase d'éjection."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors d'une éjection rapide, le volume diminue tandis que la pression"
+        },
+        {
+          "type": "paragraph",
+          "text": "augmenter. Lors d'une éjection lente, le volume continue de diminuer et le"
+        },
+        {
+          "type": "paragraph",
+          "text": "la pression diminue."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Courbe pression-volume ventriculaire gauche"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque la pression ventriculaire devient inférieure à la pression dans"
+        },
+        {
+          "type": "paragraph",
+          "text": "l'aorte, la valve aortique se ferme."
+        },
+        {
+          "type": "paragraph",
+          "text": "La pression ventriculaire continue de diminuer tandis que le volume ne change pas"
+        },
+        {
+          "type": "paragraph",
+          "text": "étape : c'est la phase de relaxation isovolumétrique."
+        },
+        {
+          "type": "paragraph",
+          "text": "La valvule mitrale s'ouvre alors avec une augmentation rapide de volume."
+        },
+        {
+          "type": "paragraph",
+          "text": "ventriculaire alors que la pression ventriculaire continue de baisser avant"
+        },
+        {
+          "type": "paragraph",
+          "text": "remonter : c'est un remplissage rapide."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Courbe pression-volume ventriculaire gauche"
+        },
+        {
+          "type": "paragraph",
+          "text": "La surface délimitée par la boucle pression-volume est égale au travail"
+        },
+        {
+          "type": "paragraph",
+          "text": "réalisée par le ventricule pour éjecter le sang dans l’aorte."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions de circulation pulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Modifications de la pression du ventricule droit et des artères pulmonaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "sont semblables à ceux du ventricule gauche et de l'aorte, mais"
+        },
+        {
+          "type": "paragraph",
+          "text": "quantitativement, ils sont différents."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions de circulation pulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions dans l'artère pulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les pressions dans le"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions dans l'artère pulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions dans la circulation systémique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Systole25 mmHg12"
+        },
+        {
+          "type": "paragraph",
+          "text": "Systole25 mmHg12"
+        },
+        {
+          "type": "paragraph",
+          "text": "0 mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Diastole10 mmHg80"
+        },
+        {
+          "type": "paragraph",
+          "text": "Diastole10 mmHg80"
+        },
+        {
+          "type": "paragraph",
+          "text": "mmHg"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions de circulation pulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "La circulation pulmonaire est un système à basse pression. Le mur de"
+        },
+        {
+          "type": "paragraph",
+          "text": "le ventricule droit est plus fin que celui du ventricule gauche mais les volumes"
+        },
+        {
+          "type": "paragraph",
+          "text": "les éjections des deux ventricules sont identiques."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bruits de coeur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Avec un stéthoscope, on entend deux bruits cardiaques dus à la fermeture"
+        },
+        {
+          "type": "paragraph",
+          "text": "vannes."
+        },
+        {
+          "type": "paragraph",
+          "text": "B1 : premier bruit cardiaque, tonus grave, relativement long,"
+        },
+        {
+          "type": "paragraph",
+          "text": "accompagnant la fermeture des valves AV, au début de la systole."
+        },
+        {
+          "type": "paragraph",
+          "text": "B2 : deuxième bruit cardiaque, plus intense, sec et rapide, dû à la fermeture"
+        },
+        {
+          "type": "paragraph",
+          "text": "des valvules pulmonaires et aortiques, en début de diastole."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "CYCLE CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CYCLE CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bruits de coeur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il existe d'autres bruits appelés sifflements qui peuvent être des signes de"
+        },
+        {
+          "type": "paragraph",
+          "text": "maladie cardiaque. Elles sont induites par des anomalies cardiaques à l'origine"
+        },
+        {
+          "type": "paragraph",
+          "text": "flux sanguin turbulent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette turbulence du flux peut être due à un afflux rapide de sang dans"
+        },
+        {
+          "type": "paragraph",
+          "text": "la direction habituelle à travers une valvule anormalement étroite : sténose,"
+        },
+        {
+          "type": "paragraph",
+          "text": "ou par écoulement rétrograde à travers une valve endommagée et non"
+        },
+        {
+          "type": "paragraph",
+          "text": "étanche : insuffisance."
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,7 @@ import { SlideLibrary } from '@/components/medical/histology/SlideLibrary'
 import { SlideFilmstrip } from '@/components/medical/histology/SlideFilmstrip'
 import { SLIDES } from '@/components/medical/histology/slides'
 import type { HistologySlide } from '@/components/medical/histology/types'
+import { useLanguage } from '@/context/LanguageContext'
 
 /**
  * Microscopy workbench. Distinct from the text lessons: a dark stage with a
@@ -15,6 +16,7 @@ import type { HistologySlide } from '@/components/medical/histology/types'
  * histology images and their slide text — nothing is generated or fabricated.
  */
 export default function HistologyPage() {
+  const { t } = useLanguage()
   const [activeId, setActiveId] = React.useState<string>(SLIDES[0]?.id ?? '')
   const [activeLabel, setActiveLabel] = React.useState<string | null>(null)
 
@@ -66,8 +68,8 @@ export default function HistologyPage() {
     return (
       <div className="pt-14">
         <AwaitingContent
-          title="Histology slides awaiting integration"
-          description="The supplied histology images (avec leurs colorations, légendes et annotations éventuelles) seront affichées ici dans le visualiseur haute résolution. No histology structure is generated artificially."
+          title={t('histology.awaitingTitle')}
+          description={t('histology.awaitingDescription')}
           className="py-20"
         />
       </div>
@@ -85,7 +87,7 @@ export default function HistologyPage() {
             </span>
             <div className="min-w-0">
               <h1 className="truncate font-serif text-base font-bold tracking-tight text-foreground">
-                Station de microscopie
+                {t('histology.title')}
               </h1>
               <p className="truncate font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
                 {active.chapterTitle}
@@ -95,7 +97,7 @@ export default function HistologyPage() {
           <p className="hidden shrink-0 items-center gap-2 text-[11px] text-faint md:flex">
             <kbd className="rounded border border-border bg-elevated px-1.5 py-0.5 font-mono">←</kbd>
             <kbd className="rounded border border-border bg-elevated px-1.5 py-0.5 font-mono">→</kbd>
-            naviguer · molette zoom · double-clic agrandir · F plein écran
+            {t('histology.navigate')}
           </p>
         </div>
       </header>

@@ -6,6 +6,7 @@ import { DefinitionBox } from './DefinitionBox'
 import { EquationBlock } from './EquationBlock'
 import { ImageFigure } from './ImageFigure'
 import type { ContentBlock, Topic } from '@/data/types'
+import { useLanguage } from '@/context/LanguageContext'
 
 /**
  * Renders typed lecturee content blocks exactly as supplied.
@@ -42,6 +43,7 @@ function splitParagraph(text: string): string[] {
 }
 
 function BlockRenderer({ block }: { block: ContentBlock }) {
+  const { t } = useLanguage()
   switch (block.type) {
     case 'heading': {
       const Tag = block.level === 2 ? 'h2' : block.level === 3 ? 'h3' : 'h4'
@@ -94,7 +96,7 @@ function BlockRenderer({ block }: { block: ContentBlock }) {
       return (
         <div className="my-6 rounded-lg border border-border bg-elevated p-4 text-center text-xs text-muted">
           {/* 3D model slot — resolved through the model registry when available */}
-          3D model: <span className="font-mono text-primary">{block.modelId}</span>
+          {t('medical.model3d')}: <span className="font-mono text-primary">{block.modelId}</span>
           {block.caption && <span className="ml-2">{block.caption}</span>}
         </div>
       )

@@ -1,0 +1,774 @@
+{
+  "file": "physio cardiovasculaire/6)Lacirculationcoronaire__EN.pptx",
+  "chapterId": "pc-6",
+  "title": "Circulation coronarienne",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Physiologie Cardiovasculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physiologie Cardiovasculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapitre 6 : Circulation coronarienne"
+        },
+        {
+          "type": "paragraph",
+          "text": "Année académique 2025-2026"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr REBAÏNE"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Considérations anatomiques"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Caractéristiques fonctionnelles"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Flux coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Régulation du débit sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Régulation métabolique"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Régulation nerveuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Conclusion"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "La circulation coronaire ou circulation myocardique est la circulation nourricière du cœur lui-même. Le terme « coronaire » fait allusion à l'aspect morphologique des premières artères qui forment une couronne autour du cœur. En tant qu'organe de circulation, il est directement relié au système artériel."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Considérations anatomiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les grosses artères coronaires, qui naissent de la racine de l'aorte, sont situées à la surface du cœur et les petites artères plongent de la surface dans la masse musculaire ; c'est par ces artères que le cœur reçoit la quasi-totalité de son approvisionnement."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-001.png",
+          "caption": "II-Considérations anatomiques"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Considérations anatomiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le coronaire gauche irrigue principalement les parois antérieure et latérale du ventricule gauche (VG)"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-002.png",
+          "caption": "II-Considérations anatomiques"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Considérations anatomiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le coronaire droit irrigue le ventricule droit (VD) et la paroi postérieure du cœur."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-002.png",
+          "caption": "II-Considérations anatomiques"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Considérations anatomiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "La majeure partie du retour veineux coronarien du VG s'effectue par le sinus coronaire qui reçoit environ 75 % de la circulation coronarienne totale."
+        },
+        {
+          "type": "paragraph",
+          "text": "La majeure partie du sang qui irrigue le VD retourne directement vers l'oreillette droite (AR) via les petites veines cardiaques antérieures. Une petite quantité de flux coronaire retourne au cœur gauche via les minuscules veines de Thèbes qui s'ouvrent directement dans les cavités cardiaques."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-002.png",
+          "caption": "II-Considérations anatomiques"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Considérations anatomiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les artères coronaires sont des artères qui se tordent pour s'adapter aux contractions du cœur. Ils sont de type terminal : l'obstruction totale d'une branche entraîne donc l'arrêt de la circulation dans cette région (infarctus du myocarde)."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-003.png",
+          "caption": "II-Considérations anatomiques"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Caractéristiques fonctionnelles"
+        },
+        {
+          "type": "paragraph",
+          "text": "La circulation coronarienne est dominée par deux faits :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-il se situe, pour sa partie fonctionnelle, dans un organe qui se contracte rythmiquement et crée donc une tension, qui, au niveau du VG, atteint une valeur telle que les vaisseaux, même artériels, sont écrasés ; il s'ensuit que l'irrigation est bloquée pendant une partie notable de la contraction ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le myocarde, toujours actif, a un métabolisme élevé ; cela nécessite également un apport important de nutriments et encore plus d’oxygène."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Flux sanguin coronarien"
+        },
+        {
+          "type": "paragraph",
+          "text": "La pression à l'entrée dans le système artériel coronaire est celle qui règne dans l'aorte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mais la contraction du myocarde crée une pression tissulaire élevée, supérieure à la pression artérielle, ce qui a pour effet d'écraser les vaisseaux intra-pariétaux et par conséquent d'interrompre la circulation sanguine ; ceci cependant au niveau du BT où la pression atteint des valeurs élevées."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Flux sanguin coronarien"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le débit coronaire moyen est d'environ 0,8 ml/min/g de myocarde pour le ventricule gauche et 0,6 ml/min/g de myocarde pour le ventricule droit, mais cette valeur moyenne est soumise à une grande variabilité dans le temps et dans l'espace et peut être multipliée par 4 ou 5 au cours de l'exercice."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-004.png",
+          "caption": "III-Flux sanguin coronarien"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Flux sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Variation dans le temps du flux coronarien"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le débit coronaire instantané est soumis aux variations de la pression intramyocardique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans la paroi VG en particulier, pendant la phase de contraction isovolumétrique, la pression intramyocardique est élevée et le débit coronaire est faible."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-005.gif",
+          "caption": "1-Variation dans le temps du flux coronarien"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Flux sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Variation dans le temps du flux coronarien"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le débit coronaire instantané est soumis aux variations de la pression intramyocardique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans la paroi VG en particulier, pendant la phase de contraction isovolumétrique, la pression intramyocardique est élevée et le débit coronaire est faible."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-005.gif",
+          "caption": "1-Variation dans le temps du flux coronarien"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Flux sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Variation dans le temps du flux coronarien"
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle augmente au début de la phase d'éjection ventriculaire du fait de la diminution rapide du volume ventriculaire qui entraîne une chute de la pression intramyocardique, puis elle diminue jusqu'au début de la phase de relaxation."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-005.gif",
+          "caption": "1-Variation dans le temps du flux coronarien"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Flux sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Variation dans le temps du flux coronarien"
+        },
+        {
+          "type": "paragraph",
+          "text": "Durant cette phase de relaxation, elle augmente brusquement pour rester élevée tout au long de la diastole."
+        },
+        {
+          "type": "paragraph",
+          "text": "Durant cette phase, 70 à 80 % du flux myocardique du VG est assuré."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-005.gif",
+          "caption": "1-Variation dans le temps du flux coronarien"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Flux sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Variation dans le temps du flux coronarien"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le VD, où la pression est plus faible, le débit coronaire est assuré de manière égale pendant la systole et la diastole ; la force de contractilité du RV est inférieure à celle du LV."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-005.gif",
+          "caption": "1-Variation dans le temps du flux coronarien"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Flux sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Variabilité spatiale du flux coronaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'hétérogénéité de la distribution de la pression intramyocardique signifie que, en particulier dans la paroi VG, la distribution transmurale du CBF varie au cours du cycle cardiaque."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-006.png",
+          "caption": "2-Variabilité spatiale du flux coronaire"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Flux sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Variabilité spatiale du flux coronaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de la systole, les feuillets sous-endocardiques, directement soumis à la pression intracavitaire, sont mal irrigués, alors que les feuillets sous-épicardiques sont correctement perfusés."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-007.jpg",
+          "caption": "2-Variabilité spatiale du flux coronaire"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Flux coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Variabilité spatiale du flux coronaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant la diastole, les couches sous-endocardiques, hypoperfusées pendant la systole, sont préférentiellement vasodilatées et reçoivent une plus grande fraction du flux coronaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces dernières sont donc perfusées presque exclusivement durant la diastole tandis que les feuillets sous-épicardiques le sont tout au long du cycle cardiaque."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-007.jpg",
+          "caption": "2-Variabilité spatiale du flux coronaire"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Flux sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Variabilité spatiale du flux coronaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, comme le travail mécanique diminue de l’endocarde à l’épicarde, les couches sous-endocardiques sont celles où la demande en O₂ est la plus élevée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alors le flux coronaire sous-endocardique est supérieur au flux sous-épicardique et les feuillets sous-endocardiques sont les plus sensibles aux perturbations de la perfusion myocardique."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-007.jpg",
+          "caption": "2-Variabilité spatiale du flux coronaire"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Débit sanguin coronarien (CBF)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chez un sujet au repos, la DSC est de l'ordre de 80 ml/min/100 g de myocarde, ce qui correspond à 250 ml/min pour l'organe entier (300 g)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant un exercice vigoureux, le DSC augmente de 4 à 5 fois."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le DSC n'est pas continu mais pulsatile."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-DSC et échantillonnage d'oxygène"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans des conditions basales au repos, environ 70 % de l’O₂ du sang artériel est extrait lors de son passage dans la circulation coronaire. Donc la plus grande différence artério-veineuse (DAVO₂) du corps, donc la consommation myocardique la plus élevée d'O₂ (MVO₂) 11ml/min/100g de myocarde (13% du VO₂ du corps)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le myocarde possède un pouvoir d’échantillonnage élevé. Mais déjà à son maximum, cette puissance peut difficilement monter."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il s’ensuit que l’augmentation de l’apport d’oxygène, nécessaire à toute augmentation de l’activité myocardique, ne peut être obtenue que par une augmentation du CBF lui-même."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Régulation du débit sanguin coronarien"
+        },
+        {
+          "type": "paragraph",
+          "text": "DSC = ΔP/R"
+        },
+        {
+          "type": "paragraph",
+          "text": "ΔP : pression de perfusion qui est directement liée à la pression aortique ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "R : résistance vasculaire coronarienne ; est la somme de la vasomotion, de la viscosité du sang et de la résistance extrinsèque liée à la compression myocardique systolique."
+        },
+        {
+          "type": "paragraph",
+          "text": "La circulation coronarienne est principalement régulée par la vasomotion des artères et artérioles locales."
+        },
+        {
+          "type": "paragraph",
+          "text": "La régulation de la fonction vasomotrice est mixte, métabolique et nerveuse."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Régulation du débit sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Régulation métabolique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le métabolisme local est le principal facteur régulateur de la fonction vasomotrice. Ce mécanisme fonctionne que le cœur soit innervé ou dénervé."
+        },
+        {
+          "type": "paragraph",
+          "text": "En conséquence, le CBF augmente à chaque fois que la force de contraction augmente, quelle qu’en soit la cause. À l’inverse, le CBF diminue lorsque l’activité cardiaque est moindre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les variations des besoins en O₂ sont essentiellement la cause de cette réglementation locale."
+        },
+        {
+          "type": "paragraph",
+          "text": "La relation étroite entre le CBF et le MVO₂ indique qu'un ou plusieurs produits métaboliques provoquent une vasodilatation coronarienne."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Régulation du débit sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Régulation métabolique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les facteurs susceptibles de jouer ce rôle comprennent le manque d'O₂ et l'augmentation des concentrations locales de CO₂, H⁺, K⁺, lactate, prostaglandines et adénosine."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Régulation métabolique"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-6/img-008.png",
+          "caption": "A-Régulation métabolique"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Régulation du débit sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Régulation nerveuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système nerveux autonome contrôle directement et indirectement la circulation coronarienne."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Les effets indirects opposés aux effets directs sont de loin les plus importants"
+        },
+        {
+          "type": "paragraph",
+          "text": "La stimulation sympathique responsable de la libération de noradrénaline et d'adrénaline augmente la fréquence et la force des contractions cardiaques et augmente ainsi le métabolisme cardiaque. La vasodilatation coronaire est causée par une augmentation du métabolisme cardiaque."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Régulation du débit sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Régulation nerveuse"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Effets indirects"
+        },
+        {
+          "type": "paragraph",
+          "text": "La stimulation parasympathique diminue la fréquence cardiaque et la contractilité cardiaque (diminution des décharges sympathiques) et par conséquent, on observe une diminution du métabolisme cardiaque responsable de la vasoconstriction coronarienne."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Régulation du débit sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Régulation nerveuse"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Effets directs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Au niveau des artérioles coronaires, la densité des récepteurs β-adrénergiques assurant la vasodilatation est supérieure à la densité des récepteurs α-adrénergiques responsables de la vasoconstriction, ce qui explique le faible effet contractuel exercé par la stimulation sympathique et les catécholamines sur la microcirculation coronaire normale."
+        },
+        {
+          "type": "paragraph",
+          "text": "En revanche, la réponse vasodilatatrice suite à une stimulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le β2-adrénergique est fort sur la microcirculation coronaire de l'homme et joue probablement un rôle déterminant lors de l'exercice ??"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Régulation du débit sanguin coronarien"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Régulation nerveuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque la pression artérielle systémique chute, l'effet global de l'augmentation réflexe de la décharge noradrénergique est l'augmentation du CBF induite par les modifications métaboliques du myocarde au moment où les vaisseaux cutanés, rénaux et splanchniques sont contractés."
+        },
+        {
+          "type": "paragraph",
+          "text": "De cette manière, la circulation du cœur, comme celle du cerveau, est préservée même si elle est compromise dans d’autres organes."
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "Chapitre 6 : Circulation coronarienne",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Conclusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les maladies coronariennes, responsables de mortalité et connues chez les personnes âgées, deviennent de plus en plus fréquentes chez les jeunes. Connaître la physiologie de la circulation coronarienne, c'est comprendre la physiopathologie de la maladie coronarienne."
+        }
+      ]
+    }
+  ]
+}

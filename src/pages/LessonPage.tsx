@@ -8,22 +8,23 @@ import { Progress } from '@/components/ui/progress'
 import { Separator } from '@/components/ui/separator'
 import { LessonContent } from '@/components/medical/LessonContent'
 import { getDiscipline, getAllLessons } from '@/data/disciplines'
+import { getChapterTitle } from '@/data/contentLoader'
 import { anatomyStructures } from '@/data/anatomy'
 import { getDisciplineIcon } from '@/data/icons'
 import type { Chapter, Topic } from '@/data/types'
 import { useStudy } from '@/features/study/StudyContext'
 import { cn } from '@/lib/utils'
+import { useLanguage } from '@/context/LanguageContext'
 
 const MiniAnatomyViewer = React.lazy(() =>
   import('@/features/three/AnatomyViewer').then((m) => ({ default: m.AnatomyViewer }))
 )
 
-/** Chapter label: "TD" for travaux dirigés, zero-padded number for lectures. */
-function chapterLabel(ch: Chapter): string {
-  return ch.kind === 'td' ? 'TD' : `Chapitre ${String(ch.number).padStart(2, '0')}`
-}
-
 export default function LessonPage() {
+  const { t, language } = useLanguage()
+  const chapterLabel = React.useCallback((ch: Chapter): string => {
+    return ch.kind === 'td' ? 'TD' : `${t('lesson.chapterPrefix')} ${String(ch.number).padStart(2, '0')}`
+  }, [t])
   const { slug, chapterId, lessonId } = useParams<{
     slug: string
     chapterId: string
@@ -90,7 +91,7 @@ export default function LessonPage() {
                   {discipline.titleFr}
                 </span>
                 <span className="block text-[10px] uppercase tracking-wider text-faint">
-                  Discipline
+                  {t('lesson.discipline')}
                 </span>
               </span>
             </Link>
@@ -106,7 +107,7 @@ export default function LessonPage() {
                       ch.id === chapter.id ? 'text-primary' : 'text-faint'
                     )}
                   >
-                    {chapterLabel(ch)} · {ch.title}
+                    {chapterLabel(ch)} · {getChapterTitle(ch.id, language)}
                   </div>
                   <div className="mt-1.5 space-y-0.5">
                     {ch.lessons.map((l) => {
@@ -129,7 +130,7 @@ export default function LessonPage() {
                               done ? 'bg-success' : active ? 'bg-primary' : 'bg-border-strong'
                             )}
                           />
-                          <span className="truncate">{l.title}</span>
+                          <span className="truncate">{getChapterTitle(l.id, language)}</span>
                         </Link>
                       )
                     })}
@@ -159,15 +160,15 @@ export default function LessonPage() {
             </div>
 
             <h1 className="mt-4 font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              {lesson.title}
+              {getChapterTitle(lesson.id, language)}
             </h1>
             {lesson.summary && (
               <p className="mt-3 text-base leading-relaxed text-muted">{lesson.summary}</p>
             )}
 
             <div className="mt-5 flex flex-wrap items-center gap-2">
-              {lesson.status === 'awaiting-source' && <Badge variant="secondary">Content awaiting</Badge>}
-              {completed && <Badge variant="success">Completed</Badge>}
+              {lesson.status === 'awaiting-source' && <Badge variant="secondary">{t('lesson.contentAwaiting')}</Badge>}
+              {completed && <Badge variant="success">{t('lesson.completed')}</Badge>}
               <Button
                 size="sm"
                 variant={bookmarked ? 'default' : 'secondary'}
@@ -175,7 +176,7 @@ export default function LessonPage() {
                 className="gap-1.5"
               >
                 <Bookmark className="h-3.5 w-3.5" fill={bookmarked ? 'currentColor' : 'none'} />
-                {bookmarked ? 'Favori' : 'Ajouter aux favoris'}
+                {bookmarked ? t('lesson.favorited') : t('lesson.favorite')}
               </Button>
             </div>
 
@@ -185,7 +186,7 @@ export default function LessonPage() {
               key={lesson.id}
               discipline={discipline.slug}
               chapterId={lesson.id}
-              lessonTitle={lesson.title}
+              lessonTitle={getChapterTitle(lesson.id, language)}
               onTopics={setTopics}
             />
 
@@ -198,8 +199,8 @@ export default function LessonPage() {
                 >
                   <ChevronLeft className="h-4 w-4 text-muted transition-transform group-hover:-translate-x-0.5" />
                   <span className="min-w-0">
-                    <span className="block text-[10px] uppercase tracking-wider text-faint">Previous</span>
-                    <span className="block truncate text-sm font-medium text-foreground">{prev.lesson.title}</span>
+                    <span className="block text-[10px] uppercase tracking-wider text-faint">{t('lesson.previous')}</span>
+                    <span className="block truncate text-sm font-medium text-foreground">{getChapterTitle(prev.lesson.id, language)}</span>
                   </span>
                 </Link>
               ) : (
@@ -212,7 +213,7 @@ export default function LessonPage() {
                 className="gap-2"
               >
                 <Check className="h-4 w-4" />
-                {completed ? 'Lesson completed' : 'Mark as completed'}
+                {completed ? t('lesson.lessonCompleted') : t('lesson.markCompleted')}
               </Button>
 
               {next ? (
@@ -221,8 +222,8 @@ export default function LessonPage() {
                   className="group flex flex-1 items-center justify-end gap-2 rounded-lg border border-border bg-surface p-3 text-right transition-colors hover:border-primary/40"
                 >
                   <span className="min-w-0">
-                    <span className="block text-[10px] uppercase tracking-wider text-faint">Next</span>
-                    <span className="block truncate text-sm font-medium text-foreground">{next.lesson.title}</span>
+                    <span className="block text-[10px] uppercase tracking-wider text-faint">{t('lesson.next')}</span>
+                    <span className="block truncate text-sm font-medium text-foreground">{getChapterTitle(next.lesson.id, language)}</span>
                   </span>
                   <ChevronRight className="h-4 w-4 text-muted transition-transform group-hover:translate-x-0.5" />
                 </Link>
@@ -240,7 +241,7 @@ export default function LessonPage() {
             {topics.length > 0 && (
               <div>
                 <h4 className="font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
-                  Table des matières
+                  {t('lesson.tableOfContents')}
                 </h4>
                 <nav className="mt-2 space-y-1">
                   {topics.map((t) => (
@@ -260,7 +261,7 @@ export default function LessonPage() {
             {isCardioAnatomy && relatedStructures.length > 0 && (
               <div>
                 <h4 className="mb-2 flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
-                  <Move3d className="h-3 w-3" /> 3D Anatomy
+                  <Move3d className="h-3 w-3" /> {t('nav.anatomy')}
                 </h4>
                 <React.Suspense fallback={<div className="shimmer h-48 rounded-xl bg-overlay" />}>
                   <MiniAnatomyViewer
@@ -278,7 +279,7 @@ export default function LessonPage() {
             {relatedStructures.length > 0 && (
               <div>
                 <h4 className="font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
-                  Structures liées
+                  {t('common.relatedStructures')}
                 </h4>
                 <div className="mt-2 flex flex-wrap gap-1.5">
                   {relatedStructures.map((s) => (
@@ -297,12 +298,12 @@ export default function LessonPage() {
             {/* Study tools */}
             <div>
               <h4 className="font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
-                Outils d'étude
+                {t('common.studyTools')}
               </h4>
               <div className="mt-2 space-y-2">
                 <div className="rounded-lg border border-border bg-surface p-3">
                   <div className="flex items-center justify-between text-xs">
-                    <span className="text-muted">Progression du chapitre</span>
+                    <span className="text-muted">{t('common.chapterProgress')}</span>
                     <span className="font-mono text-primary">
                       {chapter.lessons.filter((l) => isCompleted(l.id)).length}/{chapter.lessons.length}
                     </span>
@@ -325,7 +326,7 @@ export default function LessonPage() {
             {lesson.relatedLessonIds && lesson.relatedLessonIds.length > 0 && (
               <div>
                 <h4 className="font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
-                  Concepts liés
+                  {t('common.relatedConcepts')}
                 </h4>
                 <div className="mt-2 space-y-1">
                   {flat
@@ -336,7 +337,7 @@ export default function LessonPage() {
                         to={`/discipline/${discipline.slug}/${f.chapter.id}/${f.lesson.id}`}
                         className="block rounded-md px-2 py-1.5 text-[13px] text-muted transition-colors hover:bg-elevated hover:text-foreground"
                       >
-                        {f.lesson.title}
+                        {getChapterTitle(f.lesson.id, language)}
                       </Link>
                     ))}
                 </div>

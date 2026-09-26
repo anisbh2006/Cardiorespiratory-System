@@ -1,0 +1,710 @@
+{
+  "file": "anatomy cardiovasculaire/1)L’anatomiedelaparoithoracique__EN.pdf",
+  "chapterId": "ac-1",
+  "title": "Anatomie de la paroi thoracique",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "La paroi thoracique",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Objectifs"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Connaître la situation du thorax.",
+            "Connaissez ses limites.",
+            "Connaître ses constituants : os, articulations, muscles, vaisseaux et nerfs.",
+            "Connaître son rôle."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "La paroi thoracique"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Plan du cours"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A. Considérations générales",
+            "B. Morphologie",
+            "C. Constitution de la paroi thoracique",
+            "I. Squelette osseux",
+            "1. Sternum",
+            "2. Côtes levées",
+            "3. Colonne thoracique",
+            "II. Articulations du thorax",
+            "III. Muscles",
+            "D. Références"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Anatomie générale et limites du thorax",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "A. Considérations générales"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le thorax est la région qui occupe la partie supérieure du tronc, située entre le cou en haut et l'abdomen en bas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Déformable, il participe aux mouvements respiratoires. Il est entouré d'une paroi musculo-squelettique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il entoure et protège les principaux organes des systèmes circulatoire et respiratoire, notamment le cœur, les poumons et les gros vaisseaux."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "B. Configuration externe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le thorax est de forme cylindrique chez le nouveau-né et légèrement aplati et conique chez l'adulte, avec une base inférieure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le thorax est constitué d'une paroi et d'une cavité."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Limites"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Région",
+            "Descriptif"
+          ],
+          "rows": [
+            [
+              "Limite supérieure",
+              "Ouverture thoracique supérieure située à la base du cou, par laquelle le thorax communique avec le cou."
+            ],
+            [
+              "Limite inférieure",
+              "Une ouverture thoracique inférieure plus large fermée par le diaphragme."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le diaphragme sépare la cavité thoracique des principaux viscères abdominaux."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dimensions"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Mesure",
+            "Supérieure",
+            "Inférieur"
+          ],
+          "rows": [
+            [
+              "Diamètre sagittal",
+              "5 cm",
+              "12 cm"
+            ],
+            [
+              "Diamètre transversal",
+              "11 cm",
+              "26 cm"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Hauteur",
+            "Mesure"
+          ],
+          "rows": [
+            [
+              "Antérieur",
+              "12 cm"
+            ],
+            [
+              "Postérieur",
+              "27 cm"
+            ],
+            [
+              "Latéral",
+              "33 cm"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "C. Constitution de la paroi thoracique"
+        },
+        {
+          "type": "paragraph",
+          "text": "La paroi thoracique est tapissée intérieurement par le fascia endothoracique et est constituée d'éléments squelettiques et musculaires."
+        },
+        {
+          "type": "list",
+          "items": [
+            "En avant (ventral) : le sternum.",
+            "Postérieurement (dorsal) : la colonne thoracique.",
+            "Latéralement : douze paires de côtes, avec les muscles intercostaux contenus dans les espaces intercostaux, et les cartilages costaux."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I. Le sternum"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sternum est un os sous-cutané plat, médian, non apparié et symétrique. Il est situé dans la partie antéro-supérieure de la cage thoracique et contribue à la fixation de la ceinture scapulaire."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Orientation"
+        },
+        {
+          "type": "list",
+          "items": [
+            "En bas : la pointe du sternum.",
+            "Postérieurement : le côté concave."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sternum assure la fixation de plusieurs muscles. Il présente deux surfaces : une surface antérieure ou ventrale et une surface postérieure ou dorsale. Il présente trois bordures : une bordure supérieure et deux bordures latérales irrégulières."
+        },
+        {
+          "type": "paragraph",
+          "text": "Latéralement, il s'articule avec les côtes par l'intermédiaire des cartilages costaux. Supérieurement et latéralement, il s'articule avec les clavicules."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Le sternum et les côtes",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I. Le sternum"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A. Manubrium"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le manubrium est la partie supérieure du sternum. Il est épais, large et de forme trapézoïdale, avec une large base supérieure."
+        },
+        {
+          "type": "list",
+          "items": [
+            "L'échancrure jugulaire, ou fourche sternale, est située dans sa partie supérieure et médiane.",
+            "De chaque côté de l'encoche jugulaire se trouvent les encoches claviculaires, qui s'articulent avec les clavicules par l'intermédiaire des articulations en selle.",
+            "Latéralement et supérieurement se trouve la première échancrure costale, qui s'articule avec le premier cartilage costal.",
+            "Latéralement et en bas se trouve une demi-encoche pour la moitié supérieure du deuxième cartilage costal."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B. Corps du sternum"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le corps du sternum est étroit et allongé. Il présente des stries transversales correspondant aux lignes de fusion des six sternèbres, qui sont les éléments segmentaires du sternum."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Supérieurement : une échancrure demi-articulaire pour la moitié inférieure du deuxième cartilage costal.",
+            "Encoches costales pour les troisième, quatrième, cinquième et sixième cartilages costaux.",
+            "En bas : une demi-entaille pour la moitié supérieure du septième cartilage costal."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C. Angle sternal"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'angle de Louis, ou angle sternal, est situé entre le manubrium et le corps du sternum. Il mesure environ 15°."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D. Processus Xiphoïde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le processus xiphoïde constitue la partie inférieure du sternum. Il est cartilagineux et de forme variable, qui peut être effilée, élargie ou bifide."
+        },
+        {
+          "type": "paragraph",
+          "text": "A ses extrémités latérales supérieures, il présente une échancrure demi-articulaire avec la moitié inférieure du septième cartilage costal."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II. Côtes levées"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les côtes sont des os plats, appariés et asymétriques qui forment la majeure partie de la cage thoracique. Il y a douze paires de côtes numérotées du supérieur au inférieur."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Tapez",
+            "Côtes levées",
+            "Descriptif"
+          ],
+          "rows": [
+            [
+              "Vraies côtes",
+              "1 à 7",
+              "Articuler directement avec le sternum à travers leurs cartilages costaux."
+            ],
+            [
+              "Fausses côtes",
+              "8 à 10",
+              "Leurs cartilages costaux s'unissent au cartilage de la septième côte."
+            ],
+            [
+              "Côtes flottantes",
+              "11-12",
+              "Libère en avant et ne s'attache pas au sternum."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les huitième à douzième côtes sont donc appelées côtes asternales."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1. Dimensions des côtes"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La longueur des côtes augmente du premier au septième puis diminue du huitième au douzième.",
+            "La largeur des vraies côtes augmente de l'arrière vers l'avant et atteint son maximum à l'extrémité antérieure.",
+            "Les fausses côtes sont plus larges dans leur partie médiane.",
+            "La première côte est la plus large et la deuxième est la plus étroite.",
+            "Les huitième, neuvième et dixième côtes sont plus larges que les côtes situées au-dessus d'elles."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Morphologie des côtes",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II. Côtes levées"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2. Orientation"
+        },
+        {
+          "type": "paragraph",
+          "text": "À partir de la colonne thoracique, une côte s'étend obliquement vers l'avant et vers le bas. Cette obliquité devient plus prononcée vers les côtes inférieures."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "3. Description d'une côte typique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une côte typique est un os plat et allongé en forme approximativement comme un S italique. Il est médialement concave et se compose d'un corps incurvé et de deux extrémités."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "A. Corps"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le corps est aplati transversalement et concave médialement. Il s'étend d'abord latéralement et postérieurement, formant l'angle costal antérieur, puis change de direction et forme l'angle postérieur."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Deux surfaces : latérale et médiale.",
+            "Deux bordures : une bordure supérieure épaisse et une bordure inférieure plus fine.",
+            "Le bord inférieur contient le sillon costal, qui abrite le faisceau neurovasculaire intercostal."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "B. Extrémité dorsale"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'extrémité dorsale s'articule avec la colonne vertébrale et est constituée de la tête, du cou et du tubercule costal."
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "Tête"
+        },
+        {
+          "type": "paragraph",
+          "text": "La tête présente deux facettes articulaires, supérieure et inférieure, séparées par une crête correspondant au disque intervertébral."
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "Cou"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le cou est une région courte et aplatie séparant la tête du tubercule."
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "Tubercule côtier"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le tubercule costal est situé entre le cou et le corps de la côte. Il contient une partie non articulaire et une partie articulaire qui s'articule avec la facette de l'apophyse transverse de la vertèbre correspondante."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "C. Extrémité ventrale"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'extrémité ventrale se poursuit avec le cartilage costal."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Particularités des côtes individuelles"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Côte",
+            "Particularités"
+          ],
+          "rows": [
+            [
+              "1ère côte",
+              "Plus petite que les autres côtes ; aplati du supérieur vers l'inférieur ; a des surfaces supérieures et inférieures ; il lui manque un sillon costal ; sa tête présente une seule facette articulaire pour T1."
+            ],
+            [
+              "2ème côte",
+              "A une orientation oblique intermédiaire entre la première et la troisième côte ; il lui manque un sillon costal."
+            ],
+            [
+              "10ème côte",
+              "La tête a une seule facette qui s'articule avec T10."
+            ],
+            [
+              "11ème et 12ème côtes",
+              "Manque un tubercule costal et un cou. Chacun s'articule uniquement avec la vertèbre thoracique correspondante."
+            ]
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-1/img-002.jpg",
+          "caption": "Côtes et cartilages costaux"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-1/img-003.jpg",
+          "caption": "Morphologie du sternum"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-1/img-004.jpg",
+          "caption": "Morphologie d'une côte"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Colonne thoracique et articulations du thorax",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III. Colonne thoracique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il y a douze vertèbres thoraciques qui s'articulent avec les côtes."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Caractéristiques d'une vertèbre thoracique"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Structure",
+            "Descriptif"
+          ],
+          "rows": [
+            [
+              "Corps vertébral",
+              "Cylindrique, avec quatre facettes costales sur sa partie postérieure : supérieure et inférieure."
+            ],
+            [
+              "Pédicules",
+              "Arrondi et horizontal."
+            ],
+            [
+              "Lames",
+              "Sans particularité particulière."
+            ],
+            [
+              "Processus épineux",
+              "Mince, long et incliné vers le bas."
+            ],
+            [
+              "Processus transversaux",
+              "Dirigé obliquement vers l'extérieur et vers l'arrière et contient une facette articulaire costale, sauf en T11 et T12."
+            ],
+            [
+              "Foramen vertébral",
+              "Arrondi et étroit."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV. Articulations du Thorax"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A. Articulations costovertébrales"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Articulation costocorporelle"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'articulation costocorporelle unit la tête d'une côte à deux corps vertébraux adjacents."
+        },
+        {
+          "type": "paragraph",
+          "text": "Type : arthrodies (articulation synoviale plane)."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Articulation costotransverse"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'articulation costotransverse unit le tubercule costal à l'apophyse transverse de la vertèbre du même numéro."
+        },
+        {
+          "type": "paragraph",
+          "text": "Type : articulation trochoïde."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Ligaments costovertébraux"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ligament costotransverse supérieur.",
+            "Ligament costotransverse interosseux.",
+            "Ligament costolamellaire."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B. Articulations costochondrales"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les articulations costochondrales relient les côtes à leurs cartilages costaux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce sont des articulations cartilagineuses."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C. Articulations interchondrales"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les articulations interchondrales unissent les sixième, septième et huitième cartilages costaux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce sont des articulations synoviales."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D. Articulations chondrosternales"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il existe sept paires d'articulations chondrosternales qui relient le sternum aux cartilages costaux."
+        },
+        {
+          "type": "paragraph",
+          "text": "À l'exception de la première et de la septième, chacune est constituée de deux articulations arthrodiales."
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-1/img-005.jpg",
+          "caption": "Articulation costovertébrale"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-1/img-006.jpg",
+          "caption": "Morphologie d'une vertèbre thoracique"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Muscles et anatomie fonctionnelle du thorax",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "V. Muscles du thorax"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Muscles de la paroi antérolatérale"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Grand pectoral.",
+            "Petit pectoral.",
+            "Sous-clavier.",
+            "Serratus antérieur."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Muscles de la paroi postérieure"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Muscles de la colonne vertébrale.",
+            "Muscles dentelés postérieurs.",
+            "Omoplates releveuses.",
+            "Muscles rhomboïdes.",
+            "Grand dorsal.",
+            "Trapèze."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Muscles intercostaux"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Muscles intercostaux externes.",
+            "Muscles intercostaux internes.",
+            "Muscles intercostaux les plus internes."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VI. Anatomie fonctionnelle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les mouvements de la cage thoracique sont continus et accompagnent la respiration. Ils résultent essentiellement des mouvements des articulations costo-vertébrales."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les articulations sternocostales et interchondrales sont le siège de petits mouvements de glissement."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Références"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bouchet A, Cuilleret J. Anatomie topographique, descriptive et fonctionnelle. Le Thorax. Partie 2. Éditions SIMEP, Villeurbanne, France, 1974.",
+            "Paturet G. Traité d'anatomie humaine. Tome III, Fascicule II. Masson et Cie, Paris, France, 1958.",
+            "Rouvière H. Anatomie humaine : descriptive et topographique. 10e édition. Masson et Cie, Paris, France, 2002."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-1/img-007.jpg",
+          "caption": "Muscles thoraciques"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-1/img-008.jpg",
+          "caption": "Muscles thoraciques antérieurs et postérieurs"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-1/img-009.jpg",
+          "caption": "Muscles intercostaux"
+        }
+      ]
+    }
+  ]
+}

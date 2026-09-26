@@ -16,6 +16,7 @@ import { search, type SearchEntry } from '@/features/search/searchIndex'
 import { lessonRoute } from '@/data/contentLoader'
 import { useStudy } from '@/features/study/StudyContext'
 import { cn } from '@/lib/utils'
+import { useLanguage } from '@/context/LanguageContext'
 
 const typeIcons = {
   discipline: Layers,
@@ -27,12 +28,12 @@ const typeIcons = {
 } as const
 
 const typeLabels = {
-  discipline: 'Discipline',
-  chapter: 'Chapitre',
-  lesson: 'Lesson',
-  topic: 'Section',
-  structure: 'Structure',
-  term: 'Terme',
+  discipline: 'search.resultType.discipline',
+  chapter: 'search.resultType.chapter',
+  lesson: 'search.resultType.lesson',
+  topic: 'search.resultType.topic',
+  structure: 'search.resultType.structure',
+  term: 'search.resultType.term',
 } as const
 
 function entryRoute(entry: SearchEntry): string {
@@ -55,6 +56,7 @@ export function SearchOverlay() {
   const [activeIndex, setActiveIndex] = React.useState(0)
   const navigate = useNavigate()
   const { searchHistory, recordSearch } = useStudy()
+  const { t } = useLanguage()
   const inputRef = React.useRef<HTMLInputElement>(null)
 
   React.useEffect(() => {
@@ -109,7 +111,7 @@ export function SearchOverlay() {
         className="group flex h-9 items-center gap-2 rounded-md border border-border bg-elevated px-3 text-sm text-faint transition-colors hover:border-border-strong hover:text-muted cursor-pointer"
       >
         <Search className="h-3.5 w-3.5" />
-        <span className="hidden sm:inline">Search...</span>
+        <span className="hidden sm:inline">{t('nav.search')}</span>
         <kbd className="ml-4 hidden rounded border border-border-strong bg-overlay px-1.5 py-0.5 font-mono text-[10px] text-muted md:inline">
           ⌘K
         </kbd>
@@ -128,7 +130,7 @@ export function SearchOverlay() {
             <motion.div
               role="dialog"
               aria-modal="true"
-              aria-label="Global medical search"
+              aria-label={t('search.title')}
               initial={{ opacity: 0, scale: 0.97, y: -12 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.97, y: -12 }}
@@ -146,7 +148,7 @@ export function SearchOverlay() {
                     setActiveIndex(0)
                   }}
                   onKeyDown={onKeyDown}
-                  placeholder="Search for a term, structure, chapter, or lesson..."
+                  placeholder={t('search.placeholder')}
                   className="h-12 border-0 bg-transparent px-0 shadow-none focus-visible:ring-0 focus-visible:border-0"
                 />
                 <button
@@ -160,7 +162,7 @@ export function SearchOverlay() {
               <div className="max-h-[50vh] overflow-y-auto p-2">
                 {!query && searchHistory.length > 0 && (
                   <div className="px-2 py-1.5 text-[10px] font-semibold uppercase tracking-wider text-faint">
-                    Recent searches
+                    {t('search.recent')}
                   </div>
                 )}
                 {!query &&
@@ -177,12 +179,9 @@ export function SearchOverlay() {
 
                 {query && results.length === 0 && (
                   <div className="px-3 py-8 text-center text-sm text-muted">
-                    Aucun résultat pour « {query} ».
+                    {t('search.emptyMessage', { query })}
                     <br />
-                    <span className="text-xs text-faint">
-                      Les résultats apparaîtront au fur et à mesure de l'intégration du contenu
-                      source.
-                    </span>
+                    <span className="text-xs text-faint">{t('search.emptyHint')}</span>
                   </div>
                 )}
 
@@ -207,7 +206,7 @@ export function SearchOverlay() {
                             {entry.title}
                           </span>
                           <span className="shrink-0 rounded-full bg-overlay px-1.5 py-px text-[10px] text-muted">
-                            {typeLabels[entry.type]}
+                            {t(typeLabels[entry.type])}
                           </span>
                         </span>
                         <span className="mt-0.5 block truncate text-xs text-muted">
@@ -226,9 +225,9 @@ export function SearchOverlay() {
 
               <div className="flex items-center justify-between border-t border-border bg-background/50 px-4 py-2 text-[10px] text-faint">
                 <span className="flex items-center gap-1.5">
-                  <Wind className="h-3 w-3" /> UEI/VEI 01 · Global medical search
+                  <Wind className="h-3 w-3" /> {t('app.subtitle')} · {t('search.title')}
                 </span>
-                <span>↑↓ naviguer · ⏎ ouvrir · esc fermer</span>
+                <span>↑↓ · ⏎ · esc</span>
               </div>
             </motion.div>
           </motion.div>

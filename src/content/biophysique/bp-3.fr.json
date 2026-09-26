@@ -1,0 +1,514 @@
+{
+  "file": "biophysic/3)Électrocardiogramme_EN.pdf",
+  "chapterId": "bp-3",
+  "title": "Électrocardiogramme",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Électrocardiogramme",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Électrocardiogramme"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr HIMEUR M A Laboratoire de Biophysique Médicale, Alger I"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "I- Rappels anatomiques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I- Rappels anatomiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'électrocardiogramme représente l'investigation électrophysiologique qui permet d'enregistrer et d'analyser l'activité des générateurs bioélectriques cardiaques. Le champ électrique créé par ces générateurs est complexe et varié dans le temps, son origine nécessite la connaissance de certaines notions d'anatomie. « Les innombrables fibres musculaires qui constituent le cœur sont dotées de propriétés particulières dont les deux plus importantes sont le pouvoir mécanique de contraction et l'activité électrique rythmique liée aux mouvements ioniques à travers la membrane. Cette dernière propriété nécessite un système permettant de distribuer l'influx nerveux aux fibres musculaires dans un certain ordre."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Tissu nodal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tissu nodal"
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-001.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Ventriculaire ou ASCHOFF-TAWARA. ?Son paquet. ?Réseau Purkinje. Tissu responsable de l'automatisme, de la conduction et de l'excitabilité.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sinus ou nœud KEITH-"
+        },
+        {
+          "type": "paragraph",
+          "text": "FLACK. ?Auriculo-nœud"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ventriculaire ou ASCHOFF-TAWARA. ?Son paquet. ?Réseau Purkinje. Tissu responsable de l'automatisme, de la conduction et de l'excitabilité."
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-002.jpg",
+          "caption": "Ventriculaire ou ASCHOFF-TAWARA. ?Son paquet. ?Réseau Purkinje. Tissu responsable de l'automatisme, de la conduction et de l'excitabilité."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Ventriculaire ou ASCHOFF-TAWARA. ?Son paquet. ?Réseau Purkinje. Tissu responsable de l'automatisme, de la conduction et de l'excitabilité.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans des conditions normales, le cœur est activé à partir d'un groupe de cellules formant le nœud sinusal qui, doté d'automatisme, détermine lui-même le rythme de sa propre excitation. « L'excitation du nœud sinusal se transmet progressivement à toutes les fibres auriculaires puis ventriculaires via le nœud auriculo-ventriculaire, le faisceau de His et le réseau de Purkinje qui s'étend dans toutes les parois ventriculaires. « Cet automatisme cardiaque est sous le contrôle de régulations neurovégétatives. L'arrivée de l'influx nerveux au niveau des fibres musculaires du cœur provoque la contraction d'abord des oreillettes puis des ventricules. ?La somme des potentiels d'action émis dans les oreillettes forme la partie auriculaire du tracé ECG ; c'est pareil pour la partie ventriculaire"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "II- Le potentiel d'action de la fibre cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Le potentiel d'action de la fibre cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme toute cellule, la fibre cardiaque au repos est polarisée (potentiel de repos = -90mV). Dès qu'il est excité, le mouvement des ions qui résulte du changement de perméabilité membranaire génère un potentiel d'action dont la caractéristique essentielle est sa longue durée (100 à 300 ms)."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "?Phase 0 : dépolarisation,",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Phase 0 : dépolarisation,"
+        },
+        {
+          "type": "paragraph",
+          "text": "ouverture d'un canal sodium, entrée rapide de Na + ?Phase 1 : repolarisation rapide,"
+        },
+        {
+          "type": "paragraph",
+          "text": "probablement entrée de Cl -, inactivation du flux de sodium ?Phase 2 : repolarisation en"
+        },
+        {
+          "type": "paragraph",
+          "text": "plateau, courant calcium-sodium lent entrant dans la « Phase 3 : repolarisation » de la"
+        },
+        {
+          "type": "paragraph",
+          "text": "conductance du Ca++ (g Ca++) et ?conductance du K+ (g K+)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Phase 4 : restauration de"
+        },
+        {
+          "type": "paragraph",
+          "text": "concentrations ioniques des deux côtés de la membrane grâce à la pompe Na + / K+ ATP ase"
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-003.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Concepts d'électronique médicale :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Concepts d'électronique médicale :"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Appareil de mesure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'équipement qui permet de telles études comporte trois parties schématisées :"
+        },
+        {
+          "type": "paragraph",
+          "text": "physique"
+        },
+        {
+          "type": "paragraph",
+          "text": "informations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Capteur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un récepteur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Appareil de mesure"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Galvanomètre",
+            "Enregistrement magnétique",
+            "Oscilloscope à rayons cathodiques",
+            "Affichage numérique"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Théorie dipolaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Théorie dipolaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Deux électrodes actives placées aux deux extrémités d'une fibre musculaire cardiaque isolée et reliées à un galvanomètre permettent d'enregistrer une trace biphasique suite à la propagation du potentiel d'action le long de la fibre. La valeur mesurée est due au courant qui s'établit entre la partie au repos (positive) et la partie déjà excitée (négative) de la cellule lors de la dépolarisation. Pendant la repolarisation, le signal enregistré est inversé. La différence de potentiel qui apparaît dès que la cellule entre en activité (dépolarisation ou repolarisation en cours) peut être représentée par un vecteur dipôle d'amplitude variable et dont le point d'application se déplace : le vecteur dépolarisation s'éloigne du point de départ de l'excitation et se déplace parallèlement à l'axe longitudinal de la fibre cardiaque. En raison de l’importance de la durée du potentiel d’action, la cellule se dépolarise complètement. Le vecteur qui schématise la repolarisation de la fibre évolue dans le sens inverse du vecteur dépolarisation."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "Théorie dipolaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ainsi durant un cycle complet, une fibre cardiaque traverse 04 phases : -Cellule au repos (phase diastolique) : aucun ddp n'est enregistré, -Dépolarisation en cours (début de contraction) : la cellule étant divisée en deux parties par le front de dépolarisation, un ddp apparaît entre les deux électrodes qui varie en fonction de la position du front de dépolarisation. -Cellule entièrement dépolarisée (phase systolique) : aucun ddp n'est enregistré, -Repolarisation en cours : un ddp variable apparaît entre les deux extrémités de la fibre cardiaque selon la position du front de repolarisation. Les fibres cardiaques qui constituent le myocarde auriculaire, comme celles qui constituent le myocarde ventriculaire, se contractent de manière synchrone et peuvent donc être assimilées à une seule cellule. Ainsi chacune de ces deux grandes parties du cœur subit successivement des phases d'excitation et de restauration."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "Potentiel enregistré",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Potentiel enregistré"
+        },
+        {
+          "type": "paragraph",
+          "text": "Myocarde auriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Repos De"
+        },
+        {
+          "type": "paragraph",
+          "text": "polarisant"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépolarisé Dans la repolarisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "le processus de"
+        },
+        {
+          "type": "paragraph",
+          "text": "Myocarde ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Repos Repos R"
+        },
+        {
+          "type": "paragraph",
+          "text": "zation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépolarisé Dans la repolarisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "le processus de"
+        },
+        {
+          "type": "paragraph",
+          "text": "Repos Repos R"
+        },
+        {
+          "type": "paragraph",
+          "text": "est en cours"
+        },
+        {
+          "type": "paragraph",
+          "text": "s de dépolari"
+        },
+        {
+          "type": "paragraph",
+          "text": "zation"
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-004.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "Potentiel enregistré",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-005.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "Théorie du glissement électrique",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Théorie du glissement électrique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une membrane cellulaire peut être comparée à une feuille électrique car d'une part, son épaisseur (e) est très faible par rapport à la distance qui la sépare des électrodes et d'autre part, ses faces portent une répartition uniforme de charges positives à l'extérieur, négatives à l'intérieur pour une membrane au repos et inversement pour une membrane active. Si l'on appelle (?) la charge du feuillet par unité de surface, le potentiel créé par la fibre cardiaque en un point P éloigné d'elle a l'expression Vp = e ?? Dans cette expression (?) représente la valeur de l'angle solide sous lequel la membrane est vue depuis le point P. Lorsque la cellule est au repos, le potentiel Vp est la somme des effets de la partie inférieure ABC et de la partie supérieure ADC. Chacune de ces portions étant vue sous le même angle solide (?), leur contribution au potentiel est identique en valeur absolue mais de signe opposé car le signe Vp est celui de la face de la tôle qui fait face à P ;"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "Théorie du glissement électrique",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-006.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "Théorie du glissement électrique",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lorsque la cellule est au repos, P regarde la face supérieure positive de l’ADC et la face interne négative de ABC. Donc une cellule au repos donne un potentiel Vp nul à l'extérieur. Il en est de même lorsque la cellule est complètement dépolarisée. ?Si la contribution à Vp de (?1) et (?3) est nulle lors de l'activation de la cellule, il n'en va pas de même pour (?2). ?Ainsi, pour un point fixe P reflétant la position de l'électrode, Vp varie de manière diphasée lorsque le front d'excitation ou de désexcitation se propage d'une extrémité à l'autre de la cellule."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "III- Les dérivations utilisées dans",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III- Les dérivations utilisées dans"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "électrocardiographie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Assemblages bipolaires (triangle d'Einthoven)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plomb I (DI) = bras gauche ? bras droit. Plomb II (DII) = jambe gauche ? bras droit. Plomb III (DIII) = jambe gauche ? bras gauche."
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-007.png",
+          "caption": "Assemblages bipolaires (triangle d'Einthoven)"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "Les montages monopolaires correspondent aux potentiels :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Les montages monopolaires correspondent aux potentiels :"
+        },
+        {
+          "type": "paragraph",
+          "text": "aVR (électrode active sur le bras droit) aVL (électrode active sur le bras gauche) aVF (électrode active sur la cheville gauche)"
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-008.png",
+          "caption": "Les montages monopolaires correspondent aux potentiels :"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "Les montages monopolaires correspondent aux potentiels :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "les électrodes actives étant situées autour du cœur au niveau du 4ème et 5ème espace intercostal (dérivation V1 à V6)."
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-009.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "Les montages monopolaires correspondent aux potentiels :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-010.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-011.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "Les montages monopolaires correspondent aux potentiels :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-012.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "Les montages monopolaires correspondent aux potentiels :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-013.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "Les montages monopolaires correspondent aux potentiels :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-014.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Les montages monopolaires correspondent aux potentiels :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-012.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "Les montages monopolaires correspondent aux potentiels :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-012.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "Les montages monopolaires correspondent aux potentiels :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-012.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "Les montages monopolaires correspondent aux potentiels :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-015.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-012.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "Les montages monopolaires correspondent aux potentiels :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-016.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-3/img-012.png",
+          "caption": ""
+        }
+      ]
+    }
+  ]
+}

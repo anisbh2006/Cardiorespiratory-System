@@ -3,6 +3,7 @@ import { TopicRenderer } from './ContentRenderer'
 import { AwaitingContent } from './AwaitingContent'
 import { buildTopics, loadChapter } from '@/data/contentLoader'
 import type { Topic } from '@/data/types'
+import { useLanguage } from '@/context/LanguageContext'
 
 interface LessonContentProps {
   discipline: string
@@ -13,6 +14,7 @@ interface LessonContentProps {
 }
 
 function LoadingSkeleton() {
+  const { t } = useLanguage()
   return (
     <div className="space-y-5" aria-busy="true" aria-live="polite">
       <div className="shimmer h-7 w-2/3 rounded-md bg-overlay" />
@@ -21,7 +23,7 @@ function LoadingSkeleton() {
       <div className="shimmer h-4 w-9/12 rounded bg-overlay/70" />
       <div className="shimmer h-56 w-full rounded-xl bg-overlay/60" />
       <div className="shimmer h-4 w-10/12 rounded bg-overlay/70" />
-      <span className="sr-only">Loading lesson content…</span>
+      <span className="sr-only">{t('app.loading')}</span>
     </div>
   )
 }
@@ -38,14 +40,16 @@ export function LessonContent({
   lessonTitle,
   onTopics,
 }: LessonContentProps) {
+  const { t, language } = useLanguage()
   const [topics, setTopics] = React.useState<Topic[] | null>(null)
   const [failed, setFailed] = React.useState(false)
 
   React.useEffect(() => {
     let alive = true
     setTopics(null)
+    onTopics?.([])
     setFailed(false)
-    loadChapter(discipline, chapterId)
+    loadChapter(discipline, chapterId, language)
       .then((raw) => {
         if (!alive) return
         const built = buildTopics(raw.pages)
@@ -59,13 +63,13 @@ export function LessonContent({
       alive = false
     }
     // onTopics intentionally omitted: it is a stable state setter from the parent.
-  }, [discipline, chapterId])
+  }, [discipline, chapterId, language])
 
   if (failed) {
     return (
       <AwaitingContent
-        title={`« ${lessonTitle} » — content awaiting integration`}
-        description="Le contenu de cette leçon sera intégré tel quel depuis les fichiers de lecture fournis, sans réécriture ni invention."
+        title={`« ${lessonTitle} » — ${t('lesson.contentAwaiting')}`}
+        description={t('common.awaitingContent')}
       />
     )
   }

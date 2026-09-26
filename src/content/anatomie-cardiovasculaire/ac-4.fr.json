@@ -1,0 +1,389 @@
+{
+  "file": "anatomy cardiovasculaire/4)Structuresducoeuretpéricarde_EN.pdf",
+  "chapterId": "ac-4",
+  "title": "Structures du cœur et du péricarde",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Structures du cœur et",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "PLANIFIER"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Structure du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Objectifs"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Connaître le rôle du squelette cardiaque.",
+            "Définir le système cardio-neural et sa formation.",
+            "Définir le péricarde et sa constitution."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Structures du cœur et"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "péricarde"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Objectifs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Connaître les quatre couches de la paroi cardiaque"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-001.jpg",
+          "caption": "Structures du cœur et"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Introduction",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le cœur est formé de 4 formations anatomiques :"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I- Le squelette cardiaque ou charpente fibreuse du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II -Le myocarde ou tunique musculaire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III- L'endocarde"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Le péricarde ou enveloppe fibro-séreuse du coeur"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I- Le squelette cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le squelette cardiaque est le tissu fibreux qui entoure les orifices auriculo-ventriculaire et aorto-pulmonaire. Rôle :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fournit des insertions aux valves auriculo-ventriculaires et aorto-pulmonaires.",
+            "Donne des insertions aux couches musculaires auriculaires et ventriculaires. Constitution : 4 anneaux fibreux résistants : qui entourent les 4 orifices : 1. Anneau fibreux tricuspide droit. 2. Anneau fibreux mitral gauche. 3. Anneau fibreux aortique. 4. Anneau fibreux pulmonaire0 Ces anneaux sont renforcés par des formations fibreuses, qui sont au nombre de 03 : 1. Trigone fibreux gauche : entre aortique et mitral 2. Trigone fibreux droit : entre aortique et tricuspide 3. Faisceau auriculo-ventriculaire : entre mitral et tricuspide."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Le myocarde"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Définition"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Constitue le muscle cardiaque.",
+            "C'est un muscle strié autonome régulé par les systèmes sympathique et parasympathique.",
+            "L'IL est formé de fibres musculaires :",
+            "Fibres auriculaires qui forment la paroi auriculaire."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toutes ses fibres sont insérées dans les anneaux de la charpente fibreuse du cœur. 1-Fibres auriculaires : Disposées en 2 types : a-Fibres spécifiques à chaque oreillette : profondes réparties en 2 groupes :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fibres annulaires : entourant les orifices : auriculo-ventriculaire, veine cave supérieure et inférieure, sinus coronaire, veines pulmonaires et orifices de l'oreillette.",
+            "Fibres ansiformes : s'attachent aux anneaux auriculo-ventriculaires. b-Fibres communes : s'étendent transversalement d'une oreillette à l'autre"
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-002.jpg",
+          "caption": "Définition"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-003.jpg",
+          "caption": "Définition"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-004.jpg",
+          "caption": "Définition"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-005.jpg",
+          "caption": "Définition"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Introduction",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2-Fibres ventriculaires : Classées en 02 catégories de fibres : a-Fibres spécifiques à chaque ventricule :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Profond.",
+            "Attachés par leurs deux extrémités aux anneaux fibreux auriculo-ventriculaire et aortopulmonaire.",
+            "Ils créent des boucles qui se déplacent obliquement vers les parois et le septum interventriculaire. Fibres b communes aux deux ventricules :",
+            "Superficiel.",
+            "Entourez et unissez les 2 cavités cardiaques.",
+            "Attacher aux anneaux fibreux.",
+            "Dirigez-vous obliquement vers la pointe du cœur, créant un tourbillon à ce niveau.",
+            "Au cours de leur trajet, certaines fibres s'appliquent sur la surface interne du sac (formée par les propres fibres), d'autres forment des colonnes charnues."
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "L'informatique assure la propagation et la coordination des contractions musculaires auriculo-ventriculaires.",
+            "L'IL est constitué d'un tissu musculaire particulier = tissu nodal."
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ce tissu est organisé sous forme d'amas de cellules (nœuds) et de faisceaux.",
+            "Formé par : 1-KEITH et nœud FLACK (sinusal ou sino-auriculaire) :",
+            "Situé dans la paroi postérieure de la AD, à l'extérieur de la veine cave supérieure.",
+            "En forme de grande virgule.",
+            "La propagation de l'excitation traverse la paroi des oreillettes via les faisceaux de Wenckebach (A) pour arriver au nœud auriculo-ventriculaire"
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-006.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-007.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-008.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-009.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "III- L'endocarde",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "2- Nœud septal ASCHOFF et TAWARA (atrioventriculaire) :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Situé sur le mur inférieur de l'AD.",
+            "A la forme d'une masse ovoïde avec deux extrémités droite et gauche.",
+            "L'extrémité droite : présente plusieurs fibres (en forme d'éventail) formant le nœud ZAHN.",
+            "L'extrémité gauche : continue avec le tronc du paquet de His. 3-Son faisceau et ses branches secondaires (faisceaux auriculo-ventriculaires) :",
+            "Situé dans le prolongement du nœud auriculo-ventriculaire.",
+            "Il est transporté vers l'avant dans le septum auriculo-ventriculaire, puis se déplace le long du septum interventriculaire (partie membraneuse).",
+            "A la partie antéro-supérieure, le faisceau de His se divise en 2 branches (faisceaux secondaires) droite et gauche.",
+            "Les 2 faisceaux se développent dans les parois ventriculaires des réseaux de Purkinje."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III- L'endocarde"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Constitue la tunique interne du cœur.",
+            "Il est fin et recouvre toutes les surfaces internes des cavités cardiaques.",
+            "IL sépare le sang du myocarde, IL est en contact avec le sang."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Le péricarde"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Définition"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Enveloppe fibro-séreuse, Elle entoure le cœur.",
+            "Il forme un véritable sac fermé contenant une couche de liquide qui sert à lubrifier et permettre la mobilité du cœur.",
+            "Le péricarde est un sac inextensible (volume inchangé) d'où risque de péricardite (inflammation : ?volume du liquide)",
+            "Il est composé de 2 parties : A- Péricarde séreux (épicarde) : C'est la couche la plus profonde, composée de 2 couches : Les 02 couches délimitent la cavité péricardique contient du liquide lubrifiant pour éviter les frottements lors des contractions 1- Feuillet viscéral :",
+            "Tapisse les surfaces externes du cœur.",
+            "Se reflète à la base sur le péricarde fibreux, devenant ainsi une couche pariétale et recouvre les cavités",
+            "Derrière, il ne recouvre pas entièrement les oreillettes, d'où une région dépourvue de péricarde = mésocarde postérieur.",
+            "Le mésocarde postérieur est constitué de 3 parties : 1. Horizontale : entre les veines pulmonaires supérieures droite et gauche (a). 2. Vertical gauche : entourant les 2 veines pulmonaires gauches (b). 3. Droit vertical : s'étend de la veine cave crânienne à la veine cave caudale et entoure les veines du poumon droit (c)."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-010.jpg",
+          "caption": "Définition"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-011.jpg",
+          "caption": "Définition"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "2-Couche pariétale",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2-Couche pariétale"
+        },
+        {
+          "type": "list",
+          "items": [
+            "ELLE naît du reflet de la couche viscérale à la base du cœur.",
+            "Le péricarde séreux tapisse les ventricules et s'étend sur :",
+            "Pédicule artériel (aorte et artère pulmonaire) formant la gaine artérielle.",
+            "Atriums",
+            "Pédicule veineux (veine cave et veines pulmonaires) formant la gaine veineuse.",
+            "Les lignes de réflexion du péricarde séreux : sont les 02 gaines artérielles et veineuses :",
+            "La gaine artérielle entoure le pédicule artériel.",
+            "Une gaine veineuse entoure le pédicule veineux. Les lignes de réflexion forment des impasses (évidements) ou sinus entre les vaisseaux : 1- Sinus de Haller : (oblique) du péricarde qui s'insinue entre les veines pulmonaires droite et gauche sur la paroi postérieure de l'AG, par rapport à l'œsophage. 2- Sinus transverse (THEILE) : entre les 2 gaines artérielle et veineuse, ouvert à droite et à gauche."
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "C'est un sac fibreux fermé qui fixe et protège le cœur.",
+            "Épais et résistant, blanc nacré.",
+            "En forme de cône à 3 faces, un sommet et une base",
+            "En avant, l'IT remonte au milieu jusqu'à l'origine du tronc artériel brachiocéphalique (né de l'aorte)",
+            "À l'envers au dessus de l'impasse de Haller. Il est relié aux différentes parois du thorax et des organes voisins par les ligaments fibreux péricardiques suivants :",
+            "Vertébro-péricardique.",
+            "Sterno péricardique inférieur et supérieur.",
+            "Phréno-péricardique (relie le cœur au diaphragme). Les relations du cœur : Se font via le péricarde :",
+            "Derrière : se trouvent les relations de l'AG : œsophage, aorte thoracique, veines azygos, nerfs vagues, canal thoracique.",
+            "Latéralement : plèvre médiatisnale et nerfs phréniques.",
+            "En bas : diaphragme."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En avant : le plastron sterno-costal, selon une zone de projection dont les 4 angles correspondent aux foyers d'auscultation."
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-012.jpg",
+          "caption": "2-Couche pariétale"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-013.jpg",
+          "caption": "2-Couche pariétale"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-014.jpg",
+          "caption": "2-Couche pariétale"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-015.jpg",
+          "caption": "2-Couche pariétale"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "2-Couche pariétale",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Foyers d'auscultation cardiaque : En avant : plastron sterno-costal, selon une zone de projection dont les 4 angles correspondent aux (orifices du cœur) foyers d'auscultation :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Aortique = para-sternal droit 2ème EIC droit.",
+            "Pulmonaire = pulmonaire para-sternal 2ème EIC gauche.",
+            "Mitrale = 4/5ème EIC sous le mamelon gauche.",
+            "Tricuspide = parasternal droit au niveau du 4ème EIC."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-016.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-4/img-017.jpg",
+          "caption": ""
+        }
+      ]
+    }
+  ]
+}

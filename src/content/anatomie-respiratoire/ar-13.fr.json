@@ -1,0 +1,567 @@
+{
+  "file": "anatomy respiratoire/13)Anatomydudiaphragmeetdunerfphrénique_EN.pdf",
+  "chapterId": "ar-13",
+  "title": "Anatomie du diaphragme et du nerf phrénique",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "PLANIFIER",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "PLANIFIER"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Définition"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Forme et situation"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Constitution"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Centre phrénique 2-Partie musculaire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VI- Les orifices"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Orifices principaux 2-Orifices accessoires"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Rapports V"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-thoracique 2-abdominale"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VI-Vascularisation"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VII-Innervation"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VIII-Action"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IX-Pathologies"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "X-Conclusion OBJECTIFS"
+        },
+        {
+          "type": "paragraph",
+          "text": "Diaphragme et nerf phrénique"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "PLANIFIER"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Définition"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Forme et situation"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Constitution"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Centre phrénique 2-Partie musculaire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VI- Les orifices"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Orifices principaux 2-Orifices accessoires"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Rapports V"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-thoracique 2-abdominale"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VI-Vascularisation"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VII-Innervation"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VIII-Action"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IX-Pathologies"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "X-Conclusion OBJECTIFS"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Réglez le diaphragme.",
+            "Décrivez sa forme.",
+            "Connaître sa constitution.",
+            "Connaître ses orifices et éléments de passage.",
+            "Connaître le coursier du nerf phrénique.",
+            "Mentionnez ses fonctions."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-13/img-001.jpg",
+          "caption": "IX-Pathologies"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "I-Définition",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "vasculaire-nerveux et digestif."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le diaphragme est une feuille musculo-tendineuse à double dôme,"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "situé à l’extrémité inférieure de la cage thoracique. Il remplit deux fonctions principales :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sépare la cavité thoracique de la cavité abdominale (le mot diaphragme est dérivé du grec « diaphragma », signifiant cloison).",
+            "Subit une contraction et une relaxation, modifiant le volume de la cavité thoracique et des poumons, produisant une inspiration et une expiration. II-Forme et situation :"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "faisceaux musculaires digastriques du diaphragme."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sa forme est semblable à celle d'un trèfle avec trois folioles : une ventrale, une droite et une gauche.",
+            "La foliole ventrale est plus étendue que les autres.",
+            "En plein centre phrénique et à l'union des folioles ventrale et dorsale se trouve le foramen du"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "bande semi-circulaire, au nombre de 2 : supérieure et inférieure. -La supérieure : est tendue entre les folioles droite et ventrale ; il circonscrit postérieurement le foramen de la VCI. - Celui du bas est tendu entre les feuillets droit et gauche ; il circonscrit le foramen de la VCI en avant."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Définition"
+        },
+        {
+          "type": "list",
+          "items": [
+            "C'est le muscle respiratoire essentiel.",
+            "Il présente l'apparence d'une cloison musculo-aponévrotique séparant les deux"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "cavités thoraciques et abdominales."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Il possède des orifices par lesquels passent les éléments"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "situé à l’extrémité inférieure de la cage thoracique. Il remplit deux fonctions principales :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sépare la cavité thoracique de la cavité abdominale (le mot diaphragme est dérivé du grec « diaphragma », signifiant cloison).",
+            "Subit une contraction et une relaxation, modifiant le volume de la cavité thoracique et des poumons, produisant une inspiration et une expiration. II-Forme et situation :"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "thorax."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le dôme de droite est plus haut que celui de gauche.",
+            "Il atteint le 4ème espace intercostal ; tandis que la gauche se projette sur le 5ème espace"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "intercostal."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ces marques sont modifiées lors de l'inspiration forcée. III-Constitution : Le diaphragme est composé de deux parties : -Une partie centrale tendineuse : le centre phrénique. -Une partie périphérique : musculaire. 1-Le centre phrénique :"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il s'agit d'une couche aponévrotique résultant du entrecroisement des tendons intermédiaires du"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-13/img-002.jpg",
+          "caption": "I-Définition"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-13/img-003.jpg",
+          "caption": "I-Définition"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "B- La portion chondro-costale",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Il s'agit d'un ensemble de petits faisceaux musculaires digastriques qui s'insèrent en périphérie sur"
+        },
+        {
+          "type": "paragraph",
+          "text": "A- La partie sternale :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Il est constitué de deux faisceaux musculaires sterno-xiphoïdes tendus du côté postérieur du"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "du centre phrénique."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B- La portion chondro-costale"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Il présente une double insertion : chondro-costale et aponévrotique. 1. Insertions chondro-costales :",
+            "Les faisceaux musculaires s'insèrent sur : - le cartilage des 7ème, 8ème, 9ème côtes - et sur la partie osseuse des 10ème, 11ème, 12ème côtes."
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ces insertions se confondent avec celles du muscle transverse. 2. Insertions aponévrotiques : Trois arcs aponévrotiques donnent des insertions aux faisceaux musculaires de la partie chondro-costale. Il s'agit de : -Le ligament arqué latéral : situé à l'extérieur du ligament arqué médial.",
+            "Il s'étend du processus costiforme de la L1 jusqu'au sommet de la 12e côte.",
+            "De son bord supérieur se détache le faisceau musculaire qui est transporté vers le haut et vers l'extérieur, vers le"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "bord postérieur du centre phrénique. -Les ligaments accessoires (arcades de Sénac)."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Il y en a deux, tendus entre les 10ème, 11ème, 12ème côtes.",
+            "Tous les faisceaux se déplacent vers le haut et vers l’arrière pour atteindre le bord antérolatéral"
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-13/img-004.jpg",
+          "caption": "B- La portion chondro-costale"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-13/img-005.jpg",
+          "caption": "B- La portion chondro-costale"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "C- La partie vertébrale (lombaire)",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C- La partie vertébrale (lombaire)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est constitué d'un ensemble d'éléments tendineux et aponévrotiques à partir desquels"
+        },
+        {
+          "type": "paragraph",
+          "text": "1-Piliers principaux droit et gauche. 2-Piliers accessoires droit et gauche. 3-Ligaments arqués médiaux droit et gauche. 1) Principaux piliers :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ce sont de véritables formations tendineuses qui s'insèrent sur les faces"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les fibres de ces deux tendons se croisent devant Th12 pour"
+        },
+        {
+          "type": "paragraph",
+          "text": "forment le ligament arqué médian, représentant la limite antérieure du hiatus aortique. 2) Piliers accessoires :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ils sont plus fins, souvent confondus avec les piliers principaux.",
+            "Ils sont insérés sur les faces latérales des 2 premières vertèbres lombaires.",
+            "Leurs faisceaux musculaires sont transportés vers le haut et vers l'extérieur vers le bord du centre du poteau."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "phrénique. 3) Les ligaments arqués médiaux :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le ligament arqué médial unit le flanc du corps de L2 au processus costiforme de L1.",
+            "Il constitue l'arc psoas.",
+            "De son bord supérieur se détache le faisceau musculaire qui est transporté vers le haut et l'extérieur vers"
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-13/img-006.jpg",
+          "caption": "C- La partie vertébrale (lombaire)"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-13/img-007.jpg",
+          "caption": "C- La partie vertébrale (lombaire)"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-13/img-008.jpg",
+          "caption": "C- La partie vertébrale (lombaire)"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "1-Les principaux orifices : -Hiatus aortique : -orifice fibreux",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1-Les principaux orifices : -Hiatus aortique : -orifice fibreux. -Il fait saillie sur la carrosserie du T12 entre les 2 piliers principaux. -Hiatus œsophagien : -orifice musculaire -Il se projette sur T10 à gauche de la ligne médiane. -éléments de passage : œsophage et nerfs vagues -Foramen de la VCI :-orifice fibreux -Il se projette sur T9, à droite de la ligne médiane. -éléments de passage : VCI et branche abdominale du nerf phrénique droit. 2-Orifices accessoires :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fente de Marfan : rétro-sternale, entre les 2 faisceaux de la partie sternale du diaphragme. -Fente de Larrey : rétro-sternale, latérale, entre les 2 portions sternales et chondro-costale. Permet le passage de l'artère épigastrique supérieure. -Hiatus médial : pré-lombaire, situé entre les piliers principal et accessoire. Permet le passage du nerf grand splanchnique. -Hiatus latéral : pré-lombaire, entre le pilier accessoire et le pilier arqué médial. Permet le passage du nerf splanchnique inférieur et du nerf splanchnique inférieur ainsi que de la chaîne sympathique. V-Rapports : Sont essentiellement thoraciques et abdominaux : 1-thoraciques : -Latéraux : -(pleuro-pulmonaire) 1 La plèvre pariétale diaphragmatique. 2-La base du poumon bordée par la plèvre viscérale. 3-La niche costo-diaphragmatique. -Médiastinal : 1 -Le péricarde fibreux. 2-L'œsophage thoracique et les nerfs vagues. 3-L'aorte thoracique descendante et le conduit thoracique. 4-Les veines azygos et hémi-azygos, les chaînes sympathiques. 2-Abdominaux : -La partie horizontale : 1-Le foie et ces ligaments suspenseurs. 2-L'œsophage abdominal. 3-La grosse tubérosité de l'estomac. 4-L'extension du lobe gauche du foie. 5-La rate. 6-La gauche l'angle colique et le ligament phrénico-colique. -La partie verticale : 1-l'aorte abdominale et la région coeliaque. 2-Les reins et les surrénales."
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-13/img-009.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-13/img-010.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-13/img-011.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "accouchement IX-Pathologie",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "à droite et à gauche."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Chaque nerf est destiné à un hémi-diaphragme correspondant.",
+            "C'est un nerf mixte, sensoriel et moteur. VIII-Action : 1-Rôle principal :",
+            "C'est le principal muscle inspiratoire, très puissant lors de l'inspiration,",
+            "Il augmente en contractant les 3 diamètres du thorax :",
+            "Vertical : en abaissant le couple, grâce au point d'appui costal.",
+            "Sagittal : projection du sternum vers l’avant.",
+            "Transverse : en surélevant les côtes grâce au point d'appui sur les viscères abdominaux. 2-Rôles secondaires :",
+            "Suspend les viscères supramésocoliques et lombaires.",
+            "Favorise en contractant la circulation sanguine, et lymphatique, l'écoulement de la bile,"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "vomissements."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Agit sur l'orifice œsophagien et s'oppose au reflux du contenu gastrique.",
+            "Provoque par sa contraction le cri, le bâillement, et par ses spasmes, le hoquet, le rire.",
+            "S'oppose au diaphragme pelvien (levator ani) lors de la défécation, de la miction forcée et"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "permet le passage dans la cavité thoracique de la jonction œsophagienne et d'une partie de l'estomac."
+        },
+        {
+          "type": "paragraph",
+          "text": "A- Les vaisseaux de la face thoracique : 1-Les artères : elles proviennent de l'artère sous-clavière, on distingue : -Les artères phréniques supérieures. -Les artères thoraciques internes. 2-Les veines : elles se superposent aux artères et se dirigent vers la VCS -Les veines phréniques supérieures droite et gauche -Les veines thoraciques internes droite et gauche 3-Les lymphatiques : le réseau lymphatique supérieur du diaphragme se draine par ses collecteurs lymphatiques vers les ganglions lymphatiques du thorax."
+        },
+        {
+          "type": "paragraph",
+          "text": "B- Les vaisseaux de la face thoracique : 1-Les artères : elles proviennent de l'aorte abdominale, ce sont les artères phréniques inférieures 2-Les veines : ce sont les veines phréniques inférieures qui drainent les faces abdominales des dômes diaphragmatiques et aboutissent dans la VCI. 3-Le système lymphatique : draine vers les ganglions lymphatiques de la région abdominale. VII-Innervation :"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'innervation motrice du diaphragme est assurée principalement par les nerfs phréniques"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "accouchement IX-Pathologie"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les hernies diaphragmatiques peuvent être congénitales ou acquises ; habituellement"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-13/img-012.jpg",
+          "caption": "accouchement IX-Pathologie"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-13/img-013.jpg",
+          "caption": "accouchement IX-Pathologie"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "X-Conclusion",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La tétraplégie par section ou traumatisme médullaire est viable si le niveau de la lésion est"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "X-Conclusion"
+        },
+        {
+          "type": "list",
+          "items": [
+            "cavité thoracique et abdominale et prévient la hernie des organes abdominaux dans la cavité thoracique.",
+            "Les traumatismes pénétrants et contondants peuvent blesser le diaphragme. Une déchirure ou une rupture du"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "le diaphragme est souvent un diagnostic difficile. Les options de diagnostic comprennent la laparoscopie, la thoracoscopie ou une tomodensitométrie. Quelle que soit la taille de la déchirure, le muscle doit être réparé le plus rapidement possible pour éviter une hernie des organes abdominaux.",
+            "Le diaphragme est également impliqué dans le hoquet. Lorsque le muscle est irrité, cela peut entraîner une réaction soudaine."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "contractions qui peuvent être inconfortables. La plupart des hoquets sont de courte durée, mais dans de rares cas, le hoquet peut durer une journée. Si le hoquet persiste, il peut gêner la respiration."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "X-Conclusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le diaphragme a de nombreux autres rôles que la respiration. Il agit comme une barrière entre les"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Intérêt considérable pour le diaphragme du point de vue : PHYSIOLOGIQUE : Muscle inspiratoire essentiel. CLINIQUE : 1",
+            "Hernie diaphragmatique congénitale. 2 -Névralgie phrénique incluant pleurésie diaphragmatique. 3- Plaie thoraco-abdominale. CHIRURGICALE : Thoraco-phréno-laparotomie, phrénicectomie."
+          ]
+        }
+      ]
+    }
+  ]
+}

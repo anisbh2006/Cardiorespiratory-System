@@ -1,0 +1,1253 @@
+{
+  "file": "physio cardiovasculaire/3)Ledébitcardiaque__EN.pdf",
+  "chapterId": "pc-3",
+  "title": "Débit cardiaque",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "FLUX CARDIAQUE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Laboratoire de Physiologie"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pr. KADIM.S"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "I-Introduction",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Introduction"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Contrôle de la fréquence cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III- Contrôle du volume d'éjection"
+        },
+        {
+          "type": "paragraph",
+          "text": "1- Relation entre volume ventriculaire télédiastolique et volume d'éjection : mécanisme de Frank-Starling"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Régulation sympathique : effet sur la contractilité cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- Post-chargement"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV- Relation débit cardiaque-retour veineux"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "V- Variations physiologiques du débit cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VI- Détermination de la fonction cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Méthodes non invasives"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Méthodes invasives"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Introduction",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le débit cardiaque est le volume de sang pompé par minute par chaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "ventricule, exprimé en l/min."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il représente également le volume de sang qui traverse le circuit systémique ou"
+        },
+        {
+          "type": "paragraph",
+          "text": "le circuit pulmonaire par minute."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Introduction",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "DC = HR x VE DC : débit cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "FC : fréquence cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "VE : volume d'éjection"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Exemple"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si FC : 72 battements/min"
+        },
+        {
+          "type": "paragraph",
+          "text": "VE : 70 ml"
+        },
+        {
+          "type": "paragraph",
+          "text": "CC = 72 x 0,07 = 5 l/min"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Introduction",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'indice cardiaque (IC) est le rapport entre le débit cardiaque et la surface corporelle, exprimé"
+        },
+        {
+          "type": "paragraph",
+          "text": "en l/min/m²."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il permet de comparer les DC entre différents sujets."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Introduction",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le débit cardiaque varie considérablement selon les circonstances. La différence"
+        },
+        {
+          "type": "paragraph",
+          "text": "entre le débit cardiaque au repos et le débit cardiaque à l'exercice est appelé"
+        },
+        {
+          "type": "paragraph",
+          "text": "réserve cardiaque. Le débit cardiaque maximum peut atteindre 4 ou 5 fois le"
+        },
+        {
+          "type": "paragraph",
+          "text": "débit cardiaque au repos, soit 20 à 25 l/min. Chez un athlète bien entraîné,"
+        },
+        {
+          "type": "paragraph",
+          "text": "il peut augmenter jusqu'à 35 l/min."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Introduction",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "La fréquence cardiaque et le volume d'éjection constituent les deux"
+        },
+        {
+          "type": "paragraph",
+          "text": "déterminants du débit cardiaque."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "En dehors de toute influence nerveuse ou hormonale sur le ganglion",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle de la fréquence cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "En dehors de toute influence nerveuse ou hormonale sur le ganglion"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "sinus, la fréquence des battements rythmiques du cœur est de 100"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "battements/min. Il représente la fréquence inhérente spontanée"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "du nœud sinusal."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cette fréquence peut être augmentée ou diminuée en fonction de l'influence"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "nerfs permanents et hormones sur le nœud sinusal."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "FLUX CARDIAQUE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle de la fréquence cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "La stimulation des nerfs parasympathiques (ondes) diminue la fréquence"
+        },
+        {
+          "type": "paragraph",
+          "text": "cardiaque tandis que celle des nerfs sympathiques l'augmente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au repos, l'activité parasympathique est prédominante avec une fréquence"
+        },
+        {
+          "type": "paragraph",
+          "text": "fréquence cardiaque de 70 battements/min."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "FLUX CARDIAQUE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle de la fréquence cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "La stimulation sympathique augmente également la vitesse de conduction à"
+        },
+        {
+          "type": "paragraph",
+          "text": "à travers tout le système de conduction cardiaque pendant la stimulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "le parasympathique le réduit."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "FLUX CARDIAQUE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle de la fréquence cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il existe d'autres facteurs qui modifient la fréquence cardiaque :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- adrénaline : augmente la fréquence cardiaque et la contraction"
+        },
+        {
+          "type": "paragraph",
+          "text": "en agissant sur"
+        },
+        {
+          "type": "list",
+          "items": [
+            "récepteurs adrénergiques"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "- thyroxine : augmente la fréquence cardiaque et potentialise"
+        },
+        {
+          "type": "paragraph",
+          "text": "l'effet de l'adrénaline et de la noradrénaline"
+        },
+        {
+          "type": "paragraph",
+          "text": "- la température corporelle"
+        },
+        {
+          "type": "paragraph",
+          "text": "- concentration d'électrolytes dans le plasma"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "FLUX CARDIAQUE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle du volume d'éjection"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le volume d'éjection (EV) représente le volume de sang éjecté par chaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "ventricule à chaque contraction."
+        },
+        {
+          "type": "paragraph",
+          "text": "VE = VTD - VTS"
+        },
+        {
+          "type": "paragraph",
+          "text": "VTD : volume télédiastolique"
+        },
+        {
+          "type": "paragraph",
+          "text": "VTS : volume télésystolique"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "FLUX CARDIAQUE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle du volume d'éjection"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plusieurs facteurs peuvent modifier l’EV, notamment :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- précharge : modifications du volume télédiastolique"
+        },
+        {
+          "type": "paragraph",
+          "text": "- contractilité : modifications de l'amplitude des impulsions du système nerveux"
+        },
+        {
+          "type": "paragraph",
+          "text": "sympathique aux ventricules"
+        },
+        {
+          "type": "paragraph",
+          "text": "- postcharge : changements de pression dans les artères contre"
+        },
+        {
+          "type": "paragraph",
+          "text": "que les ventricules doivent pomper."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "1- Relation entre le volume télédiastolique ventriculaire et le volume",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle du volume d'éjection"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Relation entre le volume télédiastolique ventriculaire et le volume"
+        },
+        {
+          "type": "paragraph",
+          "text": "éjection : mécanisme Frank-Starling"
+        },
+        {
+          "type": "paragraph",
+          "text": "La relation entre le volume systolique et le volume télédiastolique est"
+        },
+        {
+          "type": "paragraph",
+          "text": "appelé mécanisme de Frank-Starling. C'est une simple relation de longueur"
+        },
+        {
+          "type": "paragraph",
+          "text": "tension où le volume télédiastolique déterminera le degré d’étirement du"
+        },
+        {
+          "type": "paragraph",
+          "text": "sarcomères ventriculaires avant la contraction."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "1- Relation entre le volume télédiastolique ventriculaire et le volume",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle du volume d'éjection"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Relation entre le volume télédiastolique ventriculaire et le volume"
+        },
+        {
+          "type": "paragraph",
+          "text": "éjection : mécanisme Frank-Starling"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plus le volume télédiastolique est important, plus l'étirement est marqué et plus"
+        },
+        {
+          "type": "paragraph",
+          "text": "la contraction est puissante."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le volume d'éjection augmente donc avec le volume télédiastolique (TDV)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le principal facteur d’étirement du muscle cardiaque est la quantité de"
+        },
+        {
+          "type": "paragraph",
+          "text": "sang qui retourne au cœur par les veines distendant les ventricules : c'est le"
+        },
+        {
+          "type": "paragraph",
+          "text": "retour veineux."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "1- Relation entre le volume télédiastolique ventriculaire et le volume",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle du volume d'éjection"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Relation entre le volume télédiastolique ventriculaire et le volume"
+        },
+        {
+          "type": "paragraph",
+          "text": "éjection : mécanisme Frank-Starling"
+        },
+        {
+          "type": "paragraph",
+          "text": "Facteurs augmentant le volume ou la vitesse du retour veineux tels que"
+        },
+        {
+          "type": "paragraph",
+          "text": "la bradycardie ou l'exercice physique augmentent le VTD et donc la force de"
+        },
+        {
+          "type": "paragraph",
+          "text": "contraction et le VE."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors d'une hémorragie grave ou d'une tachycardie, le retour veineux est faible,"
+        },
+        {
+          "type": "paragraph",
+          "text": "réduisant l'étirement des fibres musculaires et donc la force de"
+        },
+        {
+          "type": "paragraph",
+          "text": "contraction ventriculaire et le VE."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "1- Relation entre le volume télédiastolique ventriculaire et le volume",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle du volume d'éjection"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Relation entre le volume télédiastolique ventriculaire et le volume"
+        },
+        {
+          "type": "paragraph",
+          "text": "éjection : mécanisme Frank-Starling"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le mécanisme de Frank-Starling permet de maintenir l'égalité des débits"
+        },
+        {
+          "type": "paragraph",
+          "text": "entre le coeur droit et le coeur gauche."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Exemple"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le cœur droit commence à pomper plus de sang que le gauche,"
+        },
+        {
+          "type": "paragraph",
+          "text": "une augmentation du flux sanguin vers le ventricule gauche entraîne"
+        },
+        {
+          "type": "paragraph",
+          "text": "augmentation de l'éjection ventriculaire gauche, évitant l'accumulation de"
+        },
+        {
+          "type": "paragraph",
+          "text": "du sang dans les poumons."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "2- Régulation sympathique : effet sur la contractilité cardiaque",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle du volume d'éjection"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Régulation sympathique : effet sur la contractilité cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "La contractilité ventriculaire est définie comme la force de"
+        },
+        {
+          "type": "paragraph",
+          "text": "contraction pour le volume télédiastolique donné."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle est augmentée par la stimulation sympathique."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "2- Régulation sympathique : effet sur la contractilité cardiaque",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle du volume d'éjection"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Régulation sympathique : effet sur la contractilité cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "La noradrénaline, comme l'adrénaline plasmatique, se lie au"
+        },
+        {
+          "type": "paragraph",
+          "text": "? les récepteurs adrénergiques entraînent une augmentation de la force de"
+        },
+        {
+          "type": "paragraph",
+          "text": "volume de contraction et d'éjection, indépendamment du volume"
+        },
+        {
+          "type": "paragraph",
+          "text": "ventriculaire télédiastolique."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "2- Régulation sympathique : effet sur la contractilité cardiaque",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle du volume d'éjection"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Régulation sympathique : effet sur la contractilité cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "La contractilité accrue entraîne une éjection plus complète du"
+        },
+        {
+          "type": "paragraph",
+          "text": "volume télédiastolique ventriculaire. Il est quantifié par la fraction"
+        },
+        {
+          "type": "paragraph",
+          "text": "éjection (FE)."
+        },
+        {
+          "type": "paragraph",
+          "text": "EF = VE = 50 à 75% au repos"
+        },
+        {
+          "type": "paragraph",
+          "text": "VTD"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une contractilité accrue entraîne une augmentation de la FE."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "2- Régulation sympathique : effet sur la contractilité cardiaque",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle du volume d'éjection"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Régulation sympathique : effet sur la contractilité cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il existe des facteurs qui augmentent la contractilité = agents ionotropes"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "positif"
+        },
+        {
+          "type": "paragraph",
+          "text": "- augmentation du Ca++ dans le liquide interstitiel"
+        },
+        {
+          "type": "paragraph",
+          "text": "- hormones : glucagon, thyroxine, adrénaline"
+        },
+        {
+          "type": "paragraph",
+          "text": "- médicaments : digitale"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "2- Régulation sympathique : effet sur la contractilité cardiaque",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle du volume d'éjection"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Régulation sympathique : effet sur la contractilité cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "D'autres facteurs diminuent la contractilité = agents ionotropes négatifs :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- augmentation des ions H+ : acidose"
+        },
+        {
+          "type": "paragraph",
+          "text": "- augmentation de la concentration de K+ dans le liquide interstitiel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Antagonistes du Ca++"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "3- Post-chargement",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôle du volume d'éjection"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- Post-chargement"
+        },
+        {
+          "type": "paragraph",
+          "text": "La postcharge représente la pression qui s'oppose aux pressions du"
+        },
+        {
+          "type": "paragraph",
+          "text": "ventricules lorsqu'ils expulsent le sang du cœur. L'augmentation de"
+        },
+        {
+          "type": "paragraph",
+          "text": "la pression artérielle (TA) a tendance à diminuer le volume d'éjection, car le muscle"
+        },
+        {
+          "type": "paragraph",
+          "text": "ventriculaire doit lutter contre l'augmentation de la résistance vasculaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, dans le cœur normal, il existe plusieurs mécanismes intrinsèques"
+        },
+        {
+          "type": "paragraph",
+          "text": "ajustement minimisant l’influence globale de la pression artérielle sur le volume"
+        },
+        {
+          "type": "paragraph",
+          "text": "éjection."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "coeur",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Relation débit cardiaque-retour veineux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trois facteurs déterminent le retour veineux de la circulation systémique vers le"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "coeur"
+        },
+        {
+          "type": "paragraph",
+          "text": "- la pression auriculaire droite s'opposant au retour du sang veineux vers"
+        },
+        {
+          "type": "paragraph",
+          "text": "l'écouteur droit"
+        },
+        {
+          "type": "paragraph",
+          "text": "- l'importance de combler la circulation systémique reflétée par le"
+        },
+        {
+          "type": "paragraph",
+          "text": "pression systémique moyenne de remplissage ou pression circulatoire moyenne"
+        },
+        {
+          "type": "paragraph",
+          "text": "- résistance à la circulation sanguine entre les vaisseaux périphériques et"
+        },
+        {
+          "type": "paragraph",
+          "text": "l'écouteur droit."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "FLUX CARDIAQUE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Relation débit cardiaque-retour veineux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le cœur et la circulation systémique travaillent ensemble :"
+        },
+        {
+          "type": "paragraph",
+          "text": "retour veineux de la circulation systémique = débit cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "la pression dans l'oreillette droite est commune au cœur et"
+        },
+        {
+          "type": "paragraph",
+          "text": "circulation systémique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le débit cardiaque et la pression dans l'oreillette droite peuvent être déterminés par"
+        },
+        {
+          "type": "paragraph",
+          "text": "faire correspondre la courbe de débit cardiaque avec la courbe de retour"
+        },
+        {
+          "type": "paragraph",
+          "text": "veineux."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "FLUX CARDIAQUE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Relation débit cardiaque-retour veineux"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-3/img-001.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "FLUX CARDIAQUE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Relation débit cardiaque-retour veineux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les 2 courbes permettent l'analyse du débit cardiaque et de la pression"
+        },
+        {
+          "type": "paragraph",
+          "text": "petit doigt droit. Lorsqu'ils sont normaux, il y a un point sur le graphique où le"
+        },
+        {
+          "type": "paragraph",
+          "text": "le retour veineux est égal au débit cardiaque et auquel la pression auriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le droit est identique pour le cœur et la circulation systémique."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "FLUX CARDIAQUE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Variations physiologiques du débit cardiaque"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pendant la digestion : augmentation de 30% du DC",
+            "Chaleur : augmentation du DC par augmentation du retour veineux suite"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dilatation veiniculaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grossesse : augmentation des DC entre le 2ème et le 6ème mois puis diminution"
+        },
+        {
+          "type": "paragraph",
+          "text": "en fin de grossesse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Activité physique : augmentation du DC jusqu'à 5 fois."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "FLUX CARDIAQUE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Détermination de la fonction cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chez l’homme, il existe plusieurs méthodes pour mesurer le débit."
+        },
+        {
+          "type": "paragraph",
+          "text": "cardiaque. De plus, des images bidimensionnelles et tridimensionnelles du cœur peuvent être"
+        },
+        {
+          "type": "paragraph",
+          "text": "obtenu pendant toutes les phases du cycle cardiaque."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "1- Méthodes non invasives",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Détermination de la fonction cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Méthodes non invasives"
+        },
+        {
+          "type": "paragraph",
+          "text": "Échocardiographie"
+        },
+        {
+          "type": "paragraph",
+          "text": "Non invasif, il permet la détection des anomalies de fonctionnement des"
+        },
+        {
+          "type": "paragraph",
+          "text": "valvules cardiaques ou contraction des parois cardiaques et mesurer la"
+        },
+        {
+          "type": "paragraph",
+          "text": "fraction d'éjection."
+        },
+        {
+          "type": "paragraph",
+          "text": "Impédancemétrie"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "2- Méthodes invasives",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Détermination de la fonction cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Méthodes invasives"
+        },
+        {
+          "type": "paragraph",
+          "text": "Angiographie cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Invasive, elle consiste en l'introduction d'un cathéter dans le cœur via une artère ou"
+        },
+        {
+          "type": "paragraph",
+          "text": "une veine sous contrôle fluoroscopique avec injection d'un produit de radiocontraste"
+        },
+        {
+          "type": "paragraph",
+          "text": "opaque. Les radiographies sont réalisées à grande vitesse. En plus de l'évaluation du"
+        },
+        {
+          "type": "paragraph",
+          "text": "fonction cardiaque, cette technique permet de détecter un rétrécissement de la"
+        },
+        {
+          "type": "paragraph",
+          "text": "artères coronaires."
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "2- Méthodes invasives",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Détermination de la fonction cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Méthodes invasives"
+        },
+        {
+          "type": "paragraph",
+          "text": "Méthode Fick"
+        },
+        {
+          "type": "paragraph",
+          "text": "Permet de mesurer le débit cardiaque par le rapport de la consommation d'O2 (VO2) à la"
+        },
+        {
+          "type": "paragraph",
+          "text": "différence artério-veineuse d'O2 (AVD)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Débit cardiaque = VO2 /DAV"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artériel O? la concentration peut être obtenue à partir d’un échantillon prélevé"
+        },
+        {
+          "type": "paragraph",
+          "text": "dans toute artère facilement accessible. Concentration veineuse d'O 2"
+        },
+        {
+          "type": "paragraph",
+          "text": "est obtenu à partir de l’artère pulmonaire à l’aide d’un cathéter cardiaque."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "2- Méthodes invasives",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FLUX CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Détermination de la fonction cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Méthodes invasives"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "- Thermodilution"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il consiste à injecter un bolus d'une quantité prédéfinie de liquide froid"
+        },
+        {
+          "type": "paragraph",
+          "text": "(solution saline) dans l'oreillette droite et mesure les variations de"
+        },
+        {
+          "type": "paragraph",
+          "text": "température du sang dans l'artère pulmonaire."
+        }
+      ]
+    }
+  ]
+}

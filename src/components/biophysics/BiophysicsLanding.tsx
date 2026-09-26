@@ -5,6 +5,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { getDiscipline } from '@/data/disciplines'
 import type { Chapter } from '@/data/types'
+import { useLanguage } from '@/context/LanguageContext'
 
 const discipline = getDiscipline('biophysique')
 
@@ -13,6 +14,7 @@ function chapterBadge(chapter: Chapter) {
 }
 
 export function BiophysicsLanding() {
+  const { t } = useLanguage()
   const chapters = discipline?.chapters ?? []
 
   return (
@@ -22,7 +24,7 @@ export function BiophysicsLanding() {
         <div className="relative mx-auto max-w-7xl px-6 py-12">
           <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
             <span className="inline-flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.28em] text-primary">
-              <Atom className="h-3.5 w-3.5" /> Biophysics
+              <Atom className="h-3.5 w-3.5" /> {t('biophysics.title')}
             </span>
 
             <div className="mt-6 grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
@@ -31,19 +33,19 @@ export function BiophysicsLanding() {
                   BIOPHYSICS
                 </h1>
                 <p className="mt-4 max-w-2xl text-lg leading-relaxed text-muted">
-                  Understanding the physical principles behind the cardiorespiratory system.
+                  {t('biophysics.subtitle')}
                 </p>
 
                 <div className="mt-6 flex flex-wrap gap-3">
-                  <Badge variant="default">Hemodynamics</Badge>
-                  <Badge variant="secondary">Pressure-volume relationships</Badge>
-                  <Badge variant="secondary">ECG & bioelectricity</Badge>
+                  <Badge variant="default">{t('biophysics.badges.hemodynamics')}</Badge>
+                  <Badge variant="secondary">{t('biophysics.badges.pressureVolume')}</Badge>
+                  <Badge variant="secondary">{t('biophysics.badges.ecg')}</Badge>
                 </div>
 
                 <div className="mt-8 flex flex-wrap gap-3">
                   <Link to={`/discipline/biophysique/${chapters[0]?.id ?? 'bp-1'}/${chapters[0]?.lessons[0]?.id ?? 'bp-1'}`}>
                     <Button size="lg" className="gap-2">
-                      <Play className="h-4 w-4" /> Start learning
+                      <Play className="h-4 w-4" /> {t('biophysics.startLearning')}
                     </Button>
                   </Link>
                   <Link to="/search?q=biophysics+resistance+pressure">
@@ -62,8 +64,8 @@ export function BiophysicsLanding() {
               >
                 <div className="rounded-2xl border border-border bg-background/60 p-4">
                   <div className="flex items-center justify-between text-[10px] font-mono uppercase tracking-[0.2em] text-faint">
-                    <span>Flow Lab</span>
-                    <span>Cardiorespiratory</span>
+                    <span>{t('biophysics.flowLab')}</span>
+                    <span>{t('biophysics.cardiorespiratory')}</span>
                   </div>
 
                   <div className="mt-6 rounded-2xl border border-border bg-elevated/60 p-4">

@@ -1,0 +1,796 @@
+{
+  "file": "histology/5)Histologyduthymus_EN.pptx",
+  "chapterId": "hi-5",
+  "title": "Histologie du thymus",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Le thymus",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le thymus"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "INTRODUCTION",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "INTRODUCTION"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le thymus est un grand organe épithélial primaire (central) impair et médial situé dans la partie supérieure du médiastin antérieur."
+        },
+        {
+          "type": "list",
+          "items": [
+            "10 à 15 g à la naissance, 30 à 40 g à la puberté puis involution progressive",
+            "Constitué de deux lobes divisés en lobules incomplets",
+            "Organe où les lymphocytes T immatures (prothymocytes) et naïfs de la moelle osseuse se différencient en lymphocytes matures."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-001.png",
+          "caption": "INTRODUCTION"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Rappel Embryologique",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Rappel Embryologique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le thymus a une double origine : entoblastique et mésenchymateuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellules épithéliales réticulaires de l'endoderme entoblastique de la charpente du thymus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule souche pluripotente du mésoderme extra embryonnaire du mésenchyme à l'origine des cellules hématopoïétiques dont les lymphocytes"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-002.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Le thymus",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le thymus"
+        },
+        {
+          "type": "paragraph",
+          "text": "se développe vers la 5ème semaine à partir des 3ème et 4ème poches entoblastiques."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-003.png",
+          "caption": "Le thymus"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-004.png",
+          "caption": "Le thymus"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Le contour thymique",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le contour thymique"
+        },
+        {
+          "type": "paragraph",
+          "text": "est pénétré par le mésenchyme des arcs branchiaux qui le subdivise incomplètement en lobes et lobules et fournit des vaisseaux sanguins et reçoit également des cellules de la crête neurale de la région céphalique."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-005.png",
+          "caption": "Le contour thymique"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Le contour thymique",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les lymphocytes du thymus sont d'origine mésenchymateuse, naissant dans la moelle et subissant leur différenciation dans le thymus."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Structure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chez les sujets jeunes, le thymus est constitué de deux lobes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque lobe présente à décrire :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une capsule conjonctive"
+        },
+        {
+          "type": "paragraph",
+          "text": "-un cortex"
+        },
+        {
+          "type": "paragraph",
+          "text": "-une moelle épinière"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-006.png",
+          "caption": "Structure"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Chaque lobe est divisé en lobules séparés par des cloisons interlobulaires conjonctivovasculaires polyédriques.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Chaque lobe est divisé en lobules séparés par des cloisons interlobulaires conjonctivovasculaires polyédriques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Et"
+        },
+        {
+          "type": "paragraph",
+          "text": "chaque lobule possède une zone corticale et une zone médullaire"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-007.png",
+          "caption": "Chaque lobe est divisé en lobules séparés par des cloisons interlobulaires conjonctivovasculaires polyédriques."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Chaque lobe est divisé en lobules séparés par des cloisons interlobulaires conjonctivovasculaires polyédriques.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Chaque lobe est divisé en lobules séparés par des cloisons interlobulaires conjonctivovasculaires polyédriques."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-007.png",
+          "caption": "Chaque lobe est divisé en lobules séparés par des cloisons interlobulaires conjonctivovasculaires polyédriques."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-008.jpg",
+          "caption": "Chaque lobe est divisé en lobules séparés par des cloisons interlobulaires conjonctivovasculaires polyédriques."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "le lobule est,",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "le lobule est,"
+        },
+        {
+          "type": "paragraph",
+          "text": "Entouré d’une fine capsule conjonctive, il contient :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-une zone périphérique ou corticale sombre découpée par les trabécules intralobulaires en nodules"
+        },
+        {
+          "type": "paragraph",
+          "text": "-une région centrale claire ou médullaire, commune à tous les nodules et contenant des formations particulières : les corpuscules de HASSAL."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'ensemble des lobules forment les 2 lobes anatomiques du thymus."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-009.png",
+          "caption": "le lobule est,"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "1 capsule, 2 septum interlobulaire ; 3-cortex ; 4-médullaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Présentation d'un thymus (MO-HES)"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1 capsule, 2 septum interlobulaire ; 3-cortex ; 4-médullaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "1"
+        },
+        {
+          "type": "paragraph",
+          "text": "2"
+        },
+        {
+          "type": "paragraph",
+          "text": "3"
+        },
+        {
+          "type": "paragraph",
+          "text": "4"
+        },
+        {
+          "type": "paragraph",
+          "text": "Présentation d'un thymus (MO-HES)"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1 capsule, 2 septum interlobulaire ; 3-cortex ; 4-médullaire"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-010.jpg",
+          "caption": "1 capsule, 2 septum interlobulaire ; 3-cortex ; 4-médullaire"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "Thymus de l'enfant ; aperçu",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Thymus de l'enfant ; aperçu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sa structure est lobulée. Dans chaque lobule se trouvent un cortex sombre et une moelle pâle. Le thymus ne contient pas de nodules arrondis ni de centres germinaux dans le cortex, les lymphocytes sont disposés en une masse diffuse."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-011.jpg",
+          "caption": "Thymus de l'enfant ; aperçu"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "Thymus adulte. Aperçu",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Thymus adulte. Aperçu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le parenchyme est en grande partie remplacé par du tissu adipeux. On y reconnaît des restes de tissu lymphoïde du thymus, les corpuscules de Hassall sont encore présents dans la moelle."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-012.jpg",
+          "caption": "Thymus adulte. Aperçu"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "Cellules du thymus :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cellules du thymus :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les cellules épithéliales."
+        },
+        {
+          "type": "paragraph",
+          "text": "-les macrophages."
+        },
+        {
+          "type": "paragraph",
+          "text": "-les cellules dendritiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lymphocytes T."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-013.png",
+          "caption": "Cellules du thymus :"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-014.png",
+          "caption": "Cellules du thymus :"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "En mo on observe :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "En mo on observe :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une charpente thymique formée de cellules épithéliales d'aspect réticulaire (stellaire) formant le réticulum thymique plus apparent dans la moelle."
+        },
+        {
+          "type": "paragraph",
+          "text": "_Ces cellules sont de forme irrégulière et étoilées avec un noyau arrondi, volumineux et nucléolé."
+        },
+        {
+          "type": "paragraph",
+          "text": "Certaines extensions sont reliées à celles des cellules voisines par des desmosomes"
+        },
+        {
+          "type": "list",
+          "items": [
+            "D’autres forment des poches entourant des amas de lymphocytes, d’où le terme : « cellule nourricière ».",
+            "Ces cellules sont disposées dans la moelle dans un bulbe d'oignon : corpuscule de HASSAL (amas de cellules globulaires représentant l'étape finale de l'évolution des cellules réticulaires."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-015.jpg",
+          "caption": "En mo on observe :"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "En mo on observe :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-016.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "En mo on observe :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-017.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-018.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-019.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "-Macrophages",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "-Macrophages"
+        },
+        {
+          "type": "paragraph",
+          "text": "situé dans le cortex sous-capsulaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Assurer la phagocytose des lymphocytes morts par apoptose"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-020.png",
+          "caption": "-Macrophages"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "Cellules dendritiques",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cellules dendritiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "d'origine monocytoïde retrouvée dans tout le parenchyme thymique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Présentateurs de rôle d’ATG."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-021.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "Cellules réticulaires,",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cellules réticulaires,"
+        },
+        {
+          "type": "paragraph",
+          "text": "Posséder des grains de sécrétions à l'origine d'hormones thymiques qui jouent un rôle important dans la maturation des lymphocytes."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-022.png",
+          "caption": "Cellules réticulaires,"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "Cellules réticulaires,",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-023.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "-Lymphocytes T :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "-Lymphocytes T :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prolifération de lymphocytes ou thymoblastes : grosses cellules blastiques en division attachées à la membrane plasmique des cellules nourricières réticulo-épithéliales"
+        },
+        {
+          "type": "paragraph",
+          "text": "-maturation et différenciation des thymocytes apparition des récepteurs CD4 CD8"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Migration vers la jonction corticomédullaire",
+            "Différenciation au niveau de la moelle. Les lymphos deviennent CD4 ou CD8 et sont en contact avec les macrophages, les cellules dendritiques et les cellules épithéliales.",
+            "Passage des thymocytes dans la circulation."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-024.png",
+          "caption": "-Lymphocytes T :"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-025.png",
+          "caption": "-Lymphocytes T :"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "Le corpuscule HASSAL",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le corpuscule HASSAL"
+        },
+        {
+          "type": "paragraph",
+          "text": "Est formé de la périphérie vers le centre par des cellules qui dégénèrent en 3 étapes :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-cellules squameuses nucléées."
+        },
+        {
+          "type": "paragraph",
+          "text": "-cellules aplaties à noyau pycnotique."
+        },
+        {
+          "type": "paragraph",
+          "text": "-des cellules kératinisées."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le centre du corpuscule est occupé par des débris cellulaires granulaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "-il est considéré comme le caveau familial des cellules de la charpente."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-026.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-027.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Thymus (médullaire)",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Thymus (médullaire)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Médullaire en MO à fort grossissement colorée par HE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Corpuscule Hassal : est une différenciation kératinisante des cellules épithéliales (production de"
+        },
+        {
+          "type": "paragraph",
+          "text": "lymphopoïétine, cimetière d'épithéliocytes)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-028.jpg",
+          "caption": "Thymus (médullaire)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-029.png",
+          "caption": "Thymus (médullaire)"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "Thymus (médullaire)",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-030.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-031.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "Thymus (médullaire)",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-032.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "Thymus (médullaire)",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-033.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "Histophysiologie",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le thymus assure la lymphopoïèse des lymphocytes T."
+        },
+        {
+          "type": "paragraph",
+          "text": "-les cellules épithéliales réticulaires de la charpente thymique assurent 3 fonctions essentielles :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-soutien du parenchyme thymique."
+        },
+        {
+          "type": "paragraph",
+          "text": "-sécrétion de plusieurs facteurs hormonaux agissant sur la lymphopoïèse dont la lymphopoïétine qui induit la différenciation des cellules mères en lymphocytes T ou thymocytes et la maturation de ces derniers en cellules immunologiquement compétentes."
+        },
+        {
+          "type": "paragraph",
+          "text": "-rôle direct dans l'immunité (rejet des greffes)."
+        },
+        {
+          "type": "paragraph",
+          "text": "-rôle indirect dans l'immunité humorale (coopération avec les lymphocytes B)"
+        },
+        {
+          "type": "paragraph",
+          "text": "En l’absence d’ATG, les lymphocytes T sont au repos et ont une durée de vie courte"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "○ des auxiliaires ou CD4 qui favorisent la réponse humorale en stimulant le B",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "○ des auxiliaires ou CD4 qui favorisent la réponse humorale en stimulant le B"
+        },
+        {
+          "type": "paragraph",
+          "text": "○ cytotoxique (CD8) : tue les cellules tumorales ou infectées"
+        },
+        {
+          "type": "paragraph",
+          "text": "○ suppresseurs (CD8) : inhibent la réponse humorale"
+        },
+        {
+          "type": "paragraph",
+          "text": "○ Cellules NK (Natural Killer)"
+        },
+        {
+          "type": "paragraph",
+          "text": "○ Sécrètent des cytokines"
+        },
+        {
+          "type": "paragraph",
+          "text": "○ Exprimer un récepteur antigénique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le thymus relié au compartiment vasculaire reçoit des cellules souches qui vont se différencier en précurseurs T et proliférer. Le thymus sert également à « entraîner » les LT nouvellement formées et à reconnaître les gènes histo-comptables : les gènes du « soi »."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-024.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "○ des auxiliaires ou CD4 qui favorisent la réponse humorale en stimulant le B",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-034.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "○ des auxiliaires ou CD4 qui favorisent la réponse humorale en stimulant le B",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-035.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "○ des auxiliaires ou CD4 qui favorisent la réponse humorale en stimulant le B",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-036.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-5/img-037.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "conclusion",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "conclusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le thymus est constitué de cellules : cellules lymphoïdes, épithéliales, macrophages et dendritiques permettant la maturation des thymocytes."
+        },
+        {
+          "type": "paragraph",
+          "text": "La fonction du thymus est d'assurer le développement et la maturation des lymphocytes T."
+        }
+      ]
+    }
+  ]
+}

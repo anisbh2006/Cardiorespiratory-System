@@ -1,0 +1,2306 @@
+{
+  "file": "physio respiratoir/9)Mécaniqueventilatoire__EN.pptx",
+  "chapterId": "pr-9",
+  "title": "Mécanique ventilatoire",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Physiologie respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physiologie respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapitre 2 : Mécanique ventilatoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Année académique 2025-2026"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Concept de systèmes mécaniques actifs et passifs"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Volumes V et capacités pulmonaires"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VI-Espace mort et différences de ventilation"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Conclusion"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La mécanique ventilatoire est l'ensemble des phénomènes qui permettent ou s'opposent au renouvellement de l'air dans les alvéoles."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I- Cycle respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'air entre dans les poumons (inhalation) et les quitte (expiration) lors de la ventilation."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'inspiration suivie de l'expiration constitue le cycle respiratoire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle est le résultat de différences de pression entre l'atmosphère et les alvéoles, différences dont le sens s'inverse périodiquement sous l'effet de l'activité cyclique des muscles respiratoires."
+        },
+        {
+          "type": "paragraph",
+          "text": "La durée d'un cycle respiratoire est d'environ 04 à 05 secondes ce qui correspond à une fréquence respiratoire de 12 à 15 cycles/min chez l'homme au repos."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Muscles respiratoires"
+        },
+        {
+          "type": "paragraph",
+          "text": "En respiration calme, l’inspiration provoque une augmentation du volume de la cage thoracique et l’expiration est un simple retour au volume de base."
+        },
+        {
+          "type": "paragraph",
+          "text": "La contraction des principaux muscles inspiratoires est responsable de l’augmentation du volume de la cage thoracique lors de l’inspiration et l’expiration est due au relâchement des muscles inspiratoires."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Muscles respiratoires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors d'une respiration calme, l'expiration est normalement un phénomène passif dû à la rétraction élastique du poumon tandis que l'inspiration est un phénomène actif nécessitant de l'énergie."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Muscles respiratoires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une inspiration plus profonde résulte d'une contraction plus forte du diaphragme et des muscles intercostaux externes et ; de la contraction des muscles inspiratoires accessoires situés dans le cou qui tire le sternum et les deux premières côtes vers le haut et augmente le volume de la partie supérieure de la cage thoracique : augmentation supplémentaire du volume de la cage thoracique et donc des poumons."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Muscles respiratoires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors d'une expiration forcée, pour dégonfler les poumons plus et plus rapidement que lors d'une ventilation calme (exemple d'un exercice physique) l'expiration devient active : contraction des muscles expiratoires (muscles de la paroi abdominale et muscles intercostaux internes) : réduction supplémentaire du volume de la cage thoracique et des poumons."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "I-Cycle respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Muscles respiratoires"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-9/img-001.png",
+          "caption": "I-Cycle respiratoire"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Chapitre 2 : Mécanique ventilatoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Chapitre 2 : Mécanique ventilatoire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Pression impliquée et production de débit d'air"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Pression atmosphérique (barométrique)"
+        },
+        {
+          "type": "paragraph",
+          "text": "La pression atmosphérique (Patm) est la pression exercée par le poids de l'air dans l'atmosphère sur les objets situés à la surface de la terre. Au niveau de la mer elle est égale à 760 mm Hg, elle diminue avec l'altitude."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "Chapitre 2 : Mécanique ventilatoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Pression impliquée et production de débit d'air"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Pression alvéolaire : pression du gaz contenu dans les alvéoles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque les alvéoles communiquent avec l'atmosphère par les voies respiratoires, il y a un flux de gaz chaque fois que la pression alvéolaire (Palv) diffère de la pression atmosphérique (Patm). Le flux continue jusqu'à ce que les deux pressions s'équilibrent (deviennent égales)."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "Chapitre 2 : Mécanique ventilatoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Pression impliquée et production de débit d'air"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3-Pression pleurale (Ppl) : pression dans la cavité pleurale"
+        },
+        {
+          "type": "paragraph",
+          "text": "C'est la pression exercée à la surface des poumons à l'intérieur de la cage thoracique. En général, elle est inférieure à (Patm), égale à 756 mmHg au repos (P° absolu) correspondant à une pression relative, par rapport à la Patm normale de 760 mmHg, égale à -4 mmHg."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "I-Cycle respiratoire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voies aériennes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paroi thoracique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plèvre"
+        },
+        {
+          "type": "paragraph",
+          "text": "pariétal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sac pleural"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poumon (alvéole)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ambiance"
+        },
+        {
+          "type": "paragraph",
+          "text": "760 mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plèvre"
+        },
+        {
+          "type": "paragraph",
+          "text": "viscéral"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pression atmosphérique (Patm) pression exercée par le poids de l'air de l'atmosphère sur les objets situés à la surface du sol ; 760 mm Hg au niveau de la mer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pression alvéolaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "pression dans les alvéoles"
+        },
+        {
+          "type": "paragraph",
+          "text": "égal au Patm à l'équilibre"
+        },
+        {
+          "type": "paragraph",
+          "text": "(débit d'air = 0)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pression pleurale Pression qui s'exerce à la surface des poumons dans la cavité pleurale, elle est < Patm"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions impliquées dans la ventilation"
+        },
+        {
+          "type": "paragraph",
+          "text": "760 mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "756 mmHg"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Pression impliquée et production de débit d'air"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3-Pression pleurale (Ppl) : pression dans la cavité pleurale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les poumons et la cage thoracique sont étroitement liés sous l'action d'une pression transmurale : la pression transpulmonaire (Ptp)."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Au repos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ptp = Palv - Ppl"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ptp = 760 - 756"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ptp = 4 mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le Palv de 760mmHg a tendance à gonfler le poumon (le pousse vers l'extérieur) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le Ppl de 756mmHg a tendance à le comprimer (le pousse vers l'intérieur) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la différence de pression transpulmonaire résultante de 4 mmHg poussant vers l'extérieur sur les poumons les distend jusqu'à ce qu'ils remplissent la cage thoracique."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "I-Cycle respiratoire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Voies aériennes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cavité pleurale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poumon (alvéole)"
+        },
+        {
+          "type": "paragraph",
+          "text": "760"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surface pulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Différence de pression transmurale : pression transpulmonaire (les chiffres sont des pressions exprimées en mm Hg)"
+        },
+        {
+          "type": "paragraph",
+          "text": "760"
+        },
+        {
+          "type": "paragraph",
+          "text": "756"
+        },
+        {
+          "type": "paragraph",
+          "text": "756"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ptp = Palv - Ppl"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paroi thoracique"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Pression impliquée et production de débit d'air"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Pression impliquée et production de débit d'air"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4-Production de flux d'air"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'air circulant passivement sous l'effet d'une différence de pression, d'une zone haute pression vers une zone basse pression il faut :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-que le Palv ˂ Patm pour qu'il pénètre dans les poumons lors de l'inspiration ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-que le Palv˃ Patm pour que l'air s'écoule hors des poumons lors de l'expiration."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Palv varie en fonction du volume des poumons. Cette dernière est le résultat de l’activité cyclique des muscles respiratoires."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Palv varie conformément à la loi Boyle-Mariotte."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "Loi de Boyle-Mariotte : La pression du gaz diminue proportionnellement à l'augmentation du volume dans lequel il se trouve et, à l'inverse, augmente proportionnellement à la diminution du volume.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Loi de Boyle-Mariotte : La pression du gaz diminue proportionnellement à l'augmentation du volume dans lequel il se trouve et, à l'inverse, augmente proportionnellement à la diminution du volume."
+        },
+        {
+          "type": "paragraph",
+          "text": "P₁V₁ = P₂V₂ suppose que la température et le nombre de molécules de gaz restent constants."
+        },
+        {
+          "type": "paragraph",
+          "text": "V₁ = 1L"
+        },
+        {
+          "type": "paragraph",
+          "text": "P₁ = 100 mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "V₂ = 0,5L"
+        },
+        {
+          "type": "paragraph",
+          "text": "P₂ = 200 mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "À mesure que le volume diminue, les collisions et la pression augmentent."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C-Inspiration"
+        },
+        {
+          "type": "paragraph",
+          "text": "Avant le début de l’inspiration, le système respiratoire est au repos. Il est en apnée ou en état statique, les voies respiratoires sont ouvertes, donc en communication avec l'atmosphère :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Palv = Patm"
+        },
+        {
+          "type": "paragraph",
+          "text": "-pas de circulation d'air."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au début de l'inspiration (respiration calme), le diaphragme et les muscles intercostaux externes sont stimulés et se contractent."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "Séquence d'événements pendant l'inspiration",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Séquence d'événements pendant l'inspiration"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contraction du diaphragme et des muscles intercostaux externes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Expansion du thorax"
+        },
+        {
+          "type": "paragraph",
+          "text": "Expansion des poumons"
+        },
+        {
+          "type": "paragraph",
+          "text": "↗ Pression transpulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Palv ˂Patm"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'air circule dans les alvéoles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le flux d'air continue jusqu'à Palv = Patm."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ppl devient plus négatif"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D-Expiration"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il y a un relâchement des muscles inspiratoires en fin d’inspiration."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "Séquence des événements pendant l'expiration",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Séquence des événements pendant l'expiration"
+        },
+        {
+          "type": "paragraph",
+          "text": "Relaxation du diaphragme et des muscles intercostaux externes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rétraction des poumons"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vers un volume pré-inspiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compression des gaz dans les alvéoles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Palv ˃Patm"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'air sort des alvéoles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le flux d'air continue jusqu'à Palv = Patm."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ppl revient à sa valeur pré-inspiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rétraction vers l'intérieur de la paroi thoracique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ptp revient à la valeur pré-inspiratoire"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "Chapitre 2 : Mécanique ventilatoire 1-Cycle respiratoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Chapitre 2 : Mécanique ventilatoire 1-Cycle respiratoire."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-9/img-002.png",
+          "caption": "Chapitre 2 : Mécanique ventilatoire 1-Cycle respiratoire."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Cycle respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Au total, les volumes pulmonaires peuvent être mobilisés grâce aux muscles respiratoires striés qui développent des forces contractiles actives, grâce à une commande nerveuse centrale automatique, mais aussi volontaire, puisque l'on peut modifier sa respiration dans certaines limites."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour ce faire, la contraction musculaire doit s’opposer aux propriétés mécaniques du poumon."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Concept de systèmes mécaniques actifs et passifs"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système de ventilation désigne l'ensemble des structures qui assurent la ventilation, c'est-à-dire le renouvellement de l'air. Ces structures peuvent être schématiquement regroupées en deux ensembles :"
+        },
+        {
+          "type": "paragraph",
+          "text": "un actif : les muscles ventilatoires ;"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "l'autre passif"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les voies respiratoires ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les poumons ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la paroi thoraco-abdominale"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Concept de systèmes mécaniques actifs et passifs"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Forces présentes"
+        },
+        {
+          "type": "paragraph",
+          "text": "La force motrice de l'inspiration est la contraction des muscles inspiratoires qui permet l'augmentation des trois diamètres du système respiratoire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces muscles ont dû lutter contre des forces résistantes :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-l'élasticité du système thoraco-pulmonaire qui a dû être étiré ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le flux d'air dans les voies respiratoires ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le frottement des tissus sur eux-mêmes ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-l'inertie du système : puisque le système était au repos."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Concept de systèmes mécaniques actifs et passifs"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Forces présentes"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'expiration normale est la conséquence du retour élastique et passif du système respiratoire sur lui-même."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce qui était auparavant une force de résistance, la rétraction élastique du système respiratoire, devient une force motrice, qui va lutter contre la résistance des voies respiratoires, plus importante lors de l'expiration que lors de l'inspiration."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Concept de systèmes mécaniques actifs et passifs"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3-Relation forces motrices et forces résistantes"
+        },
+        {
+          "type": "paragraph",
+          "text": "La relation entre les forces motrices et résistantes peut être exprimée par l'équation du mouvement de Newton appliquée à un système tridimensionnel, qui dit que la pression totale appliquée au système doit être égale à la somme des produits de l'élastance totale fois le volume, de la résistance totale fois le débit et de l'inertie fois l'accélération :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ptot = Etot × V + Rtot × Q + I×A"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Concept de systèmes mécaniques actifs et passifs"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3-Relation forces motrices et forces résistantes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ptot = Etot × V + Rtot × Q + I×A"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'inertie est négligeable, ce qui permet de supprimer le dernier terme et l'équation simplifiée :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ptot = Etot × V + Rtot × Q"
+        },
+        {
+          "type": "paragraph",
+          "text": "Propriétés élastiques ="
+        },
+        {
+          "type": "paragraph",
+          "text": "Propriétés statiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Propriétés résistives ="
+        },
+        {
+          "type": "paragraph",
+          "text": "Propriétés dynamiques"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "En l'absence de mouvements respiratoires, c'est-à-dire en condition statique, l'équation de Newton se simplifie :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ptot = Etot × V"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cela implique d’étudier les propriétés élastiques."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Relation pression-volume et notion de conformité"
+        },
+        {
+          "type": "paragraph",
+          "text": "En considérant l'équation de Newton en conditions statiques, l'élastance du système respiratoire ou de ses composants, la paroi thoracique et le poumon, est égale au rapport de la pression (conduite) au volume (mobilisé)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ptot = Etot × V"
+        },
+        {
+          "type": "paragraph",
+          "text": "→ (Étot) = Ptot / V"
+        },
+        {
+          "type": "paragraph",
+          "text": "→ E = P / V"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Relation pression-volume et notion de conformité"
+        },
+        {
+          "type": "paragraph",
+          "text": "En fait, on ne mesure pas l'élastance, on préfère son inverse, la conformité :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Conformité = 1/élastance : C = 1/E = V/P"
+        },
+        {
+          "type": "paragraph",
+          "text": "En d’autres termes, nous mesurons la quantité d’air qui pénètre dans les poumons lors d’un changement de pression. L'observance est donc une mesure de la distensibilité du système respiratoire."
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Relation pression-volume et notion de conformité"
+        },
+        {
+          "type": "paragraph",
+          "text": "Conformité du système respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système de cage poumon-thoracique est constitué de structures élastiques attachées les unes aux autres."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contraction des muscles inspiratoires → étirement de la cage thoracique → étirement des poumons."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'étirement ou la compression d'une structure élastique → une pression qui tend à ramener la structure à son état initial (relaxation ou volume de repos)."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Relation pression-volume et notion de conformité"
+        },
+        {
+          "type": "paragraph",
+          "text": "Conformité du système respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "A l'intérieur d'une structure élastique (poumon, cage thoracique, association poumon cage thoracique ou autre) :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le volume est directement proportionnel à la différence de pression de part et d'autre de la paroi (ΔP) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- ΔP est appelé pression transmurale ou pression de distension de la paroi, plus elle augmente, plus elle va distendre la structure."
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "Notion de conformité",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Notion de conformité"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une structure élastique peut être caractérisée par la courbe pression-volume transmurale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Structures biologiques : volume de relaxation ≠ 0."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pente de la courbe ΔV/ΔP = conformité."
+        },
+        {
+          "type": "paragraph",
+          "text": "La conformité caractérise la distensibilité de la structure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Plus la conformité est grande, plus la structure est extensible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pression transmurale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Volume"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pente = ΔV/ΔP = conformité"
+        },
+        {
+          "type": "paragraph",
+          "text": "Limite élastique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Instabilité"
+        },
+        {
+          "type": "paragraph",
+          "text": "Volume de détente"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "On peut calculer la courbe pression-volume, la conformité de :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-poumon seulement ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-thorax seulement ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-système thoraco-pulmonaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tout dépend de la pression transmurale considérée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si l'on veut calculer la courbe pression-volume et la compliance pulmonaire, on prend la pression transmurale qui s'applique au poumon, c'est-à-dire Palv-Ppl (pression transpulmonaire)."
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "Les principales pressions transmurales du système thoracopulmonaire :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les principales pressions transmurales du système thoracopulmonaire :"
+        },
+        {
+          "type": "paragraph",
+          "text": "P atm"
+        },
+        {
+          "type": "paragraph",
+          "text": "Palv"
+        },
+        {
+          "type": "paragraph",
+          "text": "personnes"
+        },
+        {
+          "type": "paragraph",
+          "text": "①"
+        },
+        {
+          "type": "paragraph",
+          "text": "②"
+        },
+        {
+          "type": "paragraph",
+          "text": "③"
+        },
+        {
+          "type": "paragraph",
+          "text": "①Pression transpulmonaire = Palv - Ppl"
+        },
+        {
+          "type": "paragraph",
+          "text": "②Pression transthoracique = Ppl - Patm"
+        },
+        {
+          "type": "paragraph",
+          "text": "③Pression transthoraco-pulmonaire = Palv - Patm"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "title": "III-Propriétés élastiques du système respiratoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pneumothorax : démonstration de l'élasticité du système respiratoire"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-9/img-003.png",
+          "caption": "III-Propriétés élastiques du système respiratoire."
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "title": "III-Propriétés élastiques du système respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Téléthorax de face : pneumothorax droit (à gauche sur l'image). Une flèche indique le bord du poumon effondré."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-9/img-004.png",
+          "caption": "III-Propriétés élastiques du système respiratoire"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Facteurs C d'élasticité du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "a-Facteurs d'élasticité de la cage thoracique = facteurs anatomiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "La cage thoracique est constituée d'un squelette ostéocartilagineux, de muscles et de ligaments qui vont donner à la cage thoracique des propriétés élastiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "b- Facteurs d'élasticité pulmonaire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "–Facteurs histologiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "-un interstitium riche en fibres élastiques ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-une structure alvéolaire à contenu fluide"
+        },
+        {
+          "type": "paragraph",
+          "text": "–Facteur physicochimique : responsable de la tension superficielle qui elle-même va créer des forces élastiques."
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "b- Facteurs d'élasticité pulmonaire"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Tension superficielle alvéolaire ou tension superficielle des interfaces air-eau au sein des alvéoles"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "title": "Tension superficielle d'un liquide",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tension superficielle d'un liquide"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aérien"
+        },
+        {
+          "type": "paragraph",
+          "text": "H₂O"
+        },
+        {
+          "type": "paragraph",
+          "text": "H₂O"
+        },
+        {
+          "type": "paragraph",
+          "text": "H₂O"
+        },
+        {
+          "type": "paragraph",
+          "text": "H₂O"
+        },
+        {
+          "type": "paragraph",
+          "text": "H₂O"
+        },
+        {
+          "type": "paragraph",
+          "text": "H₂O"
+        },
+        {
+          "type": "paragraph",
+          "text": "H₂O"
+        },
+        {
+          "type": "paragraph",
+          "text": "H₂O"
+        },
+        {
+          "type": "paragraph",
+          "text": "H₂O"
+        },
+        {
+          "type": "paragraph",
+          "text": "H₂O"
+        },
+        {
+          "type": "paragraph",
+          "text": "H₂O"
+        },
+        {
+          "type": "paragraph",
+          "text": "Liquide"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans un liquide : les molécules d'eau qui se trouvent en profondeur sont soumises à des forces d'attraction aléatoires qui s'annulent."
+        },
+        {
+          "type": "paragraph",
+          "text": "A l’interface air/liquide : les molécules d’eau sont préférentiellement attirées :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- les uns envers les autres ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- vers l'intérieur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils exercent des forces d’attraction réciproques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conséquences : l'interface air/liquide se rétracte pour atteindre une surface minimale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Liquide"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aérien"
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemple : un peu de liquide sur une surface plane a tendance à prendre la forme d'une goutte sphérique pour laquelle l'interface air/liquide a une surface minimale."
+        },
+        {
+          "type": "paragraph",
+          "text": "La tension superficielle (T) est la force superficielle de contraction d'un liquide grâce à laquelle la surface air/liquide tend à être la plus petite possible."
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "title": "Tension superficielle d'un liquide",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans les alvéoles, pour minimiser l'interface air-liquide, la tension superficielle a tendance à effondrer les alvéoles et à les faire se ratatiner sur elles-mêmes. La tension superficielle est élevée."
+        },
+        {
+          "type": "paragraph",
+          "text": "P."
+        },
+        {
+          "type": "paragraph",
+          "text": "T"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans une sphère élastique distensible (alvéole), l'équilibre est atteint lorsque la pression de distension P = 2T/r (loi de Laplace) :"
+        },
+        {
+          "type": "paragraph",
+          "text": "r = rayon de la sphère (cellule)"
+        },
+        {
+          "type": "paragraph",
+          "text": "T = tension superficielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "La sphère conserve son intégrité."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-9/img-005.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "b- Facteurs d'élasticité pulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ainsi, l’expansion pulmonaire nécessite de l’énergie pour :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-étirer le tissu conjonctif ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-vaincre la tension superficielle de la couche d'eau qui tapisse les cellules."
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Propriétés élastiques du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Tension superficielle et tensioactif"
+        },
+        {
+          "type": "paragraph",
+          "text": "En fait, la tension superficielle de l’eau pure est si élevée que si les alvéoles étaient tapissées uniquement d’eau pure, l’expansion pulmonaire nécessiterait un effort musculaire épuisable et les poumons auraient tendance à s’effondrer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est donc essentiel que les cellules alvéolaires de type II sécrètent une substance aux propriétés détergentes, appelée tensioactif (agent tensioactif) qui réduit notamment les forces de cohésion entre les molécules d'eau à la surface alvéolaire."
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "title": "2-Tension superficielle et tensioactif",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2-Tension superficielle et tensioactif"
+        },
+        {
+          "type": "paragraph",
+          "text": "Caractéristiques des tensioactifs"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Le surfactant pulmonaire est un mélange de phospholipides et de protéines"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Il est sécrété par les pneumocytes de type II"
+        },
+        {
+          "type": "paragraph",
+          "text": "3-Il abaisse la tension superficielle de la couche liquide à la surface des alvéoles, ce qui augmente la souplesse pulmonaire, facilitant ainsi l'expansion pulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "4-Son effet le plus marqué dans les petites alvéoles, ce qui réduit la tension superficielle de ces dernières de manière plus significative que dans les alvéoles plus grandes. Cela stabilise les alvéoles"
+        },
+        {
+          "type": "paragraph",
+          "text": "5-La respiration profonde augmente sa sécrétion en étirant les pneumocytes de type II. Sa concentration diminue lorsque la respiration est superficielle"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "6-Il est produit en fin de grossesse dans le poumon fœtal"
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ventilation en conditions dynamiques (lorsque le flux d'air se produit), l'activité des muscles respiratoires doit vaincre :"
+        },
+        {
+          "type": "paragraph",
+          "text": "→élasticité pulmonaire ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "→la résistance au passage de l'air qui comprend :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-frottement du tissu pulmonaire distendu ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-résistance des voies respiratoires (VA)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le plus important est la résistance des voies respiratoires : résistance au flux de molécules d’air dans les voies respiratoires."
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Principes généraux"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Flux dans un système de conduction bronchique"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'air circule selon :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pression (ΔP) : gradient de pression (Palv –Patm) → débit d'air ; -Débit (Q) : quantité d'air circulant en VA/unité de temps ; le gaz circule de la pression la plus élevée vers la pression la plus basse ;",
+            "Résistance(R) : difficulté que rencontre l'air à circuler entre 2 points du VA s/action d'un ΔP."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-9/img-006.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Principes généraux"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Régimes de flux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour un débit donné, la différence de pression dépend du débit et du comportement du gaz."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour les faibles débits, le flux de gaz dans les voies respiratoires est en mode laminaire. Dans ce cas, les lignes de direction d'écoulement sont parallèles aux parois et Q est directement proportionnel à ΔP, et R est simplement défini par :"
+        },
+        {
+          "type": "paragraph",
+          "text": "R = ΔP/Q"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans ce cas la loi de Poiseuille permet d'exprimer R pour un tube de longueur (L) et de rayon (r) :"
+        },
+        {
+          "type": "paragraph",
+          "text": "R = 8η L/ π r⁴"
+        },
+        {
+          "type": "paragraph",
+          "text": "On voit aussi que la viscosité (η) est la seule propriété du fluide qui contribue à R."
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Principes généraux"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Régimes de flux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque le débit augmente, les lignes d'écoulement peuvent s'éloigner de la paroi, notamment au niveau des divisions bronchiques avec formation locale de tourbillons. Si le débit augmente encore, l’écoulement devient turbulent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans ce cas, ΔP entre les deux extrémités du conduit n'est pas proportionnel au Q mais approximativement à son carré Q²."
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Principes généraux"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Régimes de flux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le risque de turbulence est d'autant plus élevé que le nombre de Reynolds (Re) est grand : Re = ρ× v × d/η, où ρ est la densité du gaz, v la vitesse moyenne d'écoulement du gaz, d le diamètre de la bronche et ηla viscosité du gaz."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nous pouvons également exprimer Re en termes de Q plutôt que de v, auquel cas l'équation de Re affichera Q au numérateur et d au dénominateur."
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Principes généraux"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Régimes de flux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans les voies respiratoires les plus proximales, le Q est élevé et d est petit, entraînant un écoulement turbulent, notamment au niveau du larynx, dont le calibre est réduit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au fur et à mesure que l'air inspiré traverse l'arbre respiratoire, la section transversale cumulée des voies respiratoires augmente à chaque génération (voir slide n°59) tandis qu'au niveau d'une voie aérienne élémentaire, le débit diminue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le régime devient donc laminaire, approximativement entre la 2ème et la 4ème génération bronchique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au niveau alvéolaire, les mouvements de gaz sont dus à la diffusion d'O₂ et de CO₂."
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-9/img-007.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Répartition de la résistance dans les voies respiratoires"
+        },
+        {
+          "type": "paragraph",
+          "text": "La résistance n’est pas uniforme dans toutes les voies respiratoires."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les conditions d'écoulement et la géométrie de l'arbre respiratoire, notamment la section totale de chaque génération, font que la résistance, chez le sujet normal, se répartit essentiellement au niveau des voies aériennes proximales, y compris les voies aériennes supérieures."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, la résistance nasale peut représenter plus de 40 % de la résistance totale."
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Répartition de la résistance dans les voies respiratoires"
+        },
+        {
+          "type": "paragraph",
+          "text": "En revanche, la bronchoconstriction modifie cette répartition :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-dans les premières générations bronchiques, la contraction du muscle lisse a peu d'effet sur la résistance compte tenu du calibre et de la présence de cartilage qui s'oppose à cette contraction ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-en revanche, le diamètre des petites bronches et bronchioles est petit, le cartilage est rare ou absent, il y a donc peu ou pas d'opposition structurelle à la contraction du muscle lisse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une crise d'asthme déplace la résistance respiratoire vers ces voies respiratoires."
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Répartition de la résistance dans les voies respiratoires"
+        },
+        {
+          "type": "paragraph",
+          "text": "La résistance au passage des gaz dans les voies respiratoires est inversement proportionnelle à la surface transversale totale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chez l'adulte, au niveau de la trachée et des bronches principales, la surface transversale totale est faible (2 ou 3 cm²) et la résistance est élevée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les voies respiratoires périphériques ont une résistance moindre car leur surface totale est environ 500 fois plus grande."
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Répartition de la résistance dans les voies respiratoires"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Exemples"
+        },
+        {
+          "type": "paragraph",
+          "text": "La disposition anatomique rend le nez efficace comme système de climatisation et crée également une grande résistance à l'écoulement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors d'une ventilation silencieuse, un sujet normal tolère le travail supplémentaire qu'offre la ventilation nasale. Cependant, en cas d'exercice musculaire, la ventilation peut devenir orale afin de réduire le travail demandé par l'hyperventilation."
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Répartition de la résistance dans les voies respiratoires"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Exemples"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le pharynx se caractérise par la richesse des muscles striés et leur innervation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de l'inspiration, le diaphragme génère une pression négative dans les voies respiratoires, ce qui a tendance à effondrer le pharynx. Les muscles du pharynx, en rigidifiant la paroi pharyngée, préviennent l'obstruction."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, pendant le sommeil, une pression négative peut entraîner un collapsus pharyngé car le tonus musculaire diminue et une apnée obstructive peut en résulter."
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Facteurs C déterminant la résistance des voies respiratoires"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Volume pulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "En raison de l'architecture pulmonaire (couplage mécanique entre les voies respiratoires et le parenchyme pulmonaire), le diamètre des bronches augmente avec le volume pulmonaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "La résistance des voies respiratoires diminue à mesure que le volume pulmonaire augmente."
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "title": "IV-Propriétés résistives du système respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Propriétés résistives du système respiratoire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Facteurs C déterminant la résistance des voies respiratoires"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Muscle lisse bronchique"
+        },
+        {
+          "type": "paragraph",
+          "text": "La contraction du muscle lisse des parois bronchiques est contrôlée par des mécanismes nerveux et humoraux."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Le contrôle nerveux implique"
+        },
+        {
+          "type": "paragraph",
+          "text": "voies afférentes véhiculées par le nerf vague, qui proviennent de récepteurs sensibles à :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- étirement de la paroi des voies respiratoires ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- irritation de l'épithélium bronchique par des stimuli mécaniques ou chimiques ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-irritation de l'interstitium pulmonaire ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "noyaux centraux situés dans la moelle oblongate ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "les voies efférentes motrices sont"
+        },
+        {
+          "type": "paragraph",
+          "text": "-soit cholinergiques (leur activation provoque une bronchoconstriction via les récepteurs muscariniques),"
+        },
+        {
+          "type": "paragraph",
+          "text": "-soit adrénergiques (leur activation provoque une bronchodilatation via les récepteurs β2-adrénergiques),"
+        },
+        {
+          "type": "paragraph",
+          "text": "-soit non adrénergiques, soit non cholinergiques (NANC)."
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "title": "IV-Propriétés résistives du système respiratoire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Facteurs C déterminant la résistance des voies respiratoires"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Muscle lisse bronchique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mécanismes humoraux (endocriniens ou paracrines) : exemple histamine et autres substances inflammatoires sécrétées lors d'une crise d'asthme aiguë → bronchoconstriction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les accumulations locales de mucus, de matières infectieuses et de tumeurs obstruant les voies respiratoires constituent des sources majeures de résistance dans les maladies respiratoires."
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "title": "Volumes V et capacités pulmonaires",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Volumes V et capacités pulmonaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Volumes et capacités respiratoires chez un jeune adulte de sexe masculin de corpulence moyenne"
+        },
+        {
+          "type": "paragraph",
+          "text": "Valeur de mesure DéfinitionVolumes respiratoires habituels"
+        },
+        {
+          "type": "paragraph",
+          "text": "1-Volume courant (VT*)2-Volume de réserve inspiratoire (VRI)3-Volume de réserve expiratoire (ERV)4-Volume résiduel (VR)"
+        },
+        {
+          "type": "paragraph",
+          "text": "500ml3000ml1200ml1200ml"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quantité d'air inhalée ou expirée lors d'une respiration calmeQuantité d'air pouvant être inspirée avec un effort maximum en plus d'une inspiration régulièreQuantité d'air pouvant être expirée avec un effort maximum en plus d'une expiration normaleQuantité d'air restant dans les poumons après une expiration maximale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capacités pulmonaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "5-Capacité vitale (CV)6-Capacité inspiratoire (CI)7-Capacité résiduelle fonctionnelle (CRF)8-Capacité pulmonaire totale (CPT)"
+        },
+        {
+          "type": "paragraph",
+          "text": "4800ml3500ml 2400ml6000ml"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quantité d'air pouvant être expirée avec un effort inspiratoire maximal = VT + VRI + ERVQuantité maximale d'air pouvant être inhalée après le courant d'expiration = VT + VRIAquantité d'air restant dans les poumons après une expiration communeVR + ERVQuantité maximale d'air que les poumons peuvent contenir VR + CV"
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "title": "Chapitre 2 : Mécanique ventilatoire Volumes V et capacités pulmonaires",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Chapitre 2 : Mécanique ventilatoire Volumes V et capacités pulmonaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "A l'exception de VR, CPT et CRF, toutes les grandeurs mentionnées ci-dessus peuvent être mesurées à l'aide d'un spiromètre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un spiromètre est une cloche remplie d'air baignant dans une enceinte remplie d'eau."
+        },
+        {
+          "type": "paragraph",
+          "text": "La cloche monte et descend lorsque le sujet, qui respire via un embout buccal à travers un tube s'ouvrant dans la cloche, expire et inspire respectivement."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-9/img-008.jpg",
+          "caption": "Chapitre 2 : Mécanique ventilatoire Volumes V et capacités pulmonaires"
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "title": "Chapitre 2 : Mécanique ventilatoire Volumes V et capacités pulmonaires",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'enregistrement correspondant est appelé spirogramme."
+        },
+        {
+          "type": "paragraph",
+          "text": "La plume, reliée à la cloche par un fil inextensible passant sur une poulie, monte lorsque la cloche s'abaisse à l'inspiration et descend lorsqu'elle remonte à l'expiration."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les mouvements du stylo et la vitesse de rotation du tambour sont calibrés respectivement en volume et en temps."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-9/img-008.jpg",
+          "caption": "Chapitre 2 : Mécanique ventilatoire Volumes V et capacités pulmonaires"
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "title": "Chapitre 2 : Mécanique ventilatoire Volumes V et capacités pulmonaires",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Une variation du CV est la détermination du volume expiratoire forcé seconde (VEMS), qui est le volume de gaz expiré pendant la toute première seconde d'une expiration maximale à partir d'une inspiration maximale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il représente normalement 75 à 80 % du (CV) ; le rapport FEV/CV est le coefficient de Tiffeneau."
+        },
+        {
+          "type": "paragraph",
+          "text": "La mesure de la CV et du VEMS est appelée test de la fonction pulmonaire."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-9/img-008.jpg",
+          "caption": "Chapitre 2 : Mécanique ventilatoire Volumes V et capacités pulmonaires"
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VI-Espace mort et différences de ventilation"
+        },
+        {
+          "type": "paragraph",
+          "text": "La ventilation pulmonaire ou ventilation minute ou débit d'air est le volume d'air inspiré et expiré en une minute :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ventilation pulmonaire = volume courant (VT)"
+        },
+        {
+          "type": "paragraph",
+          "text": "(ml/min) (ml) (cycles/min)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fréquence respiratoire = nombre de cycles par minute qui est en moyenne de 12 à 16 cycles/min chez un adulte au repos."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Espace mort anatomique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tout l’air inspiré n’atteint pas les alvéoles ; il en reste une partie dans les voies de conduction de l'air qui ne participe pas aux échanges gazeux. Ce volume d'air est de 150 ml chez l'adulte normal ; c'est l'espace mort anatomique."
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "title": "Chapitre 2 : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VI-Espace mort et différences de ventilation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Espace mort alvéolaire"
+        },
+        {
+          "type": "list",
+          "items": [
+            "L'air atmosphérique pénètre dans les alvéoles et participe aux échanges d'O2 et de CO2 avec le sang dans les capillaires pulmonaires.",
+            "Cependant, certaines alvéoles ventilées ne sont pas perfusées par le sang et ne participent pas aux échanges gazeux et constituent l'espace mort alvéolaire. La somme des deux espaces morts (anatomique et alvéolaire) correspond à l'espace mort physiologique ou total."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La ventilation alvéolaire est le volume d'air échangé par minute entre les alvéoles et l'atmosphère :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ventilation alvéolaire ="
+        },
+        {
+          "type": "paragraph",
+          "text": "(volume courant – volume de l’espace mort physiologique)"
+        },
+        {
+          "type": "paragraph",
+          "text": "X fréquence respiratoire"
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "title": "Chapitre II : Mécanique ventilatoire.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Chapitre II : Mécanique ventilatoire."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VI-Espace mort et différences de ventilation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chez les sujets normaux, l’espace mort alvéolaire est négligeable. Dans ce cas, l’espace mort physiologique est égal à l’espace mort anatomique."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-9/img-009.png",
+          "caption": "Chapitre II : Mécanique ventilatoire."
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "title": "Échanges gazeux pulmonaires et systémiques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Échanges gazeux pulmonaires et systémiques"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-9/img-010.jpg",
+          "caption": "Échanges gazeux pulmonaires et systémiques"
+        }
+      ]
+    }
+  ]
+}

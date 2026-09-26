@@ -1,0 +1,2343 @@
+{
+  "file": "histology/1)Histologydel_AppareilCardio-vasculaire_EN.pptx",
+  "chapterId": "hi-1",
+  "title": "Histologie du système cardiovasculaire",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "APPAREIL CARDIOVASCULAIRE2025/2026Dr BouzeriaPr Boudiaf R",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "APPAREIL CARDIOVASCULAIRE2025/2026Dr BouzeriaPr Boudiaf R"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "I-Introduction.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Introduction."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Embryologie."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III- Etude histologique de la paroi cardiaque."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV- Etude histologique des vaisseaux."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "I/INTRODUCTION",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "I/INTRODUCTION"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système cardiovasculaire est composé de :"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A/ Le cœur : c'est un organe moteur qui permet la propulsion du sang dans les vaisseaux."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B/ Vaisseaux sanguins"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Artères : ce sont des conduits qui distribuent l'oxygène, la nourriture et les hormones aux tissus."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Les veines : collectent le CO2 et les déchets."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- Capillaires : Ce sont les lieux où s'effectuent les échanges entre le sang et les tissus."
+        },
+        {
+          "type": "paragraph",
+          "text": "C/Les vaisseaux lymphatiques : transport d'une grande partie des graisses issues de l'alimentation vers la circulation, transport des déchets, germes et cellules endommagées."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Le liquide interstitiel qui circule dans les vaisseaux lymphatiques est appelé lymphe.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le liquide interstitiel qui circule dans les vaisseaux lymphatiques est appelé lymphe."
+        },
+        {
+          "type": "paragraph",
+          "text": "La lymphe provient du sang, s'accumule dans le secteur interstitiel puis circule dans les vaisseaux lymphatiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système lymphatique intervient dans le processus de défense de l'organisme en permettant aux cellules de défense de circuler dans tout l'organisme et d'activer ainsi la réponse immunitaire dite spécifique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Réseau capillaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Réseau capillaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaisseaux lymphatiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ganglion lymphatique"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-001.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "II-EMBRYOLOGIE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-EMBRYOLOGIE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le cœur est le premier organe fonctionnel de l'embryon."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le cœur dérive du mésoderme."
+        },
+        {
+          "type": "paragraph",
+          "text": "Durant les 2 premières semaines de développement embryonnaire, les besoins de l'embryon sont satisfaits par diffusion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le développement du cœur commence au cours de la 3ème semaine de l'intégration de développement."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "II-EMBRYOLOGIE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vers le 20ème jour de développement embryonnaire : les cellules du mésoderme se différencient et se regroupent en amas de cellules angioformatrices"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "II-EMBRYOLOGIE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ces amas cellulaires sont disposés en 2 cordons cellulaires situés de chaque côté de la ligne primitive,"
+        },
+        {
+          "type": "paragraph",
+          "text": "-puis migrent vers la partie céphalique de l'embryon et se rejoignent devant la plaque neurale pour"
+        },
+        {
+          "type": "paragraph",
+          "text": "forment un plexus vasculaire en forme de fer à cheval, c'est la plaque cardiogénique."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-002.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "-D’autres amas de cellules angioformatrices apparaissent de chaque côté et parallèlement à la ligne médiane",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "D’autres amas de cellules angioformatrices apparaissent de chaque côté et parallèlement à la ligne médiane"
+        },
+        {
+          "type": "paragraph",
+          "text": "creuser une lumière et former une paire de vaisseaux longitudinaux les aortes dorsales qui se connecteront au tube cardiaque,"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les deux premiers tubes fusionneront et formeront le tube cardiaque principal."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-003.gif",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "-D’autres amas de cellules angioformatrices apparaissent de chaque côté et parallèlement à la ligne médiane",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Grâce à la délimitation de l'embryon, la zone cardiaque qui était extra-embryonnaire va devenir intra-embryonnaire."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-004.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-005.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Le tube cardiaque primitif subira les transformations suivantes :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le tube cardiaque primitif subira les transformations suivantes :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il s'allonge, se dilate par endroits et subit des phénomènes de flexion et de cloisonnement."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "Le tube cardiaque primitif subira les transformations suivantes :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-006.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "III/ETUDE HISTOLOGIQUE DE LA PAROI CARDIAQUE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "III/ETUDE HISTOLOGIQUE DE LA PAROI CARDIAQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le mur de coeur comprend 03 tuniques : de l'intérieur vers l'extérieur →"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- L'endocarde"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Le myocarde"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- Le péricarde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette paroi est soutenue par le squelette fibreux du cœur."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "Endocarde",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Endocarde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Myocarde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Épicard"
+        },
+        {
+          "type": "paragraph",
+          "text": "(feuille viscérale)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Péricarde pariétal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cavité péricardique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Péricarde fibreux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaisseaux sanguins coronaires"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-007.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "Squelette fibreux",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Squelette fibreux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le « squelette fibreux du cœur » est essentiellement constitué d’anneaux fibreux ou cercles tendineux entourant les 4 orifices à la base des ventricules. Ils reçoivent l'insertion d'une grande partie des fibres myocardiques. Ils apportent également une certaine rigidité aux valvules cardiaques grâce à des extensions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce squelette fibreux est en continuité avec le tissu conjonctif qui soutient les cellules myocardiques."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "Squelette fibreux",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Squelette fibreux"
+        },
+        {
+          "type": "paragraph",
+          "text": "matrice, composée uniquement de protéines structurelles après lavage avec des détergents. servira de squelette à la croissance du nouvel organe. (Doris Taylor, Institut de cardiologie du Texas)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-008.jpg",
+          "caption": "Squelette fibreux"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "1-Endocarde",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1-Endocarde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tapisse les cavités cardiaques, les valves et les cordons. Il est plus épais au niveau des oreillettes que des ventricules."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sur une coupe, observée dans MO à F G → 4 couches :"
+        },
+        {
+          "type": "paragraph",
+          "text": "a/ Un endothélium, en continuité avec l'endothélium des vaisseaux : couche unique de cellules aplaties faisant saillie dans leur partie périnucléaire reposant sur une membrane basale."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "b/ Une couche sous-endothéliale, tissu conjonctif fin."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "c/ Une couche musculo-élastique, d'épaisseur variable, crc /"
+        },
+        {
+          "type": "paragraph",
+          "text": "- formations conjonctives-élastiques dans la zone interne"
+        },
+        {
+          "type": "paragraph",
+          "text": "- formations musculaires lisses responsables du tonus de l'endocarde dans la zone externe"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "d/ Une couche sous-endocardique : constituée de tissu conjonctif lâche avec des cellules adipeuses, contenant"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le tissu nodal (au niveau des ventricules : réseau purkinje).",
+            "Éléments vasculo-nerveux."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "1-Endocarde",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-009.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "Rôles des cellules endothéliales",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Rôles des cellules endothéliales"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils sécrètent de la prostacycline qui empêche l'adhésion des plaquettes à l'endothélium ainsi que la formation de caillot intravasculaire (thrombus)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Initie la coagulation sanguine par la sécrétion d'un facteur tissulaire qui se lie au facteur VIIa pour convertir le facteur X en facteur Xa, en cas de lésion de la paroi vasculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Module le tonus des cellules musculaires lisses vasculaires (oxyde nitrique qui induit une vasodilatation et endothéline1 qui induit une vasocontraction)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Facilite la migration transendothéliale des cellules impliquées dans une réaction inflammatoire (macrophages, lymphocytes)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Développe des facteurs qui stimulent l’angiogenèse lors de la réparation normale des blessures et de la vascularisation tumorale"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "Cellules endothéliales en microscopie optique",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cellules endothéliales en microscopie optique"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "Endocarde",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Endocarde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Noyaux des fibres musculaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Microscopie optique à fort grossissement"
+        },
+        {
+          "type": "paragraph",
+          "text": "endothélium"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-010.jpg",
+          "caption": "Endocarde"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "Endocarde",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Endocarde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cavité cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Noyau des cellules endothéliales"
+        },
+        {
+          "type": "paragraph",
+          "text": "Myocarde"
+        },
+        {
+          "type": "paragraph",
+          "text": "endocarde"
+        },
+        {
+          "type": "paragraph",
+          "text": "du sang"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-011.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "Les vannes",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Les vannes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il s'agit de replis de l'endocarde recouvrant une lame fibreuse axiale qui rend la valvule déformable mais inextensible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les valvules ne sont pas vascularisées, elles se nourrissent par imbibition."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-012.jpg",
+          "caption": "Les vannes"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "Les vannes",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-013.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Cordons et muscle papillaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cordons et muscle papillaire"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-014.jpg",
+          "caption": "Cordons et muscle papillaire"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "2- Le myocarde",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2- Le myocarde"
+        },
+        {
+          "type": "paragraph",
+          "text": "C'est la paroi la plus épaisse (plus épaisse au niveau des ventricules, notamment du ventricule gauche) et comporte 2 types de constituants :"
+        },
+        {
+          "type": "paragraph",
+          "text": "a- Les cloisons conjonctives : formées de tissu conjonctif lâche riche en capillaires sanguins et en terminaisons nerveuses."
+        },
+        {
+          "type": "paragraph",
+          "text": "b- Tissu musculaire strié : les fibres apparaissent regroupées en faisceaux et il existe 3 types de cardiomyocytes (cellules myocardiques, cellules myo-endocrines et cellules cardio-nerveuses)."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "Vue générale du myocarde",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Vue générale du myocarde"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-015.jpg",
+          "caption": "Vue générale du myocarde"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "Les cellules myocardiques elles-mêmes (contractiles)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les cellules myocardiques elles-mêmes (contractiles)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cellules contractiles du cœur, les plus nombreuses.",
+            "De forme cylindrique, courte et ramifiée (en forme de Y).",
+            "Riche en myofibrilles.",
+            "Avoir un noyau central, entouré d'organites.",
+            "Présence de traits scalariformes qui correspondent aux zones de contact des cellules myocardiques.",
+            "La présence de jonctions communicantes ou jonctions lacunaires dans le segment longitudinal des stries scalariformes permet une libre diffusion des ions et une propagation rapide du potentiel d'action d'une cellule à l'autre.",
+            "Pas de cellules satellites, donc pas de régénération."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "Vaisseau sanguin",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Vaisseau sanguin"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule myocardique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Myocarde ; microscopie optique;"
+        },
+        {
+          "type": "paragraph",
+          "text": "fort grossissement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Noyaux des myocytes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stries scalariformes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Espace connectif"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-016.jpg",
+          "caption": "Vaisseau sanguin"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "Cardiomyocytes humains",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cardiomyocytes humains"
+        },
+        {
+          "type": "paragraph",
+          "text": "Microscopie optique à fort grossissement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Noyau de fibres musculaires striées"
+        },
+        {
+          "type": "paragraph",
+          "text": "Traits scalariformes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capillaire dans un espace conjonctif"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-017.jpg",
+          "caption": "Cardiomyocytes humains"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "Cellules myocardiques dans",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cellules myocardiques dans"
+        },
+        {
+          "type": "paragraph",
+          "text": "coupe transversale"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-018.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "Cellules myoendocrines :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cellules myoendocrines :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Situé au niveau de l'atrium (atrium)",
+            "Plus petit que les cellules myocardiques elles-mêmes",
+            "Pauvre en myofibrilles",
+            "Contiennent des vésicules neuro-sécrétoires disposées de part et d'autre du noyau, sphériques et denses en microscopie électronique. (activité de sécrétion endocrinienne)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces vésicules libèrent une puissante hormone polypeptidique, appelée facteur natriurétique auriculaire (FAN), dont l'action est :"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "* stimulation des deux"
+        },
+        {
+          "type": "paragraph",
+          "text": "diurèse (excrétion urinaire d'eau) et"
+        },
+        {
+          "type": "paragraph",
+          "text": "natriurèse (excrétion urinaire de sodium)"
+        },
+        {
+          "type": "paragraph",
+          "text": "*pour permettre la relaxation du muscle cardiaque."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'augmentation de la pression à travers la paroi auriculaire semble être le principal stimulus de la libération de l'ANF."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "Cellules myoendocrines :",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-019.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "Le tissu nodal (cellules cardionectores)",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le tissu nodal (cellules cardionectores)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le tissu nodal est un tissu musculaire d'apparence embryonnaire, responsable de l'initiation et de la conduction de l'excitation."
+        },
+        {
+          "type": "paragraph",
+          "text": "il est organisé en masses cellulaires ou nœuds ; on distingue :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Un nœud sinusal (nœud KEITH et FLACK)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Situé dans la paroi de l'oreillette droite, près de l'embouchure de la veine cave supérieure."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Nœud auriculo-ventriculaire (nœuds ASHOFF et TAWARA)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Situé dans la partie postéro-inférieure du septum inter-auriculaire."
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "3- Le faisceau SON",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- Le faisceau SON"
+        },
+        {
+          "type": "paragraph",
+          "text": "Issue du nœud auriculo-ventriculaire, elle traverse le septum interventriculaire et se divise en 02 branches."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4- Le réseau PURKINJE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Branches sur toute la paroi ventriculaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les nœuds sino-auriculaires sont responsables de"
+        },
+        {
+          "type": "paragraph",
+          "text": "l'initiation du rythme cardiaque, le paquet HIS et"
+        },
+        {
+          "type": "paragraph",
+          "text": "le réseau PURKINJE est chargé de la conduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "impulsions."
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "Anatomie du tissu cardionectoral",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Anatomie du tissu cardionectoral"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-020.jpg",
+          "caption": "Anatomie du tissu cardionectoral"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "title": "apparaître comme",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Structurellement, couper les fibres nodales"
+        },
+        {
+          "type": "paragraph",
+          "text": "transversalement et examiné au M.O au F.G"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "apparaître comme"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cellules de plus ou moins grand volume, selon leur position.",
+            "Présenter un cytoplasme clair, riche en glycogène et posséder un noyau central.",
+            "Et un fin cortex myofibrillaire périphérique"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "title": "Cellules du réseau Purkinje M",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cellules du réseau Purkinje M. Optique à fort grossissement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Noyau"
+        },
+        {
+          "type": "paragraph",
+          "text": "Myofibrilles périphériques"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-021.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "title": "Cellules de Purkinje",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cellules de Purkinje"
+        },
+        {
+          "type": "paragraph",
+          "text": "endocarde"
+        },
+        {
+          "type": "paragraph",
+          "text": "myocarde"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-022.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "title": "3- Le péricarde",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "3- Le péricarde"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Il contient 02 feuilles"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Un feuillet interne : Epicardium",
+            "Une couche externe : le péricarde lui-même"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces deux couches sont séparées par une cavité virtuelle : La cavité péricardique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces deux feuillets ont une structure quasiment identique (sauf les plexus nerveux que l'on retrouve dans l'épicarde de certaines régions de la paroi cardiaque). on reconnaît pour chacun d'eux depuis la cavité péricardique vers l'extérieur :"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "title": "2- Une couche sous-mésothéliale : Couche conjonctive riche en",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "1- Un mésothélium : constitué d'une seule couche de cellules squameuses réunies entre elles par des complexes de jonctions et des desmosomes permettant une bonne étanchéité de la couche cellulaire."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Une couche sous-mésothéliale : Couche conjonctive riche en"
+        },
+        {
+          "type": "paragraph",
+          "text": "fibres élastiques."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- Une couche fibreuse conjonctive : constituée de"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tissu conjonctif lâche au niveau de la couche viscérale.",
+            "Une couche fibreuse, au niveau de la couche pariétale."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "title": "2- Une couche sous-mésothéliale : Couche conjonctive riche en",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-023.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "title": "Couche viscérale du péricarde :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Couche viscérale du péricarde :"
+        },
+        {
+          "type": "paragraph",
+          "text": "mésothélium"
+        },
+        {
+          "type": "paragraph",
+          "text": "Couche sous-mésothéliale"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-024.jpg",
+          "caption": "Couche viscérale du péricarde :"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "title": "VASCULARIATION DU COEUR",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "VASCULARIATION DU COEUR"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le cœur est irrigué par deux artères coronaires principales (droite et gauche) qui naissent de l'aorte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leurs divisions s'étendent au niveau de l'épicarde et dirigent les « artères perforantes » disposées perpendiculairement vers le myocarde. Celles-ci, prenant une orientation longitudinale, sont réparties dans un réseau d'artères « artérioles terminales » ; dont chaque succursale dessert une région spécifique."
+        },
+        {
+          "type": "paragraph",
+          "text": "La vascularisation myocardique est de type TERMINAL"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "title": "////////",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "////////"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-025.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "title": "////////",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-026.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "title": "////////",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'obstruction totale d'une succursale entraîne l'arrêt du trafic dans la région desservie par cette succursale. La nécrose ou infarctus du myocarde est le résultat de cette ischémie."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'obstruction partielle des artères coronaires réduit l'apport d'O2 et provoque des douleurs : ANGOR."
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "title": "INNERVATION DU COEUR",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "INNERVATION DU COEUR"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le cœur est innervé par les deux fibres sympathiques qui augmentent la fréquence cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "et par les fibres parasympathiques qui la ralentissent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Des fibres sensibles (sensibilité + douleur) sont présentes dans le péricarde et l'endocarde"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "title": "INNERVATION DU COEUR",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au niveau de l'épicarde de la face postérieure des oreillettes, se trouvent des cellules nerveuses organisées en plexus (plexus auriculaire sino, plexus auriculaire ventriculaire)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces neurones fonctionnent de manière semi-autonome depuis le cerveau (reçoivent des informations du cerveau mais aussi des capteurs mécaniques et chimiques situés au niveau du cœur). Ils ajustent en temps réel la fréquence cardiaque, la force de contraction et la conduction de l'influx nerveux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est responsable du maintien de l’activité basale du czrdia."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-027.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "title": "Les navires",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Les navires"
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "title": "A- Vaisseaux sanguins",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A- Vaisseaux sanguins"
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "title": "A- Vaisseaux sanguins",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A- Vaisseaux sanguins"
+        },
+        {
+          "type": "paragraph",
+          "text": "Examinée en M.O à F.G, la paroi d'un vaisseau sanguin"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "proposer de décrire"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Une tunique interne : L'intima",
+            "Une tunique moyenne : les médias",
+            "Une tunique externe : L'adventice"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "title": "Adventice",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Adventice"
+        },
+        {
+          "type": "paragraph",
+          "text": "Médias"
+        },
+        {
+          "type": "paragraph",
+          "text": "Intime"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lumière"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-028.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "title": "1- Artères 2 types : élastiques et musculaires",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1- Artères 2 types : élastiques et musculaires"
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "title": "- artères de type élastique : les plus larges sont les vaisseaux de conduction",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "- artères de type élastique : les plus larges sont les vaisseaux de conduction. Ils reçoivent un débit très élevé du ventricule gauche. Le tissu élastique de leur paroi leur confère la capacité d'absorber puis de restituer l'onde de pression."
+        },
+        {
+          "type": "paragraph",
+          "text": "Exp : L'aorte, les carotides primaires, les sous-clavières et les iliaques primaires."
+        },
+        {
+          "type": "paragraph",
+          "text": "- les artères de type musculaire : de taille moyenne, sont des artères de distribution."
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "title": "- artères de type élastique : les plus larges sont les vaisseaux de conduction",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Topographie par rapport au cœur",
+            "Calibre",
+            "Type histologique",
+            "Exemples"
+          ],
+          "rows": [
+            [
+              "Artère du plancherJuxta cardiaqueArtère du plancherinfracardiaque",
+              "Artère de gros calibre : diamètre externe > 7 mm Artère de moyen calibre : diamètre externe = 2,5 à 7 mm Artère de petit calibre : diamètre externe < 2,5 mm",
+              "Artère de type élastiqueArtère de type musculaire",
+              "AorteArtère pulmonaireArtère radialeArtère huméraleArtère coronaireArtère bronchique"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "title": "- artères de type élastique : les plus larges sont les vaisseaux de conduction",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Type d'artèreCouches",
+            "Élastique",
+            "Musclé",
+            "Artériole"
+          ],
+          "rows": [
+            [
+              "1- Intima:a- Endothéliumb- EndartèreCouche sous-endothélialeCouche dite mucoïdeCouche nervuréeLame élastique interne",
+              "-Une seule couche de cellules-Mince constituée d'un réticulum conjonctif-Formée d'une substance fondamentale amorphe-Présence de fibres musculaires lisses-Peu distinctes des lames élastiques de la média.",
+              "-Une seule couche de cellules-Fines contenant des fibres élastiquesAbsentAbsentLimiteur élastique interne : Lame épaisse, formée de grosses fibres élastiques, emballées en 02 ou 03 couches",
+              "-Mince-Aplati, reposant sur une lame basale-Limiteur élastique interne : Fragmentaire (partiel)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "title": "- artères de type élastique : les plus larges sont les vaisseaux de conduction",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Type d'artèreCouches",
+            "Élastique",
+            "Musclé",
+            "Artériole"
+          ],
+          "rows": [
+            [
+              "2- Médias :",
+              "-Lames élastiques concentriques-Fibres de collagène-Quelques fibres musculaires lisses disposées en faisceaux",
+              "-Tunique épaisse-Fibres musculaires lisses disposées en plusieurs couches, formant une gaine compacte-Fibres de collagène rares-Quelques fibres élastiques",
+              "-Réduit : 02 à 03 couches de fibres musculaires lisses"
+            ],
+            [
+              "3- Adventice : Constituée de tissu conjonctif lâche",
+              "-Certaines fibres élastiques-Fibres musculaires lisses rares-Petits vaisseaux nourriciers ou vasa-vasorum-Fibres nerveuses",
+              "-Une ou plusieurs lames de fibres élastiques qui s'enroulent pour former la bordure élastique externe-Petits vaisseaux sanguins (vasa-vasorum)-Fibres nerveuses",
+              "-Riche réseau de fibres de collagène-Petits vaisseaux sanguins nourrissants-Quelques fibres nerveuses"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "title": "Intime",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Intime"
+        },
+        {
+          "type": "paragraph",
+          "text": "Médias"
+        },
+        {
+          "type": "paragraph",
+          "text": "Adventice"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artères élastiques Artère de gros calibre : Aorte"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-029.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "title": "Endothélium",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Endothélium"
+        },
+        {
+          "type": "paragraph",
+          "text": "Limitation élastique interne"
+        },
+        {
+          "type": "paragraph",
+          "text": "Adventice"
+        },
+        {
+          "type": "paragraph",
+          "text": "Limiteur élastique externe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artère musculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "fort grossissement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tissu conjonctif"
+        },
+        {
+          "type": "paragraph",
+          "text": "Médias"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-030.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "title": "ARTÉRIOLE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "ARTÉRIOLE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Intime"
+        },
+        {
+          "type": "paragraph",
+          "text": "Médias"
+        },
+        {
+          "type": "paragraph",
+          "text": "mauvaise herbe"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-031.jpg",
+          "caption": "ARTÉRIOLE"
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "title": "Artériole, coupe transversale M. Optique",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Artériole, coupe transversale M. Optique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fibres musculaires lisses"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellules"
+        },
+        {
+          "type": "paragraph",
+          "text": "endothélial"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-032.jpg",
+          "caption": "Artériole, coupe transversale M. Optique"
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "title": "suivant",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Par rapport à la paroi artériolaire, la paroi des artérioles"
+        },
+        {
+          "type": "paragraph",
+          "text": "terminales et celle des segments pré-capillaires ou"
+        },
+        {
+          "type": "paragraph",
+          "text": "les métartérioles se distinguent par 03 caractéristiques"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "suivant"
+        },
+        {
+          "type": "paragraph",
+          "text": "Au niveau de l'intima :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La limite élastique interne a disparu",
+            "Les cellules endothéliales envoient des protubérances (extensions) qui entrent en contact avec les cellules musculaires lisses de la média formant ainsi des zones de jonction myo-endothéliales."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "title": "Au niveau des médias",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Au niveau des médias"
+        },
+        {
+          "type": "paragraph",
+          "text": "La couche de fibres musculaires lisses est réduite à une et rarement à deux couches"
+        },
+        {
+          "type": "paragraph",
+          "text": "Au niveau de l'adventice :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fines, réduites à quelques fibroblastes, les fibres nerveuses amyélinisées fournissent des terminaisons qui s'insinuent (s'introduisent) entre les cellules musculaires de la média formant les zones de jonction myoneurale."
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "title": "Métartériole",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Métartériole"
+        },
+        {
+          "type": "paragraph",
+          "text": "De vrais capillaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artériole"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sphincter précapillaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Veinule"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellules musculaires lisses"
+        },
+        {
+          "type": "paragraph",
+          "text": "Microcirculation"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-033.jpg",
+          "caption": "Métartériole"
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "title": "Métartériole",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-034.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "title": "Dans la paroi du segment pré-capillaire, les zones de",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dans la paroi du segment pré-capillaire, les zones de"
+        },
+        {
+          "type": "paragraph",
+          "text": "les jonctions myo-neurales et myo-endothéliales sont plus"
+        },
+        {
+          "type": "paragraph",
+          "text": "nombreux; ce dispositif musculoendothélial a reçu le"
+        },
+        {
+          "type": "paragraph",
+          "text": "nom du sphincter précapillaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces sphincters jouent un rôle important dans la régulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "de la pression du sang qui passe de l'artériole vers la"
+        },
+        {
+          "type": "paragraph",
+          "text": "capillaires."
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "title": "2-Veines",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2-Veines"
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "title": "2- Les veines",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2- Les veines"
+        },
+        {
+          "type": "paragraph",
+          "text": "Observé en M.O à FG et sur une coupe transversale, leur paroi est constituée de 03 couches :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Intima : Il comprend"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un endothélium : une seule couche de cellules"
+        },
+        {
+          "type": "paragraph",
+          "text": "polygonal reposant sur une membrane basale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une endoveine : fine, constituée de tissu conjonctif lâche."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- La média (mésoveine) : Elle varie selon le calibre et la localisation de la veine,"
+        }
+      ]
+    },
+    {
+      "n": 71,
+      "title": "3- L'adventice (péri-veine) : Plus épaisse que la média.",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Fibres musculaires lisses entrecoupées de,",
+            "Septa conjonctifs abondants"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- L'adventice (péri-veine) : Plus épaisse que la média."
+        },
+        {
+          "type": "paragraph",
+          "text": "Faisceaux longitudinaux de collagène (forts"
+        },
+        {
+          "type": "paragraph",
+          "text": "porte-clés collagène)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Quelques fibres élastiques",
+            "Petits vaisseaux nourriciers vasavasorum",
+            "Fibres nerveuses"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 72,
+      "title": "Paroi d'une veine : In = Intima ; M = Médias ; A = Adventice",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Paroi d'une veine : In = Intima ; M = Médias ; A = Adventice"
+        },
+        {
+          "type": "paragraph",
+          "text": "Intime"
+        },
+        {
+          "type": "paragraph",
+          "text": "Médias"
+        },
+        {
+          "type": "paragraph",
+          "text": "Adventice"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vasa Vasorum"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-035.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 73,
+      "title": "NB : par rapport à l'artère, la veine a",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "NB : par rapport à l'artère, la veine a"
+        },
+        {
+          "type": "paragraph",
+          "text": "une lumière plus large"
+        },
+        {
+          "type": "paragraph",
+          "text": "un mur plus fin"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plus riche en fibres de collagène et"
+        },
+        {
+          "type": "paragraph",
+          "text": "A moins de fibres musculaires lisses que d’artères"
+        }
+      ]
+    },
+    {
+      "n": 74,
+      "title": "Paquet vasculo-nerveux Artères musculaires, veines et fibres nerveuses",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Paquet vasculo-nerveux Artères musculaires, veines et fibres nerveuses"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-036.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 75,
+      "title": "1- Veines musculaires : Leur paroi est caractérisée",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'analyse structurale des veines permet d'identifier 03 variétés de veines :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Veines musculaires : Leur paroi est caractérisée"
+        },
+        {
+          "type": "paragraph",
+          "text": "Soit par la musculature lisse au niveau médial :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les veines des muscles lisses constituent le plus grand secteur du système veineux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Soit par une musculature striée au niveau de l'adventice :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les veines musculaires striées constituent le segment juxtacardique des veines caves et pulmonaires."
+        }
+      ]
+    },
+    {
+      "n": 76,
+      "title": "2- Veines fibreuses",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Veines fibreuses"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'intima est tapissée d'une couche conjonctive-fibreuse : c'est le cas des veines intracrâniennes (indéformables)"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- Veines fibroélastiques : Présence"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lames élastiques anastomosées au contact de"
+        },
+        {
+          "type": "paragraph",
+          "text": "l'endothélium"
+        },
+        {
+          "type": "paragraph",
+          "text": "Faisceaux de collagène disposés en plan"
+        },
+        {
+          "type": "paragraph",
+          "text": "concentriques : veines supracardiaques (veines du cou"
+        },
+        {
+          "type": "paragraph",
+          "text": "et veines axillaires)"
+        }
+      ]
+    },
+    {
+      "n": 77,
+      "title": "2- Veines fibreuses",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-037.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 78,
+      "title": "Les grosses veines de la partie inférieure du corps sont",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les grosses veines de la partie inférieure du corps sont"
+        },
+        {
+          "type": "paragraph",
+          "text": "avec vannes disposées par paires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les valves sont formées par un pli de l'intima qui"
+        },
+        {
+          "type": "paragraph",
+          "text": "couvre un axe conjonctif-élastique dense, avec"
+        },
+        {
+          "type": "paragraph",
+          "text": "certaines fibres musculaires lisses provenant du"
+        },
+        {
+          "type": "paragraph",
+          "text": "support, et orienté perpendiculairement à l’axe du"
+        },
+        {
+          "type": "paragraph",
+          "text": "navires"
+        }
+      ]
+    },
+    {
+      "n": 79,
+      "title": "Caractéristiques fonctionnelles des veines",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Caractéristiques fonctionnelles des veines"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vers le"
+        },
+        {
+          "type": "paragraph",
+          "text": "coeur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les veines sont des vaisseaux à basse pression, cette pression est suffisante pour transporter le sang vers le cœur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les valvules empêchent le reflux sanguin rétrograde."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-038.jpg",
+          "caption": "Caractéristiques fonctionnelles des veines"
+        }
+      ]
+    },
+    {
+      "n": 80,
+      "title": "4- Veines",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4- Veines"
+        },
+        {
+          "type": "paragraph",
+          "text": "Observée en M.O à F.G, la paroi veineuse est peu individualisée, on reconnaît :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Un endothélium",
+            "Une couche conjonctive-élastique",
+            "Quelques fibres musculaires lisses"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 81,
+      "title": "3-Les capillaires",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "3-Les capillaires"
+        }
+      ]
+    },
+    {
+      "n": 82,
+      "title": "3-Les capillaires",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "3-Les capillaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les capillaires sont des vaisseaux microscopiques,"
+        },
+        {
+          "type": "paragraph",
+          "text": "organisés en réseau."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils sont le siège des échanges entre le sang et les tissus et"
+        },
+        {
+          "type": "paragraph",
+          "text": "jouer essentiellement un rôle nourricier"
+        }
+      ]
+    },
+    {
+      "n": 83,
+      "title": "Lit capillaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lit capillaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les artérioles se ramifient pour former des capillaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’ensemble des capillaires est appelé lit capillaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lit capillaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artériole"
+        },
+        {
+          "type": "paragraph",
+          "text": "Veinule"
+        }
+      ]
+    },
+    {
+      "n": 84,
+      "title": "Métartériole",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Métartériole"
+        },
+        {
+          "type": "paragraph",
+          "text": "De vrais capillaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artériole"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sphincter précapillaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Veinule"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellules musculaires lisses"
+        },
+        {
+          "type": "paragraph",
+          "text": "Microcirculation"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-033.jpg",
+          "caption": "Métartériole"
+        }
+      ]
+    },
+    {
+      "n": 85,
+      "title": "1- Le réseau capillaire : interposé entre une artériole et une veinule.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Selon leur localisation dans le territoire vasculaire artériel et veineux, les réseaux capillaires sont classés en 3 catégories :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Le réseau capillaire : interposé entre une artériole et une veinule."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Le réseau porte artériel : interposé entre deux artérioles (rein)."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- Le réseau veineux porte : interposé entre deux veinules (foie)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Histologiquement, il existe 2 types de capillaires : les capillaires typiques et les capillaires atypiques :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Capillaires typiques : représentés par"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Les capillaires de jonction : unissant l’artériole à la veinule",
+            "Capillaires vrais : nés de l'artériole ou du capillaire de jonction"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 86,
+      "title": "Le mur de capillaires typiques comprend :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le mur de capillaires typiques comprend :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Un endothélium : constitué d'une seule couche de cellules aplaties, le noyau fait saillie dans la lumière vasculaire",
+            "Une membrane basale : parfois tapissée de fibres de réticuline",
+            "Formations périphériques : cellules mésenchymateuses et fibres de réticuline"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 87,
+      "title": "CAPILLAIRE CONTINU",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CAPILLAIRE CONTINU"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-039.png",
+          "caption": "CAPILLAIRE CONTINU"
+        }
+      ]
+    },
+    {
+      "n": 88,
+      "title": "2- Capillaires atypiques : représentés par",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Capillaires atypiques : représentés par"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capillaires embryonnaires : à paroi syncytiale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capillaires sinusoïdes : à parois discontinues et sans membrane basale"
+        }
+      ]
+    },
+    {
+      "n": 89,
+      "title": "Capillaire sinusoïde du foie",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Capillaire sinusoïde du foie"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pores dilatés ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lame basale absente ou discontinue -"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lumière"
+        },
+        {
+          "type": "paragraph",
+          "text": "Endothélium"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-040.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 90,
+      "title": "Capillaire sinusoïde du foie",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-041.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 91,
+      "title": "B- Vaisseaux lymphatiques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B- Vaisseaux lymphatiques"
+        }
+      ]
+    },
+    {
+      "n": 92,
+      "title": "B- Vaisseaux lymphatiques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B- Vaisseaux lymphatiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système vasculaire lymphatique draine la lymphe qui"
+        },
+        {
+          "type": "paragraph",
+          "text": "prend son origine dans les espaces conjonctifs des tissus ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "De là, il atteint les différents segments qui composent le"
+        },
+        {
+          "type": "paragraph",
+          "text": "système lymphatique qui peut être distingué selon"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "leur calibre croissant dans"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Capillaires lymphatiques",
+            "Veines lymphatiques",
+            "Veines lymphatiques ou troncs lymphatiques",
+            "Troncs lymphatiques"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les troncs lymphatiques débouchent dans les veines sous-clavières"
+        }
+      ]
+    },
+    {
+      "n": 93,
+      "title": "Réseau capillaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Réseau capillaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Réseau capillaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaisseaux lymphatiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ganglion lymphatique"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-001.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 94,
+      "title": "Sur une coupe transversale d'une veine lymphatique, nous",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sur une coupe transversale d'une veine lymphatique, nous"
+        },
+        {
+          "type": "paragraph",
+          "text": "distingue 03 tuniques peu individualisées :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Une intima réduite à un endothélium",
+            "Médias réduits",
+            "Une gaine musculo-élastique"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sur une coupe longitudinale de la veine on reconnaît"
+        },
+        {
+          "type": "paragraph",
+          "text": "valves qui sont de simples plis de l'intima orientés"
+        },
+        {
+          "type": "paragraph",
+          "text": "dans le sens du flux sanguin"
+        }
+      ]
+    },
+    {
+      "n": 95,
+      "title": "Sur une coupe transversale d'une veine lymphatique, nous",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-042.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 96,
+      "title": "Sur une coupe transversale d'une veine lymphatique, nous",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Grand capillaire lymphatique contenant de la lymphe avec des valvules très fines qui contrôlent la direction du flux"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-1/img-043.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 97,
+      "title": "Merci de votre attention",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Merci de votre attention !"
+        }
+      ]
+    }
+  ]
+}

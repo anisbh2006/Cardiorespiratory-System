@@ -1,0 +1,804 @@
+{
+  "file": "physio cardiovasculaire/7)L’hémostase(Laphysiologiedusang)_EN.pdf",
+  "chapterId": "pc-7",
+  "title": "Hémostase (physiologie du sang)",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "PHYSIOLOGIE DU SANG",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Laboratoire de Physiologie"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "PHYSIOLOGIE DU SANG"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pr.KADIM. S"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "PHYSIOLOGIE DU SANG",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "PHYSIOLOGIE DU SANG"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I- IntroductionII- Composition du sang"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Plasma",
+            "Éléments figurés du sangIII- Hémostase",
+            "Définition",
+            "Temps vasculaire",
+            "Temps plaquettaire",
+            "Temps de coagulation",
+            "Fibrinolyse",
+            "Exploration fonctionnelle",
+            "Dépistage d'une altération de l'hémostase"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "INTRODUCTION",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "INTRODUCTION"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sang est un mélange de composants cellulaires en suspension dans un liquide appelé plasma. Le volume total de sang circulant représente 8 % du poids corporel, le plasma représentant 55 % de ce volume. Le sang sert de vecteur au système cardiovasculaire."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "INTRODUCTION",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "INTRODUCTION"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sang remplit plusieurs fonctions : - l'apport d'O2 et des substances absorbées par le tube digestif vers les cellules - le transport du CO2 vers les poumons et des déchets métaboliques vers les reins. - le transport des hormones vers leurs organes cibles. - maintien de la température corporelle, du pH sanguin et d'un volume adéquat de liquide dans le système circulatoire. - prévention des hémorragies"
+        },
+        {
+          "type": "paragraph",
+          "text": "- prévention des infections"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "COMPOSITION DU SANG",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "COMPOSITION DU SANG"
+        },
+        {
+          "type": "paragraph",
+          "text": "1- PLASMA - liquide jaunâtre, légèrement visqueux - composé à 90% d'eau et de solutés (nutriments, gaz, hormones, produits et déchets du métabolisme cellulaire, ions et protéines dont 60% sont représentés par l'albumine. La composition du plasma varie selon l'activité cellulaire. Les concentrations de solutés sont maintenues à des valeurs physiologiques grâce à des réajustements effectués par plusieurs organes (foie, reins, poumons, etc.)."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "COMPOSITION DU SANG",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "COMPOSITION DU SANG"
+        },
+        {
+          "type": "paragraph",
+          "text": "2- ÉLÉMENTS FIGURÉS ou éléments cellulaires en suspension dans le plasma, représentés par : - les leucocytes ou globules blancs - les érythrocytes ou globules rouges ou globules rouges - les plaquettes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les érythrocytes ne contiennent pas de noyau et presque pas d'organites. Les plaquettes sont des fragments cellulaires."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les leucocytes sont des cellules complètes."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "COMPOSITION DU SANG",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "COMPOSITION DU SANG"
+        },
+        {
+          "type": "paragraph",
+          "text": "2- ÉLÉMENTS FIGURÉS L'hématopoïèse est la formation de cellules sanguines qui a lieu dans la moelle osseuse. Les éléments figurés ont une origine commune malgré leurs fonctions différentes. Ils sont produits à partir d'une cellule souche indifférenciée, l'hémocytoblaste, située dans la moelle osseuse rouge, également appelée cellule souche hématopoïétique pluripotente."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "COMPOSITION DU SANG",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "COMPOSITION DU SANG"
+        },
+        {
+          "type": "paragraph",
+          "text": "2- ÉLÉMENTS FIGURÉS Les érythrocytes transportent les gaz du sang grâce à l'hémoglobine, une ferroprotéine rouge, qui donne sa couleur au sang."
+        },
+        {
+          "type": "paragraph",
+          "text": "La production d’érythrocytes est appelée érythropoïèse. 2 à 3 millions de GR/seconde sont produits par notre corps. Leur durée de vie est de 100 à 120 jours. Le nombre normal d'érythrocytes est en moyenne de 5,4 x 1012/l chez l'homme et de 4,8 x 1012/l chez la femme."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Érythropoïèse",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Érythropoïèse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Elaine N Marieb-Katja HoehnAnatomie et physiologie humainesAdapté de la 8e édition américaine"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-7/img-001.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "COMPOSITION DU SANG",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "COMPOSITION DU SANG"
+        },
+        {
+          "type": "paragraph",
+          "text": "2- ÉLÉMENTS FIGURÉS Les leucocytes sont représentés par : - ??neutrophiles : 50% des leucocytes - lymphocytes : 25% des leucocytes - monocytes : 3 à 8% des leucocytes - éosinophiles : 2 à 4% des leucocytes - basophiles : 0,5 à 1% des leucocytes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Leucocytes = 4,8 à 10,8 x 109 /l de sang. Fonction : protection de l’organisme contre les bactéries, virus, parasites, toxines et cellules tumorales. Durée de vie : 0,25 à 9 jours."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "Elaine N Marieb-Katja HoehnAnatomie et physiologie humaines",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Elaine N Marieb-Katja HoehnAnatomie et physiologie humaines"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-7/img-002.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "COMPOSITION DU SANG",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "COMPOSITION DU SANG"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- ÉLÉMENTS FIGURÉS"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les plaquettes ou mégacaryocytes ou thrombocytes jouent un rôle essentiel dans la coagulation sanguine. Durée de conservation : 10 jours Plaquettes : 150 à 350 x 109/l de sang."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "COMPOSITION DU SANG",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Elaine Nmarieb-Katja HoehnAnatomie et physiologie humainesAdapté de la 8e édition américaine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Genèse des plaquettes"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-7/img-003.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-DÉFINITION"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'hémostase regroupe tous les phénomènes qui permettent d'arrêter les saignements. Elle se déroule en 3 étapes : - le stade vasculaire - le stade plaquettaire - la coagulation. Le temps vasculaire et le temps plaquettaire constituent l'hémostase primaire."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- TEMPS VASCULAIRE"
+        },
+        {
+          "type": "paragraph",
+          "text": "- vasoconstriction réflexe immédiate mais transitoire des petits vaisseaux lésés - test d'adhésion des cellules endothéliales lésées. - étroitement liée à la phase plaquettaire qui la suit."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "paragraph",
+          "text": "3- TEMPS PLAQUETTES : formation d'un ongle plaquettaire ou ongle blanc : - adhésion des plaquettes au collagène sous-endothélial"
+        },
+        {
+          "type": "paragraph",
+          "text": "sous l'effet du facteur Willebrand, entraînant des modifications morphologiques importantes : les plaquettes deviennent sphériques, émettent des pseudopodes, en forme de roue dentée, et sécrètent le contenu de leurs granules. L'adhésion des plaquettes entraîne donc leur activation. - phénomène de sécrétion plaquettaire ou Release"
+        },
+        {
+          "type": "paragraph",
+          "text": "plaquette avec libération d'ADP, de sérotonine, de thromboxane A2 et de FP4. - agrégation plaquettaire donc formation de l'ongle"
+        },
+        {
+          "type": "paragraph",
+          "text": "plaquette provoquant l’arrêt transitoire du saignement. - la destruction de l'agrégat cellulaire avec libération d'un"
+        },
+        {
+          "type": "paragraph",
+          "text": "le facteur plaquettaire 3 (F3P), soutient les réactions de coagulation."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "paragraph",
+          "text": "4- COAGULATION : C'est la solidification du fibrinogène en fibrine enfermant les éléments formés du sang. C'est l'ongle ou le caillot rouge. Elle fait intervenir des facteurs de coagulation et se déroule en 3 étapes : - thromboplastinoformation - thrombinoformation - fibrinoformation"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "NOMENCLATURE DES FACTEURS DE COAGULATION",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "NOMENCLATURE DES FACTEURS DE COAGULATION"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fibrinogène------------------------------------------------------IProthrombine---------------- ------------------------------------------------IITextrait tissulaire------------------------------------------------IIICalcium----------------------------------- ---------------------------------------IVProaccelirin- labile factor------------------------------------VProconvertin-------------------------------------- ------------------------------------VIIAntihemophilic factor A--------------------------------------VIIIAntihemophilic factor B ou Christmas factor ou P.T.C-----IXStuart's factor ou PROWER Facteur-----------------------------XPlasma Thromboplastine Antécédent ou P.T.A-------------------Facteur XIHAGEMAN -------------------------------------------------------------XIIFibrine Facteur STABILISANT ou F.S.F----------------XIIIH.P.M. kininogène impliqué dans les phénomènes de contact ou facteur Fitzgerald (H.P.M : kininogène de haut poids moléculaire) Prékallicréine ou facteur FLETCHER"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IX a et X a : responsables de l'activité enzymatique F 3 : support des réactions VIII et V : cofacteurs II, VII,"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thromboplastinoformation : c'est l'activation de F et IX qui s'activent mutuellement et successivement. Le phénomène initiateur est l'activation de F XII."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thrombinoformation : représente la transformation de la prothrombine en thrombine sous l'action d'un complexe prothrombique (prothrombinase) comprenant F Va, Xa, F3P, Ca++. Cela se fait en 4 secondes."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "- Fibrinoformation : résulte de la transformation du fibrinogène en fibrine sous l'action de la thrombine. Cela se fait en 4 secondes."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "coagulation intrinsèque coagulation extrinsèque (endogène) (exogène)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "coagulation intrinsèque coagulation extrinsèque (endogène) (exogène)"
+        },
+        {
+          "type": "paragraph",
+          "text": "plasma de contact tissulaire XII XIIa thromboplastine tissulaire (F III) + XI XIa VII + Ca++"
+        },
+        {
+          "type": "paragraph",
+          "text": "IX IXa FIII, VII, Ca++"
+        },
+        {
+          "type": "paragraph",
+          "text": "VIII F3 Ca++"
+        },
+        {
+          "type": "paragraph",
+          "text": "X Xa V F3 Ca++ prothrombine thrombine"
+        },
+        {
+          "type": "paragraph",
+          "text": "fibrinogène fibrine"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "paragraph",
+          "text": "5- FIBRINOLYSEFibrinolyse : - suit la coagulation - assure la reperméabilisation du vaisseau. - est précédée d'une rétraction du caillot en 1 à 4 heures, puis d'une lyse de ce dernier par émiettement en 48 heures. Elle résulte de l'activation du plasminogène en plasmine sous l'effet d'un facteur tissulaire produit par les cellules endothéliales : le t-PA. La plasmine dégrade la fibrine en produisant des PDF (produits de dégradation de la fibrine)."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "paragraph",
+          "text": "6- EXPLORATION FONCTIONNELLE"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Exploration du temps vasculaire",
+            "Temps de saignement :",
+            "Méthode Duke : normale : 3 à 4 min",
+            "Méthode Ivy : Normale : 4 à 8 min - couchée dans les anomalies vasculaires, les anomalies plaquettaires et les anomalies du facteur Willebrand.",
+            "Évaluation de la résistance capillaire : signe de lacet ou de ventouse."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "- Exploration du temps plaquettaire - Temps de saignement (TS) - Numération plaquettaire : 150 000 à 300 000/mm3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si < 100 000/mm3 : thrombocytopénie Si > 400 000/mm3 : hyperplaquettose"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Test de qualité des plaquettes",
+            "Mesure des fonctions plaquettaires",
+            "Rétraction du caillot",
+            "Durée de vie des plaquettes"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Exploration de la coagulationExploration de la voie endogène",
+            "Temps de coagulation : plasma normal en contact avec la paroi du tube. La coagulation a lieu en 5 à 8 min.",
+            "Temps de Howell : temps de recalcification du plasma ; c'est 2 à 3 min.",
+            "Temps de céphaline active (ACT) (ou TCK) : - plasma (patient) + céphaline partielle + Ca2+ . - explore la voie endogène (XI,XII, IX,VIII,"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Exploration de la voie exogène - Temps de Quick (TP) - plasma (patient) + thromboplastine + Ca2++"
+        },
+        {
+          "type": "paragraph",
+          "text": "- explore la voie exogène (VII, X) + voie commune (V, II, I) - elle est de 12 à 14 s - pathologique si > 2 s /témoin - généralement convertie en pourcentage d'activité par rapport à un pool de plasma normal ou de référence, ce qui correspond à 100 %. C’est ce qu’on appelle le taux de prothrombine. C'est entre 70 et 100%."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Exploration de la fibrinoformation",
+            "Temps de thrombine : temps de coagulation du plasma en présence de thrombine diluée. Elle est de 15 à 20 s, pathologique si > 5 s/témoin.",
+            "Temps de reptilase : la thrombine est remplacée par la reptilase.",
+            "Dosage du fibrinogène : 2 à 4 g/l."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Exploration de la fibrinolyse"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Test de lyse à l'euglobuline ou test de Von Kaulla : - mesure le temps nécessaire à la dissolution d'un caillot",
+            "Normalement > 3 h - pathologique si < 3 h - détermination des PDF (produits de dégradation de la fibrine)",
+            "Dosage des D-dimères (PDF spécifiques à la fibrine)",
+            "Dosage du t-PA, du PAI (inhibiteur du t-PA), de la plasmine, du plasminogène"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépistage d'une altération de l'hémostase"
+        },
+        {
+          "type": "paragraph",
+          "text": "MOULAGES"
+        },
+        {
+          "type": "paragraph",
+          "text": "MOULAGES"
+        },
+        {
+          "type": "paragraph",
+          "text": "Taux Pl"
+        },
+        {
+          "type": "paragraph",
+          "text": "q"
+        },
+        {
+          "type": "paragraph",
+          "text": "2ème cas el"
+        },
+        {
+          "type": "paragraph",
+          "text": "thrombopathie ongénitale"
+        },
+        {
+          "type": "paragraph",
+          "text": "2ème cas el"
+        },
+        {
+          "type": "paragraph",
+          "text": "ongatenon"
+        },
+        {
+          "type": "paragraph",
+          "text": "norme normale"
+        },
+        {
+          "type": "paragraph",
+          "text": "alnormalac"
+        },
+        {
+          "type": "paragraph",
+          "text": "requis ou c"
+        },
+        {
+          "type": "paragraph",
+          "text": "thrombopathie ongénitale"
+        },
+        {
+          "type": "paragraph",
+          "text": "3ème cas allongé"
+        },
+        {
+          "type": "paragraph",
+          "text": "3ème cas allongé"
+        },
+        {
+          "type": "paragraph",
+          "text": "ednormalnorma"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wi-Fi allongé"
+        },
+        {
+          "type": "paragraph",
+          "text": "maladies de Llebrand"
+        },
+        {
+          "type": "paragraph",
+          "text": "e"
+        },
+        {
+          "type": "paragraph",
+          "text": "4ème cas normal"
+        },
+        {
+          "type": "paragraph",
+          "text": "4ème cas normal"
+        },
+        {
+          "type": "paragraph",
+          "text": "ormalnormalelo"
+        },
+        {
+          "type": "paragraph",
+          "text": "ngatedanome"
+        },
+        {
+          "type": "paragraph",
+          "text": "aly de XII, XI, IX,"
+        },
+        {
+          "type": "paragraph",
+          "text": "V"
+        },
+        {
+          "type": "paragraph",
+          "text": "5ème cas"
+        },
+        {
+          "type": "paragraph",
+          "text": "coagulation oculaire (CIVD)"
+        },
+        {
+          "type": "paragraph",
+          "text": "5ème cas"
+        },
+        {
+          "type": "paragraph",
+          "text": "ng down lyi"
+        },
+        {
+          "type": "paragraph",
+          "text": "ng vers le bas"
+        },
+        {
+          "type": "paragraph",
+          "text": "diffuser"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ed Intravas"
+        },
+        {
+          "type": "paragraph",
+          "text": "coagulation oculaire (CIVD)"
+        },
+        {
+          "type": "paragraph",
+          "text": "6ème cas, déficit en facteur"
+        },
+        {
+          "type": "paragraph",
+          "text": "anomalie de ationCoagulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "6ème cas, déficit en facteur"
+        },
+        {
+          "type": "paragraph",
+          "text": "entité anormale"
+        },
+        {
+          "type": "paragraph",
+          "text": "allongé"
+        },
+        {
+          "type": "paragraph",
+          "text": "allongé"
+        },
+        {
+          "type": "paragraph",
+          "text": "ibrinoforme"
+        },
+        {
+          "type": "paragraph",
+          "text": "anomalie de ationCoagulation"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Anomalies de fibrinoformation : - dosage du fibrinogène - temps de thrombine : si prolongé : prise d'anticoagulants ou dysfibrinogénémie d'où la nécessité de prendre le temps de reptilase. - Temps de reptilase : Si temps de thrombine prolongé et temps de reptilase normal : prise d'anticoagulants (héparine) Si temps de thrombine prolongé et temps de reptilase prolongé : dysfibrinogénémie"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "HÉMOSTASE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HÉMOSTASE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dosage spécifique de certains facteurs de la coagulation : - lésions hépatiques : II, VII, IX,"
+        }
+      ]
+    }
+  ]
+}

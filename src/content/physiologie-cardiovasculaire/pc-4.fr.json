@@ -1,0 +1,1771 @@
+{
+  "file": "physio cardiovasculaire/4)regulationdelapressionartérielle_EN.pptx",
+  "chapterId": "pc-4",
+  "title": "Régulation de la pression artérielle",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Physiologie Cardiovasculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physiologie Cardiovasculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapitre 4 : Régulation de la pression artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Année académique 2025-2026"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr REBAÏNE"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bases physiques du trafic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Système haute pression"
+        },
+        {
+          "type": "paragraph",
+          "text": "Régulation de la pression artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Adaptation de la pression artérielle aux situations physiologiques"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Conclusion"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Général",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Général"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-001.emf",
+          "caption": "Général"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Général",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Général"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-001.emf",
+          "caption": "Général"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Bases physiques du trafic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Bases physiques du trafic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Débit cardiaque et débit sanguin :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le débit cardiaque est le volume de sang éjecté par le ventricule gauche (pour la circulation systémique) dans l'aorte chaque minute et est exprimé en ml/min.",
+            "Le débit sanguin est la quantité (volume) de sang qui circule par unité de temps dans une région systémique spécifique (par exemple le débit sanguin rénal)."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Bases physiques du trafic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Bases physiques du trafic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions vasculaires, orthostatisme et clinostatisme"
+        },
+        {
+          "type": "paragraph",
+          "text": "La pression artérielle correspond à la force par unité de surface exercée par le sang sur la paroi vasculaire. Le sang circule des zones où la pression est la plus élevée (ventricule gauche en systole) vers celles où elle est la plus basse (oreillette droite en diastole pour une plus grande circulation)"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Bases physiques du trafic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Bases physiques du trafic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions vasculaires, orthostatisme et clinostatisme"
+        },
+        {
+          "type": "paragraph",
+          "text": "La tension artérielle comporte deux composantes :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la pression dynamique exercée par le ventricule gauche ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la pression hydrostatique due à l'application du vecteur de gravité terrestre sur la colonne sanguine, notamment en position debout."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Bases physiques du trafic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Bases physiques du trafic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions vasculaires, orthostatisme et clinostatisme"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les pressions hydrostatiques sont incapables d'assurer la circulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "sang (artérioveineux) dans les vaisseaux. Seul le travail du cœur, qui crée une pression dynamique sur le sang ventriculaire."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Bases physiques du trafic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Bases physiques du trafic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions vasculaires, orthostatisme et clinostatisme"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-002.png",
+          "caption": "Bases physiques du trafic"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Bases physiques du trafic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Bases physiques du trafic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions vasculaires, orthostatisme et clinostatisme"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Effet de la gravité"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La valeur de l'effet gravitationnel est d'environ 0,77 mm Hg/cm pour une distance verticale au dessus ou en dessous du cœur.",
+            "Ainsi chez un adulte debout dont la pression artérielle moyenne (PAM) est de 100 mm Hg au niveau du cœur :"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "MAP dans une grosse artère du pied (105 cm sous le cœur) = 180 mmHg [100+(O.77x105)]."
+        },
+        {
+          "type": "paragraph",
+          "text": "MAP dans une grosse artère de la tête (50 cm au-dessus du cœur) =62 mmHg [100-(0,77x50)] ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'effet de la gravité sur la pression veineuse est similaire (voir Cours sur la circulation veineuse)."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "Bases physiques du trafic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Bases physiques du trafic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressions vasculaires, orthostatisme et clinostatisme"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les vaisseaux sont entourés de tissus et d’organes qui peuvent exercer une « contre-pression » ou pression extravasculaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "La pression transmurale est la différence entre les pressions intra et extravasculaires."
+        },
+        {
+          "type": "paragraph",
+          "text": "La pression transmurale peut devenir négative dans certaines circonstances, entraînant une compression des vaisseaux et un arrêt transitoire de la perfusion, par exemple lors d'une contraction musculaire ou myocardique."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "Bases physiques du trafic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Bases physiques du trafic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Flux sanguin"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans les artères, le flux sanguin s’organise en couches concentriques du centre vers les parois."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compte tenu de la viscosité du sang, ces couches présentent un certain degré de frottement entre elles, ce qui induit une perte de pression modérée dans l'ensemble de l'arborisation artérielle et une résistance modérée au mouvement du sang."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "Bases physiques du trafic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Bases physiques du trafic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Flux sanguin"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le flux sanguin s'apparente ainsi à un glissement de lames concentriques à vitesses variables, avec des vitesses plus élevées au centre qu'à proximité des parois."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce flux, dit laminaire, se retrouve depuis l'aorte jusqu'aux petites artères avec un profil de vitesse parabolique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les globules rouges sont orientés dans le sens du flux, légèrement décalés vers l'axe central du vaisseau ; la formation d'une fine couche marginale de plasma de 2 à 4 mm d'épaisseur entre chaque couche de globules rouges est décrite."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "Bases physiques du trafic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Bases physiques du trafic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Résistance hémodynamique et loi de Poiseuille"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-003.png",
+          "caption": "Bases physiques du trafic"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "Bases physiques du trafic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Bases physiques du trafic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Résistance hémodynamique et loi de Poiseuille"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque la vitesse moyenne du sang dépasse un certain seuil, comme dans le cas d'une sténose artérielle où les feuillets se désorganisent et le flux prend alors un régime turbulent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Des tourbillons de taille et d’intensité très variées apparaissent. Ces tourbillons sont bruyants et induisent un souffle vasculaire caractéristique à l'auscultation."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I- Caractéristiques du système haute pression"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le secteur résistif haute pression, haute résistance et faible conformation s'étend du ventricule gauche en systole jusqu'aux artérioles et contient 10 à 15 % du volume sanguin :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-haute pression : d'origine dynamique (elle est due à la contraction du ventricule gauche) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- la résistance hémodynamique est presque entièrement localisée au niveau des artérioles ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "vitesse du flux sanguin : diminue progressivement d’artères en artérioles ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "la surface transversale totale augmente de l'aorte aux capillaires ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "mécanismes de contrôle de la pression et du débit ;"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-004.jpg",
+          "caption": "Système haute pression"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Circulation artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "La circulation artérielle a un double rôle :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- le transport du sang"
+        },
+        {
+          "type": "paragraph",
+          "text": "-répartition du débit cardiaque"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Circulation artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Transport du sang à haute pression assuré par les grosses artères :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le sang est éjecté du ventricule gauche sous haute pression (120 mm Hg) et grâce à l'élasticité de la paroi le flux devient continu ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le flux reste efficace grâce à l'énergie que la paroi aortique initialement distendue va restituer au sang en reprenant son diamètre initial (effet Windkessel)."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Circulation artérielle"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-005.jpg",
+          "caption": "Système haute pression"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Circulation artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Transport du sang à haute pression assuré par les grosses artères :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce mécanisme se reproduit pas à pas constituant l'onde artérielle."
+        },
+        {
+          "type": "paragraph",
+          "text": "La propagation de l'onde artérielle va générer une vibration qui est à l'origine du pouls. La prise du pouls fait partie de l’examen clinique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le choc produit par l'étirement des artères sous l'effet de l'arrivée de l'onde de pression peut être palpé sur les artères périphériques."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Circulation artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Répartition du débit cardiaque assurée par les artérioles :"
+        },
+        {
+          "type": "paragraph",
+          "text": "La vasomotion locale (propriété des vaisseaux sanguins à varier en diamètre) adapte le flux sanguin sous pression efficace aux besoins variables des différents organes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le contrôle de la vasomotion dépend :"
+        },
+        {
+          "type": "paragraph",
+          "text": "1-Facteurs intrinsèques : augmentation des besoins locaux → augmentation du flux local ou hyperémie active : régulation locale"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Facteurs extrinsèques : la régulation systémique"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Système nerveux autonome (sympathique)",
+            "Facteurs circulants (catécholamines, angiotensine II, etc.)"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Circulation artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Répartition du débit cardiaque assurée par les artérioles :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les artérioles sont basiques en état de contraction partielle permanente (tonus basal). La contraction des cellules musculaires lisses (CMS) est réflexe, en réponse à la pression intravasculaire et correspond au tonus myogénique inhérent à la vitalité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Des mécanismes de régulation existent pour augmenter (vasoconstriction) ou diminuer ce tonus (vasodilatation)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le mode d'action de la LMC est une contraction lente et soutenue, contrairement aux contractions brèves du muscle cardiaque et plus généralement du muscle strié."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les mécanismes cellulaires et moléculaires qui modulent le radius et donc la résistance des vaisseaux au passage du flux sanguin, vont induire des modifications de la concentration en Ca²⁺ intracellulaire des myocytes vasculaires modulant le tonus basal."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Pression artérielle : définitions"
+        },
+        {
+          "type": "paragraph",
+          "text": "La pression artérielle (TA) ou pression artérielle est la pression dynamique qui prévaut dans les vaisseaux artériels."
+        },
+        {
+          "type": "paragraph",
+          "text": "En maintenant distendues les parois des artères et en assurant la circulation du sang du cœur vers la périphérie, il permet une perfusion efficace des organes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette pression n'est pas constante au cours du cycle cardiaque et passe par deux valeurs extrêmes :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-pression systolique (PAS) : est la pression maximale atteinte dans les artères lors de l'éjection du sang du VG ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-pression diastolique (DBP) : est la pression minimale atteinte juste avant l'éjection ventriculaire."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Pression artérielle : définitions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pression pulsée (PD) : est la différence entre la pression systolique et la pression diastolique :"
+        },
+        {
+          "type": "paragraph",
+          "text": "PD = PAS - PAD"
+        },
+        {
+          "type": "paragraph",
+          "text": "En théorie, nous définissons une pression moyenne efficace qui propulse réellement le sang à travers le système artériel [pression artérielle moyenne (MAP)] qui est identique dans tout le système :"
+        },
+        {
+          "type": "paragraph",
+          "text": "PAM = PAD + 1/3 PD"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mesure de la tension artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mesure directe"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Mesures indirectes"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la méthode auscultatoire avec un brassard de tension ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-système automatisé."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mesure de la tension artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "La tension artérielle peut être mesurée directement sur n'importe quelle grosse artère : cathétérisme artériel relié à un manomètre et à un système d'enregistrement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il s’agit d’une méthode invasive, réservée à un usage hospitalier et à des situations particulières."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mesure de la tension artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "En clinique, elle est mesurée indirectement par la méthode auscultatoire avec un brassard de tensiomètre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le brassard gonflable comprime dans un premier temps une artère et l'auscultation lors d'une décompression lente détecte les bruits liés au flux (sons de Korotkoff). Leur apparition indique la pression artérielle systolique et leur disparition indique la pression artérielle diastolique. L'unité de pression la plus couramment utilisée en physiologie et en pratique clinique reste le millimètre de mercure (mmHg)."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "Mesure de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mesure de la pression artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artère humérale"
+        },
+        {
+          "type": "paragraph",
+          "text": "brassard gonflé à l'air"
+        },
+        {
+          "type": "paragraph",
+          "text": "150"
+        },
+        {
+          "type": "paragraph",
+          "text": "120"
+        },
+        {
+          "type": "paragraph",
+          "text": "70"
+        },
+        {
+          "type": "paragraph",
+          "text": "sons audibles à travers le stéthoscope"
+        },
+        {
+          "type": "paragraph",
+          "text": "aucun son audible"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artère humérale comprimée"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-006.jpg",
+          "caption": "Mesure de la pression artérielle"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "Mesure de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mesure de la pression artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "artère"
+        },
+        {
+          "type": "paragraph",
+          "text": "brassard gonflé à l'air"
+        },
+        {
+          "type": "paragraph",
+          "text": "150"
+        },
+        {
+          "type": "paragraph",
+          "text": "120"
+        },
+        {
+          "type": "paragraph",
+          "text": "70"
+        },
+        {
+          "type": "paragraph",
+          "text": "sons audibles à travers le stéthoscope"
+        },
+        {
+          "type": "paragraph",
+          "text": "aucun son audible"
+        },
+        {
+          "type": "paragraph",
+          "text": "artère comprimée"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-006.jpg",
+          "caption": "Mesure de la pression artérielle"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "Mesure de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mesure de la pression artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "artère"
+        },
+        {
+          "type": "paragraph",
+          "text": "brassard gonflé à l'air"
+        },
+        {
+          "type": "paragraph",
+          "text": "150"
+        },
+        {
+          "type": "paragraph",
+          "text": "120"
+        },
+        {
+          "type": "paragraph",
+          "text": "70"
+        },
+        {
+          "type": "paragraph",
+          "text": "sons audibles à travers le stéthoscope"
+        },
+        {
+          "type": "paragraph",
+          "text": "aucun son audible"
+        },
+        {
+          "type": "paragraph",
+          "text": "artère comprimée"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-006.jpg",
+          "caption": "Mesure de la pression artérielle"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "Système haute pression",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Système haute pression"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mesure de la tension artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Divers systèmes automatisés permettent l'estimation de la pression artérielle. Ils se présentent sous la forme de petits bracelets électroniques et permettent aux patients de surveiller leur tension artérielle en toute autonomie."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "Définitions de l’Organisation mondiale de la santé (OMS)",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Définitions de l’Organisation mondiale de la santé (OMS)"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Catégorie",
+            "PAS DE TAMPON"
+          ],
+          "rows": [
+            [
+              "Optimal",
+              "<120 et <80"
+            ],
+            [
+              "Normale",
+              "120-129 et/ou 80-84"
+            ],
+            [
+              "Normalement élevé",
+              "130-139 et/ou 85-89"
+            ],
+            [
+              "Hypertension artérielle grade 1",
+              "140-159 et/ou 90-99"
+            ],
+            [
+              "HTA niveau 2",
+              "160-179 et/ou 100-109"
+            ],
+            [
+              "HTA niveau 3",
+              "≥180 et/ou ≥110"
+            ],
+            [
+              "Hypertension systolique isolée",
+              "≥140 et/ou <90"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "IV-Mesure de la pression artérielle :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Mesure de la pression artérielle :"
+        },
+        {
+          "type": "paragraph",
+          "text": "50"
+        },
+        {
+          "type": "paragraph",
+          "text": "100"
+        },
+        {
+          "type": "paragraph",
+          "text": "150"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pression (mmHg)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Âge (années)"
+        },
+        {
+          "type": "paragraph",
+          "text": "20"
+        },
+        {
+          "type": "paragraph",
+          "text": "40"
+        },
+        {
+          "type": "paragraph",
+          "text": "60"
+        },
+        {
+          "type": "paragraph",
+          "text": "80"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tension artérielle et âge"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pression systolique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pression moyenne"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pression diastolique"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Déterminants de la tension artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Créée par la contraction ventriculaire gauche et maintenue par la résistance artériolaire, la MAP est le résultat du débit cardiaque (DC), de la résistance périphérique totale (RPT) et du volume sanguin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le volume sanguin varie peu dans les conditions physiologiques et par analogie avec un circuit électrique (loi d'Ohm) on peut écrire :"
+        },
+        {
+          "type": "paragraph",
+          "text": "PAM = DC x RPT"
+        },
+        {
+          "type": "paragraph",
+          "text": "Loi d'Ohm pour les circuits électriques : V = I x R"
+        },
+        {
+          "type": "paragraph",
+          "text": "où le débit est le courant et la pression est la tension."
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "Déterminants de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Déterminants de la pression artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Résistances"
+        },
+        {
+          "type": "paragraph",
+          "text": "PAM = DC x RPT"
+        },
+        {
+          "type": "paragraph",
+          "text": "DC : débit cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "RPT : résistances périphériques totales"
+        },
+        {
+          "type": "paragraph",
+          "text": "Coeur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artères"
+        },
+        {
+          "type": "paragraph",
+          "text": "Veines"
+        },
+        {
+          "type": "paragraph",
+          "text": "Résistances"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Déterminants de la tension artérielle"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Débit cardiaque : DC = VES x HR"
+        },
+        {
+          "type": "paragraph",
+          "text": "VES = VTD - VTS"
+        },
+        {
+          "type": "paragraph",
+          "text": "La DC est influencée par les modifications de la FC, de la contractilité myocardique et du retour veineux."
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Déterminants de la tension artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "2- Les résistances artérielles : sont principalement dues à la résistance artériolaire, c'est-à-dire au rayon des artérioles."
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Déterminants de la tension artérielle"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Résistance artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Selon Poiseuille, la résistance d'un vaisseau (R) est proportionnelle à la viscosité du sang (n) et à la longueur du vaisseau (L) et inversement proportionnelle à son rayon (r) :"
+        },
+        {
+          "type": "paragraph",
+          "text": "R = 8Lη / πr⁴"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la longueur du navire est constante ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la viscosité ne varie que dans certaines circonstances pathologiques (polyglobulie) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le rayon r est variable"
+        },
+        {
+          "type": "paragraph",
+          "text": "Donc R ne dépend que de r."
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Mécanismes de régulation artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "La pression artérielle est la quantité régulée du système cardiovasculaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au repos, la pression artérielle ne varie pas de plus de 100 mm Hg autour de sa valeur moyenne (MAP)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette régulation étroite est le résultat de la superposition et de la complémentarité de différents systèmes qui affectent le débit cardiaque, la fonction vasomotrice et le volume sanguin."
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Régulation à court terme (régulation nerveuse) : se produit en quelques secondes. Cela implique le baroréflexe"
+        },
+        {
+          "type": "paragraph",
+          "text": "barorécepteurs : sont situés dans la paroi de la crosse aortique et des sinus carotidiens ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "les voies nerveuses afférentes et centripètes représentées par les nerfs sinocarotidiens (également appelés nerf sinusal ou nerf de Hering) et le nerf aortique (également appelé nerf de Ludwing-Cyon) qui suivent respectivement les trajets des IXe et Xe paires crâniennes."
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Régulation à court terme (régulation nerveuse) : se produit en quelques secondes. Cela implique le baroréflexe"
+        },
+        {
+          "type": "paragraph",
+          "text": "les centres nerveux régulant les variations de la TA (centres bulbaires d'intégration cardiovasculaire) : centre cardiomodérateur (parasympathique), centre cardioaccélérateur et centre vasomoteur (sympathique) contrôlés par les structures suprabulbaires ;"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Régulation à court terme (régulation nerveuse) : se produit en quelques secondes."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Le baroréflexe"
+        },
+        {
+          "type": "paragraph",
+          "text": "les voies efférentes et centrifuges circulent dans les nerfs vagues (X) et dans les nerfs sympathiques ;"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "les effecteurs"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le (X) agit sur le nœud sinusal en réduisant la HR ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le sympathique agit d'une part sur le nœud sinusal en augmentant la fréquence cardiaque et sur la contractilité cardiaque et d'autre part sur la vasomotion artériolaire périphérique."
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Régulation de la pression artérielle"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-007.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-008.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-009.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Régulation à court terme (régulation nerveuse)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les variations du volume sanguin et de la composition chimique (O₂, CO₂ et pH) détectées respectivement par les volorécepteurs et les chimiorécepteurs sont également transmises au centre bulbaire cardiovasculaire pour réguler la pression artérielle."
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Régulation à court terme (régulation nerveuse)"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Volorécepteurs"
+        },
+        {
+          "type": "paragraph",
+          "text": "-situés dans les parois du système basse pression (notamment les oreillettes et les artères pulmonaires) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-répondre aux variations de volume ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-réflexe similaire à celui des barorécepteurs."
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Régulation à court terme (régulation nerveuse)"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Chimiorécepteurs"
+        },
+        {
+          "type": "paragraph",
+          "text": "-situés au même endroit que les barorécepteurs : chimiorécepteurs aortiques et carotidiens ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-réagir aux variations de concentration en O₂, CO₂ et PH ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-activer à des valeurs MAP comprises entre 40 et 80 mmHg ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-stimulation du centre vasomoteur"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B-Régulation à moyen terme (régulation hormonale) = contrôle moyennement rapide, quelques minutes à quelques heures"
+        },
+        {
+          "type": "paragraph",
+          "text": "1-Catécholamines (adrénaline et noradrénaline) : libérées directement dans le sang par la médullosurrénale suite à une stimulation sympathique, elles provoquent les mêmes effets que la stimulation du nerf sympathique. Leur durée d’action est 10 fois plus longue que celle des nerfs sympathiques."
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "title": "Régulation à moyen terme de la TA : régulation hormonale",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Régulation à moyen terme de la TA : régulation hormonale"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-010.jpg",
+          "caption": "Régulation à moyen terme de la TA : régulation hormonale"
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B-Régulation à moyen terme (régulation hormonale) = contrôle moyennement rapide, quelques minutes à quelques heures"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Système 2-Rénine-angiotensine : actif après 20 minutes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce système permettra la sécrétion d'un puissant agent vasoconstricteur, l'angiotensine II, en réponse à une baisse de la tension artérielle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute diminution de la pression artérielle ou du débit de sodium entraîne la sécrétion de rénine par l'appareil juxta-glomérulaire."
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B-Régulation à moyen terme (régulation hormonale) = contrôle moyennement rapide, quelques minutes à quelques heures"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Système 2-Rénine-angiotensine : actif après 20 minutes"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'angiotensine II a une double action sur la tension artérielle :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-vasoconstriction artériolaire, entraînant une augmentation de la pression artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "augmentation du RPT, cette action s’inscrit dans le cadre d’une régulation à moyen terme"
+        },
+        {
+          "type": "paragraph",
+          "text": "Terme PA ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-stimulation de la sécrétion d'aldostérone par la gloméruleuse, la couche la plus externe du cortex surrénalien, cette action s'inscrit dans la régulation à long terme de la TA."
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-011.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-012.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Régulation C à long terme : efficace dans les heures ou les jours qui suivent un déséquilibre de la pression artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "La régulation hormonale à long terme de la tension artérielle est directement liée au volume sanguin. Cette dernière est déterminée par les mouvements de l’eau et du Na⁺ dans le corps. Ces mouvements sont régulés essentiellement par le rein, toujours via le SRA."
+        },
+        {
+          "type": "paragraph",
+          "text": "La 1-Aldostérone provoque une rétention d'eau et de sel par le tubule distal rénal où elle stimule la réabsorption de Na⁺ et la sécrétion de K⁺ et par conséquent l'augmentation de volume (l'eau suit le sel) et donc l'augmentation de la TA."
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "title": "Régulation de la pression artérielle",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C-Régulation à long terme (régulation hormonale)"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Autres hormones"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hormone antidiurétique (ADH) : libérée suite à une hyperosmolarité ou une hypovolémie, provoque la rétention d'eau libre par le canal collecteur ce qui augmente son volume.",
+            "Peptide natriurétique auriculaire (PAN) : sécrété par les myocytes auriculaires en cas d'augmentation du volume sanguin ou d'hypertension auriculaire, il provoque une réduction du volume sanguin par vasodilatation et augmentation de l'excrétion de sodium et d'eau."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "title": "Adaptation de la pression artérielle aux situations physiologiques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation de la pression artérielle aux situations physiologiques"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Position debout"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une diminution du volume sanguin effectif se produit dans le système circulatoire lors du passage de la position couchée à la position debout. La réduction du retour veineux entraîne une réduction du volume d'éjection (ESV), ce qui réduit le débit cardiaque et, à terme, la pression artérielle. La baisse de la pression artérielle déclenche immédiatement des réactions compensatoires médiées par le baroréflexe."
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "title": "Adaptation de la pression artérielle aux situations physiologiques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation de la pression artérielle aux situations physiologiques"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Stress"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système nerveux soumis à un événement stressant provoque la libération d’hormones ; adrénaline et noradrénaline pour gérer la situation le mieux et le plus rapidement possible. Cette activation est responsable d’effets stimulants cardiovasculaires : augmentation de la fréquence cardiaque et de la pression artérielle."
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "title": "Adaptation de la pression artérielle aux situations physiologiques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation de la pression artérielle aux situations physiologiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3-Sommeil"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant le sommeil lent, baisse de la FC, de l'AP et du débit cardiaque, sans modification des résistances périphériques : diminution du tonus sympathique et augmentation du tonus parasympathique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant le sommeil paradoxal ; variabilité significative de la fréquence cardiaque et de la TA : augmentations phasiques par augmentation du tonus sympathique et diminution du tonus parasympathique."
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "title": "Adaptation de la pression artérielle aux situations physiologiques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation de la pression artérielle aux situations physiologiques"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4-Exercice physique"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’exercice musculaire met également en œuvre une séquence régulatrice importante."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le primum movens est représenté par la vasorelaxation des tissus musculaires impliqués dans l'effort (hyperémie métabolique ou fonctionnelle) sous l'effet de métabolites s'accumulant dans le secteur interstitiel."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque la masse musculaire impliquée est importante, cette vasorelaxation entraîne une baisse des résistances circulatoires périphériques totales. Le débit cardiaque étant, à ce stade, inchangé, il en résulte une baisse de la tension artérielle, activant le baroréflexe."
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "title": "Adaptation de la pression artérielle aux situations physiologiques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation de la pression artérielle aux situations physiologiques"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4-Exercice physique"
+        },
+        {
+          "type": "paragraph",
+          "text": "La fréquence cardiaque augmente proportionnellement à la puissance de l’effort physique. Dans la plupart des types d’exercice, le débit cardiaque a tendance à augmenter proportionnellement plus que la diminution de la résistance périphérique totale, et la MAP augmente donc modérément."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, la pompe veinomusculaire des membres inférieurs est mise en jeu, ce qui améliore le retour veineux et donc, par la loi de Starling, la force d'éjection systolique."
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "title": "Adaptation de la pression artérielle aux situations physiologiques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation de la pression artérielle aux situations physiologiques"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4-Exercice physique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un effort physique intense et prolongé nécessite une redistribution du flux sanguin, en épargnant toujours le cerveau (dont le débit reste constant) et le cœur (dont le débit sanguin coronaire augmente proportionnellement à l'effort)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le flux sanguin est réduit au niveau de la peau, dans les muscles non affectés par l’exercice, et notamment dans le système splanchnique. Cependant, le besoin de thermorégulation se fait rapidement sentir pour neutraliser la vasoconstriction cutanée qui laisse alors place à une vasorelaxation permettant l'évacuation des excès de calories et de la transpiration."
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "title": "Adaptation de la pression artérielle aux situations physiologiques",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation de la pression artérielle aux situations physiologiques"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-013.jpg",
+          "caption": "Adaptation de la pression artérielle aux situations physiologiques"
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "title": "Conclusion :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Conclusion :"
+        },
+        {
+          "type": "paragraph",
+          "text": "BP est constamment réglementé. Ce règlement est :"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "-à court terme, nerveux"
+        },
+        {
+          "type": "paragraph",
+          "text": "* le sympathique a des actions vasculaires et cardiaques : ↑ PA ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "*le parasympathique a des actions essentiellement cardiaques : ↓PA."
+        },
+        {
+          "type": "paragraph",
+          "text": "-à moyen terme humoral : par le RAAS, les catécholamines ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-rénal à long terme : contrôle du volume sanguin par l'ADH et l'aldostérone."
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "title": "Conclusion :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Conclusion :"
+        },
+        {
+          "type": "paragraph",
+          "text": "La connaissance de la régulation de la pression artérielle a de nombreuses applications physiopathologiques"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "(HTA) : médicaments qui agissent"
+        },
+        {
+          "type": "paragraph",
+          "text": "-sur vasomotion = bloqueurs des canaux calciques, IEC,"
+        },
+        {
+          "type": "paragraph",
+          "text": "-sur le métabolisme du sodium = diurétiques,"
+        },
+        {
+          "type": "paragraph",
+          "text": "-sur l'inotropisme et les bloqueurs FC=B."
+        },
+        {
+          "type": "paragraph",
+          "text": "La tension artérielle peut aussi être perturbée dans le sens d'une diminution lorsque les capacités du sympathique sont dépassées en état de choc, et là aussi on a de nombreuses applications thérapeutiques : médicaments vasoactifs, etc."
+        }
+      ]
+    }
+  ]
+}

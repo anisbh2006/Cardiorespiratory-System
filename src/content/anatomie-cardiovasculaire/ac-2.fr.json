@@ -1,0 +1,300 @@
+{
+  "file": "anatomy cardiovasculaire/2)L’anatomiedumédiastin__EN.pdf",
+  "chapterId": "ac-2",
+  "title": "Anatomie du médiastin",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Introduction au médiastin",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Anatomie du médiastin"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Planifier"
+        },
+        {
+          "type": "list",
+          "items": [
+            "I. Définitions",
+            "II. Anatomie générale",
+            "III. Anatomie topographique"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Objectifs"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sachez localiser le médiastin.",
+            "Connaître l'importance de la division topographique du médiastin.",
+            "Connaître les limites du médiastin.",
+            "Connaître les limites de chaque compartiment.",
+            "Connaître le contenu de chaque compartiment."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-2/img-001.jpg",
+          "caption": "Anatomie du médiastin"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Division topographique du médiastin",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III. Anatomie topographique"
+        },
+        {
+          "type": "paragraph",
+          "text": "La division internationale proposée par Nomina Anatomica réalise une division anatomo-chirurgicale du médiastin."
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-2/img-002.jpg",
+          "caption": "Division topographique du médiastin"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-2/img-003.jpg",
+          "caption": "Compartiments médiastinaux"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-2/img-004.jpg",
+          "caption": "Anatomie topographique du médiastin"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-2/img-005.jpg",
+          "caption": "Division médiastinale"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Compartiments médiastinaux",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "1. Médiastin supérieur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Limites"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Direction",
+            "Limite"
+          ],
+          "rows": [
+            [
+              "Antérieur",
+              "Manubrium du sternum"
+            ],
+            [
+              "Postérieur",
+              "Bord antérieur du T4"
+            ],
+            [
+              "Supérieure",
+              "Ouverture thoracique supérieure"
+            ],
+            [
+              "Inférieur",
+              "Un plan transversal passant par la carène et la crosse aortique"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Contenu"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tiers supérieur de l'œsophage.",
+            "Grands vaisseaux et leurs branches.",
+            "Trachée.",
+            "Veine cave supérieure.",
+            "Pôle supérieur du thymus.",
+            "Nerfs phréniques.",
+            "Nerfs vagues (pneumogastriques).",
+            "Nerfs cardiaques.",
+            "Nerf laryngé récurrent gauche.",
+            "Ligament artériel (ligamentum arteriosum).",
+            "Canal thoracique.",
+            "Ganglions lymphatiques paratrachéaux supérieurs.",
+            "Ganglions lymphatiques trachéobronchiques."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "2. Médiastin antérieur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Limites"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Direction",
+            "Limite"
+          ],
+          "rows": [
+            [
+              "Antérieur",
+              "Sternum"
+            ],
+            [
+              "Postérieur",
+              "Face antérieure du péricarde"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Contenu"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vaisseaux thoraciques internes.",
+            "Ganglions lymphatiques parasternaux.",
+            "Ganglions lymphatiques prépéricardiques."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "3. Médiastin moyen"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Limites"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Direction",
+            "Limite"
+          ],
+          "rows": [
+            [
+              "Antérieur",
+              "Face antérieure du péricarde"
+            ],
+            [
+              "Postérieur",
+              "Face postérieure du péricarde"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Contenu"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cœur dans son sac péricardique.",
+            "Vaisseaux pulmonaires.",
+            "Nerfs phréniques.",
+            "Ganglions lymphatiques latéropéricardiques.",
+            "Ganglions lymphatiques trachéobronchiques inférieurs."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "4. Médiastin postérieur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Limites"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Direction",
+            "Limite"
+          ],
+          "rows": [
+            [
+              "Antérieur",
+              "Face postérieure du péricarde"
+            ],
+            [
+              "Postérieur",
+              "Face antérieure de la colonne thoracique"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Contenu"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Œsophage thoracique.",
+            "Aorte thoracique.",
+            "Canal thoracique.",
+            "Veine azygos.",
+            "Veines hémiazygos.",
+            "Nerfs vagues (pneumogastriques).",
+            "Nerfs splanchniques.",
+            "Ganglions lymphatiques juxta-œsophagiens.",
+            "Ganglions lymphatiques prévertébraux.",
+            "Ganglions lymphatiques phréniques-pulmonaires supérieurs."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-2/img-006.jpg",
+          "caption": "Médiastin supérieur"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-2/img-007.jpg",
+          "caption": "Médiastin antérieur et moyen"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-2/img-008.jpg",
+          "caption": "Médiastin postérieur"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-cardiovasculaire/ac-2/img-009.jpg",
+          "caption": "Compartiments médiastinaux"
+        }
+      ]
+    }
+  ]
+}

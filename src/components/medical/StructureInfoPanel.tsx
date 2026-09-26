@@ -4,6 +4,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { useStructureContent } from '@/features/anatomy/useStructureContent'
 import type { AnatomyStructure } from '@/data/types'
+import { useLanguage } from '@/context/LanguageContext'
 
 /**
  * Information panel for a selected anatomical structure.
@@ -14,6 +15,7 @@ import type { AnatomyStructure } from '@/data/types'
  * panel says so explicitly instead of inventing one.
  */
 export function StructureInfoPanel({ structure }: { structure: AnatomyStructure | null }) {
+  const { t } = useLanguage()
   const content = useStructureContent(structure)
 
   if (!structure) {
@@ -23,11 +25,10 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
           <BookOpen className="h-5 w-5" />
         </div>
         <h3 className="mt-4 font-serif text-lg font-semibold text-foreground">
-          Anatomy laboratory
+          {t('anatomy.lab')}
         </h3>
         <p className="mt-2 max-w-xs text-sm leading-relaxed text-muted">
-          Hover over or click a heart structure to highlight it and frame the camera
-          et afficher les informations issues the lesson.
+          {t('anatomy.description')}
         </p>
       </div>
     )
@@ -39,7 +40,7 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
       <div className="border-b border-border p-5">
         <div className="flex items-center gap-2">
           <Badge variant="secondary">
-            {structure.system === 'cardiovascular' ? 'Cardiovascular' : 'Respiratory'}
+            {structure.system === 'cardiovascular' ? t('anatomy.cardiac') : t('anatomy.respiratory')}
           </Badge>
           {content.loading && <Loader2 className="h-3.5 w-3.5 animate-spin text-faint" />}
         </div>
@@ -57,7 +58,7 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
         {/* Course excerpts */}
         <section>
           <h4 className="flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-primary">
-            <FileText className="h-3 w-3" /> Extrait the lesson
+            <FileText className="h-3 w-3" /> {t('anatomy.excerptLabel')}
             {content.chapterTitle ? ` — ${content.chapterTitle}` : ''}
           </h4>
           {content.loading ? (
@@ -82,8 +83,7 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
             </div>
           ) : (
             <p className="mt-3 text-xs italic leading-relaxed text-faint">
-              No matching excerpt was found in the associated chapter. The content does not
-              sera jamais inventé : consultez la leçon complète ci-dessous.
+              {t('anatomy.noExcerpt')}
             </p>
           )}
         </section>
@@ -92,7 +92,7 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
         {content.images.length > 0 && (
           <section>
             <h4 className="flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.2em] text-primary">
-              <ImageIcon className="h-3 w-3" /> Images the lesson
+              <ImageIcon className="h-3 w-3" /> {t('anatomy.imagesLabel')}
             </h4>
             <div className="mt-3 grid grid-cols-2 gap-2">
               {content.images.map((img, i) => (
@@ -118,7 +118,7 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
         {content.lessonPath && (
           <Link to={content.lessonPath} className="block">
             <Button variant="outline" size="sm" className="w-full gap-2">
-              <BookOpen className="h-3.5 w-3.5" /> Ouvrir la leçon complète
+              <BookOpen className="h-3.5 w-3.5" /> {t('anatomy.openFullLesson')}
             </Button>
           </Link>
         )}

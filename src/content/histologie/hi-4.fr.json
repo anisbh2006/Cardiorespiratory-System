@@ -1,0 +1,917 @@
+{
+  "file": "histology/4)Histologydelarate_EN.pptx",
+  "chapterId": "hi-4",
+  "title": "Histologie de la rate",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "DR F BAIRI DR Y BOUDIAF",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "DR F BAIRI DR Y BOUDIAF"
+        },
+        {
+          "type": "paragraph",
+          "text": "LABORATOIRE DE BIOLOGIE CELLULAIRE HÔPITAL NEFISSA HAMOUD"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "LA rate",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "LA rate"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Introduction",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "La rate est un organe lymphoïde secondaire de localisation abdominale placé sur le trajet sanguin situé au niveau de l'hypocondre gauche."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-001.png",
+          "caption": "Introduction"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Introduction",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-002.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Introduction",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-003.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Rappel Embryologique",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Rappel Embryologique"
+        },
+        {
+          "type": "paragraph",
+          "text": "La rate apparaît vers la 5ème semaine du développement embryonnaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "D'origine exclusivement mésenchymateuse, son contour se construit dans l'intestin moyen postérieur ou dorsal suite à une prolifération locale de la couche coelomique."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-004.png",
+          "caption": "Rappel Embryologique"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-005.png",
+          "caption": "Rappel Embryologique"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "structures",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "structures"
+        },
+        {
+          "type": "paragraph",
+          "text": "La rate propose de décrire trois types de constituants :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les éléments conjonctifs, formant la charpente fibro-élastique et musculaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "La pulpe splénique avec ses deux aspects : pulpe blanche et pulpe rouge."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système vasculaire sanguin."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-006.png",
+          "caption": "structures"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Éléments de connexion.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Éléments de connexion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le squelette fibreux de la rate comprend :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-une capsule enveloppe périphérique formée de fibres de collagène, de fibres élastiques et de fibres musculaires lisses."
+        },
+        {
+          "type": "paragraph",
+          "text": "-des cloisons issues de la face profonde de la capsule délimitant incomplètement des lobes dont le parenchyme est subdivisé en lobules par des trabécules secondaires, ces trabécules se poursuivent dans une ossature réticulaire qui supporte la pulpe splénique."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-007.png",
+          "caption": "Éléments de connexion."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Éléments conjonctifs de la rate observés en microscopie optique à moyen grossissement (Hemalun-éosine-safran)",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Éléments conjonctifs de la rate observés en microscopie optique à moyen grossissement (Hemalun-éosine-safran)"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1 capsule"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2 grandes travées fibreuses qui divisent la rate en aréoles spléniques."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Travée à 3 connexions"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-008.jpg",
+          "caption": "Éléments conjonctifs de la rate observés en microscopie optique à moyen grossissement (Hemalun-éosine-safran)"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "La pulpe splénique.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La pulpe splénique."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Comportement à étudier"
+        },
+        {
+          "type": "paragraph",
+          "text": "- un réticulum ou cadre."
+        },
+        {
+          "type": "paragraph",
+          "text": "- une pulpe rouge."
+        },
+        {
+          "type": "paragraph",
+          "text": "- pulpe blanche"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-009.png",
+          "caption": "La pulpe splénique."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-010.png",
+          "caption": "La pulpe splénique."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "Le cadre ou réticulum.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le cadre ou réticulum."
+        },
+        {
+          "type": "paragraph",
+          "text": "Est à la fois :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- cellulaire : cellules réticulaires et leurs extensions."
+        },
+        {
+          "type": "paragraph",
+          "text": "- fibrillaire : fibres de réticuline, fibrilles de collagène et fibrilles élastiques."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-011.png",
+          "caption": "Le cadre ou réticulum."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "Le cadre réticulaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le cadre réticulaire"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Cellules réticulaires : 2-Fibres de réticuline"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellules réticulaires en microscopie optique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Coloration hémalun-éosine-safran"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fibres de réticuline (imprégnation d'argent)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-012.png",
+          "caption": "Le cadre réticulaire"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-013.png",
+          "caption": "Le cadre réticulaire"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "Le cadre réticulaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Comme le ganglion lymphatique et la moelle, le stroma de soutien de la rate est composé de cellules et de fibres réticulaires. Le réseau réticulaire s'étend à la pulpe rouge et à la pulpe blanche"
+        },
+        {
+          "type": "paragraph",
+          "text": "p"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cadre de rate Coloration à l'argent"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-014.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "Le cadre réticulaire",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vue générale d'une rate en microscopie optique à faible grossissement colorée à l'hémalun-éosine-safran. 1-capsule 2-pulpe blanche ; Pulpe 3-rouge"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-015.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "Parenchyme splénique (H-E-S)",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Parenchyme splénique (H-E-S)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pulpe rouge"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pulpe blanche"
+        },
+        {
+          "type": "paragraph",
+          "text": "Microscopie optique (grossissement moyen)"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-artériole folliculaire, 2-manchon lymphoïde"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "Follicule 3-lymphoïde ; 4-coiffe; Zone à 5 marges"
+        },
+        {
+          "type": "paragraph",
+          "text": "Microscopie optique (grossissement moyen)"
+        },
+        {
+          "type": "paragraph",
+          "text": "capillaire sinusoïdal entouré de cordes de Billroth"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-016.png",
+          "caption": "Parenchyme splénique (H-E-S)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-017.jpg",
+          "caption": "Parenchyme splénique (H-E-S)"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "La pulpe rouge.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La pulpe rouge."
+        },
+        {
+          "type": "paragraph",
+          "text": "Constitué de capillaires veineux sinusoïdaux et de cordons cellulaires ou cordons BILLROTH."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-010.png",
+          "caption": "La pulpe rouge."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-009.png",
+          "caption": "La pulpe rouge."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "Les sinus veineux de la pulpe rouge splénique",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Les sinus veineux de la pulpe rouge splénique"
+        },
+        {
+          "type": "paragraph",
+          "text": "examinés en mo à fort grossissement sont bordés par :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- cellules endothéliales ou cellules littorales, fusiformes, éloignées les unes des autres."
+        },
+        {
+          "type": "paragraph",
+          "text": "2- un feutrage péricellulaire de fibres de réticuline, d'orientation circulaire appelées fibres de HENLE au sein d'un espace périsinusal."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-018.png",
+          "caption": "Les sinus veineux de la pulpe rouge splénique"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "Les sinus veineux de la pulpe rouge splénique",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-019.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-020.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "La pulpe rouge",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La pulpe rouge"
+        },
+        {
+          "type": "paragraph",
+          "text": "Détail d'une sinusoïde dans la pulpe rouge. Sa paroi est constituée d’endothélium discontinu, ce qui permet aux cellules sanguines d’entrer et de sortir facilement."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-021.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "La pulpe rouge",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "3-les cordons de BILLROTH, formés de macrophages et de cellules lymphoïdes (cellules B et ses dérivés) libres dans les mailles du réticulum cellulofibrillaire : globules rouges, plaquettes, plasmocytes, mastocytes, macrophages, lymphoB"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-022.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "La pulpe rouge",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-023.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "La pulpe blanche.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La pulpe blanche."
+        },
+        {
+          "type": "paragraph",
+          "text": "Constitué de tissu lymphoïde développé autour des artères de la pulpe splénique présentant des renflements visibles : les corpuscules de MALPIGHI qui sont des nodules lymphoïdes d'aspect blanchâtre avec un centre germinal clair et un système capillaire provenant de l'artère corpusculaire."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-024.png",
+          "caption": "La pulpe blanche."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "La pulpe blanche.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-025.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Corpuscules MALPIGUI",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Corpuscules MALPIGUI"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Leur structure comprend"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- une armature cellulo-fibrillaire."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- cellules libres"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les macrophages."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Lymphocytes T de la couche profonde de la gaine périartérielle.",
+            "Lymphocytes B de la couche superficielle de la gaine périartérielle, organisés en nodules primaires ou nodules secondaires possédant chacun un centre germinal."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les lymphocytes entrent et sortent de la gaine lymphoïde périartérielle par les capillaires sanguins de l'artériole centrale situés dans la zone marginale séparant le tissu lymphoïde de la pulpe rouge."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3 vaisseaux sanguins nourrissants."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4-fibres nerveuses non myélinisées."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les corpuscules MALPIGHI de la pulpe blanche splénique examinés en mo à fort grossissement sont des nodules traversés par une artériole."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-024.png",
+          "caption": "Corpuscules MALPIGUI"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "CIRCULATION SANGUINE INTRA-SPLÉNIQUE.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "CIRCULATION SANGUINE INTRA-SPLÉNIQUE."
+        },
+        {
+          "type": "paragraph",
+          "text": "1- sur le plan topographique : les artérioles pulpaires donnent naissance aux artérioles corpusculaires dans le corpuscule de MALPIGHI, ces dernières se divisent en artérioles terminales pénicillées."
+        },
+        {
+          "type": "paragraph",
+          "text": "2-morphologiquement : l'extrémité terminale des artérioles pénicillées est munie d'un dispositif contractile : la couverture SCHWEIGER-SEIDEL."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les formations sphinctériennes caractérisent les segments capillaires du réseau veineux."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-026.png",
+          "caption": "CIRCULATION SANGUINE INTRA-SPLÉNIQUE."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "CIRCULATION SANGUINE INTRA-SPLÉNIQUE.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-027.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "Au niveau de la pulpe blanche",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Au niveau de la pulpe blanche"
+        },
+        {
+          "type": "paragraph",
+          "text": "La majorité des lymphocytes T spléniques résident dans la partie non nodulaire de la gaine périartérielle entourant immédiatement l'artériole centrale. Les macrophages ont tendance à se rassembler dans la zone marginale entre la pulpe blanche et la pulpe rouge et, à ce niveau, ils commencent à traiter les globules rouges en vue d'une éventuelle phagocytose."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "3-fonctionnellement, la circulation splénique est dite",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3-fonctionnellement, la circulation splénique est dite"
+        },
+        {
+          "type": "paragraph",
+          "text": "- ouvert : le sang circule dans les cordons BILLROTH avant d'atteindre les sinus veineux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les sphincters de la paroi des capillaires veineux régulent le passage du sang et de ses éléments structuraux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fermé Depuis les sinusoïdes, les cellules peuvent atteindre les cordons de Billroth en passant par le"
+        },
+        {
+          "type": "paragraph",
+          "text": "orifices de la paroi vasculaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "il existe un échange permanent de cellules circulantes entre le lit vasculaire et les cordons de la pulpe rouge."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-028.png",
+          "caption": "3-fonctionnellement, la circulation splénique est dite"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "3-fonctionnellement, la circulation splénique est dite",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-029.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "HISTOPHYSIOLOGIE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "HISTOPHYSIOLOGIE"
+        },
+        {
+          "type": "paragraph",
+          "text": "La rate remplit une fonction :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-hématopoïétique pendant la vie fœtale du 4ème au 7ème mois"
+        },
+        {
+          "type": "paragraph",
+          "text": "-purification du sang grâce aux macrophages"
+        },
+        {
+          "type": "paragraph",
+          "text": "-destruction des globules rouges."
+        },
+        {
+          "type": "paragraph",
+          "text": "-coopération cellulaire lors de réactions immunitaires."
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "Rôles des lymphocytes.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Rôles des lymphocytes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les cellules immunologiquement compétentes ont la capacité de réagir spécifiquement à l’ATG."
+        },
+        {
+          "type": "paragraph",
+          "text": "En l’absence d’ATG, les lymphocytes ont une durée de vie courte."
+        },
+        {
+          "type": "paragraph",
+          "text": "En présence d'ATG, les lymphocytes sont spécifiquement activés"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les lymphocytes B activés se différencient en :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lympho B à mémoire de longue durée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Plasmocytes qui sécrètent de l'AC ou des Ig circulantes."
+        },
+        {
+          "type": "paragraph",
+          "text": "-les lymphocytes T activés se différencient en :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les lymphocytes T à mémoire de longue durée permettent une réaction secondaire plus rapide et plus intense."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lympho T cytotoxique, impliquée dans le rejet du greffon."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les assistants, suppresseurs et amplificateurs Lympho T sont utilisés pour réguler les réactions immunitaires."
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "Le système des macrophages",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le système des macrophages"
+        },
+        {
+          "type": "paragraph",
+          "text": "ou phagocytes mononucléés anciennement réticulohistiocytaires est constitué d'éléments cellulaires :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-des monocytes sanguins."
+        },
+        {
+          "type": "paragraph",
+          "text": "-diffuser dans le corps"
+        },
+        {
+          "type": "paragraph",
+          "text": "-doué de propriétés biologiques particulières, à savoir :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-mobilité (pseudopodes, mouvements amiboïdes)"
+        },
+        {
+          "type": "paragraph",
+          "text": "-plasticité."
+        },
+        {
+          "type": "paragraph",
+          "text": "- des capacités phagocytaires (riches en lysosomes)."
+        },
+        {
+          "type": "paragraph",
+          "text": "-transport d'ATG."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "Topographiquement, les macrophages se trouvent à :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Topographiquement, les macrophages se trouvent à :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- tissu conjonctif : histiocyte (cellule fixe) ou macrophage (cellule mobile)."
+        },
+        {
+          "type": "paragraph",
+          "text": "-de la charpente des organes hématopoïétiques : cellules littorales."
+        },
+        {
+          "type": "paragraph",
+          "text": "-du foie : cellule de KUPFFER."
+        },
+        {
+          "type": "paragraph",
+          "text": "-du poumon : cellule alvéolaire septale."
+        },
+        {
+          "type": "paragraph",
+          "text": "-peau : Cellule de LANGERHANS de l'épiderme."
+        },
+        {
+          "type": "paragraph",
+          "text": "-névroglie : microgliocytes."
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "Phagocytes spléniques (macrophages) chargés de particules d'hémosidérine jaune brunâtre, ingérées lors de la destruction des globules rouges morts.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Phagocytes spléniques (macrophages) chargés de particules d'hémosidérine jaune brunâtre, ingérées lors de la destruction des globules rouges morts."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'hémosidérine, présente dans les cellules macrophages de la rate, est ici mise en évidence par coloration de Perls"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-030.jpg",
+          "caption": "Phagocytes spléniques (macrophages) chargés de particules d'hémosidérine jaune brunâtre, ingérées lors de la destruction des globules rouges morts."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-031.png",
+          "caption": "Phagocytes spléniques (macrophages) chargés de particules d'hémosidérine jaune brunâtre, ingérées lors de la destruction des globules rouges morts."
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "Phagocytes spléniques (macrophages) chargés de particules d'hémosidérine jaune brunâtre, ingérées lors de la destruction des globules rouges morts.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Phagocytes spléniques (macrophages) chargés de particules d'hémosidérine jaune brunâtre, ingérées lors de la destruction des globules rouges morts."
+        },
+        {
+          "type": "paragraph",
+          "text": "La rate filtre et « nettoie » le sang de la même manière que les ganglions lymphatiques filtrent la lymphe."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-4/img-031.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "conclusion",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "conclusion"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Organe hémolytique où est assurée la destruction des globules rouges âgés.",
+            "Organe lymphoïde assurant la reconnaissance et la capture des ATG circulant dans le sang et déclenchant la différenciation des cellules immunocompétentes"
+          ]
+        }
+      ]
+    }
+  ]
+}

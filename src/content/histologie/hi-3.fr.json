@@ -1,0 +1,2789 @@
+{
+  "file": "histology/3)Histologydesorganeshematopoïetiques__EN.pptx",
+  "chapterId": "hi-3",
+  "title": "Histologie des organes hématopoïétiques",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Organes hématopoïétiques (première partie) moelle osseuse – ganglion lymphatique Tissu MALT",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Organes hématopoïétiques (première partie) moelle osseuse – ganglion lymphatique Tissu MALT"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr H. BOUZERIA CPMC Alger"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-001.jpg",
+          "caption": "Organes hématopoïétiques (première partie) moelle osseuse – ganglion lymphatique Tissu MALT"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I – Introduction aux organes hématopoïétiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryologie Lignées de moelle osseuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Moelle osseuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histo-physiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Ganglion lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rappels sur le système lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascularisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histo-physiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Tissu lymphoïde disséminé."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "INTRODUCTION",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "INTRODUCTION"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les organes hématopoïétiques sont des organes qui assurent l'hématopoïèse, leur topographie, leur texture (structure) ainsi que leur fonction varient selon l'âge de l'individu."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "DÉFINITION",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "DÉFINITION"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hématopoïèse : correspond aux différentes étapes de"
+        },
+        {
+          "type": "paragraph",
+          "text": "Différenciation + maturation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Éléments figuratifs du sang"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-002.jpg",
+          "caption": "DÉFINITION"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Cellule souche pluripotente",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cellule souche pluripotente"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ou « UFC »"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule souche myéloïde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule souche lymphoïde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère LT"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère LB"
+        },
+        {
+          "type": "paragraph",
+          "text": "lymphoblastes T"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lymphocytes T"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lymphoblastes B"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lymphocytes B"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "neutrophile et monocytaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "neutrophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "monocytaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monoblaste"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monocytes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Myéloblaste"
+        },
+        {
+          "type": "paragraph",
+          "text": "Promyélocyte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Myélocyte neutrophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Métamyélocyte neutrophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Granulocytes neutrophiles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "érythrocyte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mégacaryocytaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "éosinophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "basophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Granulocytes éosinophiles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mégacaryoblaste"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mégacaryoblaste basophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mégacaryoblaste granulaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mégacaryoblaste thrombocytogénique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plaquettes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Proérythroblaste"
+        },
+        {
+          "type": "paragraph",
+          "text": "Érythroblaste basophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Érythroblaste polychromatophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Érythroblaste acidophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Réticulocytes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Globule rouge"
+        },
+        {
+          "type": "paragraph",
+          "text": "Granulocytes basophiles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule souche pluripotente"
+        },
+        {
+          "type": "paragraph",
+          "text": "HÉMATOPOÏÈSE"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Organes hématopoïétiques",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Organes hématopoïétiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sont de 2 types"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tissu myéloïde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tissu lymphoïde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Moelle osseuse hématogène"
+        },
+        {
+          "type": "paragraph",
+          "text": "Organes lymphoïdes"
+        },
+        {
+          "type": "paragraph",
+          "text": "infiltrats lymphoïdes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nœuds"
+        },
+        {
+          "type": "paragraph",
+          "text": "lymphatiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Manqué"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thymus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tissu lymphoïde disséminé « MALT »"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Thymus",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Thymus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Manqué"
+        },
+        {
+          "type": "paragraph",
+          "text": "Moelle osseuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ganglions lymphatiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaisseaux lymphatiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plaques de paie"
+        },
+        {
+          "type": "paragraph",
+          "text": "Annexe"
+        },
+        {
+          "type": "paragraph",
+          "text": "végétations adénoïdes"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-003.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "CLASSIFICATION DES ORGANES",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "CLASSIFICATION DES ORGANES"
+        },
+        {
+          "type": "paragraph",
+          "text": "HÉMATOPOÏÉTIQUE"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Organes hématopoïétiques",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Organes hématopoïétiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Primaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Secondaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Moelle osseuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thymus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ganglions lymphatiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Manqué"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tissu lymphoïde disséminé"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I – Introduction aux organes hématopoïétiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryologie"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lignes de moelle osseuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Moelle osseuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histo-physiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Ganglion lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informations générales sur le système lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascularisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histo-physiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Tissu lymphoïde disséminé."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "l'hématopoïèse est double",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "L'origine embryologique des organes"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "l'hématopoïèse est double"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est mésoblastique pour tous les organes hématopoïétiques sauf le thymus qui a une double origine embryologique, mésoblastique et entoblastique (car les cellules réticulaires de la charpente du thymus sont d'origine entoblastique)."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "LIEUX DE L'HÉMATOPOIESE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "LIEUX DE L'HÉMATOPOIESE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nous définissons 3 périodes successives de la vie embryonnaire à l'âge adulte :"
+        },
+        {
+          "type": "paragraph",
+          "text": "a/ Période pré-hépatique ou mésoblastique : de la 3ème semaine jusqu'à la fin du 2ème mois de la vie intra-utérine."
+        },
+        {
+          "type": "paragraph",
+          "text": "Apparition de cellules sanguines primordiales dans le mésenchyme extra-embryonnaire (près du sac vitellin), sous forme d'amas de cellules appelés îlots de Wolff et Pander."
+        },
+        {
+          "type": "paragraph",
+          "text": "b/ période hépatosplénique : du 3ème mois au 8ème mois de la vie intra-utérine : les cellules sanguines migrent dans le foie puis dans la rate avec une activité hématopoïétique importante au niveau de la rate et surtout au niveau du foie."
+        },
+        {
+          "type": "paragraph",
+          "text": "c/ période lymphomédullaire : Migration des cellules sanguines dans la moelle osseuse et le tissu lymphoïde : Elle débute entre le 4ème et le 5ème mois de la vie fœtale et se poursuit tout au long de la vie de l'individu."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "Sac vitellin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sac vitellin"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tache embryonnaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Allantoïde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pédicule embryonnaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Îles Wolff et Pander"
+        },
+        {
+          "type": "paragraph",
+          "text": "LIEUX DE L'HÉMATOPOIESE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryon humain de 03 semaines (coupe sagittale)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-004.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "Localisations de l'hématopoïèse de la vie embryonnaire à la naissance",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Localisations de l'hématopoïèse de la vie embryonnaire à la naissance"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-005.emf",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I – Introduction aux organes hématopoïétiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryologie Lignées de moelle osseuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Moelle osseuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Ganglion lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informations générales sur le système lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascularisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Tissu lymphoïde disséminé."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "Cellule souche pluripotente",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cellule souche pluripotente"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ou « UFC »"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule souche myéloïde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule souche lymphoïde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère LT"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère LB"
+        },
+        {
+          "type": "paragraph",
+          "text": "lymphoblastes T"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lymphocytes T"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lymphoblastes B"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lymphocytes B"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "neutrophile et monocytaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "neutrophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "monocytaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monoblaste"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monocytes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Myéloblaste"
+        },
+        {
+          "type": "paragraph",
+          "text": "Promyélocyte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Myélocyte neutrophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Métamyélocyte neutrophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Granulocytes neutrophiles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "érythrocyte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mégacaryocytaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "éosinophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule mère"
+        },
+        {
+          "type": "paragraph",
+          "text": "basophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Granulocytes éosinophiles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mégacaryoblaste"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mégacaryoblaste basophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mégacaryoblaste granulaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mégacaryoblaste thrombocytogénique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plaquettes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Proérythroblaste"
+        },
+        {
+          "type": "paragraph",
+          "text": "Érythroblaste basophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Érythroblaste polychromatophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Érythroblaste acidophile"
+        },
+        {
+          "type": "paragraph",
+          "text": "Réticulocytes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Globule rouge"
+        },
+        {
+          "type": "paragraph",
+          "text": "Granulocytes basophiles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellule souche pluripotente"
+        },
+        {
+          "type": "paragraph",
+          "text": "HÉMATOPOÏÈSE"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I – Introduction aux organes hématopoïétiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryologie de la lignée de la moelle osseuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Moelle osseuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histo-physiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Ganglion lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informations générales sur le système lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascularisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histo-physiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Tissu lymphoïde disséminé."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "MOELLE OSSEUSE",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "MOELLE OSSEUSE"
+        },
+        {
+          "type": "paragraph",
+          "text": "C'est le lieu unique de l'hématopoïèse après la naissance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trouvé dans les cavités de l'os spongieux et les cavités médullaires de"
+        },
+        {
+          "type": "paragraph",
+          "text": "diaphyse et pèse entre 2 et 4 kg."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il existe 3 types de moelle osseuse :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Moelle osseuse rouge hématogène"
+        },
+        {
+          "type": "paragraph",
+          "text": "Moelle jaune"
+        },
+        {
+          "type": "paragraph",
+          "text": "Moelle grise"
+        },
+        {
+          "type": "paragraph",
+          "text": "Os sternals, os coxaux (os iliaques)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Os spongieux du crâne,"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vertèbres, côtes,"
+        },
+        {
+          "type": "paragraph",
+          "text": "épiphyse de l'humérus"
+        },
+        {
+          "type": "paragraph",
+          "text": "et fémur"
+        },
+        {
+          "type": "paragraph",
+          "text": "La moelle osseuse longue perd progressivement son activité et est envahie par les cellules adipeuses"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fibreux : la fibrose remplace la moelle jaune"
+        },
+        {
+          "type": "paragraph",
+          "text": "Enfant et jeune adulte : retrouvé dans les cavités de tous les os :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trouvé chez les sujets âgés"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trouvé chez les adultes"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I – Introduction aux organes hématopoïétiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryologie Lignées de moelle osseuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Moelle osseuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histo-physiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Ganglion lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informations générales sur le système lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascularisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histo-physiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Tissu lymphoïde disséminé."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "Biopsie ostéomédullaire (OMB)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Biopsie ostéomédullaire (OMB)"
+        },
+        {
+          "type": "paragraph",
+          "text": "La biopsie de la crête iliaque postérieure révèle un petit fragment cylindrique (= noyau) de moelle osseuse de 15 à 30 mm de long et de 1,2 à 1,5 mm de diamètre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce fragment de moelle osseuse est fixé puis décalcifié puis déshydraté et inclus en paraffine."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le fragment est ensuite découpé longitudinalement en fines tranches (= coupes en paraffine) de 3 µm d'épaisseur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les coupes sont déparaffinées et colorées avec plusieurs techniques."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-006.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "Biopsie ostéomédullaire (OMB)",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-007.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "Biopsie ostéomédullaire (OMB)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "les lamelles osseuses (en rouge) délimitent des cellules, contenant des cellules d'hématopoïèse (en violet) et des globules graisseux (zones translucides) (coloration HES)."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-008.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "Lamelle osseuse",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lamelle osseuse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Granulocytes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mégacaryocyte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Île érythroblastique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Coupe histologique de moelle osseuse observée au microscope optique"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-009.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Moelle osseuse observée au microscope optique à fort grossissement",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Moelle osseuse observée au microscope optique à fort grossissement"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-010.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "Normoblaste orthochromatique",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Normoblaste orthochromatique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Schéma représentant une coupe histologique de BM observée au microscope optique"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-011.png",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-012.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "1 - Cellules adipeuses ou adipocytes.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "La moelle osseuse examinée sous un grossissement moyen apparaît être constituée d'un ensemble hétérogène de cellules :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1 - Cellules adipeuses ou adipocytes."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2 - les grosses cellules aux noyaux bourgeonnants : ce sont les mégacaryocytes."
+        },
+        {
+          "type": "paragraph",
+          "text": "3 -Cellules polymorphes : correspond à des cellules de lignées différentes à différents stades de maturation (différents stades d'hématopoïèse)"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "1/ Une charpente : composée de fibres de réticuline et de cellules réticulaires.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "LE PARENCHYME DE LA MOELLE OSSEUSE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les cellules de la moelle se trouvent dans un parenchyme, ce dernier est constitué de :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1/ Une charpente : composée de fibres de réticuline et de cellules réticulaires."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2/Capillaires sinusoïdes : ont une paroi discontinue et absence de membrane basale."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "Normoblaste orthochromatique",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Normoblaste orthochromatique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Schéma représentant une coupe histologique de BM observée au microscope optique"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-011.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I – Introduction aux organes hématopoïétiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryologie Lignées de moelle osseuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Moelle osseuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Ganglion lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informations générales sur le système lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascularisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Tissu lymphoïde disséminé."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-013.jpg",
+          "caption": "IV-Tissu lymphoïde disséminé."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I – Introduction aux organes hématopoïétiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryologie Lignées de moelle osseuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Moelle osseuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Ganglion lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informations générales sur le système lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascularisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Tissu lymphoïde disséminé."
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "HÉMATOPOÏÈSE ET LYMPHOPOÏÈSE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "HÉMATOPOÏÈSE ET LYMPHOPOÏÈSE."
+        },
+        {
+          "type": "paragraph",
+          "text": "DESTRUCTION DES GLOBULES ROUGES VIEILLIS PAR « MACROPAGES »"
+        },
+        {
+          "type": "paragraph",
+          "text": "DÉFENSE DE L'ORGANISATION PAR"
+        },
+        {
+          "type": "paragraph",
+          "text": "IMMUNITÉ HUMORALE ET CELLULAIRE"
+        },
+        {
+          "type": "paragraph",
+          "text": "HISTOPHYSIOLOGIE DE LA MOELLE OSSEUSE"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I – Introduction aux organes hématopoïétiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryologie Lignées de moelle osseuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Moelle osseuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Ganglion lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informations générales sur le système lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascularisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Tissu lymphoïde disséminé."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "Canal thoracique",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Canal thoracique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ganglion lymphatique axillaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Manqué"
+        },
+        {
+          "type": "paragraph",
+          "text": "Payer la plaque de l'intestin grêle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ganglion lymphatique inguinal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ganglion lymphatique iliaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Amygdale palatine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ganglion sous-maxillaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ganglion lymphatique cervical"
+        },
+        {
+          "type": "paragraph",
+          "text": "Canal lymphatique droit"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thymus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaisseau lymphatique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Réservoir"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ganglion lymphatique intestinal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Annexe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Canal thoracique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système lymphatique est un"
+        },
+        {
+          "type": "paragraph",
+          "text": "« circuit », constitué de tous les vaisseaux et ganglions lymphatiques mais aussi des organes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Organisation du tissu lymphoïde"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-014.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "Rappels sur la circulation lymphatique",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Rappels sur la circulation lymphatique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le liquide interstitiel qui circule dans les vaisseaux lymphatiques est appelé lymphe."
+        },
+        {
+          "type": "paragraph",
+          "text": "La lymphe provient du sang, s'accumule dans le secteur interstitiel puis circule dans les vaisseaux lymphatiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système lymphatique intervient dans le processus de défense de l'organisme en permettant aux cellules de défense de circuler dans tout l'organisme et d'activer ainsi la réponse immunitaire dite spécifique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Réseau capillaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Réseau capillaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaisseaux lymphatiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ganglion lymphatique"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-015.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "LYMPHE : Provient du sang,",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "LYMPHE : Provient du sang,"
+        },
+        {
+          "type": "paragraph",
+          "text": "Liquide organique translucide dont la composition est proche du plasma. Rôle immunitaire."
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-016.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "Infiltrat lymphoïde",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Infiltrat lymphoïde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nodule lymphoïde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Clusters cellulaires simples sans limites précises"
+        },
+        {
+          "type": "paragraph",
+          "text": "Formation très limitée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Peut être primaire ou secondaire. Le secondaire possède un centre germinal constitué de lymphocytes B activés"
+        },
+        {
+          "type": "paragraph",
+          "text": "Organisation du tissu lymphoïde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nodule lymphoïde primaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nodule lymphoïde secondaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Centre germinal Fleming"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lymphocytes"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-017.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "title": "Infiltrat lymphoïde",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Coupe histologique d'un ganglion lymphatique observée au microscope optique à moyen grossissement (follicule lymphoïde secondaire)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-018.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I – Introduction aux organes hématopoïétiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryologie Lignées de moelle osseuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Moelle osseuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Ganglion lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informations générales sur le système lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascularisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Tissu lymphoïde disséminé."
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Le ganglion lymphatique est un organe lymphoïde secondaire, arrondi ou ovoïde, bien délimité par une capsule."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mesure entre 0,5 et 1 cm à l'état normal."
+        },
+        {
+          "type": "paragraph",
+          "text": "La partie convexe reçoit les vaisseaux lymphatiques afférents"
+        },
+        {
+          "type": "paragraph",
+          "text": "La région concave correspond au HILE du ganglion lymphatique ; c'est le point d'entrée de l'artère ganglionnaire et le point de sortie de la veine ganglionnaire et d'un seul vaisseau lymphatique efférent."
+        },
+        {
+          "type": "paragraph",
+          "text": "H"
+        },
+        {
+          "type": "paragraph",
+          "text": "HILE"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-019.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-020.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I – Introduction aux organes hématopoïétiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryologie Lignées de moelle osseuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Moelle osseuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Ganglion lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informations générales sur le système lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascularisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Tissu lymphoïde disséminé."
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "title": "STRUCTURE DU NŒUD LYMPHATIQUE :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "STRUCTURE DU NŒUD LYMPHATIQUE :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Examen au microscope optique à faible grossissement d'une coupe longitudinale"
+        },
+        {
+          "type": "paragraph",
+          "text": "d'un ganglion lymphatique (et après coloration à l'hémalun éosine), montre :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une capsule enveloppe fibro-élastique, entourée de tissu adipeux, la capsule"
+        },
+        {
+          "type": "paragraph",
+          "text": "émet des trabécules conjonctives qui convergent vers le hile délimitant les logettes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Entre la capsule et les différentes trabécules, de nombreuses fibres de"
+        },
+        {
+          "type": "paragraph",
+          "text": "réticulines et cellules réticulaires constituant la charpente réticulaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le parenchyme ganglionnaire est représenté par deux zones bien distinctes ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "une zone corticale périphérique dense et sombre, riche en nodules lymphoïdes qui sont localisés dans les logettes (2 à 3 follicules ou nodules lymphoïdes par logette et ils sont soit primaires, soit secondaires)."
+        },
+        {
+          "type": "paragraph",
+          "text": "une zone médullaire profonde et claire avec des cordons folliculaires."
+        },
+        {
+          "type": "paragraph",
+          "text": "Et une zone para-corticale, moins distincte, située entre la zone corticale et la zone médullaire."
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "title": "STRUCTURE DU NŒUD LYMPHATIQUE :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Coupe histologique d'un ganglion lymphatique observée au microscope optique à faible grossissement"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-021.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "title": "Capsule et cadre conjonctif",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Capsule et cadre conjonctif"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capsule"
+        },
+        {
+          "type": "paragraph",
+          "text": "Septum interfolliculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Travées intercordonales"
+        },
+        {
+          "type": "paragraph",
+          "text": "Schéma représentant la capsule et la structure conjonctive d'un ganglion lymphatique"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "title": "Fibres de réticuline et cellules réticulaires = La Trame",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Fibres de réticuline et cellules réticulaires = La Trame"
+        },
+        {
+          "type": "paragraph",
+          "text": "Schéma représentant la charpente réticulaire d'un ganglion lymphatique"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "title": "Structure cellulaire et fibrillaire d'un ganglion lymphatique",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Structure cellulaire et fibrillaire d'un ganglion lymphatique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellules réticulaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fibres de réticuline"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lymphocytes"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-022.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "title": "La cellule réticulaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La cellule réticulaire"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-023.png",
+          "caption": "La cellule réticulaire"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "title": "La cellule réticulaire",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-024.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "title": "Ganglion lymphatique ; zone médullaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ganglion lymphatique ; zone médullaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Coupe histologique d'un ganglion lymphatique observée au microscope optique à moyen grossissement"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-025.png",
+          "caption": "Ganglion lymphatique ; zone médullaire"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "title": "L.B.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Cortex superficiel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cortex profond"
+        },
+        {
+          "type": "paragraph",
+          "text": "Médullaire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "L.B."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "L.T."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "L.B."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellules plasmatiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellules plasmatiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Distribution cellulaire du ganglion lymphatique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Macrophages"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-026.png",
+          "caption": "L.B."
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I – Introduction aux organes hématopoïétiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryologie Lignées de moelle osseuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Moelle osseuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Ganglion lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informations générales sur le système lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascularisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Tissu lymphoïde disséminé."
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "title": "1/ VASCULARISATION LYMPHATIQUE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "LA VASCULARISATION DU NŒUD LYPHATIQUE EST DOUBLE :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1/ VASCULARISATION LYMPHATIQUE"
+        },
+        {
+          "type": "paragraph",
+          "text": "La lymphe arrive au niveau du ganglion lymphatique grâce aux vaisseaux"
+        },
+        {
+          "type": "paragraph",
+          "text": "lymphatiques afférents qui bordent le nœud par sa partie convexe."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour être nettoyée, la lymphe traverse le parenchyme ganglionnaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "suivant un chemin qui lui est propre qui est représenté par :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le sinus marginal ou sinus sous-capsulaire.",
+            "Le sinus rayonné ou sinus inter-folliculaire.",
+            "Le sinus caverneux ou sinus inter-cordonaux."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ensuite, la lymphe quitte le ganglion lymphatique au niveau du hile par un seul vaisseau lymphatique efférent."
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "title": "Sinus marginal",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sinus marginal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rayonnement sinusal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sinus caverneux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Circulation lymphatique et sanguine dans un ganglion lymphatique"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-027.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "title": "Ganglion lymphatique ; sinus sous-capsulaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ganglion lymphatique ; sinus sous-capsulaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sinus sous-capsulaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capsule conjonctive"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cortical"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-028.png",
+          "caption": "Ganglion lymphatique ; sinus sous-capsulaire"
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "title": "2/ VASCULARISATION SANGUINE : RÔLE IMPORTANT ;",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2/ VASCULARISATION SANGUINE : RÔLE IMPORTANT ;"
+        },
+        {
+          "type": "list",
+          "items": [
+            "ASSURE LA NUTRITION ET L'OXYGÉNATION DU NŒUD",
+            "ET LA RECIRCULATION DES LYMPHOCYTES OU HOMING"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "(remplacement des lymphocytes et des macrophages)."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'approvisionnement en sang est assuré par une artère qui pénètre dans le"
+        },
+        {
+          "type": "paragraph",
+          "text": "ganglion à travers le hile, il donne 2 branches, l'une corticale et l'autre"
+        },
+        {
+          "type": "paragraph",
+          "text": "médullaire. Les capillaires sont ensuite drainés par post-"
+        },
+        {
+          "type": "paragraph",
+          "text": "capillaires au niveau des paracorticales, puis drainés à leur tour par"
+        },
+        {
+          "type": "paragraph",
+          "text": "une veine ganglionnaire qui sort du ganglion par le Hile pour rejoindre le"
+        },
+        {
+          "type": "paragraph",
+          "text": "circulation générale."
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "title": "Lymphatique afférent",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lymphatique afférent"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capsule"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rayonnement sinusal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artère"
+        },
+        {
+          "type": "paragraph",
+          "text": "Veine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lymphatique efférent"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sinus caverneux"
+        },
+        {
+          "type": "paragraph",
+          "text": "follicule lymphoïde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cordon folliculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sinus marginal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Schéma représentant une coupe longitudinale d'un ganglion lymphatique"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-029.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I – Introduction aux organes hématopoïétiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryologie Lignées de moelle osseuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Moelle osseuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Ganglion lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informations générales sur le système lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascularisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Tissu lymphoïde disséminé."
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "title": "HISTOPHYSIOLOGIE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "HISTOPHYSIOLOGIE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Filtration mécanique﴾ fibres maillées﴿"
+        },
+        {
+          "type": "paragraph",
+          "text": "Défense non spécifique ﴾Macrophages﴿"
+        },
+        {
+          "type": "paragraph",
+          "text": "Interaction entre antigènes et cellules immunocompétentes :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Immunité humorale (Plasmocytes﴿."
+        },
+        {
+          "type": "paragraph",
+          "text": "Immunité cellulaire (lymphocytes T)"
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "title": "Lymphadénopathie : hypertrophie d'un ganglion lymphatique en réponse à",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lymphadénopathie : hypertrophie d'un ganglion lymphatique en réponse à"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stimulation antigénique locale ou générale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Accumulation de cellules pathologiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Réaction tumorale primitive « lymphome »"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-030.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-031.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I – Introduction aux organes hématopoïétiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Général"
+        },
+        {
+          "type": "paragraph",
+          "text": "Embryologie Lignées de moelle osseuse"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Moelle osseuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Ganglion lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Informations générales sur le système lymphatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Définition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascularisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Histophysiologie"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Tissu lymphoïde disséminé."
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "title": "II-Moelle osseuse.",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Les muqueuses de l'organisme sont liées soit au milieu extérieur (appareil respiratoire ou tube digestif supérieur), soit à des cavités dont l'environnement est extérieur à l'organisme (intestin, voies urinaires)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce sont des barrières fragiles contre les attaques d’organismes étrangers. C'est aussi un lieu de contact privilégié entre le système immunitaire et l'environnement extérieur."
+        },
+        {
+          "type": "paragraph",
+          "text": "C'est pourquoi, dans tous ces organes creux, la paroi contient des éléments du système immunitaire (notamment des lymphocytes), constituant le Tissu Lymphoïde Associé à la Muqueuse (MALT)."
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "title": "Tissu lymphoïde associé au nez : végétations adénoïdes, amygdales",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tissu lymphoïde associé au nez : végétations adénoïdes, amygdales"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tissu lymphoïde associé aux muqueuses : MALT"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tissu lymphoïde associé aux muqueuses"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-032.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "title": "Amygdales palatines,",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Amygdales palatines,"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'amygdale linguale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Amygdale pharyngée"
+        },
+        {
+          "type": "paragraph",
+          "text": "Amygdales tubaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Amygdale palatine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Représentation schématique de l'intérieur du pharynx"
+        },
+        {
+          "type": "paragraph",
+          "text": "Photo d'une bouche ouverte illustrant les amygdales palatines"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-033.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-034.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "title": "Fibres musculaires",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Fibres musculaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chorion conjonctif"
+        },
+        {
+          "type": "paragraph",
+          "text": "Crypte de l'amygdale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Épithélium"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nodules lymphoïdes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Crypte de l'amygdale"
+        },
+        {
+          "type": "paragraph",
+          "text": "Schéma représentant une coupe de l'amygdale palatine observée au microscope optique"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-035.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "title": "Œsophage HE",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Œsophage HE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Coupe histologique d'un œsophage observée au microscope optique"
+        },
+        {
+          "type": "paragraph",
+          "text": "follicule lymphoïde"
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "title": "Plaque de Peyer (annexe) : nodules lymphoïdes avec centres germinaux",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Plaque de Peyer (annexe) : nodules lymphoïdes avec centres germinaux"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-036.png",
+          "caption": "Plaque de Peyer (annexe) : nodules lymphoïdes avec centres germinaux"
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "title": "Gros intestin",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Gros intestin"
+        },
+        {
+          "type": "paragraph",
+          "text": "Coupe histologique d'une paroi intestinale observée au microscope optique (follicule fermé)"
+        },
+        {
+          "type": "image",
+          "src": "/content/histologie/hi-3/img-037.png",
+          "caption": ""
+        }
+      ]
+    }
+  ]
+}

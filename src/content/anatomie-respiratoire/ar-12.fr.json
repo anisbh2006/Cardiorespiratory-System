@@ -1,0 +1,307 @@
+{
+  "file": "anatomy respiratoire/12)Anatomydeslungs,plèvreetdespédiculespulmonaires__EN.pdf",
+  "chapterId": "ar-12",
+  "title": "Anatomie des poumons, de la plèvre et des pédicules pulmonaires",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "APPAREIL PLEURO",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Planifier"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "APPAREIL PLEURO"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "PULMONAIRE"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Introduction",
+            "Anatomie descriptive",
+            "Rapports",
+            "La plèvre",
+            "Vascularisation",
+            "Objectifs d'innervation"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Connaître l'emplacement des poumons",
+            "Connaître l'apparence externe de chaque poumon",
+            "Connaître les segments de chaque poumon",
+            "Connaître l'anatomie topographique des poumons"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "APPAREIL PLEURO",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-INTRODUCTION"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le poumon est un organe du système respiratoire, uniforme et asymétrique, il représente le siège des échanges gazeux (hématose), et est entouré d'une enveloppe séreuse, la plèvre."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- ANATOMIE DESCRIPTIVE et RAPPORTS"
+        },
+        {
+          "type": "paragraph",
+          "text": "1- Situation Les poumons sont situés dans la cavité thoracique, ils occupent les cavités pleuropulmonaires de part et d'autre du médiastin. 2- Consistance et couleur Le poumon est lisse, rose brillant chez l'enfant, gris rosé chez l'adulte et bleuté chez la personne âgée. Le poumon est spongieux, mou et élastique. 3- Dimensions Longueur : 25cm Diamètre antéro-postérieur : 18cm Diamètre transversal : 7 à 10cm 4- Poids : Le poids chez l'homme est de 700g pour le poumon droit et de 650g pour le poumon gauche. Chez la femme, le poids est de 550 g pour le poumon droit et de 450 g pour le poumon gauche. La capacité inspiratoire normale est égale à 3500 cm3. La capacité inspiratoire forcée est égale à 5000 cm3. 5- Forme Le poumon a la forme d'un demi-cône (pyramide triangulaire) à trois faces : externe, interne et inférieure, trois bords : antérieur, postérieur et inférieur et un sommet ou sommet. Configuration externe a- Face externe C'est la face costale, elle est arrondie, convexe. Il épouse la face profonde de la cage thoracique et présente les empreintes des côtes. Le poumon droit marqué par la présence de deux fissures : une fissure oblique (la grande fissure) et une fissure horizontale (la petite fissure). En revanche, le poumon gauche présente une seule oblique fissure. b-Face interne C'est la face médiastinale, elle est concave, présente dans sa partie médiane le hile pulmonaire. Le hile est ovale à droite et triangulaire à gauche, il se poursuit vers le bas par le ligament triangulaire. A son niveau s'épanouissent les différents éléments du pédicule pulmonaire qui sont de deux types : -Éléments nourrissants : formés par les artères, les veines, les lymphatiques et les nerfs bronchiques. -Éléments fonctionnels (participant à l'hématose) : représentés par les bronches principales, l'artère pulmonaire, les veines pulmonaires (deux droites et deux gauches) La face médiastinale présente à sa surface les empreintes des éléments anatomiques des voisinages. Le poumon gauche présente les empreintes de la crosse aortique, de l'aorte thoracique, de l'artère sous-clavière gauche et du cœur. Le poumon droit présente les empreintes du cœur (oreillette droite), de la veine cave supérieure SVC, du tronc artériel brachiocéphalique, du tronc veineux brachiocéphalique et de l'arc de la veine azygos."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Dessous",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dessous"
+        },
+        {
+          "type": "paragraph",
+          "text": "c- Face diaphragmatique La face diaphragmatique représente la base du poumon. Il est concave et épouse le diaphragme et répond à travers lui aux organes du niveau mésocolique supérieur de la cavité abdominale. Elle est recouverte par la plèvre diaphragmatique. d- Sommet Aussi appelé sommet du poumon, il est arrondi et s'étend au-delà de l'orifice supérieur du thorax. e- Bord antérieur Le bord antérieur sépare les faces médiale et latérale en avant. Sur le poumon gauche : il présente une grande échancrure : l'incision cardiaque. f- Bord postérieur Le bord postérieur sépare les deux faces médiale et latérale en arrière, il est peu marqué. g- Bord inférieur Ou bord circonférentiel, il circonscrit la base du poumon. Face antéro-latérale du poumon droit h Bord antérieur dge Bord postérieur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Antérieure e"
+        },
+        {
+          "type": "paragraph",
+          "text": "dge"
+        },
+        {
+          "type": "paragraph",
+          "text": "Côté médial"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-001.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-002.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-003.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Dessous",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "? Récessus costo-médiastinaux antérieur et postérieur, formés par la jonction de la plèvre costale avec la plèvre médiastinale située au niveau des bords de la fourmi et du poteau."
+        },
+        {
+          "type": "paragraph",
+          "text": "? récessus phrénico-médiastinal, formé par l'angle auquel la plèvre diaphragmatique et médiastinale se rencontrent"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plèvre et cavité pleurale"
+        },
+        {
+          "type": "paragraph",
+          "text": "tic récessif 5-récessus costo-médiastinal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plèvre et cavité pleurale"
+        },
+        {
+          "type": "paragraph",
+          "text": "tic récessif 5-récessus costo-médiastinal"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-004.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-005.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-006.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Dessous",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III- SEGMENTATION PULMONAIRE 1-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Segmentation du poumon droit Le poumon droit est divisé par les deux fissures obliques et transversales en trois lobes : supérieur, moyen et inférieur. Chaque lobe est subdivisé en segments. -Le lobe supérieur est subdivisé en trois segments : le segment apical, le segment dorsal et le segment ventral. -Le lobe moyen est subdivisé en deux segments : le segment latéral et le segment médial. -Le lobe inférieur décrit cinq lobes : segment apical du lobe inférieur ou de Fowler, segment baso-médial ou paracardiaque, segment ventro-basal, segment latéro-basal et segment dorso-basal ou terminal-basal."
+        },
+        {
+          "type": "paragraph",
+          "text": "1-Segmentation du poumon gauche Le poumon gauche est divisé par une seule fissure en deux lobes supérieur et inférieur. Le lobe supérieur est divisé en deux groupes : le groupe supérieur ou culmen qui contient le segment apical, le segment dorsal et le segment ventral et un groupe inférieur ou lingula qui contient deux segments : le segment supérieur ou crânien et le segment inférieur ou caudal. Enfin, le lobe inférieur présente une segmentation identique à celle du lobe inférieur du poumon droit."
+        },
+        {
+          "type": "paragraph",
+          "text": "1- segment apical 2- segment dorsal 3- segment ventral 4- segment crânien 5- segment caudal 6- segment de Fowler 7- segment paracardiaque 8- segment ventro-basal 9- segment latéro-basal 10- segment dorso-basal"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-007.jpg",
+          "caption": "III- SEGMENTATION PULMONAIRE 1-"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-008.jpg",
+          "caption": "III- SEGMENTATION PULMONAIRE 1-"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-009.jpg",
+          "caption": "III- SEGMENTATION PULMONAIRE 1-"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-010.jpg",
+          "caption": "III- SEGMENTATION PULMONAIRE 1-"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Approvisionnement en sang Les artères et les veines forment deux systèmes :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Approvisionnement en sang Les artères et les veines forment deux systèmes :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "? un système fonctionnel comprenant les artères et les veines pulmonaires",
+            "un système nourrissant, comprenant les artères et les veines bronchiques.",
+            "Artères bronchiques D'origine très variable, généralement"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Au nombre de deux à gauche, en haut et en bas, issus directement de l'aorte thoracique descendante.",
+            "une à droite, issue de la première artère intercostale postérieure et droite",
+            "parcourir la face postérieure de la bronche principale droite,",
+            "pénétrer dans le poumon et l'irriguer. Les veines bronchiques Le drainage veineux se fait par les veines antérieures et postérieures, qui se drainent à droite vers la veine azygos et à gauche vers l'hémi azygos accessoire. Les vaisseaux lymphatiques sont constitués de deux systèmes, l'un superficiel, pleural, l'autre profond, suivant l'arbre bronchique et les vaisseaux pulmonaires. Ces deux systèmes présentent des anastomoses au niveau du hile pulmonaire. Chaque poumon possède trois territoires de drainage lymphatique : supérieur, moyen et inférieur."
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Les vaisseaux lymphatiques superficiels du poumon, ainsi que ceux de la plèvre viscérale, ? et les vaisseaux lymphatiques profonds mènent aux ganglions lymphatiques trachéobronchiques,",
+            "Les collecteurs qui en partent constituent deux chaînes de chaque côté, l'une médiastinale antérieure, l'autre postérieure constituée par les ganglions lymphatiques trachéaux."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-011.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Approvisionnement en sang Les artères et les veines forment deux systèmes :",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vascularisation fonctionnelle assurée par l'artère pulmonaire C'est le tronc artériel qui transporte le sang veineux vers les poumons constituant la petite circulation, il se détache de la base du ventricule droit, mesurant 5 cm de longueur, il se divise en deux branches, les artères pulmonaires droite et gauche. L'artère pulmonaire droite Destinée au poumon droit, elle est plus grande que le gauche, mesure 5 cm de long et 22 mm de diamètre. Il traverse le médiastin, pénètre dans le hile du poumon droit, passe au-dessus de la bronche lobaire moyenne, puis descend le long de la bronche lobaire inférieure et se termine à la face postérieure de la bronche segmentaire basale postérieure. Ses branches collatérales sont des satellites des bronches et naissent le long du fil conducteur de l'artère. L'artère pulmonaire gauche Destinée au poumon gauche. Elle traverse la bronche principale gauche, pénètre dans le hile pulmonaire au-dessus de la bronche lobaire supérieure, elle se termine à la face postérieure de la bronche segmentaire basale postérieure. Ses branches collatérales sont des satellites des bronches et naissent le long du fil conducteur de l'artère. Innervation"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sympathique des troncs sympathiques (broncho dilatateur, vasoconstricteur, inhibe la sécrétion bronchique)",
+            "Parasympathique, provenant du nerf vague."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "l'artère pulmonaire gauche"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vue ventrale de l'artère pulmonaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Distribution de"
+        },
+        {
+          "type": "paragraph",
+          "text": "l'artère pulmonaire gauche"
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-012.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-013.jpg",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "src": "/content/anatomie-respiratoire/ar-12/img-014.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Références",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Références"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Brizon j.Castaing j. Fiches d'anatomie. Le thorax. Livret XII. Ed Maloine Paris 1953.",
+            "Cabrol C, Vialle R, Guérin-Surville H. Anatomie du cœur humain. Niveau PCEM2 - EIA cardiologie. Université Pierre et Marie Curie 2002.",
+            "Leguerrier A. Nouveaux dossiers d'anatomie. Ed. scientifique et juridique. Paris."
+          ]
+        }
+      ]
+    }
+  ]
+}

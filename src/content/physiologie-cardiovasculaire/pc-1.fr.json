@@ -1,0 +1,2221 @@
+{
+  "file": "physio cardiovasculaire/1)Électrophysiologiecardiaque(complet)_EN.pptx",
+  "chapterId": "pc-1",
+  "title": "Électrophysiologie cardiaque",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Physiologie Cardiovasculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physiologie Cardiovasculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Année académique 2025-2026"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr REBAÏNE"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Physiologie Cardiovasculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physiologie Cardiovasculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système cardiovasculaire comprend trois parties fondamentales :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le cœur : une pompe fournissant au sang l'énergie nécessaire à son écoulement vers les tissus ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-vaisseaux sanguins : voies de communication par lesquelles le sang circule du cœur vers les tissus et y retourne ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-sang : milieu liquide dans lequel sont transportées les matières (O₂, CO₂, nutriments, déchets, etc.) et les cellules."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Physiologie Cardiovasculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physiologie Cardiovasculaire"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-001.emf",
+          "caption": "Physiologie Cardiovasculaire"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Physiologie Cardiovasculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physiologie Cardiovasculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapitre 1 : Électrophysiologie cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapitre 2 : Cycle cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapitre 3 : Débit cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapitre 4 : Régulation de la pression artérielle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapitre 5 : Système basse pression"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapitre 6 : Circulation coronarienne"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapitre 7 : Physiologie du sang"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Physiologie Cardiovasculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physiologie Cardiovasculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapitre 1 : Électrophysiologie cardiaque"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Coordination de la fonction cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Propriétés électriques du coeur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A- Excitabilité"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Polarisation : potentiel de membrane"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Activité électrique élémentaire : le potentiel d'action"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3- Notion de période réfractaire"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B- Potentiel diastolique et automatisme cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C- Conductivité"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D- Couplage excitation-contraction"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Influence du système nerveux autonome sur l'électrophysiologie cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Anomalies du rythme cardiaque"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Conclusion"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Coordination de la fonction cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le cœur est une double pompe, dans la mesure où ses côtés droit et gauche pompent le sang séparément, mais simultanément, dans les circulations systémique et pulmonaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un pompage sanguin efficace nécessite d’abord la contraction des oreillettes, suivie presque immédiatement par la contraction des ventricules."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Coordination de la fonction cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "La contraction du muscle cardiaque est déclenchée par la dépolarisation de la membrane plasmique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Des jonctions relient les cellules myocardiques et assurent la propagation des potentiels d'action d'une cellule à l'autre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une excitation initiale d’une cellule cardiaque entraîne l’excitation de toutes les cellules du cœur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette dépolarisation initiale prend normalement naissance au niveau du nœud sinusal (SNA) et se propage dans l'ensemble des oreillettes puis dans l'ensemble des ventricules."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Coordination de la fonction cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'évolution de tous les phénomènes de l'activité cardiaque se produisant entre deux contractions cardiaques successives correspond au cycle cardiaque."
+        },
+        {
+          "type": "paragraph",
+          "text": "Suivant un ordre d'apparition immuable, les phénomènes électriques précèdent toujours les phénomènes mécaniques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le cycle cardiaque comprend une phase d'activité (dépolarisation et contraction) appelée systole et une phase de repos (repolarisation et relaxation) appelée diastole."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Électrophysiologie cardiaqueI-Coordination de la fonction cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Électrophysiologie cardiaqueI-Coordination de la fonction cardiaque"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-002.gif",
+          "caption": "Électrophysiologie cardiaqueI-Coordination de la fonction cardiaque"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Propriétés électriques du coeur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trois types de cellules peuvent être individualisés dans le myocarde."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les cellules contractiles prédominent largement et assurent la contraction."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les autres cellules, de deux types, sont moins nombreuses sans caractéristiques contractiles claires :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les cellules conductrices ou cardionectores sont capables de se dépolariser spontanément et de transmettre rapidement cette dépolarisation, elles constituent le tissu de conduction ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les cellules myoendocrines, situées principalement dans le tissu auriculaire, sécrètent des facteurs natriurétiques et participent à la régulation de l'équilibre sodique."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "Tissu excito-conducteur ou cardionecteur",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tissu excito-conducteur ou cardionecteur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poutres internodales"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-003.png",
+          "caption": "Tissu excito-conducteur ou cardionecteur"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Excitabilité"
+        },
+        {
+          "type": "paragraph",
+          "text": "Toutes les cellules myocardiques sont excitables, c'est-à-dire que lorsqu'elles sont suffisamment stimulées, elles répondent par une dépolarisation suivie selon les cas d'une contraction."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mais même d’un point de vue purement électrique, il existe une différence significative de comportement entre les cardiomyocytes situés dans différentes régions du cœur."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Excitabilité"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Polarisation : potentiel de membrane"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Ion",
+            "Concentration extracellulaire en mM",
+            "Concentration intracellulaire en mM",
+            "Potentiel d'équilibre en mV"
+          ],
+          "rows": [
+            [
+              "Na⁺",
+              "145",
+              "5 à 10",
+              "+60"
+            ],
+            [
+              "K⁺",
+              "4 à 5",
+              "140",
+              "-90"
+            ],
+            [
+              "Ca²⁺",
+              "1à2",
+              "0,001 à 0,1",
+              "+132"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Excitabilité"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Polarisation : potentiel de membrane"
+        },
+        {
+          "type": "paragraph",
+          "text": "Au repos, les cellules myocardiques sont polarisées, avec une prédominance de charges positives à l'extérieur et de charges négatives à l'intérieur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si l'on place deux microélectrodes reliées à un galvanomètre, l'une extracellulaire et l'autre intracellulaire, on enregistre une différence de potentiel, différente selon le type de cellule aux alentours de – 80 mV pour une cellule ventriculaire, c'est le potentiel de repos transmembranaire qui est déterminé par la conductance potassique."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Excitabilité"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Activité électrique élémentaire : le potentiel d'action (PA)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les variations de potentiel à l'origine du PA dépendent des courants ioniques entrants (dépolarisants) et sortants (repolarisants) se produisant dans un ordre déterminé."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Activité électrique élémentaire : le potentiel d'action"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il existe deux principaux types de tension artérielle cardiaque :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "AP de cellules à dépolarisation rapide : myocarde ventriculaire, myocarde auriculaire, faisceau de His et réseau de Purkinje ;",
+            "AP de cellules à dépolarisation lente ou AP lente : ganglions sinusaux et auriculo-ventriculaires."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Activité électrique élémentaire : le potentiel d'action"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-1-PA de cellules à dépolarisation rapide"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le PA des cellules à dépolarisation rapide comporte quatre phases, par exemple le PA d'une cellule contractile ventriculaire."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "Le PA des cellules à dépolarisation rapide comporte quatre phases, par exemple le PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le PA des cellules à dépolarisation rapide comporte quatre phases, par exemple le PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-004.png",
+          "caption": "Le PA des cellules à dépolarisation rapide comporte quatre phases, par exemple le PA d'une cellule contractile ventriculaire"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Phase 0 : dépolarisation rapide."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'une onde de dépolarisation arrive dans une cellule contractile à travers les jonctions lacunaires, le potentiel de membrane devient positif (+)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les canaux Na⁺ dépendants du potentiel s'ouvrent, entraînant une entrée rapide de Na⁺ dans la cellule. Le potentiel membranaire s'inverse et atteint environ +20 mV à +30 mV avant l'inactivation des canaux Na⁺."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'activation du courant sodium (INa) est extrêmement rapide, de l'ordre de 1 ms, tandis que l'inactivation est plus lente, de l'ordre de 10 à 15 ms."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Phase 1 : Début de la repolarisation (repolarisation initiale rapide)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Inactivation des canaux Na⁺ : une petite fraction des canaux sodiques ne s'inactive que lentement, participant au plateau PA."
+        },
+        {
+          "type": "paragraph",
+          "text": "La cellule commence à se repolariser grâce à un courant potassique transitoire circulant à travers l'ouverture de canaux K⁺ rapides dépendants du potentiel."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Phase 2 : plateau."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le plateau prolongé résulte d'une ouverture plus lente mais plus durable des canaux Ca²⁺ voltage-dépendants : canaux Ca²⁺ de type L (L pour longue durée ou long terme) aussi appelés récepteurs aux dihydropyridines, DHPR en anglais car ils sont spécifiquement fermés par ces substances."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces canaux sont activés par dépolarisation et s'ouvrent lentement pendant les phases 0 et 1. Une fois leur ouverture terminée, Ca²⁺ entre dans la cellule."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Phase 2 : plateau."
+        },
+        {
+          "type": "paragraph",
+          "text": "Régulation du courant calcique : l'accélération de la fréquence cardiaque et la stimulation β-adrénergique augmentent l'entrée du calcium dans la cellule."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trois grandes classes de bloqueurs organiques ou antagonistes du calcium ont été identifiées :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les dihydropyridines (nifédipine) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les benzothiazépines (diltiazem) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-phénylalkylamines (vérapamil)."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Phase 3 : Repolarisation rapide."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fermeture des canaux Ca²⁺ de type L et ouverture d'autres sous-types de canaux K⁺. Il y a alors une libération rapide de K⁺ et la cellule revient au potentiel de repos."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Phase 4 : la phase de repos électrique stable constitue la diastole."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le potentiel de repos des cellules musculaires ventriculaires est d'environ"
+        },
+        {
+          "type": "paragraph",
+          "text": "80mV."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette phase se caractérise par le rétablissement de la répartition normale des ions de part et d'autre de la membrane cellulaire grâce aux systèmes d'échange (échangeur Na⁺/Ca²⁺) et aux pompes ioniques (pompe Na⁺/K⁺)."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rôles de l'échangeur Na⁺/Ca²⁺ et de la pompe Na⁺, K⁺ ATPase dans l'AP d'une cellule ventriculaire :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Rôle de l'échangeur Na⁺/Ca²⁺(NCX)"
+        },
+        {
+          "type": "paragraph",
+          "text": "NCX transporte les ions Na⁺ et Ca²⁺ à travers la membrane cellulaire selon des gradients de concentration. Ce système échange trois ions sodium contre un ion calcium, soit, en résumé, le mouvement d'une charge positive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Selon la direction de l'échange, le courant résultant est entrant et dépolarisant ou sortant et repolarisant."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rôles de l'échangeur Na⁺/Ca²⁺ et de la pompe Na⁺, K⁺ ATPase dans l'AP d'une cellule ventriculaire :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Rôle de l'échangeur Na⁺/Ca²⁺(NCX)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sens du courant est déterminé par le potentiel de membrane, le courant d'échange est :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- sortant (sortie de Na⁺ et entrée de Ca²⁺) en tout début du PA ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- puis principalement entrant (entrée de Na⁺ et sortie de Ca²⁺) participant au plateau PA ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- entrant enfin en participant au contrôle de la concentration intracellulaire en calcium, notamment lors de la diastole."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rôles de la pompe échangeuse Na⁺/Ca²⁺ et de l'ATPase Na⁺, K⁺ dans l'AP d'une cellule ventriculaire :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Rôle de l'échangeur Na⁺/Ca²⁺(NCX)"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'activité de l'échangeur est modulée par la concentration en calcium intracellulaire mais aussi par la concentration extracellulaire en sodium et calcium, et le pH intracellulaire."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rôles de l'échangeur Na⁺/Ca²⁺ et de la pompe Na⁺, K⁺ ATPase dans l'AP d'une cellule ventriculaire :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Rôle de la pompe Na⁺, K⁺ ATPase"
+        },
+        {
+          "type": "paragraph",
+          "text": "La pompe à sodium Na⁺-K⁺ ATPase assure le transport actif des ions à travers la membrane cellulaire. Deux ions potassium entrent dans la cellule pour trois ions sodium qui en sortent, ce qui donne un total d'un courant sortant repolarisant."
+        },
+        {
+          "type": "paragraph",
+          "text": "La pompe à sodium intervient en fin d'AP et tend à hyperpolariser la membrane. Il est activé en cas de surcharge intracellulaire en sodium"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-004.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Hétérogénéité électrophysiologique ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'enregistrement des potentiels d'action ventriculaires dans plusieurs sites ventriculaires a révélé des PA très différents."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces différences s’expliquent principalement par l’hétérogénéité de la répartition myocardique des canaux potassiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette hétérogénéité existe entre les ventricules droit et gauche, le sommet et la base des ventricules et à l'intérieur de la paroi elle-même."
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hétérogénéité électrophysiologique ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Au sein de la paroi ventriculaire gauche, trois types d’AP ont été identifiés :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-l'épicarde ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- les feuillets sous-épicardiques pourvus de cellules M ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-l'endocarde."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PA des cellules à dépolarisation rapide comporte quatre phases Exemple : PA d'une cellule contractile ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hétérogénéité électrophysiologique ventriculaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une des conséquences physiologiques décrites de cette hétérogénéité électrophysiologique est le gradient de potentiel dans la paroi ventriculaire participant à la formation des ondes T et U de l'électrocardiogramme (voir TD)."
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "Notion de période réfractaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Notion de période réfractaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "La réponse contractile du muscle cardiaque commence juste après le début de la dépolarisation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Durant les phases 0 à 2 et pendant près de la moitié de la phase 3 (jusqu'à ce que le potentiel membranaire atteigne environ -50 mV lors de la repolarisation), le muscle cardiaque ne peut plus être excité quelle que soit l'intensité du courant. Il est alors dans sa période réfractaire absolue (PRA)"
+        },
+        {
+          "type": "paragraph",
+          "text": "+20"
+        },
+        {
+          "type": "paragraph",
+          "text": "0"
+        },
+        {
+          "type": "list",
+          "items": [
+            "20",
+            "40",
+            "60",
+            "80"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "0"
+        },
+        {
+          "type": "paragraph",
+          "text": "300"
+        },
+        {
+          "type": "paragraph",
+          "text": "200"
+        },
+        {
+          "type": "paragraph",
+          "text": "100"
+        },
+        {
+          "type": "paragraph",
+          "text": "Potentiel membranaire (mV)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Temps en (ms)"
+        },
+        {
+          "type": "paragraph",
+          "text": "PRA"
+        },
+        {
+          "type": "paragraph",
+          "text": "PRR"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tensions"
+        },
+        {
+          "type": "paragraph",
+          "text": "4"
+        },
+        {
+          "type": "paragraph",
+          "text": "3"
+        },
+        {
+          "type": "paragraph",
+          "text": "2"
+        },
+        {
+          "type": "paragraph",
+          "text": "1"
+        },
+        {
+          "type": "paragraph",
+          "text": "0"
+        },
+        {
+          "type": "paragraph",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "Notion de période réfractaire",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Notion de période réfractaire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle reste relativement réfractaire jusqu’à la phase 4 (PRR) pour les stimuli d’intensité supra-seuil."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par conséquent, contrairement au muscle squelettique, le cœur ne peut pas souffrir du tétanos. Cette dernière pourrait avoir des conséquences fatales."
+        },
+        {
+          "type": "paragraph",
+          "text": "+20"
+        },
+        {
+          "type": "paragraph",
+          "text": "0"
+        },
+        {
+          "type": "list",
+          "items": [
+            "20",
+            "40",
+            "60",
+            "80"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "0"
+        },
+        {
+          "type": "paragraph",
+          "text": "300"
+        },
+        {
+          "type": "paragraph",
+          "text": "200"
+        },
+        {
+          "type": "paragraph",
+          "text": "100"
+        },
+        {
+          "type": "paragraph",
+          "text": "Potentiel membranaire (mV)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Temps en (ms)"
+        },
+        {
+          "type": "paragraph",
+          "text": "PRA"
+        },
+        {
+          "type": "paragraph",
+          "text": "PRR"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tensions"
+        },
+        {
+          "type": "paragraph",
+          "text": "4"
+        },
+        {
+          "type": "paragraph",
+          "text": "3"
+        },
+        {
+          "type": "paragraph",
+          "text": "2"
+        },
+        {
+          "type": "paragraph",
+          "text": "1"
+        },
+        {
+          "type": "paragraph",
+          "text": "0"
+        },
+        {
+          "type": "paragraph",
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "Notion de période réfractaire : tétanisation du muscle squelettique",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Notion de période réfractaire : tétanisation du muscle squelettique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Période réfractaire"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-005.emf",
+          "caption": "Notion de période réfractaire : tétanisation du muscle squelettique"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "title": "Le potentiel d'action des cellules à dépolarisation lente n'inclut pas les phases 1 et 2",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le potentiel d'action des cellules à dépolarisation lente n'inclut pas les phases 1 et 2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Potentiel membranaire (mv)"
+        },
+        {
+          "type": "paragraph",
+          "text": "+20"
+        },
+        {
+          "type": "paragraph",
+          "text": "0"
+        },
+        {
+          "type": "list",
+          "items": [
+            "20",
+            "45",
+            "65"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Temps (ms)"
+        },
+        {
+          "type": "paragraph",
+          "text": "0"
+        },
+        {
+          "type": "paragraph",
+          "text": "3"
+        },
+        {
+          "type": "paragraph",
+          "text": "4"
+        },
+        {
+          "type": "paragraph",
+          "text": "0"
+        },
+        {
+          "type": "paragraph",
+          "text": "300"
+        },
+        {
+          "type": "paragraph",
+          "text": "150"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépolarisation spontanée"
+        },
+        {
+          "type": "paragraph",
+          "text": "Potentiel d'action"
+        },
+        {
+          "type": "paragraph",
+          "text": "Seuil"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "title": "Le potentiel d’action des cellules à dépolarisation lente",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le potentiel d’action des cellules à dépolarisation lente"
+        },
+        {
+          "type": "paragraph",
+          "text": "Phase 4 : potentiel de stimulateur cardiaque (plutôt que potentiel de repos) ; dépolarisation spontanée lente ou pré-potentiel."
+        },
+        {
+          "type": "paragraph",
+          "text": "A environ -65mv de potentiel, le courant K⁺ (IK) diminue et entraîne l'activation de canaux permettant le passage de Na⁺ et K⁺."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces chaînes sont appelées chaînes « f » en raison de leur activité « amusante » inhabituelle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque ces canaux s'ouvrent, le potentiel de membrane étant négatif, l'entrée de Na⁺ l'emporte sur la sortie de K⁺."
+        },
+        {
+          "type": "paragraph",
+          "text": "La membrane commence à se dépolariser en formant la première partie du prépotentiel, ce qui conduit à la fermeture des canaux « f », à l'ouverture des canaux calciques T (pour les transitoires) et des canaux L (pour l'ouverture à long terme)."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'ICa T complète le pré-potentiel jusqu'au seuil."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-006.png",
+          "caption": "Le potentiel d’action des cellules à dépolarisation lente"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "title": "Le potentiel d’action des cellules à dépolarisation lente",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le potentiel d’action des cellules à dépolarisation lente"
+        },
+        {
+          "type": "paragraph",
+          "text": "Phase 0 : dépolarisation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois le seuil atteint (-45mV), le courant calcique entrant (ICa) dû à l'ouverture des canaux calciques de type L (pour une ouverture à long terme) déclenche l'afflux (PA)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Phase 3 : repolarisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque les canaux Ca²⁺ se ferment au sommet du PA, l'IK sortant commence et conduit à une repolarisation grâce à l'ouverture des canaux K⁺."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-007.png",
+          "caption": "Le potentiel d’action des cellules à dépolarisation lente"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Activité électrique élémentaire : le potentiel d'action"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'AP des cellules qui se dépolarisent lentement ; activité électrique spontanée :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-pas de phases 1 et 2 ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le potentiel de repos instable se dépolarise autour de -65mV à -45mv (DDL) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le potentiel membranaire diastolique maximum est moins négatif autour de -65mV ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-phase lente 0 ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-le courant calcique de type L responsable de la phase 0 ;"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "title": "Figure10. Potentiel d'action du nœud sinusal et ses différents courants ioniques (en rouge) participant à la lente dépolarisation diastolique spontanée.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Figure10. Potentiel d'action du nœud sinusal et ses différents courants ioniques (en rouge) participant à la lente dépolarisation diastolique spontanée."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-008.png",
+          "caption": "Figure10. Potentiel d'action du nœud sinusal et ses différents courants ioniques (en rouge) participant à la lente dépolarisation diastolique spontanée."
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "title": "Le potentiel d’action des cellules à dépolarisation lente",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le potentiel d’action des cellules à dépolarisation lente"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépolarisation diastolique lente des cellules sinusales (voir schéma : potentiel d'action du nœud sinusal)"
+        },
+        {
+          "type": "paragraph",
+          "text": "La dépolarisation lente de la membrane diastolique est caractéristique des cellules responsables de l'automaticité cardiaque ; il régit la fréquence cardiaque sous le contrôle de deux horloges interdépendantes :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-une cascade séquentielle d'ouverture de canaux ioniques membranaires tension-dépendants ou non dépendants de la tension (modèle d'horloge à membrane) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "- les mouvements intracellulaires du calcium via l'échangeur Na⁺/Ca²⁺ (modèle d'horloge à calcium)."
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "title": "Le potentiel d’action des cellules à dépolarisation lente",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le potentiel d’action des cellules à dépolarisation lente"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rôle de l'échangeur Na⁺/Ca²⁺ dans le nœud sinusal (voir schéma : potentiel d'action du nœud sinusal et ses différents courants ioniques)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant la diastole, les canaux calciques du réticulum sarcoplasmique libèrent spontanément et rythmiquement du calcium dans le cytosol."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette augmentation du calcium intracellulaire active l'échangeur Na⁺/Ca²⁺, créant un courant sodique dépolarisant qui contribue à la fin de la lente dépolarisation diastolique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce courant dépolarisant au sodium représente l’horloge calcique de l’automatisation."
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Potentiel B-diastolique (au repos) et automatisme cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Placé hors du corps, c'est-à-dire totalement déconnecté du système nerveux et des hormones, le cœur continue de battre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet automatisme mécanique est, fondamentalement, un phénomène électrique : une dépolarisation cellulaire spontanée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toutes les cellules du système de conduction sont automatiques, si leur potentiel transmembranaire est enregistré, une lente dépolarisation diastolique spontanée (DDL) est observée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le DDL est lié aux échanges ioniques spontanés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le DDL permet au potentiel membranaire d'atteindre spontanément le seuil de dépolarisation."
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Potentiel B-diastolique (au repos) et automatisme cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plus la pente du DDL est forte, plus le seuil de dépolarisation est atteint facilement, et plus la fréquence de décharge de la cellule cardiaque est accélérée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les cellules du nœud sinusal présentent l'automatisme le plus rapide (pente DOF plus forte) et contrôlent donc la fréquence cardiaque. Le nœud sinusal est le stimulateur physiologique ou véritable stimulateur cardiaque."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les autres cellules automatiques sont des stimulateurs cardiaques latents avec une fréquence de décharge plus lente."
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "title": "Le potentiel d'action des cellules à dépolarisation lente n'inclut pas les phases 1 et 2",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Le potentiel d'action des cellules à dépolarisation lente n'inclut pas les phases 1 et 2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Potentiel membranaire (mv)"
+        },
+        {
+          "type": "paragraph",
+          "text": "+20"
+        },
+        {
+          "type": "paragraph",
+          "text": "0"
+        },
+        {
+          "type": "list",
+          "items": [
+            "20",
+            "40",
+            "60"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Temps (ms)"
+        },
+        {
+          "type": "paragraph",
+          "text": "0"
+        },
+        {
+          "type": "paragraph",
+          "text": "3"
+        },
+        {
+          "type": "paragraph",
+          "text": "4"
+        },
+        {
+          "type": "paragraph",
+          "text": "0"
+        },
+        {
+          "type": "paragraph",
+          "text": "300"
+        },
+        {
+          "type": "paragraph",
+          "text": "150"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépolarisation spontanée"
+        },
+        {
+          "type": "paragraph",
+          "text": "Potentiel d'action"
+        },
+        {
+          "type": "paragraph",
+          "text": "Seuil"
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Potentiel B-diastolique (au repos) et automatisme cardiaque"
+        },
+        {
+          "type": "list",
+          "items": [
+            "65mV",
+            "77 mV",
+            "65mV",
+            "85mV à -80mV",
+            "80mV"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "10 à 30/min"
+        },
+        {
+          "type": "paragraph",
+          "text": "40 à 50/min"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "100/min"
+        },
+        {
+          "type": "paragraph",
+          "text": "Potentiel de repos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fréquence de battement"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-009.emf",
+          "caption": "100/min"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Potentiel B-diastolique (au repos) et automatisme cardiaque"
+        },
+        {
+          "type": "list",
+          "items": [
+            "65mV",
+            "77 mV",
+            "65mV",
+            "85mV à -80mV",
+            "80mV"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "10 à 30/min"
+        },
+        {
+          "type": "paragraph",
+          "text": "40 à 50/min"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "100/min"
+        },
+        {
+          "type": "paragraph",
+          "text": "Potentiel de repos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fréquence de battement"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-009.emf",
+          "caption": "100/min"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Conduction C"
+        },
+        {
+          "type": "paragraph",
+          "text": "La conduction au niveau du tissu cardiaque nécessite la transmission de l'AP d'une cellule à la cellule voisine. La possibilité de cette transmission et sa vitesse dépendent des propriétés structurelles et fonctionnelles :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-obstacles anatomiques ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la géométrie et le diamètre des alvéoles ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-les connexions intercellulaires (jonctions de type gap) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la répartition et l'expression des canaux ioniques le long de la membrane cellulaire et dans les disques intercalaires ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous ces éléments contribuent à l’hétérogénéité de conduction dans le myocarde."
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Conduction C"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans des conditions physiologiques, la conductance des jonctions lacunaires est l'un des paramètres les plus pertinents dans la régulation de la conduction au sein du tissu cardiaque."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur répartition hétérogène à la surface de la membrane assure un couplage électrique intercellulaire tridimensionnel complexe avec une vitesse de propagation dépendant du nombre de jonctions lacunaires et du type de connexine ou de connexines qui les composent."
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Conduction C"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Dans les écouteurs"
+        },
+        {
+          "type": "paragraph",
+          "text": "La dépolarisation apparaissant dans la NSA se propage radialement dans les fibres musculaires qui constituent les oreillettes. La vitesse de conduction (Vc) du tissu auriculaire est d'environ 0,3 m/s."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les faisceaux de conduction internodaux assurent la conduction des impulsions vers le nœud auriculo-ventriculaire (AVN), ils sont au nombre de 3 : antérieur, moyen et postérieur. Leur Vc est de 1 m/s."
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "title": "Tissu excito-conducteur ou cardionecteur",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tissu excito-conducteur ou cardionecteur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poutres internodales"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-003.png",
+          "caption": "Tissu excito-conducteur ou cardionecteur"
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Conduction C"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Dans la NAV"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il y a un ralentissement de la conduction, le temps pour franchir le NAV est de 0,09s."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce ralentissement de la conduction est à l'origine du décalage entre la contraction des oreillettes et la contraction des ventricules."
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C-Conduction"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Dans le nœud AV"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour que la contraction auriculaire soit efficace en termes de remplissage des ventricules, elle doit se produire lorsque les ventricules sont détendus et que les valvules auriculo-ventriculaires sont ouvertes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce ralentissement est lié à :"
+        },
+        {
+          "type": "paragraph",
+          "text": "- le petit diamètre des cellules qui constituent l'AVN (le plus petit diamètre du tissu de conduction) ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la rareté des jonctions communicantes entre cellules voisines à ce niveau."
+        },
+        {
+          "type": "paragraph",
+          "text": "- la présence de quantités variables de connexine de type 45 et de connexine de type 30.2."
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "title": "Durée de transmission de la dépolarisation de la NSA vers les différentes zones de conduction :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Durée de transmission de la dépolarisation de la NSA vers les différentes zones de conduction :"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "0,03 s"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "0,12 s"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "0,16 s"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poutres internodales"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "0,09 s"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-010.png",
+          "caption": "Durée de transmission de la dépolarisation de la NSA vers les différentes zones de conduction :"
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Conduction C"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3-Dans les cellules du tissu de conduction His-purkinje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Vc est le plus élevé dans les tissus de conduction de 3 à 5 m/s (5 m/s dans les fibres Purkinje) : 150 fois > Vc du NAV."
+        },
+        {
+          "type": "paragraph",
+          "text": "La transmission est instantanée dans les deux ventricules. Cette vitesse de transmission est liée à :"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la grande taille des fibres de ce tissu ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la grande perméabilité des jonctions entre cellules conductrices adjacentes ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-la présence importante de connexine de type 40."
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Conduction C"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3-Dans les cellules du tissu de conduction His-purkinje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque branche du faisceau de His se divise progressivement en un réseau de fines ramifications : les fibres de Purkinje, qui cheminent sous la région sous-endocardique et atteignent les cellules musculaires du myocarde."
+        },
+        {
+          "type": "paragraph",
+          "text": "La durée de passage de l'impulsion entre le tronc commun du faisceau de His et les fibres de Purkinje est d'environ 0,03 s."
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Conduction C"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4-Dans les cellules musculaires ventriculaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois arrivée à l'extrémité du réseau Purkinje, l'impulsion est transmise à toutes les cellules musculaires ventriculaires : de cellule musculaire ventriculaire à cellule musculaire ventriculaire avec une Vc de 0,5 m/s."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'impulsion passe de l'endocarde à l'épicarde avec un délai de 0,03 s, donc la contraction de la région endocardique précède la contraction de la région épicardique de quelques centièmes de seconde."
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "title": "La propagation normale de l’activité électrique dans le cœur",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La propagation normale de l’activité électrique dans le cœur"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-011.png",
+          "caption": "La propagation normale de l’activité électrique dans le cœur"
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D- Couplage excitation-contraction (couplage électromécanique)"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'auto-excitation d'une seule cellule (pacemaker) entraîne la contraction synchrone de toutes les cellules du myocarde qui se comporte comme un syncytium (fonctionnel = électrique = pseudosyncytium)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans les cellules ventriculaires, le courant ICaL (Ca²⁺ extracellulaire entrant dans la cellule par les canaux calciques de type L) :"
+        },
+        {
+          "type": "paragraph",
+          "text": "maintient la dépolarisation membranaire pendant le plateau AP ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "et déclenche la libération de calcium du réticulum sarcoplasmique (un phénomène appelé libération de calcium induite par le calcium)."
+        },
+        {
+          "type": "paragraph",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D- Couplage excitation-contraction (couplage électromécanique)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le calcium libéré dans le cytoplasme par le réticulum sarcoplasmique (SR) se lie aux protéines contractiles et déclenche la contraction."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Les canaux calciques de type L sont ainsi au centre du couplage excitation-contraction."
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D- Couplage excitation-contraction (couplage électromécanique)"
+        },
+        {
+          "type": "paragraph",
+          "text": "La liaison du Ca²⁺ externe aux récepteurs de la ryanodine ouvre les canaux calciques du RS (ces canaux sont fermés par la ryanodine) et le Ca²⁺ du RS est libéré."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les récepteurs de la ryanodine sont des canaux Ca²⁺ dont l'ouverture est responsable de la libération de Ca²⁺ induite par Ca²⁺."
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Propriétés électriques du cœur"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D- Couplage excitation-contraction (couplage électromécanique)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois libéré, le Ca²⁺ intracellulaire est à nouveau stocké dans le RS par la pompe Ca²⁺ATPase du RS."
+        },
+        {
+          "type": "paragraph",
+          "text": "C'est ce pompage de Ca²⁺ dans le RS qui permet la relaxation des sacromères : c'est l'événement initiateur de la diastole cardiaque."
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "title": "Couplage excitation-contraction (couplage électromécanique) :",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Couplage excitation-contraction (couplage électromécanique) :"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-012.png",
+          "caption": "Couplage excitation-contraction (couplage électromécanique) :"
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Influence du système nerveux autonome sur l'électrophysiologie cardiaque : contrôle de l'activité spontanée du nœud sinusal"
+        },
+        {
+          "type": "paragraph",
+          "text": "En l'absence de toute influence nerveuse ou hormonale sur la NSA, les battements rythmiques du cœur se produisent à une fréquence d'environ 100 battements/min : c'est la fréquence de décharge spontanée inhérente à la NSA."
+        },
+        {
+          "type": "paragraph",
+          "text": "La stimulation parasympathique diminue la fréquence cardiaque (FC) et la stimulation sympathique l'augmente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au repos, l'activité parasympathique prédomine et FC au repos = 70 battements/min"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les systèmes sympathique (accélérateur) et parasympathique (freinage) vont moduler en permanence la fréquence de contraction (chronotropisme)."
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Influence du système nerveux autonome sur l'électrophysiologie cardiaque : contrôle de l'activité spontanée du nœud sinusal"
+        },
+        {
+          "type": "paragraph",
+          "text": "La région du nœud sinusal est richement innervée avec une haute densité de récepteurs adrénergiques (β₁ et β₂) et de récepteurs muscariniques M₂. Le courant stimulateur cardiaque INaf est la cible principale des neurotransmetteurs ; l'ICa,T actuelle y est insensible."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'AMPc intracellulaire joue un rôle central dans la régulation de l'INaf par les neurotransmetteurs. L'AMPc agit directement sur le canal INaf équipé d'un récepteur spécifique, situé sur la partie carboxyterminale cytoplasmique."
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Influence du système nerveux autonome sur l'électrophysiologie cardiaque : contrôle de l'activité spontanée du nœud sinusal"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'augmentation de l'AMPc se traduit par une augmentation du courant INaf, une augmentation de la pente du DDL et donc une accélération de la fréquence cardiaque et inversement pour une diminution de l'AMPc."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les terminaisons nerveuses sympathiques libèrent de la noradrénaline : la noradrénaline augmente la concentration intracellulaire d'AMPc."
+        },
+        {
+          "type": "paragraph",
+          "text": "À l’inverse, les terminaisons nerveuses parasympathiques libèrent de l’acétylcholine : l’acétylcholine réduit la concentration intracellulaire d’AMPc."
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Influence du système nerveux autonome sur l'électrophysiologie cardiaque : contrôle de l'activité spontanée du nœud sinusal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour le courant ICaL qui contribue à la partie terminale du potentiel diastolique ; son activation par les catécholamines accélère le rythme (accélère la phase de dépolarisation = phase 0)."
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "title": "Influence du système nerveux autonome sur l'électrophysiologie cardiaque : contrôle de l'activité spontanée du nœud sinusal",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Influence du système nerveux autonome sur l'électrophysiologie cardiaque : contrôle de l'activité spontanée du nœud sinusal"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-1/img-013.png",
+          "caption": "Influence du système nerveux autonome sur l'électrophysiologie cardiaque : contrôle de l'activité spontanée du nœud sinusal"
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV- Anomalies du rythme cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chez les sujets normaux, chaque contraction est déclenchée au niveau du nœud sinusal (rythme sinusal normal). La fréquence diminue (bradycardie) pendant le sommeil et augmente (tachycardie) sous l'influence des émotions, de l'exercice, de la fièvre et de nombreux autres stimuli."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un dysfonctionnement de la NSA, induit par des médicaments ou des maladies, peut réduire, voire éliminer, la transmission de l'AP des oreillettes vers les ventricules."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans ce cas, les cellules capables d'autorythmicité de l'AVN, du faisceau His et du réseau Purkinje, qui ne sont plus pilotées par la NSA, commencent à générer des excitations à leur rythme inhérent, devenant ainsi le stimulateur cardiaque des ventricules. Ce rythme est assez lent, de 25 à 40 battements/min."
+        }
+      ]
+    },
+    {
+      "n": 71,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV- Anomalies du rythme cardiaque"
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, lorsque l'AVN est bloqué, tout synchronisme avec les contractions auriculaires disparaît, celles-ci maintenant le rythme normal et plus élevé de la NSA."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le traitement actuel de tous les troubles graves de la conduction auriculo-ventriculaire, ainsi que de nombreux autres rythmes anormaux, consiste en l'implantation chirurgicale permanente d'un stimulateur cardiaque artificiel qui stimule électriquement les cellules ventriculaires à un rythme normal."
+        }
+      ]
+    },
+    {
+      "n": 72,
+      "title": "Électrophysiologie cardiaque",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Conclusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le cœur, les contractions sont contrôlées par une cascade bien régulée de transmission de signaux électriques qui commence dans la NSA et traverse le tissu musculaire auriculaire, puis le tissu de conduction pour atteindre les ventricules. La propagation du signal électrique d’une cellule à l’autre s’effectue via des jonctions lacunaires. La vitesse de propagation dépend de caractéristiques anatomiques, mais elle peut également être modifiée par un influx nerveux."
+        }
+      ]
+    }
+  ]
+}

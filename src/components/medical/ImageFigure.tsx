@@ -1,5 +1,6 @@
 import { ImageIcon } from 'lucide-react'
 import { cn, isRenderableImage } from '@/lib/utils'
+import { useLanguage } from '@/context/LanguageContext'
 
 interface ImageFigureProps {
   src: string
@@ -9,6 +10,7 @@ interface ImageFigureProps {
 }
 
 export function ImageFigure({ src, caption, credit, className }: ImageFigureProps) {
+  const { t } = useLanguage()
   const renderable = isRenderableImage(src)
   return (
     <figure className={cn('my-7', className)}>
@@ -19,15 +21,10 @@ export function ImageFigure({ src, caption, credit, className }: ImageFigureProp
           <div className="flex flex-col items-center justify-center gap-2 rounded-md bg-surface/60 px-6 py-12 text-center">
             <ImageIcon className="h-6 w-6 text-faint" />
             <p className="text-xs text-muted">
-              Course figure in metafile format (
-              <span className="font-mono text-faint">
-                {src.split('.').pop()?.toUpperCase()}
-              </span>
-              ) non affichable dans le navigateur.
+              {t('medical.figureUnavailable', { format: src.split('.').pop()?.toUpperCase() ?? '' })}
             </p>
             <p className="text-[11px] text-faint">
-              It is preserved as supplied in the source material; no image of
-              remplacement n'est générée.
+              {t('medical.figurePreserved')}
             </p>
           </div>
         )}

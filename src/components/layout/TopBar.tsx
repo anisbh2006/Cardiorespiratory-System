@@ -6,12 +6,14 @@ import { disciplines } from '@/data/disciplines'
 import { getDisciplineIcon } from '@/data/icons'
 import { SearchOverlay } from './SearchOverlay'
 import { cn } from '@/lib/utils'
+import { useLanguage } from '@/context/LanguageContext'
+import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 
 const navLinks = [
-  { to: '/anatomy', label: '3D Anatomy' },
-  { to: '/histologie', label: 'Histology' },
-  { to: '/biophysique', label: 'Biophysics' },
-  { to: '/physiologie', label: 'Physiologie' },
+  { to: '/anatomy', labelKey: 'nav.anatomy' },
+  { to: '/histologie', labelKey: 'nav.histology' },
+  { to: '/biophysique', labelKey: 'nav.biophysics' },
+  { to: '/physiologie', labelKey: 'nav.physiology' },
 ]
 
 const navLinkClass = (isActive: boolean) =>
@@ -26,6 +28,7 @@ const navLinkClass = (isActive: boolean) =>
 function DisciplinesDropdown() {
   const [open, setOpen] = useState(false)
   const location = useLocation()
+  const { t } = useLanguage()
   const isDisciplineRoute = location.pathname.startsWith('/discipline')
 
   return (
@@ -41,7 +44,7 @@ function DisciplinesDropdown() {
           isDisciplineRoute ? 'text-foreground' : 'text-muted hover:text-foreground'
         )}
       >
-        Disciplines
+        {t('nav.disciplines')}
         <ChevronDown
           className={cn(
             'h-3.5 w-3.5 transition-transform duration-200',
@@ -92,6 +95,7 @@ function DisciplinesDropdown() {
 export function TopBar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const { t } = useLanguage()
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8)
@@ -116,17 +120,17 @@ export function TopBar() {
           </span>
           <span className="hidden leading-tight sm:block">
             <span className="block text-sm font-semibold tracking-tight text-foreground">
-              Cardiorespiratory System
+              {t('app.brand')}
             </span>
             <span className="block text-[10px] font-medium uppercase tracking-[0.18em] text-faint">
-              UEI / VEI 01
+              {t('app.subtitle')}
             </span>
           </span>
         </Link>
 
         <nav className="hidden items-center gap-0.5 md:flex">
           <NavLink to="/" end className={({ isActive }) => navLinkClass(isActive)}>
-            Accueil
+            {t('nav.home')}
           </NavLink>
           <DisciplinesDropdown />
           {navLinks.map((link) => (
@@ -135,24 +139,25 @@ export function TopBar() {
               to={link.to}
               className={({ isActive }) => navLinkClass(isActive)}
             >
-              {link.label}
+              {t(link.labelKey)}
             </NavLink>
           ))}
         </nav>
 
         <div className="flex items-center gap-2">
           <SearchOverlay />
+          <LanguageSwitcher />
           <NavLink
             to="/study"
             className="hidden h-9 items-center gap-1.5 rounded-md border border-border bg-elevated px-3 text-sm font-medium text-muted transition-colors hover:border-primary/50 hover:text-foreground md:flex"
           >
             <GraduationCap className="h-3.5 w-3.5" />
-            My study
+            {t('nav.study')}
           </NavLink>
           <button
             onClick={() => setMobileOpen((v) => !v)}
             className="flex h-9 w-9 items-center justify-center rounded-md text-muted hover:bg-elevated hover:text-foreground md:hidden cursor-pointer"
-            aria-label="Menu"
+            aria-label={t('nav.menu')}
           >
             {mobileOpen ? <X className="h-4.5 w-4.5" /> : <Menu className="h-4.5 w-4.5" />}
           </button>
@@ -174,7 +179,7 @@ export function TopBar() {
                 onClick={() => setMobileOpen(false)}
                 className="block rounded-md px-3 py-2 text-sm font-medium text-muted hover:bg-elevated hover:text-foreground"
               >
-                Accueil
+                {t('nav.home')}
               </Link>
               {disciplines.map((d) => (
                 <Link
@@ -193,7 +198,7 @@ export function TopBar() {
                   onClick={() => setMobileOpen(false)}
                   className="block rounded-md px-3 py-2 text-sm font-medium text-muted hover:bg-elevated hover:text-foreground"
                 >
-                  {link.label}
+                  {t(link.labelKey)}
                 </Link>
               ))}
               <Link
@@ -201,7 +206,7 @@ export function TopBar() {
                 onClick={() => setMobileOpen(false)}
                 className="block rounded-md px-3 py-2 text-sm font-medium text-primary"
               >
-                My study
+                {t('nav.study')}
               </Link>
             </div>
           </motion.nav>

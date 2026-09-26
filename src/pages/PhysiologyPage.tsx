@@ -5,8 +5,10 @@ import { Tabs } from '@/components/ui/tabs'
 import { VIZ } from '@/features/physiology/registry'
 import type { StructureSystem } from '@/data/types'
 import { cn } from '@/lib/utils'
+import { useLanguage } from '@/context/LanguageContext'
 
 export default function PhysiologyPage() {
+  const { t } = useLanguage()
   const [searchParams, setSearchParams] = useSearchParams()
   const system = (searchParams.get('system') === 'respiratory'
     ? 'respiratory'
@@ -23,21 +25,19 @@ export default function PhysiologyPage() {
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <span className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.25em] text-primary">
-              <Activity className="h-3.5 w-3.5" /> Interactive physiology
+              <Activity className="h-3.5 w-3.5" /> {t('physiology.header')}
             </span>
             <h1 className="mt-2 font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Visualisations physiologiques
+              {t('physiology.title')}
             </h1>
             <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
-              Each concept is animated to explain the mechanism described in the lesson — avec
-              play, pause, reset, and slow motion. The values, terminology, and sequence
-              proviennent exclusively du matériel fourni et sont citées (chapitre · page).
+              {t('physiology.description')}
             </p>
           </div>
           <Tabs
             items={[
-              { value: 'cardiovascular', label: 'Cardiovascular', icon: <HeartPulse className="h-3.5 w-3.5" /> },
-              { value: 'respiratory', label: 'Respiratory', icon: <AirVent className="h-3.5 w-3.5" /> },
+              { value: 'cardiovascular', label: t('physiology.cardiovascular'), icon: <HeartPulse className="h-3.5 w-3.5" /> },
+              { value: 'respiratory', label: t('physiology.respiratory'), icon: <AirVent className="h-3.5 w-3.5" /> },
             ]}
             value={system}
             onValueChange={(v) => {
@@ -84,7 +84,7 @@ export default function PhysiologyPage() {
           </React.Fragment>
         ) : (
           <div className="rounded-xl border border-dashed border-border-strong bg-surface/40 p-10 text-center text-sm text-faint">
-            Aucune visualisation pour ce system pour le moment.
+            {t('physiology.noViz')}
           </div>
         )}
       </main>

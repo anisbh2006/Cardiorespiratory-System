@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { AppLayout } from '@/layouts/AppLayout'
+import { useLanguage } from '@/context/LanguageContext'
 
 const HomePage = React.lazy(() => import('@/pages/HomePage'))
 const DisciplinePage = React.lazy(() => import('@/pages/DisciplinePage'))
@@ -14,12 +15,13 @@ const StudyPage = React.lazy(() => import('@/pages/StudyPage'))
 const NotFoundPage = React.lazy(() => import('@/pages/NotFoundPage'))
 
 function PageFallback() {
+  const { t } = useLanguage()
   return (
     <div className="flex min-h-screen items-center justify-center pt-14">
       <div className="flex flex-col items-center gap-3">
         <div className="h-8 w-8 animate-spin rounded-full border-2 border-border border-t-primary" />
         <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-faint">
-          Chargement…
+          {t('app.loading')}
         </span>
       </div>
     </div>

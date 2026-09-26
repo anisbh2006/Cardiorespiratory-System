@@ -6,6 +6,7 @@ import { search, type SearchEntry } from '@/features/search/searchIndex'
 import { lessonRoute } from '@/data/contentLoader'
 import { useStudy } from '@/features/study/StudyContext'
 import { useNavigate } from 'react-router-dom'
+import { useLanguage } from '@/context/LanguageContext'
 
 const typeIcons = {
   discipline: Layers,
@@ -17,12 +18,12 @@ const typeIcons = {
 } as const
 
 const typeLabels = {
-  discipline: 'Discipline',
-  chapter: 'Chapitre',
-  lesson: 'Lesson',
-  topic: 'Section',
-  structure: 'Structure',
-  term: 'Terme',
+  discipline: 'search.resultType.discipline',
+  chapter: 'search.resultType.chapter',
+  lesson: 'search.resultType.lesson',
+  topic: 'search.resultType.topic',
+  structure: 'search.resultType.structure',
+  term: 'search.resultType.term',
 } as const
 
 function resultLink(entry: SearchEntry): string {
@@ -44,6 +45,7 @@ export default function SearchPage() {
   const query = searchParams.get('q') ?? ''
   const navigate = useNavigate()
   const { recordSearch } = useStudy()
+  const { t } = useLanguage()
   const results = React.useMemo(() => search(query), [query])
   const inputRef = React.useRef<HTMLInputElement>(null)
 
@@ -60,12 +62,9 @@ export default function SearchPage() {
     <div className="pt-14">
       <div className="mx-auto max-w-4xl px-6 py-12">
         <h1 className="font-serif text-3xl font-bold tracking-tight text-foreground">
-          Global medical search
+          {t('search.title')}
         </h1>
-        <p className="mt-2 text-sm text-muted">
-          Terms, structures, chapters, lessons, and concepts across all six
-          disciplines de l'UEI/VEI 01.
-        </p>
+        <p className="mt-2 text-sm text-muted">{t('search.subtitle')}</p>
 
         <form onSubmit={submit} className="mt-6 flex items-center gap-2">
           <div className="relative flex-1">
@@ -74,7 +73,7 @@ export default function SearchPage() {
               ref={inputRef}
               value={query}
               onChange={(e) => setSearchParams(e.target.value ? { q: e.target.value } : {})}
-              placeholder="E.g.: ventricule, aorte, histologie, ventilation…"
+              placeholder={t('search.placeholder')}
               className="h-11 pl-9"
             />
           </div>
@@ -82,16 +81,11 @@ export default function SearchPage() {
 
         <div className="mt-8 space-y-2">
           {!query && (
-            <p className="py-10 text-center text-sm text-faint">
-              Saisissez un terme pour lancer la recherche. Les résultats s'enrichiront
-              automatiquement avec l'intégration du contenu source.
-            </p>
+            <p className="py-10 text-center text-sm text-faint">{t('search.emptyHint')}</p>
           )}
 
           {query && results.length === 0 && (
-            <p className="py-10 text-center text-sm text-muted">
-              Aucun résultat pour « {query} ».
-            </p>
+            <p className="py-10 text-center text-sm text-muted">{t('search.emptyMessage', { query })}</p>
           )}
 
           {results.map((entry) => {
@@ -109,7 +103,7 @@ export default function SearchPage() {
                   <span className="flex flex-wrap items-center gap-2">
                     <span className="text-sm font-medium text-foreground">{entry.title}</span>
                     <span className="rounded-full bg-overlay px-2 py-px text-[10px] text-muted">
-                      {typeLabels[entry.type]}
+                      {t(typeLabels[entry.type])}
                     </span>
                   </span>
                   <span className="mt-0.5 block text-xs text-muted">
@@ -128,7 +122,7 @@ export default function SearchPage() {
                   }}
                   className="shrink-0 self-center rounded-md border border-border px-2.5 py-1 text-[11px] font-medium text-muted transition-colors hover:border-primary/50 hover:text-primary cursor-pointer"
                 >
-                  Ouvrir
+                  {t('common.open')}
                 </button>
               </Link>
             )
