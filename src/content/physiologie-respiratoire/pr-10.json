@@ -1,1 +1,1796 @@
-{"file":"physio respiratoir/10)Échangesgazeuxpulmonaireetsystémique_EN.pptx","chapterId":"pr-10","title":"Pulmonary and Systemic Gas Exchange","kind":"cours","pages":[{"n":1,"title":"Respiratory physiology","blocks":[{"type":"heading","level":3,"text":"Respiratory physiology"},{"type":"paragraph","text":"Chapter 3: Pulmonary and systemic gas exchanges"},{"type":"paragraph","text":"Dr REBAÏNE"},{"type":"paragraph","text":"Academic year 2025-2026"}]},{"n":2,"title":"Pulmonary and systemic gas exchanges","blocks":[{"type":"paragraph","text":"Introduction"},{"type":"paragraph","text":"I-Physical principles"},{"type":"paragraph","text":"II-Alveolar gas pressures"},{"type":"paragraph","text":"III-Alveolocapillary (pulmonary) gas exchanges"},{"type":"paragraph","text":"A-Alveolocapillary membrane"},{"type":"paragraph","text":"B-Differences in partial pressure of O2 and CO2 at the capillaries"},{"type":"paragraph","text":"pulmonary"},{"type":"paragraph","text":"C-Laws of diffusion"},{"type":"paragraph","text":"D-Diffusion of O2 and CO2"},{"type":"paragraph","text":"E -Measurement of diffusion capacity"},{"type":"paragraph","text":"F-Efficiency of alveolocapillary exchanges"},{"type":"paragraph","text":"IV-Gas exchanges in systemic capillaries"},{"type":"paragraph","text":"Conclusion"}]},{"n":3,"title":"Pulmonary and systemic gas exchanges","blocks":[{"type":"paragraph","text":"Introduction"},{"type":"paragraph","text":"The oxygen drawn by the ventilation system from its reservoir which is the atmosphere must:"},{"type":"paragraph","text":"-cross the alveolar membranes towards the capillaries"},{"type":"paragraph","text":"pulmonary;"},{"type":"paragraph","text":"-be transported by the blood into the tissuees;"},{"type":"paragraph","text":"-leave tissuee capillaries;"},{"type":"paragraph","text":"-and finally cross plasma membranes to"},{"type":"paragraph","text":"enter cells where it is used for manufacturing"},{"type":"paragraph","text":"of energy in the context of the oxidative combustion of"},{"type":"paragraph","text":"nutrients."},{"type":"paragraph","text":"One of the waste products of this reaction is CO₂, which must follow a similar path, but in the opposite direction, and be eliminated through the lungs."}]},{"n":4,"title":"Pulmonary and systemic gas exchanges","blocks":[{"type":"image","src":"/content/physiologie-respiratoire/pr-10/img-001.jpg","caption":""}]},{"n":5,"title":"Pulmonary and systemic gas exchanges","blocks":[{"type":"paragraph","text":"I-Physical principles"},{"type":"paragraph","text":"1-Concept of partial pressure"},{"type":"paragraph","text":"Atmospheric air is a mixture of gases."},{"type":"paragraph","text":"Normally air contains 79% nitrogen (N2), 21% O2, a negligible percentage of CO2, rare gases, atmospheric pollutants and water vapor."},{"type":"paragraph","text":"All together, these gases exert a total atmospheric pressure (Patm) of 760mmHg on average at sea level."},{"type":"paragraph","text":"The total pressure is the sum of the partial pressure exerted by each of the gases constituting the mixture."},{"type":"paragraph","text":"Since there are 79% of N2 molecules in the air, 79% of the 760mmHg of Patm are due to N2 molecules and 21% of the 760mmHg of Patm or 160 mmHg are due to O2 molecules."}]},{"n":6,"title":"Pulmonary and systemic gas exchanges","blocks":[{"type":"paragraph","text":"I-Physical principles"},{"type":"paragraph","text":"1-Concept of partial pressure"},{"type":"paragraph","text":"The partial pressure is the pressure exerted individually by each gas (Pgaz)."},{"type":"paragraph","text":"According to Dalton's law of partial pressures, the total pressure exerted by a mixture of gases is equal to the sum of the pressures exerted by each of the constituent gases and can be expressed by the following equation:"},{"type":"paragraph","text":"Partial pressure of a gas = total pressure (PA)"},{"type":"paragraph","text":"in the gas mixture"},{"type":"paragraph","text":"In air, PO2 = 160 mm Hg and PCO2 = 0.23 mm Hg (negligible)"},{"type":"paragraph","text":"PO2 decreases at altitude because Patm decreases."}]},{"n":7,"title":"Pulmonary and systemic gas exchanges","blocks":[{"type":"paragraph","text":"I-Physical principles"},{"type":"paragraph","text":"2-Diffusion of gases in liquids"},{"type":"paragraph","text":"According to Henry's Law, when a liquid is exposed to a gas mixture, each gas dissolves in the liquid in proportion to its partial pressure."},{"type":"paragraph","text":"Therefore, the more concentrated a gas is in the gas mixture, the more and more quickly it dissolves in the liquid."},{"type":"paragraph","text":"At the equilibrium point, the partial pressures of the gases are the same in both phases."},{"type":"paragraph","text":"However, if the partial pressure of a gas is greater in the liquid than in the adjacent gas mixture, part of the dissolved gas molecules re-enter the gas phase."}]},{"n":8,"title":"Pulmonary and systemic gas exchanges","blocks":[{"type":"paragraph","text":"I-Physical principles"},{"type":"paragraph","text":"2-Diffusion of gases in liquids"},{"type":"paragraph","text":"There is a partial pressure difference between pulmonary capillary blood and alveolar gas on the one hand and between systemic capillary blood and tissuees on the other hand."},{"type":"paragraph","text":"A gas always diffuses from an area of ​​high partial pressure to an area of ​​low partial pressure."}]},{"n":9,"title":"Pulmonary and systemic gas exchanges","blocks":[{"type":"paragraph","text":"II-Alveolar gas pressures: alveolar PO2 and PCO2"},{"type":"paragraph","text":"The atmospheric air is heated to 37°C and saturated with water vapor as it passes through the airways."},{"type":"paragraph","text":"This vapor exerts a partial pressure of 47 mm Hg which reduces the initial partial pressure of the components of the inspired air."},{"type":"paragraph","text":"Hence: P gas = (Patm – PH2O) x Fgaz"},{"type":"paragraph","text":"Example: PO 2 = (760 – 47) x 0.21"},{"type":"paragraph","text":"PO2 ≈ 150 mmHg"}]},{"n":10,"title":"Pulmonary and systemic gas exchanges","blocks":[{"type":"paragraph","text":"II-Alveolar gas pressures: alveolar PO2 and PCO2"},{"type":"paragraph","text":"Fresh inspired air mixes with the gas remaining in the alveoli and dead space at the end of expiration."},{"type":"paragraph","text":"This humidification combined with the partial renewal of alveolar gas (part of the oxygen in the air which enters the alveoli leaves them to reach the pulmonary capillaries) is the cause of a drop in alveolar PO2 which is then approximately 105 mm Hg."}]},{"n":11,"title":"Pulmonary and systemic gas exchanges","blocks":[{"type":"paragraph","text":"II-Alveolar gas pressures: alveolar PO2 and PCO2L"},{"type":"paragraph","text":"Alveolar PO2 varies little during the respiratory cycle and is in equilibrium with the PO2 of the blood leaving the pulmonary capillaries. It follows that the PO2 of the arterial blood also remains invariable so that the quantity of O2 leaving the pulmonary capillaries varies little with the respiratory cycle."},{"type":"paragraph","text":"In the lungs, CO2 diffuses from the blood into the alveolar gas due to the partial pressure difference and is released into the environment during expiration."},{"type":"paragraph","text":"Alveolar PCO2 varies little during the respiratory cycle and is 40 mm Hg."}]},{"n":12,"title":"III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases","blocks":[{"type":"heading","level":2,"text":"III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases"},{"type":"paragraph","text":"In the lungs, O₂ and CO₂ pass through the alveolocapillary membrane passively, by diffusion in the liquid phase by partial pressure difference."},{"type":"paragraph","text":"A-The alveolocapillary membrane: very thin from 0.3 to 0.5 μ, made up of the following layers:"},{"type":"paragraph","text":"-the alveolar fluid film and the surfactant;"},{"type":"paragraph","text":"-the alveolar epithelium;"},{"type":"paragraph","text":"-the basement membrane of epithelial cells;"},{"type":"paragraph","text":"-the interstitial space;"},{"type":"paragraph","text":"-the capillary basement membrane;"},{"type":"paragraph","text":"-the capillary endothelium."},{"type":"paragraph","text":"It is this membrane that the gases must pass through."}]},{"n":13,"title":"IV-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges","blocks":[{"type":"heading","level":2,"text":"IV-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges"},{"type":"paragraph","text":"Schematic representation of the transfer of O₂ and CO₂ across the alveolocapillary membrane"},{"type":"paragraph","text":"1-Liquid layer with surfactant"},{"type":"paragraph","text":"2-Alveolar epithelium"},{"type":"paragraph","text":"3-Epithelial basement membrane"},{"type":"paragraph","text":"4-Interstitial space"},{"type":"paragraph","text":"5-Capillary basement membrane"},{"type":"paragraph","text":"6-Capillary endothelium"},{"type":"paragraph","text":"Alveolar air"},{"type":"paragraph","text":"Capillary blood"},{"type":"paragraph","text":"O₂"},{"type":"paragraph","text":"CO₂"},{"type":"paragraph","text":"Globule"},{"type":"paragraph","text":"red"}]},{"n":14,"title":"III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases","blocks":[{"type":"heading","level":2,"text":"III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases"},{"type":"paragraph","text":"B-Differences of PO2 and PCO2 in the pulmonary capillaries (see diagram)"},{"type":"paragraph","text":"In the lungs, the blood gains O2 and loses CO2 by simple diffusion due to the difference in partial pressures."},{"type":"paragraph","text":"The blood entering the pulmonary capillary via the pulmonary artery is systemic venous blood, poor in O2 with a PO2 = 40 mm Hg and rich in CO2 with a PCO2 = 46 mm Hg."},{"type":"paragraph","text":"As a result, there is a difference in partial pressure between the alveolar gases and the blood in the pulmonary capillaries, hence diffusion of O2 towards the blood and CO2 towards the alveolar gas until the partial pressures of the alveolar gas and the blood leaving the pulmonary capillaries are balanced (0.3-0.4 sec)."}]},{"n":15,"title":"","blocks":[{"type":"paragraph","text":"Alveolus"},{"type":"paragraph","text":"Po₂=105mmHg"},{"type":"paragraph","text":"Po₂=105mmHg"},{"type":"paragraph","text":"Po₂=105mmHg"},{"type":"paragraph","text":"Po₂ ≤ 40mmHg"},{"type":"paragraph","text":"Peripheral tissuees"},{"type":"paragraph","text":"Po₂ =40mmHg"},{"type":"paragraph","text":"Po₂ =40mmHg"},{"type":"paragraph","text":"Alveolus"},{"type":"paragraph","text":"Pco₂=40mmHg"},{"type":"paragraph","text":"Pco₂=46mmHg"},{"type":"paragraph","text":"Pco₂=40mmHg"},{"type":"paragraph","text":"Pco₂=46mmHg"},{"type":"paragraph","text":"Pco₂=40mmHg"},{"type":"paragraph","text":"Pco₂ ≥ 46mmHg"},{"type":"paragraph","text":"Peripheral tissuees"},{"type":"paragraph","text":"Circulatory system"},{"type":"paragraph","text":"Circulatory system"},{"type":"paragraph","text":"Gas exchanges in the alveoli and cells"}]},{"n":16,"title":"III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases","blocks":[{"type":"paragraph","text":")."},{"type":"image","src":"/content/physiologie-respiratoire/pr-10/img-002.png","caption":"III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases"}]},{"n":17,"title":"","blocks":[{"type":"paragraph","text":"Po₂=40"},{"type":"paragraph","text":"Pco₂=46"},{"type":"paragraph","text":"Gas pressures"},{"type":"paragraph","text":"Are expressed in mm of Hg"},{"type":"paragraph","text":"Alveolus"},{"type":"paragraph","text":"Artery"},{"type":"paragraph","text":"systemic"},{"type":"paragraph","text":"Vein"},{"type":"paragraph","text":"pulmonary"},{"type":"paragraph","text":"O₂"},{"type":"paragraph","text":"CO₂"},{"type":"paragraph","text":"Po₂=105"},{"type":"paragraph","text":"Pco₂=40"},{"type":"paragraph","text":"Po₂=105"},{"type":"paragraph","text":"Pco₂=40"},{"type":"paragraph","text":"Po₂=105"},{"type":"paragraph","text":"Pco₂=40"},{"type":"paragraph","text":"Po₂ ≤ 40"},{"type":"paragraph","text":"Pco₂ ≥ 46"},{"type":"paragraph","text":"Fabrics"},{"type":"paragraph","text":"O₂"},{"type":"paragraph","text":"CO₂"},{"type":"paragraph","text":"Po₂=40"},{"type":"paragraph","text":"Pco₂=46"},{"type":"paragraph","text":"Heart"},{"type":"paragraph","text":"right"},{"type":"paragraph","text":"Heart"},{"type":"paragraph","text":"LEFT"},{"type":"paragraph","text":"Artery"},{"type":"paragraph","text":"pulmonary"},{"type":"paragraph","text":"Vein"},{"type":"paragraph","text":"systemic"},{"type":"paragraph","text":"Gas exchanges in the lungs and tissuees"}]},{"n":18,"title":"III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases","blocks":[{"type":"paragraph","text":"C-Laws of diffusion"},{"type":"paragraph","text":"The diffusion of a gas across the alveolocapillary membrane is governed by Fick's law; the diffusion is proportional:"},{"type":"paragraph","text":"on the surface S of the membrane;"},{"type":"paragraph","text":"the opposite of the thickness e;"},{"type":"paragraph","text":"to the gas pressure gradient on either side of the membrane;"},{"type":"paragraph","text":"to the diffusion constant K which takes into account the characteristics of the gas and which is proportional to:"},{"type":"paragraph","text":"- the solubility of the gas in the alveolocapillary membrane"},{"type":"paragraph","text":"- the inverse of the square root of its molecular weight."},{"type":"paragraph","text":"The diffusion constant across the alveolocapillary membrane is 20 times"},{"type":"paragraph","text":"higher for CO2 than for O2."}]},{"n":19,"title":"III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases","blocks":[{"type":"paragraph","text":"C-Laws of diffusion"},{"type":"paragraph","text":"V° gas = K x S (P1 - P2)"},{"type":"paragraph","text":"e"},{"type":"paragraph","text":"V° gas: is the flow of gas which diffuses through the alveolocapillary membrane;"},{"type":"paragraph","text":"P1: is the gas pressure in the cell;"},{"type":"paragraph","text":"P2: is the pressure at the entrance to the pulmonary capillary."}]},{"n":20,"title":"III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases","blocks":[{"type":"paragraph","text":"D-Diffusion of O2 and CO2"},{"type":"paragraph","text":"1- Diffusion of O2"},{"type":"paragraph","text":"-large ΔP between the blood which arrives in the pulmonary capillaries and the alveolar air;"},{"type":"paragraph","text":"-equilibrium is reached quickly (0.3-0.4s)."}]},{"n":21,"title":"III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases","blocks":[{"type":"paragraph","text":"D-Diffusion of O2 and CO2"},{"type":"paragraph","text":"2- Diffusion of CO2"},{"type":"paragraph","text":"-low ΔP between mixed venous blood and alveolar air but high diffusibility;"},{"type":"paragraph","text":"-equilibrium is reached quickly (0.3-0.4s)."},{"type":"paragraph","text":"K of CO2 ˃˃ K of O2 because the solubility of CO2 ˃˃ is that of O2."}]},{"n":22,"title":"III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases","blocks":[{"type":"paragraph","text":"D-Diffusion of O2 and CO2"},{"type":"paragraph","text":"In a person at rest, for 1 min assuming alveolar ventilation of 4000 ml/min and a cardiac output of 5000 ml/min:"},{"type":"paragraph","text":"the oxygen flow rate is approximately 250ml/min;"},{"type":"paragraph","text":"the flow rate of carbon dioxide diffused is approximately 200ml/min"}]},{"n":23,"title":"III-Gas exchanges in the pulmonary capillaries","blocks":[{"type":"paragraph","text":"E-Measurement of diffusion capacity"},{"type":"paragraph","text":"In the diffusion equation, several parameters (exchange surface, membrane thickness and diffusion constant) are difficult to measure individually:"},{"type":"paragraph","text":"V°gas = K x S (P1 - P2)"},{"type":"paragraph","text":"e"},{"type":"paragraph","text":"To be evaluated, they must therefore be grouped in the form of a single parameter called “lung diffusion coefficient” (DL):"},{"type":"paragraph","text":"- we can then write: V°gas = DL × (P1 – P2),"},{"type":"paragraph","text":"- or again: DL = V°gas / (P1 – P2),"},{"type":"paragraph","text":"- where DL is expressed in milliliters per minute per millimeter of mercury (ml/min/mmHg)."}]},{"n":24,"title":"III-Gas exchanges in the pulmonary capillaries","blocks":[{"type":"paragraph","text":"E-Measurement of diffusion capacity"},{"type":"paragraph","text":"If the gas analyzed is O2, P2 is difficult to measure, and DL cannot be easily evaluated."},{"type":"paragraph","text":"In the clinic, carbon monoxide (CO) is therefore used to measure DL and the diffusion capacity for oxygen is deduced from this."}]},{"n":25,"title":"III-Gas exchanges in the pulmonary capillaries","blocks":[{"type":"paragraph","text":"E-Measurement of diffusion capacity"},{"type":"paragraph","text":"Principle of the method:"},{"type":"paragraph","text":"A small quantity of CO is introduced into the inspired gas and the partial pressure of CO(P1) measured by alveolar gas collection"},{"type":"paragraph","text":"The CO pressure in the blood (P2) is practically zero because CO combines so quickly with hemoglobin that it does not have time to build up pressure: the equation becomes for CO: DLCO = V˚CO/PaCO (P1=PaCO=partial pressure of CO in the alveolus)"},{"type":"paragraph","text":"Finally, by measuring the CO ventilated for a given time and dividing it by its alveolar partial pressure (PaCO), we obtain a reliable value of the diffusion capacity for CO."}]},{"n":26,"title":"III-Gas exchanges in the pulmonary capillaries","blocks":[{"type":"paragraph","text":"E-Measurement of diffusion capacity"},{"type":"paragraph","text":"Principle of the method:"},{"type":"paragraph","text":"We then calculate the DLO₂ = 1.23 DLCO"},{"type":"paragraph","text":"DLCO = 17ml/min/mmHg in young adults at rest"},{"type":"paragraph","text":"→ DLO₂ =1.23×17 or 21ml/min/mmHg"},{"type":"paragraph","text":"DLCO2 = 20DLO2"}]},{"n":27,"title":"III-Gas exchanges in the pulmonary capillaries","blocks":[{"type":"paragraph","text":"E-Measurement of diffusion capacity"},{"type":"paragraph","text":"DLO₂ is used clinically to look for a disturbance in gas exchange when:"},{"type":"paragraph","text":"-the thickness of the alveolocapillary membrane increases"},{"type":"paragraph","text":"(pulmonary edema);"},{"type":"paragraph","text":"-the diffusion surface decreases (emphysema)."},{"type":"paragraph","text":"Gas exchanges will be disrupted by a reduction in diffusion capacity. Arterial gas concentrations can then be disturbed, even though alveolar ventilation is adequate."}]},{"n":28,"title":"III-Gas exchanges in the pulmonary capillaries","blocks":[{"type":"paragraph","text":"F-Efficiency of alveolocapillary exchanges:"},{"type":"paragraph","text":"Alveolocapillary exchanges depend on:"},{"type":"paragraph","text":"-alveolar ventilation;"},{"type":"paragraph","text":"-alveolocapillary diffusion;"},{"type":"paragraph","text":"-pulmonary perfusion;"},{"type":"paragraph","text":"-the ventilation/perfusion ratio"}]},{"n":29,"title":"III-Gas exchanges in the pulmonary capillaries","blocks":[{"type":"paragraph","text":"F-Efficiency of alveolocapillary exchanges:"},{"type":"paragraph","text":"1-Alveolar ventilation: normal ventilation→ΔP between alveolar air and blood → good diffusion."}]},{"n":30,"title":"III-Gas exchanges in the pulmonary capillaries","blocks":[{"type":"paragraph","text":"F-Efficiency of alveolocapillary exchanges:"},{"type":"paragraph","text":"2-Alveolocapillary diffusion: possible diffusion anomaly if change of the surface, thickness, etc."}]},{"n":31,"title":"III-Gas exchanges in the pulmonary capillaries","blocks":[{"type":"paragraph","text":"F-Efficiency of alveolocapillary exchanges:"},{"type":"paragraph","text":"2-Alveolocapillary diffusion:"},{"type":"paragraph","text":"a-Modification of the surface"},{"type":"paragraph","text":"change of the anatomical surface: global amputation (removing part of the lung);"},{"type":"paragraph","text":"change of the functional surface:"},{"type":"paragraph","text":"-circulatory amputation: stopping of the perfusion, for example by a clot;"},{"type":"paragraph","text":"-ventilatory amputation: poorly ventilated ventilatory territory, example bronchial tumor."}]},{"n":32,"title":"III-Gas exchanges in the pulmonary capillaries","blocks":[{"type":"paragraph","text":"F-Efficiency of alveolocapillary exchanges:"},{"type":"paragraph","text":"2-Alveolocapillary diffusion:"},{"type":"paragraph","text":"b-Change of thickness:"},{"type":"paragraph","text":"-accumulation of collagen fibers or fluid in the interstitium;"},{"type":"paragraph","text":"-accumulation of fluid in the alveoli (pulmonary pathology)."}]},{"n":33,"title":"III-Gas exchanges in the pulmonary capillaries","blocks":[{"type":"paragraph","text":"F-Efficiency of alveolocapillary exchanges:"},{"type":"paragraph","text":"3-Pulmonary perfusion: good perfusion → greater O₂ consumption → more efficient gas exchanges."}]},{"n":34,"title":"III-Gas exchanges in the pulmonary capillaries","blocks":[{"type":"paragraph","text":"F-Efficiency of alveolocapillary exchanges:"},{"type":"paragraph","text":"4- Ventilation/perfusion ratio"},{"type":"paragraph","text":"In an ideal lung the arterial partial pressure in O₂ (PaO₂) is equal to the alveolar partial pressure in O₂ (PAO₂) thanks to the passive diffusion of O₂ through the alveolocapillary membrane: the pressures are balanced."},{"type":"paragraph","text":"In normal real lung PaO₂ < PAO₂(slightly): PaO₂≈100mmHg and PAO₂≈105mmHg."},{"type":"paragraph","text":"This normal alveolocapillary O₂ gradient is linked:"},{"type":"paragraph","text":"- to the anatomical shunt (short circuit);"},{"type":"paragraph","text":"- the inequality of the ventilation/perfusion ratio."}]},{"n":35,"title":"III-Gas exchanges in the pulmonary capillaries F-Efficiency of alveolocapillary exchanges:","blocks":[{"type":"heading","level":2,"text":"III-Gas exchanges in the pulmonary capillaries F-Efficiency of alveolocapillary exchanges:"},{"type":"image","src":"/content/physiologie-respiratoire/pr-10/img-003.jpg","caption":"III-Gas exchanges in the pulmonary capillaries F-Efficiency of alveolocapillary exchanges:"}]},{"n":36,"title":"F-Efficiency of alveolocapillary exchanges: Anatomical blood shunt","blocks":[{"type":"heading","level":3,"text":"F-Efficiency of alveolocapillary exchanges: Anatomical blood shunt"},{"type":"paragraph","text":"Alveolar air"},{"type":"paragraph","text":"PAO₂≈ 105mmHg"},{"type":"paragraph","text":"Bronchial veins"},{"type":"paragraph","text":"Coronary veins"},{"type":"paragraph","text":"Pulmonary capillary"},{"type":"paragraph","text":"PaO₂≈100mmHg"},{"type":"paragraph","text":"PvO₂≈ 40mmHg"},{"type":"paragraph","text":"PcO₂≈ 105mmHg"},{"type":"paragraph","text":"PvO₂≈ 40mmHg"},{"type":"paragraph","text":"Pulmonary artery"},{"type":"paragraph","text":"Pulmonary vein"}]},{"n":37,"title":"F-Efficiency of alveolocapillary exchanges: Ventilation-perfusion ratio","blocks":[{"type":"heading","level":3,"text":"F-Efficiency of alveolocapillary exchanges: Ventilation-perfusion ratio"},{"type":"paragraph","text":"Ventilation:"},{"type":"paragraph","text":"Distended alveoli less compliant; less ventilation"},{"type":"paragraph","text":"Compliant non-distended alveoli;"},{"type":"paragraph","text":"higher ventilation"},{"type":"paragraph","text":"Infusion:"},{"type":"paragraph","text":"Lower vascular pressures, higher resistances; less perfusion"},{"type":"paragraph","text":"Higher vascular pressures, lower resistances; higher perfusion"},{"type":"image","src":"/content/physiologie-respiratoire/pr-10/img-004.jpg","caption":"F-Efficiency of alveolocapillary exchanges: Ventilation-perfusion ratio"}]},{"n":38,"title":"","blocks":[{"type":"image","src":"/content/physiologie-respiratoire/pr-10/img-005.jpg","caption":""}]},{"n":39,"title":"Pulmonary and systemic gas exchanges","blocks":[{"type":"paragraph","text":"Summit: 1"},{"type":"paragraph","text":"Ventilation(VA) > Perfuion(Q)"},{"type":"paragraph","text":"High VA/Q ratio"},{"type":"paragraph","text":"Middle part: 2"},{"type":"paragraph","text":"VA = Q"},{"type":"paragraph","text":"VA/Q ratio = 1 (ideal)"},{"type":"paragraph","text":"Basis: 3"},{"type":"paragraph","text":"VA < Q"},{"type":"paragraph","text":"Low VA/Q ratio"},{"type":"paragraph","text":"1"},{"type":"paragraph","text":"2"},{"type":"paragraph","text":"3"},{"type":"paragraph","text":"Ventilation/perfusion ratio"}]},{"n":40,"title":"III-Gas exchanges in the pulmonary capillaries","blocks":[{"type":"paragraph","text":"F-Efficiency of alveolocapillary exchanges:"},{"type":"paragraph","text":"4- Ventilation/perfusion ratio"},{"type":"paragraph","text":"Factors Responsible for the Distribution of VA/Q Ratio"},{"type":"paragraph","text":"-concepts of gravity and elasticity: lung, elastic structure suspended from the trachea;"},{"type":"paragraph","text":"-most stretched pulmonary structures: summit"},{"type":"paragraph","text":"-lower alveolar compliance at the top"},{"type":"paragraph","text":"-normal subject; regional values ​​0.8˂ VA/ Q˂1.2"}]},{"n":41,"title":"F-Efficiency of alveolocapillary exchanges:","blocks":[{"type":"heading","level":3,"text":"F-Efficiency of alveolocapillary exchanges:"},{"type":"paragraph","text":"4- Ventilation/perfusion ratio"},{"type":"paragraph","text":"Factors Responsible for the Distribution of VA/Q Ratio"},{"type":"paragraph","text":"-Normal subject; overall adequacy between VA and Q (VA/Q ratio ≈ 1)"},{"type":"paragraph","text":"- Pathologies: inadequacy; 2 extreme cases:"},{"type":"paragraph","text":"bronchial obstruction: VA / Q = 0 (perfused and non-ventilated area)"},{"type":"paragraph","text":"vascular obstruction: VA / Q =  (ventilated and non-perfused area)"},{"type":"image","src":"/content/physiologie-respiratoire/pr-10/img-006.png","caption":"F-Efficiency of alveolocapillary exchanges:"}]},{"n":42,"title":"IV-Gas exchanges in systemic capillaries","blocks":[{"type":"heading","level":2,"text":"IV-Gas exchanges in systemic capillaries"},{"type":"paragraph","text":"The transfer of O2 and CO2 between blood in systemic capillaries and tissuee cells occurs by simple diffusion due to differences in partial pressures."},{"type":"paragraph","text":"The arterial blood arriving in the systemic capillaries is practically identical to that leaving the lungs through the pulmonary veins: the PO2 is 100mm Hg and the PCO2 is 40mm Hg."}]},{"n":43,"title":"IV-Gas exchanges in systemic capillaries","blocks":[{"type":"paragraph","text":"Differences in PO2 and PCO2 at the level of systemic capillaries:"},{"type":"paragraph","text":"Due to oxidative metabolism, cells consume O2 and produce CO2 continuously:"},{"type":"paragraph","text":"-the cellular PO2 is around 40mm Hg (it is much lower in the mitochondria, the seat of oxidative metabolism);"},{"type":"paragraph","text":"-the PCO2 is 46 mm Hg (these values ​​vary depending on the level of activity of oxidative metabolism)."},{"type":"paragraph","text":"The O2 then diffuses under the effect of the difference in PO2 (from the systemic capillaries to the cells)."}]},{"n":44,"title":"IV-Gas exchanges in systemic capillaries","blocks":[{"type":"paragraph","text":"The opposite happens for CO2."},{"type":"paragraph","text":"This diffuses rapidly out of the cells (PCO2 = 46 mmHg) towards the blood entering the capillaries (PCO2 = 40mmHg): difference in partial pressure linked to the continuous production of CO2."},{"type":"paragraph","text":"This transfer of CO2 continues until the PCO2 of the blood is in balance with that of the tissuees, i.e. 46mm Hg."},{"type":"paragraph","text":"Systemic venous blood, which is relatively low in O2 (PO2 = 40mm Hg) and rich in CO2 (PCO2 = 46 mm Hg), returns to the heart which pumps it to the lungs."}]},{"n":45,"title":"","blocks":[{"type":"paragraph","text":"Alveolus"},{"type":"paragraph","text":"Po₂=105mmHg"},{"type":"paragraph","text":"Po₂=100mmHg"},{"type":"paragraph","text":"Po₂=100mmHg"},{"type":"paragraph","text":"Po₂ ≤ 40mmHg"},{"type":"paragraph","text":"Peripheral tissuees"},{"type":"paragraph","text":"Po₂ =40mmHg"},{"type":"paragraph","text":"Po₂ =40mmHg"},{"type":"paragraph","text":"Alveolus"},{"type":"paragraph","text":"Pco₂=40mmHg"},{"type":"paragraph","text":"Pco₂=46mmHg"},{"type":"paragraph","text":"Pco₂=40mmHg"},{"type":"paragraph","text":"Pco₂=46mmHg"},{"type":"paragraph","text":"Pco₂=40mmHg"},{"type":"paragraph","text":"Pco₂ ≥ 46mmHg"},{"type":"paragraph","text":"Peripheral tissuees"},{"type":"paragraph","text":"Circulatory system"},{"type":"paragraph","text":"Circulatory system"},{"type":"paragraph","text":"Gas exchanges in the alveoli and cells"}]},{"n":46,"title":"","blocks":[{"type":"paragraph","text":"Po₂=40"},{"type":"paragraph","text":"Pco₂=46"},{"type":"paragraph","text":"Gas pressures"},{"type":"paragraph","text":"Are expressed in mm of Hg"},{"type":"paragraph","text":"Alveolus"},{"type":"paragraph","text":"Artery"},{"type":"paragraph","text":"systemic"},{"type":"paragraph","text":"Vein"},{"type":"paragraph","text":"pulmonary"},{"type":"paragraph","text":"O₂"},{"type":"paragraph","text":"CO₂"},{"type":"paragraph","text":"Po₂=105"},{"type":"paragraph","text":"Pco₂=40"},{"type":"paragraph","text":"Po₂=100"},{"type":"paragraph","text":"Pco₂=40"},{"type":"paragraph","text":"Po₂=100"},{"type":"paragraph","text":"Pco₂=40"},{"type":"paragraph","text":"Po₂ ≤ 40"},{"type":"paragraph","text":"Pco₂ ≥ 46"},{"type":"paragraph","text":"Fabrics"},{"type":"paragraph","text":"O₂"},{"type":"paragraph","text":"CO₂"},{"type":"paragraph","text":"Po₂=40"},{"type":"paragraph","text":"Pco₂=46"},{"type":"paragraph","text":"Heart"},{"type":"paragraph","text":"right"},{"type":"paragraph","text":"Heart"},{"type":"paragraph","text":"LEFT"},{"type":"paragraph","text":"Artery"},{"type":"paragraph","text":"pulmonary"},{"type":"paragraph","text":"Vein"},{"type":"paragraph","text":"systemic"},{"type":"paragraph","text":"Gas exchanges in the lungs and tissuees"}]},{"n":47,"title":"Pulmonary and systemic gas exchanges","blocks":[{"type":"paragraph","text":"Conclusion"},{"type":"paragraph","text":"Alveolocapillary exchanges represent the essential function of the respiratory system, they determine the quantity of O2 which will be available for tissuee gas exchanges, therefore for cellular respiration."}]}]}
+{
+  "file": "physio respiratoir/10)Échangesgazeuxpulmonaireetsystémique_EN.pptx",
+  "chapterId": "pr-10",
+  "title": "Pulmonary and Systemic Gas Exchange",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Respiratory physiology",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Respiratory physiology"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapter 3: Pulmonary and systemic gas exchanges"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr REBAÏNE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Academic year 2025-2026"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Pulmonary and systemic gas exchanges",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Physical principles"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Alveolar gas pressures"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Alveolocapillary (pulmonary) gas exchanges"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Alveolocapillary membrane"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Differences in partial pressure of O2 and CO2 at the capillaries"
+        },
+        {
+          "type": "paragraph",
+          "text": "pulmonary"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C-Laws of diffusion"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D-Diffusion of O2 and CO2"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "E -Measurement of diffusion capacity"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F-Efficiency of alveolocapillary exchanges"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Gas exchanges in systemic capillaries"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Conclusion"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Pulmonary and systemic gas exchanges",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Introduction"
+        },
+        {
+          "type": "paragraph",
+          "text": "The oxygen drawn by the ventilation system from its reservoir which is the atmosphere must:"
+        },
+        {
+          "type": "paragraph",
+          "text": "-cross the alveolar membranes towards the capillaries"
+        },
+        {
+          "type": "paragraph",
+          "text": "pulmonary;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-be transported by the blood into the tissues;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-leave tissuee capillaries;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-and finally cross plasma membranes to"
+        },
+        {
+          "type": "paragraph",
+          "text": "enter cells where it is used for manufacturing"
+        },
+        {
+          "type": "paragraph",
+          "text": "of energy in the context of the oxidative combustion of"
+        },
+        {
+          "type": "paragraph",
+          "text": "nutrients."
+        },
+        {
+          "type": "paragraph",
+          "text": "One of the waste products of this reaction is CO₂, which must follow a similar path, but in the opposite direction, and be eliminated through the lungs."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Pulmonary and systemic gas exchanges",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-10/img-001.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Pulmonary and systemic gas exchanges",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Physical principles"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Concept of partial pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Atmospheric air is a mixture of gases."
+        },
+        {
+          "type": "paragraph",
+          "text": "Normally air contains 79% nitrogen (N2), 21% O2, a negligible percentage of CO2, rare gases, atmospheric pollutants and water vapor."
+        },
+        {
+          "type": "paragraph",
+          "text": "All together, these gases exert a total atmospheric pressure (Patm) of 760mmHg on average at sea level."
+        },
+        {
+          "type": "paragraph",
+          "text": "The total pressure is the sum of the partial pressure exerted by each of the gases constituting the mixture."
+        },
+        {
+          "type": "paragraph",
+          "text": "Since there are 79% of N2 molecules in the air, 79% of the 760mmHg of Patm are due to N2 molecules and 21% of the 760mmHg of Patm or 160 mmHg are due to O2 molecules."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Pulmonary and systemic gas exchanges",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Physical principles"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Concept of partial pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "The partial pressure is the pressure exerted individually by each gas (Pgaz)."
+        },
+        {
+          "type": "paragraph",
+          "text": "According to Dalton's law of partial pressures, the total pressure exerted by a mixture of gases is equal to the sum of the pressures exerted by each of the constituent gases and can be expressed by the following equation:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Partial pressure of a gas = total pressure (PA)"
+        },
+        {
+          "type": "paragraph",
+          "text": "in the gas mixture"
+        },
+        {
+          "type": "paragraph",
+          "text": "In air, PO2 = 160 mm Hg and PCO2 = 0.23 mm Hg (negligible)"
+        },
+        {
+          "type": "paragraph",
+          "text": "PO2 decreases at altitude because Patm decreases."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Pulmonary and systemic gas exchanges",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Physical principles"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Diffusion of gases in liquids"
+        },
+        {
+          "type": "paragraph",
+          "text": "According to Henry's Law, when a liquid is exposed to a gas mixture, each gas dissolves in the liquid in proportion to its partial pressure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Therefore, the more concentrated a gas is in the gas mixture, the more and more quickly it dissolves in the liquid."
+        },
+        {
+          "type": "paragraph",
+          "text": "At the equilibrium point, the partial pressures of the gases are the same in both phases."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, if the partial pressure of a gas is greater in the liquid than in the adjacent gas mixture, part of the dissolved gas molecules re-enter the gas phase."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Pulmonary and systemic gas exchanges",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Physical principles"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Diffusion of gases in liquids"
+        },
+        {
+          "type": "paragraph",
+          "text": "There is a partial pressure difference between pulmonary capillary blood and alveolar gas on the one hand and between systemic capillary blood and tissues on the other hand."
+        },
+        {
+          "type": "paragraph",
+          "text": "A gas always diffuses from an area of ​​high partial pressure to an area of ​​low partial pressure."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Pulmonary and systemic gas exchanges",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Alveolar gas pressures: alveolar PO2 and PCO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "The atmospheric air is heated to 37°C and saturated with water vapor as it passes through the airways."
+        },
+        {
+          "type": "paragraph",
+          "text": "This vapor exerts a partial pressure of 47 mm Hg which reduces the initial partial pressure of the components of the inspired air."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hence: P gas = (Patm – PH2O) x Fgaz"
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: PO 2 = (760 – 47) x 0.21"
+        },
+        {
+          "type": "paragraph",
+          "text": "PO2 ≈ 150 mmHg"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Pulmonary and systemic gas exchanges",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Alveolar gas pressures: alveolar PO2 and PCO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fresh inspired air mixes with the gas remaining in the alveoli and dead space at the end of expiration."
+        },
+        {
+          "type": "paragraph",
+          "text": "This humidification combined with the partial renewal of alveolar gas (part of the oxygen in the air which enters the alveoli leaves them to reach the pulmonary capillaries) is the cause of a drop in alveolar PO2 which is then approximately 105 mm Hg."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "Pulmonary and systemic gas exchanges",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Alveolar gas pressures: alveolar PO2 and PCO2L"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alveolar PO2 varies little during the respiratory cycle and is in equilibrium with the PO2 of the blood leaving the pulmonary capillaries. It follows that the PO2 of the arterial blood also remains invariable so that the quantity of O2 leaving the pulmonary capillaries varies little with the respiratory cycle."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the lungs, CO2 diffuses from the blood into the alveolar gas due to the partial pressure difference and is released into the environment during expiration."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alveolar PCO2 varies little during the respiratory cycle and is 40 mm Hg."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the lungs, O₂ and CO₂ pass through the alveolocapillary membrane passively, by diffusion in the liquid phase by partial pressure difference."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-The alveolocapillary membrane: very thin from 0.3 to 0.5 μ, made up of the following layers"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the alveolar fluid film and the surfactant;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the alveolar epithelium;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the basement membrane of epithelial cells;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the interstitial space;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the capillary basement membrane;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the capillary endothelium."
+        },
+        {
+          "type": "paragraph",
+          "text": "It is this membrane that the gases must pass through."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "IV-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges"
+        },
+        {
+          "type": "paragraph",
+          "text": "Schematic representation of the transfer of O₂ and CO₂ across the alveolocapillary membrane"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Liquid layer with surfactant"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Alveolar epithelium"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3-Epithelial basement membrane"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4-Interstitial space"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "5-Capillary basement membrane"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "6-Capillary endothelium"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alveolar air"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capillary blood"
+        },
+        {
+          "type": "paragraph",
+          "text": "O₂"
+        },
+        {
+          "type": "paragraph",
+          "text": "CO₂"
+        },
+        {
+          "type": "paragraph",
+          "text": "Globule"
+        },
+        {
+          "type": "paragraph",
+          "text": "red"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B-Differences of PO2 and PCO2 in the pulmonary capillaries (see diagram)"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the lungs, the blood gains O2 and loses CO2 by simple diffusion due to the difference in partial pressures."
+        },
+        {
+          "type": "paragraph",
+          "text": "The blood entering the pulmonary capillary via the pulmonary artery is systemic venous blood, poor in O2 with a PO2 = 40 mm Hg and rich in CO2 with a PCO2 = 46 mm Hg."
+        },
+        {
+          "type": "paragraph",
+          "text": "As a result, there is a difference in partial pressure between the alveolar gases and the blood in the pulmonary capillaries, hence diffusion of O2 towards the blood and CO2 towards the alveolar gas until the partial pressures of the alveolar gas and the blood leaving the pulmonary capillaries are balanced (0.3-0.4 sec)."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "Alveolus",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Alveolus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=105mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=105mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=105mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂ ≤ 40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Peripheral tissues"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂ =40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂ =40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alveolus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=46mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=46mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂ ≥ 46mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Peripheral tissues"
+        },
+        {
+          "type": "paragraph",
+          "text": "Circulatory system"
+        },
+        {
+          "type": "paragraph",
+          "text": "Circulatory system"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gas exchanges in the alveoli and cells"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": ")."
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-10/img-002.png",
+          "caption": "III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "Po₂=40",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Po₂=40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=46"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gas pressures"
+        },
+        {
+          "type": "paragraph",
+          "text": "Are expressed in mm of Hg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alveolus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artery"
+        },
+        {
+          "type": "paragraph",
+          "text": "systemic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vein"
+        },
+        {
+          "type": "paragraph",
+          "text": "pulmonary"
+        },
+        {
+          "type": "paragraph",
+          "text": "O₂"
+        },
+        {
+          "type": "paragraph",
+          "text": "CO₂"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=105"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=105"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=105"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂ ≤ 40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂ ≥ 46"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fabrics"
+        },
+        {
+          "type": "paragraph",
+          "text": "O₂"
+        },
+        {
+          "type": "paragraph",
+          "text": "CO₂"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=46"
+        },
+        {
+          "type": "paragraph",
+          "text": "Heart"
+        },
+        {
+          "type": "paragraph",
+          "text": "right"
+        },
+        {
+          "type": "paragraph",
+          "text": "Heart"
+        },
+        {
+          "type": "paragraph",
+          "text": "LEFT"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artery"
+        },
+        {
+          "type": "paragraph",
+          "text": "pulmonary"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vein"
+        },
+        {
+          "type": "paragraph",
+          "text": "systemic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gas exchanges in the lungs and tissues"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C-Laws of diffusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "The diffusion of a gas across the alveolocapillary membrane is governed by Fick's law; the diffusion is proportional:"
+        },
+        {
+          "type": "paragraph",
+          "text": "on the surface S of the membrane;"
+        },
+        {
+          "type": "paragraph",
+          "text": "the opposite of the thickness e;"
+        },
+        {
+          "type": "paragraph",
+          "text": "to the gas pressure gradient on either side of the membrane;"
+        },
+        {
+          "type": "paragraph",
+          "text": "to the diffusion constant K which takes into account the characteristics of the gas and which is proportional to:"
+        },
+        {
+          "type": "paragraph",
+          "text": "- the solubility of the gas in the alveolocapillary membrane"
+        },
+        {
+          "type": "paragraph",
+          "text": "- the inverse of the square root of its molecular weight."
+        },
+        {
+          "type": "paragraph",
+          "text": "The diffusion constant across the alveolocapillary membrane is 20 times"
+        },
+        {
+          "type": "paragraph",
+          "text": "higher for CO2 than for O2."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C-Laws of diffusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "V° gas = K x S (P1 - P2)"
+        },
+        {
+          "type": "paragraph",
+          "text": "e"
+        },
+        {
+          "type": "paragraph",
+          "text": "V° gas: is the flow of gas which diffuses through the alveolocapillary membrane;"
+        },
+        {
+          "type": "paragraph",
+          "text": "P1: is the gas pressure in the cell;"
+        },
+        {
+          "type": "paragraph",
+          "text": "P2: is the pressure at the entrance to the pulmonary capillary."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D-Diffusion of O2 and CO2"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Diffusion of O2"
+        },
+        {
+          "type": "paragraph",
+          "text": "-large ΔP between the blood which arrives in the pulmonary capillaries and the alveolar air;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-equilibrium is reached quickly (0.3-0.4s)."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D-Diffusion of O2 and CO2"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Diffusion of CO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "-low ΔP between mixed venous blood and alveolar air but high diffusibility;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-equilibrium is reached quickly (0.3-0.4s)."
+        },
+        {
+          "type": "paragraph",
+          "text": "K of CO2 ˃˃ K of O2 because the solubility of CO2 ˃˃ is that of O2."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "III-Gas exchanges in the pulmonary capillaries: alveolocapillary exchanges of gases",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D-Diffusion of O2 and CO2"
+        },
+        {
+          "type": "paragraph",
+          "text": "In a person at rest, for 1 min assuming alveolar ventilation of 4000 ml/min and a cardiac output of 5000 ml/min:"
+        },
+        {
+          "type": "paragraph",
+          "text": "the oxygen flow rate is approximately 250ml/min;"
+        },
+        {
+          "type": "paragraph",
+          "text": "the flow rate of carbon dioxide diffused is approximately 200ml/min"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "III-Gas exchanges in the pulmonary capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "E-Measurement of diffusion capacity"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the diffusion equation, several parameters (exchange surface, membrane thickness and diffusion constant) are difficult to measure individually:"
+        },
+        {
+          "type": "paragraph",
+          "text": "V°gas = K x S (P1 - P2)"
+        },
+        {
+          "type": "paragraph",
+          "text": "e"
+        },
+        {
+          "type": "paragraph",
+          "text": "To be evaluated, they must therefore be grouped in the form of a single parameter called “lung diffusion coefficient” (DL):"
+        },
+        {
+          "type": "paragraph",
+          "text": "- we can then write: V°gas = DL × (P1 – P2),"
+        },
+        {
+          "type": "paragraph",
+          "text": "- or again: DL = V°gas / (P1 – P2),"
+        },
+        {
+          "type": "paragraph",
+          "text": "- where DL is expressed in milliliters per minute per millimeter of mercury (ml/min/mmHg)."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "III-Gas exchanges in the pulmonary capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "E-Measurement of diffusion capacity"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the gas analyzed is O2, P2 is difficult to measure, and DL cannot be easily evaluated."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the clinic, carbon monoxide (CO) is therefore used to measure DL and the diffusion capacity for oxygen is deduced from this."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "III-Gas exchanges in the pulmonary capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "E-Measurement of diffusion capacity"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Principle of the method"
+        },
+        {
+          "type": "paragraph",
+          "text": "A small quantity of CO is introduced into the inspired gas and the partial pressure of CO(P1) measured by alveolar gas collection"
+        },
+        {
+          "type": "paragraph",
+          "text": "The CO pressure in the blood (P2) is practically zero because CO combines so quickly with hemoglobin that it does not have time to build up pressure: the equation becomes for CO: DLCO = V˚CO/PaCO (P1=PaCO=partial pressure of CO in the alveolus)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Finally, by measuring the CO ventilated for a given time and dividing it by its alveolar partial pressure (PaCO), we obtain a reliable value of the diffusion capacity for CO."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "III-Gas exchanges in the pulmonary capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "E-Measurement of diffusion capacity"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Principle of the method"
+        },
+        {
+          "type": "paragraph",
+          "text": "We then calculate the DLO₂ = 1.23 DLCO"
+        },
+        {
+          "type": "paragraph",
+          "text": "DLCO = 17ml/min/mmHg in young adults at rest"
+        },
+        {
+          "type": "paragraph",
+          "text": "→ DLO₂ =1.23×17 or 21ml/min/mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "DLCO2 = 20DLO2"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "III-Gas exchanges in the pulmonary capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "E-Measurement of diffusion capacity"
+        },
+        {
+          "type": "paragraph",
+          "text": "DLO₂ is used clinically to look for a disturbance in gas exchange when:"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the thickness of the alveolocapillary membrane increases"
+        },
+        {
+          "type": "paragraph",
+          "text": "(pulmonary edema);"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the diffusion surface decreases (emphysema)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gas exchanges will be disrupted by a reduction in diffusion capacity. Arterial gas concentrations can then be disturbed, even though alveolar ventilation is adequate."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "III-Gas exchanges in the pulmonary capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F-Efficiency of alveolocapillary exchanges"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Alveolocapillary exchanges depend on"
+        },
+        {
+          "type": "paragraph",
+          "text": "-alveolar ventilation;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-alveolocapillary diffusion;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-pulmonary perfusion;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the ventilation/perfusion ratio"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "III-Gas exchanges in the pulmonary capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F-Efficiency of alveolocapillary exchanges"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Alveolar ventilation: normal ventilation→ΔP between alveolar air and blood → good diffusion."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "III-Gas exchanges in the pulmonary capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F-Efficiency of alveolocapillary exchanges"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Alveolocapillary diffusion: possible diffusion anomaly if change of the surface, thickness, etc."
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "III-Gas exchanges in the pulmonary capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F-Efficiency of alveolocapillary exchanges"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Alveolocapillary diffusion"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "a-Modification of the surface"
+        },
+        {
+          "type": "paragraph",
+          "text": "change of the anatomical surface: global amputation (removing part of the lung);"
+        },
+        {
+          "type": "paragraph",
+          "text": "change of the functional surface:"
+        },
+        {
+          "type": "paragraph",
+          "text": "-circulatory amputation: stopping of the perfusion, for example by a clot;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-ventilatory amputation: poorly ventilated ventilatory territory, example bronchial tumor."
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "III-Gas exchanges in the pulmonary capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F-Efficiency of alveolocapillary exchanges"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Alveolocapillary diffusion"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "b-Change of thickness"
+        },
+        {
+          "type": "paragraph",
+          "text": "-accumulation of collagen fibers or fluid in the interstitium;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-accumulation of fluid in the alveoli (pulmonary pathology)."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "III-Gas exchanges in the pulmonary capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F-Efficiency of alveolocapillary exchanges"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3-Pulmonary perfusion: good perfusion → greater O₂ consumption → more efficient gas exchanges."
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "III-Gas exchanges in the pulmonary capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F-Efficiency of alveolocapillary exchanges"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4- Ventilation/perfusion ratio"
+        },
+        {
+          "type": "paragraph",
+          "text": "In an ideal lung the arterial partial pressure in O₂ (PaO₂) is equal to the alveolar partial pressure in O₂ (PAO₂) thanks to the passive diffusion of O₂ through the alveolocapillary membrane: the pressures are balanced."
+        },
+        {
+          "type": "paragraph",
+          "text": "In normal real lung PaO₂ < PAO₂(slightly): PaO₂≈100mmHg and PAO₂≈105mmHg."
+        },
+        {
+          "type": "paragraph",
+          "text": "This normal alveolocapillary O₂ gradient is linked:"
+        },
+        {
+          "type": "paragraph",
+          "text": "- to the anatomical shunt (short circuit);"
+        },
+        {
+          "type": "paragraph",
+          "text": "- the inequality of the ventilation/perfusion ratio."
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "III-Gas exchanges in the pulmonary capillaries F-Efficiency of alveolocapillary exchanges:",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Gas exchanges in the pulmonary capillaries F-Efficiency of alveolocapillary exchanges:"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-10/img-003.jpg",
+          "caption": "III-Gas exchanges in the pulmonary capillaries F-Efficiency of alveolocapillary exchanges:"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "F-Efficiency of alveolocapillary exchanges: Anatomical blood shunt",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F-Efficiency of alveolocapillary exchanges: Anatomical blood shunt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alveolar air"
+        },
+        {
+          "type": "paragraph",
+          "text": "PAO₂≈ 105mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bronchial veins"
+        },
+        {
+          "type": "paragraph",
+          "text": "Coronary veins"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pulmonary capillary"
+        },
+        {
+          "type": "paragraph",
+          "text": "PaO₂≈100mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "PvO₂≈ 40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "PcO₂≈ 105mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "PvO₂≈ 40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pulmonary artery"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pulmonary vein"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "title": "F-Efficiency of alveolocapillary exchanges: Ventilation-perfusion ratio",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F-Efficiency of alveolocapillary exchanges: Ventilation-perfusion ratio"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ventilation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Distended alveoli less compliant; less ventilation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compliant non-distended alveoli;"
+        },
+        {
+          "type": "paragraph",
+          "text": "higher ventilation"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Infusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lower vascular pressures, higher resistances; less perfusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Higher vascular pressures, lower resistances; higher perfusion"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-10/img-004.jpg",
+          "caption": "F-Efficiency of alveolocapillary exchanges: Ventilation-perfusion ratio"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "title": "F-Efficiency of alveolocapillary exchanges: Ventilation-perfusion ratio",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-10/img-005.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "title": "Pulmonary and systemic gas exchanges",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Summit: 1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ventilation(VA) > Perfuion(Q)"
+        },
+        {
+          "type": "paragraph",
+          "text": "High VA/Q ratio"
+        },
+        {
+          "type": "paragraph",
+          "text": "Middle part: 2"
+        },
+        {
+          "type": "paragraph",
+          "text": "VA = Q"
+        },
+        {
+          "type": "paragraph",
+          "text": "VA/Q ratio = 1 (ideal)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Basis: 3"
+        },
+        {
+          "type": "paragraph",
+          "text": "VA < Q"
+        },
+        {
+          "type": "paragraph",
+          "text": "Low VA/Q ratio"
+        },
+        {
+          "type": "paragraph",
+          "text": "1"
+        },
+        {
+          "type": "paragraph",
+          "text": "2"
+        },
+        {
+          "type": "paragraph",
+          "text": "3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ventilation/perfusion ratio"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "title": "III-Gas exchanges in the pulmonary capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F-Efficiency of alveolocapillary exchanges"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4- Ventilation/perfusion ratio"
+        },
+        {
+          "type": "paragraph",
+          "text": "Factors Responsible for the Distribution of VA/Q Ratio"
+        },
+        {
+          "type": "paragraph",
+          "text": "-concepts of gravity and elasticity: lung, elastic structure suspended from the trachea;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-most stretched pulmonary structures: summit"
+        },
+        {
+          "type": "paragraph",
+          "text": "-lower alveolar compliance at the top"
+        },
+        {
+          "type": "paragraph",
+          "text": "-normal subject; regional values ​​0.8˂ VA/ Q˂1.2"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "title": "F-Efficiency of alveolocapillary exchanges:",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F-Efficiency of alveolocapillary exchanges:"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4- Ventilation/perfusion ratio"
+        },
+        {
+          "type": "paragraph",
+          "text": "Factors Responsible for the Distribution of VA/Q Ratio"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Normal subject; overall adequacy between VA and Q (VA/Q ratio ≈ 1)",
+            "Pathologies: inadequacy; 2 extreme cases:"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "bronchial obstruction: VA / Q = 0 (perfused and non-ventilated area)"
+        },
+        {
+          "type": "paragraph",
+          "text": "vascular obstruction: VA / Q =  (ventilated and non-perfused area)"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-respiratoire/pr-10/img-006.png",
+          "caption": "F-Efficiency of alveolocapillary exchanges:"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "title": "IV-Gas exchanges in systemic capillaries",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Gas exchanges in systemic capillaries"
+        },
+        {
+          "type": "paragraph",
+          "text": "The transfer of O2 and CO2 between blood in systemic capillaries and tissuee cells occurs by simple diffusion due to differences in partial pressures."
+        },
+        {
+          "type": "paragraph",
+          "text": "The arterial blood arriving in the systemic capillaries is practically identical to that leaving the lungs through the pulmonary veins: the PO2 is 100mm Hg and the PCO2 is 40mm Hg."
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "title": "IV-Gas exchanges in systemic capillaries",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Differences in PO2 and PCO2 at the level of systemic capillaries:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Due to oxidative metabolism, cells consume O2 and produce CO2 continuously:"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the cellular PO2 is around 40mm Hg (it is much lower in the mitochondria, the seat of oxidative metabolism);"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the PCO2 is 46 mm Hg (these values ​​vary depending on the level of activity of oxidative metabolism)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The O2 then diffuses under the effect of the difference in PO2 (from the systemic capillaries to the cells)."
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "title": "IV-Gas exchanges in systemic capillaries",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The opposite happens for CO2."
+        },
+        {
+          "type": "paragraph",
+          "text": "This diffuses rapidly out of the cells (PCO2 = 46 mmHg) towards the blood entering the capillaries (PCO2 = 40mmHg): difference in partial pressure linked to the continuous production of CO2."
+        },
+        {
+          "type": "paragraph",
+          "text": "This transfer of CO2 continues until the PCO2 of the blood is in balance with that of the tissues, i.e. 46mm Hg."
+        },
+        {
+          "type": "paragraph",
+          "text": "Systemic venous blood, which is relatively low in O2 (PO2 = 40mm Hg) and rich in CO2 (PCO2 = 46 mm Hg), returns to the heart which pumps it to the lungs."
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "title": "Alveolus",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Alveolus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=105mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=100mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=100mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂ ≤ 40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Peripheral tissues"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂ =40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂ =40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alveolus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=46mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=46mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=40mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂ ≥ 46mmHg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Peripheral tissues"
+        },
+        {
+          "type": "paragraph",
+          "text": "Circulatory system"
+        },
+        {
+          "type": "paragraph",
+          "text": "Circulatory system"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gas exchanges in the alveoli and cells"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "title": "Po₂=40",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Po₂=40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=46"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gas pressures"
+        },
+        {
+          "type": "paragraph",
+          "text": "Are expressed in mm of Hg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alveolus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artery"
+        },
+        {
+          "type": "paragraph",
+          "text": "systemic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vein"
+        },
+        {
+          "type": "paragraph",
+          "text": "pulmonary"
+        },
+        {
+          "type": "paragraph",
+          "text": "O₂"
+        },
+        {
+          "type": "paragraph",
+          "text": "CO₂"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=105"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=100"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=100"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂ ≤ 40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂ ≥ 46"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fabrics"
+        },
+        {
+          "type": "paragraph",
+          "text": "O₂"
+        },
+        {
+          "type": "paragraph",
+          "text": "CO₂"
+        },
+        {
+          "type": "paragraph",
+          "text": "Po₂=40"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pco₂=46"
+        },
+        {
+          "type": "paragraph",
+          "text": "Heart"
+        },
+        {
+          "type": "paragraph",
+          "text": "right"
+        },
+        {
+          "type": "paragraph",
+          "text": "Heart"
+        },
+        {
+          "type": "paragraph",
+          "text": "LEFT"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artery"
+        },
+        {
+          "type": "paragraph",
+          "text": "pulmonary"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vein"
+        },
+        {
+          "type": "paragraph",
+          "text": "systemic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gas exchanges in the lungs and tissues"
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "title": "Pulmonary and systemic gas exchanges",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Conclusion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alveolocapillary exchanges represent the essential function of the respiratory system, they determine the quantity of O2 which will be available for tissuee gas exchanges, therefore for cellular respiration."
+        }
+      ]
+    }
+  ]
+}

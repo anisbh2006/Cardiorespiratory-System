@@ -1,1 +1,1771 @@
-{"file":"physio cardiovasculaire/4)regulationdelapressionartérielle_EN.pptx","chapterId":"pc-4","title":"Blood Pressure Regulation","kind":"cours","pages":[{"n":1,"title":"Cardiovascular Physiology","blocks":[{"type":"heading","level":3,"text":"Cardiovascular Physiology"},{"type":"paragraph","text":"Chapter 4: Blood Pressure Regulation"},{"type":"paragraph","text":"Academic year 2025-2026"},{"type":"paragraph","text":"Dr REBAÏNE"}]},{"n":2,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"General"},{"type":"paragraph","text":"Physical Basics of Traffic"},{"type":"paragraph","text":"High pressure system"},{"type":"paragraph","text":"Regulation of blood pressure"},{"type":"paragraph","text":"Adaptation of blood pressure in physiological situations"},{"type":"paragraph","text":"Conclusion"}]},{"n":3,"title":"General","blocks":[{"type":"heading","level":3,"text":"General"},{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-001.emf","caption":"General"}]},{"n":4,"title":"General","blocks":[{"type":"heading","level":3,"text":"General"},{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-001.emf","caption":"General"}]},{"n":5,"title":"Physical Basics of Traffic","blocks":[{"type":"heading","level":3,"text":"Physical Basics of Traffic"},{"type":"paragraph","text":"Cardiac output and blood flow:"},{"type":"paragraph","text":"-Cardiac output is the volume of blood ejected by the left ventricle (for systemic circulation) into the aorta each minute and is expressed in ml/min."},{"type":"paragraph","text":"-Blood flow is the quantity (volume) of blood that circulates per unit of time in a specific systemic region (example renal blood flow)."}]},{"n":6,"title":"Physical Basics of Traffic","blocks":[{"type":"heading","level":3,"text":"Physical Basics of Traffic"},{"type":"paragraph","text":"Vascular pressures, orthostatism and clinostatism"},{"type":"paragraph","text":"Blood pressure corresponds to the force per unit area exerted by blood on the vessel wall. The blood moves from the areas where the pressure is the highest (left ventricle in systole) to those where it is the lowest (right atrium in diastole for the greater circulation)"}]},{"n":7,"title":"Physical Basics of Traffic","blocks":[{"type":"heading","level":3,"text":"Physical Basics of Traffic"},{"type":"paragraph","text":"Vascular pressures, orthostatism and clinostatism"},{"type":"paragraph","text":"Blood pressure has two components:"},{"type":"paragraph","text":"-the dynamic pressure exerted by the left ventricle;"},{"type":"paragraph","text":"-the hydrostatic pressure due to the application of the earth's gravity vector on the blood column, particularly in a standing position."}]},{"n":8,"title":"Physical Basics of Traffic","blocks":[{"type":"heading","level":3,"text":"Physical Basics of Traffic"},{"type":"paragraph","text":"Vascular pressures, orthostatism and clinostatism"},{"type":"paragraph","text":"Hydrostatic pressures are incapable of ensuring circulation"},{"type":"paragraph","text":"(arteriovenous) blood in the vessels. Only the work of the heart, which creates dynamic pressure to the ventricular blood."}]},{"n":9,"title":"Physical Basics of Traffic","blocks":[{"type":"heading","level":3,"text":"Physical Basics of Traffic"},{"type":"paragraph","text":"Vascular pressures, orthostatism and clinostatism"},{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-002.png","caption":"Physical Basics of Traffic"}]},{"n":10,"title":"Physical Basics of Traffic","blocks":[{"type":"heading","level":3,"text":"Physical Basics of Traffic"},{"type":"paragraph","text":"Vascular pressures, orthostatism and clinostatism"},{"type":"paragraph","text":"Effect of gravity:"},{"type":"paragraph","text":"-The value of the gravitational effect is approximately 0.77mm Hg/cm for a vertical distance above or below the heart."},{"type":"paragraph","text":"-Thus in a standing adult whose average arterial pressure (MAP) is 100mm Hg at heart level:"},{"type":"paragraph","text":"MAP in a large artery of the foot (105cm below the heart) = 180 mmHg [100+(O.77x105)]."},{"type":"paragraph","text":"MAP in a large artery of the head (50 cm above the heart) =62mmHg [100-(0.77x50)];"},{"type":"paragraph","text":"The effect of gravity on venous pressure is similar (see Venous Circulation Course)."}]},{"n":11,"title":"Physical Basics of Traffic","blocks":[{"type":"heading","level":3,"text":"Physical Basics of Traffic"},{"type":"paragraph","text":"Vascular pressures, orthostatism and clinostatism"},{"type":"paragraph","text":"The vessels are surrounded by tissuees and organs which can exert “counter pressure” or extravascular pressure."},{"type":"paragraph","text":"Transmural pressure is the difference between intra- and extravascular pressures."},{"type":"paragraph","text":"Transmural pressure can become negative in certain circumstances, leading to vessel compressure and transient cessation of perfusion, for example, during muscular or myocardial contraction."}]},{"n":12,"title":"Physical Basics of Traffic","blocks":[{"type":"heading","level":3,"text":"Physical Basics of Traffic"},{"type":"paragraph","text":"Blood flow"},{"type":"paragraph","text":"In the arteries, the flow of blood is organized in concentric layers from the center towards the walls."},{"type":"paragraph","text":"Given the viscosity of the blood, these layers exhibit a certain degree of friction with each other, which induces a moderate pressure loss throughout the arterial arborization and a moderate resistance to the movement of the blood."}]},{"n":13,"title":"Physical Basics of Traffic","blocks":[{"type":"heading","level":3,"text":"Physical Basics of Traffic"},{"type":"paragraph","text":"Blood flow"},{"type":"paragraph","text":"The flow of blood is thus similar to a sliding of concentric blades of variable speeds, with greater speeds in the center than near the walls."},{"type":"paragraph","text":"This flow, called laminar, is found from the aorta to the small arteries with a parabolic speed profile."},{"type":"paragraph","text":"The red blood cells are oriented in the direction of the flow, slightly offset towards the central axis of the vessel; the formation of a thin marginal plasma layer 2 to 4 mm thick between each layer of red blood cells is described."}]},{"n":14,"title":"Physical Basics of Traffic","blocks":[{"type":"heading","level":3,"text":"Physical Basics of Traffic"},{"type":"paragraph","text":"Hemodynamic resistance and Poiseuille's law"},{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-003.png","caption":"Physical Basics of Traffic"}]},{"n":15,"title":"Physical Basics of Traffic","blocks":[{"type":"heading","level":3,"text":"Physical Basics of Traffic"},{"type":"paragraph","text":"Hemodynamic resistance and Poiseuille's law"},{"type":"paragraph","text":"When the average blood velocity exceeds a certain threshold, as in the case of arterial stenosis where the layers become disorganized and the flow then takes on a turbulent regime."},{"type":"paragraph","text":"Vortices of very varied size and intensity appear. These swirls are noisy and induce a characteristic vascular murmur upon auscultation."}]},{"n":16,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"paragraph","text":"I- Characteristics of the high pressure system"},{"type":"paragraph","text":"The high pressure, high resistance and low compliance resistive sector runs from the left ventricle in systole to the arterioles and contains 10 to 15% of the blood volume:"},{"type":"paragraph","text":"-high pressure: of dynamic origin (it is due to contraction of the left ventricle);"},{"type":"paragraph","text":"- hemodynamic resistance is almost entirely localized at the level of the arterioles;"},{"type":"paragraph","text":"blood flow speed: gradually decreases from arteries to arterioles;"},{"type":"paragraph","text":"total cross-sectional area increases from the aorta to the capillaries;"},{"type":"paragraph","text":"pressure and flow control mechanisms;"}]},{"n":17,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-004.jpg","caption":"High pressure system"}]},{"n":18,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"paragraph","text":"II-Arterial circulation"},{"type":"paragraph","text":"Arterial circulation has a dual role:"},{"type":"paragraph","text":"- blood transport"},{"type":"paragraph","text":"-cardiac output distribution"}]},{"n":19,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"paragraph","text":"II-Arterial circulation"},{"type":"paragraph","text":"Transport of blood with high pressure provided by the large arteries:"},{"type":"paragraph","text":"-the blood is ejected from the left ventricle under high pressure (120mm Hg) and thanks to the elasticity of the wall the flow becomes continuous;"},{"type":"paragraph","text":"-the flow remains effective thanks to the energy that the initially distended aortic wall will return to the blood by regaining its initial diameter (Windkessel effect)."}]},{"n":20,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"paragraph","text":"II-Arterial circulation"},{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-005.jpg","caption":"High pressure system"}]},{"n":21,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"paragraph","text":"II-Arterial circulation"},{"type":"paragraph","text":"Transport of blood with high pressure provided by the large arteries:"},{"type":"paragraph","text":"This mechanism reproduces step by step constituting the arterial wave."},{"type":"paragraph","text":"The propagation of the arterial wave will generate a vibration which is at the origin of the pulse. Taking the pulse is part of the clinical examination."},{"type":"paragraph","text":"The shock produced by the stretching of the arteries under the effect of the arrival of the pressure wave can be palpated on the peripheral arteries."}]},{"n":22,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"paragraph","text":"II-Arterial circulation"},{"type":"paragraph","text":"Distribution of cardiac output ensured by the arterioles:"},{"type":"paragraph","text":"Local vasomotion (property of blood vessels to vary in diameter) adapts the blood flow under effective pressure to the varying needs of the different organs."},{"type":"paragraph","text":"The control of vasomotion depends on:"},{"type":"paragraph","text":"1-Intrinsic factors: increase in local needs → increase in local flow or active hyperemia: local regulation"},{"type":"paragraph","text":"2-Extrinsic factors: systemic regulation"},{"type":"paragraph","text":"-Autonomic nervous system (sympathetic)"},{"type":"paragraph","text":"-Circulating factors (catecholamines, angiotensin II, etc.)"}]},{"n":23,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"paragraph","text":"II-Arterial circulation"},{"type":"paragraph","text":"Distribution of cardiac output ensured by the arterioles:"},{"type":"paragraph","text":"The arterioles are basic in a state of permanent partial contraction (basal tone). The contraction of smooth muscle cells (SMC) is reflex, in response to intravascular pressure and corresponds to the myogenic tone inherent to vitality."},{"type":"paragraph","text":"Regulatory mechanisms exist to increase (vasoconstriction) or decrease this tone (vasodilation)."},{"type":"paragraph","text":"The mode of action of CML is slow and sustained contraction, unlike the brief contractions of the cardiac muscle and more generally of the striated muscle."},{"type":"paragraph","text":"The cellular and molecular mechanisms which modulate the radius and therefore the resistance of the vessels to the passage of blood flow, will induce changes in the concentration of intracellular Ca²⁺ of the vascular myocytes modulating the basal tone."}]},{"n":24,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"paragraph","text":"III-Blood pressure: definitions"},{"type":"paragraph","text":"Arterial pressure (BP) or blood pressure is the dynamic pressure that prevails in the arterial vessels."},{"type":"paragraph","text":"By maintaining the walls of the arteries distended and ensuring the flow of blood from the heart to the periphery, it allows effective perfusion of the organs."},{"type":"paragraph","text":"This pressure is not constant during the cardiac cycle and goes through two extreme values:"},{"type":"paragraph","text":"-systolic pressure (SBP): is the maximum pressure reached in the arteries during the ejection of blood from the LV;"},{"type":"paragraph","text":"-diastolic pressure (DBP): is the minimum pressure reached just before ventricular ejection."}]},{"n":25,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"paragraph","text":"III-Blood pressure: definitions"},{"type":"paragraph","text":"Pulse pressure (PD): is the difference between systolic pressure and diastolic pressure:"},{"type":"paragraph","text":"PD = PAS - PAD"},{"type":"paragraph","text":"In theory, we define an effective average pressure that actually propels blood through the arterial system [mean arterial pressure (MAP)] that is identical throughout the system:"},{"type":"paragraph","text":"PAM = PAD + 1/3 PD"}]},{"n":26,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"paragraph","text":"IV-Measuring blood pressure"},{"type":"paragraph","text":"Direct measurement"},{"type":"paragraph","text":"Indirect measures:"},{"type":"paragraph","text":"-the auscultatory method with a tension cuff;"},{"type":"paragraph","text":"-automated system."}]},{"n":27,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"paragraph","text":"IV-Measuring blood pressure"},{"type":"paragraph","text":"BP can be measured directly on any large artery: arterial catheterization connected to a pressure gauge and a recording system."},{"type":"paragraph","text":"It is an invasive method, reserved for hospital use and special situations."}]},{"n":28,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"paragraph","text":"IV-Measuring blood pressure"},{"type":"paragraph","text":"In the clinic, it is measured indirectly by the auscultatory method with a blood pressure cuff."},{"type":"paragraph","text":"The inflatable cuff initially compresses an artery and auscultation during slow decompressure detects noises linked to the flow (Korotkoff sounds). Their appearance indicates systolic blood pressure and their disappearance indicates diastolic blood pressure. The most commonly used unit of pressure in physiology and clinical practice remains the millimeter of mercury (mmHg)."}]},{"n":29,"title":"Blood pressure measurement","blocks":[{"type":"heading","level":3,"text":"Blood pressure measurement"},{"type":"paragraph","text":"Humeral artery"},{"type":"paragraph","text":"air-inflated cuff"},{"type":"paragraph","text":"150"},{"type":"paragraph","text":"120"},{"type":"paragraph","text":"70"},{"type":"paragraph","text":"sounds audible through the stethoscope"},{"type":"paragraph","text":"no audible sound"},{"type":"paragraph","text":"Compressed humeral artery"},{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-006.jpg","caption":"Blood pressure measurement"}]},{"n":30,"title":"Blood pressure measurement","blocks":[{"type":"heading","level":3,"text":"Blood pressure measurement"},{"type":"paragraph","text":"artery"},{"type":"paragraph","text":"air-inflated cuff"},{"type":"paragraph","text":"150"},{"type":"paragraph","text":"120"},{"type":"paragraph","text":"70"},{"type":"paragraph","text":"sounds audible through the stethoscope"},{"type":"paragraph","text":"no audible sound"},{"type":"paragraph","text":"compressed artery"},{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-006.jpg","caption":"Blood pressure measurement"}]},{"n":31,"title":"Blood pressure measurement","blocks":[{"type":"heading","level":3,"text":"Blood pressure measurement"},{"type":"paragraph","text":"artery"},{"type":"paragraph","text":"air-inflated cuff"},{"type":"paragraph","text":"150"},{"type":"paragraph","text":"120"},{"type":"paragraph","text":"70"},{"type":"paragraph","text":"sounds audible through the stethoscope"},{"type":"paragraph","text":"no audible sound"},{"type":"paragraph","text":"compressed artery"},{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-006.jpg","caption":"Blood pressure measurement"}]},{"n":32,"title":"High pressure system","blocks":[{"type":"heading","level":3,"text":"High pressure system"},{"type":"paragraph","text":"IV-Measuring blood pressure"},{"type":"paragraph","text":"Various automated systems allow BP estimation. They come in the form of small electronic bracelets and allow patients to monitor their BP independently."}]},{"n":33,"title":"World Health Organization (WHO) definitions","blocks":[{"type":"heading","level":3,"text":"World Health Organization (WHO) definitions"},{"type":"table","headers":["Category","NOT PAD"],"rows":[["Optimal","<120 and <80"],["Normal","120-129 and/or 80-84"],["Normal high","130-139 and/or 85-89"],["High blood pressure grade 1","140-159 and/or 90-99"],["HTA grade 2","160-179 and/or 100-109"],["HTA grade 3","≥180 and/or ≥110"],["Isolated systolic hypertension","≥140 and/or <90"]]}]},{"n":34,"title":"IV-Blood pressure measurement:","blocks":[{"type":"heading","level":2,"text":"IV-Blood pressure measurement:"},{"type":"paragraph","text":"50"},{"type":"paragraph","text":"100"},{"type":"paragraph","text":"150"},{"type":"paragraph","text":"Pressure (mmHg)"},{"type":"paragraph","text":"Age (years)"},{"type":"paragraph","text":"20"},{"type":"paragraph","text":"40"},{"type":"paragraph","text":"60"},{"type":"paragraph","text":"80"},{"type":"paragraph","text":"Blood pressure and age"},{"type":"paragraph","text":"Systolic pressure"},{"type":"paragraph","text":"Average pressure"},{"type":"paragraph","text":"Diastolic pressure"}]},{"n":35,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"I-Determinants of blood pressure"},{"type":"paragraph","text":"Created by left ventricular contraction and maintained by arteriolar resistance, MAP is the result of cardiac output (DC), total peripheral resistance (RPT) and blood volume."},{"type":"paragraph","text":"Blood volume varies little under physiological conditions and by analogy with an electrical circuit (Ohm's law) we can write:"},{"type":"paragraph","text":"PAM = DC x RPT"},{"type":"paragraph","text":"Ohm's law for electrical circuits: V = I x R"},{"type":"paragraph","text":"where the flow rate is the current and the pressure is the Voltage."}]},{"n":36,"title":"BP determinants","blocks":[{"type":"heading","level":3,"text":"BP determinants"},{"type":"paragraph","text":"Resistors"},{"type":"paragraph","text":"PAM = DC x RPT"},{"type":"paragraph","text":"DC: cardiac output"},{"type":"paragraph","text":"RPT: total peripheral resistances"},{"type":"paragraph","text":"Heart"},{"type":"paragraph","text":"Arteries"},{"type":"paragraph","text":"Veins"},{"type":"paragraph","text":"Resistances"}]},{"n":37,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"I-Determinants of blood pressure"},{"type":"paragraph","text":"1- Cardiac output: DC = VES x HR"},{"type":"paragraph","text":"VES = VTD - VTS"},{"type":"paragraph","text":"DC is influenced by changes in HR, myocardial contractility and venous return."}]},{"n":38,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"I-Determinants of blood pressure"},{"type":"paragraph","text":"2- Arterial resistance: are mainly due to arteriolar resistance, that is to say the radius of the arterioles."}]},{"n":39,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"I-Determinants of blood pressure"},{"type":"paragraph","text":"2- Arterial resistance:"},{"type":"paragraph","text":"According to Poiseuille, the resistance of a vessel (R) is proportional to the blood viscosity (n) and the length of the vessel (L) and inversely proportional to its radius (r):"},{"type":"paragraph","text":"R = 8Lη / π r⁴"},{"type":"paragraph","text":"-the length of the vessel is constant;"},{"type":"paragraph","text":"-viscosity only varies in certain pathological circumstances (polycythemia);"},{"type":"paragraph","text":"-the radius r is variable"},{"type":"paragraph","text":"So R depends only on r."}]},{"n":40,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"II-Mechanisms of arterial regulation"},{"type":"paragraph","text":"BP is the regulated quantity of the cardiovascular system."},{"type":"paragraph","text":"At rest, blood pressure does not vary more than 100 mm Hg around its mean value (MAP)."},{"type":"paragraph","text":"This tight regulation is the result of the superposition and complementarity of different systems which affect cardiac output, vasomotor function and blood volume."}]},{"n":41,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"A-Short-term regulation (nervous regulation): occurs in a few seconds. It involves the baroreflex:"},{"type":"paragraph","text":"baroreceptors: are located in the wall of the aortic arch and carotid sinuses;"},{"type":"paragraph","text":"the afferent, centripetal nerve pathways represented by the sinocarotid nerves (also called sinus nerve or Hering nerve) and aortic nerve (also called Ludwing-Cyon nerve) which respectively follow the paths of the IXth and Xth cranial pairs."}]},{"n":42,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"A-Short-term regulation (nervous regulation): occurs in a few seconds. It involves the baroreflex:"},{"type":"paragraph","text":"the nerve centers regulating variations in BP (bulbar centers of cardiovascular integration): cardiomoderator center (parasympathetic), cardioaccelerator center and vasomotor center (sympathetic) controlled by the suprabulbar structures;"}]},{"n":43,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"A-Short-term regulation (nervous regulation): occurs in a few seconds."},{"type":"paragraph","text":"The baroreflex:"},{"type":"paragraph","text":"the efferent, centrifugal pathways travel in the vagus nerves (X) and in the sympathetic nerves;"},{"type":"paragraph","text":"the effectors:"},{"type":"paragraph","text":"-the (X) acts on the sinus node by reducing HR;"},{"type":"paragraph","text":"-the sympathetic acts on the one hand on the sinus node by increasing the heart rate and on cardiac contractility and on the other hand on peripheral arteriolar vasomotion."}]},{"n":44,"title":"","blocks":[{"type":"paragraph","text":"Regulation of blood pressure"},{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-007.jpg","caption":""}]},{"n":45,"title":"","blocks":[{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-008.jpg","caption":""}]},{"n":46,"title":"","blocks":[{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-009.png","caption":""}]},{"n":47,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"A-Short-term regulation (nervous regulation)"},{"type":"paragraph","text":"Variations in blood volume and chemical composition (O₂,CO₂, and pH) detected by voloreceptors and chemoreceptors respectively are also transmitted to the cardiovascular bulbar center to regulate BP."}]},{"n":48,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"A-Short-term regulation (nervous regulation)"},{"type":"paragraph","text":"Voloreceptors:"},{"type":"paragraph","text":"-located in the walls of the low pressure system (especially atria and pulmonary arteries);"},{"type":"paragraph","text":"-respond to volume variations;"},{"type":"paragraph","text":"-reflex similar to that of baroreceptors."}]},{"n":49,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"A-Short-term regulation (nervous regulation)"},{"type":"paragraph","text":"Chemoreceptors:"},{"type":"paragraph","text":"-located in the same place as the baroreceptors: aortic and carotid chemoreceptors;"},{"type":"paragraph","text":"-respond to variations in the concentration of O₂, CO₂ and PH;"},{"type":"paragraph","text":"-activate at MAP values ​​between 40 and 80 mmHg;"},{"type":"paragraph","text":"-stimulation of the vasomotor center"}]},{"n":50,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"B-Medium-term regulation (hormonal regulation) = moderately rapid control, a few minutes to a few hours"},{"type":"paragraph","text":"1-Catecholamines (adrenaline and norepinephrine): released directly into the blood by the adrenal medulla following sympathetic stimulation, they cause the same effects as sympathetic nerve stimulation. Their duration of action is 10x longer than that of the sympathetic nerves."}]},{"n":51,"title":"Medium-term regulation of BP: hormonal regulation","blocks":[{"type":"heading","level":3,"text":"Medium-term regulation of BP: hormonal regulation"},{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-010.jpg","caption":"Medium-term regulation of BP: hormonal regulation"}]},{"n":52,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"B-Medium-term regulation (hormonal regulation) = moderately rapid control, a few minutes to a few hours"},{"type":"paragraph","text":"2-Renin-angiotensin system: active after 20 minutes"},{"type":"paragraph","text":"This system will allow the secretion of a powerful vasoconstrictor agent, angiotensin II, in response to a drop in BP."},{"type":"paragraph","text":"Any decrease in BP or sodium flow results in secretion of renin by the juxta glomerular apparatus."}]},{"n":53,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"B-Medium-term regulation (hormonal regulation) = moderately rapid control, a few minutes to a few hours"},{"type":"paragraph","text":"2-Renin-angiotensin system: active after 20 minutes"},{"type":"paragraph","text":"Angiotensin II has a dual action on BP:"},{"type":"paragraph","text":"-arteriolar vasoconstriction, resulting in an increase in blood pressure"},{"type":"paragraph","text":"increase in RPT, this action falls within the framework of medium-term regulation"},{"type":"paragraph","text":"PA term;"},{"type":"paragraph","text":"-stimulation of aldosterone secretion by the glomerulosa, the outermost layer of the adrenal cortex, this action is part of the long-term regulation of BP."}]},{"n":54,"title":"","blocks":[{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-011.jpg","caption":""}]},{"n":55,"title":"","blocks":[{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-012.jpg","caption":""}]},{"n":56,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"Long-term C-Regulation: effective in the hours or days following BP imbalance"},{"type":"paragraph","text":"Long-term hormonal regulation of BP is directly linked to blood volume. The latter is determined by the movements of water and Na⁺ in the body. These movements are regulated essentially by the kidney, always via the RAS."},{"type":"paragraph","text":"1-Aldosterone causes water and salt retention by the renal distal tubule where it stimulates the reabsorption of Na⁺ and the secretion of K⁺ and consequently the increase in volume (water follows salt) and therefore increase in BP."}]},{"n":57,"title":"Regulation of blood pressure","blocks":[{"type":"paragraph","text":"C-Long-term regulation (hormonal regulation)"},{"type":"paragraph","text":"2-Other hormones:"},{"type":"paragraph","text":"-Antidiuretic hormone (ADH): released following hyperosmolarity or hypovolemia, causes the retention of free water by the collecting duct which increases volume."},{"type":"paragraph","text":"-Atrial natriuretic peptide (PAN): secreted by atrial myocytes in the event of an increase in blood volume or atrial hypertension, it causes a reduction in blood volume through vasodilation and increased sodium and water excretion."}]},{"n":58,"title":"Adaptation of blood pressure in physiological situations","blocks":[{"type":"heading","level":3,"text":"Adaptation of blood pressure in physiological situations"},{"type":"paragraph","text":"1-Standing position"},{"type":"paragraph","text":"A decrease in effective blood volume occurs in the circulatory system when moving from a lying to standing position. The reduction in venous return causes a reduction in ejection volume (ESV), which reduces cardiac output and, ultimately, BP. The drop in BP immediately triggers compensatory reactions mediated by the baroreflex."}]},{"n":59,"title":"Adaptation of blood pressure in physiological situations","blocks":[{"type":"heading","level":3,"text":"Adaptation of blood pressure in physiological situations"},{"type":"paragraph","text":"2-Stress"},{"type":"paragraph","text":"The nervous system subjected to a stressful event causes the release of hormones; adrenaline and noradrenaline to manage the situation as best and quickly as possible. This activation is responsible for cardiovascular stimulating effects: increase in heart rate and blood pressure."}]},{"n":60,"title":"Adaptation of blood pressure in physiological situations","blocks":[{"type":"heading","level":3,"text":"Adaptation of blood pressure in physiological situations"},{"type":"paragraph","text":"."},{"type":"paragraph","text":"3-Sleep"},{"type":"paragraph","text":"During slow-wave sleep, drop in HR, PA and cardiac output, without change of peripheral resistance: reduction in sympathetic tone and increase in parasympathetic tone"},{"type":"paragraph","text":"During paradoxical sleep; significant variability in heart rate and BP: phasic increases by increase in sympathetic tone and decrease in parasympathetic tone."}]},{"n":61,"title":"Adaptation of blood pressure in physiological situations","blocks":[{"type":"heading","level":3,"text":"Adaptation of blood pressure in physiological situations"},{"type":"paragraph","text":"4-Physical exercise"},{"type":"paragraph","text":"Muscular exercise also implements an important regulatory sequence."},{"type":"paragraph","text":"The primum movens is represented by the vasorelaxation of the muscle tissuees involved in the effort (metabolic or functional hyperemia) under the effect of metabolites accumulating in the interstitial sector."},{"type":"paragraph","text":"When the muscle mass involved is large, this vasorelaxation causes a drop in total peripheral circulatory resistance. Since cardiac output is, at this stage, unchanged, this results in a drop in blood pressure, activating the baroreflex."}]},{"n":62,"title":"Adaptation of blood pressure in physiological situations","blocks":[{"type":"heading","level":3,"text":"Adaptation of blood pressure in physiological situations"},{"type":"paragraph","text":"4-Physical exercise"},{"type":"paragraph","text":"The heart rate increases in proportion to the power of the physical effort. In most types of exercise, cardiac output tends to increase proportionally more than the decrease in total peripheral resistance, and MAP therefore increases moderately."},{"type":"paragraph","text":"In addition, the venomuscular pump of the lower limbs is brought into play, which improves venous return and therefore, by Starling's law, the systolic ejection force."}]},{"n":63,"title":"Adaptation of blood pressure in physiological situations","blocks":[{"type":"heading","level":3,"text":"Adaptation of blood pressure in physiological situations"},{"type":"paragraph","text":"4-Physical exercise"},{"type":"paragraph","text":"Intense and prolonged physical effort requires a redistribution of blood flow, always sparing the brain (whose flow remains constant) and the heart (whose coronary blood flow increases in proportion to the effort)."},{"type":"paragraph","text":"Blood flow is reduced in the skin, in muscles not affected by exercise, and especially in the splanchnic system. However, the need for thermoregulation quickly arises to neutralize cutaneous vasoconstriction which then gives way to vasorelaxation allowing the evacuation of excess calories and sweating."}]},{"n":64,"title":"Adaptation of blood pressure in physiological situations","blocks":[{"type":"heading","level":3,"text":"Adaptation of blood pressure in physiological situations"},{"type":"image","src":"/content/physiologie-cardiovasculaire/pc-4/img-013.jpg","caption":"Adaptation of blood pressure in physiological situations"}]},{"n":65,"title":"Conclusion:","blocks":[{"type":"heading","level":3,"text":"Conclusion:"},{"type":"paragraph","text":"BP is constantly regulated. This regulation is:"},{"type":"paragraph","text":"-short term, nervous:"},{"type":"paragraph","text":"* the sympathetic has vascular and cardiac actions: ↑ PA;"},{"type":"paragraph","text":"*the parasympathetic has essentially cardiac actions: ↓PA."},{"type":"paragraph","text":"-in the medium term humoral: by the RAAS, catecholamines;"},{"type":"paragraph","text":"-long-term renal: control of blood volume by ADH and aldosterone."}]},{"n":66,"title":"Conclusion:","blocks":[{"type":"heading","level":3,"text":"Conclusion:"},{"type":"paragraph","text":"Knowledge of BP regulation has many pathophysiological applications"},{"type":"paragraph","text":"(HTA): drugs that act:"},{"type":"paragraph","text":"-on vasomotion = calcium channel blockers, IEC,"},{"type":"paragraph","text":"-on sodium metabolism = diuretics,"},{"type":"paragraph","text":"-on inotropism and FC=B blockers."},{"type":"paragraph","text":"BP can also be disrupted in the sense of a decrease when the capacities of the sympathetic are exceeded in the state of shock, and here too we have numerous therapeutic applications: vasoactive drugs, etc."}]}]}
+{
+  "file": "physio cardiovasculaire/4)regulationdelapressionartérielle_EN.pptx",
+  "chapterId": "pc-4",
+  "title": "Blood Pressure Regulation",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Cardiovascular Physiology",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cardiovascular Physiology"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chapter 4: Blood Pressure Regulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Academic year 2025-2026"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr REBAÏNE"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "General"
+        },
+        {
+          "type": "paragraph",
+          "text": "Physical Basics of Traffic"
+        },
+        {
+          "type": "paragraph",
+          "text": "High pressure system"
+        },
+        {
+          "type": "paragraph",
+          "text": "Regulation of blood pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Adaptation of blood pressure in physiological situations"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Conclusion"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "General",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "General"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-001.emf",
+          "caption": "General"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "General",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "General"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-001.emf",
+          "caption": "General"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Physical Basics of Traffic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physical Basics of Traffic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cardiac output and blood flow:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cardiac output is the volume of blood ejected by the left ventricle (for systemic circulation) into the aorta each minute and is expressed in ml/min.",
+            "Blood flow is the quantity (volume) of blood that circulates per unit of time in a specific systemic region (example renal blood flow)."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Physical Basics of Traffic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physical Basics of Traffic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascular pressures, orthostatism and clinostatism"
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood pressure corresponds to the force per unit area exerted by blood on the vessel wall. The blood moves from the areas where the pressure is the highest (left ventricle in systole) to those where it is the lowest (right atrium in diastole for the greater circulation)"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Physical Basics of Traffic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physical Basics of Traffic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascular pressures, orthostatism and clinostatism"
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood pressure has two components:"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the dynamic pressure exerted by the left ventricle;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the hydrostatic pressure due to the application of the earth's gravity vector on the blood column, particularly in a standing position."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Physical Basics of Traffic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physical Basics of Traffic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascular pressures, orthostatism and clinostatism"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hydrostatic pressures are incapable of ensuring circulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "(arteriovenous) blood in the vessels. Only the work of the heart, which creates dynamic pressure to the ventricular blood."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Physical Basics of Traffic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physical Basics of Traffic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascular pressures, orthostatism and clinostatism"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-002.png",
+          "caption": "Physical Basics of Traffic"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "Physical Basics of Traffic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physical Basics of Traffic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascular pressures, orthostatism and clinostatism"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Effect of gravity"
+        },
+        {
+          "type": "list",
+          "items": [
+            "The value of the gravitational effect is approximately 0.77mm Hg/cm for a vertical distance above or below the heart.",
+            "Thus in a standing adult whose average arterial pressure (MAP) is 100mm Hg at heart level:"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "MAP in a large artery of the foot (105cm below the heart) = 180 mmHg [100+(O.77x105)]."
+        },
+        {
+          "type": "paragraph",
+          "text": "MAP in a large artery of the head (50 cm above the heart) =62mmHg [100-(0.77x50)];"
+        },
+        {
+          "type": "paragraph",
+          "text": "The effect of gravity on venous pressure is similar (see Venous Circulation Course)."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "Physical Basics of Traffic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physical Basics of Traffic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascular pressures, orthostatism and clinostatism"
+        },
+        {
+          "type": "paragraph",
+          "text": "The vessels are surrounded by tissues and organs which can exert “counter pressure” or extravascular pressure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Transmural pressure is the difference between intra- and extravascular pressures."
+        },
+        {
+          "type": "paragraph",
+          "text": "Transmural pressure can become negative in certain circumstances, leading to vessel compressure and transient cessation of perfusion, for example, during muscular or myocardial contraction."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "Physical Basics of Traffic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physical Basics of Traffic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood flow"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the arteries, the flow of blood is organized in concentric layers from the center towards the walls."
+        },
+        {
+          "type": "paragraph",
+          "text": "Given the viscosity of the blood, these layers exhibit a certain degree of friction with each other, which induces a moderate pressure loss throughout the arterial arborization and a moderate resistance to the movement of the blood."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "Physical Basics of Traffic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physical Basics of Traffic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood flow"
+        },
+        {
+          "type": "paragraph",
+          "text": "The flow of blood is thus similar to a sliding of concentric blades of variable speeds, with greater speeds in the center than near the walls."
+        },
+        {
+          "type": "paragraph",
+          "text": "This flow, called laminar, is found from the aorta to the small arteries with a parabolic speed profile."
+        },
+        {
+          "type": "paragraph",
+          "text": "The red blood cells are oriented in the direction of the flow, slightly offset towards the central axis of the vessel; the formation of a thin marginal plasma layer 2 to 4 mm thick between each layer of red blood cells is described."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "Physical Basics of Traffic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physical Basics of Traffic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hemodynamic resistance and Poiseuille's law"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-003.png",
+          "caption": "Physical Basics of Traffic"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "Physical Basics of Traffic",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Physical Basics of Traffic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hemodynamic resistance and Poiseuille's law"
+        },
+        {
+          "type": "paragraph",
+          "text": "When the average blood velocity exceeds a certain threshold, as in the case of arterial stenosis where the layers become disorganized and the flow then takes on a turbulent regime."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vortices of very varied size and intensity appear. These swirls are noisy and induce a characteristic vascular murmur upon auscultation."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I- Characteristics of the high pressure system"
+        },
+        {
+          "type": "paragraph",
+          "text": "The high pressure, high resistance and low compliance resistive sector runs from the left ventricle in systole to the arterioles and contains 10 to 15% of the blood volume:"
+        },
+        {
+          "type": "paragraph",
+          "text": "-high pressure: of dynamic origin (it is due to contraction of the left ventricle);"
+        },
+        {
+          "type": "paragraph",
+          "text": "- hemodynamic resistance is almost entirely localized at the level of the arterioles;"
+        },
+        {
+          "type": "paragraph",
+          "text": "blood flow speed: gradually decreases from arteries to arterioles;"
+        },
+        {
+          "type": "paragraph",
+          "text": "total cross-sectional area increases from the aorta to the capillaries;"
+        },
+        {
+          "type": "paragraph",
+          "text": "pressure and flow control mechanisms;"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-004.jpg",
+          "caption": "High pressure system"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Arterial circulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arterial circulation has a dual role:"
+        },
+        {
+          "type": "paragraph",
+          "text": "- blood transport"
+        },
+        {
+          "type": "paragraph",
+          "text": "-cardiac output distribution"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Arterial circulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Transport of blood with high pressure provided by the large arteries:"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the blood is ejected from the left ventricle under high pressure (120mm Hg) and thanks to the elasticity of the wall the flow becomes continuous;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the flow remains effective thanks to the energy that the initially distended aortic wall will return to the blood by regaining its initial diameter (Windkessel effect)."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Arterial circulation"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-005.jpg",
+          "caption": "High pressure system"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Arterial circulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Transport of blood with high pressure provided by the large arteries:"
+        },
+        {
+          "type": "paragraph",
+          "text": "This mechanism reproduces step by step constituting the arterial wave."
+        },
+        {
+          "type": "paragraph",
+          "text": "The propagation of the arterial wave will generate a vibration which is at the origin of the pulse. Taking the pulse is part of the clinical examination."
+        },
+        {
+          "type": "paragraph",
+          "text": "The shock produced by the stretching of the arteries under the effect of the arrival of the pressure wave can be palpated on the peripheral arteries."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Arterial circulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Distribution of cardiac output ensured by the arterioles:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Local vasomotion (property of blood vessels to vary in diameter) adapts the blood flow under effective pressure to the varying needs of the different organs."
+        },
+        {
+          "type": "paragraph",
+          "text": "The control of vasomotion depends on:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1-Intrinsic factors: increase in local needs → increase in local flow or active hyperemia: local regulation"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Extrinsic factors: systemic regulation"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Autonomic nervous system (sympathetic)",
+            "Circulating factors (catecholamines, angiotensin II, etc.)"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Arterial circulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Distribution of cardiac output ensured by the arterioles:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The arterioles are basic in a state of permanent partial contraction (basal tone). The contraction of smooth muscle cells (SMC) is reflex, in response to intravascular pressure and corresponds to the myogenic tone inherent to vitality."
+        },
+        {
+          "type": "paragraph",
+          "text": "Regulatory mechanisms exist to increase (vasoconstriction) or decrease this tone (vasodilation)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The mode of action of CML is slow and sustained contraction, unlike the brief contractions of the cardiac muscle and more generally of the striated muscle."
+        },
+        {
+          "type": "paragraph",
+          "text": "The cellular and molecular mechanisms which modulate the radius and therefore the resistance of the vessels to the passage of blood flow, will induce changes in the concentration of intracellular Ca²⁺ of the vascular myocytes modulating the basal tone."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Blood pressure: definitions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arterial pressure (BP) or blood pressure is the dynamic pressure that prevails in the arterial vessels."
+        },
+        {
+          "type": "paragraph",
+          "text": "By maintaining the walls of the arteries distended and ensuring the flow of blood from the heart to the periphery, it allows effective perfusion of the organs."
+        },
+        {
+          "type": "paragraph",
+          "text": "This pressure is not constant during the cardiac cycle and goes through two extreme values:"
+        },
+        {
+          "type": "paragraph",
+          "text": "-systolic pressure (SBP): is the maximum pressure reached in the arteries during the ejection of blood from the LV;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-diastolic pressure (DBP): is the minimum pressure reached just before ventricular ejection."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-Blood pressure: definitions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pulse pressure (PD): is the difference between systolic pressure and diastolic pressure:"
+        },
+        {
+          "type": "paragraph",
+          "text": "PD = PAS - PAD"
+        },
+        {
+          "type": "paragraph",
+          "text": "In theory, we define an effective average pressure that actually propels blood through the arterial system [mean arterial pressure (MAP)] that is identical throughout the system:"
+        },
+        {
+          "type": "paragraph",
+          "text": "PAM = PAD + 1/3 PD"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Measuring blood pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Direct measurement"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Indirect measures"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the auscultatory method with a tension cuff;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-automated system."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Measuring blood pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "BP can be measured directly on any large artery: arterial catheterization connected to a pressure gauge and a recording system."
+        },
+        {
+          "type": "paragraph",
+          "text": "It is an invasive method, reserved for hospital use and special situations."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Measuring blood pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the clinic, it is measured indirectly by the auscultatory method with a blood pressure cuff."
+        },
+        {
+          "type": "paragraph",
+          "text": "The inflatable cuff initially compresses an artery and auscultation during slow decompressure detects noises linked to the flow (Korotkoff sounds). Their appearance indicates systolic blood pressure and their disappearance indicates diastolic blood pressure. The most commonly used unit of pressure in physiology and clinical practice remains the millimeter of mercury (mmHg)."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "Blood pressure measurement",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Blood pressure measurement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Humeral artery"
+        },
+        {
+          "type": "paragraph",
+          "text": "air-inflated cuff"
+        },
+        {
+          "type": "paragraph",
+          "text": "150"
+        },
+        {
+          "type": "paragraph",
+          "text": "120"
+        },
+        {
+          "type": "paragraph",
+          "text": "70"
+        },
+        {
+          "type": "paragraph",
+          "text": "sounds audible through the stethoscope"
+        },
+        {
+          "type": "paragraph",
+          "text": "no audible sound"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compressed humeral artery"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-006.jpg",
+          "caption": "Blood pressure measurement"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "Blood pressure measurement",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Blood pressure measurement"
+        },
+        {
+          "type": "paragraph",
+          "text": "artery"
+        },
+        {
+          "type": "paragraph",
+          "text": "air-inflated cuff"
+        },
+        {
+          "type": "paragraph",
+          "text": "150"
+        },
+        {
+          "type": "paragraph",
+          "text": "120"
+        },
+        {
+          "type": "paragraph",
+          "text": "70"
+        },
+        {
+          "type": "paragraph",
+          "text": "sounds audible through the stethoscope"
+        },
+        {
+          "type": "paragraph",
+          "text": "no audible sound"
+        },
+        {
+          "type": "paragraph",
+          "text": "compressed artery"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-006.jpg",
+          "caption": "Blood pressure measurement"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "Blood pressure measurement",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Blood pressure measurement"
+        },
+        {
+          "type": "paragraph",
+          "text": "artery"
+        },
+        {
+          "type": "paragraph",
+          "text": "air-inflated cuff"
+        },
+        {
+          "type": "paragraph",
+          "text": "150"
+        },
+        {
+          "type": "paragraph",
+          "text": "120"
+        },
+        {
+          "type": "paragraph",
+          "text": "70"
+        },
+        {
+          "type": "paragraph",
+          "text": "sounds audible through the stethoscope"
+        },
+        {
+          "type": "paragraph",
+          "text": "no audible sound"
+        },
+        {
+          "type": "paragraph",
+          "text": "compressed artery"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-006.jpg",
+          "caption": "Blood pressure measurement"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "High pressure system",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "High pressure system"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Measuring blood pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Various automated systems allow BP estimation. They come in the form of small electronic bracelets and allow patients to monitor their BP independently."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "World Health Organization (WHO) definitions",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "World Health Organization (WHO) definitions"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Category",
+            "NOT PAD"
+          ],
+          "rows": [
+            [
+              "Optimal",
+              "<120 and <80"
+            ],
+            [
+              "Normal",
+              "120-129 and/or 80-84"
+            ],
+            [
+              "Normal high",
+              "130-139 and/or 85-89"
+            ],
+            [
+              "High blood pressure grade 1",
+              "140-159 and/or 90-99"
+            ],
+            [
+              "HTA grade 2",
+              "160-179 and/or 100-109"
+            ],
+            [
+              "HTA grade 3",
+              "≥180 and/or ≥110"
+            ],
+            [
+              "Isolated systolic hypertension",
+              "≥140 and/or <90"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "IV-Blood pressure measurement:",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV-Blood pressure measurement:"
+        },
+        {
+          "type": "paragraph",
+          "text": "50"
+        },
+        {
+          "type": "paragraph",
+          "text": "100"
+        },
+        {
+          "type": "paragraph",
+          "text": "150"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressure (mmHg)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Age (years)"
+        },
+        {
+          "type": "paragraph",
+          "text": "20"
+        },
+        {
+          "type": "paragraph",
+          "text": "40"
+        },
+        {
+          "type": "paragraph",
+          "text": "60"
+        },
+        {
+          "type": "paragraph",
+          "text": "80"
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood pressure and age"
+        },
+        {
+          "type": "paragraph",
+          "text": "Systolic pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Average pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Diastolic pressure"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Determinants of blood pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Created by left ventricular contraction and maintained by arteriolar resistance, MAP is the result of cardiac output (DC), total peripheral resistance (RPT) and blood volume."
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood volume varies little under physiological conditions and by analogy with an electrical circuit (Ohm's law) we can write:"
+        },
+        {
+          "type": "paragraph",
+          "text": "PAM = DC x RPT"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ohm's law for electrical circuits: V = I x R"
+        },
+        {
+          "type": "paragraph",
+          "text": "where the flow rate is the current and the pressure is the Voltage."
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "BP determinants",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "BP determinants"
+        },
+        {
+          "type": "paragraph",
+          "text": "Resistors"
+        },
+        {
+          "type": "paragraph",
+          "text": "PAM = DC x RPT"
+        },
+        {
+          "type": "paragraph",
+          "text": "DC: cardiac output"
+        },
+        {
+          "type": "paragraph",
+          "text": "RPT: total peripheral resistances"
+        },
+        {
+          "type": "paragraph",
+          "text": "Heart"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arteries"
+        },
+        {
+          "type": "paragraph",
+          "text": "Veins"
+        },
+        {
+          "type": "paragraph",
+          "text": "Resistances"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Determinants of blood pressure"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1- Cardiac output: DC = VES x HR"
+        },
+        {
+          "type": "paragraph",
+          "text": "VES = VTD - VTS"
+        },
+        {
+          "type": "paragraph",
+          "text": "DC is influenced by changes in HR, myocardial contractility and venous return."
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Determinants of blood pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "2- Arterial resistance: are mainly due to arteriolar resistance, that is to say the radius of the arterioles."
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Determinants of blood pressure"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2- Arterial resistance"
+        },
+        {
+          "type": "paragraph",
+          "text": "According to Poiseuille, the resistance of a vessel (R) is proportional to the blood viscosity (n) and the length of the vessel (L) and inversely proportional to its radius (r):"
+        },
+        {
+          "type": "paragraph",
+          "text": "R = 8Lη / π r⁴"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the length of the vessel is constant;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-viscosity only varies in certain pathological circumstances (polycythemia);"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the radius r is variable"
+        },
+        {
+          "type": "paragraph",
+          "text": "So R depends only on r."
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-Mechanisms of arterial regulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "BP is the regulated quantity of the cardiovascular system."
+        },
+        {
+          "type": "paragraph",
+          "text": "At rest, blood pressure does not vary more than 100 mm Hg around its mean value (MAP)."
+        },
+        {
+          "type": "paragraph",
+          "text": "This tight regulation is the result of the superposition and complementarity of different systems which affect cardiac output, vasomotor function and blood volume."
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Short-term regulation (nervous regulation): occurs in a few seconds. It involves the baroreflex"
+        },
+        {
+          "type": "paragraph",
+          "text": "baroreceptors: are located in the wall of the aortic arch and carotid sinuses;"
+        },
+        {
+          "type": "paragraph",
+          "text": "the afferent, centripetal nerve pathways represented by the sinocarotid nerves (also called sinus nerve or Hering nerve) and aortic nerve (also called Ludwing-Cyon nerve) which respectively follow the paths of the IXth and Xth cranial pairs."
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Short-term regulation (nervous regulation): occurs in a few seconds. It involves the baroreflex"
+        },
+        {
+          "type": "paragraph",
+          "text": "the nerve centers regulating variations in BP (bulbar centers of cardiovascular integration): cardiomoderator center (parasympathetic), cardioaccelerator center and vasomotor center (sympathetic) controlled by the suprabulbar structures;"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Short-term regulation (nervous regulation): occurs in a few seconds."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The baroreflex"
+        },
+        {
+          "type": "paragraph",
+          "text": "the efferent, centrifugal pathways travel in the vagus nerves (X) and in the sympathetic nerves;"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "the effectors"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the (X) acts on the sinus node by reducing HR;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-the sympathetic acts on the one hand on the sinus node by increasing the heart rate and on cardiac contractility and on the other hand on peripheral arteriolar vasomotion."
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Regulation of blood pressure"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-007.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-008.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-009.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Short-term regulation (nervous regulation)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Variations in blood volume and chemical composition (O₂,CO₂, and pH) detected by voloreceptors and chemoreceptors respectively are also transmitted to the cardiovascular bulbar center to regulate BP."
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Short-term regulation (nervous regulation)"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Voloreceptors"
+        },
+        {
+          "type": "paragraph",
+          "text": "-located in the walls of the low pressure system (especially atria and pulmonary arteries);"
+        },
+        {
+          "type": "paragraph",
+          "text": "-respond to volume variations;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-reflex similar to that of baroreceptors."
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A-Short-term regulation (nervous regulation)"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Chemoreceptors"
+        },
+        {
+          "type": "paragraph",
+          "text": "-located in the same place as the baroreceptors: aortic and carotid chemoreceptors;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-respond to variations in the concentration of O₂, CO₂ and PH;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-activate at MAP values ​​between 40 and 80 mmHg;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-stimulation of the vasomotor center"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B-Medium-term regulation (hormonal regulation) = moderately rapid control, a few minutes to a few hours"
+        },
+        {
+          "type": "paragraph",
+          "text": "1-Catecholamines (adrenaline and norepinephrine): released directly into the blood by the adrenal medulla following sympathetic stimulation, they cause the same effects as sympathetic nerve stimulation. Their duration of action is 10x longer than that of the sympathetic nerves."
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "title": "Medium-term regulation of BP: hormonal regulation",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Medium-term regulation of BP: hormonal regulation"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-010.jpg",
+          "caption": "Medium-term regulation of BP: hormonal regulation"
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B-Medium-term regulation (hormonal regulation) = moderately rapid control, a few minutes to a few hours"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Renin-angiotensin system: active after 20 minutes"
+        },
+        {
+          "type": "paragraph",
+          "text": "This system will allow the secretion of a powerful vasoconstrictor agent, angiotensin II, in response to a drop in BP."
+        },
+        {
+          "type": "paragraph",
+          "text": "Any decrease in BP or sodium flow results in secretion of renin by the juxta glomerular apparatus."
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "B-Medium-term regulation (hormonal regulation) = moderately rapid control, a few minutes to a few hours"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Renin-angiotensin system: active after 20 minutes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Angiotensin II has a dual action on BP:"
+        },
+        {
+          "type": "paragraph",
+          "text": "-arteriolar vasoconstriction, resulting in an increase in blood pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "increase in RPT, this action falls within the framework of medium-term regulation"
+        },
+        {
+          "type": "paragraph",
+          "text": "PA term;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-stimulation of aldosterone secretion by the glomerulosa, the outermost layer of the adrenal cortex, this action is part of the long-term regulation of BP."
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-011.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-012.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Long-term C-Regulation: effective in the hours or days following BP imbalance"
+        },
+        {
+          "type": "paragraph",
+          "text": "Long-term hormonal regulation of BP is directly linked to blood volume. The latter is determined by the movements of water and Na⁺ in the body. These movements are regulated essentially by the kidney, always via the RAS."
+        },
+        {
+          "type": "paragraph",
+          "text": "1-Aldosterone causes water and salt retention by the renal distal tubule where it stimulates the reabsorption of Na⁺ and the secretion of K⁺ and consequently the increase in volume (water follows salt) and therefore increase in BP."
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "title": "Regulation of blood pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "C-Long-term regulation (hormonal regulation)"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Other hormones"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Antidiuretic hormone (ADH): released following hyperosmolarity or hypovolemia, causes the retention of free water by the collecting duct which increases volume.",
+            "Atrial natriuretic peptide (PAN): secreted by atrial myocytes in the event of an increase in blood volume or atrial hypertension, it causes a reduction in blood volume through vasodilation and increased sodium and water excretion."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "title": "Adaptation of blood pressure in physiological situations",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation of blood pressure in physiological situations"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "1-Standing position"
+        },
+        {
+          "type": "paragraph",
+          "text": "A decrease in effective blood volume occurs in the circulatory system when moving from a lying to standing position. The reduction in venous return causes a reduction in ejection volume (ESV), which reduces cardiac output and, ultimately, BP. The drop in BP immediately triggers compensatory reactions mediated by the baroreflex."
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "title": "Adaptation of blood pressure in physiological situations",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation of blood pressure in physiological situations"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "2-Stress"
+        },
+        {
+          "type": "paragraph",
+          "text": "The nervous system subjected to a stressful event causes the release of hormones; adrenaline and noradrenaline to manage the situation as best and quickly as possible. This activation is responsible for cardiovascular stimulating effects: increase in heart rate and blood pressure."
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "title": "Adaptation of blood pressure in physiological situations",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation of blood pressure in physiological situations"
+        },
+        {
+          "type": "paragraph",
+          "text": "."
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "3-Sleep"
+        },
+        {
+          "type": "paragraph",
+          "text": "During slow-wave sleep, drop in HR, PA and cardiac output, without change of peripheral resistance: reduction in sympathetic tone and increase in parasympathetic tone"
+        },
+        {
+          "type": "paragraph",
+          "text": "During paradoxical sleep; significant variability in heart rate and BP: phasic increases by increase in sympathetic tone and decrease in parasympathetic tone."
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "title": "Adaptation of blood pressure in physiological situations",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation of blood pressure in physiological situations"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4-Physical exercise"
+        },
+        {
+          "type": "paragraph",
+          "text": "Muscular exercise also implements an important regulatory sequence."
+        },
+        {
+          "type": "paragraph",
+          "text": "The primum movens is represented by the vasorelaxation of the muscle tissues involved in the effort (metabolic or functional hyperemia) under the effect of metabolites accumulating in the interstitial sector."
+        },
+        {
+          "type": "paragraph",
+          "text": "When the muscle mass involved is large, this vasorelaxation causes a drop in total peripheral circulatory resistance. Since cardiac output is, at this stage, unchanged, this results in a drop in blood pressure, activating the baroreflex."
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "title": "Adaptation of blood pressure in physiological situations",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation of blood pressure in physiological situations"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4-Physical exercise"
+        },
+        {
+          "type": "paragraph",
+          "text": "The heart rate increases in proportion to the power of the physical effort. In most types of exercise, cardiac output tends to increase proportionally more than the decrease in total peripheral resistance, and MAP therefore increases moderately."
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition, the venomuscular pump of the lower limbs is brought into play, which improves venous return and therefore, by Starling's law, the systolic ejection force."
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "title": "Adaptation of blood pressure in physiological situations",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation of blood pressure in physiological situations"
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "4-Physical exercise"
+        },
+        {
+          "type": "paragraph",
+          "text": "Intense and prolonged physical effort requires a redistribution of blood flow, always sparing the brain (whose flow remains constant) and the heart (whose coronary blood flow increases in proportion to the effort)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood flow is reduced in the skin, in muscles not affected by exercise, and especially in the splanchnic system. However, the need for thermoregulation quickly arises to neutralize cutaneous vasoconstriction which then gives way to vasorelaxation allowing the evacuation of excess calories and sweating."
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "title": "Adaptation of blood pressure in physiological situations",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Adaptation of blood pressure in physiological situations"
+        },
+        {
+          "type": "image",
+          "src": "/content/physiologie-cardiovasculaire/pc-4/img-013.jpg",
+          "caption": "Adaptation of blood pressure in physiological situations"
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "title": "Conclusion:",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Conclusion:"
+        },
+        {
+          "type": "paragraph",
+          "text": "BP is constantly regulated. This regulation is:"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "-short term, nervous"
+        },
+        {
+          "type": "paragraph",
+          "text": "* the sympathetic has vascular and cardiac actions: ↑ PA;"
+        },
+        {
+          "type": "paragraph",
+          "text": "*the parasympathetic has essentially cardiac actions: ↓PA."
+        },
+        {
+          "type": "paragraph",
+          "text": "-in the medium term humoral: by the RAAS, catecholamines;"
+        },
+        {
+          "type": "paragraph",
+          "text": "-long-term renal: control of blood volume by ADH and aldosterone."
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "title": "Conclusion:",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Conclusion:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Knowledge of BP regulation has many pathophysiological applications"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "(HTA): drugs that act"
+        },
+        {
+          "type": "paragraph",
+          "text": "-on vasomotion = calcium channel blockers, IEC,"
+        },
+        {
+          "type": "paragraph",
+          "text": "-on sodium metabolism = diuretics,"
+        },
+        {
+          "type": "paragraph",
+          "text": "-on inotropism and FC=B blockers."
+        },
+        {
+          "type": "paragraph",
+          "text": "BP can also be disrupted in the sense of a decrease when the capacities of the sympathetic are exceeded in the state of shock, and here too we have numerous therapeutic applications: vasoactive drugs, etc."
+        }
+      ]
+    }
+  ]
+}

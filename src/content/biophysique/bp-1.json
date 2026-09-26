@@ -1,1 +1,1027 @@
-{"file":"biophysic/1)HémodynamiqueetBiophysicsVasculaire_EN.pdf","chapterId":"bp-1","title":"Hemodynamics and Vascular Biophysics","kind":"cours","pages":[{"n":1,"title":"Hemodynamics & Biophysics","blocks":[{"type":"heading","level":3,"text":"Hemodynamics & Biophysics"},{"type":"heading","level":3,"text":"vascular"},{"type":"paragraph","text":"Dr HIMEUR MA Medical Biophysics"},{"type":"heading","level":3,"text":"University of Algiers ? Faculty of Medicine"}]},{"n":2,"title":"• L’electrical activity du heart,","blocks":[{"type":"heading","level":3,"text":"• L’electrical activity du heart,"},{"type":"paragraph","text":"Knowledge of blood circulation in humans provides valuable information on the essential functions of the body for life. This knowledge requires an understanding of: ? The statics and dynamics of perfect incompressible fluids, ? The dynamics of real fluids, ? The elasticity of blood vessels, ? The electrical activity of the heart,"}]},{"n":3,"title":"","blocks":[{"type":"paragraph","text":"A- General:"}]},{"n":4,"title":"","blocks":[{"type":"paragraph","text":"Perfect incompressible fluids:"},{"type":"paragraph","text":"I-Static: At each point of a fluid, two volume elements are in contact on a small surface ? S. The fluid is said to be ?perfect? if the force ? F that an element of the fluid exerts on its neighbor remains perpendicular to their contact surface whatever their relative movement, and if the intensity of this force does not depend on the orientation of this surface. The ratio P = ? F / ? S is the fluid pressure at this point. The fluid is said to be ?incompressible? if the volume of each element does not depend on the pressure. Pressure is therefore the force per unit area exerted perpendicularly on a wall. In the international system, it is expressed in pascals (Pa):"},{"type":"paragraph","text":"1 Pa = 1 N/m2 Dr. HIMEUR MA Biophysics Lab"}]},{"n":5,"title":"","blocks":[{"type":"paragraph","text":"But we can also express it in atmospheres (atm), in millimeters of mercury (mmHg), in centimeters of water (cm H2O) or in bars (bar):"},{"type":"paragraph","text":"1atm = 101.3 kPa = 760 mmHg = 1033 cm H2O = 1.013 bar Various experiments show that pressure increases proportionally with depth or decreases proportionally with altitude. In a fluid of density ?, a variation in altitude, dz, corresponds to a variation in pressure, dP, such that:"},{"type":"paragraph","text":"If ? and g are independent of z, then: P + ? g z = constant."},{"type":"paragraph","text":"Thus, two points located at the same level in the same fluid in equilibrium have the same pressure."}]},{"n":6,"title":"","blocks":[{"type":"paragraph","text":"Au lecture de l’écoulement d’un fluide parfait, incompressible en régime permanent, l’énergie mécanique totale (somme des énergies cinétique, potentielle et pressante) Medical application: blood pressure (or more precisely excess pressure compared to atmospheric pressure) must be measured on a lying subject in order to eliminate the gravitational term. In the standing subject, gravitation intervenes so that for an average value of 100 mmHg at the heart, we find a BP of 60 mmHg at the head and 200 mmHg at the feet."},{"type":"paragraph","text":"II- Dynamics: During the flow of a perfect, incompressible fluid in steady state, the total mechanical energy (sum of kinetic, potential and pressing energies) is conserved. The flow then obeys the Bernoulli equation:"},{"type":"paragraph","text":"½ ? ?2 + ? g z + P = constant"},{"type":"paragraph","text":"As a result of the incompressibility of the fluid, the flow rate is constant: D = S ? = S? ??, for two sections S and S? crossed at speeds ? and ?? by the fluid."}]},{"n":7,"title":"","blocks":[{"type":"paragraph","text":"B- Elements of flow biophysics"},{"type":"paragraph","text":"blood:"}]},{"n":8,"title":"? = ? / ?.","blocks":[{"type":"paragraph","text":"Blood viscosity:"},{"type":"paragraph","text":"Viscosity expresses the greater or lesser ease with which the different layers of a liquid can move relative to each other. It demonstrates the intermolecular bonds that must be broken to mobilize the molecules of a flowing liquid in relation to each other."},{"type":"paragraph","text":"The viscosity ? is defined as the quotient of the shear stress ? (force necessary to move a liquid layer per unit area) by the shear rate ? (speed gradient between two layers):"},{"type":"heading","level":3,"text":"? = ? / ?."}]},{"n":9,"title":"","blocks":[{"type":"image","src":"/content/biophysique/bp-1/img-001.png","caption":""}]},{"n":10,"title":"","blocks":[{"type":"paragraph","text":"For Newtonian liquids like water or plasma, the viscosity is constant. Solutions of macromolecules have a higher viscosity than pure solvent because solubilization creates bonds between the macromolecule and the solvent. For liquids like blood, the relationship between ? and ? is no longer linear and in the majority of cases, the viscosity decreases as the shear rate increases. Blood is a liquid whose rheological behavior is particularly complex since it can be compared to a suspension of cellular elements in plasma. Its behavior is strongly non-Newtonian. Thus blood viscosity decreases considerably when the speed gradient increases (shear-thinning phenomenon). The curve ?? expresses a particular behavior of red blood cells which, when shear rates are low, tend to aggregate and form clusters called rolls."}]},{"n":11,"title":"","blocks":[{"type":"paragraph","text":"• de la composition du plasma en particulier des concentrations de"},{"type":"paragraph","text":"This aggregation of red blood cells causes an increase in blood viscosity. This explains why slow blood flow regimes are conducive to the creation of stasis phenomena (stoppage of blood flow). When shear rates increase, these red blood cell formations are dispersed, they orient in the direction of flow and can be deformed. Under these conditions the viscosity of the blood decreases. Blood viscosity depends on: ? the composition of the plasma, in particular the concentrations of certain plasma macromolecules (albumin, fibrinogen). ?depends mainly on the hematocrit (i.e. the blood concentration of red blood cells). The higher the hematocrit, the more viscous the blood. In addition, the non-Newtonian character of the blood is accentuated with the increase in hematocrit."}]},{"n":12,"title":"","blocks":[{"type":"image","src":"/content/biophysique/bp-1/img-002.png","caption":""}]},{"n":13,"title":"","blocks":[{"type":"paragraph","text":"The flow of blood:"},{"type":"paragraph","text":"I- Bernoulli's law: We call \"charge\" the energy necessary for the flow of a unit of volume of liquid. In the flow of a perfect fluid (incompressible fluid of zero viscosity), the charge at all points is constant, Bernoulli's law is written: Charge = potential energy + gravitational energy + kinetic energy = P + ? g h + ½ v2 ? It will be noted that Pascal's law is the particular static case (i.e. when the speed is zero)."}]},{"n":14,"title":"II- the Venturi effect:","blocks":[{"type":"heading","level":2,"text":"II- the Venturi effect:"},{"type":"paragraph","text":"The flow rate Q at a point A can be written as QA = vA SA, where v is the speed of movement of the fluid and S the section of the vessel. A consequence of Bernoulli's law is the Venturi phenomenon: at constant load, stenosis is associated with an increase in flow velocity and a decrease in pressure. We will see that this phenomenon can explain why a vessel suddenly closes in the vicinity of a stenosis (vascular spasm)."}]},{"n":15,"title":"","blocks":[{"type":"paragraph","text":"Auscultation of the vessels:"},{"type":"paragraph","text":"We saw that the speed increased at the level of vascular stenosis. This increase can shift blood flow from a laminar regime to a turbulent regime. However, a turbulent regime is generally noisier than a laminar regime. Or can hear a ?hiss? when a stethoscope is placed on a vessel where the flow regime is turbulent. It is thus possible to make the diagnosis of stenosis ?by ear?."}]},{"n":16,"title":"","blocks":[{"type":"paragraph","text":"III- Flows of real fluids: During the flow of real fluids, there is, unlike perfect fluids, a dissipation of energy in the form of heat, due to internal friction in the fluid. The load is no longer constant. During a flow between two points there is a pressure loss. Another characteristic of real fluid flows is the existence of different flow regimes. Depending on the diameter of the conduit, the characteristics of the fluid and the speed of the flow, conditions summarized by the Reynolds number (number of dimension 1 expressing the ratio of inertial forces to viscous forces: Re = v ? D / ?),"},{"type":"paragraph","text":"The flow regime in a conduit can be laminar or turbulent. If Re is low (<2000), the regime is always laminar. If Re is large, the regime is always turbulent. For intermediate values, the regime is unstable."}]},{"n":17,"title":"","blocks":[{"type":"paragraph","text":"IV- Speed ??profiles and Poiseuille?s law:"},{"type":"paragraph","text":"Poiseuille's law makes it possible to calculate in laminar regime the flow rate Q of an incompressible fluid of viscosity ? in a cylindrical pipe of radius R and length L, under the effect of a pressure difference ?P. The viscosity being constant, the law only applies to Newtonian fluids. We first establish their parabolic speed profile, the integration of which leads to the expressure of the flow rate Q:"}]},{"n":18,"title":"","blocks":[{"type":"paragraph","text":"This equation is valid as long as the Reynolds number of the flow remains moderate. For high values, the flow becomes turbulent and the streamlines are no longer parallel; it is therefore no longer possible to make the same reasoning. In the case of non-Newtonian fluids, such as blood, the velocity profile in a cylindrical vessel is no longer parabolic but presents a flattened front. However, as with the Newtonian, the liquid layers located in the center of the flow are the fastest."}]},{"n":19,"title":"Il s’agit de la viscosité qu’aurait un fluide newtonien qui induirait le même","blocks":[{"type":"heading","level":3,"text":"Il s’agit de la viscosité qu’aurait un fluide newtonien qui induirait le même"},{"type":"paragraph","text":"Poiseuille's law does not apply and the hydrodynamic equations become particularly complex. But, we often use an artifice allowing us to characterize in a simple way the relationships between pressures and flow rates for non-Newtonian fluids such as blood. Thus in the case of the flow of a non-Newtonian fluid, in a conduit of length L, with a flow rate Q, for a pressure gradient between the ends ?P, we define the apparent viscosity ?app of the non-Newtonian fluid. This is the viscosity that a Newtonian fluid would have which would induce the same flow rate for the same gradient ?P, we can therefore write for the non-Newtonian fluid:"},{"type":"paragraph","text":"Q = ?P ? R4 / 8 L ?app"}]},{"n":20,"title":"","blocks":[{"type":"paragraph","text":"• V- The physiological consequences of Poiseuille's law:"},{"type":"paragraph","text":"Poiseuille's law will often be applied to the flow of blood in the vessels, so it is very important to consider the consequences of the last formula. The flow rate in a blood vessel depends on: ?The pressure gradient at the ends of the vessel, ?The radius and length of the vessel, ?The blood viscosity,"}]},{"n":21,"title":"U = R I connecting a potential difference U to a current intensity I passing through a resistance R, Poiseuille's law can be written:","blocks":[{"type":"paragraph","text":"If we reverse Poiseuille?s formula we have:"},{"type":"paragraph","text":"?P = (8L/?R4) ?Q"},{"type":"paragraph","text":"This formula is important because if we make the analogy with Ohm's law,"},{"type":"heading","level":3,"text":"U = R I connecting a potential difference U to a current intensity I passing through a resistance R, Poiseuille's law can be written:"},{"type":"paragraph","text":"?P = Rvasc Q where Rvasc is the vascular resistance to flow. We see that this resistance is the product of a term (8L/?R4) which depends on the geometric characteristics of the container (of the vessel) and a term which depends on the physical characteristics of the contents: the viscosity ?."}]},{"n":22,"title":"","blocks":[{"type":"paragraph","text":"Role of vasomotion on flow:"},{"type":"paragraph","text":"Vascular resistance to flow is very strongly modified by variations in the caliber of the vessels (because the radius occurs to the fourth power). This is how reductions or increases in the caliber of the vessels (vasoconstriction or vasodilation), even if they are of moderate amplitude, can significantly regulate the flow of blood reaching an organ. An increase in blood viscosity (present in certain pathologies) could have deleterious consequences on the viability of certain organs because it could induce a reduction in the flow rates which perfuse them."}]},{"n":23,"title":"","blocks":[{"type":"paragraph","text":"VI- The shear rate inside the vessel and at its"},{"type":"paragraph","text":"wall:"},{"type":"paragraph","text":"Since the layers of liquids do not move at the same speed but according to a more or less crushed parabolic profile, there is shearing between the different layers. The shear rate ? (? = dV/dx) varies according to the axial position and a shear rate profile can be described. In the case of a Newtonian liquid in laminar flow Q in a rectilinear conduit of radius R, we can show that this profile corresponds to two line segments starting from a zero value of ? at the center of the vessel and reaching a maximum value of 4Q/ ?R3 at the wall. The friction force on the surface of the tube therefore results in a shear stress:"},{"type":"paragraph","text":"? = ? ? = 4?Q / ? R3"}]},{"n":24,"title":"","blocks":[{"type":"paragraph","text":"Flow-dependent expansion:"},{"type":"paragraph","text":"Recent work has shown that the shear stress exerted on the endothelial cells which line the interior of vessels has a considerable role in the regulation of vascular flow. Indeed, endothelial cells have mechanoreceptors sensitive to shear stress. These receptors stimulate the release of vasodilator substances. When blood flow begins to increase, the equation shows that as shear stress increases, the release of vasodilator substances induces an increase in the radius of the vessel. This induces a reduction in vascular resistance to flow and therefore promotes an increase in flow. This is the typical example of a biophysical/biochemical coupling mechanism which creates a facilitating system (here facilitation of increased flow)."}]},{"n":25,"title":"","blocks":[{"type":"paragraph","text":"VII- Vascular resistance: Poiseuille's law can be written as ?P = RQ by defining the hydraulic resistance by R = 8?L/?r4. This relationship is analogous to Ohm's law. The usual composition laws apply to hydraulic resistances:"},{"type":"paragraph","text":"Application to large circulation: The total peripheral resistance, Rpt, is defined by:"},{"type":"paragraph","text":"Cardiac output Dc"},{"type":"paragraph","text":"Rpt = RArteries + RArterioles +RCapillaries +RVeins"},{"type":"paragraph","text":"In the international system of units, Rpt is expressed in Pa.s/m3. If ?P is expressed in mmHg and Dc in ml/s, then Rpt is expressed in units of peripheral resistance: 1 u.r.p = 1 mm Hg.s/ml Dr. HIMEUR MA Biophysics Lab"}]},{"n":26,"title":"C- Biophysics of vascular walls:","blocks":[{"type":"heading","level":2,"text":"C- Biophysics of vascular walls:"},{"type":"heading","level":3,"text":"Elasticity of vessels"}]},{"n":27,"title":"","blocks":[{"type":"paragraph","text":"Hooke's law simplified"},{"type":"paragraph","text":"The elasticity of a body characterizes the relationship between the relative elongation (?L / L) of a body of length L and the traction force, F, acting on a section surface, S, of this body:"},{"type":"paragraph","text":"this is Hooke?s Law: F = ?.S.?L/L"},{"type":"paragraph","text":"or F/S = ?.?L/L where ? is the Young's modulus of elasticity characteristic of the structure of the elastic body."}]},{"n":28,"title":"est la force nécessaire p ur pour rapprocher les","blocks":[{"type":"heading","level":3,"text":"est la force nécessaire p ur pour rapprocher les"},{"type":"paragraph","text":"Surface tension"},{"type":"paragraph","text":"Definition of surface tension for a thin section of thickness e, we can write Hooke's law in the form:"},{"type":"heading","level":3,"text":"F/L = ?.e. ?L/L"},{"type":"paragraph","text":"F/L is the surface tension, TS. The product ?.e is the elastance of the blade. Intuitively we can consider that surface tension is the force necessary per unit of length to bring together the two edges of an elastic blade in which an incision has been made."}]},{"n":29,"title":"","blocks":[{"type":"paragraph","text":"Laplace's law applied to a cylindrical artery"},{"type":"paragraph","text":"If the thin section is the wall of a vessel, this tension will balance the forces due to the pressure difference between the faces of the vessel. If we consider a cylindrical artery: -When the pressure inside the artery is equal to the external pressure, the wall is not subject to any stress. -When the pressure increases and becomes greater than the external pressure, the radius of the artery tends to increase. In response, the wall will tighten and this tension tends to reduce the radius of the artery. Most often we will see that these 2 mechanisms balance each other."}]},{"n":30,"title":"In a cylinder, the relationship between surface tension Ts, ?P, and radius is expressed by Laplace's law:","blocks":[{"type":"heading","level":3,"text":"In a cylinder, the relationship between surface tension Ts, ?P, and radius is expressed by Laplace's law:"},{"type":"paragraph","text":"Ts depends on the nature of the blade (? and e) and the radius of the vessel, i.e. the length of the fiber if we consider fibers arranged on the circumference of the section (the longitudinal fibers do not undergo any variation in length). Note that for the same gradient ?P, the tension will be all the stronger on the wall as r is large. A small diameter pipe will therefore better withstand high pressure."}]},{"n":31,"title":"Voltage-radius diagram of vascular walls: regulation of vascular tone","blocks":[{"type":"heading","level":3,"text":"Voltage-radius diagram of vascular walls: regulation of vascular tone"}]},{"n":32,"title":"","blocks":[{"type":"paragraph","text":"I- Purely elastic artery:"},{"type":"paragraph","text":"It is composed of elastin fiber and collagen. Each of these fibers individually obeys Hooke's law but taken as a whole, they induce a slightly more complex tension-radius relationship for the wall. This is a law that is established experimentally called the Voltage-Radius relationship;"}]},{"n":33,"title":"Ts = ?P.r","blocks":[{"type":"paragraph","text":"For a radius r of the artery, if we consider a pressure inside the vessel, generating a transmural pressure gradient ?P (Pinside -Poutside), according to Laplace's law, the value of the tension corresponding to the value of r is:"},{"type":"heading","level":3,"text":"Ts = ?P.r"},{"type":"paragraph","text":"We note that according to Laplace's law, the tension can be considered as a linear function of the radius whose slope is equal to the transmural pressure gradient. We will call it the Laplace line; we will remember that it quantifies the dilatory tendency due to the transmural pressure gradient."}]},{"n":34,"title":"y p p p - Cette tension est créée par les fibres qui composent la paroi de l’artery . La aboutissant à la c","blocks":[{"type":"heading","level":3,"text":"y p p p - Cette tension est créée par les fibres qui composent la paroi de l’artery . La aboutissant à la c"},{"type":"paragraph","text":"II- Radius taken by an artery subjected to a pressure gradient"},{"type":"paragraph","text":"transmural. : The balance radius:"},{"type":"paragraph","text":"From a physical point of view, 2 phenomena apply to the wall of an artery: ?The transmural pressure gradient which tends to dilate the artery ?the elastic properties of the artery which tends to contract the artery. Note that: - The voltage necessary to counterbalance the pressure gradient depends on the radius of the artery and can be calculated by Laplace's law. - This tension is created by the fibers that make up the wall of the artery. The tension-radius relation must verify the consequences of Hooke's law leading to the curve (C)."}]},{"n":35,"title":"","blocks":[{"type":"paragraph","text":"Subjected to a given transmural pressure gradient, the artery will have a radius such that the two relationships are verified simultaneously. This will be the balance radius. That is to say the radius that an artery subjected to a given pressure gradient can take. This problem can easily be solved graphically. Plotted on the same graph, Laplace's laws and the Tension-radius law of the artery; the curves intersect for r = re, this is the equilibrium radius"}]},{"n":36,"title":"","blocks":[{"type":"paragraph","text":"We can show that this equilibrium is stable. In fact, the system is such that any movement of the radius in relation to the equilibrium radius will be brought back towards the latter. ? Thus for r > re the elastic tension (represented by the curve C) is greater than that due to Laplace's law, therefore the artery contracts, we return dons towards re. ? for r < re, the elastic tension is lower than that due to Laplace's law, so the artery dilates, we return towards re."}]},{"n":37,"title":"","blocks":[{"type":"paragraph","text":"III- Evolution of the radius with the transmural pressure:"},{"type":"paragraph","text":"When the interior varies, the transmural pressure difference varies. The slope of the relationship Ts = ?P.r changes, inducing a variation in the equilibrium radius (this is one of the reasons for the pulse linked to variations in blood pressure in the arteries during the cardiac cycle)."},{"type":"image","src":"/content/biophysique/bp-1/img-003.png","caption":""}]},{"n":38,"title":"IV- Role of elastin ? collagen proportions:","blocks":[{"type":"heading","level":2,"text":"IV- Role of elastin ? collagen proportions:"},{"type":"paragraph","text":"We can also trace, for the same transmural pressure, the state of the vessel for different proportions between elastin and collagen. For the same pressure gradient, the more elastin there is, the more the artery will be open. With age there is a decrease in elastin fibers and an increase in collagen fibers."},{"type":"image","src":"/content/biophysique/bp-1/img-004.png","caption":"IV- Role of elastin ? collagen proportions:"}]},{"n":39,"title":"","blocks":[{"type":"paragraph","text":"V- Mixed artery:"},{"type":"paragraph","text":"In the wall of a mixed artery, there are smooth muscle cells in addition to the elastin and collagen fibers mentioned previously. Smooth muscle cells generate active wall tension. This tension is independent of the radius."},{"type":"image","src":"/content/biophysique/bp-1/img-005.png","caption":""}]},{"n":40,"title":"","blocks":[{"type":"paragraph","text":"The tension - radius diagram of a mixed artery is the summation of its active component and its elastic component (the first independent and the second dependent on the radius). It is represented by the curve (C?)"}]},{"n":41,"title":"","blocks":[{"type":"paragraph","text":"?We note that the curve (C?) intersects the Laplace line Ts = ?P.r at two points. ?There are therefore formally 2 points of balance. ?Only the balance point corresponding to the largest radius is stable. ?The point of weakest radius (rf) is unstable: the radius evolves either towards closure or towards the point of stability (re). ?We can show that the equilibrium radius (rf) is unstable. In fact, the system is such that any movement of the radius in relation to the equilibrium radius (rf) will be even further from the latter."},{"type":"paragraph","text":"?Thus for r < rf the elastic tension (represented by the curve C') is greater than that due to Laplace's law, so the artery contracts, we move further away from rf. This results in arterial spasm."},{"type":"paragraph","text":"?For r > rf, the elastic tension is lower than that due to Laplace's law, so the artery dilates, we move further away from rf. The radius will join the stable equilibrium radius re"}]},{"n":42,"title":"","blocks":[{"type":"paragraph","text":"transmural pressure."},{"type":"paragraph","text":"?When active tension (i.e. due to smooth muscle cells) decreases,"},{"type":"paragraph","text":"we have a lowering of the curve, therefore an increase in re, that is to say vasodilation. ?When the active voltage increases, there is an increase in the curve and"},{"type":"paragraph","text":"therefore a reduction in re, i.e. vasoconstriction. ?There may be situations where the increase in active voltage is so"},{"type":"paragraph","text":"large that there is no point of intersection with the voltage-radius curve of the artery. There is therefore no equilibrium radius and the constricting tendency represented by the curve (C?) is always greater than the dilating tendency represented by the Laplace line. This results in vascular closure (spasm)."}]},{"n":44,"title":"","blocks":[{"type":"paragraph","text":"VII- Effect of transmural pressure variation:"},{"type":"paragraph","text":"If ?P varies, it is the slope of the line Ts = ?P.r which evolves: - when ?P increases, the caliber increases, - when ?P decreases, the caliber decreases - There may be situations where the ?P is so low that there is no point of intersection with the voltage-radius curve of the artery. There is therefore no equilibrium radius and the constricting tendency represented by the curve (C?) is always greater than the dilating tendency represented by the Laplace line. This results in vascular closure."}]},{"n":45,"title":"","blocks":[{"type":"image","src":"/content/biophysique/bp-1/img-006.png","caption":""}]},{"n":46,"title":"","blocks":[{"type":"image","src":"/content/biophysique/bp-1/img-007.jpg","caption":""}]},{"n":47,"title":"D- Consequence of the elasticity of the aorta","blocks":[{"type":"heading","level":3,"text":"D- Consequence of the elasticity of the aorta"}]},{"n":48,"title":"La relation entre la variation de pressure dP et la variation de volume dV fait intervenir Consequence on flow:","blocks":[{"type":"heading","level":3,"text":"La relation entre la variation de pressure dP et la variation de volume dV fait intervenir Consequence on flow:"},{"type":"paragraph","text":"Blood is ejected from the left ventricle into the aorta from which the arteries supply the various organs. The elastic properties of the proximal part of the aorta are very important. Indeed, during systole blood is ejected from the left ventricle at high pressure. This distends the aorta which increases in volume."},{"type":"paragraph","text":"The relationship between the pressure variation dP and the volume variation dV involves the coefficient C (capacitance):"},{"type":"paragraph","text":"dV = C.dP"}]},{"n":49,"title":"","blocks":[{"type":"paragraph","text":"Si on fait l hypothèse simplificatrice d un flow de sortie du left ventricle qui serait constant en systole ( égal à Qs) et nul en diastole (Qd=0)"},{"type":"paragraph","text":"during cardiac systole (duration Ts). This volume is restored at the time of diastole. ?This phenomenon makes it possible to transform a discontinuous flow at the outlet of the"},{"type":"paragraph","text":"left ventricle (with schematically a cessation of flow in diastole) into a flow at the exit of the aorta which is continuous (even if it is variable) throughout the cardiac cycle (of duration Tc). ?If we make the simplifying hypothesis of a ventricular output flow"},{"type":"paragraph","text":"left which would be constant in systole (equal to Qs) and zero in diastole (Qd=0) (this type of flow produces a rectangular step). It can be shown that the flow rate leaving the aorta depends on its capacitance."}]},{"n":50,"title":"restitue ce volume de façon uniforme pendant tout le cycle cardiaque de durée Tc. La valeur du flow constant est donc Qs .(Ts/Tc)","blocks":[{"type":"heading","level":3,"text":"restitue ce volume de façon uniforme pendant tout le cycle cardiaque de durée Tc. La valeur du flow constant est donc Qs .(Ts/Tc)"},{"type":"paragraph","text":"?If the aorta is completely rigid (no elasticity and C=0), it will restore"},{"type":"paragraph","text":"its output a rectangular step of flow. ?If the aorta had infinite capacitance, it would transform the flow"},{"type":"paragraph","text":"discontinuous flow that it receives from the left ventricle in uniform flow throughout the cardiac cycle. ?The value of this uniform flow can be calculated since during a"},{"type":"paragraph","text":"cardiac cycle the aorta receives a volume of blood which is equal to Qs.Ts. It restores this volume uniformly throughout the cardiac cycle of duration Tc. The value of the constant flow is therefore Qs .(Ts/Tc)"},{"type":"image","src":"/content/biophysique/bp-1/img-008.jpg","caption":"restitue ce volume de façon uniforme pendant tout le cycle cardiaque de durée Tc. La valeur du flow constant est donc Qs .(Ts/Tc)"}]},{"n":51,"title":"","blocks":[{"type":"paragraph","text":"In fact, real situations are intermediate between these two extremes and the flow rates leaving the aorta have the form of damped steps. The greater the capacitance of the aorta, the greater the damping. For reasons of simplification of reasoning we have considered only the aorta but it is the entire proximal arterial system which is concerned (to varying degrees) by the phenomena that we describe."},{"type":"image","src":"/content/biophysique/bp-1/img-009.jpg","caption":""}]},{"n":52,"title":"","blocks":[{"type":"paragraph","text":"Consequence on the work and on the power provided by the"},{"type":"paragraph","text":"heart:"},{"type":"paragraph","text":"The work and power provided by the heart to generate a certain blood flow depends on the elasticity of the aorta. The work W corresponding to a certain flow rate Q flowing in an artery of resistance R for a time t can be written:"}]},{"n":53,"title":"","blocks":[{"type":"paragraph","text":"(01)"},{"type":"paragraph","text":"In the case of the rigid artery (C=0), we have seen that the flow is present in systole (Qs) and zero in diastole. The work corresponding to a cardiac cycle can therefore be written as:"},{"type":"paragraph","text":"Wc=0 = RQs2Ts."},{"type":"paragraph","text":"The power corresponding to one cardiac cycle:"},{"type":"paragraph","text":"P c=0 = Wc=0 /Tc = RQs2Ts/Tc."}]},{"n":54,"title":"","blocks":[{"type":"paragraph","text":"(02)"},{"type":"paragraph","text":"In the case of the infinitely elastic artery (C=?), we have seen that the flow rate is constant throughout the cardiac cycle and equal to Qs. (Ts/Tc) The work corresponding to a cardiac cycle can therefore be written:"},{"type":"paragraph","text":"W C=? = R(Qs .(Ts/Tc))2Tc."},{"type":"paragraph","text":"The power corresponding to one cardiac cycle"},{"type":"paragraph","text":"P C=? = W C=? /Tc = R(Qs .(Ts/Tc)2."}]},{"n":55,"title":"Now Ts duration of systole is obviously less than the duration of the cardiac cycle as a whole, we therefore have","blocks":[{"type":"paragraph","text":"We see that PC=? = Pc=0.(Ts/Tc)"},{"type":"heading","level":3,"text":"Now Ts duration of systole is obviously less than the duration of the cardiac cycle as a whole, we therefore have"},{"type":"paragraph","text":"PC=?< Pc=0"},{"type":"paragraph","text":"To provide the same flow rate, the heart of a young subject with flexible arteries must provide less power than that of an elderly subject whose artery becomes more rigid."}]}]}
+{
+  "file": "biophysic/1)HémodynamiqueetBiophysicsVasculaire_EN.pdf",
+  "chapterId": "bp-1",
+  "title": "Hemodynamics and Vascular Biophysics",
+  "kind": "cours",
+  "pages": [
+    {
+      "n": 1,
+      "title": "Hemodynamics & Biophysics",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Hemodynamics & Biophysics"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "vascular"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr HIMEUR MA Medical Biophysics"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "L’electrical activity du heart,",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "• L’electrical activity du heart,"
+        },
+        {
+          "type": "paragraph",
+          "text": "Knowledge of blood circulation in humans provides valuable information on the essential functions of the body for life. This knowledge requires an understanding of:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "The statics and dynamics of perfect incompressible fluids,",
+            "The dynamics of real fluids,",
+            "The elasticity of blood vessels,",
+            "The electrical activity of the heart,"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "A- General",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A- General"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Perfect incompressible fluids",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Perfect incompressible fluids"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I-Static"
+        },
+        {
+          "type": "paragraph",
+          "text": "At each point of a fluid, two volume elements are in contact on a small surface"
+        },
+        {
+          "type": "list",
+          "items": [
+            "S. The fluid is said to be \"perfect\" if the force",
+            "F that an element of the fluid exerts on its neighbor remains perpendicular to their contact surface whatever their relative movement, and if the intensity of this force does not depend on the orientation of this surface. The ratio P =",
+            "F /",
+            "S is the fluid pressure at this point. The fluid is said to be ?incompressible? if the volume of each element does not depend on the pressure. Pressure is therefore the force per unit area exerted perpendicularly on a wall. In the international system, it is expressed in pascals (Pa):"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "1 Pa = 1 N/m2 Dr. HIMEUR MA Biophysics Lab"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Perfect incompressible fluids",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "But we can also express it in atmospheres (atm), in millimeters of mercury (mmHg), in centimeters of water (cm H2O) or in bars (bar):"
+        },
+        {
+          "type": "paragraph",
+          "text": "1atm = 101.3 kPa = 760 mmHg = 1033 cm H2O = 1.013 bar Various experiments show that pressure increases proportionally with depth or decreases proportionally with altitude. In a fluid of density ?, a variation in altitude, dz, corresponds to a variation in pressure, dP, such that:"
+        },
+        {
+          "type": "paragraph",
+          "text": "If ? and g are independent of z, then: P + ? g z = constant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Thus, two points located at the same level in the same fluid in equilibrium have the same pressure."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Perfect incompressible fluids",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Au lecture de l’écoulement d’un fluide parfait, incompressible en régime permanent, l’énergie mécanique totale (somme des énergies cinétique, potentielle et pressante) Medical application: blood pressure (or more precisely excess pressure compared to atmospheric pressure) must be measured on a lying subject in order to eliminate the gravitational term. In the standing subject, gravitation intervenes so that for an average value of 100 mmHg at the heart, we find a BP of 60 mmHg at the head and 200 mmHg at the feet."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dynamics: During the flow of a perfect, incompressible fluid in steady state, the total mechanical energy (sum of kinetic, potential and pressing energies) is conserved. The flow then obeys the Bernoulli equation:"
+        },
+        {
+          "type": "paragraph",
+          "text": "½ ? ?2 + ? g z + P = constant"
+        },
+        {
+          "type": "paragraph",
+          "text": "As a result of the incompressibility of the fluid, the flow rate is constant: D = S ? = S? ??, for two sections S and S? crossed at speeds ? and ?? by the fluid."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "B- Elements of flow biophysics",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "B- Elements of flow biophysics"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "blood"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "? = ? / ?.",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Blood viscosity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Viscosity expresses the greater or lesser ease with which the different layers of a liquid can move relative to each other. It demonstrates the intermolecular bonds that must be broken to mobilize the molecules of a flowing liquid in relation to each other."
+        },
+        {
+          "type": "paragraph",
+          "text": "The viscosity"
+        },
+        {
+          "type": "list",
+          "items": [
+            "is defined as the quotient of the shear stress ? (force necessary to move a liquid layer per unit area) by the shear rate ? (speed gradient between two layers):"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "? = ? / ?."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "title": "? = ? / ?.",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-001.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "title": "For Newtonian liquids like water or plasma, the viscosity is constant",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "For Newtonian liquids like water or plasma, the viscosity is constant. Solutions of macromolecules have a higher viscosity than pure solvent because solubilization creates bonds between the macromolecule and the solvent. For liquids like blood, the relationship between",
+            "and",
+            "is no longer linear and in the majority of cases, the viscosity decreases as the shear rate increases. Blood is a liquid whose rheological behavior is particularly complex since it can be compared to a suspension of cellular elements in plasma. Its behavior is strongly non-Newtonian. Thus blood viscosity decreases considerably when the speed gradient increases (shear-thinning phenomenon). The curve ?? expresses a particular behavior of red blood cells which, when shear rates are low, tend to aggregate and form clusters called rolls."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "title": "de la composition du plasma en particulier des concentrations de",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "• de la composition du plasma en particulier des concentrations de"
+        },
+        {
+          "type": "paragraph",
+          "text": "This aggregation of red blood cells causes an increase in blood viscosity. This explains why slow blood flow regimes are conducive to the creation of stasis phenomena (stoppage of blood flow). When shear rates increase, these red blood cell formations are dispersed, they orient in the direction of flow and can be deformed. Under these conditions the viscosity of the blood decreases. Blood viscosity depends on:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "the composition of the plasma, in particular the concentrations of certain plasma macromolecules (albumin, fibrinogen). ?depends mainly on the hematocrit (i.e. the blood concentration of red blood cells). The higher the hematocrit, the more viscous the blood. In addition, the non-Newtonian character of the blood is accentuated with the increase in hematocrit."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "title": "de la composition du plasma en particulier des concentrations de",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-002.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "title": "The flow of blood",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The flow of blood"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I- Bernoulli's law"
+        },
+        {
+          "type": "paragraph",
+          "text": "We call \"charge\" the energy necessary for the flow of a unit of volume of liquid. In the flow of a perfect fluid (incompressible fluid of zero viscosity), the charge at all points is constant, Bernoulli's law is written: Charge = potential energy + gravitational energy + kinetic energy = P + ? g h + ½ v2 ? It will be noted that Pascal's law is the particular static case (i.e. when the speed is zero)."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "title": "II- the Venturi effect:",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- the Venturi effect:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The flow rate Q at a point A can be written as QA = vA SA, where v is the speed of movement of the fluid and S the section of the vessel. A consequence of Bernoulli's law is the Venturi phenomenon: at constant load, stenosis is associated with an increase in flow velocity and a decrease in pressure. We will see that this phenomenon can explain why a vessel suddenly closes in the vicinity of a stenosis (vascular spasm)."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "title": "Auscultation of the vessels",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Auscultation of the vessels"
+        },
+        {
+          "type": "paragraph",
+          "text": "We saw that the speed increased at the level of vascular stenosis. This increase can shift blood flow from a laminar regime to a turbulent regime. However, a turbulent regime is generally noisier than a laminar regime. Or can hear a ?hiss? when a stethoscope is placed on a vessel where the flow regime is turbulent. It is thus possible to make the diagnosis of stenosis ?by ear?."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "title": "Auscultation of the vessels",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Flows of real fluids: During the flow of real fluids, there is, unlike perfect fluids, a dissipation of energy in the form of heat, due to internal friction in the fluid. The load is no longer constant. During a flow between two points there is a pressure loss. Another characteristic of real fluid flows is the existence of different flow regimes. Depending on the diameter of the conduit, the characteristics of the fluid and the speed of the flow, conditions summarized by the Reynolds number (number of dimension 1 expressing the ratio of inertial forces to viscous forces: Re = v ? D / ?),"
+        },
+        {
+          "type": "paragraph",
+          "text": "The flow regime in a conduit can be laminar or turbulent. If Re is low (<2000), the regime is always laminar. If Re is large, the regime is always turbulent. For intermediate values, the regime is unstable."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "title": "IV- Speed profiles and Poiseuille's law",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV- Speed profiles and Poiseuille's law"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Poiseuille's law makes it possible to calculate in laminar regime the flow rate Q of an incompressible fluid of viscosity",
+            "in a cylindrical pipe of radius R and length L, under the effect of a pressure difference ?P. The viscosity being constant, the law only applies to Newtonian fluids. We first establish their parabolic speed profile, the integration of which leads to the expressure of the flow rate Q:"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "title": "This equation is valid as long as the Reynolds number of the flow remains moderate",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This equation is valid as long as the Reynolds number of the flow remains moderate. For high values, the flow becomes turbulent and the streamlines are no longer parallel; it is therefore no longer possible to make the same reasoning. In the case of non-Newtonian fluids, such as blood, the velocity profile in a cylindrical vessel is no longer parabolic but presents a flattened front. However, as with the Newtonian, the liquid layers located in the center of the flow are the fastest."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "title": "Il s’agit de la viscosité qu’aurait un fluide newtonien qui induirait le même",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Il s’agit de la viscosité qu’aurait un fluide newtonien qui induirait le même"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poiseuille's law does not apply and the hydrodynamic equations become particularly complex. But, we often use an artifice allowing us to characterize in a simple way the relationships between pressures and flow rates for non-Newtonian fluids such as blood. Thus in the case of the flow of a non-Newtonian fluid, in a conduit of length L, with a flow rate Q, for a pressure gradient between the ends ?P, we define the apparent viscosity ?app of the non-Newtonian fluid. This is the viscosity that a Newtonian fluid would have which would induce the same flow rate for the same gradient ?P, we can therefore write for the non-Newtonian fluid:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Q = ?P ? R4 / 8 L ?app"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "title": "V- The physiological consequences of Poiseuille's law:",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "• V- The physiological consequences of Poiseuille's law:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poiseuille's law will often be applied to the flow of blood in the vessels, so it is very important to consider the consequences of the last formula. The flow rate in a blood vessel depends on: ?The pressure gradient at the ends of the vessel, ?The radius and length of the vessel, ?The blood viscosity,"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "title": "U = R I connecting a potential difference U to a current intensity I passing through a resistance R, Poiseuille's law can be written:",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "If we reverse Poiseuille's formula we have:"
+        },
+        {
+          "type": "paragraph",
+          "text": "P = (8L/?R4) ?Q"
+        },
+        {
+          "type": "paragraph",
+          "text": "This formula is important because if we make the analogy with Ohm's law,"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "U = R I connecting a potential difference U to a current intensity I passing through a resistance R, Poiseuille's law can be written:"
+        },
+        {
+          "type": "paragraph",
+          "text": "P = Rvasc Q where Rvasc is the vascular resistance to flow. We see that this resistance is the product of a term (8L/?R4) which depends on the geometric characteristics of the container (of the vessel) and a term which depends on the physical characteristics of the contents: the viscosity ?."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "title": "Role of vasomotion on flow:",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Role of vasomotion on flow:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascular resistance to flow is very strongly modified by variations in the caliber of the vessels (because the radius occurs to the fourth power). This is how reductions or increases in the caliber of the vessels (vasoconstriction or vasodilation), even if they are of moderate amplitude, can significantly regulate the flow of blood reaching an organ. An increase in blood viscosity (present in certain pathologies) could have deleterious consequences on the viability of certain organs because it could induce a reduction in the flow rates which perfuse them."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "title": "VI- The shear rate inside the vessel and at its",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VI- The shear rate inside the vessel and at its"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "wall"
+        },
+        {
+          "type": "paragraph",
+          "text": "Since the layers of liquids do not move at the same speed but according to a more or less crushed parabolic profile, there is shearing between the different layers. The shear rate ? (? = dV/dx) varies according to the axial position and a shear rate profile can be described. In the case of a Newtonian liquid in laminar flow Q in a rectilinear conduit of radius R, we can show that this profile corresponds to two line segments starting from a zero value of ? at the center of the vessel and reaching a maximum value of 4Q/ ?R3 at the wall. The friction force on the surface of the tube therefore results in a shear stress:"
+        },
+        {
+          "type": "paragraph",
+          "text": "? = ? ? = 4?Q / ? R3"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "title": "Flow-dependent expansion",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Flow-dependent expansion"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recent work has shown that the shear stress exerted on the endothelial cells which line the interior of vessels has a considerable role in the regulation of vascular flow. Indeed, endothelial cells have mechanoreceptors sensitive to shear stress. These receptors stimulate the release of vasodilator substances. When blood flow begins to increase, the equation shows that as shear stress increases, the release of vasodilator substances induces an increase in the radius of the vessel. This induces a reduction in vascular resistance to flow and therefore promotes an increase in flow. This is the typical example of a biophysical/biochemical coupling mechanism which creates a facilitating system (here facilitation of increased flow)."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "title": "Flow-dependent expansion",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VII-"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vascular resistance: Poiseuille's law can be written as ?P = RQ by defining the hydraulic resistance by R = 8?L/?r4. This relationship is analogous to Ohm's law. The usual composition laws apply to hydraulic resistances:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Application to large circulation: The total peripheral resistance, Rpt, is defined by:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cardiac output Dc"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rpt = RArteries + RArterioles +RCapillaries +RVeins"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the international system of units, Rpt is expressed in Pa.s/m3. If ?P is expressed in mmHg and Dc in ml/s, then Rpt is expressed in units of peripheral resistance: 1 u.r.p = 1 mm Hg.s/ml Dr. HIMEUR MA Biophysics Lab"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "title": "C- Biophysics of vascular walls:",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "C- Biophysics of vascular walls:"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Elasticity of vessels"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "title": "Hooke's law simplified",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hooke's law simplified"
+        },
+        {
+          "type": "paragraph",
+          "text": "The elasticity of a body characterizes the relationship between the relative elongation (?L / L) of a body of length L and the traction force, F, acting on a section surface, S, of this body:"
+        },
+        {
+          "type": "paragraph",
+          "text": "this is Hooke?s Law: F = ?.S.?L/L"
+        },
+        {
+          "type": "paragraph",
+          "text": "or F/S = ?.?L/L where ? is the Young's modulus of elasticity characteristic of the structure of the elastic body."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "title": "est la force nécessaire p ur pour rapprocher les",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "est la force nécessaire p ur pour rapprocher les"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surface tension"
+        },
+        {
+          "type": "paragraph",
+          "text": "Definition of surface tension for a thin section of thickness e, we can write Hooke's law in the form:"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "F/L = ?.e. ?L/L"
+        },
+        {
+          "type": "paragraph",
+          "text": "F/L is the surface tension, TS. The product ?.e is the elastance of the blade. Intuitively we can consider that surface tension is the force necessary per unit of length to bring together the two edges of an elastic blade in which an incision has been made."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "title": "Laplace's law applied to a cylindrical artery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Laplace's law applied to a cylindrical artery"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the thin section is the wall of a vessel, this tension will balance the forces due to the pressure difference between the faces of the vessel. If we consider a cylindrical artery: -When the pressure inside the artery is equal to the external pressure, the wall is not subject to any stress. -When the pressure increases and becomes greater than the external pressure, the radius of the artery tends to increase. In response, the wall will tighten and this tension tends to reduce the radius of the artery. Most often we will see that these 2 mechanisms balance each other."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "title": "In a cylinder, the relationship between surface tension Ts, ?P, and radius is expressed by Laplace's law:",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "In a cylinder, the relationship between surface tension Ts, ?P, and radius is expressed by Laplace's law:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ts depends on the nature of the blade (? and e) and the radius of the vessel, i.e. the length of the fiber if we consider fibers arranged on the circumference of the section (the longitudinal fibers do not undergo any variation in length). Note that for the same gradient ?P, the tension will be all the stronger on the wall as r is large. A small diameter pipe will therefore better withstand high pressure."
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "title": "Voltage-radius diagram of vascular walls: regulation of vascular tone",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Voltage-radius diagram of vascular walls: regulation of vascular tone"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "title": "I- Purely elastic artery",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "I- Purely elastic artery"
+        },
+        {
+          "type": "paragraph",
+          "text": "It is composed of elastin fiber and collagen. Each of these fibers individually obeys Hooke's law but taken as a whole, they induce a slightly more complex tension-radius relationship for the wall. This is a law that is established experimentally called the Voltage-Radius relationship;"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "title": "Ts = ?P.r",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "For a radius r of the artery, if we consider a pressure inside the vessel, generating a transmural pressure gradient ?P (Pinside -Poutside), according to Laplace's law, the value of the tension corresponding to the value of r is:"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ts = ?P.r"
+        },
+        {
+          "type": "paragraph",
+          "text": "We note that according to Laplace's law, the tension can be considered as a linear function of the radius whose slope is equal to the transmural pressure gradient. We will call it the Laplace line; we will remember that it quantifies the dilatory tendency due to the transmural pressure gradient."
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "title": "y p p p - Cette tension est créée par les fibres qui composent la paroi de l’artery . La aboutissant à la c",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "y p p p - Cette tension est créée par les fibres qui composent la paroi de l’artery . La aboutissant à la c"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "II- Radius taken by an artery subjected to a pressure gradient"
+        },
+        {
+          "type": "paragraph",
+          "text": "transmural. : The balance radius:"
+        },
+        {
+          "type": "paragraph",
+          "text": "From a physical point of view, 2 phenomena apply to the wall of an artery: ?The transmural pressure gradient which tends to dilate the artery ?the elastic properties of the artery which tends to contract the artery. Note that:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "The voltage necessary to counterbalance the pressure gradient depends on the radius of the artery and can be calculated by Laplace's law.",
+            "This tension is created by the fibers that make up the wall of the artery. The tension-radius relation must verify the consequences of Hooke's law leading to the curve (C)."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "title": "y p p p - Cette tension est créée par les fibres qui composent la paroi de l’artery . La aboutissant à la c",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Subjected to a given transmural pressure gradient, the artery will have a radius such that the two relationships are verified simultaneously. This will be the balance radius. That is to say the radius that an artery subjected to a given pressure gradient can take. This problem can easily be solved graphically. Plotted on the same graph, Laplace's laws and the Tension-radius law of the artery; the curves intersect for r = re, this is the equilibrium radius"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "title": "We can show that this equilibrium is stable",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "We can show that this equilibrium is stable. In fact, the system is such that any movement of the radius in relation to the equilibrium radius will be brought back towards the latter.",
+            "Thus for r > re the elastic tension (represented by the curve C) is greater than that due to Laplace's law, therefore the artery contracts, we return dons towards re.",
+            "for r < re, the elastic tension is lower than that due to Laplace's law, so the artery dilates, we return towards re."
+          ]
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "title": "III- Evolution of the radius with the transmural pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "III- Evolution of the radius with the transmural pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "When the interior varies, the transmural pressure difference varies. The slope of the relationship Ts = ?P.r changes, inducing a variation in the equilibrium radius (this is one of the reasons for the pulse linked to variations in blood pressure in the arteries during the cardiac cycle)."
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-003.png",
+          "caption": "III- Evolution of the radius with the transmural pressure"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "title": "IV- Role of elastin ? collagen proportions:",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "IV- Role of elastin ? collagen proportions:"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can also trace, for the same transmural pressure, the state of the vessel for different proportions between elastin and collagen. For the same pressure gradient, the more elastin there is, the more the artery will be open. With age there is a decrease in elastin fibers and an increase in collagen fibers."
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-004.png",
+          "caption": "IV- Role of elastin ? collagen proportions:"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "title": "V- Mixed artery",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "V- Mixed artery"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the wall of a mixed artery, there are smooth muscle cells in addition to the elastin and collagen fibers mentioned previously. Smooth muscle cells generate active wall tension. This tension is independent of the radius."
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-005.png",
+          "caption": "V- Mixed artery"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "title": "V- Mixed artery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The tension - radius diagram of a mixed artery is the summation of its active component and its elastic component (the first independent and the second dependent on the radius). It is represented by the curve (C?)"
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "title": "?We note that the curve (C?) intersects the Laplace line Ts = ?P.r at two points",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "We note that the curve (C?) intersects the Laplace line Ts = ?P.r at two points. ?There are therefore formally 2 points of balance. ?Only the balance point corresponding to the largest radius is stable. ?The point of weakest radius (rf) is unstable: the radius evolves either towards closure or towards the point of stability (re). ?We can show that the equilibrium radius (rf) is unstable. In fact, the system is such that any movement of the radius in relation to the equilibrium radius (rf) will be even further from the latter.",
+            "Thus for r < rf the elastic tension (represented by the curve C') is greater than that due to Laplace's law, so the artery contracts, we move further away from rf. This results in arterial spasm.",
+            "For r > rf, the elastic tension is lower than that due to Laplace's law, so the artery dilates, we move further away from rf. The radius will join the stable equilibrium radius re"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "title": "transmural pressure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "transmural pressure."
+        },
+        {
+          "type": "paragraph",
+          "text": "When active tension (i.e. due to smooth muscle cells) decreases,"
+        },
+        {
+          "type": "paragraph",
+          "text": "we have a lowering of the curve, therefore an increase in re, that is to say vasodilation. ?When the active voltage increases, there is an increase in the curve and"
+        },
+        {
+          "type": "paragraph",
+          "text": "therefore a reduction in re, i.e. vasoconstriction. ?There may be situations where the increase in active voltage is so"
+        },
+        {
+          "type": "paragraph",
+          "text": "large that there is no point of intersection with the voltage-radius curve of the artery. There is therefore no equilibrium radius and the constricting tendency represented by the curve (C?) is always greater than the dilating tendency represented by the Laplace line. This results in vascular closure (spasm)."
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "title": "VII- Effect of transmural pressure variation",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "VII- Effect of transmural pressure variation"
+        },
+        {
+          "type": "paragraph",
+          "text": "If ?P varies, it is the slope of the line Ts = ?P.r which evolves: - when ?P increases, the caliber increases, - when ?P decreases, the caliber decreases - There may be situations where the ?P is so low that there is no point of intersection with the voltage-radius curve of the artery. There is therefore no equilibrium radius and the constricting tendency represented by the curve (C?) is always greater than the dilating tendency represented by the Laplace line. This results in vascular closure."
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "title": "VII- Effect of transmural pressure variation",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-006.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "title": "VII- Effect of transmural pressure variation",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-007.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "title": "D- Consequence of the elasticity of the aorta",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "D- Consequence of the elasticity of the aorta"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "title": "La relation entre la variation de pressure dP et la variation de volume dV fait intervenir Consequence on flow:",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La relation entre la variation de pressure dP et la variation de volume dV fait intervenir Consequence on flow:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Blood is ejected from the left ventricle into the aorta from which the arteries supply the various organs. The elastic properties of the proximal part of the aorta are very important. Indeed, during systole blood is ejected from the left ventricle at high pressure. This distends the aorta which increases in volume."
+        },
+        {
+          "type": "paragraph",
+          "text": "The relationship between the pressure variation dP and the volume variation dV involves the coefficient C (capacitance):"
+        },
+        {
+          "type": "paragraph",
+          "text": "dV = C.dP"
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "title": "La relation entre la variation de pressure dP et la variation de volume dV fait intervenir Consequence on flow:",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Si on fait l hypothèse simplificatrice d un flow de sortie du left ventricle qui serait constant en systole ( égal à Qs) et nul en diastole (Qd=0)"
+        },
+        {
+          "type": "paragraph",
+          "text": "during cardiac systole (duration Ts). This volume is restored at the time of diastole. ?This phenomenon makes it possible to transform a discontinuous flow at the outlet of the"
+        },
+        {
+          "type": "paragraph",
+          "text": "left ventricle (with schematically a cessation of flow in diastole) into a flow at the exit of the aorta which is continuous (even if it is variable) throughout the cardiac cycle (of duration Tc). ?If we make the simplifying hypothesis of a ventricular output flow"
+        },
+        {
+          "type": "paragraph",
+          "text": "left which would be constant in systole (equal to Qs) and zero in diastole (Qd=0) (this type of flow produces a rectangular step). It can be shown that the flow rate leaving the aorta depends on its capacitance."
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "title": "restitue ce volume de façon uniforme pendant tout le cycle cardiaque de durée Tc. La valeur du flow constant est donc Qs .(Ts/Tc)",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "restitue ce volume de façon uniforme pendant tout le cycle cardiaque de durée Tc. La valeur du flow constant est donc Qs .(Ts/Tc)"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the aorta is completely rigid (no elasticity and C=0), it will restore"
+        },
+        {
+          "type": "paragraph",
+          "text": "its output a rectangular step of flow. ?If the aorta had infinite capacitance, it would transform the flow"
+        },
+        {
+          "type": "paragraph",
+          "text": "discontinuous flow that it receives from the left ventricle in uniform flow throughout the cardiac cycle. ?The value of this uniform flow can be calculated since during a"
+        },
+        {
+          "type": "paragraph",
+          "text": "cardiac cycle the aorta receives a volume of blood which is equal to Qs.Ts. It restores this volume uniformly throughout the cardiac cycle of duration Tc. The value of the constant flow is therefore Qs .(Ts/Tc)"
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-008.jpg",
+          "caption": "restitue ce volume de façon uniforme pendant tout le cycle cardiaque de durée Tc. La valeur du flow constant est donc Qs .(Ts/Tc)"
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "title": "restitue ce volume de façon uniforme pendant tout le cycle cardiaque de durée Tc. La valeur du flow constant est donc Qs .(Ts/Tc)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In fact, real situations are intermediate between these two extremes and the flow rates leaving the aorta have the form of damped steps. The greater the capacitance of the aorta, the greater the damping. For reasons of simplification of reasoning we have considered only the aorta but it is the entire proximal arterial system which is concerned (to varying degrees) by the phenomena that we describe."
+        },
+        {
+          "type": "image",
+          "src": "/content/biophysique/bp-1/img-009.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "title": "heart",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Consequence on the work and on the power provided by the"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "heart"
+        },
+        {
+          "type": "paragraph",
+          "text": "The work and power provided by the heart to generate a certain blood flow depends on the elasticity of the aorta. The work W corresponding to a certain flow rate Q flowing in an artery of resistance R for a time t can be written:"
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "title": "(01)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "(01)"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the case of the rigid artery (C=0), we have seen that the flow is present in systole (Qs) and zero in diastole. The work corresponding to a cardiac cycle can therefore be written as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wc=0 = RQs2Ts."
+        },
+        {
+          "type": "paragraph",
+          "text": "The power corresponding to one cardiac cycle:"
+        },
+        {
+          "type": "paragraph",
+          "text": "P c=0 = Wc=0 /Tc = RQs2Ts/Tc."
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "title": "(02)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "(02)"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the case of the infinitely elastic artery (C=?), we have seen that the flow rate is constant throughout the cardiac cycle and equal to Qs. (Ts/Tc) The work corresponding to a cardiac cycle can therefore be written:"
+        },
+        {
+          "type": "paragraph",
+          "text": "W C=? = R(Qs .(Ts/Tc))2Tc."
+        },
+        {
+          "type": "paragraph",
+          "text": "The power corresponding to one cardiac cycle"
+        },
+        {
+          "type": "paragraph",
+          "text": "P C=? = W C=? /Tc = R(Qs .(Ts/Tc)2."
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "title": "Now Ts duration of systole is obviously less than the duration of the cardiac cycle as a whole, we therefore have",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We see that PC=? = Pc=0.(Ts/Tc)"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Now Ts duration of systole is obviously less than the duration of the cardiac cycle as a whole, we therefore have"
+        },
+        {
+          "type": "paragraph",
+          "text": "PC=?< Pc=0"
+        },
+        {
+          "type": "paragraph",
+          "text": "To provide the same flow rate, the heart of a young subject with flexible arteries must provide less power than that of an elderly subject whose artery becomes more rigid."
+        }
+      ]
+    }
+  ]
+}

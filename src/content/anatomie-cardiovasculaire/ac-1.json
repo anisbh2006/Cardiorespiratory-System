@@ -9,10 +9,6 @@
       "title": "The Thoracic Wall",
       "blocks": [
         {
-          "type": "paragraph",
-          "text": "From Algiers General Anatomy Laboratory."
-        },
-        {
           "type": "heading",
           "level": 2,
           "text": "Objectives"
