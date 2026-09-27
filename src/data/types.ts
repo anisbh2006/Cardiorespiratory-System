@@ -76,9 +76,10 @@ export interface Discipline {
   /** French title — exactly as supplied by the lecturee. */
   titleFr: string
   titleEn: string
+  taglineFr: string
+  taglineEn: string
   /** Lucide icon name, resolved via the icon registry. */
   icon: string
-  tagline: string
   chapters: Chapter[]
 }
 

@@ -6,7 +6,7 @@ import { Crosshair, Maximize, RotateCcw, Tags } from 'lucide-react'
 import { ProceduralHeart } from './ProceduralHeart'
 import { ProceduralRespiratory } from './ProceduralRespiratory'
 import { GltfStructureModel } from './GltfStructureModel'
-import { getStructure, modelRegistry } from '@/data/anatomy'
+import { getStructure, getStructureName, modelRegistry } from '@/data/anatomy'
 import { heartParts, labelAnchors, viewPresets, HOME_TARGET, type ViewPreset } from './heartParts'
 import { respiratoryParts, respiratoryLabelAnchors, respiratoryViewPresets, HOME_TARGET as RESP_HOME_TARGET } from './respiratoryParts'
 import { cn } from '@/lib/utils'
@@ -159,7 +159,7 @@ export function AnatomyViewer({
     })
   }
 
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
   const presetItems: { key: ViewPreset; label: string }[] = [
     { key: 'anterior', label: t('anatomy.preset.anterior') },
     { key: 'posterior', label: t('anatomy.preset.posterior') },
@@ -265,7 +265,9 @@ export function AnatomyViewer({
                     active ? 'bg-primary' : 'bg-white/40'
                   )}
                 />
-                {getStructure(def.structureId)?.nameFr ?? def.structureId}
+                {getStructure(def.structureId)
+                  ? getStructureName(getStructure(def.structureId)!, language)
+                  : def.structureId}
               </div>
             )
           })}

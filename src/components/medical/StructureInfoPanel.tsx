@@ -4,6 +4,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { useStructureContent } from '@/features/anatomy/useStructureContent'
 import type { AnatomyStructure } from '@/data/types'
+import { getStructureName } from '@/data/anatomy'
 import { useLanguage } from '@/context/LanguageContext'
 
 /**
@@ -15,7 +16,7 @@ import { useLanguage } from '@/context/LanguageContext'
  * panel says so explicitly instead of inventing one.
  */
 export function StructureInfoPanel({ structure }: { structure: AnatomyStructure | null }) {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
   const content = useStructureContent(structure)
 
   if (!structure) {
@@ -45,13 +46,8 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
           {content.loading && <Loader2 className="h-3.5 w-3.5 animate-spin text-faint" />}
         </div>
         <h3 className="mt-3 font-serif text-2xl font-bold tracking-tight text-foreground">
-          {structure.nameFr}
+          {getStructureName(structure, language)}
         </h3>
-        {structure.nameEn && (
-          <p className="mt-0.5 text-sm font-medium uppercase tracking-wider text-faint">
-            {structure.nameEn}
-          </p>
-        )}
       </div>
 
       <div className="space-y-6 p-5">
@@ -99,7 +95,7 @@ export function StructureInfoPanel({ structure }: { structure: AnatomyStructure 
                 <figure key={i} className="overflow-hidden rounded-lg border border-border bg-black/40">
                   <img
                     src={img.src}
-                    alt={img.caption || structure.nameFr}
+                    alt={img.caption || getStructureName(structure, language)}
                     loading="lazy"
                     className="aspect-square w-full object-cover"
                   />

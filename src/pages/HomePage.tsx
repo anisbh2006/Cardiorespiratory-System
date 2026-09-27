@@ -7,8 +7,8 @@ import { SiInstagram, SiTiktok } from 'react-icons/si'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import { Skeleton } from '@/components/ui/skeleton'
-import { lectureeMeta, disciplines, countLessons, getDiscipline } from '@/data/disciplines'
-import { lessonRoute } from '@/data/contentLoader'
+import { lectureeMeta, disciplines, countLessons, getDiscipline, getDisciplineTagline, getDisciplineTitle } from '@/data/disciplines'
+import { getChapterTitle, lessonRoute } from '@/data/contentLoader'
 import { getDisciplineIcon } from '@/data/icons'
 import { useStudy } from '@/features/study/StudyContext'
 import { useCourseProgress, useDisciplineProgress } from '@/features/study/useProgress'
@@ -25,7 +25,7 @@ const socialLinks = [
 ]
 
 function DisciplineCard({ index, slug }: { index: number; slug: string }) {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
   const discipline = disciplines[index]
   const progress = useDisciplineProgress(discipline)
   const Icon = getDisciplineIcon(discipline.icon)
@@ -52,21 +52,20 @@ function DisciplineCard({ index, slug }: { index: number; slug: string }) {
         </div>
 
         <h3 className="mt-4 font-serif text-lg font-semibold tracking-tight text-foreground">
-          {discipline.titleFr}
+          {getDisciplineTitle(discipline, language)}
         </h3>
-        <p className="text-xs font-medium uppercase tracking-wider text-faint">
-          {discipline.titleEn}
+        <p className="mt-3 flex-1 text-sm leading-relaxed text-muted">
+          {getDisciplineTagline(discipline, language)}
         </p>
-        <p className="mt-3 flex-1 text-sm leading-relaxed text-muted">{discipline.tagline}</p>
 
         <div className="mt-5 space-y-2">
           <div className="flex items-center justify-between text-xs text-muted">
             <span className="flex items-center gap-1.5">
               <Layers className="h-3 w-3 text-faint" />
-              {discipline.chapters.length} chapitre{discipline.chapters.length > 1 ? 's' : ''}
+              {t('common.chapterCount', { count: discipline.chapters.length })}
               <span className="text-faint">·</span>
               <BookOpen className="h-3 w-3 text-faint" />
-              {lessons} lesson{lessons > 1 ? 's' : ''}
+              {t('common.lessonCount', { count: lessons })}
             </span>
             <span className="font-mono text-primary">{progress}%</span>
           </div>
@@ -88,14 +87,15 @@ function DisciplineCard({ index, slug }: { index: number; slug: string }) {
  * progress. Purely derived from locally-stored study state — no content invented.
  */
 function ResumeCard() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
   const { recentlyViewed } = useStudy()
   const lecturee = useCourseProgress()
   if (recentlyViewed.length === 0) return null
 
   const last = recentlyViewed[0]
   const to = lessonRoute(last.lessonId, last.disciplineSlug) ?? `/discipline/${last.disciplineSlug}`
-  const disciplineTitle = getDiscipline(last.disciplineSlug)?.titleFr
+  const discipline = getDiscipline(last.disciplineSlug)
+  const disciplineTitle = discipline ? getDisciplineTitle(discipline, language) : undefined
 
   return (
     <motion.div
@@ -116,7 +116,7 @@ function ResumeCard() {
             <Clock className="h-3 w-3" /> {t('home.resumeStudying')}
           </span>
           <span className="mt-1 block truncate text-sm font-medium text-foreground">
-            {last.title}
+            {getChapterTitle(last.lessonId, language)}
           </span>
           {disciplineTitle && (
             <span className="block truncate text-[11px] text-muted">{disciplineTitle}</span>
@@ -134,6 +134,7 @@ function ResumeCard() {
 
 export default function HomePage() {
   const { t } = useLanguage()
+  const headlineLines = t('home.headline').split('\n')
 
   return (
     <div className="pt-14">
@@ -156,12 +157,10 @@ export default function HomePage() {
               {lectureeMeta.code}
             </div>
 
-            <h1 className="mt-6 font-serif text-5xl font-bold leading-[1.02] tracking-tight text-gradient sm:text-6xl xl:text-7xl">
-              CARDIO
-              <br />
-              RESPIRATORY
-              <br />
-              <span className="text-gradient-red">SYSTEM</span>
+            <h1 className="mt-6 whitespace-pre-line font-serif text-5xl font-bold leading-[1.02] tracking-tight text-gradient sm:text-6xl xl:text-7xl">
+              {headlineLines.slice(0, -1).join('\n')}
+              {'\n'}
+              <span className="text-gradient-red">{headlineLines[headlineLines.length - 1]}</span>
             </h1>
 
             <p className="mt-6 max-w-md text-base leading-relaxed text-muted">
@@ -246,10 +245,10 @@ export default function HomePage() {
         <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-12 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-primary">
-              Find me elsewhere
+              {t('home.socialEyebrow')}
             </span>
             <h2 className="mt-2 font-serif text-2xl font-semibold text-foreground">
-              Let’s connect
+              {t('home.socialTitle')}
             </h2>
           </div>
           <div className="flex flex-wrap gap-3">

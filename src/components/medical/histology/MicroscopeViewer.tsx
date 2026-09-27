@@ -13,6 +13,7 @@ import {
 import { cn } from '@/lib/utils'
 import { AnnotationLayer } from './AnnotationLayer'
 import type { HistologySlide } from './types'
+import { useLanguage } from '@/context/LanguageContext'
 
 const MIN_ZOOM = 1
 const MAX_ZOOM = 12
@@ -40,6 +41,7 @@ interface Vec {
  * the source data are overlaid and track the transform.
  */
 export function MicroscopeViewer({ slide, className, toolbarExtra }: MicroscopeViewerProps) {
+  const { t: translate } = useLanguage()
   const stageRef = React.useRef<HTMLDivElement>(null)
 
   const [box, setBox] = React.useState({ w: 0, h: 0 })
@@ -234,42 +236,42 @@ export function MicroscopeViewer({ slide, className, toolbarExtra }: MicroscopeV
             <div className="truncate text-sm font-medium text-foreground">{slide.title}</div>
             <div className="flex items-center gap-2 text-[10px] uppercase tracking-wider text-faint">
               {slide.stain && <span className="text-info">{slide.stain}</span>}
-              {slide.page != null && <span>diapo {slide.page}</span>}
+              {slide.page != null && <span>{translate('histology.slideLabel')} {slide.page}</span>}
             </div>
           </div>
         </div>
 
         <div className="flex shrink-0 items-center gap-0.5">
-          <ToolButton onClick={() => zoomAt(zoom / 1.4, { x: 0, y: 0 })} title="Zoom out (−)">
+          <ToolButton onClick={() => zoomAt(zoom / 1.4, { x: 0, y: 0 })} title={translate('histology.tools.zoomOut')}>
             <Minus className="h-3.5 w-3.5" />
           </ToolButton>
           <button
             type="button"
             onClick={reset}
-            title="Fit to screen"
+            title={translate('histology.tools.fit')}
             className="w-14 rounded-md py-1 text-center font-mono text-[11px] text-muted transition-colors hover:bg-elevated hover:text-foreground cursor-pointer"
           >
             {zoomPct}%
           </button>
-          <ToolButton onClick={() => zoomAt(zoom * 1.4, { x: 0, y: 0 })} title="Zoomer (+)">
+          <ToolButton onClick={() => zoomAt(zoom * 1.4, { x: 0, y: 0 })} title={translate('histology.tools.zoomIn')}>
             <Plus className="h-3.5 w-3.5" />
           </ToolButton>
           <span className="mx-1 h-4 w-px bg-border" />
-          <ToolButton onClick={actualPixels} title="Actual pixels (1:1)">
+          <ToolButton onClick={actualPixels} title={translate('histology.tools.actualSize')}>
             <Scan className="h-3.5 w-3.5" />
           </ToolButton>
-          <ToolButton onClick={reset} title="Reset (0)">
+          <ToolButton onClick={reset} title={translate('histology.tools.reset')}>
             <RotateCcw className="h-3.5 w-3.5" />
           </ToolButton>
           {annotations.length > 0 && (
-            <ToolButton onClick={() => setShowLabels((v) => !v)} title="Annotations" active={showLabels}>
+            <ToolButton onClick={() => setShowLabels((v) => !v)} title={translate('histology.tools.annotations')} active={showLabels}>
               <Crosshair className="h-3.5 w-3.5" />
             </ToolButton>
           )}
-          <ToolButton onClick={() => setShowReticle((v) => !v)} title="Reticle" active={showReticle}>
+          <ToolButton onClick={() => setShowReticle((v) => !v)} title={translate('histology.tools.reticle')} active={showReticle}>
             <Crosshair className="h-3.5 w-3.5" />
           </ToolButton>
-          <ToolButton onClick={toggleFullscreen} title="Fullscreen (F)">
+          <ToolButton onClick={toggleFullscreen} title={translate('histology.tools.fullscreen')}>
             {isFullscreen ? <Minimize2 className="h-3.5 w-3.5" /> : <Maximize2 className="h-3.5 w-3.5" />}
           </ToolButton>
         </div>
@@ -368,13 +370,13 @@ export function MicroscopeViewer({ slide, className, toolbarExtra }: MicroscopeV
         {error && (
           <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 text-faint">
             <ImageOff className="h-6 w-6" />
-            <span className="text-xs">Image indisponible</span>
+            <span className="text-xs">{translate('histology.imageUnavailable')}</span>
           </div>
         )}
 
         {/* zoom badge */}
         <div className="pointer-events-none absolute bottom-3 left-3 rounded-md border border-border bg-black/60 px-2 py-1 font-mono text-[10px] text-muted backdrop-blur">
-          {zoomPct}% · ×{scale.toFixed(2)} écran
+          {zoomPct}% · ×{scale.toFixed(2)} {translate('histology.screen')}
         </div>
         {natural.w > 0 && (
           <div className="pointer-events-none absolute bottom-3 right-3 rounded-md border border-border bg-black/60 px-2 py-1 font-mono text-[10px] text-muted backdrop-blur">

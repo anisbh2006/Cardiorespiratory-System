@@ -5,6 +5,7 @@ import { usePhysioClock } from '../usePhysioClock'
 import { buildWavePath, mapY, sampleWave, type WavePoint } from '../waveform'
 import * as V from '../data/ventilation'
 import { cn } from '@/lib/utils'
+import { useLanguage } from '@/context/LanguageContext'
 
 const WX0 = 372
 const WX1 = 706
@@ -32,6 +33,7 @@ const TRACKS: Track[] = [
 const clamp = (v: number, a: number, b: number) => Math.min(b, Math.max(a, v))
 
 export function VentilationViz() {
+  const { t } = useLanguage()
   const [forced, setForced] = React.useState(false)
   const clock = usePhysioClock({ cycleSeconds: V.CYCLE_SECONDS })
   const phase = ((clock.phase % 1) + 1) % 1
@@ -72,27 +74,32 @@ export function VentilationViz() {
 
   return (
     <VizFrame
-      title="Ventilatory mechanics - the respiratory cycle"
-      subtitle="Pressures, volumes et flux aérien ; inspiration active, expiration passive au rest"
+      title={t('physiology.visualizations.ventilation.title')}
+      subtitle={t('physiology.visualizations.ventilation.description')}
       icon={<Wind className="h-4 w-4" />}
       system="respiratory"
       clock={clock}
       cycleSeconds={V.CYCLE_SECONDS}
-      readout={`t = ${(phase * V.CYCLE_SECONDS).toFixed(2)} s · ${inspiring ? 'INSPIRATION' : 'EXPIRATION'} · Palv−Patm = ${palv >= 0 ? '+' : ''}${palv.toFixed(1)} mmHg`}
+      readout={`t = ${(phase * V.CYCLE_SECONDS).toFixed(2)} s · ${inspiring ? t('physiology.chart.inspiration').toUpperCase() : t('physiology.chart.expiration').toUpperCase()} · Palv−Patm = ${palv >= 0 ? '+' : ''}${palv.toFixed(1)} mmHg`}
       marks={[
-        { at: 0, label: 'start of inspiration' },
-        { at: V.INSPIRATION_END, label: 'fin insp.' },
+        { at: 0, label: t('physiology.chart.inspirationStart') },
+        { at: V.INSPIRATION_END, label: t('physiology.chart.inspirationEnd') },
       ]}
-      legend={TRACKS.map((t) => ({ color: t.color, label: `${t.label} (${t.unit})` }))}
+      legend={TRACKS.map((track) => ({
+        color: track.color,
+        label: `${track.id === 'flow' ? t('physiology.chart.airflow') : track.label} (${track.unit})`,
+      }))}
       sources={V.SOURCES}
       lesson={V.LESSON}
-      schematicNote="Animated diagram : les formes des courbes Palv et flow sont dessinées d’après la séquence the lesson (leur amplitude numérique n’est pas donnée ; seul leur signe et la règle « flux jusqu’à Palv = Patm » proviennent the lesson). Ppl (−5 → −8 cmH2O), volumes (VT 500 ml, CRF 2400 ml) et pressures (Patm 760, Ptp 4 mmHg) sont les valeurs citées. La répartition TI/TE est schématique."
+      schematicNote={t('physiology.schematicNote')}
       aside={
         <>
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Phase actuelle</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
+              {t('physiology.chart.currentPhase')}
+            </div>
             <div className={cn('mt-1 text-sm font-semibold', inspiring ? 'text-success' : 'text-info')}>
-              {inspiring ? 'Inspiration' : 'Expiration'}
+              {inspiring ? t('physiology.chart.inspiration') : t('physiology.chart.expiration')}
               <span className="ml-1.5 text-[11px] font-normal text-faint">
                 {inspiring ? '(active)' : forced ? '(active)' : '(passive)'}
               </span>
@@ -109,7 +116,7 @@ export function VentilationViz() {
               ))}
             </div>
             <div className="mt-2 rounded-md border border-border bg-surface/60 px-2 py-1.5 text-[11px]">
-              <span className="text-muted">Flow rule : </span>
+              <span className="text-muted">{t('physiology.chart.flowRule')}: </span>
               <span className="font-mono text-foreground">
                 {Math.abs(palv) < 0.15 ? 'Palv = Patm → flux nul' : palv < 0 ? 'Palv < Patm → l’air entre' : 'Palv > Patm → l’air sort'}
               </span>
@@ -117,7 +124,9 @@ export function VentilationViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Pressures en direct</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
+              {t('physiology.chart.livePressures')}
+            </div>
             <dl className="mt-2 grid grid-cols-2 gap-2 text-[11px]">
               <div className="rounded-md bg-surface/70 p-2">
                 <dt className="text-faint">Patm</dt>
@@ -146,7 +155,9 @@ export function VentilationViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs the lesson</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
+              {t('physiology.chart.courseValues')}
+            </div>
             <dl className="mt-2 space-y-1.5">
               {V.KEY_FACTS.map((f) => (
                 <div key={f.label} className="flex items-baseline justify-between gap-2 text-[11px]">
@@ -182,7 +193,7 @@ export function VentilationViz() {
         ))}
       </div>
 
-      <svg viewBox="0 0 720 320" className="h-auto w-full select-none" role="img" aria-label="Ventilatory mechanics animée">
+      <svg viewBox="0 0 720 320" className="h-auto w-full select-none" role="img" aria-label={t('physiology.visualizations.ventilation.aria')}>
         <defs>
           <marker id="vent-arrow" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto">
             <path d="M0,0 L7,3.5 L0,7 Z" fill="#f4f4f2" />
@@ -212,7 +223,7 @@ export function VentilationViz() {
               opacity={0.9}
             />
           )}
-          <text x={186} y={48} fill="#8b8b96" fontSize={9}>{flow > 0.12 ? 'air entrant' : flow < -0.12 ? 'air sortant' : 'flux nul'}</text>
+          <text x={186} y={48} fill="#8b8b96" fontSize={9}>{flow > 0.12 ? t('physiology.chart.airEntering') : flow < -0.12 ? t('physiology.chart.airLeaving') : t('physiology.chart.noFlow')}</text>
 
           {/* accessory neck muscles (forced inspiration) */}
           {forced && inspiring && (
@@ -286,8 +297,8 @@ export function VentilationViz() {
           {/* inspiration / expiration bands */}
           <rect x={WX0} y={36} width={XP(V.INSPIRATION_END) - WX0} height={252} fill="#34d399" opacity={0.06} />
           <rect x={XP(V.INSPIRATION_END)} y={36} width={WX1 - XP(V.INSPIRATION_END)} height={252} fill="#60a5fa" opacity={0.05} />
-          <text x={WX0 + 5} y={32} fill="#34d399" fontSize={9} fontWeight={600} opacity={0.85}>INSPIRATION</text>
-          <text x={XP(V.INSPIRATION_END) + 5} y={32} fill="#60a5fa" fontSize={9} fontWeight={600} opacity={0.85}>EXPIRATION</text>
+          <text x={WX0 + 5} y={32} fill="#34d399" fontSize={9} fontWeight={600} opacity={0.85}>{t('physiology.chart.inspiration').toUpperCase()}</text>
+          <text x={XP(V.INSPIRATION_END) + 5} y={32} fill="#60a5fa" fontSize={9} fontWeight={600} opacity={0.85}>{t('physiology.chart.expiration').toUpperCase()}</text>
 
           {TRACKS.map((t) => {
             const path = paths.find((p) => p.id === t.id)!
@@ -328,7 +339,7 @@ export function VentilationViz() {
       {/* event sequence */}
       <div className="mt-2">
         <div className="mb-1 font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
-          Séquence — {inspiring ? 'inspiration (p. 19)' : 'expiration (p. 21)'}
+          {t('physiology.chart.sequence')} — {inspiring ? `${t('physiology.chart.inspiration')} (p. 19)` : `${t('physiology.chart.expiration')} (p. 21)`}
         </div>
         <ol className="flex flex-wrap gap-1.5">
           {(inspiring ? V.INSPIRATION_SEQUENCE : V.EXPIRATION_SEQUENCE).map((s, i) => (

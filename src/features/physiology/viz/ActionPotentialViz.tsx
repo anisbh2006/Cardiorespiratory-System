@@ -5,6 +5,7 @@ import { usePhysioClock } from '../usePhysioClock'
 import { buildWavePath, mapY, sampleWave, type WavePoint } from '../waveform'
 import * as AP from '../data/actionPotential'
 import { cn } from '@/lib/utils'
+import { useLanguage } from '@/context/LanguageContext'
 
 const X0 = 66
 const X1 = 690
@@ -24,6 +25,7 @@ const PHASE_COLORS: Record<string, string> = {
 const clamp = (v: number, a: number, b: number) => Math.min(b, Math.max(a, v))
 
 export function ActionPotentialViz() {
+  const { t } = useLanguage()
   const [kind, setKind] = React.useState<AP.ApKind>('rapid')
   const clock = usePhysioClock({ cycleSeconds: AP.WINDOW_MS / 1000 })
   const phase = clock.phase
@@ -47,8 +49,8 @@ export function ActionPotentialViz() {
 
   return (
     <VizFrame
-      title="Electrical activity — potentiel d'action cardiaque"
-      subtitle="PA rapide (cell ventriculaire) et PA lent (cell nodale), phases et courants ioniques"
+      title={t('physiology.visualizations.electricalActivity.title')}
+      subtitle={t('physiology.visualizations.electricalActivity.description')}
       icon={<Zap className="h-4 w-4" />}
       system="cardiovascular"
       clock={clock}
@@ -65,7 +67,9 @@ export function ActionPotentialViz() {
       aside={
         <>
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Phase actuelle</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
+              {t('physiology.chart.currentPhase')}
+            </div>
             <div className="mt-1 text-sm font-semibold text-foreground">{active.label}</div>
             <div
               className="mt-1 inline-flex items-center gap-1.5 rounded-full px-2 py-0.5 font-mono text-[10px]"
@@ -78,7 +82,7 @@ export function ActionPotentialViz() {
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
             <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
-              Distribution ionique (p. 14)
+              {t('physiology.chart.ionicDistribution')} (p. 14)
             </div>
             <table className="mt-2 w-full text-[11px]">
               <thead>
@@ -104,7 +108,9 @@ export function ActionPotentialViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs the lesson</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
+              {t('physiology.chart.courseValues')}
+            </div>
             <dl className="mt-2 space-y-1.5">
               {AP.KEY_FACTS.map((f) => (
                 <div key={f.label} className="flex items-baseline justify-between gap-2 text-[11px]">
@@ -143,7 +149,7 @@ export function ActionPotentialViz() {
         ))}
       </div>
 
-      <svg viewBox="0 0 720 320" className="h-auto w-full select-none" role="img" aria-label="Animated cardiac action potential">
+            <svg viewBox="0 0 720 320" className="h-auto w-full select-none" role="img" aria-label={t('physiology.visualizations.electricalActivity.aria')}>
         {/* phase bands */}
         {phases.map((ph) => (
           <g key={ph.id}>

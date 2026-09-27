@@ -10,8 +10,8 @@ import { SpirometryViz } from './viz/SpirometryViz'
 
 export interface VizEntry {
   id: string
-  title: string
-  blurb: string
+  titleKey: string
+  blurbKey: string
   system: 'cardiovascular' | 'respiratory'
   icon: ComponentType<{ className?: string }>
   Component: ComponentType
@@ -25,56 +25,56 @@ export interface VizEntry {
 export const VIZ: VizEntry[] = [
   {
     id: 'cardiac-cycle',
-    title: 'The Cardiac Cycle',
-    blurb: 'ECG, pressures, volume, valves et bruits du heart synchronisés sur 0,8 s.',
+    titleKey: 'physiology.visualizations.cardiacCycle.title',
+    blurbKey: 'physiology.visualizations.cardiacCycle.description',
     system: 'cardiovascular',
     icon: HeartPulse,
     Component: CardiacCycleViz,
   },
   {
     id: 'electrical-activity',
-    title: 'Electrical activity',
-    blurb: 'Potentiels d’action rapide et lent, phases, courants ioniques, périodes réfractaires et conduction.',
+    titleKey: 'physiology.visualizations.electricalActivity.title',
+    blurbKey: 'physiology.visualizations.electricalActivity.description',
     system: 'cardiovascular',
     icon: Zap,
     Component: ActionPotentialViz,
   },
   {
     id: 'cardiac-output',
-    title: 'Flow cardiaque',
-    blurb: 'DC = HR × VE : faites varier fréquence et précharge, relation de Frank-Starling et réserve cardiaque.',
+    titleKey: 'physiology.visualizations.cardiacOutput.title',
+    blurbKey: 'physiology.visualizations.cardiacOutput.description',
     system: 'cardiovascular',
     icon: Gauge,
     Component: CardiacOutputViz,
   },
   {
     id: 'circulation',
-    title: 'Coronary circulation',
-    blurb: 'Flux coronaire phasique : irrigation du VG bloquée en systole, assurée à 70–80 % en diastole.',
+    titleKey: 'physiology.visualizations.coronary.title',
+    blurbKey: 'physiology.visualizations.coronary.description',
     system: 'cardiovascular',
     icon: HeartHandshake,
     Component: CirculationViz,
   },
   {
     id: 'ventilation',
-    title: 'Ventilation pulmonaire',
-    blurb: 'Ventilatory mechanics : diaphragme, intercostaux, pressures alvéolaire/pleurale et flux sur 4,5 s.',
+    titleKey: 'physiology.visualizations.ventilation.title',
+    blurbKey: 'physiology.visualizations.ventilation.description',
     system: 'respiratory',
     icon: Wind,
     Component: VentilationViz,
   },
   {
     id: 'gas-exchange',
-    title: 'Échanges gazeux',
-    blurb: 'Diffusion O₂/CO₂ à travers la membrane alvéolo-capillaire et équilibration en 0,3–0,4 s (loi de Fick).',
+    titleKey: 'physiology.visualizations.gasExchange.title',
+    blurbKey: 'physiology.visualizations.gasExchange.description',
     system: 'respiratory',
     icon: Droplets,
     Component: GasExchangeViz,
   },
   {
     id: 'spirometry',
-    title: 'Spirometry · volumes',
-    blurb: 'Volumes et lung capacities, ventilation quiet vs forced, VEMS/CVF (Tiffeneau).',
+    titleKey: 'physiology.visualizations.spirometry.title',
+    blurbKey: 'physiology.visualizations.spirometry.description',
     system: 'respiratory',
     icon: RefreshCw,
     Component: SpirometryViz,

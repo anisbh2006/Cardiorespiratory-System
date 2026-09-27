@@ -1,5 +1,6 @@
 import type { Chapter, CourseMeta, Discipline, Lesson } from './types'
 import { manifest } from './contentLoader'
+import type { Language } from '@/i18n'
 
 export const lectureeMeta: CourseMeta = {
   code: 'UEI / VEI 01',
@@ -52,64 +53,72 @@ export const disciplines: Discipline[] = [
   {
     id: 'anatomie-cardiovasculaire',
     slug: 'anatomie-cardiovasculaire',
-    titleFr: 'Cardiovascular Anatomy',
+    titleFr: 'Anatomie cardiovasculaire',
     titleEn: 'Cardiovascular Anatomy',
+    taglineFr: 'Morphologie et structure du cœur et des grands vaisseaux.',
+    taglineEn: 'Morphology and structure of the heart and great vessels.',
     icon: 'Heart',
-    tagline:
-      "Morphologie et structure du heart et des grands vaisseaux — à partir du contenu the lesson fourni.",
     chapters: chaptersFor('anatomie-cardiovasculaire'),
   },
   {
     id: 'anatomie-respiratoire',
     slug: 'anatomie-respiratoire',
-    titleFr: 'Respiratory Anatomy',
+    titleFr: 'Anatomie respiratoire',
     titleEn: 'Respiratory Anatomy',
+    taglineFr: 'Anatomie des poumons, de la trachée, des bronches et de la cavité thoracique.',
+    taglineEn: 'Anatomy of the lungs, trachea, bronchi, and thoracic cavity.',
     icon: 'Wind',
-    tagline:
-      "Lungs, trachea, bronchi, and thoracic cavity — à partir du contenu the lesson fourni.",
     chapters: chaptersFor('anatomie-respiratoire'),
   },
   {
     id: 'biophysique',
     slug: 'biophysique',
-    titleFr: 'Biophysics',
+    titleFr: 'Biophysique',
     titleEn: 'Biophysics',
+    taglineFr: 'Principes physiques appliqués aux systèmes cardiorespiratoires.',
+    taglineEn: 'Physical principles applied to the cardiorespiratory systems.',
     icon: 'Atom',
-    tagline:
-      "Physical principles applied to cardiorespiratory systems — lesson equations and diagrams.",
     chapters: chaptersFor('biophysique'),
   },
   {
     id: 'histologie',
     slug: 'histologie',
-    titleFr: 'Histology',
+    titleFr: 'Histologie',
     titleEn: 'Histology',
+    taglineFr: 'Étude microscopique des tissus cardiorespiratoires à partir des images fournies.',
+    taglineEn: 'Microscopic study of cardiorespiratory tissues using the supplied images.',
     icon: 'Microscope',
-    tagline:
-      "Microscopic study of cardiorespiratory tissuees, with supplied histology images.",
     chapters: chaptersFor('histologie'),
   },
   {
     id: 'physiologie-cardiovasculaire',
     slug: 'physiologie-cardiovasculaire',
-    titleFr: 'Cardiovascular Physiology',
+    titleFr: 'Physiologie cardiovasculaire',
     titleEn: 'Cardiovascular Physiology',
+    taglineFr: 'Cycle cardiaque, hémodynamique et activité électrique.',
+    taglineEn: 'Cardiac cycle, hemodynamics, and electrical activity.',
     icon: 'Activity',
-    tagline:
-      "Cycle cardiaque, hémodynamique et electrical activity — visualisations basées sur le lecture.",
     chapters: chaptersFor('physiologie-cardiovasculaire'),
   },
   {
     id: 'physiologie-respiratoire',
     slug: 'physiologie-respiratoire',
-    titleFr: 'Respiratory Physiology',
+    titleFr: 'Physiologie respiratoire',
     titleEn: 'Respiratory Physiology',
+    taglineFr: 'Ventilation, échanges gazeux et mécanique pulmonaire.',
+    taglineEn: 'Ventilation, gas exchange, and pulmonary mechanics.',
     icon: 'AirVent',
-    tagline:
-      "Ventilation, échanges gazeux et mécanique pulmonaire — visualisations basées sur le lecture.",
     chapters: chaptersFor('physiologie-respiratoire'),
   },
 ]
+
+export function getDisciplineTitle(discipline: Discipline, language: Language): string {
+  return language === 'fr' ? discipline.titleFr : discipline.titleEn
+}
+
+export function getDisciplineTagline(discipline: Discipline, language: Language): string {
+  return language === 'fr' ? discipline.taglineFr : discipline.taglineEn
+}
 
 export function getDiscipline(slug: string): Discipline | undefined {
   return disciplines.find((d) => d.slug === slug)

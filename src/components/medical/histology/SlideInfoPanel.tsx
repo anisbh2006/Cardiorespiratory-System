@@ -4,6 +4,8 @@ import { BookOpen, FlaskConical, Info, Layers, Tag } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { lessonPath } from '@/features/physiology/provenance'
 import type { HistologySlide } from './types'
+import { useLanguage } from '@/context/LanguageContext'
+import { getChapterTitle } from '@/data/contentLoader'
 
 interface SlideInfoPanelProps {
   slide: HistologySlide
@@ -40,17 +42,19 @@ function Section({
  * a description. The footer links to the full chapter lesson.
  */
 export function SlideInfoPanel({ slide, activeLabel, onActiveLabelChange }: SlideInfoPanelProps) {
+  const { t, language } = useLanguage()
   const labels = slide.labels ?? []
   const text = slide.text ?? []
   const shared = (slide.pageImageCount ?? 1) > 1
   const hasContent = labels.length > 0 || text.length > 0 || !!slide.slideTitle
+  const chapterTitle = getChapterTitle(slide.chapterId, language)
 
   return (
     <aside className="flex h-full min-h-0 flex-col overflow-hidden rounded-xl border border-border bg-surface">
       {/* Header */}
       <div className="border-b border-border px-4 py-3">
         <div className="flex flex-wrap items-center gap-1.5">
-          <Badge variant="default">{slide.chapterTitle}</Badge>
+          <Badge variant="default">{chapterTitle}</Badge>
           {slide.stain && <Badge variant="secondary">{slide.stain}</Badge>}
         </div>
         {slide.slideTitle && (
@@ -59,7 +63,7 @@ export function SlideInfoPanel({ slide, activeLabel, onActiveLabelChange }: Slid
           </h3>
         )}
         <div className="mt-1 flex items-center gap-2 font-mono text-[10px] uppercase tracking-wider text-faint">
-          {slide.page != null && <span>Diapositive {slide.page}</span>}
+          {slide.page != null && <span>{t('histology.slideLabel')} {slide.page}</span>}
           <span>·</span>
           <span>{slide.id}</span>
         </div>
@@ -67,18 +71,18 @@ export function SlideInfoPanel({ slide, activeLabel, onActiveLabelChange }: Slid
 
       <div className="min-h-0 flex-1 overflow-y-auto">
         {/* Caption */}
-        {slide.caption && slide.caption !== slide.chapterTitle && (
-          <Section icon={<Info className="h-3 w-3" />} title="Legend">
+        {slide.caption && slide.caption !== chapterTitle && (
+          <Section icon={<Info className="h-3 w-3" />} title={t('histology.panel.legend')}>
             <p className="text-[13px] leading-relaxed text-muted">{slide.caption}</p>
           </Section>
         )}
 
         {/* Structure identification */}
         {labels.length > 0 && (
-          <Section icon={<Tag className="h-3 w-3" />} title="Identified structures">
+          <Section icon={<Tag className="h-3 w-3" />} title={t('histology.panel.structures')}>
             {shared && (
               <p className="mb-2 text-[11px] italic text-faint">
-                Slide terms (shared across {slide.pageImageCount} images).
+                {t('histology.panel.sharedTerms', { count: slide.pageImageCount ?? 1 })}
               </p>
             )}
             <ul className="flex flex-wrap gap-1.5">
@@ -106,7 +110,7 @@ export function SlideInfoPanel({ slide, activeLabel, onActiveLabelChange }: Slid
 
         {/* Explanation */}
         {text.length > 0 && (
-          <Section icon={<Layers className="h-3 w-3" />} title="Texte de la diapositive">
+          <Section icon={<Layers className="h-3 w-3" />} title={t('histology.panel.slideText')}>
             <div className="space-y-1.5">
               {text.map((p, i) => (
                 <p key={i} className="text-[12.5px] leading-relaxed text-muted">
@@ -119,20 +123,19 @@ export function SlideInfoPanel({ slide, activeLabel, onActiveLabelChange }: Slid
 
         {/* Honest empty state */}
         {!hasContent && (
-          <Section icon={<Info className="h-3 w-3" />} title="About">
+          <Section icon={<Info className="h-3 w-3" />} title={t('histology.panel.about')}>
             <p className="text-[12.5px] leading-relaxed text-faint">
-              This slide provides no caption or text annotations in the source material
-              the lesson. No description is invented; only the source image is displayed.
+              {t('histology.panel.noAnnotations')}
             </p>
           </Section>
         )}
 
         {/* Provenance note */}
-        <Section icon={<FlaskConical className="h-3 w-3" />} title="Provenance">
+        <Section icon={<FlaskConical className="h-3 w-3" />} title={t('histology.panel.provenance')}>
           <p className="text-[11.5px] leading-relaxed text-faint">
-            Image, caption, and terms come from slide {slide.page ?? '—'} du chapitre «{' '}
-            {slide.chapterTitle} ». Les légendes ne sont pas restitionnées sur l'image faute de
-            coordonnées fournies ; elles sont listées ici telles qu'elles figurent au lecture.
+            {t('histology.panel.provenanceText', {
+              page: slide.page ?? '—',
+            })} {'« '}{chapterTitle}{' »'}
           </p>
         </Section>
       </div>
@@ -144,7 +147,7 @@ export function SlideInfoPanel({ slide, activeLabel, onActiveLabelChange }: Slid
           className="flex items-center justify-center gap-2 rounded-lg border border-primary/40 bg-primary/10 px-3 py-2 text-xs font-medium text-primary transition-colors hover:bg-primary/20"
         >
           <BookOpen className="h-3.5 w-3.5" />
-          Ouvrir la leçon — {slide.chapterTitle}
+          {t('histology.panel.openLesson')} — {chapterTitle}
         </Link>
       </div>
     </aside>

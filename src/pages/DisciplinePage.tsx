@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import { AwaitingContent } from '@/components/medical/AwaitingContent'
-import { getDiscipline, countLessons } from '@/data/disciplines'
+import { getDiscipline, countLessons, getDisciplineTagline, getDisciplineTitle } from '@/data/disciplines'
 import { getChapterTitle } from '@/data/contentLoader'
 import { getDisciplineIcon } from '@/data/icons'
 import { useDisciplineProgress } from '@/features/study/useProgress'
@@ -13,12 +13,12 @@ import { useStudy } from '@/features/study/StudyContext'
 import { useLanguage } from '@/context/LanguageContext'
 
 const anatomyCta: Record<string, { to: string; label: string }> = {
-  'anatomie-cardiovasculaire': { to: '/anatomy?system=cardiovascular', label: 'Open the heart in 3D' },
-  'anatomie-respiratoire': { to: '/anatomy?system=respiratory', label: 'Open the respiratory system in 3D' },
-  histologie: { to: '/histologie', label: 'Ouvrir le visualiseur d\'histologie' },
-  biophysique: { to: '/biophysique', label: 'Ouvrir l\'atelier de biophysique' },
-  'physiologie-cardiovasculaire': { to: '/physiologie?system=cardiovascular', label: 'Open visualizations' },
-  'physiologie-respiratoire': { to: '/physiologie?system=respiratory', label: 'Open visualizations' },
+  'anatomie-cardiovasculaire': { to: '/anatomy?system=cardiovascular', label: 'discipline.open3DHeart' },
+  'anatomie-respiratoire': { to: '/anatomy?system=respiratory', label: 'discipline.open3DResp' },
+  histologie: { to: '/histologie', label: 'discipline.openHistology' },
+  biophysique: { to: '/biophysique', label: 'discipline.openBiophysics' },
+  'physiologie-cardiovasculaire': { to: '/physiologie?system=cardiovascular', label: 'discipline.openViz' },
+  'physiologie-respiratoire': { to: '/physiologie?system=respiratory', label: 'discipline.openViz' },
 }
 
 export default function DisciplinePage() {
@@ -59,14 +59,13 @@ export default function DisciplinePage() {
               </span>
               <div>
                 <h1 className="font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-                  {discipline.titleFr}
+                  {getDisciplineTitle(discipline, language)}
                 </h1>
-                <p className="text-sm font-medium uppercase tracking-wider text-faint">
-                  {discipline.titleEn}
-                </p>
               </div>
             </div>
-            <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted">{discipline.tagline}</p>
+            <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted">
+              {getDisciplineTagline(discipline, language)}
+            </p>
 
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <Badge variant="secondary">
@@ -77,7 +76,7 @@ export default function DisciplinePage() {
               {cta && (
                 <Link to={cta.to}>
                   <Button variant="outline" size="sm" className="gap-1.5">
-                    <Move3d className="h-3.5 w-3.5" /> {cta.label}
+                    <Move3d className="h-3.5 w-3.5" /> {t(cta.label)}
                   </Button>
                 </Link>
               )}
@@ -95,7 +94,7 @@ export default function DisciplinePage() {
 
         {discipline.chapters.length === 0 ? (
           <AwaitingContent
-            title={t('discipline.awaiting', { title: discipline.titleFr })}
+            title={t('discipline.awaiting', { title: getDisciplineTitle(discipline, language) })}
             description={t('discipline.awaitingDesc')}
           />
         ) : (
@@ -118,11 +117,13 @@ export default function DisciplinePage() {
                     </h3>
                   </div>
                   {chapter.status === 'awaiting-source' && (
-                    <Badge variant="secondary">En attente</Badge>
+                    <Badge variant="secondary">{t('discipline.pending')}</Badge>
                   )}
                 </div>
-                {chapter.summary && (
-                  <p className="mt-2 text-sm text-muted">{chapter.summary}</p>
+                {(chapter.summary || chapter.kind === 'td') && (
+                  <p className="mt-2 text-sm text-muted">
+                    {chapter.kind === 'td' ? t('common.tutorialSession') : chapter.summary}
+                  </p>
                 )}
                 <div className="mt-4 space-y-1.5">
                   {chapter.lessons.map((lesson) => {

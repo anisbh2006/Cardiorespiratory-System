@@ -5,6 +5,7 @@ import { usePhysioClock } from '../usePhysioClock'
 import { buildWavePath, mapY, sampleWave, type WavePoint } from '../waveform'
 import * as S from '../data/spirometry'
 import { cn } from '@/lib/utils'
+import { useLanguage } from '@/context/LanguageContext'
 
 /* Stacked volume diagram geometry. */
 const BX0 = 46
@@ -24,6 +25,7 @@ const sxP = (p: number) => SX0 + p * (SX1 - SX0)
 type Mode = 'calm' | 'forced'
 
 export function SpirometryViz() {
+  const { t } = useLanguage()
   const [mode, setMode] = React.useState<Mode>('calm')
   const [freq, setFreq] = React.useState(14)
   const cycleSeconds = mode === 'calm' ? S.CALM_CYCLE : S.FORCED_CYCLE
@@ -51,8 +53,8 @@ export function SpirometryViz() {
 
   return (
     <VizFrame
-      title="Spirometry — volumes et lung capacities"
-      subtitle="Respiration quiet (VT) et manœuvre forced (CV, VEMS, coefficient de Tiffeneau)"
+      title={t('physiology.visualizations.spirometry.title')}
+      subtitle={t('physiology.visualizations.spirometry.description')}
       icon={<Droplets className="h-4 w-4" />}
       system="respiratory"
       clock={clock}
@@ -68,7 +70,7 @@ export function SpirometryViz() {
               <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Ventilation (p. 67–68)</div>
               <dl className="mt-2 space-y-1.5 text-[11px]">
                 <div className="flex items-baseline justify-between">
-                  <dt className="text-muted">Frequency</dt>
+                  <dt className="text-muted">{t('physiology.chart.frequency')}</dt>
                   <dd className="font-mono text-foreground">{freq} cycles/min</dd>
                 </div>
                 <div className="flex items-baseline justify-between">
@@ -91,7 +93,9 @@ export function SpirometryViz() {
             </div>
           ) : (
             <div className="rounded-lg border border-border bg-background/50 p-3">
-              <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Manœuvre forced</div>
+              <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
+                {t('physiology.chart.forcedManeuver')}
+              </div>
               <dl className="mt-2 space-y-1.5 text-[11px]">
                 <div className="flex items-baseline justify-between">
                   <dt className="text-muted">Capacité vitale (CV)</dt>
@@ -106,7 +110,7 @@ export function SpirometryViz() {
                   <dd className="font-mono text-primary">75–80 %</dd>
                 </div>
                 <div className="flex items-baseline justify-between">
-                  <dt className="text-muted">Expiration forced</dt>
+                  <dt className="text-muted">{t('physiology.chart.forcedExpiration')}</dt>
                   <dd className="font-mono text-foreground">≥ 6 s</dd>
                 </div>
               </dl>
@@ -156,8 +160,8 @@ export function SpirometryViz() {
         <div className="flex flex-wrap gap-1.5">
           {(
             [
-              { id: 'calm', label: 'Respiration quiet (VT)' },
-              { id: 'forced', label: 'Manœuvre forced (CV / VEMS)' },
+              { id: 'calm', label: `${t('physiology.chart.calmBreathing')} (VT)` },
+              { id: 'forced', label: `${t('physiology.chart.forcedManeuver')} (CV / VEMS)` },
             ] as const
           ).map((o) => (
             <button
@@ -179,7 +183,7 @@ export function SpirometryViz() {
         </div>
         {mode === 'calm' && (
           <label className="flex items-center gap-2 text-[11px]">
-            <span className="text-muted">Frequency</span>
+            <span className="text-muted">{t('physiology.chart.frequency')}</span>
             <input
               type="range"
               min={S.FREQ_RANGE[0]}
@@ -193,7 +197,7 @@ export function SpirometryViz() {
         )}
       </div>
 
-      <svg viewBox="0 0 720 320" className="h-auto w-full select-none" role="img" aria-label="Volumes et lung capacities">
+      <svg viewBox="0 0 720 320" className="h-auto w-full select-none" role="img" aria-label={t('physiology.visualizations.spirometry.aria')}>
         {/* ---------------- Left: stacked volume diagram ---------------- */}
         <g>
           <text x={20} y={22} fill="#f4f4f2" fontSize={11} fontWeight={600}>Volumes & capacités</text>
@@ -234,7 +238,9 @@ export function SpirometryViz() {
         {/* ---------------- Right: volume–time spirogram ---------------- */}
         <g>
           <text x={SX0} y={26} fill="#f4f4f2" fontSize={11} fontWeight={600}>
-            {mode === 'calm' ? 'Respiration quiet — volume/temps' : 'Manœuvre forced — volume/temps'}
+            {mode === 'calm'
+              ? `${t('physiology.chart.calmBreathing')} — volume/temps`
+              : `${t('physiology.chart.forcedManeuver')} — volume/temps`}
           </text>
 
           {/* reference lines */}
@@ -278,7 +284,9 @@ export function SpirometryViz() {
           <text x={SX0} y={SY1 + 16} fill="#5c5c66" fontSize={8.5} fontFamily="monospace">0</text>
           <text x={SX1} y={SY1 + 16} textAnchor="end" fill="#5c5c66" fontSize={8.5} fontFamily="monospace">{cycleSeconds.toFixed(1)} s</text>
           <text x={(SX0 + SX1) / 2} y={SY1 + 30} textAnchor="middle" fill="#8b8b96" fontSize={9}>
-            {mode === 'calm' ? 'un cycle respiratoire (Ttot)' : 'inspiration max → expiration forced (≥ 6 s)'}
+            {mode === 'calm'
+              ? `${t('physiology.chart.breathingCycle')} (Ttot)`
+              : `${t('physiology.chart.forcedInspiration')} → ${t('physiology.chart.forcedExpiration')} (≥ 6 s)`}
           </text>
         </g>
       </svg>

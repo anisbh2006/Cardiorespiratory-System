@@ -66,7 +66,7 @@ export default function PhysiologyPage() {
                 )}
               >
                 <Icon className="h-3.5 w-3.5" />
-                {v.title}
+                {t(v.titleKey)}
               </button>
             )
           })}
@@ -74,10 +74,10 @@ export default function PhysiologyPage() {
 
         {active ? (
           <React.Fragment key={active.id}>
-            {active.blurb && (
+            {active.blurbKey && (
               <p className="flex items-start gap-2 text-sm text-muted">
                 <PlayCircle className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                {active.blurb}
+                {t(active.blurbKey)}
               </p>
             )}
             <ActiveViz />

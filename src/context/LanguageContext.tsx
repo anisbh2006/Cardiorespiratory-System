@@ -29,6 +29,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   React.useEffect(() => {
     document.documentElement.lang = language
     document.documentElement.dir = 'ltr'
+    document.title = getTranslation(language, 'app.documentTitle')
   }, [language])
 
   return <LanguageContext.Provider value={{ language, setLanguage, t }}>{children}</LanguageContext.Provider>

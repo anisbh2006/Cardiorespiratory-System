@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
 import { ChevronDown, GraduationCap, Heart, Menu, X } from 'lucide-react'
-import { disciplines } from '@/data/disciplines'
+import { disciplines, getDisciplineTitle } from '@/data/disciplines'
 import { getDisciplineIcon } from '@/data/icons'
 import { SearchOverlay } from './SearchOverlay'
 import { cn } from '@/lib/utils'
@@ -29,7 +29,7 @@ const navLinkClass = (isActive: boolean) =>
 function DisciplinesDropdown() {
   const [open, setOpen] = useState(false)
   const location = useLocation()
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
   const isDisciplineRoute = location.pathname.startsWith('/discipline')
 
   return (
@@ -79,8 +79,9 @@ function DisciplinesDropdown() {
                   >
                     <Icon className="h-4 w-4 shrink-0" />
                     <span className="min-w-0">
-                      <span className="block truncate text-sm font-medium">{d.titleFr}</span>
-                      <span className="block truncate text-xs text-faint">{d.titleEn}</span>
+                      <span className="block truncate text-sm font-medium">
+                        {getDisciplineTitle(d, language)}
+                      </span>
                     </span>
                   </Link>
                 )
@@ -96,7 +97,7 @@ function DisciplinesDropdown() {
 export function TopBar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8)
@@ -190,7 +191,7 @@ export function TopBar() {
                   onClick={() => setMobileOpen(false)}
                   className="block rounded-md px-3 py-2 text-sm font-medium text-muted hover:bg-elevated hover:text-foreground"
                 >
-                  {d.titleFr}
+                  {getDisciplineTitle(d, language)}
                 </Link>
               ))}
               {navLinks.map((link) => (

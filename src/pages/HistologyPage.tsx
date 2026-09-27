@@ -8,6 +8,7 @@ import { SlideFilmstrip } from '@/components/medical/histology/SlideFilmstrip'
 import { SLIDES } from '@/components/medical/histology/slides'
 import type { HistologySlide } from '@/components/medical/histology/types'
 import { useLanguage } from '@/context/LanguageContext'
+import { getChapterTitle } from '@/data/contentLoader'
 
 /**
  * Microscopy workbench. Distinct from the text lessons: a dark stage with a
@@ -16,7 +17,7 @@ import { useLanguage } from '@/context/LanguageContext'
  * histology images and their slide text — nothing is generated or fabricated.
  */
 export default function HistologyPage() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
   const [activeId, setActiveId] = React.useState<string>(SLIDES[0]?.id ?? '')
   const [activeLabel, setActiveLabel] = React.useState<string | null>(null)
 
@@ -90,7 +91,7 @@ export default function HistologyPage() {
                 {t('histology.title')}
               </h1>
               <p className="truncate font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
-                {active.chapterTitle}
+                {getChapterTitle(active.chapterId, language)}
               </p>
             </div>
           </div>

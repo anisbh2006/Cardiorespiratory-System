@@ -4,9 +4,11 @@ import { BookOpen, GraduationCap } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { TransportControls } from './TransportControls'
-import { chapterTitle, lessonPath, type LessonRef, type SourceRef } from './provenance'
+import { lessonPath, type LessonRef, type SourceRef } from './provenance'
 import type { PhysioClock } from './usePhysioClock'
 import { cn } from '@/lib/utils'
+import { useLanguage } from '@/context/LanguageContext'
+import { getChapterTitle } from '@/data/contentLoader'
 
 interface VizFrameProps {
   title: string
@@ -47,15 +49,17 @@ export function VizFrame({
   legend,
   sources,
   lesson,
-  schematicNote = 'Animated diagram à but pédagogique : la séquence et les valeurs affichées proviennent the lesson, elles ne sont pas inventées.',
+  schematicNote,
   aside,
   children,
   className,
 }: VizFrameProps) {
+  const { t, language } = useLanguage()
+  const note = schematicNote ?? t('physiology.schematicNote')
   const grouped = React.useMemo(() => {
     const byChapter = new Map<string, { title: string; pages: Set<number> }>()
     for (const s of sources) {
-      const entry = byChapter.get(s.chapterId) ?? { title: chapterTitle(s.chapterId), pages: new Set<number>() }
+      const entry = byChapter.get(s.chapterId) ?? { title: getChapterTitle(s.chapterId, language), pages: new Set<number>() }
       if (s.page != null) entry.pages.add(s.page)
       byChapter.set(s.chapterId, entry)
     }
@@ -64,7 +68,7 @@ export function VizFrame({
       title: e.title,
       pages: [...e.pages].sort((a, b) => a - b),
     }))
-  }, [sources])
+  }, [sources, language])
 
   return (
     <article
@@ -88,7 +92,7 @@ export function VizFrame({
           </div>
         </div>
         <Badge variant="secondary">
-          {system === 'cardiovascular' ? 'Cardiovascular' : 'Respiratory'}
+          {system === 'cardiovascular' ? t('physiology.cardiovascular') : t('physiology.respiratory')}
         </Badge>
       </header>
 
@@ -119,11 +123,11 @@ export function VizFrame({
       </div>
 
       <footer className="space-y-3 border-t border-border bg-elevated/30 px-5 py-4">
-        {schematicNote && <p className="text-[11px] italic leading-relaxed text-faint">{schematicNote}</p>}
+        {note && <p className="text-[11px] italic leading-relaxed text-faint">{note}</p>}
 
         <div className="flex flex-wrap items-center gap-2">
           <span className="flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
-            <BookOpen className="h-3 w-3 text-primary" /> Source the lesson
+            <BookOpen className="h-3 w-3 text-primary" /> {t('physiology.source')}
           </span>
           {grouped.map((g) => (
             <span
@@ -141,7 +145,7 @@ export function VizFrame({
         <Link to={lessonPath(lesson)} className="block">
           <Button variant="outline" size="sm" className="w-full gap-2 sm:w-auto">
             <GraduationCap className="h-3.5 w-3.5" />
-            Ouvrir la leçon — {chapterTitle(lesson.chapterId)}
+            {t('physiology.openLesson')} — {getChapterTitle(lesson.chapterId, language)}
           </Button>
         </Link>
       </footer>

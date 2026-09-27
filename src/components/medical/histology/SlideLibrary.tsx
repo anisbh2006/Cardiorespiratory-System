@@ -4,6 +4,8 @@ import { cn } from '@/lib/utils'
 import { groupByChapter, slideMatches, SLIDES } from './slides'
 import { SlideThumb } from './SlideThumb'
 import type { HistologySlide } from './types'
+import { useLanguage } from '@/context/LanguageContext'
+import { getChapterTitle } from '@/data/contentLoader'
 
 interface SlideLibraryProps {
   activeId: string
@@ -18,6 +20,7 @@ interface SlideLibraryProps {
  * regenerates `histologySlides.json`.
  */
 export function SlideLibrary({ activeId, onSelect, className }: SlideLibraryProps) {
+  const { t, language } = useLanguage()
   const [query, setQuery] = React.useState('')
   const [collapsed, setCollapsed] = React.useState<Record<string, boolean>>({})
 
@@ -33,7 +36,7 @@ export function SlideLibrary({ activeId, onSelect, className }: SlideLibraryProp
           <input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search for a structure or term…"
+            placeholder={t('histology.searchPlaceholder')}
             className="w-full rounded-lg border border-border bg-background py-1.5 pl-8 pr-7 text-xs text-foreground placeholder:text-faint focus:border-primary/50 focus:outline-none"
           />
           {searching && (
@@ -41,14 +44,16 @@ export function SlideLibrary({ activeId, onSelect, className }: SlideLibraryProp
               type="button"
               onClick={() => setQuery('')}
               className="absolute right-2 top-1/2 -translate-y-1/2 text-faint hover:text-foreground cursor-pointer"
-              aria-label="Effacer"
+              aria-label={t('histology.clearSearch')}
             >
               <X className="h-3.5 w-3.5" />
             </button>
           )}
         </div>
         <div className="mt-1.5 px-0.5 font-mono text-[10px] uppercase tracking-wider text-faint">
-          {searching ? `${filtered.length} résultat(s)` : `${SLIDES.length} lames`}
+          {searching
+            ? t('histology.resultCount', { count: filtered.length })
+            : t('histology.slideCount', { count: SLIDES.length })}
         </div>
       </div>
 
@@ -65,7 +70,7 @@ export function SlideLibrary({ activeId, onSelect, className }: SlideLibraryProp
                     className="flex w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-left transition-colors hover:bg-elevated cursor-pointer"
                   >
                     <span className="truncate font-mono text-[10px] uppercase tracking-[0.14em] text-muted">
-                      {g.chapterTitle}
+                      {getChapterTitle(g.chapterId, language)}
                     </span>
                     <span className="shrink-0 rounded-full bg-elevated px-1.5 py-0.5 font-mono text-[10px] text-faint">
                       {g.slides.length}
@@ -83,7 +88,7 @@ export function SlideLibrary({ activeId, onSelect, className }: SlideLibraryProp
             })}
 
         {searching && filtered.length === 0 && (
-          <p className="px-2 py-6 text-center text-xs text-faint">Aucune lame ne correspond.</p>
+          <p className="px-2 py-6 text-center text-xs text-faint">{t('histology.noMatches')}</p>
         )}
       </div>
     </div>
@@ -99,6 +104,7 @@ function SlideRow({
   active: boolean
   onSelect: (s: HistologySlide) => void
 }) {
+  const { t } = useLanguage()
   return (
     <button
       type="button"
@@ -123,7 +129,7 @@ function SlideRow({
           {slide.slideTitle || slide.title}
         </span>
         <span className="mt-0.5 block truncate font-mono text-[9.5px] uppercase tracking-wider text-faint">
-          {slide.page != null ? `diapo ${slide.page}` : slide.id}
+          {slide.page != null ? `${t('histology.slideLabel')} ${slide.page}` : slide.id}
           {slide.stain ? ` · ${slide.stain}` : ''}
         </span>
       </span>

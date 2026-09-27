@@ -1,12 +1,13 @@
 import * as React from 'react'
 import {
-  chapterTitleById,
+  getChapterTitle,
   disciplineByChapterId,
   loadChapter,
   lessonRoute,
   type RawBlock,
 } from '@/data/contentLoader'
 import type { AnatomyStructure } from '@/data/types'
+import { useLanguage } from '@/context/LanguageContext'
 
 export interface StructureExcerpt {
   text: string
@@ -62,12 +63,15 @@ function blockText(b: RawBlock): string {
  * EXACTLY as extracted — nothing is paraphrased, summarized or invented.
  */
 export function useStructureContent(structure: AnatomyStructure | null): StructureContent {
+  const { language } = useLanguage()
   const [content, setContent] = React.useState<StructureContent>(EMPTY)
 
   const lessonId = structure?.lessonId
   const relatedKey = (structure?.relatedLessonIds ?? []).join(',')
   const system = structure?.system
-  const termsKey = (structure?.searchTerms ?? []).join('|')
+  const termsKey = [structure?.nameFr, structure?.nameEn, ...(structure?.searchTerms ?? [])]
+    .filter((term): term is string => Boolean(term))
+    .join('|')
 
   React.useEffect(() => {
     if (!lessonId || !system) {
@@ -76,7 +80,7 @@ export function useStructureContent(structure: AnatomyStructure | null): Structu
     }
     const homeSlug =
       system === 'cardiovascular' ? 'anatomie-cardiovasculaire' : 'anatomie-respiratoire'
-    const titleOf = (id: string) => chapterTitleById[id] ?? null
+    const titleOf = (id: string) => getChapterTitle(id, language)
     const lessonPath = lessonRoute(lessonId, homeSlug)
     const chapterIds = [lessonId, ...relatedKey.split(',').filter(Boolean)]
     const terms = termsKey
@@ -92,7 +96,7 @@ export function useStructureContent(structure: AnatomyStructure | null): Structu
         // structure may cite a physiology chapter). Resolve the slug per id so
         // cross-discipline references load instead of being silently dropped.
         const slug = disciplineByChapterId[id] ?? homeSlug
-        return loadChapter(slug, id)
+        return loadChapter(slug, id, language)
           .then((raw) => ({ id, raw }))
           .catch(() => null)
       })
@@ -166,7 +170,7 @@ export function useStructureContent(structure: AnatomyStructure | null): Structu
     return () => {
       alive = false
     }
-  }, [lessonId, relatedKey, system, termsKey])
+  }, [lessonId, relatedKey, system, termsKey, language])
 
   return content
 }

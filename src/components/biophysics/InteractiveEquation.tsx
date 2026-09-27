@@ -2,6 +2,7 @@ import * as React from 'react'
 import { motion } from 'framer-motion'
 import { RotateCcw, Wind } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { useLanguage } from '@/context/LanguageContext'
 
 interface InteractiveEquationProps {
   title: string
@@ -20,6 +21,7 @@ export function InteractiveEquation({
   compute,
   label,
 }: InteractiveEquationProps) {
+  const { t } = useLanguage()
   const defaults = variables.map((v) => (v.min + v.max) / 2)
   const [values, setValues] = React.useState<number[]>(defaults)
 
@@ -44,7 +46,7 @@ export function InteractiveEquation({
       <div className="border-b border-border bg-elevated/40 px-5 py-4">
         <div className="flex items-center justify-between gap-3">
           <div>
-            <p className="font-mono text-[10px] uppercase tracking-[0.23em] text-primary">Interactive equation</p>
+            <p className="font-mono text-[10px] uppercase tracking-[0.23em] text-primary">{t('biophysics.equation.eyebrow')}</p>
             <h3 className="mt-1 font-serif text-2xl font-semibold text-foreground">{title}</h3>
           </div>
           <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-primary/20 bg-primary/10 text-primary">
@@ -57,7 +59,7 @@ export function InteractiveEquation({
       <div className="grid gap-6 p-5 lg:grid-cols-[1.2fr_0.8fr]">
         <div className="space-y-5">
           <div className="rounded-xl border border-border bg-background/60 p-4">
-            <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-faint">Equation</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-faint">{t('medical.equation')}</div>
             <div className="mt-3 text-2xl font-semibold tracking-tight text-foreground">{formula}</div>
           </div>
 
@@ -78,7 +80,7 @@ export function InteractiveEquation({
                   value={values[index]}
                   onChange={(event) => updateValue(index, Number(event.target.value))}
                   className="h-2 w-full cursor-pointer accent-primary"
-                  aria-label={`${variable.name} slider`}
+                  aria-label={`${variable.description} slider`}
                 />
                 <div className="mt-1 flex justify-between font-mono text-[10px] text-faint">
                   <span>{variable.min}</span>
@@ -91,7 +93,7 @@ export function InteractiveEquation({
 
           <div className="flex items-center gap-3">
             <Button variant="outline" size="sm" onClick={reset} className="gap-2">
-              <RotateCcw className="h-3.5 w-3.5" /> Reset
+              <RotateCcw className="h-3.5 w-3.5" /> {t('common.reset')}
             </Button>
             <div className="rounded-full border border-border bg-elevated px-3 py-1.5 font-mono text-[11px] text-muted">
               {variables.map((variable, index) => `${variable.name} = ${values[index].toFixed(variable.step < 1 ? 2 : 0)} ${variable.unit}`).join(' · ')}
@@ -105,14 +107,14 @@ export function InteractiveEquation({
           transition={{ duration: 0.35 }}
           className="rounded-xl border border-border bg-gradient-to-b from-primary/10 to-transparent p-4"
         >
-          <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-faint">Calculated result</div>
+          <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-faint">{t('biophysics.equation.result')}</div>
           <div className="mt-3 text-4xl font-bold tracking-tight text-primary">{label(result)}</div>
           <div className="mt-4 space-y-2 text-sm text-muted">
             <p>
-              <span className="font-medium text-foreground">What changed?</span> The flow response is driven by the pressure difference, radius, viscosity and vessel length described in the course material.
+              <span className="font-medium text-foreground">{t('biophysics.equation.whatChanged')}</span> {t('biophysics.equation.changedDescription')}
             </p>
             <p>
-              <span className="font-medium text-foreground">Why?</span> A larger radius strongly increases flow because the radius enters to the fourth power in Poiseuille’s relationship.
+              <span className="font-medium text-foreground">{t('biophysics.equation.why')}</span> {t('biophysics.equation.whyDescription')}
             </p>
           </div>
         </motion.div>

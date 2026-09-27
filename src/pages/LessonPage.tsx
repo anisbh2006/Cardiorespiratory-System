@@ -7,9 +7,9 @@ import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import { Separator } from '@/components/ui/separator'
 import { LessonContent } from '@/components/medical/LessonContent'
-import { getDiscipline, getAllLessons } from '@/data/disciplines'
+import { getDiscipline, getAllLessons, getDisciplineTitle } from '@/data/disciplines'
 import { getChapterTitle } from '@/data/contentLoader'
-import { anatomyStructures } from '@/data/anatomy'
+import { anatomyStructures, getStructureName } from '@/data/anatomy'
 import { getDisciplineIcon } from '@/data/icons'
 import type { Chapter, Topic } from '@/data/types'
 import { useStudy } from '@/features/study/StudyContext'
@@ -88,7 +88,7 @@ export default function LessonPage() {
               </span>
               <span className="min-w-0">
                 <span className="block truncate text-sm font-semibold text-foreground">
-                  {discipline.titleFr}
+                  {getDisciplineTitle(discipline, language)}
                 </span>
                 <span className="block text-[10px] uppercase tracking-wider text-faint">
                   {t('lesson.discipline')}
@@ -153,7 +153,7 @@ export default function LessonPage() {
               <Link to="/" className="hover:text-primary">UEI/VEI 01</Link>
               <span>/</span>
               <Link to={`/discipline/${discipline.slug}`} className="hover:text-primary">
-                {discipline.titleFr}
+                {getDisciplineTitle(discipline, language)}
               </Link>
               <span>/</span>
               <span className="text-muted">{chapterLabel(chapter)}</span>
@@ -162,8 +162,10 @@ export default function LessonPage() {
             <h1 className="mt-4 font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
               {getChapterTitle(lesson.id, language)}
             </h1>
-            {lesson.summary && (
-              <p className="mt-3 text-base leading-relaxed text-muted">{lesson.summary}</p>
+            {(lesson.summary || chapter.kind === 'td') && (
+              <p className="mt-3 text-base leading-relaxed text-muted">
+                {chapter.kind === 'td' ? t('common.tutorialSession') : lesson.summary}
+              </p>
             )}
 
             <div className="mt-5 flex flex-wrap items-center gap-2">
@@ -288,7 +290,7 @@ export default function LessonPage() {
                       to={`/anatomy?system=${s.system === 'respiratory' ? 'respiratory' : 'cardiovascular'}`}
                       className="rounded-full border border-border bg-surface px-2.5 py-1 text-[11px] text-muted transition-colors hover:border-primary/50 hover:text-foreground"
                     >
-                      {s.nameFr}
+                      {getStructureName(s, language)}
                     </Link>
                   ))}
                 </div>

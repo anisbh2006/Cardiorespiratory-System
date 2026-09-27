@@ -49,6 +49,13 @@ export const chapterTitleById: Record<string, string> = Object.fromEntries(
 )
 
 const frenchChapterById = Object.fromEntries(frenchManifest.map((entry) => [entry.chapterId, entry]))
+const chapterTopicsById = Object.fromEntries(manifest.map((entry) => [entry.chapterId, entry.topics]))
+
+export function getChapterTopics(chapterId: string, language: Language = 'en'): string[] {
+  return language === 'fr'
+    ? frenchChapterById[chapterId]?.topics ?? chapterTopicsById[chapterId] ?? []
+    : chapterTopicsById[chapterId] ?? []
+}
 
 export function getChapterTitle(chapterId: string, language: Language = 'en'): string {
   return language === 'fr'

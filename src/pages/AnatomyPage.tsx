@@ -4,15 +4,17 @@ import { Move3d } from 'lucide-react'
 import { Tabs } from '@/components/ui/tabs'
 import { AwaitingContent } from '@/components/medical/AwaitingContent'
 import { StructureInfoPanel } from '@/components/medical/StructureInfoPanel'
-import { getStructuresBySystem, getStructure } from '@/data/anatomy'
+import { getStructuresBySystem, getStructure, getStructureName } from '@/data/anatomy'
 import type { StructureSystem } from '@/data/types'
 import { cn } from '@/lib/utils'
+import { useLanguage } from '@/context/LanguageContext'
 
 const AnatomyViewer = React.lazy(() =>
   import('@/features/three/AnatomyViewer').then((m) => ({ default: m.AnatomyViewer }))
 )
 
 export default function AnatomyPage() {
+  const { t, language } = useLanguage()
   const [searchParams, setSearchParams] = useSearchParams()
   const system = (searchParams.get('system') === 'respiratory'
     ? 'respiratory'
@@ -28,21 +30,19 @@ export default function AnatomyPage() {
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-primary">
-              Anatomy laboratory 3D
+              {t('anatomy.lab')}
             </span>
             <h1 className="mt-2 font-serif text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Exploration anatomique interactive
+              {t('anatomy.title')}
             </h1>
             <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
-              Rotation, zoom, pan, preset angles, labels, highlighting, and framing
-              automatique. Cliquez une structure pour afficher les informations, extraits et images
-              issus the lesson fourni.
+              {t('anatomy.description')}
             </p>
           </div>
           <Tabs
             items={[
-              { value: 'cardiovascular', label: 'Heart & vessels' },
-              { value: 'respiratory', label: 'Respiratory system' },
+              { value: 'cardiovascular', label: t('anatomy.cardiac') },
+              { value: 'respiratory', label: t('anatomy.respiratory') },
             ]}
             value={system}
             onValueChange={(v) => {
@@ -80,7 +80,7 @@ export default function AnatomyPage() {
                     : 'border-border bg-surface text-muted hover:border-border-strong hover:text-foreground'
                 )}
               >
-                {s.nameFr}
+                {getStructureName(s, language)}
               </button>
             ))}
           </div>
@@ -91,8 +91,8 @@ export default function AnatomyPage() {
           <StructureInfoPanel structure={selected} />
           {system === 'respiratory' && (
             <AwaitingContent
-              title="Respiratory 3D model pending"
-              description="L'interface est prête : dès qu'un modèle 3D des lungs, de la trachée ou des bronchi sera disponible (déposé dans src/models/ et enregistré dans le registre), il remplacera automatiquement l'espace actuel. Les structures respiratoires répertoriées dans le lecture restent sélectionnables ci-dessus."
+              title={t('anatomy.modelPending')}
+              description={t('anatomy.modelPendingDesc')}
               className="py-6"
             />
           )}
@@ -102,9 +102,7 @@ export default function AnatomyPage() {
       <section className="mx-auto max-w-7xl px-6 pb-12">
         <div className="flex items-center gap-2 text-xs text-faint">
           <Move3d className="h-3.5 w-3.5 text-primary" />
-          Le modèle affiché est une représentation anatomique procédurale interactive. Un modèle
-          GLTF fourni remplacera automatiquement cette maquette via le registre de modèles (
-          <span className="font-mono">src/models/</span>), sans changer l'interface.
+          {t('anatomy.proceduralModel')}
         </div>
       </section>
     </div>

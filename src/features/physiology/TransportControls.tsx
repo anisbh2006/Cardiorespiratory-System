@@ -1,6 +1,7 @@
 import { Pause, Play, RotateCcw, Timer } from 'lucide-react'
 import type { PhysioClock } from './usePhysioClock'
 import { cn } from '@/lib/utils'
+import { useLanguage } from '@/context/LanguageContext'
 
 const SPEEDS = [0.5, 1, 2]
 
@@ -30,7 +31,8 @@ export function TransportControls({
   marks,
   readout,
 }: TransportControlsProps) {
-  const { t, phase, playing, speed, slowMo } = clock
+  const { t: elapsed, phase, playing, speed, slowMo } = clock
+  const { t } = useLanguage()
 
   return (
     <div className={cn('space-y-2.5', className)}>
@@ -45,21 +47,21 @@ export function TransportControls({
           )}
         >
           {playing ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
-          {playing ? 'Pause' : 'Lecture'}
+          {playing ? t('physiology.controls.pause') : t('physiology.controls.play')}
         </button>
 
         <button
           onClick={clock.reset}
-          title="Reset"
+          title={t('physiology.controls.reset')}
           className="inline-flex h-9 items-center gap-2 rounded-md border border-border-strong bg-elevated px-3 text-sm font-medium text-foreground transition-colors hover:bg-overlay cursor-pointer"
         >
           <RotateCcw className="h-4 w-4" />
-          Reset
+          {t('physiology.controls.reset')}
         </button>
 
         <button
           onClick={clock.toggleSlowMo}
-          title="Slow motion (×0.25)"
+          title={t('physiology.controls.slowMotion')}
           className={cn(
             'inline-flex h-9 items-center gap-2 rounded-md border px-3 text-sm font-medium transition-colors cursor-pointer',
             slowMo
@@ -68,7 +70,7 @@ export function TransportControls({
           )}
         >
           <Timer className="h-4 w-4" />
-          Slow motion
+          {t('physiology.controls.slowMotion')}
         </button>
 
         <div className="ml-auto flex items-center gap-1 rounded-md border border-border bg-surface p-1">
@@ -97,7 +99,7 @@ export function TransportControls({
             max={1000}
             value={Math.round(phase * 1000)}
             onChange={(e) => clock.seekPhase(Number(e.target.value) / 1000)}
-            aria-label="Position dans le cycle"
+            aria-label={t('physiology.controls.position')}
             className="w-full cursor-pointer accent-[#e0243a]"
           />
           {marks && (
@@ -117,9 +119,9 @@ export function TransportControls({
         <div className="flex items-center justify-between font-mono text-[11px] text-faint">
           <span>
             {readout ??
-              `t = ${t.toFixed(2)} s / ${cycleSeconds.toFixed(cycleSeconds < 1 ? 2 : 1)} s`}
+              `t = ${elapsed.toFixed(2)} s / ${cycleSeconds.toFixed(cycleSeconds < 1 ? 2 : 1)} s`}
           </span>
-          <span>{slowMo ? '×0.25 ralenti' : `×${speed}`}</span>
+          <span>{slowMo ? `×0.25 ${t('physiology.controls.slowed')}` : `×${speed}`}</span>
         </div>
       </div>
     </div>

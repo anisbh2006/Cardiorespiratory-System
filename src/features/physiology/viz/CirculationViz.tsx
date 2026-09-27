@@ -4,6 +4,7 @@ import { VizFrame } from '../VizFrame'
 import { usePhysioClock } from '../usePhysioClock'
 import { buildWavePath, mapY, sampleWave } from '../waveform'
 import * as CR from '../data/coronaryCirculation'
+import { useLanguage } from '@/context/LanguageContext'
 
 const WX0 = 372
 const WX1 = 700
@@ -13,6 +14,7 @@ const XP = (p: number) => WX0 + p * (WX1 - WX0)
 const YP = (v: number) => mapY(v, { ...CR.FLOW_SCALE, top: WY0, bottom: WY1 })
 
 export function CirculationViz() {
+  const { t } = useLanguage()
   const clock = usePhysioClock({ cycleSeconds: CR.CYCLE_SECONDS })
   const phase = ((clock.phase % 1) + 1) % 1
 
@@ -40,13 +42,13 @@ export function CirculationViz() {
 
   return (
     <VizFrame
-      title="Coronary circulation — phasic flow during the cycle"
-      subtitle="LV perfusion is blocked during systole (compressed vessels) and supplied at 70-80% during diastole"
+      title={t('physiology.visualizations.coronary.title')}
+      subtitle={t('physiology.visualizations.coronary.description')}
       icon={<HeartHandshake className="h-4 w-4" />}
       system="cardiovascular"
       clock={clock}
       cycleSeconds={CR.CYCLE_SECONDS}
-      readout={`t = ${(phase * CR.CYCLE_SECONDS).toFixed(2)} s · ${inSystole ? 'SYSTOLE' : 'DIASTOLE'} · flux VG ${lvFlow.toFixed(2)} · flux VD ${rvFlow.toFixed(2)}`}
+      readout={`t = ${(phase * CR.CYCLE_SECONDS).toFixed(2)} s · ${inSystole ? t('physiology.chart.systole').toUpperCase() : t('physiology.chart.diastole').toUpperCase()} · flux VG ${lvFlow.toFixed(2)} · flux VD ${rvFlow.toFixed(2)}`}
       marks={[
         { at: 0, label: 'B1' },
         { at: CR.SYSTOLE_END, label: 'B2' },
@@ -72,7 +74,9 @@ export function CirculationViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs the lesson</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
+              {t('physiology.chart.courseValues')}
+            </div>
             <dl className="mt-2 space-y-1.5">
               {CR.KEY_FACTS.map((f) => (
                 <div key={f.label} className="flex items-baseline justify-between gap-2 text-[11px]">
@@ -94,7 +98,7 @@ export function CirculationViz() {
         </>
       }
     >
-      <svg viewBox="0 0 720 260" className="h-auto w-full select-none" role="img" aria-label="Animated coronary circulation">
+      <svg viewBox="0 0 720 260" className="h-auto w-full select-none" role="img" aria-label={t('physiology.visualizations.coronary.aria')}>
         {/* ---------------- Left: heart + coronary arteries ---------------- */}
         <g>
           {/* myocardium silhouette */}
@@ -148,7 +152,7 @@ export function CirculationViz() {
 
         {/* ---------------- Right: phasic flow waveform ---------------- */}
         <g>
-          <text x={WX0} y={24} fill="#f4f4f2" fontSize={11} fontWeight={600}>Flux coronaire instantané au lecture du cycle</text>
+          <text x={WX0} y={24} fill="#f4f4f2" fontSize={11} fontWeight={600}>{t('physiology.chart.flowDuringCycle')}</text>
           {/* systole / diastole bands */}
           <rect x={WX0} y={WY0} width={XP(CR.SYSTOLE_END) - WX0} height={WY1 - WY0} fill="#e0243a" opacity={0.06} />
           <rect x={XP(CR.SYSTOLE_END)} y={WY0} width={WX1 - XP(CR.SYSTOLE_END)} height={WY1 - WY0} fill="#60a5fa" opacity={0.05} />

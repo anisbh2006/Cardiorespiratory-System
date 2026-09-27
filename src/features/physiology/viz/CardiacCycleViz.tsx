@@ -4,6 +4,7 @@ import { VizFrame } from '../VizFrame'
 import { usePhysioClock } from '../usePhysioClock'
 import { buildWavePath, mapY, sampleWave, type WavePoint } from '../waveform'
 import * as CC from '../data/cardiacCycle'
+import { useLanguage } from '@/context/LanguageContext'
 
 const X0 = 274
 const X1 = 764
@@ -31,6 +32,16 @@ const TRACKS: Track[] = [
 const clamp = (v: number, a: number, b: number) => Math.min(b, Math.max(a, v))
 
 export function CardiacCycleViz() {
+  const { t } = useLanguage()
+  const trackLabel = (id: string) => {
+    const keys: Record<string, string> = {
+      lvp: 'physiology.chart.leftVentricularPressure',
+      aop: 'physiology.chart.aorticPressure',
+      atp: 'physiology.chart.leftAtrialPressure',
+      vol: 'physiology.chart.leftVentricularVolume',
+    }
+    return keys[id] ? t(keys[id]) : id
+  }
   const clock = usePhysioClock({ cycleSeconds: CC.CYCLE_SECONDS })
   const phase = clock.phase
   const uid = React.useId().replace(/:/g, '')
@@ -73,8 +84,8 @@ export function CardiacCycleViz() {
 
   return (
     <VizFrame
-      title="The Cardiac Cycle"
-      subtitle="Synchronized mechanical, hemodynamic, and electrical events (left heart)"
+      title={t('physiology.visualizations.cardiacCycle.title')}
+      subtitle={t('physiology.visualizations.cardiacCycle.description')}
       icon={<HeartPulse className="h-4 w-4" />}
       system="cardiovascular"
       clock={clock}
@@ -82,20 +93,22 @@ export function CardiacCycleViz() {
       marks={marks}
       legend={[
         { color: '#60a5fa', label: 'ECG' },
-        { color: '#e0243a', label: 'LV pressure' },
-        { color: '#fbbf24', label: 'Aortic pressure' },
-        { color: '#a78bfa', label: 'Pressure atriale' },
-        { color: '#34d399', label: 'Volume VG' },
+        { color: '#e0243a', label: t('physiology.chart.leftVentricularPressure') },
+        { color: '#fbbf24', label: t('physiology.chart.aorticPressure') },
+        { color: '#a78bfa', label: t('physiology.chart.leftAtrialPressure') },
+        { color: '#34d399', label: t('physiology.chart.leftVentricularVolume') },
       ]}
       sources={CC.SOURCES}
       lesson={CC.LESSON}
       aside={
         <>
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Phase actuelle</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
+              {t('physiology.chart.currentPhase')}
+            </div>
             <div className="mt-1 text-sm font-semibold text-foreground">{activePhase.label}</div>
             <div className="mt-0.5 text-[11px] text-muted">
-              {activePhase.kind === 'systole' ? 'Systole' : 'Diastole'} · t = {(phase * CC.CYCLE_SECONDS).toFixed(2)} s
+              {activePhase.kind === 'systole' ? t('physiology.chart.systole') : t('physiology.chart.diastole')} · t = {(phase * CC.CYCLE_SECONDS).toFixed(2)} s
             </div>
             <dl className="mt-3 grid grid-cols-2 gap-2 text-[11px]">
               <div className="rounded-md bg-surface/70 p-2">
@@ -119,13 +132,13 @@ export function CardiacCycleViz() {
               <div className="flex items-center justify-between">
                 <span className="text-muted">Valve mitrale (AV)</span>
                 <span className={avOpen ? 'font-semibold text-success' : 'font-semibold text-primary'}>
-                  {avOpen ? 'Open' : 'Closed'}
+                  {avOpen ? t('physiology.chart.open') : t('physiology.chart.closed')}
                 </span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="text-muted">Valve aortique</span>
                 <span className={aorticOpen ? 'font-semibold text-success' : 'font-semibold text-primary'}>
-                  {aorticOpen ? 'Open' : 'Closed'}
+                  {aorticOpen ? t('physiology.chart.open') : t('physiology.chart.closed')}
                 </span>
               </div>
               {!avOpen && !aorticOpen && (
@@ -137,7 +150,9 @@ export function CardiacCycleViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Valeurs the lesson</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
+              {t('physiology.chart.courseValues')}
+            </div>
             <dl className="mt-2 space-y-1.5">
               {CC.KEY_FACTS.map((f) => (
                 <div key={f.label} className="flex items-baseline justify-between gap-2 text-[11px]">
@@ -150,7 +165,7 @@ export function CardiacCycleViz() {
         </>
       }
     >
-      <svg viewBox="0 0 780 470" className="h-auto w-full select-none" role="img" aria-label="Cycle cardiaque animé">
+      <svg viewBox="0 0 780 470" className="h-auto w-full select-none" role="img" aria-label={t('physiology.visualizations.cardiacCycle.aria')}>
         <defs>
           <clipPath id={`cav-${uid}`}>
             <rect x={cavX} y={cavY} width={cavW} height={cavH} rx={16} />
@@ -275,7 +290,7 @@ export function CardiacCycleViz() {
             return (
               <g key={t.id}>
                 <line x1={X0} y1={t.y1} x2={X1} y2={t.y1} stroke="#232329" strokeWidth={1} />
-                <text x={X0 + 4} y={t.y0 + 11} fill={t.color} fontSize={9.5} fontWeight={600}>{t.label}</text>
+                <text x={X0 + 4} y={t.y0 + 11} fill={t.color} fontSize={9.5} fontWeight={600}>{trackLabel(t.id)}</text>
                 <path d={path.d} fill="none" stroke={t.color} strokeWidth={1.8} strokeLinejoin="round" opacity={0.95} />
                 <circle cx={XP(phase)} cy={cy} r={3.2} fill={t.color} stroke="#08080a" strokeWidth={1} />
                 {t.unit && (

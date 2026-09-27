@@ -1,7 +1,7 @@
 {
   "file": "biophysic/2)BiophysicsCardiaque_EN.pdf",
   "chapterId": "bp-2",
-  "title": "Cardiac Biophysics",
+  "title": "Biophysique cardiaque",
   "kind": "cours",
   "pages": [
     {
@@ -11,24 +11,24 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "Cardiac biophysics"
+          "text": "Biophysique cardiaque"
         }
       ]
     },
     {
       "n": 2,
-      "title": "I- General:",
+      "title": "I- Généralités :",
       "blocks": [
         {
           "type": "heading",
           "level": 2,
-          "text": "I- General:"
+          "text": "I- Généralités :"
         }
       ]
     },
     {
       "n": 4,
-      "title": "I- General:",
+      "title": "I- Généralités :",
       "blocks": [
         {
           "type": "paragraph",
@@ -101,18 +101,18 @@
     },
     {
       "n": 10,
-      "title": "III- Volume-time curves:",
+      "title": "III- Courbes volume-temps :",
       "blocks": [
         {
           "type": "heading",
           "level": 2,
-          "text": "III- Volume-time curves:"
+          "text": "III- Courbes volume-temps :"
         }
       ]
     },
     {
       "n": 11,
-      "title": "III- Volume-time curves:",
+      "title": "III- Courbes volume-temps :",
       "blocks": [
         {
           "type": "image",

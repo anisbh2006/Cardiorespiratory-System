@@ -3,14 +3,15 @@ import { motion } from 'framer-motion'
 import { Bookmark, Clock, GraduationCap, Search, Trash2, TrendingUp } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
-import { disciplines, getDiscipline } from '@/data/disciplines'
-import { chapterTitleById, disciplineByChapterId, lessonRoute } from '@/data/contentLoader'
+import { disciplines, getDiscipline, getDisciplineTitle } from '@/data/disciplines'
+import { getChapterTitle, disciplineByChapterId, lessonRoute } from '@/data/contentLoader'
 import { getDisciplineIcon } from '@/data/icons'
 import { useStudy } from '@/features/study/StudyContext'
 import { useCourseProgress, useDisciplineProgress } from '@/features/study/useProgress'
 import { useLanguage } from '@/context/LanguageContext'
 
 function DisciplineProgressRow({ slug }: { slug: string }) {
+  const { language } = useLanguage()
   const discipline = getDiscipline(slug)!
   const progress = useDisciplineProgress(discipline)
   const Icon = getDisciplineIcon(discipline.icon)
@@ -25,7 +26,7 @@ function DisciplineProgressRow({ slug }: { slug: string }) {
       </span>
       <span className="min-w-0 flex-1">
         <span className="block truncate text-sm font-medium text-foreground">
-          {discipline.titleFr}
+          {getDisciplineTitle(discipline, language)}
         </span>
         <Progress value={progress} className="mt-1.5 h-1" />
       </span>
@@ -91,11 +92,12 @@ export default function StudyPage() {
                   className="group block rounded-lg border border-border bg-surface p-3 text-sm text-foreground transition-colors hover:border-border-strong hover:shadow-[0_6px_20px_rgba(0,0,0,0.25)]"
                 >
                   <span className="flex items-center justify-between gap-2">
-                    <span className="truncate font-medium">{r.title}</span>
+                    <span className="truncate font-medium">{getChapterTitle(r.lessonId, language)}</span>
                     <Clock className="h-3.5 w-3.5 shrink-0 text-faint transition-colors group-hover:text-primary" />
                   </span>
                   <span className="mt-0.5 block text-[11px] text-faint">
-                    {getDiscipline(r.disciplineSlug)?.titleFr} ·{' '}
+                    {getDiscipline(r.disciplineSlug) &&
+                      getDisciplineTitle(getDiscipline(r.disciplineSlug)!, language)} ·{' '}
                     {new Date(r.at).toLocaleDateString(language === 'fr' ? 'fr-FR' : 'en-US')}
                   </span>
                 </Link>
@@ -117,7 +119,7 @@ export default function StudyPage() {
             ) : (
               bookmarks.map((id) => {
                 const slug = disciplineByChapterId[id]
-                const title = chapterTitleById[id]
+                const title = getChapterTitle(id, language)
                 const to = lessonRoute(id)
                 const inner = (
                   <>
@@ -129,7 +131,7 @@ export default function StudyPage() {
                     </span>
                     {slug && (
                       <span className="mt-0.5 block truncate text-[11px] text-faint">
-                        {getDiscipline(slug)?.titleFr}
+                        {getDiscipline(slug) && getDisciplineTitle(getDiscipline(slug)!, language)}
                       </span>
                     )}
                   </>

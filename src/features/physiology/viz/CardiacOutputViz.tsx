@@ -3,6 +3,7 @@ import { Gauge } from 'lucide-react'
 import { VizFrame } from '../VizFrame'
 import { usePhysioClock } from '../usePhysioClock'
 import * as CO from '../data/cardiacOutput'
+import { useLanguage } from '@/context/LanguageContext'
 
 const clamp = (v: number, a: number, b: number) => Math.min(b, Math.max(a, v))
 
@@ -17,6 +18,7 @@ const fxX = (edv: number) => FX0 + ((edv - EDV_DOM[0]) / (EDV_DOM[1] - EDV_DOM[0
 const fxY = (sv: number) => FY1 - ((sv - SV_DOM[0]) / (SV_DOM[1] - SV_DOM[0])) * (FY1 - FY0)
 
 export function CardiacOutputViz() {
+  const { t } = useLanguage()
   const [hr, setHr] = React.useState(CO.REST_HR)
   const [edv, setEdv] = React.useState(CO.REST_EDV)
 
@@ -56,8 +58,8 @@ export function CardiacOutputViz() {
 
   return (
     <VizFrame
-      title="Flow cardiaque — DC = HR × VE"
-      subtitle="Faites varier la fréquence et le volume télédiastolique ; le flow suit les formules the lesson"
+      title={t('physiology.visualizations.cardiacOutput.title')}
+      subtitle={t('physiology.visualizations.cardiacOutput.description')}
       icon={<Gauge className="h-4 w-4" />}
       system="cardiovascular"
       clock={clock}
@@ -69,10 +71,12 @@ export function CardiacOutputViz() {
       aside={
         <>
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Calculated values</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
+              {t('physiology.chart.currentValues')}
+            </div>
             <dl className="mt-2 space-y-1.5 text-[11px]">
               <div className="flex items-baseline justify-between">
-                <dt className="text-muted">Frequency (HR)</dt>
+                <dt className="text-muted">{t('physiology.chart.frequency')} (HR)</dt>
                 <dd className="font-mono text-foreground">{hr} batt/min</dd>
               </div>
               <div className="flex items-baseline justify-between">
@@ -92,14 +96,14 @@ export function CardiacOutputViz() {
                 <dd className="font-mono text-base font-bold text-primary">{co.toFixed(2)} L/min</dd>
               </div>
               <div className="flex items-baseline justify-between">
-                <dt className="text-muted">Index cardiaque</dt>
+                <dt className="text-muted">{t('physiology.chart.cardiacIndex')}</dt>
                 <dd className="font-mono text-faint">DC / SC (p. 5)</dd>
               </div>
             </dl>
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Determinants of SV (p. 13)</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">{t('physiology.chart.courseValues')} (p. 13)</div>
             <ul className="mt-2 space-y-1.5">
               {CO.DETERMINANTS.map((d) => (
                 <li key={d.id} className="text-[11px]">
@@ -111,7 +115,9 @@ export function CardiacOutputViz() {
           </div>
 
           <div className="rounded-lg border border-border bg-background/50 p-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Heart rate control</div>
+            <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
+              {t('physiology.chart.heartRateControl')}
+            </div>
             <dl className="mt-2 space-y-1.5">
               {CO.HR_FACTS.map((f) => (
                 <div key={f.label} className="flex items-baseline justify-between gap-2 text-[11px]">
@@ -166,7 +172,7 @@ export function CardiacOutputViz() {
         </label>
       </div>
 
-      <svg viewBox="0 0 720 250" className="h-auto w-full select-none" role="img" aria-label="Frank-Starling et pompe ventriculaire">
+      <svg viewBox="0 0 720 250" className="h-auto w-full select-none" role="img" aria-label={t('physiology.visualizations.cardiacOutput.aria')}>
         {/* ---- Left: Frank-Starling relationship VE = VTD − VTS ---- */}
         <g>
           <text x={FX0} y={16} fill="#f4f4f2" fontSize={11} fontWeight={600}>Relation de Frank-Starling (VE = VTD − VTS)</text>
@@ -243,7 +249,11 @@ export function CardiacOutputViz() {
             />
           )}
           <text x={wallX + wallW / 2} y={wallY + wallH + 18} textAnchor="middle" fill="#8b8b96" fontSize={9.5}>
-            {ejecting ? 'ejection' : phase < 0.45 ? 'remplissage' : 'rest'}
+            {ejecting
+              ? t('physiology.chart.ejection')
+              : phase < 0.45
+                ? t('physiology.chart.filling')
+                : t('physiology.chart.rest')}
           </text>
           <text x={wallX + wallW / 2} y={wallY + wallH + 32} textAnchor="middle" fill="#34d399" fontSize={10} fontFamily="monospace" fontWeight={600}>
             VE = {sv} ml
@@ -254,13 +264,13 @@ export function CardiacOutputViz() {
       {/* ---- CO gauge with lecturee reference markers ---- */}
       <div className="mt-1">
         <div className="mb-1 flex items-center justify-between text-[11px]">
-          <span className="font-medium text-muted">Flow cardiaque (L/min)</span>
+          <span className="font-medium text-muted">{t('biophysics.metrics.flow')} (L/min)</span>
           <span className="font-mono text-base font-bold text-primary">{co.toFixed(2)}</span>
         </div>
         <div className="relative h-6 w-full overflow-hidden rounded-md border border-border bg-background/60">
           <div className="absolute inset-y-0 left-0 bg-primary/70 transition-[width] duration-150" style={{ width: `${gaugePct}%` }} />
           {[
-            { v: CO.REST_CO, label: 'rest 5', color: '#fbbf24' },
+            { v: CO.REST_CO, label: `${t('physiology.chart.rest')} 5`, color: '#fbbf24' },
             { v: CO.MAX_CO_LOW, label: 'max 20–25', color: '#60a5fa' },
             { v: CO.ATHLETE_CO, label: 'athlète 35', color: '#34d399' },
           ].map((m) => (

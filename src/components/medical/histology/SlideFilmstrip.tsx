@@ -3,6 +3,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { SlideThumb } from './SlideThumb'
 import type { HistologySlide } from './types'
+import { useLanguage } from '@/context/LanguageContext'
 
 interface SlideFilmstripProps {
   slides: HistologySlide[]
@@ -17,6 +18,7 @@ interface SlideFilmstripProps {
  * exposes prev/next for keyboard-free navigation through a chapter.
  */
 export function SlideFilmstrip({ slides, activeId, onSelect, onPrev, onNext }: SlideFilmstripProps) {
+  const { t } = useLanguage()
   const activeIndex = slides.findIndex((s) => s.id === activeId)
   const scrollerRef = React.useRef<HTMLDivElement>(null)
 
@@ -30,7 +32,7 @@ export function SlideFilmstrip({ slides, activeId, onSelect, onPrev, onNext }: S
       type="button"
       onClick={onClick}
       disabled={disabled}
-      aria-label={dir === 'l' ? 'Previous' : 'Next'}
+      aria-label={dir === 'l' ? t('common.previous') : t('common.next')}
       className={cn(
         'flex h-10 w-8 shrink-0 items-center justify-center rounded-md border border-border text-muted transition-colors',
         disabled ? 'opacity-30' : 'hover:bg-elevated hover:text-foreground cursor-pointer'
@@ -60,7 +62,7 @@ export function SlideFilmstrip({ slides, activeId, onSelect, onPrev, onNext }: S
           >
             <SlideThumb src={s.src} alt="" />
             <span className="absolute bottom-0 right-0 bg-black/70 px-1 font-mono text-[8px] text-white/80">
-              {s.page ?? i + 1}
+              {t('histology.slideLabel')} {s.page ?? i + 1}
             </span>
           </button>
         ))}

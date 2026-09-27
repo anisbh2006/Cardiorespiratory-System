@@ -1,4 +1,5 @@
 import type { AnatomyStructure } from './types'
+import type { Language } from '@/i18n'
 
 /**
  * Anatomical structures named in the project specification.
@@ -14,10 +15,10 @@ export const anatomyStructures: AnatomyStructure[] = [
   { id: 'right-ventricle', system: 'cardiovascular', nameFr: 'Ventricule droit', nameEn: 'Right ventricle', lessonId: 'ac-3', relatedLessonIds: ['ac-5'], searchTerms: ['right ventricle', 'right ventricle'], status: 'awaiting-source' },
   { id: 'left-ventricle', system: 'cardiovascular', nameFr: 'Ventricule gauche', nameEn: 'Left ventricle', lessonId: 'ac-3', relatedLessonIds: ['ac-5', 'pc-2'], searchTerms: ['left ventricle', 'left ventricle'], status: 'awaiting-source' },
   { id: 'aorta', system: 'cardiovascular', nameFr: 'Aorte', nameEn: 'Aorta', lessonId: 'ac-7', relatedLessonIds: ['ac-5'], searchTerms: ['aorta', 'aorte', 'aortic'], status: 'awaiting-source' },
-  { id: 'pulmonary-artery', system: 'cardiovascular', nameFr: 'Pulmonary artery', nameEn: 'Pulmonary artery', lessonId: 'ac-5', searchTerms: ['pulmonary artery', 'pulmonary trunk', 'artery pulmonaire', 'tronc pulmonaire'], status: 'awaiting-source' },
+  { id: 'pulmonary-artery', system: 'cardiovascular', nameFr: 'Artère pulmonaire', nameEn: 'Pulmonary artery', lessonId: 'ac-5', searchTerms: ['pulmonary artery', 'pulmonary trunk', 'artery pulmonaire', 'tronc pulmonaire'], status: 'awaiting-source' },
   { id: 'pulmonary-veins', system: 'cardiovascular', nameFr: 'Veines pulmonaires', nameEn: 'Pulmonary veins', lessonId: 'ac-5', searchTerms: ['pulmonary vein', 'vein pulmonaire'], status: 'awaiting-source' },
-  { id: 'superior-vena-cava', system: 'cardiovascular', nameFr: 'Superior vena cava', nameEn: 'Superior vena cava', lessonId: 'ac-8', searchTerms: ['superior vena cava', 'superior vena cava'], status: 'awaiting-source' },
-  { id: 'inferior-vena-cava', system: 'cardiovascular', nameFr: 'Inferior vena cava', nameEn: 'Inferior vena cava', lessonId: 'ac-8', searchTerms: ['inferior vena cava', 'inferior vena cava'], status: 'awaiting-source' },
+  { id: 'superior-vena-cava', system: 'cardiovascular', nameFr: 'Veine cave supérieure', nameEn: 'Superior vena cava', lessonId: 'ac-8', searchTerms: ['superior vena cava', 'veine cave supérieure'], status: 'awaiting-source' },
+  { id: 'inferior-vena-cava', system: 'cardiovascular', nameFr: 'Veine cave inférieure', nameEn: 'Inferior vena cava', lessonId: 'ac-8', searchTerms: ['inferior vena cava', 'veine cave inférieure'], status: 'awaiting-source' },
   // ---- Respiratory ----
   { id: 'larynx', system: 'respiratory', nameFr: 'Larynx', nameEn: 'Larynx', lessonId: 'ar-10', searchTerms: ['larynx', 'laryng', 'cartilage larynx'], status: 'awaiting-source' },
   { id: 'trachea', system: 'respiratory', nameFr: 'Trachée', nameEn: 'Trachea', lessonId: 'ar-11', searchTerms: ['trachea', 'trachée'], status: 'awaiting-source' },
@@ -32,6 +33,10 @@ export const anatomyStructures: AnatomyStructure[] = [
   { id: 'bronchioles', system: 'respiratory', nameFr: 'Bronchioles', nameEn: 'Bronchioles', lessonId: 'ar-12', searchTerms: ['bronchiole'], status: 'awaiting-source' },
   { id: 'thoracic-cavity', system: 'respiratory', nameFr: 'Cavité thoracique', nameEn: 'Thoracic cavity', lessonId: 'ac-1', searchTerms: ['thoracic cavity', 'cavité thoracique', 'thoracic wall', 'paroi thoracique'], status: 'awaiting-source' },
 ]
+
+export function getStructureName(structure: AnatomyStructure, language: Language): string {
+  return language === 'fr' ? structure.nameFr : structure.nameEn ?? structure.nameFr
+}
 
 export function getStructure(id: string): AnatomyStructure | undefined {
   return anatomyStructures.find((s) => s.id === id)

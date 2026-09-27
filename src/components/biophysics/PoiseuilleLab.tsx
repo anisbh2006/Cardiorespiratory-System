@@ -3,10 +3,12 @@ import { motion } from 'framer-motion'
 import { Gauge, RotateCcw } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { ScientificGraph } from '@/components/biophysics/ScientificGraph'
+import { useLanguage } from '@/context/LanguageContext'
 
 const clamp = (value: number, min: number, max: number) => Math.min(max, Math.max(min, value))
 
 export function PoiseuilleLab() {
+  const { t } = useLanguage()
   const [pressure, setPressure] = React.useState(40)
   const [radius, setRadius] = React.useState(2.5)
   const [length, setLength] = React.useState(12)
@@ -29,8 +31,8 @@ export function PoiseuilleLab() {
       <div className="border-b border-border bg-elevated/40 px-5 py-4">
         <div className="flex items-center justify-between gap-3">
           <div>
-            <p className="font-mono text-[10px] uppercase tracking-[0.23em] text-primary">Flow experiment</p>
-            <h3 className="mt-1 font-serif text-2xl font-semibold text-foreground">Hemodynamics laboratory</h3>
+            <p className="font-mono text-[10px] uppercase tracking-[0.23em] text-primary">{t('biophysics.poiseuille.eyebrow')}</p>
+            <h3 className="mt-1 font-serif text-2xl font-semibold text-foreground">{t('biophysics.poiseuille.title')}</h3>
           </div>
           <span className="flex h-10 w-10 items-center justify-center rounded-lg border border-primary/20 bg-primary/10 text-primary">
             <Gauge className="h-4 w-4" />
@@ -42,44 +44,44 @@ export function PoiseuilleLab() {
         <div className="space-y-5">
           <div className="rounded-xl border border-border bg-background/60 p-4">
             <div className="flex items-center justify-between text-xs text-muted">
-              <span>Pressure gradient</span>
+              <span>{t('biophysics.poiseuille.pressure')}</span>
               <span className="font-mono text-primary">{pressure.toFixed(0)} mmHg</span>
             </div>
-            <input type="range" min={10} max={80} value={pressure} onChange={(e) => setPressure(Number(e.target.value))} className="mt-2 w-full accent-primary" aria-label="Pressure gradient" />
+            <input type="range" min={10} max={80} value={pressure} onChange={(e) => setPressure(Number(e.target.value))} className="mt-2 w-full accent-primary" aria-label={t('biophysics.poiseuille.pressure')} />
 
             <div className="mt-4 flex items-center justify-between text-xs text-muted">
-              <span>Radius</span>
+              <span>{t('biophysics.poiseuille.radius')}</span>
               <span className="font-mono text-primary">{radius.toFixed(2)} mm</span>
             </div>
-            <input type="range" min={1} max={5} step={0.1} value={radius} onChange={(e) => setRadius(Number(e.target.value))} className="mt-2 w-full accent-primary" aria-label="Vessel radius" />
+            <input type="range" min={1} max={5} step={0.1} value={radius} onChange={(e) => setRadius(Number(e.target.value))} className="mt-2 w-full accent-primary" aria-label={t('biophysics.poiseuille.radius')} />
 
             <div className="mt-4 flex items-center justify-between text-xs text-muted">
-              <span>Vessel length</span>
+              <span>{t('biophysics.poiseuille.length')}</span>
               <span className="font-mono text-primary">{length.toFixed(1)} cm</span>
             </div>
-            <input type="range" min={5} max={25} step={0.5} value={length} onChange={(e) => setLength(Number(e.target.value))} className="mt-2 w-full accent-primary" aria-label="Vessel length" />
+            <input type="range" min={5} max={25} step={0.5} value={length} onChange={(e) => setLength(Number(e.target.value))} className="mt-2 w-full accent-primary" aria-label={t('biophysics.poiseuille.length')} />
 
             <div className="mt-4 flex items-center justify-between text-xs text-muted">
-              <span>Viscosity</span>
+              <span>{t('biophysics.poiseuille.viscosity')}</span>
               <span className="font-mono text-primary">{viscosity.toFixed(1)} cP</span>
             </div>
-            <input type="range" min={1} max={8} step={0.1} value={viscosity} onChange={(e) => setViscosity(Number(e.target.value))} className="mt-2 w-full accent-primary" aria-label="Blood viscosity" />
+            <input type="range" min={1} max={8} step={0.1} value={viscosity} onChange={(e) => setViscosity(Number(e.target.value))} className="mt-2 w-full accent-primary" aria-label={t('biophysics.poiseuille.viscosity')} />
 
             <div className="mt-6 flex items-center justify-between rounded-lg border border-border bg-elevated p-3">
-              <span className="text-sm text-muted">Calculated flow</span>
+              <span className="text-sm text-muted">{t('biophysics.poiseuille.flow')}</span>
               <span className="font-mono text-xl font-semibold text-primary">{flow.toFixed(2)} AU</span>
             </div>
 
             <div className="mt-4 flex justify-start">
               <Button variant="outline" size="sm" onClick={reset} className="gap-2">
-                <RotateCcw className="h-3.5 w-3.5" /> Reset
+                <RotateCcw className="h-3.5 w-3.5" /> {t('common.reset')}
               </Button>
             </div>
           </div>
 
           <div className="rounded-xl border border-border bg-background/60 p-4">
             <div className="mb-3 flex items-center justify-between text-xs text-muted">
-              <span>Vessel visualization</span>
+              <span>{t('biophysics.poiseuille.visualization')}</span>
               <span className="font-mono text-primary">Q ∝ ΔP × r^4 / ηL</span>
             </div>
             <div className="relative flex h-32 items-center justify-center overflow-hidden rounded-xl border border-border bg-[radial-gradient(circle_at_center,_rgba(224,36,58,0.08),_transparent_50%)]">
@@ -105,9 +107,9 @@ export function PoiseuilleLab() {
 
         <div className="space-y-4">
           <ScientificGraph
-            title="Flow-pressure relationship"
-            xLabel="Pressure gradient"
-            yLabel="Flow"
+            title={t('biophysics.poiseuille.graph')}
+            xLabel={t('biophysics.poiseuille.pressure')}
+            yLabel={t('biophysics.metrics.flow')}
             xValue={pressure}
             flowValue={flow}
             minX={10}
@@ -117,11 +119,11 @@ export function PoiseuilleLab() {
           />
 
           <div className="rounded-xl border border-border bg-background/60 p-4">
-            <h4 className="font-serif text-xl font-semibold text-foreground">What happened?</h4>
+            <h4 className="font-serif text-xl font-semibold text-foreground">{t('biophysics.poiseuille.whatHappened')}</h4>
             <div className="mt-3 space-y-3 text-sm text-muted">
-              <p><span className="font-medium text-foreground">What changed?</span> Pressure difference, vessel radius, viscosity and length were adjusted.</p>
-              <p><span className="font-medium text-foreground">What happened?</span> Flow changes immediately because the radius affects the result to the fourth power, while viscosity and length oppose flow.</p>
-              <p><span className="font-medium text-foreground">Key takeaway:</span> In the course material, vascular resistance is strongly modulated by vessel caliber.</p>
+              <p><span className="font-medium text-foreground">{t('biophysics.equation.whatChanged')}</span> {t('biophysics.poiseuille.changedDescription')}</p>
+              <p><span className="font-medium text-foreground">{t('biophysics.poiseuille.whatHappened')}</span> {t('biophysics.poiseuille.resultDescription')}</p>
+              <p><span className="font-medium text-foreground">{t('biophysics.poiseuille.takeaway')}:</span> {t('biophysics.poiseuille.takeawayDescription')}</p>
             </div>
           </div>
         </div>

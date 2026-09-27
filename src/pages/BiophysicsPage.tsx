@@ -12,9 +12,9 @@ import { useDisciplineProgress } from '@/features/study/useProgress'
 import { useLanguage } from '@/context/LanguageContext'
 
 const chapterLookup = [
-  { title: 'Hemodynamics and Vascular Biophysics', label: 'Fluid dynamics, pressure and viscosity', icon: Gauge },
-  { title: 'Cardiac Biophysics', label: 'Pressure-time curves and pressure-volume relationships', icon: Activity },
-  { title: 'Electrocardiogram', label: 'Bioelectricity, dipoles and conduction', icon: Stethoscope },
+  { titleKey: 'biophysics.topics.hemodynamics.title', labelKey: 'biophysics.topics.hemodynamics.description', icon: Gauge },
+  { titleKey: 'biophysics.topics.cardiac.title', labelKey: 'biophysics.topics.cardiac.description', icon: Activity },
+  { titleKey: 'biophysics.topics.ecg.title', labelKey: 'biophysics.topics.ecg.description', icon: Stethoscope },
 ]
 
 export default function BiophysicsPage() {
@@ -36,7 +36,7 @@ export default function BiophysicsPage() {
             <div className="mt-6 grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
               <div>
                 <h1 className="font-serif text-5xl font-bold tracking-tight text-foreground sm:text-6xl">
-                  BIOPHYSICS
+                  {t('biophysics.title')}
                 </h1>
                 <p className="mt-4 max-w-2xl text-lg leading-relaxed text-muted">
                   {t('biophysics.subtitle')}
@@ -84,15 +84,15 @@ export default function BiophysicsPage() {
 
                     <div className="mt-4 grid gap-2 sm:grid-cols-3">
                       <div className="rounded-lg border border-border bg-background/50 p-2">
-                        <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] text-faint"><Gauge className="h-3 w-3" /> Flow</div>
+                        <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] text-faint"><Gauge className="h-3 w-3" /> {t('biophysics.metrics.flow')}</div>
                         <div className="mt-2 font-mono text-lg text-foreground">1.2 L/min</div>
                       </div>
                       <div className="rounded-lg border border-border bg-background/50 p-2">
-                        <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] text-faint"><Activity className="h-3 w-3" /> Pressure</div>
+                        <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] text-faint"><Activity className="h-3 w-3" /> {t('biophysics.metrics.pressure')}</div>
                         <div className="mt-2 font-mono text-lg text-foreground">120 mmHg</div>
                       </div>
                       <div className="rounded-lg border border-border bg-background/50 p-2">
-                        <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] text-faint"><Beaker className="h-3 w-3" /> Viscosity</div>
+                        <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] text-faint"><Beaker className="h-3 w-3" /> {t('biophysics.metrics.viscosity')}</div>
                         <div className="mt-2 font-mono text-lg text-foreground">3.5 cP</div>
                       </div>
                     </div>
@@ -125,13 +125,15 @@ export default function BiophysicsPage() {
           {chapterLookup.map((item, index) => {
             const Icon = item.icon
             return (
-              <div key={item.title} className="rounded-xl border border-border bg-surface p-5">
+              <div key={item.titleKey} className="rounded-xl border border-border bg-surface p-5">
                 <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-primary/20 bg-primary/10 text-primary">
                   <Icon className="h-4 w-4" />
                 </span>
-                <h3 className="mt-3 text-lg font-semibold text-foreground">{item.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted">{item.label}</p>
-                <div className="mt-4 font-mono text-[10px] uppercase tracking-[0.18em] text-faint">Chapter {index + 1}</div>
+                <h3 className="mt-3 text-lg font-semibold text-foreground">{t(item.titleKey)}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-muted">{t(item.labelKey)}</p>
+                <div className="mt-4 font-mono text-[10px] uppercase tracking-[0.18em] text-faint">
+                  {t('biophysics.chapterOne', { index: index + 1 })}
+                </div>
               </div>
             )
           })}
@@ -161,7 +163,9 @@ export default function BiophysicsPage() {
                     <span className="font-mono text-xs text-primary">{chapter.kind === 'td' ? 'TD' : `CH ${String(chapter.number).padStart(2, '0')}`}</span>
                     <h3 className="font-serif text-2xl font-semibold text-foreground">{getChapterTitle(chapter.id, language)}</h3>
                   </div>
-                  <Badge variant="secondary">{chapter.lessons.length} {t('common.lessonPlural')}</Badge>
+                  <Badge variant="secondary">
+                    {t('biophysics.lessonCount', { count: chapter.lessons.length })}
+                  </Badge>
                 </div>
 
                 <div className="mt-4 space-y-2">
@@ -182,14 +186,14 @@ export default function BiophysicsPage() {
         </div>
 
         <InteractiveEquation
-          title="Poiseuille flow"
-          subtitle="Pressure gradient drives flow through a vessel; radius has a strong effect because it enters to the fourth power."
+          title={t('biophysics.equation.title')}
+          subtitle={t('biophysics.equation.subtitle')}
           formula="Q = ΔP × r^4 / 8ηL"
           variables={[
-            { name: 'ΔP', min: 10, max: 80, step: 1, unit: 'mmHg', description: 'pressure gradient' },
-            { name: 'r', min: 1, max: 5, step: 0.1, unit: 'mm', description: 'radius' },
-            { name: 'η', min: 1, max: 8, step: 0.1, unit: 'cP', description: 'viscosity' },
-            { name: 'L', min: 5, max: 25, step: 0.5, unit: 'cm', description: 'length' },
+            { name: 'ΔP', min: 10, max: 80, step: 1, unit: 'mmHg', description: t('biophysics.variables.pressure') },
+            { name: 'r', min: 1, max: 5, step: 0.1, unit: 'mm', description: t('biophysics.variables.radius') },
+            { name: 'η', min: 1, max: 8, step: 0.1, unit: 'cP', description: t('biophysics.variables.viscosity') },
+            { name: 'L', min: 5, max: 25, step: 0.5, unit: 'cm', description: t('biophysics.variables.length') },
           ]}
           compute={(values) => (values[0] * Math.pow(values[1], 4)) / (8 * values[2] * values[3])}
           label={(value) => `${value.toFixed(2)} AU`}

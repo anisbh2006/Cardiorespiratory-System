@@ -1,7 +1,8 @@
-import { disciplines, getAllLessons } from '@/data/disciplines'
+import { disciplines, getAllLessons, getDisciplineTagline, getDisciplineTitle } from '@/data/disciplines'
 import { anatomyStructures } from '@/data/anatomy'
-import { manifest } from '@/data/contentLoader'
+import { getChapterTitle, getChapterTopics, manifest } from '@/data/contentLoader'
 import type { ContentBlock, Topic } from '@/data/types'
+import type { Language } from '@/i18n'
 
 /** Section headings per chapter, straight from the generated manifest. */
 const topicsByChapter = new Map<string, string[]>(
@@ -67,11 +68,12 @@ export const searchIndex: SearchEntry[] = (() => {
       title: d.titleFr,
       disciplineSlug: d.slug,
       disciplineTitle: d.titleFr,
-      preview: d.tagline,
-      haystack: `${d.titleFr} ${d.titleEn} ${d.tagline}`.toLowerCase(),
+      preview: `${d.taglineEn} ${d.taglineFr}`,
+      haystack: `${d.titleFr} ${d.titleEn} ${d.taglineEn} ${d.taglineFr}`.toLowerCase(),
     })
 
     for (const ch of d.chapters) {
+      const frenchTitle = getChapterTitle(ch.id, 'fr')
       entries.push({
         id: `ch-${ch.id}`,
         type: 'chapter',
@@ -79,11 +81,12 @@ export const searchIndex: SearchEntry[] = (() => {
         disciplineSlug: d.slug,
         disciplineTitle: d.titleFr,
         preview: ch.summary ?? '',
-        haystack: `${ch.title} ${ch.summary ?? ''}`.toLowerCase(),
+        haystack: `${ch.title} ${frenchTitle} ${ch.summary ?? ''}`.toLowerCase(),
       })
     }
 
     for (const { chapter, lesson } of getAllLessons(d)) {
+      const frenchTitle = getChapterTitle(lesson.id, 'fr')
       entries.push({
         id: `l-${lesson.id}`,
         type: 'lesson',
@@ -93,7 +96,7 @@ export const searchIndex: SearchEntry[] = (() => {
         chapterTitle: chapter.title,
         lessonId: lesson.id,
         preview: lesson.summary ?? '',
-        haystack: `${lesson.title} ${lesson.summary ?? ''}`.toLowerCase(),
+        haystack: `${lesson.title} ${frenchTitle} ${lesson.summary ?? ''}`.toLowerCase(),
       })
 
       for (const topic of topicsToList(lesson.topics)) {
@@ -114,7 +117,9 @@ export const searchIndex: SearchEntry[] = (() => {
       // Section headings extracted from the source files (manifest), so search
       // reaches real lecturee concepts without loading every chapter's blocks.
       const headings = topicsByChapter.get(lesson.id) ?? []
+      const frenchHeadings = getChapterTopics(lesson.id, 'fr')
       headings.forEach((heading, i) => {
+        const frenchHeading = frenchHeadings[i] ?? ''
         entries.push({
           id: `h-${lesson.id}-${i}`,
           type: 'topic',
@@ -124,7 +129,7 @@ export const searchIndex: SearchEntry[] = (() => {
           chapterTitle: chapter.title,
           lessonId: lesson.id,
           preview: `${chapter.title} — ${excerpt(heading, 80)}`,
-          haystack: `${heading} ${chapter.title}`.toLowerCase(),
+          haystack: `${heading} ${frenchHeading} ${chapter.title}`.toLowerCase(),
         })
       })
     }
@@ -145,7 +150,7 @@ export const searchIndex: SearchEntry[] = (() => {
   return entries
 })()
 
-export function search(query: string): SearchEntry[] {
+export function search(query: string, language: Language = 'en'): SearchEntry[] {
   const q = query.trim().toLowerCase()
   if (!q) return []
   const terms = q.split(/\s+/)
@@ -166,5 +171,38 @@ export function search(query: string): SearchEntry[] {
     .filter((r) => r.score > 0)
     .sort((a, b) => b.score - a.score)
 
-  return scored.slice(0, 30).map((r) => r.entry)
+  return scored.slice(0, 30).map(({ entry }) => {
+    const discipline = disciplines.find((item) => item.slug === entry.disciplineSlug)
+    const structure = entry.type === 'structure'
+      ? anatomyStructures.find((item) => `s-${item.id}` === entry.id)
+      : undefined
+    let title = entry.title
+
+    if (entry.type === 'discipline' && discipline) {
+      title = getDisciplineTitle(discipline, language)
+    } else if (entry.type === 'chapter') {
+      title = getChapterTitle(entry.id.slice(3), language)
+    } else if (entry.type === 'lesson' && entry.lessonId) {
+      title = getChapterTitle(entry.lessonId, language)
+    } else if (entry.type === 'topic' && entry.id.startsWith('h-')) {
+      const match = entry.id.match(/^h-(.+)-(\d+)$/)
+      if (match) {
+        title = getChapterTopics(match[1], language)[Number(match[2])] ?? entry.title
+      }
+    } else if (structure) {
+      title = language === 'fr' ? structure.nameFr : structure.nameEn ?? structure.nameFr
+    }
+
+    return {
+      ...entry,
+      title,
+      disciplineTitle: discipline ? getDisciplineTitle(discipline, language) : entry.disciplineTitle,
+      chapterTitle: entry.lessonId ? getChapterTitle(entry.lessonId, language) : entry.chapterTitle,
+      preview: entry.type === 'discipline' && discipline
+        ? getDisciplineTagline(discipline, language)
+        : entry.type === 'topic' && entry.id.startsWith('h-')
+          ? `${entry.lessonId ? getChapterTitle(entry.lessonId, language) : ''} — ${title}`
+          : entry.preview,
+    }
+  })
 }

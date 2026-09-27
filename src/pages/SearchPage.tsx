@@ -45,8 +45,8 @@ export default function SearchPage() {
   const query = searchParams.get('q') ?? ''
   const navigate = useNavigate()
   const { recordSearch } = useStudy()
-  const { t } = useLanguage()
-  const results = React.useMemo(() => search(query), [query])
+  const { t, language } = useLanguage()
+  const results = React.useMemo(() => search(query, language), [query, language])
   const inputRef = React.useRef<HTMLInputElement>(null)
 
   React.useEffect(() => {
